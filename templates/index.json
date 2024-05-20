@@ -159,12 +159,50 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "text_and_image_cMGVy7": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alternating-banner-2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Beauty SEAcrets Blog",
+        "text": "<p>Get experts tips and inspiration from our team of skincare veterans.<\/p>",
+        "button_label": "READ MORE",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "blog_posts_AkwbrY": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Beauty SEAcrets Blog",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection",
     "text_columns_hf74dE",
-    "text_and_image_T3jnem"
+    "text_and_image_T3jnem",
+    "text_and_image_cMGVy7",
+    "blog_posts_AkwbrY"
   ]
 }
