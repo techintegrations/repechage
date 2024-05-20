@@ -249,6 +249,27 @@
         "align_text": "left",
         "divider": false
       }
+    },
+    "text_and_image_hPkL8i": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "\"Powerful skin care ingredients for the body with real results.\"",
+        "text": "<p>-<strong>Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER, REPECHAGE<\/p>",
+        "button_label": "DISCOVER THE COLLECTION",
+        "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura-cellusea-body-care-collection",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -258,6 +279,7 @@
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
     "blog_posts_AkwbrY",
-    "text_columns_jyQUJg"
+    "text_columns_jyQUJg",
+    "text_and_image_hPkL8i"
   ]
 }
