@@ -195,6 +195,60 @@
         "blog_image_size": "wide",
         "divider": false
       }
+    },
+    "text_columns_jyQUJg": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_U6x3CG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Repechage_2020_Hydro-Complex_PFS_62d0ffea-5476-4067-a404-ee3bf60c3b73.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "One For All",
+            "text": "<p>Unisex for<em> ALL skin types<\/em>, the<strong> Hydra Blue<\/strong> collection keeps your skin feeling fresh, smooth, and radiant. Shop the<strong> best-selling<\/strong><em> Algo Mist<\/em>, recently featured on the TODAY Show for the perfect gift year-round!<\/p>",
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify:\/\/collections\/cell-renewal-for-all-skin-types"
+          }
+        },
+        "text_block_MtQiTh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/repechage31352-3.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "For Lift & Hydration",
+            "text": "<p>Say goodbye to dry®, and hello to GLOWY, DEWY skin with the<strong> Hydra Dew Pure®<\/strong> collection. Formulated with<em> ALL-NATURAL <\/em> ingredients and clinically-proven to provide relief for compromised & dry skin.<\/p>",
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify:\/\/collections\/hydra-dew-pure"
+          }
+        },
+        "text_block_HPn8Ta": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/T-Zone_PGA_Retail_Serum_-_No_PGA_Logo_-_1x1_Square.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "For the Most Common Skin Type",
+            "text": "<p>Need the go-to solution for <em>combination skin<\/em>?<br\/>The <strong>T-Zone<\/strong> collection is harmoniously assembled to BALANCE & RENEW the skin, using ingredients like<em><br\/>St. John’s Wort flowers<\/em> and<em> Green Tea leaves!<\/em><\/p>",
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify:\/\/collections\/t-zone-for-combination-oily-skin"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_U6x3CG",
+        "text_block_MtQiTh",
+        "text_block_HPn8Ta"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -203,6 +257,7 @@
     "text_columns_hf74dE",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
-    "blog_posts_AkwbrY"
+    "blog_posts_AkwbrY",
+    "text_columns_jyQUJg"
   ]
 }
