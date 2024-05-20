@@ -139,46 +139,24 @@
         "divider": false
       }
     },
-    "background-image-text": {
-      "type": "background-image-text",
+    "text_and_image_T3jnem": {
+      "type": "text-and-image",
       "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "image": "shopify:\/\/shop_images\/alternating-banner-1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "The Science of Seaweed",
+        "text": "<p>Bringing together the remarkable health and beauty benefits of seaweed and the finest natural ingredients the Earth has to offer.<\/p>",
+        "button_label": "Discover the Difference",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
         "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "From the journal",
-        "blog": "news",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": true,
-        "blog_image_size": "wide",
-        "divider": false
-      }
-    },
-    "map": {
-      "type": "map",
-      "disabled": true,
-      "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
         "lazyload_images": true
       }
     }
@@ -187,8 +165,6 @@
     "slideshow",
     "featured-collection",
     "text_columns_hf74dE",
-    "background-image-text",
-    "blog-posts",
-    "map"
+    "text_and_image_T3jnem"
   ]
 }
