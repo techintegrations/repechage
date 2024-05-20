@@ -7,15 +7,16 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "title": "",
             "title_size": 80,
-            "subheading": "And optional subtext",
-            "link": "shopify:\/\/collections\/all",
-            "link_text": "Shop this",
-            "link_2": "shopify:\/\/collections\/all",
-            "link_text_2": "Shop all",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/HDP_BANNER.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -24,15 +25,34 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "title": "",
             "title_size": 80,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "shopify:\/\/collections\/all",
-            "link_text": "Shop all",
+            "link_text": "",
             "link_2": "shopify:\/\/collections\/all",
-            "link_text_2": "Shop all",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Hydra_4_Mask_Promo.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nn6wn6": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/HDP_Oil_Promo.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -40,16 +60,17 @@
       },
       "block_order": [
         "slideshow-0",
-        "slideshow-1"
+        "slideshow-1",
+        "image_nn6wn6"
       ],
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     },
     "featured-collection": {
