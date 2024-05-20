@@ -270,6 +270,70 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "testimonials_WQarYp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Q8WHqt": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Opti-Firm® Eye Contour Cream<\/strong><\/p><p>Undereye feels\/looks smooth and moist all day. Perfect eye cream in every way<\/p>",
+            "author": "Debra",
+            "author_info": ""
+          }
+        },
+        "testimonial_KfVePB": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_8G9tJ3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_CVknJn": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_87e7k3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Q8WHqt",
+        "testimonial_KfVePB",
+        "testimonial_8G9tJ3",
+        "testimonial_CVknJn",
+        "testimonial_87e7k3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "round_images": false,
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
@@ -280,6 +344,7 @@
     "text_and_image_cMGVy7",
     "blog_posts_AkwbrY",
     "text_columns_jyQUJg",
-    "text_and_image_hPkL8i"
+    "text_and_image_hPkL8i",
+    "testimonials_WQarYp"
   ]
 }
