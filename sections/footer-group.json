@@ -1,1 +1,118 @@
-{"type":"footer","name":"t:sections.footer-group.name","sections":{"footer-promotions":{"type":"footer-promotions","blocks":{"footer-promotions-0":{"type":"promotion","settings":{"enable_image":true}},"footer-promotions-1":{"type":"promotion","settings":{"enable_image":true}},"footer-promotions-2":{"type":"promotion","settings":{"enable_image":true}}},"block_order":["footer-promotions-0","footer-promotions-1","footer-promotions-2"],"settings":{}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"logo_social","settings":{"container_width":95}},"footer-1":{"type":"menu","settings":{"menu":"footer","container_width":25}},"footer2":{"type":"newsletter","settings":{"container_width":33}}},"block_order":["footer-1","footer2","footer-0"],"settings":{"show_payment_icons":false}}},"order":["footer-promotions","footer"]}
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-1": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "customer-support",
+            "container_width": 20
+          }
+        },
+        "menu_HRemjf": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "about-us",
+            "container_width": 20
+          }
+        },
+        "menu_qkHY6E": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "news",
+            "container_width": 20
+          }
+        },
+        "custom_WN4wpP": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Reach Out",
+            "text": "<p><a href=\"tel:800-248-7546\" title=\"tel:800-248-7546\">1-800-248-SKIN (7546)<\/a><\/p><p>info@repechage.com<\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact Us<\/a><\/p>",
+            "container_width": 20
+          }
+        },
+        "logo_social_pKhexr": {
+          "type": "logo_social",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/repechage-logo-black_png.jpg",
+            "desktop_logo_height": 50,
+            "container_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "menu_HRemjf",
+        "menu_qkHY6E",
+        "custom_WN4wpP",
+        "logo_social_pKhexr"
+      ],
+      "settings": {
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false,
+        "show_payment_icons": true,
+        "show_copyright": true,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}
