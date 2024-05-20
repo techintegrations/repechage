@@ -85,205 +85,58 @@
         "divider": false
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "text_columns_hf74dE": {
+      "type": "text-columns",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "text_block_8bJ9qA": {
+          "type": "text_block",
           "settings": {
-            "title": "Rich text"
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3-img-section-1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Get Rewarded",
+            "text": "<p>Sign Up for our loyalty program to get rewarded.<\/p>",
+            "button_label": "SIGN UP",
+            "button_link": "shopify:\/\/pages\/repechage-rewards"
           }
         },
-        "text": {
-          "type": "text",
+        "text_block_z6yrcA": {
+          "type": "text_block",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3-img-section-2.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Get 10% off your first order",
+            "text": "<p>When you sign up to our newsletter.<\/p>",
+            "button_label": "Sign Up",
+            "button_link": "shopify:\/\/pages\/newsletter-sign-up"
+          }
+        },
+        "text_block_WaytrM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3-img-section-3.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Buy Now. Pay Later.",
+            "text": "<p>We teamed up with Afterpay to offer interest-free installments on purchases so you can stock up on all your favorites, worry-free.<\/p>",
+            "button_label": "Shop Now, Pay Later",
+            "button_link": "shopify:\/\/pages\/after-pay"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text_block_8bJ9qA",
+        "text_block_z6yrcA",
+        "text_block_WaytrM"
       ],
-      "disabled": true,
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
+        "title": "",
+        "align_text": "left",
         "divider": false
-      }
-    },
-    "promo-grid": {
-      "type": "promo-grid",
-      "blocks": {
-        "promo-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "promo-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": true,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "promo-0",
-        "promo-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop by category",
-        "divider": false,
-        "per_row": 4,
-        "enable_gutter": true
-      }
-    },
-    "promo-grid2": {
-      "type": "promo-grid",
-      "blocks": {
-        "promo2-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 720,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "promo2-1": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "promo2-2": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
-          }
-        }
-      },
-      "block_order": [
-        "promo2-0",
-        "promo2-1",
-        "promo2-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
       }
     },
     "background-image-text": {
@@ -333,10 +186,7 @@
   "order": [
     "slideshow",
     "featured-collection",
-    "rich-text",
-    "promo-grid",
-    "featured-collections",
-    "promo-grid2",
+    "text_columns_hf74dE",
     "background-image-text",
     "blog-posts",
     "map"
