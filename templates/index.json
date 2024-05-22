@@ -230,7 +230,7 @@
         "advanced_y98B3k"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "gutter_size": 20,
         "space_above": true,
         "space_below": true,
