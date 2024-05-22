@@ -125,60 +125,6 @@
         "enable_gutter": true
       }
     },
-    "text_columns_hf74dE": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_8bJ9qA": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/3-img-section-1.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Get Rewarded",
-            "text": "<p>Sign Up for our loyalty program to get rewarded.<\/p>",
-            "button_label": "SIGN UP",
-            "button_link": "shopify:\/\/pages\/repechage-rewards"
-          }
-        },
-        "text_block_z6yrcA": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/3-img-section-2.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Get 10% off your first order",
-            "text": "<p>When you sign up to our newsletter.<\/p>",
-            "button_label": "Sign Up",
-            "button_link": "shopify:\/\/pages\/newsletter-sign-up"
-          }
-        },
-        "text_block_WaytrM": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/3-img-section-3.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Buy Now. Pay Later.",
-            "text": "<p>We teamed up with Afterpay to offer interest-free installments on purchases so you can stock up on all your favorites, worry-free.<\/p>",
-            "button_label": "Shop Now, Pay Later",
-            "button_link": "shopify:\/\/pages\/after-pay"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_8bJ9qA",
-        "text_block_z6yrcA",
-        "text_block_WaytrM"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false
-      }
-    },
     "promo_grid_q7xmp6": {
       "type": "promo-grid",
       "blocks": {
@@ -436,7 +382,6 @@
     "slideshow",
     "featured-collection",
     "featured_collections_xaap9R",
-    "text_columns_hf74dE",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
