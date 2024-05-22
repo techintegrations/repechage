@@ -78,7 +78,7 @@
       "settings": {
         "title": "Meet Our super-charged seaweed products",
         "home_featured_products": "our-best-sellers",
-        "per_row": 4,
+        "per_row": 2,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
