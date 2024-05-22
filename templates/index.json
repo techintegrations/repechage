@@ -223,11 +223,33 @@
             "boxed": false,
             "framed": false
           }
+        },
+        "image_pUCRKF": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "100"
+          }
+        },
+        "banner_JLyirJ": {
+          "type": "banner",
+          "settings": {
+            "heading": "Buy Now. Pay Later.",
+            "text": "We teamed up with Afterpay to offer interest-free installments on purchases so you can stock up on all your favorites, worry-free.",
+            "link": "\/pages\/after-pay",
+            "label": "SHOP NOW. PAY LATER.",
+            "image": "shopify:\/\/shop_images\/3-img-section-3.jpg",
+            "color_tint": "#000000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
         }
       },
       "block_order": [
         "advanced_DX8D7e",
-        "advanced_y98B3k"
+        "advanced_y98B3k",
+        "image_pUCRKF",
+        "banner_JLyirJ"
       ],
       "settings": {
         "full_width": false,
