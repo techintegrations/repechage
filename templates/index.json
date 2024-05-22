@@ -85,6 +85,46 @@
         "divider": false
       }
     },
+    "featured_collections_xaap9R": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_RrDh3U": {
+          "type": "collection",
+          "settings": {
+            "collection": "cell-renewal-for-all-skin-types",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_EyFH8M": {
+          "type": "collection",
+          "settings": {
+            "collection": "hydra-dew-pure",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_UQdtM8": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-zone-for-combination-oily-skin",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RrDh3U",
+        "collection_EyFH8M",
+        "collection_UQdtM8"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
     "text_columns_hf74dE": {
       "type": "text-columns",
       "blocks": {
@@ -372,51 +412,12 @@
         "top_padding": true,
         "bottom_padding": true
       }
-    },
-    "featured_collections_xaap9R": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_RrDh3U": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "collection_tbqKGC": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "collection_UQdtM8": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "collection_RrDh3U",
-        "collection_tbqKGC",
-        "collection_UQdtM8"
-      ],
-      "settings": {
-        "title": "Collection list",
-        "divider": false,
-        "per_row": 3,
-        "enable_gutter": true
-      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection",
+    "featured_collections_xaap9R",
     "text_columns_hf74dE",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
@@ -424,7 +425,6 @@
     "text_columns_jyQUJg",
     "text_and_image_hPkL8i",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd",
-    "featured_collections_xaap9R"
+    "newsletter_kJLxhd"
   ]
 }
