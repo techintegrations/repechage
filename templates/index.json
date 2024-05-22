@@ -64,7 +64,7 @@
         "image_nn6wn6"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
