@@ -224,13 +224,6 @@
             "framed": false
           }
         },
-        "image_pUCRKF": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "100"
-          }
-        },
         "banner_JLyirJ": {
           "type": "banner",
           "settings": {
@@ -248,7 +241,6 @@
       "block_order": [
         "advanced_DX8D7e",
         "advanced_y98B3k",
-        "image_pUCRKF",
         "banner_JLyirJ"
       ],
       "settings": {
