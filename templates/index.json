@@ -146,7 +146,7 @@
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": true
+            "framed": false
           }
         },
         "advanced_y98B3k": {
@@ -180,7 +180,7 @@
             "image": "shopify:\/\/shop_images\/afterpay-logo.png",
             "color_tint": "#000000",
             "color_tint_opacity": 12,
-            "framed": false
+            "framed": true
           }
         }
       },
