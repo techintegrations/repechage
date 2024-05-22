@@ -403,78 +403,11 @@
             "boxed": false,
             "framed": false
           }
-        },
-        "banner_Rhxcwm": {
-          "type": "banner",
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "image_YytBPJ": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "100"
-          }
-        },
-        "simple_Ez4E3E": {
-          "type": "simple",
-          "settings": {
-            "link": "",
-            "text": "",
-            "width": "100",
-            "height": 300,
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "product_9gwyQY": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "subheading": "Limited time",
-            "heading": "Announce your product",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "link_label": "Learn more",
-            "label": "New",
-            "enable_price": true,
-            "width": "100",
-            "text_size": 100,
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "framed": false
-          }
-        },
-        "sale_collection_QwEAa8": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "100",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": false
-          }
         }
       },
       "block_order": [
         "advanced_DX8D7e",
-        "advanced_y98B3k",
-        "banner_Rhxcwm",
-        "image_YytBPJ",
-        "simple_Ez4E3E",
-        "product_9gwyQY",
-        "sale_collection_QwEAa8"
+        "advanced_y98B3k"
       ],
       "settings": {
         "full_width": true,
