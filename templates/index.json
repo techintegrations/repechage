@@ -626,7 +626,7 @@
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         },
         "advanced_y98B3k": {
@@ -723,7 +723,7 @@
         "sale_collection_QwEAa8"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "gutter_size": 20,
         "space_above": true,
         "space_below": true,
