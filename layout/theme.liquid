@@ -29,6 +29,8 @@
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
 
+  {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
