@@ -193,7 +193,7 @@
         "full_width": false,
         "gutter_size": 20,
         "space_above": false,
-        "space_below": false,
+        "space_below": true,
         "lazyload_images": true
       }
     },
@@ -213,7 +213,7 @@
         "image_width": "50",
         "layout": "left",
         "divider": false,
-        "top_padding": true,
+        "top_padding": false,
         "bottom_padding": false,
         "lazyload_images": true
       }
@@ -235,7 +235,7 @@
         "layout": "right",
         "divider": false,
         "top_padding": false,
-        "bottom_padding": true,
+        "bottom_padding": false,
         "lazyload_images": true
       }
     },
@@ -270,8 +270,8 @@
         "image_width": "66",
         "layout": "left",
         "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
+        "top_padding": false,
+        "bottom_padding": false,
         "lazyload_images": true
       }
     },
