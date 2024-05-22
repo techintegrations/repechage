@@ -240,7 +240,7 @@
             "label": "SHOP NOW. PAY LATER.",
             "image": "shopify:\/\/shop_images\/3-img-section-3.jpg",
             "color_tint": "#000000",
-            "color_tint_opacity": 8,
+            "color_tint_opacity": 12,
             "framed": false
           }
         }
