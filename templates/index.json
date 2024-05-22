@@ -179,6 +179,64 @@
         "divider": false
       }
     },
+    "promo_grid_q7xmp6": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_DX8D7e": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Get Rewarded",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Sign Up",
+            "cta_link1": "\/pages\/repechage-rewards",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/3-img-section-1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "advanced_y98B3k": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Get 10% Off Your First Order",
+            "textarea": "When you sign up to our newsletter.",
+            "cta_text1": "Sign Up",
+            "cta_link1": "\/pages\/newsletter-sign-up",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/3-img-section-2.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_DX8D7e",
+        "advanced_y98B3k"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true,
+        "lazyload_images": true
+      }
+    },
     "text_and_image_T3jnem": {
       "type": "text-and-image",
       "settings": {
@@ -358,64 +416,6 @@
         "top_padding": true,
         "bottom_padding": true
       }
-    },
-    "promo_grid_q7xmp6": {
-      "type": "promo-grid",
-      "blocks": {
-        "advanced_DX8D7e": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Get Rewarded",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Sign Up",
-            "cta_link1": "\/pages\/repechage-rewards",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/3-img-section-1.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "advanced_y98B3k": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Get 10% Off Your First Order",
-            "textarea": "When you sign up to our newsletter.",
-            "cta_text1": "Sign Up",
-            "cta_link1": "\/pages\/newsletter-sign-up",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/3-img-section-2.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "advanced_DX8D7e",
-        "advanced_y98B3k"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
@@ -423,12 +423,12 @@
     "featured-collection",
     "featured_collections_xaap9R",
     "text_columns_hf74dE",
+    "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
     "blog_posts_AkwbrY",
     "text_and_image_hPkL8i",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd",
-    "promo_grid_q7xmp6"
+    "newsletter_kJLxhd"
   ]
 }
