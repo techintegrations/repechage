@@ -81,10 +81,10 @@
         "image_QYiDV7": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "HYDRA DEW PURE",
+            "top_subheading": "Subheading",
+            "title": "Heading",
             "title_size": 80,
-            "subheading": "",
+            "subheading": "Text",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -98,6 +98,7 @@
         },
         "image_iCkPT9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -116,6 +117,7 @@
         },
         "image_BMcmbU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
