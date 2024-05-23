@@ -232,14 +232,14 @@
                         {%- unless block.settings.top_subheading == blank -%}
                           <div class="hero__top-subtitle">
                             <div class="animation-cropper"><div class="animation-contents">
-                              {{ block.settings.top_subheading | escape }}
+                              {{ block.settings.top_subheading }}
                             </div></div>
                           </div>
                         {%- endunless -%}
                         {%- unless block.settings.title == blank -%}
                           <div class="h1 hero__title">
                             <div class="animation-cropper"><div class="animation-contents">
-                            {{ block.settings.title | newline_to_br }}
+                            {{ block.settings.title }}
                             </div></div>
                           </div>
                         {%- endunless -%}
@@ -247,7 +247,7 @@
                           {%- unless block.settings.subheading == blank -%}
                             <div class="hero__subtitle">
                               <div class="animation-cropper"><div class="animation-contents">
-                                {{ block.settings.subheading | escape }}
+                                {{ block.settings.subheading }}
                               </div></div>
                             </div>
                           {%- endunless -%}
