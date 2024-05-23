@@ -5,6 +5,7 @@
       "blocks": {
         "slideshow-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -23,7 +24,6 @@
         },
         "slideshow-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -80,6 +80,7 @@
       "blocks": {
         "image_QYiDV7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<h1>HYDRA DEW PURE<\/h1>",
             "title": "<p>Experience The Ultimate Solution For Dry Skin<\/p>",
@@ -98,19 +99,18 @@
         },
         "image_iCkPT9": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
+            "title": "<p>Spring Sensitive Skin Solutions<\/p>",
+            "title_size": 76,
+            "subheading": "<p>Buy a Red-Out Cleanser & Red-Out Serum - get a <strong>FREE <\/strong>Hydra 4 Soothing Clay Mask<\/p>",
             "link": "shopify:\/\/collections\/all",
-            "link_text": "",
+            "link_text": "NOW ON SPECIAL",
             "link_2": "shopify:\/\/collections\/all",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Hydra_4_Mask_Promo.png",
+            "image": "shopify:\/\/shop_images\/banners_21.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
