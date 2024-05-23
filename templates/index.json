@@ -81,9 +81,9 @@
         "image_QYiDV7": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>HYDRA DEW PURE<\/p>",
+            "top_subheading": "<h1>HYDRA DEW PURE<\/h1>",
             "title": "<p>Experience The Ultimate Solution For Dry Skin<\/p>",
-            "title_size": 50,
+            "title_size": 40,
             "subheading": "<p>Text<\/p>",
             "link": "",
             "link_text": "",
