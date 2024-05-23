@@ -237,11 +237,11 @@
                           </div>
                         {%- endunless -%}
                         {%- unless block.settings.title == blank -%}
-                          <h2 class="h1 hero__title">
+                          <div class="h1 hero__title">
                             <div class="animation-cropper"><div class="animation-contents">
                             {{ block.settings.title | newline_to_br }}
                             </div></div>
-                          </h2>
+                          </div>
                         {%- endunless -%}
                         {%- if block.settings.subheading or block.settings.link or block.settings.link_2 -%}
                           {%- unless block.settings.subheading == blank -%}
@@ -420,10 +420,9 @@
           "label": "t:sections.slideshow.blocks.slide.settings.top_subheading.label"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "title",
-          "label": "t:sections.slideshow.blocks.slide.settings.title.label",
-          "default": "Two line\ntitle slide."
+          "label": "Heading"
         },
         {
           "type": "range",
@@ -548,20 +547,6 @@
         "autoplay_speed": 5
       },
       "blocks": [
-        {
-          "type": "image",
-          "settings": {
-            "title": "Endless\npossibilities.",
-            "subheading": "Bring your brand to life"
-          }
-        },
-        {
-          "type": "image",
-          "settings": {
-            "title": "Two line\ntitle slide.",
-            "subheading": "And big, beautiful imagery"
-          }
-        }
       ]
     }
   ],
