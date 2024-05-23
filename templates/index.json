@@ -56,12 +56,31 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "image_rkKVaM": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banners_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "slideshow-0",
         "slideshow-1",
-        "image_nn6wn6"
+        "image_nn6wn6",
+        "image_rkKVaM"
       ],
       "settings": {
         "section_height": "natural",
