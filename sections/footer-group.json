@@ -52,12 +52,23 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "custom_WN4wpP": {
+          "type": "custom",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/repechage-logo-black_png.jpg",
+            "desktop_logo_height": 50,
+            "show_footer_title": true,
+            "title": "Reach Out",
+            "text": "<p><a href=\"tel:800-248-7546\" title=\"tel:800-248-7546\">1-800-248-SKIN (7546)<\/a><\/p><p>info@repechage.com<\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact Us<\/a><\/p>",
+            "container_width": 25
+          }
+        },
         "footer-1": {
           "type": "menu",
           "settings": {
             "show_footer_title": true,
             "menu": "customer-support",
-            "container_width": 20
+            "container_width": 25
           }
         },
         "menu_HRemjf": {
@@ -65,7 +76,7 @@
           "settings": {
             "show_footer_title": true,
             "menu": "about-us",
-            "container_width": 20
+            "container_width": 25
           }
         },
         "menu_qkHY6E": {
@@ -73,20 +84,12 @@
           "settings": {
             "show_footer_title": true,
             "menu": "news",
-            "container_width": 20
-          }
-        },
-        "custom_WN4wpP": {
-          "type": "custom",
-          "settings": {
-            "show_footer_title": true,
-            "title": "Reach Out",
-            "text": "<p><a href=\"tel:800-248-7546\" title=\"tel:800-248-7546\">1-800-248-SKIN (7546)<\/a><\/p><p>info@repechage.com<\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact Us<\/a><\/p>",
-            "container_width": 20
+            "container_width": 25
           }
         },
         "logo_social_pKhexr": {
           "type": "logo_social",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/repechage-logo-black_png.jpg",
             "desktop_logo_height": 50,
@@ -95,10 +98,10 @@
         }
       },
       "block_order": [
+        "custom_WN4wpP",
         "footer-1",
         "menu_HRemjf",
         "menu_qkHY6E",
-        "custom_WN4wpP",
         "logo_social_pKhexr"
       ],
       "settings": {
