@@ -23,6 +23,7 @@
         },
         "slideshow-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -41,6 +42,7 @@
         },
         "image_nn6wn6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -62,6 +64,79 @@
         "slideshow-0",
         "slideshow-1",
         "image_nn6wn6"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "lazyload_images": false
+      }
+    },
+    "slideshow_ybDcnc": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QYiDV7": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "HYDRA DEW PURE",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banners_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iCkPT9": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "",
+            "link_2": "shopify:\/\/collections\/all",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Hydra_4_Mask_Promo.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BMcmbU": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/HDP_Oil_Promo.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QYiDV7",
+        "image_iCkPT9",
+        "image_BMcmbU"
       ],
       "settings": {
         "section_height": "450px",
@@ -380,6 +455,7 @@
   },
   "order": [
     "slideshow",
+    "slideshow_ybDcnc",
     "featured-collection",
     "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
