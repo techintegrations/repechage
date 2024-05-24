@@ -36,15 +36,10 @@
 <div class="tab-content-row">
   {% for block in section.blocks %}
     <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
-      <h1>Tab Content 1</h1>
-    </div>
-  {% endfor %}
-</div>
+      
 
 
-
-    
-    <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
+          <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
       <div class="grid grid--uniform"{% if section.settings.mobile_scrollable %} data-aos="overflow__animation"{% endif %}>
         {%- liquid
           capture gridView
@@ -118,6 +113,17 @@
         {%- endif -%}
       </div>
     </div>
+
+
+
+      
+    </div>
+  {% endfor %}
+</div>
+
+
+
+    
   </div>
 </div>
 
