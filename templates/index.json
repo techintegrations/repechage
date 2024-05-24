@@ -89,8 +89,8 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/banners_1_cacc1981-8df9-4de6-9448-2e14924da85d.png",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/32.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -474,9 +474,6 @@
       "type": "custom__featured-collection-tabs",
       "settings": {
         "title": "Featured collection",
-        "home_featured_products": "aging",
-        "per_row": 4,
-        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
