@@ -28,14 +28,14 @@
     <!-- Tabs -->
 <div class="tab-row">
   {% for block in section.blocks %}
-    <a href="#" class="tab {% if forloop.index == '1' %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">Tab 1</a>
+    <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">Tab 1</a>
   {% endfor %}
 </div>
 <!-- Content -->
 
 <div class="tab-content-row">
   {% for block in section.blocks %}
-    <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == '1' %}active{% endif %}">
+    <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
       <h1>Tab Content 1</h1>
     </div>
   {% endfor %}
