@@ -114,29 +114,6 @@
       "default": "Featured collection"
     },
     {
-      "type": "collection",
-      "id": "home_featured_products",
-      "label": "t:sections.featured-collection.settings.home_featured_products.label"
-    },
-    {
-      "type": "range",
-      "id": "per_row",
-      "label": "t:sections.featured-collection.settings.per_row.label",
-      "default": 4,
-      "min": 1,
-      "max": 5,
-      "step": 1
-    },
-    {
-      "type": "range",
-      "id": "rows",
-      "label": "t:sections.featured-collection.settings.rows.label",
-      "default": 1,
-      "min": 1,
-      "max": 5,
-      "step": 1
-    },
-    {
       "type": "checkbox",
       "id": "mobile_scrollable",
       "label": "t:sections.featured-collection.settings.mobile_scrollable.label",
@@ -161,64 +138,33 @@
     }
   ],
     "blocks": [
-    {
-      "type": "collection",
-      "name": "t:sections.featured-collections.blocks.collection.name",
-      "settings": [
         {
-          "id": "collection",
           "type": "collection",
-          "label": "t:sections.featured-collections.blocks.collection.settings.collection.label"
+          "name": "t:sections.featured-collections.blocks.collection.name",
+          "settings": [
+            
+        {
+          "type": "collection",
+          "id": "home_featured_products",
+          "label": "t:sections.featured-collection.settings.home_featured_products.label"
         },
         {
-          "type": "text",
-          "id": "title",
-          "label": "t:sections.featured-collections.blocks.collection.settings.title.label"
+          "type": "range",
+          "id": "per_row",
+          "label": "t:sections.featured-collection.settings.per_row.label",
+          "default": 4,
+          "min": 1,
+          "max": 5,
+          "step": 1
         },
         {
-          "type": "select",
-          "id": "focal_point",
-          "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.label",
-          "info": "t:sections.featured-collections.blocks.collection.settings.focal_point.info",
-          "default": "center center",
-          "options": [
-            {
-              "value": "20% 0",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.20_0.label"
-            },
-            {
-              "value": "top center",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.top_center.label"
-            },
-            {
-              "value": "80% 0",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.80_0.label"
-            },
-            {
-              "value": "20% 50%",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.20_50.label"
-            },
-            {
-              "value": "center center",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.center_center.label"
-            },
-            {
-              "value": "80% 50%",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.80_50.label"
-            },
-            {
-              "value": "20% 100%",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.20_100.label"
-            },
-            {
-              "value": "bottom center",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.bottom_center.label"
-            },
-            {
-              "value": "80% 100%",
-              "label": "t:sections.featured-collections.blocks.collection.settings.focal_point.options.80_100.label"
-            }
-          ]
+          "type": "range",
+          "id": "rows",
+          "label": "t:sections.featured-collection.settings.rows.label",
+          "default": 1,
+          "min": 1,
+          "max": 5,
+          "step": 1
         }
       ]
     }
