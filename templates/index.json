@@ -63,6 +63,7 @@
         "slideshow-1",
         "image_nn6wn6"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "450px",
         "mobile_height": "auto",
