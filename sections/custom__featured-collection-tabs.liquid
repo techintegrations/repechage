@@ -23,6 +23,23 @@
   {%- endif -%}
 
   <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
+
+
+    <!-- Tabs -->
+<a href="#" class="tab active" data-toggle-target=".tab-content-1">Tab 1</a>
+<a href="#" class="tab" data-toggle-target=".tab-content-2">Tab 2</a>
+
+<!-- Content -->
+<div class="tab-content tab-content-1 active">
+  <h1>Tab Content 1</h1>
+</div>
+<div class="tab-content tab-content-2">
+  <h1>Tab Content 2</h1>
+</div>
+
+
+
+    
     <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
       <div class="grid grid--uniform"{% if section.settings.mobile_scrollable %} data-aos="overflow__animation"{% endif %}>
         {%- liquid
