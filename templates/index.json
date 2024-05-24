@@ -77,24 +77,6 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
-        "image_QYiDV7": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "<h1>HYDRA DEW PURE<\/h1>",
-            "title": "<p>Experience The Ultimate Solution For Dry Skin<\/p>",
-            "title_size": 40,
-            "subheading": "<h3>AS SEEN ON CBS MORNINGS<\/h3>",
-            "link": "shopify:\/\/collections",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/32.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "image_iCkPT9": {
           "type": "image",
           "settings": {
@@ -109,6 +91,24 @@
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/banners_12.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QYiDV7": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<h1>HYDRA DEW PURE<\/h1>",
+            "title": "<p>Experience The Ultimate Solution For Dry Skin<\/p>",
+            "title_size": 40,
+            "subheading": "<h3>AS SEEN ON CBS MORNINGS<\/h3>",
+            "link": "shopify:\/\/collections",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/32.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -151,8 +151,8 @@
         }
       },
       "block_order": [
-        "image_QYiDV7",
         "image_iCkPT9",
+        "image_QYiDV7",
         "image_BMcmbU",
         "image_Qbd63d"
       ],
