@@ -1,3 +1,7 @@
 .image-with-text-section .feature-row {
     margin: 0px;
 }
+
+.slideshow__slide .hero__text-shadow {
+    max-width: 800px;
+}
