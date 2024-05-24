@@ -469,6 +469,18 @@
         "top_padding": true,
         "bottom_padding": true
       }
+    },
+    "custom_featured_collection_tabs_PaGxFn": {
+      "type": "custom__featured-collection-tabs",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "aging",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -482,6 +494,7 @@
     "blog_posts_AkwbrY",
     "text_and_image_hPkL8i",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd"
+    "newsletter_kJLxhd",
+    "custom_featured_collection_tabs_PaGxFn"
   ]
 }
