@@ -107,7 +107,7 @@
             "link_2": "shopify:\/\/collections\/all",
             "link_text_2": "",
             "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-left",
+            "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/banners_12.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
