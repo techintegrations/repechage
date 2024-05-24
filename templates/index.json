@@ -90,7 +90,7 @@
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/banners_12.png",
+            "image": "shopify:\/\/shop_images\/banner_4.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -476,6 +476,7 @@
         "collection_MVEY8h": {
           "type": "collection",
           "settings": {
+            "tab_title": "Tab title",
             "home_featured_products": "our-best-sellers",
             "per_row": 4,
             "rows": 1
@@ -484,6 +485,7 @@
         "collection_md9zKm": {
           "type": "collection",
           "settings": {
+            "tab_title": "Tab title",
             "home_featured_products": "biolight-brightening-skin-care-products",
             "per_row": 4,
             "rows": 1
@@ -492,6 +494,7 @@
         "collection_VFYzP3": {
           "type": "collection",
           "settings": {
+            "tab_title": "Tab title",
             "home_featured_products": "gifts-for-every-occasion",
             "per_row": 4,
             "rows": 1
@@ -500,6 +503,7 @@
         "collection_hRgkKb": {
           "type": "collection",
           "settings": {
+            "tab_title": "Tab title",
             "home_featured_products": "hydra-medic-products",
             "per_row": 4,
             "rows": 1
