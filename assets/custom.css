@@ -5,3 +5,11 @@
 .slideshow__slide .hero__text-shadow {
     max-width: 800px;
 }
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
