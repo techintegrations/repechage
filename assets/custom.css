@@ -6,10 +6,10 @@
     max-width: 800px;
 }
 
-.tab-content {
+.featured-collection-tabs .tab-content {
   display: none;
 }
 
-.tab-content.active {
+.featured-collection-tabs .tab-content.active {
   display: block;
 }
