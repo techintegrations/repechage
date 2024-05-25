@@ -168,6 +168,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Meet Our super-charged seaweed products",
         "home_featured_products": "our-best-sellers",
