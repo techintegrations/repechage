@@ -178,6 +178,59 @@
         "divider": false
       }
     },
+    "custom_featured_collection_tabs_PaGxFn": {
+      "type": "custom__featured-collection-tabs",
+      "blocks": {
+        "collection_MVEY8h": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Best Sellers",
+            "home_featured_products": "our-best-sellers",
+            "per_row": 4,
+            "rows": 1
+          }
+        },
+        "collection_md9zKm": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Newest Products",
+            "home_featured_products": "newest-products",
+            "per_row": 4,
+            "rows": 1
+          }
+        },
+        "collection_VFYzP3": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Gifts For Every Occasion",
+            "home_featured_products": "gifts-for-every-occasion",
+            "per_row": 4,
+            "rows": 1
+          }
+        },
+        "collection_hRgkKb": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Prime and Protect",
+            "home_featured_products": "prime-and-protect",
+            "per_row": 4,
+            "rows": 1
+          }
+        }
+      },
+      "block_order": [
+        "collection_MVEY8h",
+        "collection_md9zKm",
+        "collection_VFYzP3",
+        "collection_hRgkKb"
+      ],
+      "settings": {
+        "title": "shop by categories",
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "featured_collections_xaap9R": {
       "type": "featured-collections",
       "blocks": {
@@ -469,65 +522,13 @@
         "top_padding": true,
         "bottom_padding": true
       }
-    },
-    "custom_featured_collection_tabs_PaGxFn": {
-      "type": "custom__featured-collection-tabs",
-      "blocks": {
-        "collection_MVEY8h": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Best Sellers",
-            "home_featured_products": "our-best-sellers",
-            "per_row": 4,
-            "rows": 1
-          }
-        },
-        "collection_md9zKm": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Newest Products",
-            "home_featured_products": "newest-products",
-            "per_row": 4,
-            "rows": 1
-          }
-        },
-        "collection_VFYzP3": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Gifts For Every Occasion",
-            "home_featured_products": "gifts-for-every-occasion",
-            "per_row": 4,
-            "rows": 1
-          }
-        },
-        "collection_hRgkKb": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Prime and Protect",
-            "home_featured_products": "prime-and-protect",
-            "per_row": 4,
-            "rows": 1
-          }
-        }
-      },
-      "block_order": [
-        "collection_MVEY8h",
-        "collection_md9zKm",
-        "collection_VFYzP3",
-        "collection_hRgkKb"
-      ],
-      "settings": {
-        "title": "shop by categories",
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "slideshow",
     "slideshow_ybDcnc",
     "featured-collection",
+    "custom_featured_collection_tabs_PaGxFn",
     "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
@@ -535,7 +536,6 @@
     "blog_posts_AkwbrY",
     "text_and_image_hPkL8i",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd",
-    "custom_featured_collection_tabs_PaGxFn"
+    "newsletter_kJLxhd"
   ]
 }
