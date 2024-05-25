@@ -35,3 +35,12 @@
 .featured-collection-tabs .tab-row .tab.active {
     text-decoration: underline;
 }
+
+.grid-product .grid-product__content {
+    border: 1px solid #d9dbde;
+    height: 100%;
+}
+
+.grid-product .grid-product__title {
+    min-height: 63px;
+}
