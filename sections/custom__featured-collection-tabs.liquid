@@ -5,7 +5,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
   data-context="featured-collection">
-  {%- if section.settings.title != blank or section.settings.view_all -%}
+  {%- if section.settings.title != blank -%}
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
         <h2 class="section-header__title">
