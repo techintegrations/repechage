@@ -486,7 +486,7 @@
           "type": "collection",
           "settings": {
             "tab_title": "Tab title",
-            "home_featured_products": "biolight-brightening-skin-care-products",
+            "home_featured_products": "newest-products",
             "per_row": 4,
             "rows": 1
           }
