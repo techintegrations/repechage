@@ -1,3 +1,8 @@
+{%- assign per_row = section.settings.per_row -%}
+{%- assign product_limit = per_row | times: section.settings.rows -%}
+
+
+
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <div
@@ -30,8 +35,6 @@
   {% for block in section.blocks %}
     <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
       
-      {%- assign per_row = block.settings.per_row -%}
-      {%- assign product_limit = per_row | times: block.settings.rows -%}
       {%- assign collection = collections[block.settings.home_featured_products] -%}
 
       
