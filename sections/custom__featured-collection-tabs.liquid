@@ -15,10 +15,9 @@
     </div>
   {%- endif -%}
 
-  <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
+  <div class="featured-collection-tabs page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
 
 
-    <!-- Tabs -->
 <div class="tab-row">
   {% for block in section.blocks %}
     <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
@@ -26,7 +25,6 @@
     </a>
   {% endfor %}
 </div>
-<!-- Content -->
 
 <div class="tab-content-row">
   {% for block in section.blocks %}
