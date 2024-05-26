@@ -197,13 +197,33 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "recent_count": 5
       }
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "171672294625f99393": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_RLFgbC": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_RLFgbC"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
@@ -216,6 +236,7 @@
     "testimonials",
     "product-recommendations",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "171672294625f99393"
   ]
 }
