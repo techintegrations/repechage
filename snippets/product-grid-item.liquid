@@ -298,6 +298,14 @@ Arguments
       </a>
 
 
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} onclick="add_to_cart_grid({{current_variant.id}},1)" class="btn btn--full">
+  {% if current_variant.available %}
+    {{ 'products.product.add_to_cart' | t }}
+  {% else %}
+    {{ 'products.product.sold_out' | t }}
+  {% endif %}
+</button>
 
       
     </div>
@@ -370,14 +378,7 @@ Arguments
 </div>
 
 
-{%- assign current_variant = product.selected_or_first_available_variant -%}
-<button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} onclick="add_to_cart_grid({{current_variant.id}},1)" class="btn btn--full">
-  {% if current_variant.available %}
-    {{ 'products.product.add_to_cart' | t }}
-  {% else %}
-    {{ 'products.product.sold_out' | t }}
-  {% endif %}
-</button>
+
 
 <script>
   function add_to_cart_grid(variantid,qty){
