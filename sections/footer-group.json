@@ -56,7 +56,7 @@
           "type": "custom",
           "settings": {
             "logo": "shopify:\/\/shop_images\/logo-white.png",
-            "desktop_logo_height": 60,
+            "desktop_logo_height": 70,
             "show_footer_title": true,
             "title": "Reach Out",
             "text": "<p><a href=\"tel:800-248-7546\" title=\"tel:800-248-7546\">1-800-248-SKIN (7546)<\/a><\/p><p><a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact Us<\/a><\/p>",
