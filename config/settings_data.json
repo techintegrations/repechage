@@ -47,7 +47,7 @@
     "icon_weight": "5px",
     "icon_linecaps": "miter",
     "product_save_amount": true,
-    "quick_shop_enable": true,
+    "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "square",
     "product_hover_image": false,
