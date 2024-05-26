@@ -20,6 +20,9 @@
   {% if section.settings.bottom_padding == false %}
     #shopify-section-{{ section.id }} .index-section { margin-bottom: 0 !important; }
   {% endif %}
+
+
+  #shopify-section-{{ section.id }} 
 {% endstyle %}
 
 <div class="index-section">
@@ -135,7 +138,7 @@
 {% schema %}
 {
   "name": "t:sections.text-and-image.name",
-  "class": "image-with-text-section",
+  "class": "image-with-text",
   "settings": [
     {
       "type": "header",
