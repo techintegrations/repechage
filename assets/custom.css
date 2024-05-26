@@ -52,4 +52,20 @@
     z-index: 11;
 }
 
+.footer__bottom-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.footer__bottom-text .payment-icons {
+    margin-top: 0px;
+}
+
+.footer__bottom-text .footer__small-text {
+    padding: 0px;
+}
+
+
 
