@@ -55,7 +55,7 @@
         "sticky_index": false,
         "sticky_collection": false,
         "toolbar_menu": "",
-        "toolbar_social": false,
+        "toolbar_social": true,
         "show_locale_selector": false,
         "show_currency_selector": false,
         "show_currency_flags": false
