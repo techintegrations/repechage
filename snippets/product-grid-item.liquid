@@ -299,7 +299,7 @@ Arguments
 
 
 {%- assign current_variant = product.selected_or_first_available_variant -%}
-<button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} onclick="add_to_cart_grid({{current_variant.id}},1)" class="atc-btn btn btn--full">
+<button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} onclick="add_to_cart_grid({{current_variant.id}},1)" class="atc-btn btn">
   {% if current_variant.available %}
     {{ 'products.product.add_to_cart' | t }}
   {% else %}
