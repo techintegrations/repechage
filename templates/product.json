@@ -29,6 +29,11 @@
             "inventory_transfers_enable": true
           }
         },
+        "quantity_selector_HQMt8q": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -55,6 +60,7 @@
         "separator",
         "variant_picker",
         "inventory_status",
+        "quantity_selector_HQMt8q",
         "buy_buttons",
         "description",
         "share"
