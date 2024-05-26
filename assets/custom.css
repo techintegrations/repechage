@@ -44,3 +44,12 @@
 .grid-product .grid-product__title {
     min-height: 63px;
 }
+
+.grid__item-image-wrapper .atc-btn {
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+    position: relative;
+    z-index: 11;
+}
+
+
