@@ -186,36 +186,28 @@
           "type": "collection",
           "settings": {
             "tab_title": "Best Sellers",
-            "home_featured_products": "our-best-sellers",
-            "per_row": 4,
-            "rows": 1
+            "home_featured_products": "our-best-sellers"
           }
         },
         "collection_md9zKm": {
           "type": "collection",
           "settings": {
             "tab_title": "Newest Products",
-            "home_featured_products": "newest-products",
-            "per_row": 4,
-            "rows": 1
+            "home_featured_products": "newest-products"
           }
         },
         "collection_VFYzP3": {
           "type": "collection",
           "settings": {
             "tab_title": "Gifts For Every Occasion",
-            "home_featured_products": "gifts-for-every-occasion",
-            "per_row": 4,
-            "rows": 1
+            "home_featured_products": "gifts-for-every-occasion"
           }
         },
         "collection_hRgkKb": {
           "type": "collection",
           "settings": {
             "tab_title": "Prime and Protect",
-            "home_featured_products": "prime-and-protect",
-            "per_row": 4,
-            "rows": 1
+            "home_featured_products": "prime-and-protect"
           }
         }
       },
@@ -227,6 +219,8 @@
       ],
       "settings": {
         "title": "shop by categories",
+        "per_row": 4,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
