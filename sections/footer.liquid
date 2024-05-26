@@ -87,6 +87,17 @@
 
     {%- if section.settings.show_payment_icons or section.settings.show_copyright -%}
     <div class="footer__bottom-text">
+
+      {%- if section.settings.show_copyright -%}
+      <p class="footer__small-text">
+        &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
+        {%- if section.settings.copyright_text != blank -%}
+          {{ section.settings.copyright_text }}
+        {%- endif -%}
+      </p>
+    {%- endif -%}
+
+      
     {%- if section.settings.show_payment_icons -%}
       {%- unless shop.enabled_payment_types == empty -%}
         <ul class="inline-list payment-icons footer__section">
@@ -99,14 +110,7 @@
       {%- endunless -%}
     {%- endif -%}
 
-    {%- if section.settings.show_copyright -%}
-      <p class="footer__small-text">
-        &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
-        {%- if section.settings.copyright_text != blank -%}
-          {{ section.settings.copyright_text }}
-        {%- endif -%}
-      </p>
-    {%- endif -%}
+    
     </div>
     {%- endif -%}
 
