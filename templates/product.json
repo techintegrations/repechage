@@ -42,12 +42,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -61,7 +55,6 @@
         "inventory_status",
         "quantity_selector_HQMt8q",
         "buy_buttons",
-        "description",
         "share"
       ],
       "settings": {
