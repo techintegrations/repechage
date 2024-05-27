@@ -31,6 +31,12 @@
               {{ product.description }}
             </div>
           {% endif %}
+
+          {% if block.settings.text != blank %}
+            <div class="product-description">
+              {{ block.settings.text }}
+            </div>
+          {% endif %}
           
         </div>
       {% endfor %}
