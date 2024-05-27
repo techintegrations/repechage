@@ -9,8 +9,8 @@
     display: inline-block;
     margin: 0 16px;
     text-transform: uppercase;
-    text-underline-offset: 4px;
-    text-decoration: underline;
+    text-underline-offset: 4px;    
+    font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
 }
 
 .tab-row .tab:hover {
