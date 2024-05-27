@@ -13,7 +13,6 @@
     </div>
   {%- endif -%}
 
-  {%- if section.blocks.size > 0 -%}
     <div class="logo-bar logo-bar--{{ section.id }}">
       {%- for block in section.blocks -%}
         <div class="logo-bar__item" {{ block.shopify_attributes }}>
@@ -37,7 +36,6 @@
         </div>
       {%- endfor -%}
     </div>
-  {%- endif -%}
 </div>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
@@ -52,16 +50,6 @@
       "type": "text",
       "id": "title",
       "label": "t:sections.logo-list.settings.title.label"
-    },
-    {
-      "type": "range",
-      "id": "logo_opacity",
-      "label": "t:sections.logo-list.settings.logo_opacity.label",
-      "default": 76,
-      "min": 0,
-      "max": 100,
-      "step": 2,
-      "unit": "%"
     },
     {
       "type": "checkbox",
