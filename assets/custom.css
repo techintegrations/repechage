@@ -90,11 +90,26 @@
 }
 
 .product-tabs .tab-row {
-    border-bottom: 1px solid #d9dbde;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .product-tabs .tab-row .tab {
-    text-underline-offset: 7px;
+    transition: 0.3s;
+    background: #d9dbde;
+    padding: 12px 25px;
+    margin-right: 20px;
+}
+
+.product-tabs .tab-row .tab.active {
+    background: #000;
+    color: #fff;
+}
+
+.product-tabs .tab-content-row {
+    margin-top: 40px;
 }
 
 .product-tabs {
