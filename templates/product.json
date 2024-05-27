@@ -84,6 +84,13 @@
         "max_width": true
       }
     },
+    "custom_product_tabs_aAdT9e": {
+      "type": "custom__product-tabs",
+      "settings": {
+        "title": "",
+        "divider": false
+      }
+    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
@@ -181,6 +188,7 @@
   "order": [
     "main",
     "sub",
+    "custom_product_tabs_aAdT9e",
     "testimonials",
     "product-recommendations",
     "recently-viewed",
