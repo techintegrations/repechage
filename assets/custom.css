@@ -84,4 +84,8 @@
     margin: 24px 0px 20px 0px;
 }
 
+.product-description img {
+    display: inline-block;
+}
+
 
