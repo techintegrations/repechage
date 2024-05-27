@@ -86,6 +86,19 @@
     },
     "custom_product_tabs_aAdT9e": {
       "type": "custom__product-tabs",
+      "blocks": {
+        "tab_qJfBU4": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "show_product_description": true,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_qJfBU4"
+      ],
       "settings": {
         "title": "",
         "divider": false
