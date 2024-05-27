@@ -88,4 +88,15 @@
     display: inline-block;
 }
 
+.product-tabs .tab-row {
+    border-bottom: 1px solid #d9dbde;
+}
+
+.product-tabs .tab-row .tab {
+    text-underline-offset: 8px;
+}
+
+
+
+
 
