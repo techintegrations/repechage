@@ -26,6 +26,10 @@
       {% for block in section.blocks %}
         <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
           
+          <div class="product-description">
+            {{ product.description }}
+          </div>
+          
         </div>
       {% endfor %}
     </div>
