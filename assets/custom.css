@@ -97,6 +97,11 @@
     text-underline-offset: 7px;
 }
 
+.product-tabs {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 
 
 
