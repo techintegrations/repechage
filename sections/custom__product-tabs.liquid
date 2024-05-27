@@ -1,7 +1,7 @@
 {%- style -%}
-.logo-bar--{{ section.id }} {
-  opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
-}
+  .logo-bar--{{ section.id }} {
+    opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
+  }
 {%- endstyle -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
@@ -13,15 +13,25 @@
     </div>
   {%- endif -%}
 
-    <div class="product-tabs">
-      <div class="tab-row">
-        {% for block in section.blocks %}
-          <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
-            {{ block.settings.tab_title }}
-          </a>
-        {% endfor %}
-      </div>
+  <div class="product-tabs">
+    <div class="tab-row">
+      {% for block in section.blocks %}
+        <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
+          {{ block.settings.tab_title }}
+        </a>
+      {% endfor %}
     </div>
+
+    <div class="tab-content-row">
+      {% for block in section.blocks %}
+        <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
+          
+        </div>
+      {% endfor %}
+    </div>
+
+    
+  </div>
 </div>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
