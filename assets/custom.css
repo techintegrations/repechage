@@ -1,3 +1,25 @@
+.tab-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tab-row .tab {
+    display: inline-block;
+    margin: 0 16px;
+    text-transform: uppercase;
+    text-underline-offset: 4px;
+}
+
+.tab-row .tab:hover {
+    text-decoration: underline;
+}
+
+.tab-row .tab.active {
+    text-decoration: underline;
+}
+
 .image-with-text-section .feature-row {
     margin: 0px;
 }
@@ -20,28 +42,6 @@
 
 .product-tabs .tab-content.active {
   display: block;
-}
-
-.featured-collection-tabs .tab-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.featured-collection-tabs .tab-row .tab {
-    display: inline-block;
-    margin: 0 16px;
-    text-transform: uppercase;
-    text-underline-offset: 4px;
-}
-
-.featured-collection-tabs .tab-row .tab:hover {
-    text-decoration: underline;
-}
-
-.featured-collection-tabs .tab-row .tab.active {
-    text-decoration: underline;
 }
 
 .grid-product .grid-product__content {
