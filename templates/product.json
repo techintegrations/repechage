@@ -94,10 +94,19 @@
             "show_product_description": true,
             "text": ""
           }
+        },
+        "tab_c7TMwR": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Directions",
+            "show_product_description": false,
+            "text": "<p>Apply to wet skin. Massage thoroughly concentrating on areas of concern. Rinse with lukewarm water. Follow with Biolight™ Brightening Toner. Use twice daily.<\/p>"
+          }
         }
       },
       "block_order": [
-        "tab_qJfBU4"
+        "tab_qJfBU4",
+        "tab_c7TMwR"
       ],
       "settings": {
         "title": "",
