@@ -21,7 +21,7 @@ $(document).ready(function(){
   $('.text-with-logos-slider').flickity({
     cellAlign: 'left',
     contain: true,
-    freeScroll: false,
+    freeScroll: true,
     prevNextButtons: true,
     pageDots: false,
     wrapAround: true
