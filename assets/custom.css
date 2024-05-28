@@ -23,6 +23,10 @@
     width: 30%;
 }
 
+.flickity-button:hover {
+    background: var(--colorBtnPrimary);
+}
+
 
 .image-with-text-section .feature-row {
     margin: 0px;
