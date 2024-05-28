@@ -27,6 +27,12 @@
     background: var(--colorBtnPrimary);
 }
 
+.flickity-button:focus {
+    box-shadow: none;
+}
+
+
+
 
 .image-with-text-section .feature-row {
     margin: 0px;
