@@ -575,7 +575,11 @@
       "settings": {
         "title": "fsdsfdfsdfsd",
         "align_text": "center",
+        "title_color": "",
         "desktop_columns_per_row": 3,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "#f9f9f9",
         "divider": false
       }
     }
