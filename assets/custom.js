@@ -20,7 +20,10 @@ $(document).ready(function(){
 
   $('.text-with-logos-slider').flickity({
     cellAlign: 'left',
-    contain: true
+    contain: true,
+    freeScroll: true,
+    prevNextButtons: false,
+    pageDots: false
   });
   
   
