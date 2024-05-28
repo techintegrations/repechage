@@ -35,13 +35,6 @@
         </div>
       {% endfor %}
     </div>
-    <div class="text-with-icons__button">
-      {%- if section.settings.button_label != blank -%}
-        <a href="{{ section.settings.button_link }}" class="btn btn--secondary">
-          {{ section.settings.button_label }}
-        </a>
-      {%- endif -%}
-    </div>
   </div>
 </div>
 
@@ -81,16 +74,6 @@
       "min": 2,
       "max": 4,
       "step": 1
-    },
-    {
-      "type": "text",
-      "id": "button_label",
-      "label": "t:common.text_with_icons.settings.button_label.label"
-    },
-    {
-      "type": "url",
-      "id": "button_link",
-      "label": "t:common.text_with_icons.settings.button_link.label"
     },
     {
       "type": "checkbox",
