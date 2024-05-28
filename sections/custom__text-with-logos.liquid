@@ -4,7 +4,7 @@
   }
 
   #shopify-section-{{section.id}} .text-with-icons__title h2 {
-      color: {{section.settings.top_title_color}};
+      color: {{section.settings.title_color}};
   }
 {% endstyle %}
 
@@ -84,6 +84,11 @@
           "label": "t:common.text_with_icons.settings.align_text.options.center.label"
         }
       ]
+    },
+    {
+      "type": "text",
+      "id": "title_color",
+      "label": "t:common.text_with_icons.settings.title.label"
     },
     {
       "type": "range",
