@@ -47,12 +47,6 @@
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
-{% style %}
-  #shopify-section-{{ section.id }} .icon {
-    color: {{ section.settings.icon_color }};
-  }
-{% endstyle %}
-
 {% schema %}
 {
   "name": "Text with logos",
@@ -87,12 +81,6 @@
       "min": 2,
       "max": 4,
       "step": 1
-    },
-    {
-      "type": "color",
-      "id": "icon_color",
-      "label": "t:common.text_with_icons.settings.icon_color.label",
-      "default": "#000"
     },
     {
       "type": "text",
