@@ -18,7 +18,7 @@ $(document).ready(function(){
   });
 
 
-  $('.main-carousel').flickity({
+  $('.text-with-logos-slider').flickity({
     cellAlign: 'left',
     contain: true
   });
