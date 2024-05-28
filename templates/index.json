@@ -529,23 +529,23 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/cosmo-logo-2.png",
             "title": "",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "text": "<p>Use this section to explain<\/p>"
           }
         },
         "text_block_frN9HT": {
           "type": "text_block",
           "settings": {
             "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "title": "",
+            "text": "<p>Use this section to explain<\/p>"
           }
         },
         "text_block_wDJdWR": {
           "type": "text_block",
           "settings": {
             "logo": "shopify:\/\/shop_images\/marie-logo.png",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "title": "",
+            "text": "<p>Use this section to explain<\/p>"
           }
         },
         "text_block_33LTrN": {
@@ -553,7 +553,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/vogue-logo.png",
             "title": "",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "text": "<p>Use this section to explain<\/p>"
           }
         },
         "text_block_UFc3fT": {
@@ -561,7 +561,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
             "title": "",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "text": "<p>Use this section to explain<\/p>"
           }
         }
       },
