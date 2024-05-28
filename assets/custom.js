@@ -16,5 +16,12 @@ $(document).ready(function(){
     var sel = this.getAttribute('data-toggle-target');
     $('.product-tabs .tab-content').removeClass('active').filter(sel).addClass('active');
   });
+
+
+  $('.main-carousel').flickity({
+    cellAlign: 'left',
+    contain: true
+  });
+  
   
 });
