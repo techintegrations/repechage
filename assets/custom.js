@@ -22,7 +22,7 @@ $(document).ready(function(){
     cellAlign: 'left',
     contain: true,
     freeScroll: true,
-    prevNextButtons: false,
+    prevNextButtons: true,
     pageDots: false,
     wrapAround: true
   });
