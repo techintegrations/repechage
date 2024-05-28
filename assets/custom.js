@@ -23,7 +23,8 @@ $(document).ready(function(){
     contain: true,
     freeScroll: true,
     prevNextButtons: false,
-    pageDots: false
+    pageDots: false,
+    wrapAround: true
   });
   
   
