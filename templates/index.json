@@ -543,7 +543,24 @@
         "text_block_wDJdWR": {
           "type": "text_block",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/marie-logo.png",
             "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+          }
+        },
+        "text_block_33LTrN": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
+            "title": "",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+          }
+        },
+        "text_block_UFc3fT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
           }
         }
@@ -551,7 +568,9 @@
       "block_order": [
         "text_block_EdJXpk",
         "text_block_frN9HT",
-        "text_block_wDJdWR"
+        "text_block_wDJdWR",
+        "text_block_33LTrN",
+        "text_block_UFc3fT"
       ],
       "settings": {
         "title": "fsdsfdfsdfsd",
