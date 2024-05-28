@@ -26,12 +26,19 @@
           <div class="text-with-icons__block-icon">
               <img src="{{ block.settings.logo | img_url: '400x' }}">
           </div>
-          <div class="text-with-icons__block-title">
-            <h3>{{ block.settings.title }}</h3>
-          </div>
-          <div class="text-with-icons__block-text">
-            {{ block.settings.text }}
-          </div>
+
+          {% if block.settings.title != blank %}
+            <div class="text-with-icons__block-title">
+              <h3>{{ block.settings.title }}</h3>
+            </div>
+          {% endif %}
+
+          {% if block.settings.title != blank %}
+            <div class="text-with-icons__block-text">
+              {{ block.settings.text }}
+            </div>
+          {% endif %}
+          
         </div>
       {% endfor %}
     </div>
