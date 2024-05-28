@@ -119,6 +119,12 @@
     margin: 0 auto;
 }
 
+.text-with-icons__block-icon img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+
 
 
 
