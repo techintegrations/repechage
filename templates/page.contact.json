@@ -1,1 +1,74 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"Get in touch"}},"text":{"type":"text","settings":{}}},"block_order":["heading","text"],"settings":{}},"form":{"type":"contact-form","settings":{}}},"order":["main","rich-text","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "text_and_image_KYQVFn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lydia_lab.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "LET US KNOW WHAT YOU'RE LOOKING FOR",
+        "text": "<p><strong>Repêchage Ltd.<br\/><\/strong>300 Castle Road Secaucus, NJ 07094.<\/p><p>Call 1-800-248-SKIN (7546) Or Email: <a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com<\/a><\/p><p>Office Hours: Monday - Thursday  9:00 to 5:30pm EST, Friday  9:00 to 5:00pm EST<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_and_image_KYQVFn",
+    "rich-text",
+    "form"
+  ]
+}
