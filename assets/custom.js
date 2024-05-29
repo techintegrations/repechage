@@ -18,16 +18,15 @@ $(document).ready(function(){
   });
 
 
-  $('.text-with-logos-slider').flickity({
-    cellAlign: 'left',
-    contain: true,
-    prevNextButtons: true,
-    pageDots: false,
-    freeScroll: false,
-    avoidReflow: true,
-    wrapAround: true
-  });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elem = document.querySelector('.text-with-logos-slider');
+    var flkty = new Flickity(elem, {
+      // options
+      cellAlign: 'left',
+      contain: true
+    });
+  });
 
    
   
