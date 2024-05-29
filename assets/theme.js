@@ -8157,7 +8157,7 @@ theme.recentlyViewed = {
       adaptiveHeight: true,
       avoidReflow: true,
       pageDots: true,
-      prevNextButtons: true
+      prevNextButtons: false
     };
   
     function Testimonials(container) {
