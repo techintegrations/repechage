@@ -70,10 +70,11 @@
                 data-index="{{ slide_index }}"
                 {{ block.shopify_attributes }}
               >
-                {%- if block.settings.link != blank -%}
+                {%- if block.settings.button_label != blank -%}
                   <div class="announcement-btn">
-                  <a class="btn" href="{{ block.settings.link }}">
-                  </a>
+                    <a class="btn" href="{{ block.settings.button_link }}">
+                      {{ block.settings.button_label }}
+                    </a>
                   </div>
                 {%- endif -%}
               </div>
