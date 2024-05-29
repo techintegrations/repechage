@@ -29,6 +29,18 @@ $(document).ready(function(){
   // });
 
 
+  const flickitySlider = new Flickity('.text-with-logos-slider', {
+      cellAlign: 'left',
+      contain: true,
+      prevNextButtons: true,
+      pageDots: false,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true
+  });
+
+
+
    
   
 });
