@@ -21,19 +21,18 @@
             "link": ""
           }
         },
-        "announcement_gcMVnB": {
-          "type": "announcement",
+        "button_6WhTj6": {
+          "type": "button",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
         "announcement-1",
         "announcement-0",
-        "announcement_gcMVnB"
+        "button_6WhTj6"
       ],
       "settings": {
         "announcement_compact": false
