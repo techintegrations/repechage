@@ -18,18 +18,8 @@ $(document).ready(function(){
   });
 
 
-  // $('.text-with-logos-slider').flickity({
-  //   cellAlign: 'left',
-  //   contain: true,
-  //   prevNextButtons: true,
-  //   pageDots: false,
-  //   freeScroll: false,
-  //   avoidReflow: true,
-  //   wrapAround: true
-  // });
-
-
   const flickitySlider = new Flickity('.text-with-logos-slider', {
+      cellAlign: 'left',
       contain: true,
       prevNextButtons: true,
       pageDots: false,
