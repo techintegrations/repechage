@@ -5,19 +5,19 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free shipping",
-            "link_text": "FREE STD. SHIPPING ON CONTIGOUS US ORDERS OF $99+ PLUS COMPLIMENTARY SAMPLES WITH EVERY ORDER!",
-            "link": ""
-          }
-        },
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "FREE STD. SHIPPING ON CONTIGOUS US ORDERS OF $99+ PLUS COMPLIMENTARY SAMPLES WITH EVERY ORDER!",
             "link": ""
           }
         },
@@ -31,8 +31,8 @@
         }
       },
       "block_order": [
-        "announcement-0",
         "announcement-1",
+        "announcement-0",
         "announcement_gcMVnB"
       ],
       "settings": {
