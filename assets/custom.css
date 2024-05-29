@@ -214,6 +214,14 @@
     width: 30px;
 }
 
+.blog-tag-filter {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.blog-template-wrap .section-header {
+    margin-bottom: 24px;
+}
 
 @media only screen and (max-width: 768px) {
   
