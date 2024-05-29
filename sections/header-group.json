@@ -24,8 +24,8 @@
         "button_6WhTj6": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": ""
+            "button_label": "SPA Locator",
+            "button_link": "\/pages\/locate-a-spa"
           }
         }
       },
