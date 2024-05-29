@@ -26,6 +26,8 @@ $(document).ready(function(){
     freeScroll: false,
     wrapAround: true
   });
+
+
   
   
 });
