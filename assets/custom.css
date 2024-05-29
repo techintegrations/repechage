@@ -164,6 +164,10 @@
     display: block;
 }
 
+.text-with-icons__blocks .text-with-icons__block {
+    display: block;
+}
+
 @media only screen and (max-width: 768px) {
   
 }
