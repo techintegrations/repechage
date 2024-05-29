@@ -24,6 +24,7 @@ $(document).ready(function(){
     prevNextButtons: true,
     pageDots: false,
     freeScroll: false,
+    avoidReflow: true,
     wrapAround: true
   });
 
