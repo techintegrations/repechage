@@ -28,33 +28,6 @@
         "lazyload_images": true
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in touch"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -68,7 +41,6 @@
   "order": [
     "main",
     "text_and_image_KYQVFn",
-    "rich-text",
     "form"
   ]
 }
