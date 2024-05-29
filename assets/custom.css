@@ -162,6 +162,7 @@
 
 .text-with-icons__blocks.text-with-logos-slider {
     display: block;
+    width: 100%;
 }
 
 .text-with-icons__blocks.text-with-logos-slider .text-with-icons__block {
