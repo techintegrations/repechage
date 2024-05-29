@@ -153,5 +153,19 @@
       </image-element>
     </div>
   </template>
+
+
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elem = document.querySelector('.carousel');
+    var flkty = new Flickity(elem, {
+      // options
+      cellAlign: 'left',
+      contain: true
+    });
+  });
+</script>
+
+  
 </body>
 </html>

@@ -19,13 +19,7 @@ $(document).ready(function(){
 
 
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elem = document.querySelector('.text-with-logos-slider');
-    var flkty = new Flickity(elem, {
-      cellAlign: 'left',
-      contain: true
-    });
-  });
+
 
    
   
