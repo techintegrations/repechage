@@ -175,13 +175,13 @@
 }
 
 .text-with-logos-slider .flickity-page-dots .dot {
-    height: 2px;
+    height: 3px;
     width: 30px;
     border-radius: 0px;
 }
 
 .text-with-logos-slider .flickity-page-dots .dot.is-selected {
-    height: 2px;
+    height: 3px;
     width: 30px;
 }
 
