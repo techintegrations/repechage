@@ -169,6 +169,23 @@
     display: block;
 }
 
+.text-with-logos-slider .flickity-page-dots {
+    bottom: -10px;
+    align-items: center;
+}
+
+.text-with-logos-slider .flickity-page-dots .dot {
+    height: 2px;
+    width: 30px;
+    border-radius: 0px;
+}
+
+.text-with-logos-slider .flickity-page-dots .dot.is-selected {
+    height: 2px;
+    width: 30px;
+}
+
+
 @media only screen and (max-width: 768px) {
   
 }
