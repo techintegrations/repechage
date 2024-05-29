@@ -20,7 +20,7 @@
     </header>
 
   {%- if section.settings.blog_show_tag_filter and blog.tags.size > 0 -%}
-    <div class="grid grid--uniform">
+    <div class="blog-tag-filter">
         <select id="BlogTagFilter">
           <option value="/blogs/{{ blog.handle }}">All</option>
           {%- for tag in blog.all_tags -%}
