@@ -185,6 +185,34 @@
     width: 30px;
 }
 
+#AnnouncementSlide-announcement-1 {
+    flex: 1 0 0;
+}
+
+#AnnouncementSlide-announcement-0 {
+    flex: 0 0 auto;
+    padding: 0 20px;
+}
+
+#AnnouncementSlide-button_6WhTj6 {
+    flex: 1 0 0;
+    text-align: right;
+}
+
+.announcement-slider__slide {
+    width: auto;
+    padding: 0px;
+}
+
+#AnnouncementSlider {
+    align-items: center;
+}
+
+.announcement-btn a.btn {
+    color: #fff;
+    margin: 0px;
+}
+
 
 @media only screen and (max-width: 768px) {
   
