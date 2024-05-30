@@ -107,12 +107,12 @@
                       <div>
                       {%- if isInfo[1] == "product" -%}
 
-                        {% assign fproduct = all_products["2019-power-lunch-and-hands-on-workshop"] %}
+                        {% assign fproduct = all_products[{{ isInfo[0]  }}] %}
 
 
                         {{ fproduct }}
                     
-                   {{ isInfo[0]  }}
+                   
                           <div class="megamenu-product">
                             {% if fproduct.featured_image != blank %}
                               <div class="img">
