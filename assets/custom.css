@@ -15,7 +15,7 @@
 }
 
 .flickity-prev-next-button .flickity-button-icon {
-    fill: currentColor;
+    fill: currentColor; 
     height: 30%;
     left: 35%;
     position: absolute;
