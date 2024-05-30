@@ -107,7 +107,7 @@
                       <div>
                       {%- if isInfo[1] == "product" -%}
 
-                        {% assign fproduct = all_products[{{ isInfo[0]  }}] %}
+                        {% assign fproduct = all_products[isInfo[0]] %}
 
 
                         {{ fproduct }}
