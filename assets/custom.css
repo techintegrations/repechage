@@ -236,10 +236,18 @@
     object-fit: cover;
 }
 
-.megamenu-image p {
-    margin-top: 10px;
+.megamenu-product a {
+    display: inline-block;
 }
 
+.megamenu-product .img {
+    line-height: 0px;
+}
+
+.megamenu-product p,
+.megamenu-image p {
+    margin: 10px 0px 0px 0px;
+}
 
 @media only screen and (max-width: 768px) {
   
