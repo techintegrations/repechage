@@ -223,6 +223,24 @@
     margin-bottom: 24px;
 }
 
+.megamenu-image a {
+    display: inline-block;
+}
+
+.megamenu-image .image {
+    line-height: 0px;
+}
+
+.megamenu-image .image img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.megamenu-image p {
+    margin-top: 10px;
+}
+
+
 @media only screen and (max-width: 768px) {
   
 }
