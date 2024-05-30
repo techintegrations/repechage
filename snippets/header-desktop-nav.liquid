@@ -105,8 +105,10 @@
                       {%- assign isInfo = grandchildlink.title | split: '#' -%}
 
                       <div>
-                      {%- if isInfo[0] contains ".png" or isInfo[0] contains ".jpg" -%}
+                      {%- if isInfo[1] contains ".product" -%}
 
+                        {%- elsif isInfo[1] contains ".png" or isInfo[1] contains ".jpg" -%}
+                        
                         {% else %}
                       
                         <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
