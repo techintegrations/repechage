@@ -1,79 +1,5 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/HDP_BANNER.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "slideshow-1": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/all",
-            "link_text": "",
-            "link_2": "shopify:\/\/collections\/all",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Hydra_4_Mask_Promo.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_nn6wn6": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/HDP_Oil_Promo.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0",
-        "slideshow-1",
-        "image_nn6wn6"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "450px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 7,
-        "lazyload_images": false
-      }
-    },
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
@@ -166,24 +92,12 @@
         "lazyload_images": false
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Meet Our super-charged seaweed products",
-        "home_featured_products": "our-best-sellers",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
-    },
     "custom_featured_collection_tabs_PaGxFn": {
       "type": "custom__featured-collection-tabs",
       "blocks": {
         "collection_MVEY8h": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "tab_title": "Best Sellers",
             "home_featured_products": "our-best-sellers"
@@ -192,22 +106,29 @@
         "collection_md9zKm": {
           "type": "collection",
           "settings": {
-            "tab_title": "Newest Products",
-            "home_featured_products": "newest-products"
+            "tab_title": "Moisturizers",
+            "home_featured_products": "moisturizers"
           }
         },
         "collection_VFYzP3": {
           "type": "collection",
           "settings": {
-            "tab_title": "Gifts For Every Occasion",
-            "home_featured_products": "gifts-for-every-occasion"
+            "tab_title": "Bath & Body",
+            "home_featured_products": "body-care"
           }
         },
         "collection_hRgkKb": {
           "type": "collection",
           "settings": {
-            "tab_title": "Prime and Protect",
-            "home_featured_products": "prime-and-protect"
+            "tab_title": "Skin Care",
+            "home_featured_products": "skin-care"
+          }
+        },
+        "collection_LCHdgT": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Dryness & Dehydrations",
+            "home_featured_products": "dry-skin"
           }
         }
       },
@@ -215,7 +136,8 @@
         "collection_MVEY8h",
         "collection_md9zKm",
         "collection_VFYzP3",
-        "collection_hRgkKb"
+        "collection_hRgkKb",
+        "collection_LCHdgT"
       ],
       "settings": {
         "title": "shop by categories",
@@ -298,7 +220,7 @@
         "collection_RrDh3U": {
           "type": "collection",
           "settings": {
-            "collection": "cell-renewal-for-all-skin-types",
+            "collection": "sea-spa-body-care",
             "title": "",
             "focal_point": "center center"
           }
@@ -396,6 +318,7 @@
         "advanced_y98B3k",
         "banner_JLyirJ"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
@@ -406,6 +329,7 @@
     },
     "text_and_image_T3jnem": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/alternating-banner-1.jpg",
         "image_mask": "none",
@@ -424,43 +348,6 @@
         "top_padding": false,
         "bottom_padding": false,
         "lazyload_images": true
-      }
-    },
-    "text_and_image_cMGVy7": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alternating-banner-2.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Beauty SEAcrets Blog",
-        "text": "<p>Get experts tips and inspiration from our team of skincare veterans.<\/p>",
-        "button_label": "READ MORE",
-        "button_link": "shopify:\/\/blogs\/news",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "bg_color": "#e0e0e0",
-        "divider": false,
-        "top_padding": false,
-        "bottom_padding": false,
-        "lazyload_images": true
-      }
-    },
-    "blog_posts_AkwbrY": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "Beauty SEAcrets Blog",
-        "blog": "news",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": false,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": false,
-        "blog_image_size": "square",
-        "divider": false
       }
     },
     "text_and_image_hPkL8i": {
@@ -483,6 +370,43 @@
         "top_padding": false,
         "bottom_padding": false,
         "lazyload_images": true
+      }
+    },
+    "text_and_image_cMGVy7": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alternating-banner-2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Beauty SEAcrets Blog",
+        "text": "<p>Get experts tips and inspiration from our team of skincare veterans.<\/p>",
+        "button_label": "READ MORE",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "#ffffff",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "blog_posts_AkwbrY": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Beauty SEAcrets Blog",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "blog_image_size": "square",
+        "divider": false
       }
     },
     "testimonials_WQarYp": {
@@ -586,21 +510,113 @@
         "top_padding": true,
         "bottom_padding": true
       }
+    },
+    "logo_list_YykECb": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_rBQPg8": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_image_3xf8fH": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_image_jMqRDr": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_image_D7BbQ6": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_rBQPg8",
+        "logo_image_3xf8fH",
+        "logo_image_jMqRDr",
+        "logo_image_D7BbQ6"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    },
+    "text_with_icons_dTrr3R": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_gLLAGX": {
+          "type": "text_block",
+          "settings": {
+            "icon": "gift",
+            "title": "",
+            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>"
+          }
+        },
+        "text_block_3DUCnQ": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "",
+            "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>"
+          }
+        },
+        "text_block_Cai9em": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "",
+            "text": "<p>Hassle-Free Returns<\/p>"
+          }
+        },
+        "text_block_PbmhNc": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "",
+            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gLLAGX",
+        "text_block_3DUCnQ",
+        "text_block_Cai9em",
+        "text_block_PbmhNc"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
     }
   },
   "order": [
-    "slideshow",
     "slideshow_ybDcnc",
-    "featured-collection",
     "custom_featured_collection_tabs_PaGxFn",
     "custom_text_with_logos_VBrHLU",
     "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
+    "text_and_image_hPkL8i",
     "text_and_image_cMGVy7",
     "blog_posts_AkwbrY",
-    "text_and_image_hPkL8i",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd"
+    "newsletter_kJLxhd",
+    "logo_list_YykECb",
+    "text_with_icons_dTrr3R"
   ]
 }
