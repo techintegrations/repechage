@@ -25,7 +25,7 @@
           "type": "button",
           "settings": {
             "button_label": "SPA Locator",
-            "button_link": "\/pages\/locate-a-spa"
+            "button_link": "https:\/\/pro.repechage.com\/"
           }
         }
       },
@@ -35,7 +35,6 @@
         "button_6WhTj6"
       ],
       "settings": {
-        "announcement_compact": true
       }
     },
     "header": {
