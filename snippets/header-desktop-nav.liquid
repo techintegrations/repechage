@@ -107,7 +107,7 @@
                       <div>
                       {%- if isInfo[0] contains ".product" -%}
 
-                        {% assign fproduct = all_products[isInfo[0]] %}
+                        {% assign fproduct = all_products[section.settings.product] %}
 
 
                           <div class="megamenu-product">
@@ -128,6 +128,12 @@
                           </div>
                         
                         {%- elsif isInfo[0] contains ".png" or isInfo[0] contains ".jpg" -%}
+
+                        <div class="megamenu-product">
+                        <a href="{{ grandchildlink.url }}">
+                          {{grandchildlink.title}}
+                        </a>
+                        </div>
                         
                         {% else %}
                       
