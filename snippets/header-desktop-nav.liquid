@@ -113,10 +113,12 @@
                     
                    
                           <div class="megamenu-product">
+                            <a href="{{ fproduct.url }}">
                               <div class="img">
                                 <img src="{{ fproduct.featured_image | img_url: 'master' }}">
                               </div>
                               <h2>{{ fproduct.title }}</h2>
+                            </a>
                           </div>
                         
                         {%- elsif isInfo[0] contains ".png" or isInfo[0] contains ".jpg" -%}
