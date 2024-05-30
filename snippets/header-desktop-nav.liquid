@@ -105,7 +105,7 @@
                       {%- assign isInfo = grandchildlink.title | split: '#' -%}
 
                       <div>
-                      {%- if isInfo[0] contains ".product" -%}
+                      {%- if isInfo[0] == "product" -%}
 
                         {% assign fproduct = all_products[section.settings.product] %}
 
