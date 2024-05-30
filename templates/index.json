@@ -397,7 +397,7 @@
     "blog_posts_AkwbrY": {
       "type": "blog-posts",
       "settings": {
-        "title": "Beauty SEAcrets Blog",
+        "title": "Beauty Seacrets Blog",
         "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
@@ -405,7 +405,7 @@
         "blog_show_comments": false,
         "blog_show_author": false,
         "view_all": false,
-        "blog_image_size": "square",
+        "blog_image_size": "landscape",
         "divider": false
       }
     },
@@ -511,46 +511,6 @@
         "bottom_padding": true
       }
     },
-    "logo_list_YykECb": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_image_rBQPg8": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_3xf8fH": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_jMqRDr": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_D7BbQ6": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_image_rBQPg8",
-        "logo_image_3xf8fH",
-        "logo_image_jMqRDr",
-        "logo_image_D7BbQ6"
-      ],
-      "settings": {
-        "title": "",
-        "logo_opacity": 76,
-        "divider": false
-      }
-    },
     "text_with_icons_dTrr3R": {
       "type": "text-with-icons",
       "blocks": {
@@ -616,7 +576,6 @@
     "blog_posts_AkwbrY",
     "testimonials_WQarYp",
     "newsletter_kJLxhd",
-    "logo_list_YykECb",
     "text_with_icons_dTrr3R"
   ]
 }
