@@ -246,7 +246,9 @@
 
 .megamenu-product p,
 .megamenu-image p {
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0 0;
+    line-height: normal;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
