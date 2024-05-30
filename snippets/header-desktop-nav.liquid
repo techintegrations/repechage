@@ -113,20 +113,10 @@
                     
                    
                           <div class="megamenu-product">
-                            {% if fproduct.featured_image != blank %}
                               <div class="img">
                                 <img src="{{ fproduct.featured_image | img_url: 'master' }}">
                               </div>
-                            {% endif %}
-                              {% if fproduct.title != blank %}
-                              <h1>{{ fproduct.title }}</h1>
-                              {% endif %}
-                              {% if fproduct.price != blank %}
-                              <p>{{ fproduct.price | money }}</p>
-                              {% endif %}
-                              {% if fproduct.description != blank %}
-                              <p>{{ fproduct.description }}</p>
-                              {% endif %}
+                              <h2>{{ fproduct.title }}</h2>
                           </div>
                         
                         {%- elsif isInfo[0] contains ".png" or isInfo[0] contains ".jpg" -%}
