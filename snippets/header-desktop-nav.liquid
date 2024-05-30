@@ -105,9 +105,29 @@
                       {%- assign isInfo = grandchildlink.title | split: '#' -%}
 
                       <div>
-                      {%- if isInfo[1] contains ".product" -%}
+                      {%- if isInfo[0] contains ".product" -%}
 
-                        {%- elsif isInfo[1] contains ".png" or isInfo[1] contains ".jpg" -%}
+                        {% assign fproduct = all_products[isInfo[0]] %}
+
+
+                          <div class="megamenu-product">
+                            {% if fproduct.featured_image != blank %}
+                              <div class="img">
+                                <img src="{{ fproduct.featured_image | img_url: 'master' }}">
+                              </div>
+                            {% endif %}
+                              {% if fproduct.title != blank %}
+                              <h1>{{ fproduct.title }}</h1>
+                              {% endif %}
+                              {% if fproduct.price != blank %}
+                              <p>{{ fproduct.price | money }}</p>
+                              {% endif %}
+                              {% if fproduct.description != blank %}
+                              <p>{{ fproduct.description }}</p>
+                              {% endif %}
+                          </div>
+                        
+                        {%- elsif isInfo[0] contains ".png" or isInfo[0] contains ".jpg" -%}
                         
                         {% else %}
                       
