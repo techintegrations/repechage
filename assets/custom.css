@@ -59,7 +59,7 @@
 }
 
 .announcement-btn a.btn {
-    color: #fff;
+    color: #fff !important;
     margin: 0px;
 }
 
