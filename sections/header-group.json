@@ -25,7 +25,8 @@
           "type": "button",
           "settings": {
             "button_label": "Professionals",
-            "button_link": "https:\/\/pro.repechage.com\/"
+            "button_link": "https:\/\/pro.repechage.com\/",
+            "open_new_tab": true
           }
         }
       },
