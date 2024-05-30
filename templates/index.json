@@ -394,6 +394,44 @@
         "lazyload_images": true
       }
     },
+    "newsletter_kJLxhd": {
+      "type": "newsletter",
+      "blocks": {
+        "title_kQY4Jz": {
+          "type": "title",
+          "settings": {
+            "title": "TAKE 10% OFF YOUR FIRST ORDER",
+            "heading_size": "h2"
+          }
+        },
+        "text_wiiHG4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up to our mailing list and get access to exclusive offers.<\/p>"
+          }
+        },
+        "form_rTbMBQ": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title_kQY4Jz",
+        "text_wiiHG4",
+        "form_rTbMBQ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
     "blog_posts_AkwbrY": {
       "type": "blog-posts",
       "settings": {
@@ -473,44 +511,6 @@
         "color_text": "#1c1d1d"
       }
     },
-    "newsletter_kJLxhd": {
-      "type": "newsletter",
-      "blocks": {
-        "title_kQY4Jz": {
-          "type": "title",
-          "settings": {
-            "title": "TAKE 10% OFF YOUR FIRST ORDER",
-            "heading_size": "h2"
-          }
-        },
-        "text_wiiHG4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sign up to our mailing list and get access to exclusive offers.<\/p>"
-          }
-        },
-        "form_rTbMBQ": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "title_kQY4Jz",
-        "text_wiiHG4",
-        "form_rTbMBQ"
-      ],
-      "settings": {
-        "align_text": "center",
-        "image_width": "33",
-        "image_mask": "none",
-        "image_position": "right",
-        "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d",
-        "top_padding": true,
-        "bottom_padding": true
-      }
-    },
     "text_with_icons_dTrr3R": {
       "type": "text-with-icons",
       "blocks": {
@@ -573,9 +573,9 @@
     "text_and_image_T3jnem",
     "text_and_image_hPkL8i",
     "text_and_image_cMGVy7",
+    "newsletter_kJLxhd",
     "blog_posts_AkwbrY",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd",
     "text_with_icons_dTrr3R"
   ]
 }
