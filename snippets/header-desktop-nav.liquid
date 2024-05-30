@@ -131,7 +131,10 @@
 
                         <div class="megamenu-product">
                         <a href="{{ grandchildlink.url }}">
-                          {{grandchildlink.title}}
+                          <div class="image">
+                            <img src="{{ isInfo[0] | replace: ' ', '_' | strip | file_url }}" alt="{{ isInfo[0] }}">
+                          </div>
+                          <p>{{ isInfo[1] }}</p>
                         </a>
                         </div>
                         
