@@ -23,30 +23,6 @@
   <div class="featured-collection-tabs page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
 
 
-                        {% assign fproduct = all_products["2019-power-lunch-and-hands-on-workshop"] %}
-
-
-                        {{ fproduct }}
-                    
-                   
-                          <div class="megamenu-product">
-                            {% if fproduct.featured_image != blank %}
-                              <div class="img">
-                                <img src="{{ fproduct.featured_image | img_url: 'master' }}">
-                              </div>
-                            {% endif %}
-                              {% if fproduct.title != blank %}
-                              <h1>{{ fproduct.title }}</h1>
-                              {% endif %}
-                              {% if fproduct.price != blank %}
-                              <p>{{ fproduct.price | money }}</p>
-                              {% endif %}
-                              {% if fproduct.description != blank %}
-                              <p>{{ fproduct.description }}</p>
-                              {% endif %}
-                          </div>
-
-    
 <div class="tab-row">
   {% for block in section.blocks %}
     <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
