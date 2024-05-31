@@ -19,7 +19,7 @@
       {%- liquid
         assign collection = collections[block.settings.collection]
         assign background_position = block.settings.focal_point
-       assign custom_image = block.settings.custom_image
+       assign custom_collection_image = block.settings.custom_collection_image
 
         capture gridView
           if section.blocks.size < section.settings.per_row
@@ -36,6 +36,7 @@
         block: block,
         gridView: gridView,
         background_position: background_position,
+        custom_collection_image: custom_collection_image,
         per_row: section.settings.per_row,
         sizeVariable: gridView,
         fallback: 'variable'
@@ -123,7 +124,7 @@
           "label": "t:sections.featured-collections.blocks.collection.settings.collection.label"
         },
         {
-          "type": "text",
+          "type": "image_picker",
           "id": "custom_collection_image",
           "label": "Custom collection image"
         },
