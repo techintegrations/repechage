@@ -69,7 +69,7 @@
     padding: 0px;
 }
 
-#AnnouncementSlider {
+#AnnouncementSlider-wrap {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -293,6 +293,17 @@
   .collection-list-section .grid .small--one-half {
       width: 100%;
   }
+
+  .image-with-text-section .feature-row__item {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  
+  .feature-row-wrapper .feature-row__text {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+
   
 }
 
