@@ -111,8 +111,9 @@
     display: inline-block;
     margin: 0 20px;
     text-transform: uppercase;
-    text-underline-offset: 4px;    
+    text-underline-offset: 4px;
     font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
+    flex: 0 0 auto;
 }
 
 .featured-collection-tabs .tab-row .tab:hover {
