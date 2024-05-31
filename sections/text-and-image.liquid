@@ -19,6 +19,13 @@
   #shopify-section-{{ section.id }} .image-with-text-section .feature-row {
       background-color: {{section.settings.bg_color}};
   }
+
+  @media screen and (max-width:768px){
+    #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+    }
+  }
   
 {% endstyle %}
 
