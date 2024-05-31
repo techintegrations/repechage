@@ -235,6 +235,7 @@
         },
         "collection_UQdtM8": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "t-zone-for-combination-oily-skin",
             "title": "",
