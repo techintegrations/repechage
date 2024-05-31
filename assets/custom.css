@@ -283,6 +283,13 @@
     margin-right: 0px;
 }
 
+.collection-item:not(.collection-item--below):after {
+    display: none;
+}
+
+.collection-item:not(.collection-item--below):hover:after {
+    display: block;
+}
 
 @media only screen and (max-width: 768px) {
 
