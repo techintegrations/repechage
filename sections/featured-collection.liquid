@@ -30,7 +30,7 @@
 
   {% if section.settings.featured_image != blank %}
     <div class="fc-featured-image">
-      <h3>{{ section.settings.featured_image }}</h3>
+      <h3>{{ section.settings.featured_image | img_url: 'master' }}</h3>
     </div>
   {% endif %}
     
