@@ -88,10 +88,17 @@
                       {%- endif -%}
                     {%- endif -%}
 
-                    {%- assign isInfo = childlink.title | split: '#' -%}
-                    <div class="h5 {%- if isInfo[1] == "hide" -%}title-hide{% endif %}">
-                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                    {%- assign hideTitle = childlink.title | split: '#' -%}
+
+                        {%- if hideTitle[1] == "hide" -%}
+                    <div class="h5 title-hide">
+                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ hideTitle[0]  }}</a>
                     </div>
+                        {% else %}
+                          <div class="h5">
+                            <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                          </div>
+                        {% endif %}
 
                     {%- liquid
                       if childlink.levels > 0
