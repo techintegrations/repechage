@@ -562,6 +562,18 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "face-wash-facial-cleansers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -576,6 +588,7 @@
     "newsletter_kJLxhd",
     "blog_posts_AkwbrY",
     "testimonials_WQarYp",
-    "text_with_icons_dTrr3R"
+    "text_with_icons_dTrr3R",
+    "featured_collection_U6DUhq"
   ]
 }
