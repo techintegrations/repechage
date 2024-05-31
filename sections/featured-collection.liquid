@@ -25,7 +25,7 @@
 
 
 
-  <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
+  <div class="page-width {% if section.settings.featured_image %} fc-featured-image-row{% endif %} {% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
 
 
   {% if section.settings.featured_image != blank %}
@@ -119,15 +119,15 @@
   "class": "index-section featured-collection-section",
   "settings": [
     {
-      "type": "image_picker",
-      "id": "featured_image",
-      "label": "Featured_image"
-    },
-    {
       "type": "text",
       "id": "title",
       "label": "t:sections.featured-collection.settings.title.label",
       "default": "Featured collection"
+    },   
+    {
+      "type": "image_picker",
+      "id": "featured_image",
+      "label": "Featured_image"
     },
     {
       "type": "collection",
