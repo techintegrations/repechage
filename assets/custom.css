@@ -305,6 +305,25 @@
       padding-right: 0px;
   }
 
+  .featured-collection-tabs .tab-row {
+      justify-content: flex-start;
+  }
+
+  #AnnouncementSlide-announcement-1 {
+      display: none;
+  }
+  
+  #AnnouncementSlider-wrap {
+      display: block;
+  }
+  
+  #AnnouncementSlide-announcement-0 {
+      padding: 0 10px;
+  }
+  
+  #AnnouncementSlide-button_6WhTj6 {
+      text-align: center;
+  }
   
 }
 
