@@ -327,6 +327,19 @@
         "lazyload_images": true
       }
     },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "featured_image": "shopify:\/\/shop_images\/2023_holiday_season-3778-Edit.jpg",
+        "home_featured_products": "face-wash-facial-cleansers",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "text_and_image_T3jnem": {
       "type": "text-and-image",
       "disabled": true,
@@ -566,19 +579,6 @@
         "button_link": "",
         "divider": false
       }
-    },
-    "featured_collection_U6DUhq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "featured_image": "shopify:\/\/shop_images\/2023_holiday_season-3778-Edit.jpg",
-        "home_featured_products": "face-wash-facial-cleansers",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -587,13 +587,13 @@
     "custom_text_with_logos_VBrHLU",
     "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
+    "featured_collection_U6DUhq",
     "text_and_image_T3jnem",
     "text_and_image_hPkL8i",
     "text_and_image_cMGVy7",
     "newsletter_kJLxhd",
     "blog_posts_AkwbrY",
     "testimonials_WQarYp",
-    "text_with_icons_dTrr3R",
-    "featured_collection_U6DUhq"
+    "text_with_icons_dTrr3R"
   ]
 }
