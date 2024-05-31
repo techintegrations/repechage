@@ -1,16 +1,28 @@
 {%- liquid
 
-
+  unless background_position
+    assign background_position = 'center center'
+  endunless
 
    if custom_collection_image != blank
-   assign collection_image  = custom_collection_image
+   assign collection_image = custom_collection_image
   elsif settings.collection_grid_image == 'collection' and collection.image
     assign collection_image = collection.image
   else
     assign collection_image = collection.products.first.featured_media.preview_image
   endif
 
-
+  if block.settings.title != blank
+    assign title_output = block.settings.title
+  else
+    if collection == blank
+      assign title_output = 'home_page.onboarding.collection_title' | t
+    elsif collection_title
+      assign title_output = collection_title
+    else
+      assign title_output = collection.title | escape
+    endif
+  endif
 -%}
 
 <div class="grid__item {{ gridView }}" {{ block.shopify_attributes }}>
