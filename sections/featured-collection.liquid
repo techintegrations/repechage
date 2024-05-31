@@ -22,6 +22,13 @@
     </div>
   {%- endif -%}
 
+
+  {% if section.settings.featured_image != blank %}
+    <div class="featured-collection-featured_image">
+      <h3>{{ section.settings.featured_image }}</h3>
+    </div>
+  {% endif %}
+
   <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
     <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
       <div class="grid grid--uniform"{% if section.settings.mobile_scrollable %} data-aos="overflow__animation"{% endif %}>
