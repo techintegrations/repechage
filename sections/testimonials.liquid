@@ -3,7 +3,20 @@
     background-color: {{ section.settings.color_background }};
     color: {{ section.settings.color_text }};
   }
-}
+
+
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  @media screen and (max-width:798px){
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+    }
+  }
+
+  
 {%- endstyle -%}
 
 <div
