@@ -568,18 +568,27 @@
             "title": "",
             "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>"
           }
+        },
+        "text_block_f9MtBD": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "",
+            "text": "<p>Hassle-Free Returns<\/p>"
+          }
         }
       },
       "block_order": [
         "text_block_gLLAGX",
         "text_block_3DUCnQ",
         "text_block_Cai9em",
-        "text_block_PbmhNc"
+        "text_block_PbmhNc",
+        "text_block_f9MtBD"
       ],
       "settings": {
         "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 4,
+        "desktop_columns_per_row": 5,
         "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
