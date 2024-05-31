@@ -214,6 +214,19 @@
         "divider": false
       }
     },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Spa & Wellness",
+        "featured_image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.jpg",
+        "home_featured_products": "travel-starter-kits",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "featured_collections_xaap9R": {
       "type": "featured-collections",
       "blocks": {
@@ -325,19 +338,6 @@
         "space_above": false,
         "space_below": true,
         "lazyload_images": true
-      }
-    },
-    "featured_collection_U6DUhq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "featured_image": "shopify:\/\/shop_images\/2023_holiday_season-3778-Edit.jpg",
-        "home_featured_products": "face-wash-facial-cleansers",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
       }
     },
     "text_and_image_T3jnem": {
@@ -540,6 +540,7 @@
         "text_block_gLLAGX": {
           "type": "text_block",
           "settings": {
+            "custom_icon": "",
             "icon": "gift",
             "title": "",
             "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>"
@@ -548,6 +549,7 @@
         "text_block_3DUCnQ": {
           "type": "text_block",
           "settings": {
+            "custom_icon": "",
             "icon": "truck",
             "title": "",
             "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>"
@@ -556,6 +558,7 @@
         "text_block_Cai9em": {
           "type": "text_block",
           "settings": {
+            "custom_icon": "",
             "icon": "bills",
             "title": "",
             "text": "<p>Hassle-Free Returns<\/p>"
@@ -564,6 +567,7 @@
         "text_block_PbmhNc": {
           "type": "text_block",
           "settings": {
+            "custom_icon": "",
             "icon": "chat",
             "title": "",
             "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>"
@@ -572,6 +576,7 @@
         "text_block_f9MtBD": {
           "type": "text_block",
           "settings": {
+            "custom_icon": "",
             "icon": "bills",
             "title": "",
             "text": "<p>Hassle-Free Returns<\/p>"
@@ -605,9 +610,9 @@
     "slideshow_ybDcnc",
     "custom_featured_collection_tabs_PaGxFn",
     "custom_text_with_logos_VBrHLU",
+    "featured_collection_U6DUhq",
     "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
-    "featured_collection_U6DUhq",
     "text_and_image_T3jnem",
     "text_and_image_hPkL8i",
     "text_and_image_cMGVy7",
