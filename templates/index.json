@@ -573,7 +573,7 @@
         "title": "Featured collection",
         "featured_image": "shopify:\/\/shop_images\/2023_holiday_season-3435.jpg",
         "home_featured_products": "face-wash-facial-cleansers",
-        "per_row": 4,
+        "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
