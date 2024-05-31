@@ -256,6 +256,27 @@
     text-align: center;
 }
 
+.fc-featured-image-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fc-featured-image-row .fc-featured-image {
+    width: 25%;
+    flex: 0 0 25%;
+    padding-right: 22px;
+    margin-bottom: 30px;
+}
+
+.fc-featured-image-row .grid-overflow-wrapper {
+    flex: 1 0 0;
+}
+
+.fc-featured-image-row .fc-featured-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
 
 @media only screen and (max-width: 768px) {
   
