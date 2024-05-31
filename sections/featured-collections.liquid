@@ -19,6 +19,7 @@
       {%- liquid
         assign collection = collections[block.settings.collection]
         assign background_position = block.settings.focal_point
+       assign custom_image = block.settings.custom_image
 
         capture gridView
           if section.blocks.size < section.settings.per_row
