@@ -42,7 +42,7 @@
         <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
           <div class="text-with-icons__block-icon">
 
-            {% if block.settings.custom_icon != black %}
+            {% if block.settings.custom_icon != blank %}
               {{ block.settings.custom_icon }}
             {% else %}
               {% case block.settings.icon %}
