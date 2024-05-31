@@ -58,6 +58,10 @@
     flex-wrap: wrap;
 }
 
+.megamenu .grid__item .title-hide {
+    opacity: 0;
+}
+
 .announcement-btn a.btn {
     color: #fff !important;
     margin: 0px;
