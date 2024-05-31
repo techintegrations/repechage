@@ -508,7 +508,11 @@
         "align_text": "center",
         "round_images": false,
         "color_background": "#ffffff",
-        "color_text": "#1c1d1d"
+        "color_text": "#1c1d1d",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
       }
     },
     "text_with_icons_dTrr3R": {
@@ -567,6 +571,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
+        "featured_image": "shopify:\/\/shop_images\/2023_holiday_season-3435.jpg",
         "home_featured_products": "face-wash-facial-cleansers",
         "per_row": 4,
         "rows": 1,
