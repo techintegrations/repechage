@@ -64,7 +64,7 @@
     text-align: right;
 }
 
-.announcement-slider__slide {
+.announcement-slider {
     width: auto;
     padding: 0px;
 }
@@ -290,6 +290,9 @@
       padding: 0 20px;
   }
 
+  .collection-list-section .grid .small--one-half {
+      width: 100%;
+  }
   
 }
 
