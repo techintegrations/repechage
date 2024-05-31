@@ -279,6 +279,13 @@
 
 
 @media only screen and (max-width: 768px) {
+
+  .fc-featured-image-row .fc-featured-image {
+      width: 100%;
+      flex: 0 0 100%;
+      padding-right: 0px;
+  }
+
   
 }
 
