@@ -283,10 +283,6 @@
     margin-right: 0px;
 }
 
-.collection-item:not(.collection-item--below):after {
-    display: none;
-}
-
 
 @media only screen and (max-width: 768px) {
 
