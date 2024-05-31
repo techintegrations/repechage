@@ -31,18 +31,18 @@
     box-shadow: none;
 }
 
-.text-with-logos-slider .flickity-page-dots {
+.flickity-page-dots {
     bottom: -10px;
     align-items: center;
 }
 
-.text-with-logos-slider .flickity-page-dots .dot {
+.flickity-page-dots .dot {
     height: 3px;
     width: 30px;
     border-radius: 0px;
 }
 
-.text-with-logos-slider .flickity-page-dots .dot.is-selected {
+.flickity-page-dots .dot.is-selected {
     height: 3px;
     width: 30px;
 }
