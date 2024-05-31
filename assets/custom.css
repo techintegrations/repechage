@@ -102,9 +102,9 @@
 
 .featured-collection-tabs .tab-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-bottom: 40px;
+    overflow: auto;
+    justify-content: center;
 }
 
 .featured-collection-tabs .tab-row .tab {
