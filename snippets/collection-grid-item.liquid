@@ -4,7 +4,9 @@
     assign background_position = 'center center'
   endunless
 
-  if settings.collection_grid_image == 'collection' and collection.image
+   if settings.collection_grid_image == 'collection' and collection.image
+   assign custom_collection_image = custom_collection_image
+  elsif settings.collection_grid_image == 'collection' and collection.image
     assign collection_image = collection.image
   else
     assign collection_image = collection.products.first.featured_media.preview_image
