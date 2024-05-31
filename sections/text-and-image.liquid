@@ -14,12 +14,6 @@
 -%}
 
 {% style %}
-  {% if section.settings.top_padding == false %}
-    #shopify-section-{{ section.id }} .index-section { margin-top: 0 !important; }
-  {% endif %}
-  {% if section.settings.bottom_padding == false %}
-    #shopify-section-{{ section.id }} .index-section { margin-bottom: 0 !important; }
-  {% endif %}
 
 
   #shopify-section-{{ section.id }} .image-with-text-section .feature-row {
@@ -386,18 +380,6 @@
       "id": "divider",
       "label": "t:sections.text-and-image.settings.divider.label",
       "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "top_padding",
-      "label": "t:sections.text-and-image.settings.top_padding.label",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "bottom_padding",
-      "label": "t:sections.text-and-image.settings.bottom_padding.label",
-      "default": true
     },
     {
       "type": "checkbox",
