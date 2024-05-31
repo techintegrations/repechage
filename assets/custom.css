@@ -235,7 +235,7 @@
     line-height: 0px;
 }
 
-.megamenu-image .image img {
+.megamenu-image .image img, .megamenu-product .img img {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -254,6 +254,7 @@
     line-height: normal;
     text-align: center;
 }
+
 
 @media only screen and (max-width: 768px) {
   
