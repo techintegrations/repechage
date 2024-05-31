@@ -32,6 +32,7 @@
 }
 
 .custom-dots-style .flickity-page-dots {
+    bottom: -20px;
     align-items: center;
 }
 
