@@ -46,13 +46,15 @@
             </div>
           {% endif %}
 
-          {% if block.settings.text != blank %}
+           {%- if section.settings.button_label != blank -%}
             <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
               <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
-                {{ block.settings.button_label }}
+                {{ section.settings.button_label }}
               </a>
             </div>
-          {% endif %}
+          {%- endif -%}
+
+          
         </div>
       {% endfor %}
     </div>
