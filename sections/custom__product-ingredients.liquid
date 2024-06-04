@@ -68,9 +68,9 @@
               </div>
             {% endif %}
 
-            <button data-fancybox data-src="#dialog-content">Launch Dialog</button>
+            <button data-fancybox data-src="#{{ block.id }}">Launch Dialog</button>
 
-            <div id="dialog-content" style="display:none;max-width:500px;">
+            <div id="{{ block.id }}" style="display:none;max-width:500px;">
                 <h2>Hello, world!</h2>
                 <p>
                   <input type="text" value="" />
