@@ -68,24 +68,11 @@
               </div>
             {% endif %}
 
-            <button data-fancybox data-src="#{{ block.id }}">Launch Dialog</button>
+            <div class="ingredients__block-text">
+            <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
 
-            <div id="{{ block.id }}" style="display:none;max-width:500px;">
-                <h2>Hello, world!</h2>
-                <p>
-                  <input type="text" value="" />
-                </p>
-                <p>
-                  Try hitting the tab key and notice how the focus stays within the dialog
-                  itself.
-                </p>
-                <p>
-                  To close dialog hit the esc button, click on the overlay or just click the
-                  close button.
-                </p>
-                <p>
-                  Element used to launch the modal would receive focus back after closing.
-                </p>
+            <div id="{{ block.id }}" style="display:none;">
+                {{ block.settings.text }}
             </div>
 
             
@@ -94,6 +81,8 @@
                 {{ block.settings.text }}
               </div>
             {% endif %}
+            </div>
+            
           </div>
           
         </div>
