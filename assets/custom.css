@@ -63,6 +63,11 @@
     object-fit: cover;
 }
 
+.ingredients__block-info {
+    padding: 0 10px;
+    margin-top: 16px;
+}
+
 #AnnouncementSlide-announcement-1 {
     flex: 1 0 0;
 }
