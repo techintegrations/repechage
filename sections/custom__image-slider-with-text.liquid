@@ -47,7 +47,7 @@
           {% endif %}
 
           {% if block.settings.text != blank %}
-            <div class="rte">
+            <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
               <a href="{{ block.settings.button_link }}" class="btn">
                 {{ block.settings.button_label }}
               </a>
