@@ -61,6 +61,12 @@
                 <h5>{{ block.settings.title }}</h5>
               </div>
             {% endif %}
+
+            {% if block.settings.button_label != blank %}
+              <div class="ingredients__block-title">
+                <h5>{{ block.settings.button_label }}</h5>
+              </div>
+            {% endif %}
   
             {% if block.settings.text != blank %}
               <div class="ingredients__block-text">
