@@ -69,7 +69,8 @@
     position: absolute;
     right: 0;
     width: 50%;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .image-slider-with-text .slider-banner-image img {
