@@ -6,28 +6,32 @@
         "text_block_X7GFUr": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "logo": "shopify:\/\/shop_images\/Laminaria-200.png",
+            "title": "Laminaria digitata & Ascophyllum nodosum - Sea Plants",
             "text": ""
           }
         },
         "text_block_6Qcqer": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "logo": "shopify:\/\/shop_images\/ingredients-melissa-officinalis_mint_5B1_5D.png",
+            "title": "Melissa Officinalis (Balm Mint) Leaf Extract",
             "text": ""
           }
         },
         "text_block_x7z9Mq": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "logo": "shopify:\/\/shop_images\/chammomille_5B1_5D.png",
+            "title": "Chamomilla Recutita (Matricaria) Flower Extract",
             "text": ""
           }
         },
         "text_block_dQyHjF": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "logo": "shopify:\/\/shop_images\/ingredients-Multifruit-Acids_5B1_5D.png",
+            "title": "Multi-Fruit Acids",
             "text": ""
           }
         }
