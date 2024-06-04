@@ -52,8 +52,8 @@
       data-block-count="{{ section.blocks.size }}"
       >
       {% for block in section.blocks %}
-        <div class="ingredients-block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
-          <div class="ingredients-image">
+        <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
+          <div class="text-with-icons__block-icon">
               <img src="{{ block.settings.logo | img_url: '400x' }}">
           </div>
 
