@@ -28,14 +28,7 @@
 
  
 
-{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
-
-<div
-  class="text-with-icons"
-  data-section-id="{{ section.id }}"
-  data-section-type="text-with-icons"
->
-  <div class="text-with-logos page-width">
+  <div class="product-ingredients page-width">
     {%- if section.settings.title != blank -%}
       <div
         class="
@@ -68,9 +61,7 @@
       {% endfor %}
     </div>
   </div>
-</div>
 
-{%- if section.settings.divider -%}</div>{%- endif -%}
 
 {% schema %}
 {
