@@ -1,4 +1,4 @@
-{% style %} 
+{% style %}
   #shopify-section-{{section.id}} {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -10,14 +10,14 @@
   }
 
   #shopify-section-{{section.id}} .ingredients-title h2 {
-      color: {{section.settings.title_color}}; 
+      color: {{section.settings.title_color}};
   }
 
 
   #shopify-section-{{section.id}} .ingredients__block-title {
       color: {{section.settings.block_title_color}};
   }
-  
+
    #shopify-section-{{section.id}} .ingredients__block-text {
       color: {{section.settings.block_text_color}};
   }
@@ -32,64 +32,56 @@
       flex: 0 0 calc(100% / {{section.settings.mobile_columns_per_row}});
     }
 
-    
+
   }
 {% endstyle %}
 
- 
+<div class="product-ingredients page-width">
+  {%- if section.settings.title != blank -%}
+    <div
+      class="
+        ingredients-title
+        section-header
+      "
+    >
+      <h2 class="text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
+    </div>
+  {%- endif -%}
+  <div class="product-ingredients-row">
+    {% for block in section.blocks %}
+      <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
+        <div class="ingredients-image">
+          <img src="{{ block.settings.logo | img_url: '400x' }}">
+        </div>
 
-  <div class="product-ingredients page-width">
-    {%- if section.settings.title != blank -%}
-      <div
-        class="
-          ingredients-title
-          section-header"
-      >
-        <h2 class="text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
-      </div>
-    {%- endif -%}
-    <div class="product-ingredients-row">
-      {% for block in section.blocks %}
-        <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
-          <div class="ingredients-image">
-              <img src="{{ block.settings.logo | img_url: '400x' }}">
-          </div>
+        <div class="ingredients__block-info">
+          {% if block.settings.title != blank %}
+            <div class="ingredients__block-title">
+              <h5>{{ block.settings.title }}</h5>
+            </div>
+          {% endif %}
 
-          <div class="ingredients__block-info">
-            {% if block.settings.title != blank %}
-              <div class="ingredients__block-title">
-                <h5>{{ block.settings.title }}</h5>
-              </div>
-            {% endif %}
+          {% if block.settings.button_label != blank %}
+            <div class="ingredients__block-title">
+              <a href="#">{{ block.settings.button_label }}</a>
+            </div>
+          {% endif %}
 
-            {% if block.settings.button_label != blank %}
-              <div class="ingredients__block-title">
-                <a href="#">{{ block.settings.button_label }}</a>
-              </div>
-            {% endif %}
-
-        {% if block.settings.text != blank %}
-            <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
-
-            <div id="{{ block.id }}" style="display:none;">
-                {{ block.settings.text }}
+          {% if block.settings.text != blank %}
+            <div class="ingredients__block-title">
+              <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
             </div>
 
-            
-            
-              <div class="ingredients__block-text">
-                {{ block.settings.text }}
-              </div>
-            
-            {% endif %}
-            
-          </div>
-          
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+            <div id="{{ block.id }}" class="ingredients__block-text" style="display:none;">
+              {{ block.settings.text }}
+            </div>
 
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
 {% schema %}
 {
@@ -204,12 +196,12 @@
           "id": "logo",
           "label": "Logo"
         },
-        { 
+        {
           "type": "text",
           "id": "title",
           "label": "t:common.text_with_icons.blocks.column.settings.title.label"
         },
-        { 
+        {
           "type": "text",
           "id": "button_label",
           "label": "Button label",
@@ -244,4 +236,3 @@
   }
 }
 {% endschema %}
-
