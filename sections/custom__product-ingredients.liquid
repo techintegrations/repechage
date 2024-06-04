@@ -69,7 +69,6 @@
             {% endif %}
 
         {% if block.settings.text != blank %}
-            <div class="ingredients__block-text">
             <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
 
             <div id="{{ block.id }}" style="display:none;">
@@ -81,7 +80,6 @@
               <div class="ingredients__block-text">
                 {{ block.settings.text }}
               </div>
-            </div>
             
             {% endif %}
             
