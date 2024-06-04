@@ -47,11 +47,13 @@
               </div>
             {% endif %}
 
-            <div class="rte">
-              <a href="{{ block.settings.link }}" class="btn">
-                {{ block.settings.link_text }}
-              </a>
-            </div>
+            {% if block.settings.text != blank %}
+              <div class="rte">
+                <a href="{{ block.settings.button_link }}" class="btn">
+                  {{ block.settings.button_label }}
+                </a>
+              </div>
+            {% endif %}
 
             
           </div>
