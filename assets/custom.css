@@ -397,6 +397,15 @@
   #AnnouncementSlide-button_6WhTj6 {
       text-align: center;
   }
+
+  .image-slider-with-text .slider-for {
+      width: 100%;
+  }
+  
+  .image-slider-with-text .slider-nav {
+      width: 100%;
+      padding: 40px;
+  }
   
 }
 
