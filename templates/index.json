@@ -229,6 +229,7 @@
     },
     "text_and_image_hPkL8i": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
         "image_mask": "none",
