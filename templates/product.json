@@ -11,7 +11,7 @@
         "richtext_EpXmjL": {
           "type": "richtext",
           "settings": {
-            "text": "<p>gfgfdgd<\/p>"
+            "text": "{{ product.metafields.custom.product_short_description | metafield_tag }}"
           }
         },
         "separator": {
