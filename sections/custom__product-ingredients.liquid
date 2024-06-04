@@ -10,11 +10,11 @@
   }
 
 
-  #shopify-section-{{section.id}} .ingredients--title {
+  #shopify-section-{{section.id}} .ingredients__block-title {
       color: {{section.settings.block_title_color}};
   }
   
-   #shopify-section-{{section.id}} .ingredients--text {
+   #shopify-section-{{section.id}} .ingredients__block-text {
       color: {{section.settings.block_text_color}};
   }
 
@@ -58,13 +58,13 @@
           </div>
 
           {% if block.settings.title != blank %}
-            <div class="ingredients-title">
+            <div class="ingredients__block-title">
               <h3>{{ block.settings.title }}</h3>
             </div>
           {% endif %}
 
           {% if block.settings.text != blank %}
-            <div class="ingredients-text">
+            <div class="ingredients__block-text">
               {{ block.settings.text }}
             </div>
           {% endif %}
