@@ -59,6 +59,7 @@
 
 .image-slider-with-text {
     position: relative;
+    overflow: hidden;
 }
 
 .image-slider-with-text .slider-for {
