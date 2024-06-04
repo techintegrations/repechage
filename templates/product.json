@@ -163,7 +163,7 @@
       ],
       "settings": {
         "title": "KEY INGREDIENTS",
-        "align_text": "center",
+        "align_text": "left",
         "title_color": "",
         "desktop_columns_per_row": 4,
         "mobile_columns_per_row": 2,
@@ -227,7 +227,7 @@
         "title": "Testimonials",
         "align_text": "center",
         "round_images": false,
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d",
         "padding_top": 80,
         "padding_bottom": 80,
