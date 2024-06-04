@@ -124,32 +124,7 @@
 
 
   
-  <div class="product-ingredients-row">
-    {% for block in section.blocks %}
-      <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
-        <div class="ingredients-image">
-          <img src="{{ block.settings.logo | img_url: '400x' }}">
-        </div>
 
-        <div class="ingredients__block-info">
-          {% if block.settings.title != blank %}
-            <div class="ingredients__block-title">
-              <h5>{{ block.settings.title }}</h5>
-            </div>
-          {% endif %}
-
-          {% if block.settings.text != blank %}
-            <div class="ingredients_read-more">
-              <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
-            </div>
-            <div id="{{ block.id }}" class="ingredients__block-text" style="display:none;">
-              {{ block.settings.text }}
-            </div>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 </div>
 
 {% schema %}
