@@ -67,7 +67,9 @@
                 <a href="#">{{ block.settings.button_label }}</a>
               </div>
             {% endif %}
-  
+
+            <button data-fancybox data-src="#dialog-content">Launch Dialog</button>
+            
             {% if block.settings.text != blank %}
               <div class="ingredients__block-text">
                 {{ block.settings.text }}
