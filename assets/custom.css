@@ -54,6 +54,15 @@
     flex-wrap: wrap;
 }
 
+.product-ingredients-row .ingredients__block {
+    padding: 0 10px;
+}
+
+.product-ingredients-row .ingredients-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
 #AnnouncementSlide-announcement-1 {
     flex: 1 0 0;
 }
