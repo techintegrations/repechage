@@ -291,6 +291,10 @@
     display: block;
 }
 
+.grid__item-image-wrapper .grid-product__link {
+    padding: 0 15px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
