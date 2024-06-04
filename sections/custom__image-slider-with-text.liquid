@@ -1,6 +1,230 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %}
+  #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      background-color: {{section.settings.bg_color}};
   }
+
+  #shopify-section-{{section.id}} .ingredients__block {
+      flex: 0 0 calc(100% / {{section.settings.desktop_columns_per_row}});
+  }
+
+  #shopify-section-{{section.id}} .ingredients-title h2 {
+      color: {{section.settings.title_color}};
+  }
+
+
+  #shopify-section-{{section.id}} .ingredients__block-title {
+      color: {{section.settings.block_title_color}};
+  }
+
+   #shopify-section-{{section.id}} .ingredients__block-text {
+      color: {{section.settings.block_text_color}};
+  }
+
+  @media screen and (max-width:768px){
+    #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+    }
+
+    #shopify-section-{{section.id}} .ingredients__block {
+      flex: 0 0 calc(100% / {{section.settings.mobile_columns_per_row}});
+    }
+
+
+  }
+{% endstyle %}
+
+<div class="product-ingredients page-width">
+  {%- if section.settings.title != blank -%}
+    <div
+      class="
+        ingredients-title
+        section-header
+      "
+    >
+      <h2 class="text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
+    </div>
+  {%- endif -%}
+  <div class="product-ingredients-row">
+    {% for block in section.blocks %}
+      <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
+        <div class="ingredients-image">
+          <img src="{{ block.settings.logo | img_url: '400x' }}">
+        </div>
+
+        <div class="ingredients__block-info">
+          {% if block.settings.title != blank %}
+            <div class="ingredients__block-title">
+              <h5>{{ block.settings.title }}</h5>
+            </div>
+          {% endif %}
+
+          {% if block.settings.text != blank %}
+            <div class="ingredients_read-more">
+              <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
+            </div>
+            <div id="{{ block.id }}" class="ingredients__block-text" style="display:none;">
+              {{ block.settings.text }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product ingredients",
+  "class": "index-section product-ingredients-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:common.text_with_icons.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:common.text_with_icons.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:common.text_with_icons.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:common.text_with_icons.settings.align_text.options.center.label"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color"
+    },
+    {
+      "type": "range",
+      "id": "desktop_columns_per_row",
+      "label": "t:common.text_with_icons.settings.desktop_columns_per_row.label",
+      "default": 3,
+      "min": 2,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "mobile_columns_per_row",
+      "label": "Mobile columns per row",
+      "default": 2,
+      "min": 1,
+      "max": 3,
+      "step": 1
+    },
+    {
+      "type": "color",
+      "id": "block_title_color",
+      "label": "Block title color"
+    },
+    {
+      "type": "color",
+      "id": "block_text_color",
+      "label": "Block text color"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "header",
+      "content": "Spacing Desktop"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing Mobile"
+    },
+    {
+      "type": "number",
+      "id": "padding_top_m",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom_m",
+      "label": "Bottom spacing",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:common.text_with_icons.settings.divider.label",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "t:common.text_with_icons.blocks.column.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:common.text_with_icons.blocks.column.settings.title.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Read More"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:common.text_with_icons.blocks.column.settings.text.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product ingredients",
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
+  }
+}
 {% endschema %}
