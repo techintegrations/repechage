@@ -6,10 +6,11 @@
         "image_slider_block_Fe6pXT": {
           "type": "image_slider_block",
           "settings": {
-            "title": "",
-            "text": "",
-            "button_label": "Read More",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/IMG_433rev.jpg",
+            "title": "Lorem Ipsum is simply dummy",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
           }
         },
         "image_slider_block_pLW9Ng": {
