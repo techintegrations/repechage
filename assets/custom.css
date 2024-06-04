@@ -65,7 +65,10 @@
 }
 
 .image-slider-with-text .slider-nav {
+    position: absolute;
+    right: 0;
     width: 30%;
+    top: 0;
 }
 
 .image-slider-with-text .slider-banner-image img {
