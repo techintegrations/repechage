@@ -47,7 +47,23 @@
     width: 30px;
 }
 
+.fancybox-bg {
+    background: var(--colorModalBg);
+}
 
+.fancybox-is-open .fancybox-bg {
+    opacity: 1;
+}
+
+
+
+
+
+
+.ingredients__block-text {
+    max-width: 700px;
+    width: 100%;
+}
 
 .product-ingredients-row {
     display: flex;
