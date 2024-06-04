@@ -123,6 +123,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-3d7bd056--buzojesuspHM4aRZSLEunsplash_5B1_5D.png",
             "title": "Ginkgo Biloba Extract",
+            "button_label": "Read More",
             "text": "<p>An extract known for its refreshing qualities.<\/p>"
           }
         },
@@ -131,6 +132,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/Laminaria-200.png",
             "title": "Laminaria digitata - Exclusive Seaweed Extract",
+            "button_label": "Read More",
             "text": "<p>Natural source of 12 vitamins including B12, C, E, K and Beta Carotene, 18 amino acids, and 42 trace elements.<\/p>"
           }
         },
@@ -139,6 +141,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
             "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
+            "button_label": "Read More",
             "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.<\/p>"
           }
         },
@@ -147,6 +150,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
+            "button_label": "Read More",
             "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
           }
         }
@@ -158,10 +162,11 @@
         "text_block_dQyHjF"
       ],
       "settings": {
-        "title": "",
+        "title": "KEY INGREDIENTS",
         "align_text": "center",
         "title_color": "",
         "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 2,
         "block_title_color": "",
         "block_text_color": "",
         "bg_color": "",
