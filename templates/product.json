@@ -23,18 +23,26 @@
             "title": "",
             "text": ""
           }
+        },
+        "text_block_dQyHjF": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "text_block_X7GFUr",
         "text_block_6Qcqer",
-        "text_block_x7z9Mq"
+        "text_block_x7z9Mq",
+        "text_block_dQyHjF"
       ],
       "settings": {
         "title": "",
         "align_text": "center",
         "title_color": "",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 4,
         "block_title_color": "",
         "block_text_color": "",
         "bg_color": "",
