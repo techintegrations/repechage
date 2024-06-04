@@ -61,12 +61,6 @@
             </div>
           {% endif %}
 
-          {% if block.settings.button_label != blank %}
-            <div class="ingredients__block-title">
-              <a href="#">{{ block.settings.button_label }}</a>
-            </div>
-          {% endif %}
-
           {% if block.settings.text != blank %}
             <div class="ingredients_read-more">
               <button data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</button>
