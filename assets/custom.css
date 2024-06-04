@@ -59,6 +59,16 @@
 
 
 
+.image-slider-with-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image-slider-with-text .slider {
+    flex: 0 0 50%;
+    padding: 0 10px;
+}
 
 .ingredients__block-text {
     max-width: 700px;
