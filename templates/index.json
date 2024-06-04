@@ -276,6 +276,7 @@
           "type": "collection",
           "settings": {
             "collection": "t-zone-for-combination-oily-skin",
+            "custom_collection_image": "shopify:\/\/shop_images\/14.png",
             "title": "",
             "focal_point": "center center"
           }
