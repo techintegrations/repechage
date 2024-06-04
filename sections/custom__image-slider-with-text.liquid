@@ -38,9 +38,9 @@
         {% for block in section.blocks %}
           <div class="thumbnail-image">
             {% if block.settings.title != blank %}
-                <h3>{{ block.settings.title }}</h3>
+              <h3>{{ block.settings.title }}</h3>
             {% endif %}
-  
+
             {% if block.settings.text != blank %}
               <div class="block-text">
                 {{ block.settings.text }}
@@ -54,7 +54,6 @@
 </div>
 
 <script>
-
   $('.slider-for').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
