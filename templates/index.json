@@ -1,5 +1,54 @@
 {
   "sections": {
+    "custom_image_slider_with_text_gBLLcE": {
+      "type": "custom__image-slider-with-text",
+      "blocks": {
+        "text_block_EP9hiY": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "button_label": "Read More",
+            "text": ""
+          }
+        },
+        "text_block_CiwBrw": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "button_label": "Read More",
+            "text": ""
+          }
+        },
+        "text_block_Gkftaa": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "button_label": "Read More",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_EP9hiY",
+        "text_block_CiwBrw",
+        "text_block_Gkftaa"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "title_color": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
@@ -611,6 +660,7 @@
     }
   },
   "order": [
+    "custom_image_slider_with_text_gBLLcE",
     "slideshow_ybDcnc",
     "custom_featured_collection_tabs_PaGxFn",
     "custom_text_with_logos_VBrHLU",
