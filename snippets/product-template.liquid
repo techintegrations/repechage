@@ -400,6 +400,10 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.code }}
                     </div>
+                  {%- when 'richtext' -%}
+                    <div class="richtext product-block" {{ block.shopify_attributes }}>
+                      {{ block.settings.richtext }}
+                    </div>
                 {%- endcase -%}
               {%- else -%}
                 <div data-blocks-holder
