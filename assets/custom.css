@@ -85,6 +85,10 @@
     width: 100%;
 }
 
+.image-slider-with-text .slick-list.draggable {
+    height: 100% !important;
+}
+
 .image-slider-with-text .slider-nav .slick-track {
     height: 100% !important;
 }
