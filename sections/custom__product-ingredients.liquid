@@ -55,17 +55,19 @@
               <img src="{{ block.settings.logo | img_url: '400x' }}">
           </div>
 
-          {% if block.settings.title != blank %}
-            <div class="ingredients__block-title">
-              <h5>{{ block.settings.title }}</h5>
-            </div>
-          {% endif %}
-
-          {% if block.settings.text != blank %}
-            <div class="ingredients__block-text">
-              {{ block.settings.text }}
-            </div>
-          {% endif %}
+          <div class="ingredients__block-info">
+            {% if block.settings.title != blank %}
+              <div class="ingredients__block-title">
+                <h5>{{ block.settings.title }}</h5>
+              </div>
+            {% endif %}
+  
+            {% if block.settings.text != blank %}
+              <div class="ingredients__block-text">
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
+          </div>
           
         </div>
       {% endfor %}
