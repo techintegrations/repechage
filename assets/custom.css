@@ -106,6 +106,10 @@
     justify-content: center;
 }
 
+.image-slider-with-text .slider-info .btn {
+    margin: 0px;
+}
+
 .ingredients__block-text {
     max-width: 700px;
     width: 100%;
