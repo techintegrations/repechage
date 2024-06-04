@@ -67,7 +67,9 @@
 
           {% if block.settings.text != blank %}
             <div class="ingredients_read-more rte">
+              <p>
               <a data-fancybox data-src="#{{ block.id }}">{{ block.settings.button_label }}</a>
+              </p>
             </div>
             <div id="{{ block.id }}" class="ingredients__block-text" style="display:none;">
               {{ block.settings.text }}
