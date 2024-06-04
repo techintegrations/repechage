@@ -6,7 +6,9 @@
   }
 
   #shopify-section-{{section.id}} .ingredients__block {
-      flex: 0 0 calc(100% / {{section.settings.desktop_columns_per_row}});
+      flex: 0 0 calc((100% / {{ section.settings.desktop_columns_per_row }}) - 20px);
+      margin-left: 10px;
+      margin-right: 10px;
   }
 
   #shopify-section-{{section.id}} .ingredients-title h2 {
@@ -29,7 +31,9 @@
     }
 
     #shopify-section-{{section.id}} .ingredients__block {
-      flex: 0 0 calc(100% / {{section.settings.mobile_columns_per_row}});
+      flex: 0 0 calc((100% / {{ section.settings.mobile_columns_per_row }}) - 10px);
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
 
