@@ -60,18 +60,18 @@
 </div>
 
   <script>
-    $('.image-slider-with-text .slider-for').slick({
+    $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         fade: true,
         asNavFor: '.slider-nav'
     });
-    $('.image-slider-with-text .slider-nav').slick({
+    $('.slider-nav').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         vertical:true,
-        asNavFor: '.image-slider-with-text .slider-for',
+        asNavFor: '.slider-for',
         dots: false,
         focusOnSelect: true,
         verticalSwiping:true
