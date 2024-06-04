@@ -1,65 +1,5 @@
 {
   "sections": {
-    "custom_image_slider_with_text_gBLLcE": {
-      "type": "custom__image-slider-with-text",
-      "blocks": {
-        "image_slider_block_Fe6pXT": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_433rev.jpg",
-            "title": "Lorem Ipsum is simply dummy",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        },
-        "image_slider_block_VqLBi7": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0332rev.jpg",
-            "title": "Lorem Ipsum is simply dummy",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        },
-        "image_slider_block_RtbnDd": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1740rev.jpg",
-            "title": "Lorem Ipsum is simply dummy",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        },
-        "image_slider_block_epmVdd": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9988croped.jpg",
-            "title": "Lorem Ipsum is simply dummy",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "image_slider_block_Fe6pXT",
-        "image_slider_block_VqLBi7",
-        "image_slider_block_RtbnDd",
-        "image_slider_block_epmVdd"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0
-      }
-    },
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
@@ -309,6 +249,66 @@
         "padding_bottom_m": 50,
         "divider": false,
         "lazyload_images": true
+      }
+    },
+    "custom_image_slider_with_text_gBLLcE": {
+      "type": "custom__image-slider-with-text",
+      "blocks": {
+        "image_slider_block_VqLBi7": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0332rev.jpg",
+            "title": "Lorem Ipsum is simply dummy",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_slider_block_Fe6pXT": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_433rev.jpg",
+            "title": "Lorem Ipsum is simply dummy",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_slider_block_RtbnDd": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1740rev.jpg",
+            "title": "Lorem Ipsum is simply dummy",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_slider_block_epmVdd": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9988croped.jpg",
+            "title": "Lorem Ipsum is simply dummy",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_block_VqLBi7",
+        "image_slider_block_Fe6pXT",
+        "image_slider_block_RtbnDd",
+        "image_slider_block_epmVdd"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
       }
     },
     "featured_collections_xaap9R": {
@@ -671,12 +671,12 @@
     }
   },
   "order": [
-    "custom_image_slider_with_text_gBLLcE",
     "slideshow_ybDcnc",
     "custom_featured_collection_tabs_PaGxFn",
     "custom_text_with_logos_VBrHLU",
     "featured_collection_U6DUhq",
     "text_and_image_hPkL8i",
+    "custom_image_slider_with_text_gBLLcE",
     "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
