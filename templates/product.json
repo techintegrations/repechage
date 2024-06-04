@@ -16,7 +16,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/ingredients-melissa-officinalis_mint_5B1_5D.png",
             "title": "Melissa Officinalis (Balm Mint) Leaf Extract",
-            "text": ""
+            "text": "<p>Rich in caffeic and rosmarinic acids.<\/p>"
           }
         },
         "text_block_x7z9Mq": {
@@ -24,7 +24,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/chammomille_5B1_5D.png",
             "title": "Chamomilla Recutita (Matricaria) Flower Extract",
-            "text": ""
+            "text": "<p>Extracts made from the daisy-like white and yellow heads of the Chamomile flowers.<\/p>"
           }
         },
         "text_block_dQyHjF": {
@@ -32,7 +32,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/ingredients-Multifruit-Acids_5B1_5D.png",
             "title": "Multi-Fruit Acids",
-            "text": ""
+            "text": "<p>A concentrated blend of alpha hydroxy acids (AHA) found naturally in bilberry, sugar cane, sugar maple, orange and lemon. Used to exfoliate dead skin cells, and soothe the skin.<\/p>"
           }
         }
       },
