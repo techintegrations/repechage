@@ -1,5 +1,50 @@
 {
   "sections": {
+    "custom_product_ingredients_kWkECi": {
+      "type": "custom__product-ingredients",
+      "blocks": {
+        "text_block_X7GFUr": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_6Qcqer": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_x7z9Mq": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_X7GFUr",
+        "text_block_6Qcqer",
+        "text_block_x7z9Mq"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "title_color": "",
+        "desktop_columns_per_row": 3,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -166,7 +211,11 @@
         "align_text": "center",
         "round_images": true,
         "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d"
+        "color_text": "#1c1d1d",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
       }
     },
     "product-recommendations": {
@@ -210,6 +259,7 @@
     }
   },
   "order": [
+    "custom_product_ingredients_kWkECi",
     "main",
     "sub",
     "custom_product_tabs_aAdT9e",
