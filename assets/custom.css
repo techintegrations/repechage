@@ -107,7 +107,7 @@
     line-height: 0px;
 }
 
-.image-slider-with-text .slick-track {
+.image-slider-with-text .slick-track, .image-slider-with-text .slick-slide  {
     line-height: 0px;
 }
 
