@@ -57,17 +57,18 @@
 
 
 
-
+.image-slider-with-text {
+    position: relative;
+}
 
 .image-slider-with-text .slider-for {
-    width: 70%;
-    margin-right: 30%;
+    width: 50%;
 }
 
 .image-slider-with-text .slider-nav {
     position: absolute;
     right: 0;
-    width: 30%;
+    width: 50%;
     top: 0;
 }
 
