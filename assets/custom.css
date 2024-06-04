@@ -59,16 +59,18 @@
 
 
 
-/* .image-slider-with-text {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.image-slider-with-text .slider-for {
+    width: 70%;
+    margin-right: 30%;
 }
 
-.image-slider-with-text .slider {
-    flex: 0 0 50%;
-    padding: 0 10px;
-} */
+.image-slider-with-text .slider-nav {
+    width: 30%;
+}
+
+.image-slider-with-text .slider-banner-image img {
+    width: 100%;
+}
 
 .ingredients__block-text {
     max-width: 700px;
