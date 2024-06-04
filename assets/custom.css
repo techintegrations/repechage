@@ -63,7 +63,6 @@
 
 .image-slider-with-text .slider-for {
     width: 50%;
-    padding: 0 20px;
 }
 
 .image-slider-with-text .slider-banner-image {
@@ -77,7 +76,7 @@
     width: 50%;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0 20px;
+    padding: 0 60px;
 }
 
 .image-slider-with-text .slider-banner-image img {
