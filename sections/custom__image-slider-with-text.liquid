@@ -5,35 +5,14 @@
       background-color: {{section.settings.bg_color}};
   }
 
-  #shopify-section-{{section.id}} .ingredients__block {
-      flex: 0 0 calc(100% / {{section.settings.desktop_columns_per_row}});
-  }
-
-  #shopify-section-{{section.id}} .ingredients-title h2 {
-      color: {{section.settings.title_color}};
-  }
-
-
-  #shopify-section-{{section.id}} .ingredients__block-title {
-      color: {{section.settings.block_title_color}};
-  }
-
-   #shopify-section-{{section.id}} .ingredients__block-text {
-      color: {{section.settings.block_text_color}};
-  }
-
   @media screen and (max-width:768px){
     #shopify-section-{{section.id}} {
       padding-top: {{ section.settings.padding_top_m }}px;
       padding-bottom: {{ section.settings.padding_bottom_m }}px;
     }
-
-    #shopify-section-{{section.id}} .ingredients__block {
-      flex: 0 0 calc(100% / {{section.settings.mobile_columns_per_row}});
-    }
-
-
   }
+
+  
 {% endstyle %}
 
 <div class="product-ingredients page-width">
