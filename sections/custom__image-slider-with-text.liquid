@@ -46,6 +46,14 @@
                 {{ block.settings.text }}
               </div>
             {% endif %}
+
+            <div class="rte">
+              <a href="{{ block.settings.link }}" class="btn">
+                {{ block.settings.link_text }}
+              </a>
+            </div>
+
+            
           </div>
         {% endfor %}
       </div>
@@ -53,24 +61,26 @@
   </div>
 </div>
 
-<!-- <script>
-  $('.slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-  });
-  $('.slider-nav').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      vertical:true,
-      asNavFor: '.slider-for',
-      dots: false,
-      focusOnSelect: true,
-      verticalSwiping:true
-  });
-</script> -->
+<!--
+  <script>
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        vertical:true,
+        asNavFor: '.slider-for',
+        dots: false,
+        focusOnSelect: true,
+        verticalSwiping:true
+    });
+  </script>
+-->
 
 {% schema %}
 {
