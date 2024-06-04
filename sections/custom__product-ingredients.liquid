@@ -52,19 +52,19 @@
       data-block-count="{{ section.blocks.size }}"
       >
       {% for block in section.blocks %}
-        <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
-          <div class="text-with-icons__block-icon">
+        <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
+          <div class="ingredients-image">
               <img src="{{ block.settings.logo | img_url: '400x' }}">
           </div>
 
           {% if block.settings.title != blank %}
-            <div class="text-with-icons__block-title">
+            <div class="ingredients-title">
               <h3>{{ block.settings.title }}</h3>
             </div>
           {% endif %}
 
           {% if block.settings.text != blank %}
-            <div class="text-with-icons__block-text">
+            <div class="ingredients-text">
               {{ block.settings.text }}
             </div>
           {% endif %}
