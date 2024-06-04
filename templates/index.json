@@ -254,6 +254,17 @@
     "custom_image_slider_with_text_gBLLcE": {
       "type": "custom__image-slider-with-text",
       "blocks": {
+        "image_slider_block_EgJ8hb": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+            "title": "\"Powerful skin care ingredients for the body with real results.\"",
+            "text": "<p><strong>-Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER,<br\/>REPECHAGE<\/p>",
+            "button_label": "DISCOVER THE COLLECTION",
+            "button_link": "\/collections\/vita-cura-cellusea-body-care-collection",
+            "button_style": "primary"
+          }
+        },
         "image_slider_block_RtbnDd": {
           "type": "image_slider_block",
           "settings": {
@@ -261,7 +272,8 @@
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "primary"
           }
         },
         "image_slider_block_epmVdd": {
@@ -271,7 +283,8 @@
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "primary"
           }
         },
         "image_slider_block_VqLBi7": {
@@ -281,7 +294,8 @@
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "primary"
           }
         },
         "image_slider_block_Fe6pXT": {
@@ -291,11 +305,13 @@
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "primary"
           }
         }
       },
       "block_order": [
+        "image_slider_block_EgJ8hb",
         "image_slider_block_RtbnDd",
         "image_slider_block_epmVdd",
         "image_slider_block_VqLBi7",
