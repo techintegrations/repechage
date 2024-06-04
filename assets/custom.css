@@ -107,6 +107,10 @@
     line-height: 0px;
 }
 
+.image-slider-with-text .slick-track {
+    line-height: 0px;
+}
+
 .image-slider-with-text .slider-info .btn {
     margin: 0px;
 }
