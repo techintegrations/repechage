@@ -106,7 +106,7 @@
     justify-content: center;
 }
 
-.image-slider-with-text .slider-nav .slick-slide {
+.image-slider-with-text .slider-for .slick-slide {
     line-height: 0px;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .product-ingredients-row .ingredients__block {
-    padding: 0 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .product-ingredients-row .ingredients-image img {
