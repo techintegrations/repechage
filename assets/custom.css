@@ -420,6 +420,20 @@
     padding: 0 15px;
 }
 
+.product-logo.product-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin-left: 0px;
+}
+
+.product-logo.product-block .logo {
+    max-width: 120px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
