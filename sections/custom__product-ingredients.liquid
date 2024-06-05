@@ -53,7 +53,7 @@
       <h2 class="text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
     </div>
   {%- endif -%}
-  <div class="product-ingredients-row {% if section.blocks.size > section.settings.desktop_columns_per_row %} product-ingredients-slider {% endif %}">
+  <div class="product-ingredients-row custom-dots-style {% if section.blocks.size > section.settings.desktop_columns_per_row %} product-ingredients-slider {% endif %}">
     {% for block in section.blocks %}
       <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
         <div class="ingredients-image">
