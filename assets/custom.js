@@ -31,6 +31,16 @@ $(document).ready(function () {
     wrapAround: true,
   });
 
+  const flickitySlider = new Flickity(".text-with-logos-slider", {
+    cellAlign: "left",
+    contain: true,
+    prevNextButtons: false,
+    pageDots: true,
+    freeScroll: false,
+    avoidReflow: true,
+    wrapAround: true,
+  });
+
   $(".image-slider-with-text .slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
