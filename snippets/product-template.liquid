@@ -404,6 +404,39 @@
                     <div class="richtext product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.text }}
                     </div>
+                  {%- when 'logo' -%}
+                  <div class="image-with-text__logo" {{ block.shopify_attributes }}>
+                    {%- if block.settings.logo_1 != blank -%}
+                    <div class="logo" {{ block.shopify_attributes }}>
+                      <img src="{{ block.settings.logo_1 | img_url: '75x' }}" alt="{{ block.settings.logo_1 }}">
+                    </div>
+                    {%- endif -%}
+                    {% if block.settings.logo_2 != blank %}
+                    <div class="logo" {{ block.shopify_attributes }}>
+                      <img src="{{ block.settings.logo_2 | img_url: '75x' }}" alt="{{ block.settings.logo_2 }}">
+                    </div>
+                    {% endif %}
+                    {% if block.settings.logo_3 != blank %}
+                    <div class="logo" {{ block.shopify_attributes }}>
+                      <img src="{{ block.settings.logo_3 | img_url: '75x' }}" alt="{{ block.settings.logo_3 }}">
+                    </div>
+                    {% endif %}
+                    {% if block.settings.logo_4 != blank %}
+                    <div class="logo" {{ block.shopify_attributes }}>
+                      <img src="{{ block.settings.logo_4 | img_url: '75x' }}" alt="{{ block.settings.logo_4 }}">
+                    </div>
+                    {% endif %}
+                    {% if block.settings.logo_5 != blank %}
+                    <div class="logo" {{ block.shopify_attributes }}>
+                      <img src="{{ block.settings.logo_5 | img_url: '75x' }}" alt="{{ block.settings.logo_5 }}">
+                    </div>
+                    {% endif %}
+                    {% if block.settings.logo_6 != blank %}
+                    <div class="logo" {{ block.shopify_attributes }}>
+                      <img src="{{ block.settings.logo_6 | img_url: '75x' }}" alt="{{ block.settings.logo_6 }}">
+                    </div>
+                    {% endif %}
+                  </div>
                 {%- endcase -%}
               {%- else -%}
                 <div data-blocks-holder
