@@ -443,6 +443,10 @@
     display: block;
 }
 
+.product-ingredients-row.product-ingredients-slider .flickity-viewport {
+    padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
