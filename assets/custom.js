@@ -21,7 +21,7 @@ $(document).ready(function () {
       .addClass("active");
   });
 
-  const flickitySlider = new Flickity(".text-with-logos-slider", {
+  const flickitySlider = new Flickity(".product-ingredients-slider", {
     cellAlign: "left",
     contain: true,
     prevNextButtons: false,
