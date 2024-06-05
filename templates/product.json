@@ -52,6 +52,11 @@
           "type": "share",
           "settings": {
           }
+        },
+        "logo_H8FzFf": {
+          "type": "logo",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -62,7 +67,8 @@
         "inventory_status",
         "quantity_selector_HQMt8q",
         "buy_buttons",
-        "share"
+        "share",
+        "logo_H8FzFf"
       ],
       "settings": {
         "sku_enable": false,
