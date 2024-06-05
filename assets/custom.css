@@ -56,7 +56,8 @@
 .custom-dots-style .flickity-page-dots {
     align-items: center;
     position: unset;
-    margin-top: 25px;
+    margin-top: 67px;
+    transform: none;
 }
 
 .custom-dots-style .flickity-page-dots .dot {
