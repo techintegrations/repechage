@@ -47,7 +47,7 @@ $(document).ready(function () {
     dots: false,
     arrows: false,
     focusOnSelect: true,
-    verticalSwiping: true,
+    verticalSwiping: false,
   });
 
 
