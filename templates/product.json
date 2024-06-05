@@ -154,15 +154,6 @@
             "text": "<p>Natural source of 12 vitamins including B12, C, E, K and Beta Carotene, 18 amino acids, and 42 trace elements.<\/p>"
           }
         },
-        "text_block_x7z9Mq": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
-            "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
-            "button_label": "Read More",
-            "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.<\/p>"
-          }
-        },
         "text_block_dQyHjF": {
           "type": "text_block",
           "settings": {
@@ -170,6 +161,15 @@
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
             "button_label": "Read More",
             "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
+          }
+        },
+        "text_block_x7z9Mq": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
+            "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
+            "button_label": "Read More",
+            "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.<\/p>"
           }
         },
         "text_block_QkhXYy": {
@@ -185,8 +185,8 @@
       "block_order": [
         "text_block_X7GFUr",
         "text_block_6Qcqer",
-        "text_block_x7z9Mq",
         "text_block_dQyHjF",
+        "text_block_x7z9Mq",
         "text_block_QkhXYy"
       ],
       "settings": {
