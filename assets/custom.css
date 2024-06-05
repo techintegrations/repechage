@@ -139,6 +139,10 @@
     margin-top: 16px;
 }
 
+.ingredients_read-more a {
+    cursor: grab;
+}
+
 #AnnouncementSlide-announcement-1 {
     flex: 1 0 0;
 }
