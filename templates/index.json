@@ -229,72 +229,6 @@
         "lazyload_images": true
       }
     },
-    "custom_text_with_logos_VBrHLU": {
-      "type": "custom__text-with-logos",
-      "blocks": {
-        "text_block_EdJXpk": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/cosmo-logo-2.png",
-            "title": "",
-            "text": "<p>Use this section to explain info here<\/p>"
-          }
-        },
-        "text_block_frN9HT": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
-            "title": "",
-            "text": "<p>Use this section to explain info here<\/p>"
-          }
-        },
-        "text_block_wDJdWR": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/marie-logo.png",
-            "title": "",
-            "text": "<p>Use this section to explain info here<\/p>"
-          }
-        },
-        "text_block_33LTrN": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
-            "title": "",
-            "text": "<p>Use this section to explain info here<\/p>"
-          }
-        },
-        "text_block_UFc3fT": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
-            "title": "",
-            "text": "<p>Use this section to explain info here<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_EdJXpk",
-        "text_block_frN9HT",
-        "text_block_wDJdWR",
-        "text_block_33LTrN",
-        "text_block_UFc3fT"
-      ],
-      "settings": {
-        "title": "in the press",
-        "align_text": "center",
-        "title_color": "",
-        "desktop_columns_per_row": 4,
-        "block_title_color": "",
-        "block_text_color": "",
-        "bg_color": "#f9f9f9",
-        "padding_top": 50,
-        "padding_bottom": 70,
-        "padding_top_m": 50,
-        "padding_bottom_m": 60,
-        "divider": false
-      }
-    },
     "custom_image_slider_with_text_gBLLcE": {
       "type": "custom__image-slider-with-text",
       "blocks": {
@@ -369,6 +303,72 @@
         "padding_bottom": 20,
         "padding_top_m": 0,
         "padding_bottom_m": 20
+      }
+    },
+    "custom_text_with_logos_VBrHLU": {
+      "type": "custom__text-with-logos",
+      "blocks": {
+        "text_block_EdJXpk": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/cosmo-logo-2.png",
+            "title": "",
+            "text": "<p>Use this section to explain info here<\/p>"
+          }
+        },
+        "text_block_frN9HT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
+            "title": "",
+            "text": "<p>Use this section to explain info here<\/p>"
+          }
+        },
+        "text_block_wDJdWR": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/marie-logo.png",
+            "title": "",
+            "text": "<p>Use this section to explain info here<\/p>"
+          }
+        },
+        "text_block_33LTrN": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
+            "title": "",
+            "text": "<p>Use this section to explain info here<\/p>"
+          }
+        },
+        "text_block_UFc3fT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
+            "text": "<p>Use this section to explain info here<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_EdJXpk",
+        "text_block_frN9HT",
+        "text_block_wDJdWR",
+        "text_block_33LTrN",
+        "text_block_UFc3fT"
+      ],
+      "settings": {
+        "title": "in the press",
+        "align_text": "center",
+        "title_color": "",
+        "desktop_columns_per_row": 4,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 50,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 60,
+        "divider": false
       }
     },
     "promo_grid_q7xmp6": {
@@ -693,8 +693,8 @@
     "featured_collections_xaap9R",
     "featured_collection_U6DUhq",
     "text_and_image_hPkL8i",
-    "custom_text_with_logos_VBrHLU",
     "custom_image_slider_with_text_gBLLcE",
+    "custom_text_with_logos_VBrHLU",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
