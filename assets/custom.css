@@ -136,6 +136,15 @@
     margin: 0px;
 }
 
+.image-slider-with-text .slick-dots li button {
+    background-color: #fff;
+    color: #fff;
+}
+
+.image-slider-with-text .slick-dots {
+    bottom: 15px;
+}
+
 .ingredients__block-text {
     max-width: 700px;
     width: 100%;
