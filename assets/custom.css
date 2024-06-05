@@ -78,6 +78,9 @@
 }
 
 
+.collection-item .collection-image img {
+    border-radius: 8px;
+}
 
 .image-slider-with-text {
     position: relative;
