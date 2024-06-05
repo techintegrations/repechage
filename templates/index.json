@@ -148,6 +148,87 @@
         "divider": false
       }
     },
+    "featured_collections_xaap9R": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_RrDh3U": {
+          "type": "collection",
+          "settings": {
+            "collection": "sea-spa-body-care",
+            "custom_collection_image": "shopify:\/\/shop_images\/Anastasia_holding_Vita_Cura_Sea_Spa_Body_Cleanser.jpg",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_EyFH8M": {
+          "type": "collection",
+          "settings": {
+            "collection": "hydra-dew-pure",
+            "custom_collection_image": "shopify:\/\/shop_images\/Repechage_2020_Hydra_Dew_Pure_29.jpg",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_UQdtM8": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-zone-for-combination-oily-skin",
+            "custom_collection_image": "shopify:\/\/shop_images\/14.png",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RrDh3U",
+        "collection_EyFH8M",
+        "collection_UQdtM8"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Spa & Wellness",
+        "featured_image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.jpg",
+        "home_featured_products": "travel-starter-kits",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "text_and_image_hPkL8i": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "\"Powerful skin care ingredients for the body with real results.\"",
+        "text": "<p>-<strong>Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER, REPECHAGE<\/p>",
+        "button_label": "DISCOVER THE COLLECTION",
+        "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura-cellusea-body-care-collection",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 50,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
     "custom_text_with_logos_VBrHLU": {
       "type": "custom__text-with-logos",
       "blocks": {
@@ -212,44 +293,6 @@
         "padding_top_m": 50,
         "padding_bottom_m": 60,
         "divider": false
-      }
-    },
-    "featured_collection_U6DUhq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Spa & Wellness",
-        "featured_image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.jpg",
-        "home_featured_products": "travel-starter-kits",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
-    },
-    "text_and_image_hPkL8i": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "\"Powerful skin care ingredients for the body with real results.\"",
-        "text": "<p>-<strong>Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER, REPECHAGE<\/p>",
-        "button_label": "DISCOVER THE COLLECTION",
-        "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura-cellusea-body-care-collection",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "66",
-        "layout": "left",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 20,
-        "padding_bottom_m": 50,
-        "divider": false,
-        "lazyload_images": true
       }
     },
     "custom_image_slider_with_text_gBLLcE": {
@@ -326,49 +369,6 @@
         "padding_bottom": 20,
         "padding_top_m": 0,
         "padding_bottom_m": 20
-      }
-    },
-    "featured_collections_xaap9R": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_RrDh3U": {
-          "type": "collection",
-          "settings": {
-            "collection": "sea-spa-body-care",
-            "custom_collection_image": "shopify:\/\/shop_images\/Anastasia_holding_Vita_Cura_Sea_Spa_Body_Cleanser.jpg",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "collection_EyFH8M": {
-          "type": "collection",
-          "settings": {
-            "collection": "hydra-dew-pure",
-            "custom_collection_image": "shopify:\/\/shop_images\/Repechage_2020_Hydra_Dew_Pure_29.jpg",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "collection_UQdtM8": {
-          "type": "collection",
-          "settings": {
-            "collection": "t-zone-for-combination-oily-skin",
-            "custom_collection_image": "shopify:\/\/shop_images\/14.png",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "collection_RrDh3U",
-        "collection_EyFH8M",
-        "collection_UQdtM8"
-      ],
-      "settings": {
-        "title": "",
-        "divider": false,
-        "per_row": 3,
-        "enable_gutter": true
       }
     },
     "promo_grid_q7xmp6": {
@@ -690,11 +690,11 @@
   "order": [
     "slideshow_ybDcnc",
     "custom_featured_collection_tabs_PaGxFn",
-    "custom_text_with_logos_VBrHLU",
+    "featured_collections_xaap9R",
     "featured_collection_U6DUhq",
     "text_and_image_hPkL8i",
+    "custom_text_with_logos_VBrHLU",
     "custom_image_slider_with_text_gBLLcE",
-    "featured_collections_xaap9R",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
