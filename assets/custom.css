@@ -31,6 +31,28 @@
     box-shadow: none;
 }
 
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dots li button {
+    padding: 0px;
+    height: 3px;
+    width: 30px;
+    background-color: currentColor;
+    color: currentColor;
+    opacity: 0.4;
+}
+
+.slick-dots li {
+    width: auto;
+    height: auto;
+}
+
+.slick-dots .slick-active button {
+    opacity: 1;
+}
+
 .custom-dots-style .flickity-page-dots {
     bottom: -20px;
     align-items: center;
