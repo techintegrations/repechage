@@ -160,8 +160,10 @@
 }
 
 .product-ingredients-row .ingredients__block {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding-bottom: 20px;
+    box-shadow: #63636333 0 2px 8px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .product-ingredients-row .ingredients-image img {
