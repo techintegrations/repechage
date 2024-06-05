@@ -42,12 +42,12 @@ $(document).ready(function () {
   $(".image-slider-with-text .slider-nav").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    vertical: true,
+    vertical: false,
     asNavFor: ".image-slider-with-text .slider-for",
     dots: false,
     arrows: false,
     focusOnSelect: true,
-    verticalSwiping: false,
+    verticalSwiping: true,
   });
 
 
