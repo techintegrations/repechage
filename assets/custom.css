@@ -441,6 +441,11 @@
     display: block;
 }
 
+.product-ingredients-row.product-ingredients-slider .ingredients__block {
+    margin-bottom: 20px;
+}
+
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
