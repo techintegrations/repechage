@@ -54,10 +54,8 @@
 }
 
 .custom-dots-style .flickity-page-dots {
+    bottom: -20px;
     align-items: center;
-    position: unset;
-    margin-top: 67px;
-    transform: none;
 }
 
 .custom-dots-style .flickity-page-dots .dot {
@@ -163,7 +161,7 @@
 
 .product-ingredients-row .ingredients__block {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 .product-ingredients-row .ingredients-image img {
@@ -431,7 +429,6 @@
     align-items: center;
     list-style: none;
     margin-left: 0px;
-    margin-top: 32px;
 }
 
 .product-logo.product-block .logo {
@@ -442,10 +439,6 @@
 
 .product-ingredients-row.product-ingredients-slider {
     display: block;
-}
-
-.product-ingredients-row.product-ingredients-slider .flickity-viewport {
-    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
