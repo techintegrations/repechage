@@ -31,7 +31,6 @@ $(document).ready(function () {
     wrapAround: true,
   });
 
-
   $(".image-slider-with-text .slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -52,14 +51,5 @@ $(document).ready(function () {
   });
 
 
-  const flickitySlider = new Flickity(".product-ingredients-slider", {
-    cellAlign: "left",
-    contain: true,
-    prevNextButtons: false,
-    pageDots: true,
-    freeScroll: false,
-    avoidReflow: true,
-    wrapAround: true,
-  });
   
 });
