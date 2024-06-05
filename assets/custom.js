@@ -21,6 +21,16 @@ $(document).ready(function () {
       .addClass("active");
   });
 
+  const flickitySlider = new Flickity(".text-with-logos-slider", {
+    cellAlign: "left",
+    contain: true,
+    prevNextButtons: false,
+    pageDots: true,
+    freeScroll: false,
+    avoidReflow: true,
+    wrapAround: true,
+  });
+
   const flickitySlider = new Flickity(".product-ingredients-slider", {
     cellAlign: "left",
     contain: true,
