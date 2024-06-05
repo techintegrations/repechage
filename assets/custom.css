@@ -434,6 +434,10 @@
     margin-right: 10px;
 }
 
+.product-ingredients-row.product-ingredients-slider {
+    display: block;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
