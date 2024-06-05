@@ -140,7 +140,7 @@
 }
 
 .ingredients_read-more a {
-    cursor: grab;
+    cursor: pointer;
 }
 
 #AnnouncementSlide-announcement-1 {
