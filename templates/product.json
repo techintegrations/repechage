@@ -156,6 +156,7 @@
         },
         "text_block_dQyHjF": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
