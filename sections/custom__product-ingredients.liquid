@@ -65,7 +65,7 @@
         <div class="ingredients__block-info">
           {% if block.settings.title != blank %}
             <div class="ingredients__block-title">
-              <a href="/collections/all?filter.p.m.custom.ingredients=Ginkgo+Biloba+Extract">
+              <a href="/collections/all?filter.p.m.custom.ingredients={{ block.settings.title | replace: ' ', '+' }}">
                 <h5>{{ block.settings.title }}</h5>
               </a>
             </div>
