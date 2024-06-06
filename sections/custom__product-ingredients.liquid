@@ -57,7 +57,7 @@
     {% for block in section.blocks %}
       <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
         <div class="ingredients-image">
-          <a href="">
+          <a href="/collections/all?filter.p.m.custom.ingredients={{ block.settings.title | replace: ' ', '+' }}">
             <img src="{{ block.settings.logo | img_url: '400x' }}">
           </a>
         </div>
@@ -65,7 +65,7 @@
         <div class="ingredients__block-info">
           {% if block.settings.title != blank %}
             <div class="ingredients__block-title">
-              <a href="">
+              <a href="/collections/all?filter.p.m.custom.ingredients=Ginkgo+Biloba+Extract">
                 <h5>{{ block.settings.title }}</h5>
               </a>
             </div>
