@@ -57,13 +57,17 @@
     {% for block in section.blocks %}
       <div class="ingredients__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
         <div class="ingredients-image">
-          <img src="{{ block.settings.logo | img_url: '400x' }}">
+          <a href="">
+            <img src="{{ block.settings.logo | img_url: '400x' }}">
+          </a>
         </div>
 
         <div class="ingredients__block-info">
           {% if block.settings.title != blank %}
             <div class="ingredients__block-title">
-              <h5>{{ block.settings.title }}</h5>
+              <a href="">
+                <h5>{{ block.settings.title }}</h5>
+              </a>
             </div>
           {% endif %}
 
