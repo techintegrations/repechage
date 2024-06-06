@@ -173,7 +173,15 @@
 
 .ingredients__block-info {
     padding: 0 10px;
-    margin-top: 16px;
+}
+
+.ingredients-image a {
+    display: block;
+}
+
+.ingredients__block-title a {
+    display: block;
+    padding-top: 16px;
 }
 
 .ingredients_read-more a {
