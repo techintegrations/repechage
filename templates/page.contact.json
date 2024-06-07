@@ -1,20 +1,38 @@
 {
   "sections": {
-    "background_image_text_fhVkdy": {
-      "type": "background-image-text",
+    "slideshow_Pa3qYN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AKXWKk": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Contact Us<\/p>",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/banner_8.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_AKXWKk"
+      ],
       "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/banner_8.png",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
+        "section_height": "550px",
+        "mobile_height": "auto",
         "parallax": false,
-        "parallax_direction": "left",
-        "lazyload_images": false
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "main": {
@@ -96,7 +114,7 @@
     }
   },
   "order": [
-    "background_image_text_fhVkdy",
+    "slideshow_Pa3qYN",
     "main",
     "text_and_image_KYQVFn",
     "form",
