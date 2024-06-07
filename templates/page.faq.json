@@ -58,6 +58,34 @@
             "title": "When will my items be delivered if I use Installments by Afterpay?",
             "text": "<p>Afterpay orders are delivered as per our standard shipping timeframe after you complete your order online.<br\/>Visit our shipping page for more information by clicking here.<\/p>"
           }
+        },
+        "question_McaanT": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a limit to how much I can spend on a single transaction?",
+            "text": "<p>Yes, transaction value limits apply to purchases made on Repechage.com using Installments by Afterpay are between $30 - $1,000.<\/p>"
+          }
+        },
+        "question_kpFBN3": {
+          "type": "question",
+          "settings": {
+            "title": "What products are not eligible for purchase using Installments by Afterpay?",
+            "text": "<p>Afterpay is not available on purchases of gift cards. If you are purchasing gift cards along with Afterpay eligible products, you will need to place two separate orders.<\/p>"
+          }
+        },
+        "question_trVzJR": {
+          "type": "question",
+          "settings": {
+            "title": "How do I return or exchange an item purchased using Installments by Afterpay?",
+            "text": "<p>If you have changed your mind, you can return your Afterpay purchase in store or by mail. All refunds must be obtained from Afterpay. Refunds are not processed by Repechage.com. Afterpay will be notified of your return and will process the appropriate refunds. Please do not return your purchase to Afterpay.<br\/>If you believe there is fault or concern with your Afterpay purchase payment, please contact Afterpay customer support at <a href=\"mailto:info@afterpay.com\" title=\"mailto:info@afterpay.com\">info@afterpay.com<\/a><\/p>"
+          }
+        },
+        "question_hTnk3p": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I find out more about Afterpay?",
+            "text": "<p>If you would like to know more about Afterpay, visit the Afterpay website www.afterpay.com for a comprehensive list of FAQs, terms as well as Afterpay’s Privacy Policy which can be found at <a href=\"https:\/\/www.afterpay.com\/privacy-policy\" title=\"https:\/\/www.afterpay.com\/privacy-policy\">https:\/\/www.afterpay.com\/privacy-policy<\/a> If you have any questions about your Afterpay account, please contact Afterpay directly via web form at https:\/\/help.afterpay.com\/hc\/en-us<\/p>"
+          }
         }
       },
       "block_order": [
@@ -67,7 +95,11 @@
         "faq-4",
         "question_eKC9XD",
         "question_A7gN4A",
-        "question_KW6k4C"
+        "question_KW6k4C",
+        "question_McaanT",
+        "question_kpFBN3",
+        "question_trVzJR",
+        "question_hTnk3p"
       ],
       "settings": {
         "title": "FREQUENTLY ASKED QUESTIONS"
