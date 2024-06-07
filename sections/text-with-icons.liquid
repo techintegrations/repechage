@@ -48,7 +48,8 @@
 
             {% if block.settings.custom_icon != blank %}
 
-              <img src="{{ block.settings.custom_icon | img_url: 'master' }}">
+              <img src="{{ block.settings.custom_image | img_url: 'master' }}">
+              
               {% elsif block.settings.custom_icon != blank %}
                 
               {{ block.settings.custom_icon }}
