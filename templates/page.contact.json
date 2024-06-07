@@ -50,7 +50,9 @@
             "custom_icon": "",
             "icon": "truck",
             "title": "Location",
-            "text": "<p>Repêchage Ltd.<br\/>300 Castle Road Secaucus, NJ 07094.<\/p>"
+            "text": "<p>Repêchage Ltd.<br\/>300 Castle Road Secaucus, NJ 07094.<\/p>",
+            "link_text": "Button",
+            "link": ""
           }
         },
         "text_block_Ab3qNL": {
@@ -59,7 +61,9 @@
             "custom_icon": "",
             "icon": "envelope",
             "title": "Email",
-            "text": "<p><a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com<\/a><\/p>"
+            "text": "<p>info@repechage.com<\/p>",
+            "link_text": "Get in touch",
+            "link": "mailto:info@repechage.com"
           }
         },
         "text_block_Bbhgmy": {
@@ -68,7 +72,9 @@
             "custom_icon": "",
             "icon": "phone",
             "title": "PHONE",
-            "text": "<p>1-800-248-SKIN (7546)<\/p>"
+            "text": "<p>1-800-248-SKIN (7546)<\/p>",
+            "link_text": "Button",
+            "link": ""
           }
         }
       },
@@ -81,7 +87,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "bg_color": "rgba(0,0,0,0)",
