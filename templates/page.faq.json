@@ -27,8 +27,8 @@
         "faq-2": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "How do I use Installments by Afterpay?",
+            "text": "<p>Simply shop online and add items to your shopping bag and checkout as normal. At checkout choose Installments by Afterpay as your payment method. First time customers will need to register with Afterpay and provide payment details as usual, returning customers simply log in to make their purchase. It’s that easy!<br\/>Please note that all items in your shopping bag must be eligible for Installments by Afterpay. A minimum purchase amount may apply and you must meet additional eligibility requirements to qualify.<\/p>"
           }
         },
         "faq-4": {
