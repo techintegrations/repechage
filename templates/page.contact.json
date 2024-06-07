@@ -8,12 +8,13 @@
         "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
         "button_label": "",
         "button_link": "",
+        "image": "shopify:\/\/shop_images\/banner_8.png",
         "layout": "left",
         "height": 550,
         "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
+        "parallax": false,
+        "parallax_direction": "left",
+        "lazyload_images": false
       }
     },
     "main": {
