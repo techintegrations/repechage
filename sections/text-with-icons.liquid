@@ -46,11 +46,11 @@
         <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
           <div class="text-with-icons__block-icon">
 
-            {% if block.settings.custom_icon != blank %}
+            {% if block.settings.select_icon == 'custom_image' %}
 
               <img src="{{ block.settings.custom_image | img_url: 'master' }}">
               
-              {% elsif block.settings.custom_icon != blank %}
+              {% elsif block.settings.select_icon == 'custom_svg_icon' %}
                 
               {{ block.settings.custom_icon }}
               
