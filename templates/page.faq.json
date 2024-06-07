@@ -6,6 +6,30 @@
       "settings": {
       }
     },
+    "text_and_image_HAeHag": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/afterpay-banner-bag-short.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -99,6 +123,7 @@
   },
   "order": [
     "main",
+    "text_and_image_HAeHag",
     "faq"
   ]
 }
