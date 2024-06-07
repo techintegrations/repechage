@@ -34,8 +34,8 @@
         "faq-4": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "Can I use Installments by Afterpay if I’m an international customer?",
+            "text": "<p>Installments by Afterpay is only available to customers with a US billing address within the US and a US mobile phone number. Customers with international billing addresses will not be able to set up an account with Afterpay.<\/p>"
           }
         }
       },
