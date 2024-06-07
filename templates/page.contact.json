@@ -73,8 +73,8 @@
             "icon": "phone",
             "title": "PHONE",
             "text": "<p>1-800-248-SKIN (7546)<\/p>",
-            "link_text": "Button",
-            "link": ""
+            "link_text": "Call Us",
+            "link": "tel:1-800-248"
           }
         }
       },
