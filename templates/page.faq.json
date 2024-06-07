@@ -37,13 +37,29 @@
             "title": "Can I use Installments by Afterpay if I’m an international customer?",
             "text": "<p>Installments by Afterpay is only available to customers with a US billing address within the US and a US mobile phone number. Customers with international billing addresses will not be able to set up an account with Afterpay.<\/p>"
           }
+        },
+        "question_eKC9XD": {
+          "type": "question",
+          "settings": {
+            "title": "How does the payment schedule work?",
+            "text": "<p>All customers are required to make their first payment at the time of purchase, with the remaining three payments deducted automatically every two weeks from your chosen payment method. If you choose to make additional payments before your scheduled pay dates, you may do so through your Afterpay account.<br\/>You can log in to your Afterpay account to view your payment schedule and make a payment before the due date if you choose to do so.<\/p>"
+          }
+        },
+        "question_A7gN4A": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
         }
       },
       "block_order": [
         "faq-0",
         "faq-1",
         "faq-2",
-        "faq-4"
+        "faq-4",
+        "question_eKC9XD",
+        "question_A7gN4A"
       ],
       "settings": {
         "title": "FREQUENTLY ASKED QUESTIONS"
