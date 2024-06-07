@@ -248,6 +248,26 @@
       "name": "t:common.text_with_icons.blocks.column.name",
       "settings": [
         {
+          "type": "select",
+          "id": "select_icon",
+          "label": "Select icon",
+          "default": "icon",
+          "options": [
+            {
+              "value": "custom_image",
+              "label": "Custom image"
+            },
+            {
+              "value": "custom_svg_icon",
+              "label": "Custom svg icon"
+            },
+            {
+              "value": "icon",
+              "label": "Icon"
+            }
+          ]
+        },
+        {
           "type": "html",
           "id": "custom_icon",
           "label": "Custom icon"
