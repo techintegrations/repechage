@@ -94,7 +94,7 @@
         "bg_color": "rgba(0,0,0,0)",
         "padding_top": 80,
         "padding_bottom": 0,
-        "padding_top_m": 50,
+        "padding_top_m": 40,
         "padding_bottom_m": 0,
         "divider": false
       }
