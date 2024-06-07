@@ -20,8 +20,8 @@
         "faq-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "What is Afterpay?",
+            "text": "<p>Afterpay is a service that allows you to make purchases now and pay for them in four equal payments made every 2 weeks without any interest.<\/p>"
           }
         },
         "faq-2": {
@@ -46,7 +46,7 @@
         "faq-4"
       ],
       "settings": {
-        "title": ""
+        "title": "FREQUENTLY ASKED QUESTIONS"
       }
     }
   },
