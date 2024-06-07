@@ -51,7 +51,7 @@
             "icon": "truck",
             "title": "Location",
             "text": "<p>Repêchage Ltd.<br\/>300 Castle Road Secaucus, NJ 07094.<\/p>",
-            "link_text": "Button",
+            "link_text": "",
             "link": ""
           }
         },
@@ -96,30 +96,6 @@
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "divider": false
-      }
-    },
-    "text_and_image_KYQVFn": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LAMINA_MASK_3_6c3254be-11a7-4c15-b0bb-95660f09b656.webp",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "LET US KNOW WHAT YOU'RE LOOKING FOR",
-        "text": "<p><strong>Repêchage Ltd.<br\/><\/strong>300 Castle Road Secaucus, NJ 07094.<\/p><p>Call 1-800-248-SKIN (7546) Or Email: <a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com<\/a><\/p><p>Office Hours: Monday - Thursday  9:00 to 5:30pm EST, Friday  9:00 to 5:00pm EST<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "divider": false,
-        "lazyload_images": true
       }
     },
     "form": {
@@ -174,7 +150,6 @@
     "slideshow_Pa3qYN",
     "main",
     "text_with_icons_L637x6",
-    "text_and_image_KYQVFn",
     "form",
     "newsletter_heLRXk"
   ]
