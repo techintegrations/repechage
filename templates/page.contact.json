@@ -66,9 +66,9 @@
           "type": "text_block",
           "settings": {
             "custom_icon": "",
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "icon": "phone",
+            "title": "PHONE",
+            "text": "<p>1-800-248-SKIN (7546)<\/p>"
           }
         }
       },
