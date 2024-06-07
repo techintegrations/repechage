@@ -47,6 +47,10 @@
           <div class="text-with-icons__block-icon">
 
             {% if block.settings.custom_icon != blank %}
+
+              <img src="{{ block.settings.custom_icon | img_url: 'master' }}">
+              {% elsif block.settings.custom_icon != blank %}
+                
               {{ block.settings.custom_icon }}
             {% else %}
               {% case block.settings.icon %}
