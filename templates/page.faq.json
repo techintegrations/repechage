@@ -9,14 +9,6 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "faq-0": {
-          "type": "rich-text",
-          "settings": {
-            "title": "Shipping",
-            "text": "",
-            "align_text": "left"
-          }
-        },
         "faq-1": {
           "type": "question",
           "settings": {
@@ -89,7 +81,6 @@
         }
       },
       "block_order": [
-        "faq-0",
         "faq-1",
         "faq-2",
         "faq-4",
