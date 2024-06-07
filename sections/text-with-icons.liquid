@@ -5,6 +5,10 @@
       background-color: {{section.settings.bg_color}};
   }
 
+  #shopify-section-{{section.id}} .text-with-icons__blocks .text-with-icons__block {
+      background-color: {{ section.settings.block_bg_color }};
+  }
+
   @media screen and (max-width:768px){
     #shopify-section-{{section.id}} {
       padding-top: {{ section.settings.padding_top_m }}px;
