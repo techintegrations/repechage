@@ -51,6 +51,13 @@
             "title": "What if I can’t pay an Afterpay installment?",
             "text": "<p>If you fail to make a payment, you will be charged an $8 late payment fee, and an additional $8 fee if the missed payment is not made within 7 days. Late fees will not exceed 25% of the total order amount.<\/p><p><br\/>For more details, please see terms and conditions: <a href=\"https:\/\/www.afterpay.com\/purchase-payment-agreement\" title=\"https:\/\/www.afterpay.com\/purchase-payment-agreement\">https:\/\/www.afterpay.com\/purchase-payment-agreement<\/a><\/p>"
           }
+        },
+        "question_KW6k4C": {
+          "type": "question",
+          "settings": {
+            "title": "When will my items be delivered if I use Installments by Afterpay?",
+            "text": "<p>Afterpay orders are delivered as per our standard shipping timeframe after you complete your order online.<br\/>Visit our shipping page for more information by clicking here.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -59,7 +66,8 @@
         "faq-2",
         "faq-4",
         "question_eKC9XD",
-        "question_A7gN4A"
+        "question_A7gN4A",
+        "question_KW6k4C"
       ],
       "settings": {
         "title": "FREQUENTLY ASKED QUESTIONS"
