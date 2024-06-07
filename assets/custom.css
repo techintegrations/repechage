@@ -508,7 +508,9 @@
   
   .image-slider-with-text .slider-nav {
       width: 100%;
-      padding: 40px;
+      position: unset;
+      transform: none;
+      padding: 0px;
   }
   
 }
