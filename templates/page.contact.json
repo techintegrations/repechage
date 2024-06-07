@@ -57,7 +57,7 @@
           "type": "text_block",
           "settings": {
             "custom_icon": "",
-            "icon": "chat",
+            "icon": "envelope",
             "title": "Email",
             "text": "<p><a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com<\/a><\/p>"
           }
