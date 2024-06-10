@@ -347,7 +347,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_433rev.jpg",
             "title": "Lorem Ipsum is simply dummy",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
@@ -621,46 +621,61 @@
         "text_block_gLLAGX": {
           "type": "text_block",
           "settings": {
+            "select_icon": "icon",
             "custom_icon": "",
             "icon": "gift",
             "title": "",
-            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>"
+            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>",
+            "link_text": "",
+            "link": ""
           }
         },
         "text_block_3DUCnQ": {
           "type": "text_block",
           "settings": {
+            "select_icon": "icon",
             "custom_icon": "",
             "icon": "truck",
             "title": "",
-            "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>"
+            "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>",
+            "link_text": "",
+            "link": ""
           }
         },
         "text_block_Cai9em": {
           "type": "text_block",
           "settings": {
+            "select_icon": "icon",
             "custom_icon": "",
             "icon": "bills",
             "title": "",
-            "text": "<p>Hassle-Free Returns<\/p>"
+            "text": "<p>Hassle-Free Returns<\/p>",
+            "link_text": "",
+            "link": ""
           }
         },
         "text_block_PbmhNc": {
           "type": "text_block",
           "settings": {
+            "select_icon": "icon",
             "custom_icon": "",
             "icon": "chat",
             "title": "",
-            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>"
+            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>",
+            "link_text": "",
+            "link": ""
           }
         },
         "text_block_f9MtBD": {
           "type": "text_block",
           "settings": {
+            "select_icon": "icon",
             "custom_icon": "",
             "icon": "bills",
             "title": "",
-            "text": "<p>Hassle-Free Returns<\/p>"
+            "text": "<p>Hassle-Free Returns<\/p>",
+            "link_text": "",
+            "link": ""
           }
         }
       },
@@ -676,6 +691,7 @@
         "align_text": "center",
         "desktop_columns_per_row": 5,
         "icon_color": "#000000",
+        "block_bg_color": "",
         "button_label": "",
         "button_link": "",
         "bg_color": "#f9f9f9",
