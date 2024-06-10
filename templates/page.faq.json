@@ -24,8 +24,8 @@
         "bg_color": "",
         "padding_top": 60,
         "padding_bottom": 60,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "divider": false,
         "lazyload_images": true
       }
