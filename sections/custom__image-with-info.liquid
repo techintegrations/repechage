@@ -22,22 +22,31 @@
 
     <div class="image-with-info">
       {% for block in section.blocks %}
-        <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
-          <div class="text-with-icons__block-icon">
-              <img src="{{ block.settings.logo | img_url: '400x' }}">
+        <div class="image-with-info__row" {{ block.shopify_attributes }}>
+          <div class="image-with-info__image">
+              <img src="{{ block.settings.image | img_url: 'master' }}">
           </div>
 
-          {% if block.settings.title != blank %}
-            <div class="text-with-icons__block-title">
-              <h3>{{ block.settings.title }}</h3>
-            </div>
-          {% endif %}
+          <div class="image-with-info__info">
+              <div class="text-with-icons__block-title">
+                <h3>{{ block.settings.title }}</h3>
+                {% if block.settings.date != blank %}
+                <h6>{{ block.settings.date }}</h6>
+                {% endif %}
+              </div>
+  
+            {% if block.settings.text != blank %}
+              <div class="text-with-icons__block-text">
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
 
-          {% if block.settings.text != blank %}
-            <div class="text-with-icons__block-text">
-              {{ block.settings.text }}
+            {% if block.settings.button_label != blank %}
+              <div class="text-with-icons__block-text">
+                <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+              </div>
+            {% endif %}
             </div>
-          {% endif %}
           
         </div>
       {% endfor %}
