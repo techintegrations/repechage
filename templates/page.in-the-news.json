@@ -61,18 +61,31 @@
         "text_block_PFghkj": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2024-01-31-health.png",
             "title": "health.com",
             "date": "January 31, 2024",
             "text": "<p>After the 4-week testing period, we noticed a boost in overall skin health, more even skin texture, and increased luminosity.<\/p>",
             "button_label": "Shop Honey and Almond Scrub",
             "button_link": "\/products\/honey-and-almond-scrub"
           }
+        },
+        "text_block_CqWT8Y": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024-dermascope-t-zone.png",
+            "title": "Dermascope",
+            "date": "January, 2024",
+            "text": "<p>Ingredients that both bolster the natural moisturizing factor in skin and help restore essential nutrients and beneficial minerals.<\/p>",
+            "button_label": "Shop T-Zone Balance Hydrating Serum",
+            "button_link": "\/products\/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c"
+          }
         }
       },
       "block_order": [
         "text_block_8TbdaM",
         "text_block_h9zPXX",
-        "text_block_PFghkj"
+        "text_block_PFghkj",
+        "text_block_CqWT8Y"
       ],
       "settings": {
         "bg_color": "",
