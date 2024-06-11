@@ -455,6 +455,13 @@
     margin-bottom: 20px;
 }
 
+.product-block .product-recommendations__slide .grid-product__image-mask {
+    flex: 0 0 20%;
+}
+
+.product-block .product-recommendations__slide .grid__item-image-wrapper .atc-btn {
+    flex: 0 0 auto;
+}
 
 @media only screen and (max-width: 768px) {
 
