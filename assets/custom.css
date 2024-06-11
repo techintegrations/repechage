@@ -464,7 +464,8 @@
 }
 
 .product-block .product-recommendations__slide .grid-product__meta {
-    margin: 0px;
+    margin-left: 0px !important;
+    width: 100% !important;
 }
 
 @media only screen and (max-width: 768px) {
