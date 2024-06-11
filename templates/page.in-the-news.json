@@ -32,10 +32,60 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "custom_image_with_info_x89fqx": {
+      "type": "custom__image-with-info",
+      "blocks": {
+        "text_block_8TbdaM": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024-atlanta-skincareline.png",
+            "title": "Jezebel",
+            "date": "March 27, 2024",
+            "text": "<p>Discover Repêchage's seaweed-based skincare, rich in potent nutrients, available at Three13 Salon in Marietta. Embrace the rejuvenating power of the ocean with Repêchage's commitment to top-quality, seaweed-infused products for transformative skincare results.<\/p>",
+            "button_label": "Shop Repêchage Skincare",
+            "button_link": "\/collections\/all-products"
+          }
+        },
+        "text_block_h9zPXX": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_PFghkj": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8TbdaM",
+        "text_block_h9zPXX",
+        "text_block_PFghkj"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_mmLUFq"
+    "rich_text_mmLUFq",
+    "custom_image_with_info_x89fqx"
   ]
 }
