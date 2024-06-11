@@ -475,7 +475,7 @@
 .image-with-info .image-with-info__row {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 calc(50% - 10px);
+    flex: 0 0 50%;
     align-items: center;
 }
 
@@ -491,7 +491,6 @@
 .image-with-info {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 @media only screen and (max-width: 768px) {
