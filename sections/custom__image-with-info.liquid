@@ -30,7 +30,7 @@
         <h2 class="text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
       </div>
     {%- endif -%}
-    <div class="">
+    <div class="image-with-info">
       {% for block in section.blocks %}
         <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
           <div class="text-with-icons__block-icon">
@@ -62,27 +62,6 @@
   "name": "Image with info",
   "class": "index-section image-with-info-section",
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "t:common.text_with_icons.settings.title.label"
-    },
-    {
-      "type": "select",
-      "id": "align_text",
-      "label": "t:common.text_with_icons.settings.align_text.label",
-      "default": "center",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:common.text_with_icons.settings.align_text.options.left.label"
-        },
-        {
-          "value": "center",
-          "label": "t:common.text_with_icons.settings.align_text.options.center.label"
-        }
-      ]
-    },
     {
       "type": "color",
       "id": "bg_color",
