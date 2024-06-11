@@ -22,6 +22,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Algo-Mist-800-2000-Banner.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -31,11 +32,11 @@
         "image_znbwBn"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "550px",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5,
         "lazyload_images": true
       }
