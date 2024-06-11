@@ -28,7 +28,7 @@
           </div>
 
           <div class="image-with-info__info">
-              <div class="text-with-icons__block-title">
+              <div class="image-with-info-title">
                 <h3>{{ block.settings.title }}</h3>
                 {% if block.settings.date != blank %}
                 <h6>{{ block.settings.date }}</h6>
@@ -36,13 +36,13 @@
               </div>
   
             {% if block.settings.text != blank %}
-              <div class="text-with-icons__block-text">
+              <div class="image-with-info-text">
                 {{ block.settings.text }}
               </div>
             {% endif %}
 
             {% if block.settings.button_label != blank %}
-              <div class="text-with-icons__block-text">
+              <div class="image-with-info-button">
                 <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
               </div>
             {% endif %}
