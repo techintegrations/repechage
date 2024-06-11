@@ -61,11 +61,11 @@
         "text_block_PFghkj": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "title": "health.com",
+            "date": "January 31, 2024",
+            "text": "<p>After the 4-week testing period, we noticed a boost in overall skin health, more even skin texture, and increased luminosity.<\/p>",
+            "button_label": "Shop Honey and Almond Scrub",
+            "button_link": "\/products\/honey-and-almond-scrub"
           }
         }
       },
