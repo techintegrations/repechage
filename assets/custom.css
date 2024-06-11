@@ -468,6 +468,10 @@
     width: 100% !important;
 }
 
+.product-block product-recommendations[data-intent=complementary] .grid__item-image-wrapper .image-wrap {
+    width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
