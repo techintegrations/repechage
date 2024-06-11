@@ -50,11 +50,12 @@
         "text_block_h9zPXX": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/2024-newbeauty-c-serum.png",
+            "title": "NewBeauty",
+            "date": "March 8, 2024",
+            "text": "<p>\"I love how lightweight and gentle it is. My skin feels immediately refreshed\" - Brittany Fallon<\/p>",
+            "button_label": "Shop C-Serum Seaweed Filtrate Serum",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_PFghkj": {
