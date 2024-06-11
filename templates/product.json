@@ -69,7 +69,7 @@
           "settings": {
             "product_complementary_heading": "Pairs well with",
             "complementary_count": 10,
-            "per_slide": 3,
+            "per_slide": 1,
             "control_type": "dots",
             "image_style": "default"
           }
