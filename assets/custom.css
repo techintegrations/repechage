@@ -472,6 +472,28 @@
     width: 100%;
 }
 
+.image-with-info .image-with-info__row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 calc(50% - 10px);
+    align-items: center;
+}
+
+.image-with-info__row .image-with-info__image {
+    flex: 0 0 30%;
+}
+
+.image-with-info__row .image-with-info__info {
+    flex: 1 0 0;
+    padding-left: 24px;
+}
+
+.image-with-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
