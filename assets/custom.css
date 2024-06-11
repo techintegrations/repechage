@@ -463,6 +463,10 @@
     flex: 0 0 auto;
 }
 
+.product-block .product-recommendations__slide .grid-product__meta {
+    margin: 0px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
