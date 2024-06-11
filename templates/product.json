@@ -68,7 +68,7 @@
           "type": "complementary_products",
           "settings": {
             "product_complementary_heading": "Pairs well with",
-            "complementary_count": 4,
+            "complementary_count": 10,
             "per_slide": 2,
             "control_type": "dots",
             "image_style": "default"
