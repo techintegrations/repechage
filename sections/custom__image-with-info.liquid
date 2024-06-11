@@ -17,19 +17,9 @@
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div
-  data-section-id="{{ section.id }}"
->
-  <div class="text-with-logos page-width">
-    {%- if section.settings.title != blank -%}
-      <div
-        class="
-          text-with-icons__title
-          section-header"
-      >
-        <h2 class="text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
-      </div>
-    {%- endif -%}
+
+  <div class="image-with-info-wrap page-width">
+
     <div class="image-with-info">
       {% for block in section.blocks %}
         <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
@@ -53,7 +43,6 @@
       {% endfor %}
     </div>
   </div>
-</div>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
