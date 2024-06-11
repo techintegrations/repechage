@@ -6,6 +6,40 @@
       "settings": {
       }
     },
+    "slideshow_cPY6ry": {
+      "type": "slideshow",
+      "blocks": {
+        "image_znbwBn": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_znbwBn"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "rich_text_mmLUFq": {
       "type": "rich-text",
       "blocks": {
@@ -99,6 +133,7 @@
   },
   "order": [
     "main",
+    "slideshow_cPY6ry",
     "rich_text_mmLUFq",
     "custom_image_with_info_x89fqx"
   ]
