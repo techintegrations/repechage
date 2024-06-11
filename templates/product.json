@@ -55,12 +55,23 @@
         },
         "logo_H8FzFf": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "logo_1": "shopify:\/\/shop_images\/DaySpa-2020-Winner-Logo-324_3fa837f4-0e6d-41b3-85a2-07ce5062fd68.png",
             "logo_2": "shopify:\/\/shop_images\/RCA_2017_logo_5b16396e-93ef-4a0a-a7e3-c4e577e82a8e.png",
             "logo_3": "shopify:\/\/shop_images\/Launchpad-Award-2016-Reduced.png",
             "logo_4": "shopify:\/\/shop_images\/lne-spa-best-2015.png",
             "logo_5": "shopify:\/\/shop_images\/lne-spa-best-2016.png"
+          }
+        },
+        "complementary_products_KrNQ3H": {
+          "type": "complementary_products",
+          "settings": {
+            "product_complementary_heading": "Pairs well with",
+            "complementary_count": 4,
+            "per_slide": 2,
+            "control_type": "dots",
+            "image_style": "default"
           }
         }
       },
@@ -73,7 +84,8 @@
         "quantity_selector_HQMt8q",
         "buy_buttons",
         "share",
-        "logo_H8FzFf"
+        "logo_H8FzFf",
+        "complementary_products_KrNQ3H"
       ],
       "settings": {
         "sku_enable": false,
