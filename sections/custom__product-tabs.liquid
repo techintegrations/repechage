@@ -38,7 +38,7 @@
             </div>
           {% endif %}
 
-          <div class="product-tab__image-video">
+          <div class="product-tab__image-video select-{{ block.settings.image_video }}">
             <div class="product-tab__image">
               <img src="{{ block.settings.image | img_url: 'master' }}">
             </div>
@@ -98,6 +98,22 @@
           "type": "richtext",
           "id": "text",
           "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "image_video",
+          "label": "Select image or video",
+          "default": "image",
+          "options": [
+            {
+              "value": "image",
+              "label": "Image"
+            },
+            {
+              "value": "video",
+              "label": "Video"
+            }
+          ]
         },
         {
           "type": "image_picker",
