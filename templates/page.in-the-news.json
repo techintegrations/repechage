@@ -555,6 +555,16 @@
             "button_label": "Featuring Vita Cura® Gold Collection",
             "button_link": "\/collections\/vita-cura-gold-collection"
           }
+        },
+        "text_block_gMctEB": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -601,7 +611,8 @@
         "text_block_yACdtP",
         "text_block_FyfXRH",
         "text_block_yAbVfe",
-        "text_block_Ra6rxd"
+        "text_block_Ra6rxd",
+        "text_block_gMctEB"
       ],
       "settings": {
         "bg_color": "",
