@@ -335,6 +335,27 @@
             "button_label": "Shop Hydra Dew Pure™ Moisture Lift Serum",
             "button_link": "\/products\/hydra-dew-pure-moisture-lift-serum"
           }
+        },
+        "text_block_Y8ibqL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-01-17-Huffpost.png",
+            "title": "HuffPost",
+            "date": "January 17, 2022",
+            "text": "<p>\"Toners will help to restore your skin’s pH level, which can be affected by your face wash.\"<\/p>",
+            "button_label": "Shop Repêchage® Toners",
+            "button_link": "\/collections\/cleansers-and-toners"
+          }
+        },
+        "text_block_kTBGta": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -361,7 +382,9 @@
         "text_block_hkwPfP",
         "text_block_GqChFq",
         "text_block_gpTzcY",
-        "text_block_gfeDxp"
+        "text_block_gfeDxp",
+        "text_block_Y8ibqL",
+        "text_block_kTBGta"
       ],
       "settings": {
         "bg_color": "",
