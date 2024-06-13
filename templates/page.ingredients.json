@@ -4,9 +4,45 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "slideshow_k7fhXm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_iq3Jqe": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Seaweed_in_Bowl_image.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_iq3Jqe"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_k7fhXm"
   ]
 }
