@@ -559,11 +559,12 @@
         "text_block_gMctEB": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/GenLux-Peptide-Masks.png",
+            "title": "GenLux Magazine",
+            "date": "September, 2019",
+            "text": "<p>\"Your skin will be revitalized, lifted, and drenched in hydration.\"<\/p>",
+            "button_label": "Featuring Triple Action Peptide Mask For All Skin Types",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/triple-action-peptide-mask"
           }
         }
       },
