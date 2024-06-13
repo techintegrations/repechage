@@ -719,12 +719,79 @@
             "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
             "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
+        },
+        "text_block_FBpzpw": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_UX4BQB": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cosmo-Italy-Rapidex-March-2019.png",
+            "title": "Cosmopolitan",
+            "date": "March, 2019",
+            "text": "",
+            "button_label": "Featuring Rapidex® Marine Exfoliator With Phyto-Marine Actives",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+          }
+        },
+        "text_block_6NpaRC": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_8FKtMj": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_bQbzGL": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_Ddbm96": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_PW4PrK",
         "text_block_6QRB8x",
-        "text_block_VV9xcb"
+        "text_block_VV9xcb",
+        "text_block_FBpzpw",
+        "text_block_UX4BQB",
+        "text_block_6NpaRC",
+        "text_block_8FKtMj",
+        "text_block_bQbzGL",
+        "text_block_Ddbm96"
       ],
       "settings": {
         "bg_color": "",
