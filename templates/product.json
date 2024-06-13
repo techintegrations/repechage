@@ -127,8 +127,7 @@
             "show_product_description": false,
             "text": "<p>Description<br\/>Key Ingredients<br\/>Directions<br\/>Clinically proven to demonstrate a 58% increase in moisturization with daily use in just 4 weeks*.<br\/>Transform the appearance of your skin with this nourishing night cream. Three Seaweed extracts and Hyaluronic Acid help to restore the skin’s natural moisture barrier. Our skin-comfort concept helps to diminish the appearance of fine lines and wrinkles and help to promote the appearance of skin elasticity and ultimate hydration.<br\/><br\/>Size: 150 ml<br\/><br\/><strong>Mastic Oil<\/strong><br\/>Known as the “Tears of Chios,” Mastic or Mastiha is a precious, ivory-colored resin with a balsam-like scent derived from the mastic tree known scientifically as Pistacia lentiscus. Although cultivated in other areas, it is the mastic trees in the southern tip of an island in the Aegean that is most legendary. There, in the twenty four “Mastichohoria,” or mastic producing villages, mastic resin is harvested in the same way it has been for thousands of years, protected by the tall walls of the medieval fortresses.<br\/><br\/>This ingredient is known to help strengthen the appearance of the skin barrier and to instantly help reduce dryness while helping reduce the appearance of lines and dark spots.<\/p>",
             "image_video": "image",
-            "image": "shopify:\/\/shop_images\/VC_Eau_Fraiche_Candle.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ccc13d90233a4af992fae5c3c81d1d5c.mp4"
+            "video_url": ""
           }
         },
         "tab_c7TMwR": {
@@ -138,7 +137,8 @@
             "show_product_description": false,
             "text": "<p>Apply to wet skin. Massage thoroughly concentrating on areas of concern. Rinse with lukewarm water. Follow with Biolight™ Brightening Toner. Use twice daily.<\/p>",
             "image_video": "image",
-            "video_url": ""
+            "image": "shopify:\/\/shop_images\/Anastasia_holding_Vita_Cura_Sea_Spa_Body_Cleanser.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ccc13d90233a4af992fae5c3c81d1d5c.mp4"
           }
         },
         "tab_B8eLpx": {
@@ -222,11 +222,9 @@
       "settings": {
         "title": "KEY INGREDIENTS",
         "align_text": "center",
-        "title_color": "",
         "desktop_columns_per_row": 4,
         "mobile_columns_per_row": 2,
         "block_title_color": "",
-        "block_text_color": "",
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0,
