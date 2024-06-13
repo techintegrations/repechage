@@ -1690,10 +1690,11 @@
         "text_block_UEMgX8": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
+            "image": "shopify:\/\/shop_images\/GlamourOctoberVitaCuraFirmingCre.png",
+            "title": "Glamour",
+            "date": "October, 2004",
+            "text": "<p>\"All testers reported having less-visible fine lines after two to four weeks.\"<\/p>",
+            "button_label": "Vita Cura® Triple Firming Cream",
             "button_link": ""
           }
         },
