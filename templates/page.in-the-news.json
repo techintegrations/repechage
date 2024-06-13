@@ -236,6 +236,17 @@
             "button_label": "Featuring Vita Cura® CelluSea Firm™ Neck and Body Serum",
             "button_link": "\/products\/vita-cura-cellusea-firm-neck-and-body-serum"
           }
+        },
+        "text_block_JxHFXK": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-06-22-TheAtlantan.png",
+            "title": "The Atlantan",
+            "date": "June 22, 2022",
+            "text": "<p>\"I met her, blew her hair out, and we ended up shoe shopping at Neiman Marcus afterward,\" says Hightower of Lydia Sarfati, founder of renowned luxury skincare brand Repêchage. Sarfati and Hightower have remained close friends ever since that initial shopping trip, leading to Steve Hightower Salon & Spa becoming the first hair salon to carry Repêchage products.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -253,7 +264,8 @@
         "text_block_CTJxJB",
         "text_block_Jg8GRP",
         "text_block_9cEVFW",
-        "text_block_9i6gLG"
+        "text_block_9i6gLG",
+        "text_block_JxHFXK"
       ],
       "settings": {
         "bg_color": "",
