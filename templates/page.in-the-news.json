@@ -1404,11 +1404,12 @@
         "text_block_mj7iqh": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/120101_Pregnancy.png",
+            "title": "Pregnancy & Newborn Magazine",
+            "date": "January, 2012",
+            "text": "<p>\"...the Biolight Collection helps reduce the appearance of pregnancy mask, uneven skin tone..\"<\/p>",
+            "button_label": "Featuring Repêchage Biolight™",
+            "button_link": "\/collections\/biolight-brightening-skin-care-products"
           }
         },
         "text_block_7fm7QR": {
