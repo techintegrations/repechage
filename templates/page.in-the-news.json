@@ -148,6 +148,17 @@
             "button_label": "Visit lydiasarfati.com",
             "button_link": ""
           }
+        },
+        "text_block_QwAwPc": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-04-sass-drybrush.png",
+            "title": "Sass",
+            "date": "April, 2023",
+            "text": "<p>\"Dry Brushing is a powerful addition to any skincare and wellness routine. Topical dry brushing has incredible skin exfoliation benefits. The dry bristles exfoliate dry, dead skin cells revealing smoother looking skin.\" - Shiri Sarfati<br\/><\/p>",
+            "button_label": "Shop Dry Body Brush with Exfoliating Cactus Bristle",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -157,7 +168,8 @@
         "text_block_CqWT8Y",
         "text_block_E3ftfQ",
         "text_block_eXrwEE",
-        "text_block_Mb7Lzq"
+        "text_block_Mb7Lzq",
+        "text_block_QwAwPc"
       ],
       "settings": {
         "bg_color": "",
