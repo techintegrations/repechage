@@ -5,14 +5,6 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "",
-            "link": ""
-          }
-        },
         "announcement-0": {
           "type": "announcement",
           "settings": {
@@ -20,22 +12,13 @@
             "link_text": "FREE STD. SHIPPING ON CONTIGOUS US ORDERS OF $99+ PLUS COMPLIMENTARY SAMPLES WITH EVERY ORDER!",
             "link": ""
           }
-        },
-        "button_6WhTj6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Professionals",
-            "button_link": "https:\/\/pro.repechage.com\/",
-            "open_new_tab": true
-          }
         }
       },
       "block_order": [
-        "announcement-1",
-        "announcement-0",
-        "button_6WhTj6"
+        "announcement-0"
       ],
       "settings": {
+        "announcement_compact": false
       }
     },
     "header": {
