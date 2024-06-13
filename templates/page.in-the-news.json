@@ -866,11 +866,12 @@
         "text_block_iHj6qK": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-03-harpers-bazaar-01.png",
+            "title": "Harper's Bazaar",
+            "date": "March, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Opti-Cleanse™ Extra Gentle Non-Oily Eye Makeup Remover",
+            "button_link": "\/products\/opti-cleanse-extra-gentle-non-oily-eye-make-up-remover"
           }
         },
         "text_block_QK4mdf": {
