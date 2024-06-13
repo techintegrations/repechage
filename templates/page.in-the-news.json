@@ -1481,9 +1481,10 @@
         "text_block_f3VJRX": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/101215_allure.png",
+            "title": "Allure",
+            "date": "December, 2010",
+            "text": "<p>\"A capful of these salts, infused with grapefruit and mint essential oils, makes for a rejuvenating bath.\"<\/p>",
             "button_label": "",
             "button_link": ""
           }
