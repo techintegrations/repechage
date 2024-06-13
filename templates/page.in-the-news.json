@@ -445,6 +445,27 @@
             "button_label": "Featuring Kansa Wand",
             "button_link": "\/collections\/accessories\/products\/repechage-kansa-wand"
           }
+        },
+        "text_block_Yy4Uch": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20-04-14A-marie-claire-stor.png",
+            "title": "Marie Claire",
+            "date": "April, 2020",
+            "text": "<p>\"The magic potion... formulated with anti-aging ingredients like niacinamide, hyaluronic acid and laminaria digitata seaweed filtrate.\"<\/p>",
+            "button_label": "Featuring Vita Cura Gold",
+            "button_link": "\/collections\/vita-cura"
+          }
+        },
+        "text_block_acCiBc": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -481,7 +502,9 @@
         "text_block_PwDM9X",
         "text_block_BERDPT",
         "text_block_BXFU3r",
-        "text_block_BUhbNF"
+        "text_block_BUhbNF",
+        "text_block_Yy4Uch",
+        "text_block_acCiBc"
       ],
       "settings": {
         "bg_color": "",
