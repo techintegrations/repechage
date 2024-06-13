@@ -328,11 +328,12 @@
         "text_block_gfeDxp": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/2022-01-19-NewBeauty.png",
+            "title": "NewBeauty",
+            "date": "January 19, 2022",
+            "text": "<p>\"Getting the Repêchage Hydra Dew Pure Moisturizing Lift facial featuring the brand’s signature antioxidant-rich seaweed from CEO and founder Lydia Sarfati was a real treat. Laminaria digitata seaweed contains amino acids, vitamins and trace elements and minerals that work to calm and restore aging skin.\"<\/p>",
+            "button_label": "Shop Hydra Dew Pure™ Moisture Lift Serum",
+            "button_link": "\/products\/hydra-dew-pure-moisture-lift-serum"
           }
         }
       },
