@@ -427,11 +427,12 @@
         "text_block_BXFU3r": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/20-07-Social-Life.png",
+            "title": "Society Life Magazine",
+            "date": "July, 2020",
+            "text": "<p>\"The formula contains a unique combination of seaweed extract, gingko biloba, and aloe to give skin a healthy glow.\"<\/p>",
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_BUhbNF": {

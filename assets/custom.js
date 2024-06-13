@@ -41,7 +41,7 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
-  const flickitySlider2 = new Flickity(".product-ingredients-slider", {
+  const flickitySlider3 = new Flickity(".product-list-block_slider", {
       cellAlign: "left",
       contain: true,
       prevNextButtons: false,
