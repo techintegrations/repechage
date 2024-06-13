@@ -1316,9 +1316,10 @@
         "text_block_6LgPry": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/150303_ny-magazine.png",
+            "title": "New York Magazine",
+            "date": "March 9-22, 2015",
+            "text": "<p>\"This elusive \"artisan seaweed wax experience\" came to town in January, incorporating seaweed from the Brittany coast...\"<\/p>",
             "button_label": "",
             "button_link": ""
           }
