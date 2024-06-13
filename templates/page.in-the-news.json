@@ -1635,11 +1635,12 @@
         "text_block_mB3KhN": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/EssenceSept05.png",
+            "title": "Essence",
+            "date": "September, 2005",
+            "text": "<p>\"Sustain that dewy glow well beyond summer, keep hydration at your fingertips.\"<\/p>",
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_Ly4Urh": {
