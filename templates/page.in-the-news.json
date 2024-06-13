@@ -379,6 +379,27 @@
             "button_label": "Featuring Hydra Blue® For All Skin Types",
             "button_link": "\/collections\/cell-renewal-for-all-skin-types"
           }
+        },
+        "text_block_7e47Qk": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-03-24-Identify-LA.png",
+            "title": "Identify LA",
+            "date": "March, 2021",
+            "text": "<p>\"Our top pick is the Hydra Dew Pure Gentle Foaming Cleanser. It's a softly-foaming, gentle wash that contains three select seaweed extracts to nourish skin, while natural botanicals such as water lily and oat bran extracts help reduce the appearance of irritation.\"<br\/><\/p>",
+            "button_label": "Featuring Hydra Dew Pure Gentle Foaming Cleanser",
+            "button_link": "\/collections\/hydra-dew-pure\/products\/hydra-dew-pure-gentle-foaming-cleanser"
+          }
+        },
+        "text_block_rqRH8W": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -409,7 +430,9 @@
         "text_block_Y8ibqL",
         "text_block_kTBGta",
         "text_block_LrXKMQ",
-        "text_block_E8JJFr"
+        "text_block_E8JJFr",
+        "text_block_7e47Qk",
+        "text_block_rqRH8W"
       ],
       "settings": {
         "bg_color": "",
