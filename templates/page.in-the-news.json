@@ -1580,11 +1580,12 @@
         "text_block_BphnaH": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/MoreDec06.png",
+            "title": "More Magazine",
+            "date": "December, 2006...help firm, brighten and smooth.",
+            "text": "<p>...help firm, brighten and smooth.<\/p>",
+            "button_label": "Featuring Rapidex® Marine Exfoliator with Phyto-Marine Actives",
+            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_bFJVLD": {
