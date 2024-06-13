@@ -281,9 +281,9 @@
 
 .grid__item-image-wrapper .atc-btn {
     text-align: center;
-    padding: 5px 5px 15px 5px;
     position: relative;
     z-index: 11;
+    margin-top: 5px;
 }
 
 .footer__bottom-text {
