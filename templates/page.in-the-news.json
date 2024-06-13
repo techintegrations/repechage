@@ -877,8 +877,9 @@
         "text_block_QK4mdf": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-03-27-Vanity-Fair-Marzo-sma.png",
+            "title": "Vanity Fair",
+            "date": "March 27, 2017",
             "text": "",
             "button_label": "",
             "button_link": ""
