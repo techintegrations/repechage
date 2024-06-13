@@ -203,6 +203,17 @@
             "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
             "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
           }
+        },
+        "text_block_Jg8GRP": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-10-13-NewBeauty.png",
+            "title": "NewBeauty",
+            "date": "Oct 13, 2022",
+            "text": "<p>\"This facial features the brand’s signature, nutrient-rich Laminaria digitata seaweed, which is sustainably harvested from the coast of Maine and is a natural source of 12 vitamins including B12, C, E, and K, as well as beta carotene, amino acids and various skin-friendly trace elements\"<\/p>",
+            "button_label": "Featuring Hydra Dew Pure™ Facial Moisturizer",
+            "button_link": "\/products\/hydra-dew-pure-facial-moisturizer"
+          }
         }
       },
       "block_order": [
@@ -217,7 +228,8 @@
         "text_block_3PJCbh",
         "text_block_Mk8RwA",
         "text_block_BGY6Pc",
-        "text_block_CTJxJB"
+        "text_block_CTJxJB",
+        "text_block_Jg8GRP"
       ],
       "settings": {
         "bg_color": "",
