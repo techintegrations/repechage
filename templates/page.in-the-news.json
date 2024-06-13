@@ -566,6 +566,16 @@
             "button_label": "Featuring Triple Action Peptide Mask For All Skin Types",
             "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/triple-action-peptide-mask"
           }
+        },
+        "text_block_BPiqnM": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -613,7 +623,8 @@
         "text_block_FyfXRH",
         "text_block_yAbVfe",
         "text_block_Ra6rxd",
-        "text_block_gMctEB"
+        "text_block_gMctEB",
+        "text_block_BPiqnM"
       ],
       "settings": {
         "bg_color": "",
