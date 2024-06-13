@@ -683,12 +683,62 @@
         "padding_bottom_m": 0,
         "divider": false
       }
+    },
+    "custom_image_with_info_gekQH6": {
+      "type": "custom__image-with-info",
+      "blocks": {
+        "text_block_PW4PrK": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/california_vibe-chocofina-mask-s.png",
+            "title": "CV LUX",
+            "date": "August, 2019",
+            "text": "<p>\"The best pumpkin skincare to spice up your routine now and every day of the year!\"Featuring FUSION™ Pumpkinfina Moisturizing Mask<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_6QRB8x": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_VV9xcb": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_PW4PrK",
+        "text_block_6QRB8x",
+        "text_block_VV9xcb"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow_cPY6ry",
     "rich_text_mmLUFq",
-    "custom_image_with_info_x89fqx"
+    "custom_image_with_info_x89fqx",
+    "custom_image_with_info_gekQH6"
   ]
 }
