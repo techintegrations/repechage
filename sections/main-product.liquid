@@ -245,6 +245,73 @@
   ]
 },
 {
+  "type": "product_list",
+  "name": "Product list",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "text",
+      "id": "product_list_heading",
+      "label": "Heading",
+      "default": "Pairs well with"
+    },
+    {
+      "type": "range",
+      "id": "complementary_count",
+      "label": "t:sections.product-complementary.settings.complementary_count.label",
+      "default": 4,
+      "min": 2,
+      "max": 10,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "per_slide",
+      "label": "t:sections.product-complementary.settings.per_slide.label",
+      "default": 1,
+      "min": 1,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "select",
+      "id": "control_type",
+      "label": "t:sections.product-complementary.settings.control_type.label",
+      "options": [
+        {
+          "value": "dots",
+          "label": "t:sections.product-complementary.settings.control_type.options.dots.label"
+        },
+        {
+          "value": "arrows",
+          "label": "t:sections.product-complementary.settings.control_type.options.arrows.label"
+        }
+      ],
+      "default": "dots"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.product-complementary.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "image_style",
+      "label": "t:sections.product-complementary.settings.image_style.label",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.product-complementary.settings.image_style.options.default.label"
+        },
+        {
+          "value": "circle",
+          "label": "t:sections.product-complementary.settings.image_style.options.circle.label"
+        }
+      ],
+      "default": "default"
+    }
+  ]
+},
+{
   "type": "size_chart",
   "name": "t:product_block.size_chart.name",
   "limit": 1,
