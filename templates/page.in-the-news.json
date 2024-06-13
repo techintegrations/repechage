@@ -192,6 +192,17 @@
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
             "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
+        },
+        "text_block_CTJxJB": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-11-01-Health.png",
+            "title": "Health",
+            "date": "Nov 1, 2022",
+            "text": "<p>\"Give your pores a nice, deep clean with our top pick, the Hydra Medic Sea Mud Perfecting Mask\"<\/p>",
+            "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
+            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
+          }
         }
       },
       "block_order": [
@@ -205,7 +216,8 @@
         "text_block_QwAwPc",
         "text_block_3PJCbh",
         "text_block_Mk8RwA",
-        "text_block_BGY6Pc"
+        "text_block_BGY6Pc",
+        "text_block_CTJxJB"
       ],
       "settings": {
         "bg_color": "",
