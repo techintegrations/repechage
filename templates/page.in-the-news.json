@@ -258,6 +258,17 @@
             "button_label": "Featuring Vita Cura® CelluSea Firm™ Neck and Body Serum",
             "button_link": "\/products\/vita-cura-cellusea-firm-neck-and-body-serum"
           }
+        },
+        "text_block_JTDARt": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-04-29-Forbes.png",
+            "title": "Forbes",
+            "date": "April 29, 2022",
+            "text": "<p>\"This collection features five travel-friendly items, from the Hydra Dew Pure™ Gentle Foaming Cleanser to the Hydra Dew Pure™ Eye Contour Cream, to maintain soft and supple skin all day and night.\"<\/p>",
+            "button_label": "Featuring Hydra Dew Pure™ Starter Collection",
+            "button_link": "\/products\/hydra-dew-pure-starter-collection"
+          }
         }
       },
       "block_order": [
@@ -277,7 +288,8 @@
         "text_block_9cEVFW",
         "text_block_9i6gLG",
         "text_block_JxHFXK",
-        "text_block_qHT6jJ"
+        "text_block_qHT6jJ",
+        "text_block_JTDARt"
       ],
       "settings": {
         "bg_color": "",
