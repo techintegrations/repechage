@@ -15,9 +15,13 @@
     "cutom_product_list_section_i4mbJt": {
       "type": "cutom__product-list-section",
       "settings": {
-        "title": "Featured collection",
+        "title": "Product List",
         "product_list": [
-
+          "algo-mist-hydrating-seaweed-facial-spray-travel-size",
+          "algo-mist-hydrating-seaweed-facial-spray-2",
+          "biolight-brightening-overnight-cream",
+          "biolight-brightening-serum",
+          "biolight-brightening-sheet-mask"
         ],
         "per_row": 4,
         "rows": 1,
