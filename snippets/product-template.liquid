@@ -391,7 +391,7 @@
                           {%- render 'product-grid-item',
                             product: product,
                             collection: collection,
-                            per_row: per_row,
+                            per_row: block.settings.per_row,
                             quick_shop_enable: settings.quick_shop_enable,
                             fallback: fallback,
                           -%}
