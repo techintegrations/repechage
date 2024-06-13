@@ -1334,12 +1334,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_VGwHyN": {
+          "type": "text_block",
+          "settings": {
+            "title": "Dr. Oz The Good Life",
+            "date": "October, 2014",
+            "text": "<p>\"an extraordinary moisturizer that may also have anti-inflammatory properties\" - Adam Friedman, M.D.<\/p><p>Featuring Vita Cura® Triple Action Nutrí Créme<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_Ti4kDn",
         "text_block_6LgPry",
-        "text_block_bLbQ6b"
+        "text_block_bLbQ6b",
+        "text_block_VGwHyN"
       ],
       "settings": {
         "bg_color": "",
