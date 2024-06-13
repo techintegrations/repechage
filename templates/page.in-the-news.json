@@ -1613,8 +1613,9 @@
         "text_block_KcCK7G": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/tbeauty.png",
+            "title": "NY Times",
+            "date": "October, 2005",
             "text": "",
             "button_label": "",
             "button_link": ""
