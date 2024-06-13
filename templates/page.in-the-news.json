@@ -1382,6 +1382,37 @@
         "text_block_PeLiXU": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/130327_WallStreet.png",
+            "title": "Wall Street Journal",
+            "date": "March, 2013",
+            "text": "<p>\"This is the latest trend: businesswomen and businessmen getting facials on their lunch hour...\" - Shiri Sarfati<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_MYfVUB": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_mj7iqh": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_7fm7QR": {
+          "type": "text_block",
+          "settings": {
             "title": "",
             "date": "",
             "text": "",
@@ -1398,7 +1429,10 @@
         "text_block_MYRykT",
         "text_block_b3tQUm",
         "text_block_yfzicf",
-        "text_block_PeLiXU"
+        "text_block_PeLiXU",
+        "text_block_MYfVUB",
+        "text_block_mj7iqh",
+        "text_block_7fm7QR"
       ],
       "settings": {
         "bg_color": "",
