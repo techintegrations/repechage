@@ -844,11 +844,12 @@
         "text_block_whqKUJ": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-04-ok-01.png",
+            "title": "OK",
+            "date": "March, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Sea Cleanse® Foaming Seaweed Cleanser",
+            "button_link": "\/products\/sea-cleanse-foaming-seaweed-cleanser"
           }
         },
         "text_block_kCti3i": {
