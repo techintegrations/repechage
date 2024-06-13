@@ -1185,11 +1185,12 @@
         "text_block_arfzYR": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2015-09-08-korean-flight.png",
+            "title": "Korean Flight Attendants’ Guide to K-Beauty",
+            "date": "September 8, 2015",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Rapidex® Marine Exfoliator",
+            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_HKWLJe": {
