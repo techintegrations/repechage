@@ -372,11 +372,12 @@
         "text_block_E8JJFr": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/21-03-15-NBC-News.png",
+            "title": "NBC News",
+            "date": "March, 2021",
+            "text": "<p>\"Our favorite women-owned products in 2021\"<br\/><\/p>",
+            "button_label": "Featuring Hydra Blue® For All Skin Types",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types"
           }
         }
       },
