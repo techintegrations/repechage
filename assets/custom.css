@@ -507,7 +507,7 @@
 
 .product_list-block .grid-product__content .grid-product__info {
     flex: 1 0 0;
-    padding: 10px;
+    padding: 0 16px;
 }
 
 .product_list-block .grid-product {
