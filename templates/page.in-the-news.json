@@ -350,11 +350,12 @@
         "text_block_kTBGta": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/20-11-01-SpaBeauty-HDP2.png",
+            "title": "OK! Magazine",
+            "date": "December 7, 2021",
+            "text": "<p>\"This gift set contains five at-home care products in convenient starter sizes to help mom start their pure skincare journey. It’s also great for on-the-go.\"<br\/><\/p>",
+            "button_label": "Featuring Repêchage® Hydra Dew Pure™ Starter Collection",
+            "button_link": "\/products\/hydra-dew-pure-starter-collection"
           }
         }
       },
