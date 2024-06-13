@@ -460,11 +460,12 @@
         "text_block_acCiBc": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/20-04-Strategist.png",
+            "title": "The Strategist",
+            "date": "April, 2020",
+            "text": "<p>\"The antiseptic and antibacterial formula (this means it targets bacteria and deters bacteria growth) has an alcohol content of 75 percent and comes in a conveniently portable four-once size.\"<br\/><\/p>",
+            "button_label": "Featuring Hand Sanitizers",
+            "button_link": "\/collections\/hand-sanitizers"
           }
         }
       },
