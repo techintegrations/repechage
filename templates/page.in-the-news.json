@@ -1371,11 +1371,12 @@
         "text_block_yfzicf": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/130327_RachelRayA.png",
+            "title": "EveryDay with Rachael Ray",
+            "date": "April, 2013",
+            "text": "<p>\"Plunge the tube into a large mug of ice cubes and cold water, then dump in a handful of salt.\"<\/p>",
+            "button_label": "Featuring One-Minute Exfoliating Mask",
+            "button_link": "\/products\/repechage-one-minute-exfoliating-mask"
           }
         },
         "text_block_PeLiXU": {
