@@ -1503,11 +1503,12 @@
         "text_block_fGBLqh": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/100301_london-times.png",
+            "title": "London Times",
+            "date": "February, 2010",
+            "text": "<p>\"brilliant to have on stand-by for break-outs.\"<\/p>",
+            "button_label": "Featuring Hydra Medic® Clear Complexion Drying Lotion",
+            "button_link": "\/products\/hydra-medic-clear-complexion-drying-lotion"
           }
         },
         "text_block_t3fGHP": {

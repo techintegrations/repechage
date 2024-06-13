@@ -669,8 +669,8 @@
         "text_block_f9MtBD": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
+            "select_icon": "custom_svg_icon",
+            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
             "icon": "bills",
             "title": "",
             "text": "<p>Flexible Payment<br\/>(via Afterpay)<\/p>",
