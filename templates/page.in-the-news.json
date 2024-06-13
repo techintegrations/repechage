@@ -1119,11 +1119,12 @@
         "text_block_T63xHb": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/2016-07-13-new-you.png",
+            "title": "New You",
+            "date": "July 13, 2016",
+            "text": "<p>\"Repêchage Fusion All Natural Face Moisturizer delivers the nourishment your skin craves.\"<\/p>",
+            "button_label": "Featuring Fusion All Natural At Home Products",
+            "button_link": "\/collections\/fusion"
           }
         }
       },
