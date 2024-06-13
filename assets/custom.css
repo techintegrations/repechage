@@ -498,6 +498,7 @@
 .product_list-block .grid__item-image-wrapper {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .product_list-block .grid__item-image-wrapper .grid-product__image-mask {
