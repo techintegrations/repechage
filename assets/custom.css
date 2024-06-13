@@ -495,6 +495,33 @@
     border-top: 1px solid #000;
 }
 
+.product_list-block .grid__item-image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_list-block .grid__item-image-wrapper .grid-product__image-mask {
+    flex: 0 0 40%;
+}
+
+.product_list-block .grid-product__content .grid-product__info {
+    flex: 1 0 0;
+    padding: 10px;
+}
+
+.product_list-block .grid-product {
+    margin-bottom: 0px;
+    padding: 0 5px;
+}
+
+.product_list-block .atc-btn .btn {
+    margin: 0px;
+    padding: 0px;
+    color: var(--colorLink);
+    background: transparent;
+}
+
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
