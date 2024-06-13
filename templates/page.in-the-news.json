@@ -269,6 +269,27 @@
             "button_label": "Featuring Hydra Dew Pure™ Starter Collection",
             "button_link": "\/products\/hydra-dew-pure-starter-collection"
           }
+        },
+        "text_block_bfQrBJ": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-04-21-WellDefined.png",
+            "title": "Well Defined",
+            "date": "April 21, 2022",
+            "text": "<p>\"Containing essential minerals like magnesium, calcium, sulfur, bromide, iodine, sodium, zinc, and potassium, Repêchage’s Vita Cura Cellusea Renewal Dead Sea Bath Salts are ideal for pulling toxins from the body and replacing vital minerals and nutrients.\"<\/p>",
+            "button_label": "Featuring Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
+            "button_link": "\/products\/vita-cura-cellusea-renewal-dead-sea-bath-salts"
+          }
+        },
+        "text_block_te3Ub4": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -289,7 +310,9 @@
         "text_block_9i6gLG",
         "text_block_JxHFXK",
         "text_block_qHT6jJ",
-        "text_block_JTDARt"
+        "text_block_JTDARt",
+        "text_block_bfQrBJ",
+        "text_block_te3Ub4"
       ],
       "settings": {
         "bg_color": "",
