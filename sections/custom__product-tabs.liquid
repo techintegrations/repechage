@@ -37,6 +37,17 @@
               {{ block.settings.text }}
             </div>
           {% endif %}
+
+          <div class="product__image-video">
+            <div class="product__image">
+              <img src="{{ block.settings.image | img_url: 'master' }}">
+            </div>
+            <div class="product__video">
+              <video controls>
+                <source src="{{ block.settings.video_url }}" type="video/mp4">
+              </video>
+            </div>
+          </div>
           
         </div>
       {% endfor %}
@@ -87,6 +98,16 @@
           "type": "richtext",
           "id": "text",
           "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "video_url",
+          "label": "Video Url"
         }
       ]
     }
