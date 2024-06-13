@@ -39,10 +39,60 @@
         "autoplay_speed": 5,
         "lazyload_images": true
       }
+    },
+    "custom_product_ingredients_3qB6YX": {
+      "type": "custom__product-ingredients",
+      "blocks": {
+        "text_block_JxrG7R": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "button_label": "Read More",
+            "text": ""
+          }
+        },
+        "text_block_cUPJX8": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "button_label": "Read More",
+            "text": ""
+          }
+        },
+        "text_block_WpaDHa": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "button_label": "Read More",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_JxrG7R",
+        "text_block_cUPJX8",
+        "text_block_WpaDHa"
+      ],
+      "settings": {
+        "title": "KEY INGREDIENTS",
+        "align_text": "center",
+        "title_color": "",
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 2,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_k7fhXm"
+    "slideshow_k7fhXm",
+    "custom_product_ingredients_3qB6YX"
   ]
 }
