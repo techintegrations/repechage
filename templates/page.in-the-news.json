@@ -811,11 +811,12 @@
         "text_block_t8ibek": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/2017-beachbag.png",
+            "title": "Tripping",
+            "date": "2017",
+            "text": "<p>\"This face mist is perfect for use anytime, anywhere.\"<\/p>",
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         }
       },
