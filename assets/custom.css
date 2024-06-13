@@ -286,6 +286,10 @@
     margin-top: 5px;
 }
 
+.grid-product__content .grid-product__info {
+    padding: 0 10px 16px 10px;
+}
+
 .footer__bottom-text {
     display: flex;
     flex-wrap: wrap;
