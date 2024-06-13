@@ -313,6 +313,27 @@
             "button_label": "Featuring Vita Cura® CelluSea Smooth™ Multi-Action Body Exfoliator",
             "button_link": "\/products\/vita-cura-cellusea-smooth-multi-action-body-exfoliator"
           }
+        },
+        "text_block_gpTzcY": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-02-18-MindBodyGreen.png",
+            "title": "mindbodygreen",
+            "date": "February 17, 2022",
+            "text": "<p>\"The Repêchage® Ultrasonic Skin Spatula which can aid in exfoliation and relies on ultrasonic waves\"<br\/><\/p>",
+            "button_label": "Featuring Repêchage® Ultrasonic Skin Spatula",
+            "button_link": "\/products\/ultrasonic-skin-spatula"
+          }
+        },
+        "text_block_gfeDxp": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -337,7 +358,9 @@
         "text_block_bfQrBJ",
         "text_block_te3Ub4",
         "text_block_hkwPfP",
-        "text_block_GqChFq"
+        "text_block_GqChFq",
+        "text_block_gpTzcY",
+        "text_block_gfeDxp"
       ],
       "settings": {
         "bg_color": "",
