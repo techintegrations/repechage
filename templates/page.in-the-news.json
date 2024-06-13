@@ -1547,11 +1547,12 @@
         "text_block_WxDgTz": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/redbook0806.png",
+            "title": "Redbook",
+            "date": "June, 2008",
+            "text": "<p>\"Pore extractions stop future breakouts, and irritation is calmed.\"<\/p>",
+            "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
+            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
           }
         },
         "text_block_qbrTWX": {
