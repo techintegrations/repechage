@@ -499,6 +499,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 10px;
 }
 
 .product_list-block .grid__item-image-wrapper .grid-product__image-mask {
