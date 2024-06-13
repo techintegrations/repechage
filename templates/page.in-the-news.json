@@ -1108,11 +1108,12 @@
         "text_block_7f8ngW": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2016-08-MarieClaire-agosto-total.png",
+            "title": "Marie Claire Italia",
+            "date": "August, 2016",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Conditioning Lip Gloss Aura",
+            "button_link": "\/products\/conditioning-lip-gloss-aura"
           }
         },
         "text_block_T63xHb": {
