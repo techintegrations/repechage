@@ -910,6 +910,77 @@
         "text_block_frbUTM": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2017-02-02-katiness.png",
+            "title": "byKatiness",
+            "date": "February 2, 2017",
+            "text": "",
+            "button_label": "Featuring Eye Rescue Pads",
+            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
+          }
+        },
+        "text_block_rQexPJ": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LH9BBE": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_cExhWb": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_gmFUWF": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_cMYADx": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_qKQqNw": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_7Xf6kB": {
+          "type": "text_block",
+          "settings": {
             "title": "",
             "date": "",
             "text": "",
@@ -939,7 +1010,14 @@
         "text_block_QK4mdf",
         "text_block_LB8q3z",
         "text_block_aUGNzU",
-        "text_block_frbUTM"
+        "text_block_frbUTM",
+        "text_block_rQexPJ",
+        "text_block_LH9BBE",
+        "text_block_cExhWb",
+        "text_block_gmFUWF",
+        "text_block_cMYADx",
+        "text_block_qKQqNw",
+        "text_block_7Xf6kB"
       ],
       "settings": {
         "bg_color": "",
