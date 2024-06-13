@@ -1437,11 +1437,12 @@
         "text_block_PfXYxn": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/120106_RedUK.png",
+            "title": "Red UK",
+            "date": "January, 2012",
+            "text": "<p>\"an instant pick-me-up for tired skin.\"<\/p>",
+            "button_label": "Featuring Biolight™ Brightening Miracle Mask",
+            "button_link": "\/collections\/biolight-brightening-skin-care-products"
           }
         },
         "text_block_iGN6eY": {
