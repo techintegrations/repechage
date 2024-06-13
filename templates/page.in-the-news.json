@@ -756,11 +756,12 @@
         "text_block_8FKtMj": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2018-OK-MC.png",
+            "title": "Marie Claire",
+            "date": "2018",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Hydra 4® Cleanser",
+            "button_link": "\/products\/hydra-4-cleanser-for-sensitive-skin"
           }
         },
         "text_block_bQbzGL": {
