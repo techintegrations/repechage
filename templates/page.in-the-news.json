@@ -383,7 +383,7 @@
         "text_block_7e47Qk": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21-03-24-Identify-LA.png",
+            "image": "shopify:\/\/shop_images\/21-03-24-Identify-LA_164c67ef-32c4-4295-98d8-55a02a5f3c81.png",
             "title": "Identify LA",
             "date": "March, 2021",
             "text": "<p>\"Our top pick is the Hydra Dew Pure Gentle Foaming Cleanser. It's a softly-foaming, gentle wash that contains three select seaweed extracts to nourish skin, while natural botanicals such as water lily and oat bran extracts help reduce the appearance of irritation.\"<br\/><\/p>",
@@ -394,11 +394,12 @@
         "text_block_rqRH8W": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/21-01-31-30Seconds-HM.png",
+            "title": "30 Seconds",
+            "date": "January, 2021",
+            "text": "<p>\"This long wearing concealer does double duty by counteracting the appearance of redness while helping to conceal the appearance of breakouts.\"<br\/><\/p>",
+            "button_label": "Featuring Hydra Medic® Corrective Concealer",
+            "button_link": "\/collections\/hydra-medic-products\/products\/hydra-medic-corrective-concealer"
           }
         }
       },
