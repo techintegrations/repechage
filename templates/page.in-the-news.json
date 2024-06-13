@@ -1218,11 +1218,12 @@
         "text_block_QFGjC3": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/150921_Press_WBeauty-Sm.png",
+            "title": "W Beauty",
+            "date": "August, 2015",
+            "text": "<p>\"W's beauty director is fighting redness and irritation with her new favorite skincare product... Red Out keeps its promise.\"<\/p>",
+            "button_label": "Featuring Hydra 4 Red Out Cleanser & Serum",
+            "button_link": "\/collections\/skin-sensitivity-redness"
           }
         }
       },
