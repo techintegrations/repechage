@@ -2,24 +2,6 @@
   .logo-bar--{{ section.id }} {
     opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
   }
-
-
-  .product-tab__image-video.select-image .product-tab__image {
-    display: block;
-}
-
-.product-tab__image-video.select-image .product-tab__video {
-    display: none;
-}
-
-.product-tab__image-video.select-video .product-tab__image {
-    display: none;
-}
-
-.product-tab__image-video.select-video .product-tab__video {
-    display: block;
-}
-
   
 {%- endstyle -%}
 
@@ -58,15 +40,18 @@
           {% endif %}
 
           {% if block.settings.image != blank or block.settings.video_url != blank %}
-          <div class="product-tab__image-video select-{{ block.settings.image_video }}">
+            {% if block.settings.image_video == 'image' %}
+          <div class="product-tab__image-video">
             <div class="product-tab__image">
               <img src="{{ block.settings.image | img_url: 'master' }}">
             </div>
+            {% else %}
             <div class="product-tab__video">
               <video controls>
                 <source src="{{ block.settings.video_url }}" type="video/mp4">
               </video>
             </div>
+            {% endif %}
           </div>
           {% endif %}
           
