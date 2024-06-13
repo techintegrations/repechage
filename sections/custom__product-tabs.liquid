@@ -2,6 +2,25 @@
   .logo-bar--{{ section.id }} {
     opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
   }
+
+
+  .product-tab__image-video.select-image .product-tab__image {
+    display: block;
+}
+
+.product-tab__image-video.select-image .product-tab__video {
+    display: none;
+}
+
+.product-tab__image-video.select-video .product-tab__image {
+    display: none;
+}
+
+.product-tab__image-video.select-video .product-tab__video {
+    display: block;
+}
+
+  
 {%- endstyle -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
