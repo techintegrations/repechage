@@ -940,6 +940,17 @@
             "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
+        "text_block_XmkgN6": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2017-02-parents-1.png",
+            "title": "Parents",
+            "date": "February, 2017",
+            "text": "",
+            "button_label": "Featuring Hydra 4® Red Out Serum and Calming Cleanser",
+            "button_link": "\/collections\/hydra-4-red-out"
+          }
+        },
         "text_block_cExhWb": {
           "type": "text_block",
           "settings": {
@@ -1015,6 +1026,7 @@
         "text_block_frbUTM",
         "text_block_rQexPJ",
         "text_block_LH9BBE",
+        "text_block_XmkgN6",
         "text_block_cExhWb",
         "text_block_gmFUWF",
         "text_block_cMYADx",
