@@ -1075,6 +1075,47 @@
         "text_block_HF6nGC": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2016-09-new-beauty.png",
+            "title": "New You",
+            "date": "Fall, 2016",
+            "text": "",
+            "button_label": "Featuring Hydra Medic® Astringent",
+            "button_link": "\/products\/hydra-medic-astringent"
+          }
+        },
+        "text_block_UyV8LT": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_aqHRkM": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_7f8ngW": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_T63xHb": {
+          "type": "text_block",
+          "settings": {
             "title": "",
             "date": "",
             "text": "",
@@ -1119,7 +1160,11 @@
         "text_block_HAiKDP",
         "text_block_VWJbMC",
         "text_block_Xc9H9N",
-        "text_block_HF6nGC"
+        "text_block_HF6nGC",
+        "text_block_UyV8LT",
+        "text_block_aqHRkM",
+        "text_block_7f8ngW",
+        "text_block_T63xHb"
       ],
       "settings": {
         "bg_color": "",
