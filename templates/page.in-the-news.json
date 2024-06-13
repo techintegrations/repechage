@@ -357,6 +357,27 @@
             "button_label": "Featuring Repêchage® Hydra Dew Pure™ Starter Collection",
             "button_link": "\/products\/hydra-dew-pure-starter-collection"
           }
+        },
+        "text_block_LrXKMQ": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-12-13-bustle.png",
+            "title": "Bustle",
+            "date": "November 24, 2021",
+            "text": "<p>\"Sarfati recommends products from Repechage, a brand that produces a multitude of squalane-based formulas. If your skin’s on the sensitive side, try this gentle serum, which also contains moisturizing aloe vera.\"<br\/><\/p>",
+            "button_label": "Featuring Repêchage® Hydra 4 Red-Out® Serum",
+            "button_link": "\/products\/copy-of-hydra-4-red-out-serum"
+          }
+        },
+        "text_block_E8JJFr": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -385,7 +406,9 @@
         "text_block_gpTzcY",
         "text_block_gfeDxp",
         "text_block_Y8ibqL",
-        "text_block_kTBGta"
+        "text_block_kTBGta",
+        "text_block_LrXKMQ",
+        "text_block_E8JJFr"
       ],
       "settings": {
         "bg_color": "",
