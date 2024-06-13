@@ -1327,9 +1327,10 @@
         "text_block_bLbQ6b": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/extra2_fda34136-ea2a-40e7-acb5-8.png",
+            "title": "Extra TV",
+            "date": "February, 2015",
+            "text": "<p>We are thrilled to share with you this clip from ExtraTV!<\/p>",
             "button_label": "",
             "button_link": ""
           }
