@@ -9,15 +9,12 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
   data-context="featured-collection">
-  {%- if section.settings.title != blank or section.settings.view_all -%}
+  {%- if section.settings.title != blank -%}
     <div class="page-width">
-      <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
+      <div class="section-header">
         <h2 class="section-header__title">
           {{ section.settings.title }}
         </h2>
-        {%- if section.settings.view_all and section.settings.rows == 1 -%}
-          <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
-        {%- endif -%}
       </div>
     </div>
   {%- endif -%}
@@ -82,24 +79,6 @@
             -%}
           {%- endfor -%}
 
-          {%- if section.settings.view_all -%}
-
-            {%- if section.settings.rows > 1 -%}
-              <div class="grid__item text-center{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
-                <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
-              </div>
-            {%- endif -%}
-
-            {%- if section.settings.mobile_scrollable -%}
-              <div class="grid__item grid__item--view-all text-center {{ gridView }} medium-up--hide">
-                <a href="{{ collections[section.settings.home_featured_products].url }}" class="grid-product__see-all">
-                  {{ 'collections.general.view_all_products_html' | t: count: collection.products_count }}
-                </a>
-              </div>
-            {%- endif -%}
-
-          {%- endif -%}
-
         {%- endif -%}
       </div>
     </div>
@@ -146,12 +125,6 @@
       "type": "checkbox",
       "id": "mobile_scrollable",
       "label": "t:sections.featured-collection.settings.mobile_scrollable.label",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "view_all",
-      "label": "t:sections.featured-collection.settings.view_all.label",
       "default": true
     },
     {
