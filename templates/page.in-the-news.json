@@ -1525,11 +1525,12 @@
         "text_block_Uzi38y": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/ElleUK0907.png",
+            "title": "Elle UK",
+            "date": "July, 2009",
+            "text": "<p>\"Apply a deep-cleansing mask once a fortnight. ...soothes spots, too.\"<\/p>",
+            "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
+            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
           }
         },
         "text_block_77FTFL": {
