@@ -295,11 +295,12 @@
         "text_block_hkwPfP": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/2022-03-03-forbes.png",
+            "title": "Forbes",
+            "date": "February 28, 2022",
+            "text": "<p>\"With these refreshing face masks featuring not one, but four peptides, you can firm and plump up slack skin in as little as ten minutes\"<\/p>",
+            "button_label": "Featuring Repêchage® Triple Action Peptide Mask",
+            "button_link": "\/products\/triple-action-peptide-mask-single-sheet-mask"
           }
         },
         "text_block_GqChFq": {
