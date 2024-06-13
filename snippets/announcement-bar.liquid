@@ -23,7 +23,7 @@
         </button>
 
         <div
-          id="AnnouncementSlider-wrap"
+          id="AnnouncementSlider"
           class="announcement-slider"
           data-compact="{{ section.settings.announcement_compact }}"
           data-block-count="{{ announcement_block_count }}">
@@ -32,7 +32,7 @@
             {%- if block.type == '@app' -%}
               <div
                 id="AnnouncementSlide-{{ block.id }}"
-                class="announcement-slider"
+                class="announcement-slider__slide"
                 data-index="{{ slide_index }}"
                 {{ block.shopify_attributes }}
               >
@@ -43,7 +43,7 @@
             {%- if block.type == 'announcement' -%}
               <div
                 id="AnnouncementSlide-{{ block.id }}"
-                class="announcement-slider"
+                class="announcement-slider__slide"
                 data-index="{{ slide_index }}"
                 {{ block.shopify_attributes }}
               >
@@ -61,25 +61,6 @@
                 {%- endif -%}
               </div>
               {%- assign slide_index = slide_index | plus: 1 -%}
-
-              {%- elsif block.type == 'button' -%}
-
-              <div
-                id="AnnouncementSlide-{{ block.id }}"
-                class="announcement-slider"
-                data-index="{{ slide_index }}"
-                {{ block.shopify_attributes }}
-              >
-                {%- if block.settings.button_label != blank -%}
-                  <div class="announcement-btn">
-                    <a class="btn" href="{{ block.settings.button_link }}" {% if block.settings.open_new_tab %}target="_blank"{% endif %}>
-                      {{ block.settings.button_label }}
-                    </a>
-                  </div>
-                {%- endif -%}
-              </div>
-              {%- assign slide_index = slide_index | plus: 1 -%}
-              
             {%- endif -%}
           {%- endfor -%}
         </div>
