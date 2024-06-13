@@ -126,6 +126,17 @@
             "button_label": "Shop T-Zone Balance Starter Collection",
             "button_link": ""
           }
+        },
+        "text_block_eXrwEE": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024-newbeauty-salt-InTheNews.png",
+            "title": "New Beauty",
+            "date": "2024",
+            "text": "<p>Best described as a “cure in a jar,” Repêchage Vita Cura CelluSea Renewal Dead Sea Bath Salts rely on the brand’s magical ingredient of mineral-rich sea salt for an incredibly relaxing and balancing spa-like experience in your own bath.<br\/><\/p>",
+            "button_label": "Shop Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -133,7 +144,8 @@
         "text_block_h9zPXX",
         "text_block_PFghkj",
         "text_block_CqWT8Y",
-        "text_block_E3ftfQ"
+        "text_block_E3ftfQ",
+        "text_block_eXrwEE"
       ],
       "settings": {
         "bg_color": "",
