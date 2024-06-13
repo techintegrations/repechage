@@ -214,6 +214,17 @@
             "button_label": "Featuring Hydra Dew Pure™ Facial Moisturizer",
             "button_link": "\/products\/hydra-dew-pure-facial-moisturizer"
           }
+        },
+        "text_block_9cEVFW": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-09-07-InTheNews.png",
+            "title": "NewBeauty",
+            "date": "Sept 7, 2022",
+            "text": "<p>\"Reveal radiant skin in 10 minutes with this peptide- and seaweed extract–drenched sheet mask. Thanks to a blend of four different peptides, you can expect a hydrated, firmer-looking complexion with every use.\"<br\/><\/p>",
+            "button_label": "Featuring Repêchage® Triple Action Peptide Mask",
+            "button_link": "\/products\/triple-action-peptide-mask-single-sheet-mask"
+          }
         }
       },
       "block_order": [
@@ -229,7 +240,8 @@
         "text_block_Mk8RwA",
         "text_block_BGY6Pc",
         "text_block_CTJxJB",
-        "text_block_Jg8GRP"
+        "text_block_Jg8GRP",
+        "text_block_9cEVFW"
       ],
       "settings": {
         "bg_color": "",
