@@ -137,6 +137,17 @@
             "button_label": "Shop Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
             "button_link": ""
           }
+        },
+        "text_block_Mb7Lzq": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-lydia.png",
+            "title": "American Spa",
+            "date": "November 15, 2023",
+            "text": "<p>Lydia Sarfati: Most Influential Spa Leader - 2023 American Spa Professional Choice Awards Winner<\/p>",
+            "button_label": "Visit lydiasarfati.com",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -145,7 +156,8 @@
         "text_block_PFghkj",
         "text_block_CqWT8Y",
         "text_block_E3ftfQ",
-        "text_block_eXrwEE"
+        "text_block_eXrwEE",
+        "text_block_Mb7Lzq"
       ],
       "settings": {
         "bg_color": "",
