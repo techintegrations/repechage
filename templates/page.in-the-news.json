@@ -603,11 +603,12 @@
         "text_block_pRFVdk": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/Elle-Italia-Weekly-19-Aug.png",
+            "title": "Elle Italia Weekly",
+            "date": "September, 2019",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Vita Cura® B3 Serum Complex",
+            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-serum-complex"
           }
         },
         "text_block_VyAhWC": {
