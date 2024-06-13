@@ -1293,9 +1293,9 @@
       "settings": {
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 80,
+        "padding_bottom": 0,
         "padding_top_m": 0,
-        "padding_bottom_m": 40,
+        "padding_bottom_m": 0,
         "divider": false
       }
     },
@@ -1775,9 +1775,9 @@
       "settings": {
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 80,
         "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_bottom_m": 40,
         "divider": false
       }
     }
