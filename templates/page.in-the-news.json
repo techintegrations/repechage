@@ -998,6 +998,47 @@
         "text_block_7Xf6kB": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2017-01-ok-1.png",
+            "title": "OK",
+            "date": "December, 2016",
+            "text": "",
+            "button_label": "Featuring Hydro-Complex® PFS Daily Moisturizer",
+            "button_link": "\/products\/hydro-complex-pfs-for-dry-skin-types"
+          }
+        },
+        "text_block_xap4BA": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_MxpW8g": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_467yyH": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_HAiKDP": {
+          "type": "text_block",
+          "settings": {
             "title": "",
             "date": "",
             "text": "",
@@ -1035,7 +1076,11 @@
         "text_block_gmFUWF",
         "text_block_cMYADx",
         "text_block_qKQqNw",
-        "text_block_7Xf6kB"
+        "text_block_7Xf6kB",
+        "text_block_xap4BA",
+        "text_block_MxpW8g",
+        "text_block_467yyH",
+        "text_block_HAiKDP"
       ],
       "settings": {
         "bg_color": "",
