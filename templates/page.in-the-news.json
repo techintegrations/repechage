@@ -1097,11 +1097,12 @@
         "text_block_aqHRkM": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2016-08-12-mad-mama.png",
+            "title": "Mad Mama",
+            "date": "August 12, 2016",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring C-Serum® Seaweed Filtrate",
+            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_7f8ngW": {
