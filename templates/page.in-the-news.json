@@ -1086,11 +1086,12 @@
         "text_block_UyV8LT": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/2016-09-14-new-you.png",
+            "title": "New You",
+            "date": "September 14, 2016",
+            "text": "<p>\"A fast fix to instantly improve skintone and clarity.\"<\/p>",
+            "button_label": "Featuring One-Minute Exfoliating Mask",
+            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_aqHRkM": {
