@@ -1020,11 +1020,12 @@
         "text_block_MxpW8g": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2016-12-12-F.png",
+            "title": "F",
+            "date": "December 7, 2016",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Rapidex® Marine Exfoliator",
+            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_467yyH": {
