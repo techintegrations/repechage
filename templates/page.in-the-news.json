@@ -1393,11 +1393,12 @@
         "text_block_MYfVUB": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/120601_CosmoLatina.png",
+            "title": "Cosmopolitan Latina",
+            "date": "Summer, 2012",
+            "text": "<p>\"We like Biolight Brightening Miracle Mask to combat the dreaded<em>mancha<\/em>moustache.\"<\/p>",
+            "button_label": "Featuring Biolight™ Brightening Miracle Mask",
+            "button_link": "\/collections\/biolight-brightening-skin-care-products"
           }
         },
         "text_block_mj7iqh": {
