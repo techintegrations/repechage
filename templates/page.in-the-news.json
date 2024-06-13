@@ -1565,6 +1565,137 @@
             "button_label": "Featuring Hydra Medic® Face Wash Foaming Gel Cleanser",
             "button_link": "\/products\/hydra-medic-face-wash-foaming-gel-cleanser"
           }
+        },
+        "text_block_ieREg8": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allure0408.png",
+            "title": "Allure",
+            "date": "April, 2008",
+            "text": "<p>\"The Repechage Four Layer Seaweed Treatment Mask is a favorite at Beauty & Bliss Skin and Laser Center in Brookline, Massachusetts.\"<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_BphnaH": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_bFJVLD": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_pkzrNH": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_KcCK7G": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_mB3KhN": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_Ly4Urh": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_Qb6TtL": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_q6A4MU": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_DniQXM": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_UEMgX8": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_WVJmtR": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_mnNmHr": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -1591,7 +1722,20 @@
         "text_block_Uzi38y",
         "text_block_77FTFL",
         "text_block_WxDgTz",
-        "text_block_qbrTWX"
+        "text_block_qbrTWX",
+        "text_block_ieREg8",
+        "text_block_BphnaH",
+        "text_block_bFJVLD",
+        "text_block_pkzrNH",
+        "text_block_KcCK7G",
+        "text_block_mB3KhN",
+        "text_block_Ly4Urh",
+        "text_block_Qb6TtL",
+        "text_block_q6A4MU",
+        "text_block_DniQXM",
+        "text_block_UEMgX8",
+        "text_block_WVJmtR",
+        "text_block_mnNmHr"
       ],
       "settings": {
         "bg_color": "",
