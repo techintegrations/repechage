@@ -800,11 +800,12 @@
         "text_block_wy36aR": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2018-OK-ELLE.png",
+            "title": "OK ELLE",
+            "date": "2018",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
+            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_t8ibek": {
