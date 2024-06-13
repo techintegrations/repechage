@@ -581,11 +581,12 @@
         "text_block_qtcW4D": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/Glamour-Ottobre-VCGold-2019.png",
+            "title": "Glamour",
+            "date": "October, 2019",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Vita Cura® Gold Collection",
+            "button_link": "\/collections\/vita-cura-gold-collection"
           }
         },
         "text_block_7GpbCA": {
