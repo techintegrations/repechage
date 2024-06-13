@@ -671,7 +671,7 @@
           "settings": {
             "select_icon": "icon",
             "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
-            "icon": "bills",
+            "icon": "package",
             "title": "",
             "text": "<p>Flexible Payment<br\/>(via Afterpay)<\/p>",
             "link_text": "",

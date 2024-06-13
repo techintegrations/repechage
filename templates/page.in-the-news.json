@@ -1536,11 +1536,12 @@
         "text_block_77FTFL": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Glamour0809.png",
+            "title": "Glamour",
+            "date": "September, 2008",
+            "text": "<p>\"I have to put this on my face at least twice daily or it feels like something's missing\"<\/p>",
+            "button_label": "Featuring Vita Cura® Triple Firming Cream",
+            "button_link": "\/products\/vita-cura-triple-firming-cream-1oz"
           }
         },
         "text_block_WxDgTz": {
