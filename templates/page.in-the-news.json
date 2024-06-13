@@ -852,12 +852,13 @@
             "button_link": "\/products\/sea-cleanse-foaming-seaweed-cleanser"
           }
         },
-        "text_block_kCti3i": {
+        "text_block_igdVNa": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/2017-03-parents-01.png",
+            "title": "Parents",
+            "date": "March, 2017",
+            "text": "<p>Featuring Vita Cura® Triple Action Nutrí Oil and Vita Cura® Triple Action Body Soufflé<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -929,7 +930,7 @@
         "text_block_69LpiX",
         "text_block_NAgXCp",
         "text_block_whqKUJ",
-        "text_block_kCti3i",
+        "text_block_igdVNa",
         "text_block_iHj6qK",
         "text_block_QK4mdf",
         "text_block_LB8q3z",
