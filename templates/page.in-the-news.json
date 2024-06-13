@@ -1470,6 +1470,87 @@
         "text_block_P4BQP4": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/110501_Redbook.png",
+            "title": "Redbook",
+            "date": "May, 2011",
+            "text": "<p>\"The best blend of tension-quelling ingredients (mandarin, spearmint, and lavender) under one lid.\"<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_f3VJRX": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_xE6TjY": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_fGBLqh": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_t3fGHP": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_Uzi38y": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_77FTFL": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_WxDgTz": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_qbrTWX": {
+          "type": "text_block",
+          "settings": {
             "title": "",
             "date": "",
             "text": "",
@@ -1494,7 +1575,15 @@
         "text_block_PfXYxn",
         "text_block_iGN6eY",
         "text_block_9NXKjc",
-        "text_block_P4BQP4"
+        "text_block_P4BQP4",
+        "text_block_f3VJRX",
+        "text_block_xE6TjY",
+        "text_block_fGBLqh",
+        "text_block_t3fGHP",
+        "text_block_Uzi38y",
+        "text_block_77FTFL",
+        "text_block_WxDgTz",
+        "text_block_qbrTWX"
       ],
       "settings": {
         "bg_color": "",
