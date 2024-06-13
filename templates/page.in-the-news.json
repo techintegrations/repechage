@@ -1712,11 +1712,12 @@
         "text_block_mnNmHr": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/MarieClaire_01_04.png",
+            "title": "Marie Claire",
+            "date": "January, 2004",
+            "text": "<p>\"The pads soothed my skin right away...\"<\/p>",
+            "button_label": "Featuring Eye Rescue Pads with Seaweed and Natural Tea Extracts",
+            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         }
       },
