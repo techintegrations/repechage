@@ -526,11 +526,12 @@
         "text_block_FyfXRH": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/Indulge-Magazine-Jan-2020-Update.png",
+            "title": "Indulge Magazine",
+            "date": "January, 2020",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Vita Cura® B3 Lifting Mask",
+            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-lifting-mask"
           }
         },
         "text_block_yAbVfe": {
