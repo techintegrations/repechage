@@ -1657,9 +1657,10 @@
         "text_block_Qb6TtL": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/glamourcellulitemarch05.png",
+            "title": "Glamour",
+            "date": "March, 2005",
+            "text": "<p>\"Slather-em on and you'll have smoother skin in about a month.\"<\/p>",
             "button_label": "",
             "button_link": ""
           }
