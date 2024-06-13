@@ -385,13 +385,13 @@
                       {%- render 'product-complementary', block: block, product: product, type: 'block', image_style: block.settings.image_style -%}
                     </div>
                   {%- when 'product_list' -%}
-                    <div class="product_list-block product-block {% if block.settings.product_limit | plus: 0 > block.settings.per_row | plus: 0 %} product-list-block_slider{% endif %}" {{ block.shopify_attributes }}>
-                      <div class="product_list">
-                        {%- for product in block.settings.product_list limit: block.settings.product_limit | plus: 0 -%}
+                    <div class="product_list-block product-block" {{ block.shopify_attributes }}>
+                      <div class="product_list {% if block.settings.product_limit > block.settings.per_row %}product-list-block_slider{% endif %}">
+                        {%- for product in block.settings.product_list limit: block.settings.product_limit -%}
                           {%- render 'product-grid-item',
                             product: product,
                             collection: collection,
-                            per_row: block.settings.per_row | plus: 0,
+                            per_row: block.settings.per_row,
                             quick_shop_enable: settings.quick_shop_enable,
                             fallback: fallback,
                           -%}
