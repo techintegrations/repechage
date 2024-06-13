@@ -1620,6 +1620,17 @@
             "button_link": ""
           }
         },
+        "text_block_bxbMdN": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogueBrit.png",
+            "title": "Vogue UK",
+            "date": "November, 2005",
+            "text": "<p>\"...use this double-ended facial roller to treat the face, neck and décolletage to a massage that will leave skin looking revived.\"<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_mB3KhN": {
           "type": "text_block",
           "settings": {
@@ -1731,6 +1742,7 @@
         "text_block_bFJVLD",
         "text_block_pkzrNH",
         "text_block_KcCK7G",
+        "text_block_bxbMdN",
         "text_block_mB3KhN",
         "text_block_Ly4Urh",
         "text_block_Qb6TtL",
