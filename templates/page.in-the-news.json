@@ -115,13 +115,25 @@
             "button_label": "Shop T-Zone Balance Hydrating Serum",
             "button_link": "\/products\/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c"
           }
+        },
+        "text_block_E3ftfQ": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.png",
+            "title": "Spa & Wellness",
+            "date": "Winter, 2024",
+            "text": "<p>Teen skincare made easy, as seen in Spa & Wellness Mexicaribe<\/p>",
+            "button_label": "Shop T-Zone Balance Starter Collection",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_8TbdaM",
         "text_block_h9zPXX",
         "text_block_PFghkj",
-        "text_block_CqWT8Y"
+        "text_block_CqWT8Y",
+        "text_block_E3ftfQ"
       ],
       "settings": {
         "bg_color": "",
