@@ -181,6 +181,17 @@
             "button_label": "Featuring Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
             "button_link": "\/products\/vita-cura-cellusea-renewal-dead-sea-bath-salts"
           }
+        },
+        "text_block_BGY6Pc": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-12-09-NewBeauty.png",
+            "title": "NewBeauty",
+            "date": "Dec 9, 2022",
+            "text": "<p>\"An instant boost of hydration for dry skin, this nutrient-rich moisturizing facial spray contains the brand’s exclusive seaweed extract, as well as vitamin C, ginkgo biloba, aloe and orange water to help keep skin nourished, refreshed and glowing.\"<\/p>",
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+          }
         }
       },
       "block_order": [
@@ -193,7 +204,8 @@
         "text_block_Mb7Lzq",
         "text_block_QwAwPc",
         "text_block_3PJCbh",
-        "text_block_Mk8RwA"
+        "text_block_Mk8RwA",
+        "text_block_BGY6Pc"
       ],
       "settings": {
         "bg_color": "",
