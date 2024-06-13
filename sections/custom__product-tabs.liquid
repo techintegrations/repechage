@@ -57,6 +57,7 @@
             </div>
           {% endif %}
 
+          {% if block.settings.image != blank or block.settings.video_url != blank %}
           <div class="product-tab__image-video select-{{ block.settings.image_video }}">
             <div class="product-tab__image">
               <img src="{{ block.settings.image | img_url: 'master' }}">
@@ -67,6 +68,7 @@
               </video>
             </div>
           </div>
+          {% endif %}
           
         </div>
       {% endfor %}
