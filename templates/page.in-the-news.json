@@ -1207,11 +1207,12 @@
         "text_block_dnDDFT": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Beauty-News.png",
+            "title": "Beauty News",
+            "date": "October, 2015",
+            "text": "<p>\"We protect our skin from the sun, but forget that urban toxicity and pollution age it too with oxidative stress.\"<\/p>",
+            "button_label": "Featuring Mineral Face Shield",
+            "button_link": "\/products\/face-shield"
           }
         },
         "text_block_QFGjC3": {
