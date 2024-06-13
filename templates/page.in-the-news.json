@@ -976,11 +976,12 @@
         "text_block_cMYADx": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-01-elle-1.png",
+            "title": "Elle",
+            "date": "January, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Sea Spa Hand Cream",
+            "button_link": "\/products\/sea-spa-hand-cream"
           }
         },
         "text_block_qKQqNw": {
