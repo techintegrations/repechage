@@ -789,9 +789,10 @@
         "text_block_LQAgDN": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/2018-MAGGIO-COSMO.png",
+            "title": "Cosmopolitan",
+            "date": "March 2018",
+            "text": "<p>Featuring FUSION™ Pumpkinfina Multivitamin Mask<\/p>",
             "button_label": "",
             "button_link": ""
           }
