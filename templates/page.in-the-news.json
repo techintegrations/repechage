@@ -720,16 +720,6 @@
             "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
-        "text_block_FBpzpw": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "text_block_UX4BQB": {
           "type": "text_block",
           "settings": {
@@ -739,6 +729,17 @@
             "text": "",
             "button_label": "Featuring Rapidex® Marine Exfoliator With Phyto-Marine Actives",
             "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+          }
+        },
+        "text_block_FBpzpw": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/REPE-IMAGINE-FEB-19_2.png",
+            "title": "Imagine Magazine",
+            "date": "February, 2019",
+            "text": "",
+            "button_label": "Featuring Mineral Face Shield®",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/face-shield"
           }
         },
         "text_block_6NpaRC": {
@@ -786,8 +787,8 @@
         "text_block_PW4PrK",
         "text_block_6QRB8x",
         "text_block_VV9xcb",
-        "text_block_FBpzpw",
         "text_block_UX4BQB",
+        "text_block_FBpzpw",
         "text_block_6NpaRC",
         "text_block_8FKtMj",
         "text_block_bQbzGL",
