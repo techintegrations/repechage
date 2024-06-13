@@ -413,7 +413,28 @@
             "button_link": "\/collections\/hydra-dew-pure"
           }
         },
+        "text_block_BERDPT": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20-11-04-Mane-Addicts.png",
+            "title": "Mane Addicts",
+            "date": "November, 2020",
+            "text": "",
+            "button_label": "Featuring Hydra Medic® Corrective Concealer",
+            "button_link": "\/collections\/hydra-medic-products\/products\/hydra-medic-corrective-concealer"
+          }
+        },
         "text_block_BXFU3r": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_BUhbNF": {
           "type": "text_block",
           "settings": {
             "title": "",
@@ -456,7 +477,9 @@
         "text_block_7e47Qk",
         "text_block_rqRH8W",
         "text_block_PwDM9X",
-        "text_block_BXFU3r"
+        "text_block_BERDPT",
+        "text_block_BXFU3r",
+        "text_block_BUhbNF"
       ],
       "settings": {
         "bg_color": "",
