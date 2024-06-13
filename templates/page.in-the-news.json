@@ -778,6 +778,37 @@
         "text_block_Ddbm96": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2018-04-Vanity-Fair-Italia-Pepti.png",
+            "title": "Vanity Fair",
+            "date": "April 2018",
+            "text": "",
+            "button_label": "Featuring Triple Action Peptide Mask",
+            "button_link": "\/products\/triple-action-peptide-mask"
+          }
+        },
+        "text_block_LQAgDN": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_wy36aR": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_t8ibek": {
+          "type": "text_block",
+          "settings": {
             "title": "",
             "date": "",
             "text": "",
@@ -795,7 +826,10 @@
         "text_block_6NpaRC",
         "text_block_8FKtMj",
         "text_block_bQbzGL",
-        "text_block_Ddbm96"
+        "text_block_Ddbm96",
+        "text_block_LQAgDN",
+        "text_block_wy36aR",
+        "text_block_t8ibek"
       ],
       "settings": {
         "bg_color": "",
