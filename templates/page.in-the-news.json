@@ -745,11 +745,12 @@
         "text_block_6NpaRC": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/REPE-F-GEN-19.png",
+            "title": "F Magazine",
+            "date": "January, 2019",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Mineral Face Shield®",
+            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/face-shield"
           }
         },
         "text_block_8FKtMj": {
