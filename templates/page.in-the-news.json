@@ -170,6 +170,17 @@
             "button_label": "Shop Moisturizers",
             "button_link": "\/collections\/facial-moisturizers-and-serums"
           }
+        },
+        "text_block_Mk8RwA": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-2023-Venice.png",
+            "title": "Venice",
+            "date": "Winter 2022-2023",
+            "text": "<p>\"Run a warm bath and escape from daily stress. These bath salts are rich in minerals like magnesium, calcium and zinc and smell like a healing vacation.\"<\/p>",
+            "button_label": "Featuring Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
+            "button_link": "\/products\/vita-cura-cellusea-renewal-dead-sea-bath-salts"
+          }
         }
       },
       "block_order": [
@@ -181,7 +192,8 @@
         "text_block_eXrwEE",
         "text_block_Mb7Lzq",
         "text_block_QwAwPc",
-        "text_block_3PJCbh"
+        "text_block_3PJCbh",
+        "text_block_Mk8RwA"
       ],
       "settings": {
         "bg_color": "",
