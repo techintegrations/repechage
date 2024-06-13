@@ -64,16 +64,6 @@
             "logo_5": "shopify:\/\/shop_images\/lne-spa-best-2016.png"
           }
         },
-        "complementary_products_KrNQ3H": {
-          "type": "complementary_products",
-          "settings": {
-            "product_complementary_heading": "Complete the Regime",
-            "complementary_count": 10,
-            "per_slide": 1,
-            "control_type": "dots",
-            "image_style": "default"
-          }
-        },
         "product_list_QNBe7e": {
           "type": "product_list",
           "settings": {
@@ -104,7 +94,6 @@
         "buy_buttons",
         "share",
         "logo_H8FzFf",
-        "complementary_products_KrNQ3H",
         "product_list_QNBe7e"
       ],
       "settings": {
