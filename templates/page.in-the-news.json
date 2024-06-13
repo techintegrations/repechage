@@ -1346,14 +1346,26 @@
             "button_link": ""
           }
         },
+        "text_block_MYRykT": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/140501_USWeekly.png",
+            "title": "US Weekly",
+            "date": "May, 2014",
+            "text": "<p>Skin-firming seaweed extract \"dries into a thin, protective film, which smooths out indentations\"<\/p>",
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+          }
+        },
         "text_block_b3tQUm": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/140501_MarieClaire.png",
+            "title": "Marie Claire",
+            "date": "May, 2014",
+            "text": "<p>\"I always have a travel size in my bag\"<\/p>",
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_yfzicf": {
@@ -1375,17 +1387,6 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "text_block_MYRykT": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/140501_USWeekly.png",
-            "title": "US Weekly",
-            "date": "May, 2014",
-            "text": "<p>Skin-firming seaweed extract \"dries into a thin, protective film, which smooths out indentations\"<\/p>",
-            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
-          }
         }
       },
       "block_order": [
@@ -1393,10 +1394,10 @@
         "text_block_6LgPry",
         "text_block_bLbQ6b",
         "text_block_VGwHyN",
+        "text_block_MYRykT",
         "text_block_b3tQUm",
         "text_block_yfzicf",
-        "text_block_PeLiXU",
-        "text_block_MYRykT"
+        "text_block_PeLiXU"
       ],
       "settings": {
         "bg_color": "",
