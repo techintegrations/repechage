@@ -73,6 +73,17 @@
             "control_type": "dots",
             "image_style": "default"
           }
+        },
+        "product_list_QNBe7e": {
+          "type": "product_list",
+          "settings": {
+            "product_list_heading": "Complete the Regime",
+            "product_list": [
+
+            ],
+            "complementary_count": 4,
+            "per_slide": 1
+          }
         }
       },
       "block_order": [
@@ -85,7 +96,8 @@
         "buy_buttons",
         "share",
         "logo_H8FzFf",
-        "complementary_products_KrNQ3H"
+        "complementary_products_KrNQ3H",
+        "product_list_QNBe7e"
       ],
       "settings": {
         "sku_enable": false,
