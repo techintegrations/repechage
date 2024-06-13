@@ -1053,9 +1053,10 @@
         "text_block_VWJbMC": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/2016-11-07-katiness.png",
+            "title": "byKatiness",
+            "date": "November 2, 2016",
+            "text": "<p>\"Your skin will thank you plus your makeup will look better than ever!\"<\/p>",
             "button_label": "",
             "button_link": ""
           }
