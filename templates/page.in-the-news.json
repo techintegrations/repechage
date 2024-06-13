@@ -833,11 +833,12 @@
         "text_block_NAgXCp": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-04-marie-claire-01.png",
+            "title": "Marie Claire",
+            "date": "April, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring BIOLIGHT™ Brightening Skin Correct Serum With Laminaria Complex",
+            "button_link": "\/products\/biolight-brightening-serum"
           }
         },
         "text_block_whqKUJ": {
