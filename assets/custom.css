@@ -615,6 +615,20 @@
       transform: none;
       padding: 0px;
   }
+
+  .image-with-info__row .image-with-info__image {
+      flex: 0 0 100%;
+  }
+  
+  .image-with-info__row .image-with-info__info {
+      padding: 24px 0px 0px 0px;
+      flex: 0 0 100%;
+  }
+  
+  .image-with-info .image-with-info__row {
+      flex: 0 0 100%;
+  }
+
   
 }
 

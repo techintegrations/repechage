@@ -1141,11 +1141,12 @@
         "text_block_WVe6zH": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/1602-beautyinfozone.png",
+            "title": "Beauty Info Zone",
+            "date": "February 2, 2016",
+            "text": "<p>\"perfect for any time of day or night. They are refreshing and eye brightening.\"<\/p>",
+            "button_label": "Featuring Repêchage Eye Rescue Pads",
+            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_M3XVMY": {
