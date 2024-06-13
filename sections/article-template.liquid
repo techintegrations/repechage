@@ -92,7 +92,7 @@
 
     {%- if blog.comments_enabled? -%}
 
-      {%- if blog.comments_enabled? -%}
+      {%- if section.settings.show_blog_comments -%}
       {%- if number_of_comments > 0 -%}
         <hr class="hr--large">
         <h3>{{ 'blogs.comments.with_count' | t: count: number_of_comments }}</h3>
