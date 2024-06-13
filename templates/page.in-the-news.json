@@ -159,6 +159,17 @@
             "button_label": "Shop Dry Body Brush with Exfoliating Cactus Bristle",
             "button_link": "\/products\/dry-body-brush-with-exfoliating-cactus-bristle"
           }
+        },
+        "text_block_3PJCbh": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-02-23-new-beauty.png",
+            "title": "New Beauty",
+            "date": "February 23, 2023",
+            "text": "<p>\"So many times, a person will choose based on whether a moisturizer is 'heavy' or 'light,' but it is the ingredients and delivery system that are most important when choosing a moisturizer. This is why it’s essential to consult with a skin-care professional who can accurately identify skin concerns and knows the proper formulations and ingredients to best address the individual.\" - Lydia Sarfati<\/p>",
+            "button_label": "Shop Moisturizers",
+            "button_link": "\/collections\/facial-moisturizers-and-serums"
+          }
         }
       },
       "block_order": [
@@ -169,7 +180,8 @@
         "text_block_E3ftfQ",
         "text_block_eXrwEE",
         "text_block_Mb7Lzq",
-        "text_block_QwAwPc"
+        "text_block_QwAwPc",
+        "text_block_3PJCbh"
       ],
       "settings": {
         "bg_color": "",
