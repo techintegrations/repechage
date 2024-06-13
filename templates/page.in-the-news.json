@@ -1225,6 +1225,17 @@
             "button_label": "Featuring Hydra 4 Red Out Cleanser & Serum",
             "button_link": "\/collections\/skin-sensitivity-redness"
           }
+        },
+        "text_block_TyarUA": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/150921_Press_NewYou-Sm.png",
+            "title": "New You Magazine",
+            "date": "August, 2015",
+            "text": "<p>\"Repêchage's Hydra 4 Red-Out Calming Cleanser and Serum are the perfect duo to battle against hypersensitive skin and rosacea.\"<\/p>",
+            "button_label": "Featuring Hydra 4 Red Out Cleanser & Serum",
+            "button_link": "\/collections\/skin-sensitivity-redness"
+          }
         }
       },
       "block_order": [
@@ -1276,7 +1287,8 @@
         "text_block_arfzYR",
         "text_block_HKWLJe",
         "text_block_dnDDFT",
-        "text_block_QFGjC3"
+        "text_block_QFGjC3",
+        "text_block_TyarUA"
       ],
       "settings": {
         "bg_color": "",
