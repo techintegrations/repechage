@@ -2,28 +2,6 @@
   .logo-bar--{{ section.id }} {
     opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
   }
-
-  .tab__text-image-video {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.tab__text-image-video .text {
-    flex: 1 0 0;
-    padding: 0 10px;
-}
-
-.tab__text-image-video .product-tab__image-video {
-    flex: 0 0 50%;
-    padding: 0 10px;
-}
-
-.product-tab__video video {
-    width: 100%;
-}
-
-  
 {%- endstyle -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
