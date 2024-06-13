@@ -467,6 +467,47 @@
             "button_label": "Featuring Hand Sanitizers",
             "button_link": "\/collections\/hand-sanitizers"
           }
+        },
+        "text_block_aGhzRJ": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Life-Style-Berryfina-2020.png",
+            "title": "Life & Style",
+            "date": "February, 2020",
+            "text": "<p>\"It helps brighten your complexion and reduces dull and tired skin.<\/p><p>\"Featuring FUSION™ Berryfina Brightening Mask<br\/><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_qrqnK4": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_TKz3q4": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_MPyDhA": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -505,7 +546,11 @@
         "text_block_BXFU3r",
         "text_block_BUhbNF",
         "text_block_Yy4Uch",
-        "text_block_acCiBc"
+        "text_block_acCiBc",
+        "text_block_aGhzRJ",
+        "text_block_qrqnK4",
+        "text_block_TKz3q4",
+        "text_block_MPyDhA"
       ],
       "settings": {
         "bg_color": "",
