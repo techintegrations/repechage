@@ -291,6 +291,27 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_hkwPfP": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_GqChFq": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-03-03-BuckHead.png",
+            "title": "Simply Buckhead",
+            "date": "March 3, 2022",
+            "text": "<p>\"This new, sugar-based body scrub gently sloughs off dry skin and uses seaweed, cocoa and caffeine extracts to initiate a more toned appearance. Mint essential oils will leave you feeling invigorated. Pro tip: Use it in the morning for a delightful wake-up.\"<\/p>",
+            "button_label": "Featuring Vita Cura® CelluSea Smooth™ Multi-Action Body Exfoliator",
+            "button_link": "\/products\/vita-cura-cellusea-smooth-multi-action-body-exfoliator"
+          }
         }
       },
       "block_order": [
@@ -313,7 +334,9 @@
         "text_block_qHT6jJ",
         "text_block_JTDARt",
         "text_block_bfQrBJ",
-        "text_block_te3Ub4"
+        "text_block_te3Ub4",
+        "text_block_hkwPfP",
+        "text_block_GqChFq"
       ],
       "settings": {
         "bg_color": "",
