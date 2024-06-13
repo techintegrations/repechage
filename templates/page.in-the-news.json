@@ -921,11 +921,12 @@
         "text_block_rQexPJ": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-02-americansalon_feb2017_sk.png",
+            "title": "American Salon",
+            "date": "February, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Hydra Dew® collection",
+            "button_link": "\/collections\/hydra-dew-for-dry-skin"
           }
         },
         "text_block_LH9BBE": {
