@@ -387,7 +387,7 @@
                   {%- when 'product_list' -%}
                     <div class="product_list-block product-block" {{ block.shopify_attributes }}>
 
-                      {%- for product in collections[block.settings.home_featured_products].products limit: product_limit -%}
+                      {%- for product in block.settings.product_list limit: product_limit -%}
                           {%- render 'product-grid-item',
                             product: product,
                             collection: collection,
