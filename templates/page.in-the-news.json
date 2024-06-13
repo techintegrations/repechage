@@ -987,11 +987,12 @@
         "text_block_qKQqNw": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-01-shape-1.png",
+            "title": "Shape",
+            "date": "January, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
+            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_7Xf6kB": {
