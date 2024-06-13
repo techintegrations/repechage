@@ -712,11 +712,12 @@
         "text_block_VV9xcb": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Yoga-Life-C-Serum-June-19.png",
+            "title": "Yoga Life",
+            "date": "June, 2019",
+            "text": "<p>\"12 vitamins, 42 trace elements, like food for your skin.\"<\/p>",
+            "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
+            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         }
       },
