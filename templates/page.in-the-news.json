@@ -1719,6 +1719,16 @@
             "button_label": "Featuring Eye Rescue Pads with Seaweed and Natural Tea Extracts",
             "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
+        },
+        "text_block_NCgjKk": {
+          "type": "text_block",
+          "settings": {
+            "title": "Lucky",
+            "date": "January, 2004",
+            "text": "<p>\"It's made with seaweed and light reflectors... radiant and smooth.\"<\/p>",
+            "button_label": "About Lydia Sarfati",
+            "button_link": "\/pages\/about-lydia-sarfati"
+          }
         }
       },
       "block_order": [
@@ -1759,7 +1769,8 @@
         "text_block_DniQXM",
         "text_block_UEMgX8",
         "text_block_WVJmtR",
-        "text_block_mnNmHr"
+        "text_block_mnNmHr",
+        "text_block_NCgjKk"
       ],
       "settings": {
         "bg_color": "",
