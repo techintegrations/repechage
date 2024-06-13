@@ -438,11 +438,12 @@
         "text_block_BUhbNF": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/kansa-insta.png",
+            "title": "Stay Fit 305",
+            "date": "April, 2020",
+            "text": "<p>\"An Ayurvedic skincare secret, Kansa Wands can be used on the face and body to aid in lymphatic drainage as well as toning. Repechage Kansa Wand is the perfect addition to any treatment and will improve the appearance of skin by toning, tightening and firming skin, while reducing the appearance of puffiness, fine lines, redness and irritation.\"<\/p>",
+            "button_label": "Featuring Kansa Wand",
+            "button_link": "\/collections\/accessories\/products\/repechage-kansa-wand"
           }
         }
       },
