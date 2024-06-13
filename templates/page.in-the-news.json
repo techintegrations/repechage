@@ -1126,6 +1126,87 @@
             "button_label": "Featuring Fusion All Natural At Home Products",
             "button_link": "\/collections\/fusion"
           }
+        },
+        "text_block_mBmgUe": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/160510-InStyle.png",
+            "title": "InStyle",
+            "date": "May 10, 2016",
+            "text": "<p>\"In total, the whole thing took about 10 minutes and for the most part, only hurt slightly more than an eyebrow wax.\" --Erin Lukas, Beauty Writer<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_WVe6zH": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_M3XVMY": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_fYpYjG": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_arfzYR": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_HKWLJe": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_dnDDFT": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_QFGjC3": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -1168,7 +1249,15 @@
         "text_block_UyV8LT",
         "text_block_aqHRkM",
         "text_block_7f8ngW",
-        "text_block_T63xHb"
+        "text_block_T63xHb",
+        "text_block_mBmgUe",
+        "text_block_WVe6zH",
+        "text_block_M3XVMY",
+        "text_block_fYpYjG",
+        "text_block_arfzYR",
+        "text_block_HKWLJe",
+        "text_block_dnDDFT",
+        "text_block_QFGjC3"
       ],
       "settings": {
         "bg_color": "",
