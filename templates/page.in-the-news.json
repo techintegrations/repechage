@@ -401,6 +401,27 @@
             "button_label": "Featuring Hydra Medic® Corrective Concealer",
             "button_link": "\/collections\/hydra-medic-products\/products\/hydra-medic-corrective-concealer"
           }
+        },
+        "text_block_PwDM9X": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20-11-01-SpaBeauty-HDP.png",
+            "title": "Spa & Beauty",
+            "date": "November, 2020",
+            "text": "<p>\"Envelop the skin in rich moisture and create instantly dewy complexion.\"<\/p>",
+            "button_label": "Featuring Hydra Dew Pure Collection",
+            "button_link": "\/collections\/hydra-dew-pure"
+          }
+        },
+        "text_block_BXFU3r": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -433,7 +454,9 @@
         "text_block_LrXKMQ",
         "text_block_E8JJFr",
         "text_block_7e47Qk",
-        "text_block_rqRH8W"
+        "text_block_rqRH8W",
+        "text_block_PwDM9X",
+        "text_block_BXFU3r"
       ],
       "settings": {
         "bg_color": "",
