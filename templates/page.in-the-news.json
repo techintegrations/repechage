@@ -284,9 +284,10 @@
         "text_block_te3Ub4": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/2022-04-05-AmericanSpa.png",
+            "title": "American Spa",
+            "date": "April 5, 2022",
+            "text": "<p>\"When used in pharmaceutical formulations for topical use, avocado oil can promote increased collagen synthesis and decreased numbers of inflammatory cells during the wound-healing process and may thus be considered a new option for treating skin wounds. Studies have also found it can be used in the treatment of psoriasis, wrinkles, and stretch marks.\" —Lydia Sarfati, CEO and founder, Repêchage<\/p>",
             "button_label": "",
             "button_link": ""
           }
