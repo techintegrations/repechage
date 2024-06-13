@@ -545,17 +545,6 @@
             "button_link": "\/collections\/vita-cura-gold-collection"
           }
         },
-        "text_block_Ra6rxd": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DivaEDonna_1.png",
-            "title": "Diva E Donna",
-            "date": "September, 2019",
-            "text": "",
-            "button_label": "Featuring Vita Cura® Gold Collection",
-            "button_link": "\/collections\/vita-cura-gold-collection"
-          }
-        },
         "text_block_gMctEB": {
           "type": "text_block",
           "settings": {
@@ -568,6 +557,57 @@
           }
         },
         "text_block_BPiqnM": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/191203_Shape-Press-VC-Gold.png",
+            "title": "Shape Magazine",
+            "date": "December, 2019",
+            "text": "",
+            "button_label": "Featuring Vita Cura® B3 Serum Complex",
+            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-serum-complex"
+          }
+        },
+        "text_block_8bzWJY": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_qtcW4D": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_7GpbCA": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_pRFVdk": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_VyAhWC": {
           "type": "text_block",
           "settings": {
             "title": "",
@@ -622,9 +662,13 @@
         "text_block_yACdtP",
         "text_block_FyfXRH",
         "text_block_yAbVfe",
-        "text_block_Ra6rxd",
         "text_block_gMctEB",
-        "text_block_BPiqnM"
+        "text_block_BPiqnM",
+        "text_block_8bzWJY",
+        "text_block_qtcW4D",
+        "text_block_7GpbCA",
+        "text_block_pRFVdk",
+        "text_block_VyAhWC"
       ],
       "settings": {
         "bg_color": "",
