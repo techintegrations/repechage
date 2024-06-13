@@ -511,6 +511,47 @@
             "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
             "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
+        },
+        "text_block_yACdtP": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/200103_Parade-Press-VC-Gold2.png",
+            "title": "Parade Magazine",
+            "date": "January, 2020",
+            "text": "<p>\"...will help restore youthfulness, tone and vibrancy to the skin.\"<\/p>",
+            "button_label": "Featuring Vita Cura® B3 Elixir Complex",
+            "button_link": "\/collections\/vita-cura-gold-collection"
+          }
+        },
+        "text_block_FyfXRH": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_yAbVfe": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_Ra6rxd": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -553,7 +594,11 @@
         "text_block_aGhzRJ",
         "text_block_qrqnK4",
         "text_block_TKz3q4",
-        "text_block_MPyDhA"
+        "text_block_MPyDhA",
+        "text_block_yACdtP",
+        "text_block_FyfXRH",
+        "text_block_yAbVfe",
+        "text_block_Ra6rxd"
       ],
       "settings": {
         "bg_color": "",
