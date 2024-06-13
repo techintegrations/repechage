@@ -1448,11 +1448,12 @@
         "text_block_iGN6eY": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/110801_Star.png",
+            "title": "Star",
+            "date": "September, 2011",
+            "text": "<p>\"She left the spa with this product in tow: Repêchage Rapidex:<\/p>",
+            "button_label": "Featuring Rapidex® Marine Exfoliator with Phyto-Marine Actives",
+            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         }
       },
