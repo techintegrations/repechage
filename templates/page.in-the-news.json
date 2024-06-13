@@ -1668,11 +1668,12 @@
         "text_block_q6A4MU": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Glamour-concealer-Jan-05.png",
+            "title": "Glamour",
+            "date": "January, 2005",
+            "text": "<p>\"After a late, late night, my eyes needed help. This de-puffed 'em!\"<\/p>",
+            "button_label": "Featuring Repêchage Perfecting Concealer",
+            "button_link": "\/search?type=product&q=concealer"
           }
         },
         "text_block_DniQXM": {
