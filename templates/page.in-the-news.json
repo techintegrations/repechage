@@ -1422,6 +1422,37 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_C3AkHf": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/120106_CosmoUK.png",
+            "title": "Cosmopolitan UK",
+            "date": "January, 2012",
+            "text": "<p>\"My face looked and felt so clean and soft after this...\"<\/p>",
+            "button_label": "Featuring Hydra Medic®Sea Mud Perfecting Mask",
+            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
+          }
+        },
+        "text_block_PfXYxn": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_iGN6eY": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -1435,7 +1466,10 @@
         "text_block_PeLiXU",
         "text_block_MYfVUB",
         "text_block_mj7iqh",
-        "text_block_7fm7QR"
+        "text_block_7fm7QR",
+        "text_block_C3AkHf",
+        "text_block_PfXYxn",
+        "text_block_iGN6eY"
       ],
       "settings": {
         "bg_color": "",
