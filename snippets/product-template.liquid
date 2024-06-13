@@ -384,6 +384,10 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- render 'product-complementary', block: block, product: product, type: 'block', image_style: block.settings.image_style -%}
                     </div>
+                  {%- when 'product_list' -%}
+                    <div class="product_list-block product-block" {{ block.shopify_attributes }}>
+                      
+                    </div>
                   {%- when 'trust_badge' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="aos-animate" style="max-width: {{ block.settings.trust_image.width }}px; margin: 0 auto;">
