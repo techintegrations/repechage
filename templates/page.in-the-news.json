@@ -570,11 +570,12 @@
         "text_block_8bzWJY": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/A-List-Nation-Dec-2019.png",
+            "title": "A-List Nation",
+            "date": "December, 2019",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Vita Cura® B3 Elixir Complex",
+            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-elixir-complex"
           }
         },
         "text_block_qtcW4D": {
