@@ -1646,10 +1646,11 @@
         "text_block_Ly4Urh": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
+            "image": "shopify:\/\/shop_images\/LuckyAug05.png",
+            "title": "Lucky",
+            "date": "August, 2005",
+            "text": "<p>\"This tea-infused de-stresser is literally a miracle worker on sunburns and irritated skin\"<\/p>",
+            "button_label": "Hydra Soleil® Deep Relief Tea Gel",
             "button_link": ""
           }
         },
