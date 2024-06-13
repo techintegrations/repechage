@@ -818,6 +818,97 @@
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
             "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
           }
+        },
+        "text_block_69LpiX": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2017-04-Cosmopolitan-Marzo-small.png",
+            "title": "Cosmopolitan",
+            "date": "April, 2017",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_NAgXCp": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_whqKUJ": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kCti3i": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_iHj6qK": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_QK4mdf": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LB8q3z": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_aUGNzU": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_frbUTM": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -832,7 +923,16 @@
         "text_block_Ddbm96",
         "text_block_LQAgDN",
         "text_block_wy36aR",
-        "text_block_t8ibek"
+        "text_block_t8ibek",
+        "text_block_69LpiX",
+        "text_block_NAgXCp",
+        "text_block_whqKUJ",
+        "text_block_kCti3i",
+        "text_block_iHj6qK",
+        "text_block_QK4mdf",
+        "text_block_LB8q3z",
+        "text_block_aUGNzU",
+        "text_block_frbUTM"
       ],
       "settings": {
         "bg_color": "",
