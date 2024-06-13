@@ -493,11 +493,12 @@
         "text_block_TKz3q4": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Beauty-Insider-Four-Layer.png",
+            "title": "Insider Beauty",
+            "date": "February, 2020",
+            "text": "<p>\"What It's Like To Get A Four-Layer Seaweed Facial Meant To Firm And Rejuvenate Skin\"<\/p>",
+            "button_label": "Featuring the Signature Repêchage® Four-Layer Facial®",
+            "button_link": "\/four-layer-facial-uses-seaweed-to-firm-skin-2020-2"
           }
         },
         "text_block_MPyDhA": {

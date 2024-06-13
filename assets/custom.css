@@ -530,6 +530,9 @@
     text-align: left;
 }
 
+.product_list-block .grid-product .grid-product__title {
+    min-height: auto;
+}
 
 @media only screen and (max-width: 768px) {
 
