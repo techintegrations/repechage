@@ -25,14 +25,9 @@
 
 
 
-  <div class="page-width {% if section.settings.featured_image %} fc-featured-image-row{% endif %} {% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
+  <div class="page-width {% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
 
 
-  {% if section.settings.featured_image != blank %}
-    <div class="fc-featured-image">
-      <img src="{{ section.settings.featured_image | img_url: 'master' }}">
-    </div>
-  {% endif %}
     
     <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
       <div class="grid grid--uniform"{% if section.settings.mobile_scrollable %} data-aos="overflow__animation"{% endif %}>
@@ -77,7 +72,7 @@
 
         {%- else -%}
 
-          {%- for product in collections[section.settings.home_featured_products].products limit: product_limit -%}
+          {%- for product in section.settings.product_list limit: product_limit -%}
             {%- render 'product-grid-item',
               product: product,
               collection: collection,
@@ -123,16 +118,11 @@
       "id": "title",
       "label": "t:sections.featured-collection.settings.title.label",
       "default": "Featured collection"
-    },   
-    {
-      "type": "image_picker",
-      "id": "featured_image",
-      "label": "Featured image"
     },
     {
-      "type": "collection",
-      "id": "home_featured_products",
-      "label": "t:sections.featured-collection.settings.home_featured_products.label"
+      "type": "product_list",
+      "id": "product_list",
+      "label": "product list"
     },
     {
       "type": "range",
