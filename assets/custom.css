@@ -524,6 +524,7 @@
 
 .product_list-block .grid-product__meta {
     text-align: left;
+    padding-top: 0px;
 }
 
 .product_list-block .grid__item-image-wrapper .atc-btn {

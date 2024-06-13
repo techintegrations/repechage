@@ -504,11 +504,12 @@
         "text_block_MPyDhA": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Byrdie-C-Serum-2020.png",
+            "title": "Byrdie",
+            "date": "February, 2020",
+            "text": "<p>\"...rich in vitamins, amino acids, and minerals that aid in reducing the appearance of fine lines and wrinkles.<br\/><\/p>",
+            "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
+            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         }
       },
