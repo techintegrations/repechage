@@ -537,11 +537,12 @@
         "text_block_yAbVfe": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/DivaEDonna.png",
+            "title": "Diva E Donna",
+            "date": "September, 2019",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Vita Cura® Gold Collection",
+            "button_link": "\/collections\/vita-cura-gold-collection"
           }
         },
         "text_block_Ra6rxd": {
