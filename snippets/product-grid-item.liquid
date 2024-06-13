@@ -377,12 +377,9 @@ Arguments
   {%- if quick_shop_enable and type == blank -%}
     {%- render 'quick-shop-modal', product: product -%}
   {%- endif -%}
-</div>
 
 
-
-
-<script>
+  <script>
   function add_to_cart_grid(variantid,qty){
     var id = variantid;
     var q = qty;
@@ -403,3 +400,10 @@ Arguments
     jQuery.ajax(ajax)
   }
 </script>
+  
+</div>
+
+
+
+
+
