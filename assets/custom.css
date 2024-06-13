@@ -546,12 +546,11 @@
 
 .tab__text-image-video .text {
     flex: 1 0 0;
-    padding: 0 10px;
 }
 
 .tab__text-image-video .product-tab__image-video {
     flex: 0 0 50%;
-    padding: 0 10px;
+    padding-left: 20px;
 }
 
 .product-tab__video video {
