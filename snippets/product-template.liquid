@@ -389,7 +389,7 @@
                     {% assign per_row = block.settings.per_row | plus: 0 %}
                     
                     <div class="product_list-block product-block" {{ block.shopify_attributes }}>
-                      <div class="product_list {% if product_limit > per_row %} product-list-block_slider{% endif %}">
+                      <div class="product_list custom-dots-style {% if product_limit > per_row %} product-list-block_slider{% endif %}">
                         {%- for product in block.settings.product_list limit: product_limit -%}
                           {%- render 'product-grid-item',
                             product: product,
