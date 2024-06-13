@@ -1160,6 +1160,17 @@
             "button_link": "\/products\/sea-spa-seaweed-body-cream"
           }
         },
+        "text_block_VdGe8P": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20160209-kale.png",
+            "title": "Organic Life",
+            "date": "January 26, 2016",
+            "text": "<p>\"Lydia Sarfati was one of the first to bring high-quality seaweed harvested off the coasts of France and Maine to skincare in the U.S.\"<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_fYpYjG": {
           "type": "text_block",
           "settings": {
@@ -1255,6 +1266,7 @@
         "text_block_mBmgUe",
         "text_block_WVe6zH",
         "text_block_M3XVMY",
+        "text_block_VdGe8P",
         "text_block_fYpYjG",
         "text_block_arfzYR",
         "text_block_HKWLJe",
