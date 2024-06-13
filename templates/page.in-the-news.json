@@ -1455,6 +1455,27 @@
             "button_label": "Featuring Rapidex® Marine Exfoliator with Phyto-Marine Actives",
             "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
+        },
+        "text_block_9NXKjc": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/110901_Glamour.png",
+            "title": "Glamour",
+            "date": "August, 2011",
+            "text": "<p>\"Our favorite picks for your face-to-foot sensitive-skin needs\"<\/p><p>Featuring Hydra 4® Tonic Travel Size<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_P4BQP4": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -1471,7 +1492,9 @@
         "text_block_7fm7QR",
         "text_block_C3AkHf",
         "text_block_PfXYxn",
-        "text_block_iGN6eY"
+        "text_block_iGN6eY",
+        "text_block_9NXKjc",
+        "text_block_P4BQP4"
       ],
       "settings": {
         "bg_color": "",
