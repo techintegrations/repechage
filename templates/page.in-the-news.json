@@ -1558,11 +1558,12 @@
         "text_block_qbrTWX": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/USWeekly0805.png",
+            "title": "US Weekly",
+            "date": "May, 2008",
+            "text": "<p>\"Hollywood pros share the latest in-office and at-home treatments.\"<\/p>",
+            "button_label": "Featuring Hydra Medic® Face Wash Foaming Gel Cleanser",
+            "button_link": "\/products\/hydra-medic-face-wash-foaming-gel-cleanser"
           }
         }
       },
