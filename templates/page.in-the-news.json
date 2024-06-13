@@ -1492,9 +1492,10 @@
         "text_block_xE6TjY": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/100401_Glamour.png",
+            "title": "Glamour",
+            "date": "April, 2010",
+            "text": "<p>\"Products have come a long way since cold cream. Now we have peptides that produce more collagen, and molecules that can prevent deep wrinkles.\" - Lydia Sarfati<\/p>",
             "button_label": "",
             "button_link": ""
           }
