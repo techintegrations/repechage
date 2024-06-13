@@ -1196,11 +1196,12 @@
         "text_block_HKWLJe": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/extra_8bc74768-6cb1-4220-95c2-14.png",
+            "title": "Extra TV",
+            "date": "October, 2015",
+            "text": "<p>As Seen On EXTRA TV! Featuring our Perfect Skin Gift Set. The perfect gift and stocking stuffer this holiday season.<\/p>",
+            "button_label": "Featuring The Perfect Skin Gift Set",
+            "button_link": "https:\/\/www.repechage.com\/"
           }
         },
         "text_block_dnDDFT": {
