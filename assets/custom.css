@@ -429,10 +429,6 @@
     display: block;
 }
 
-.grid__item-image-wrapper .grid-product__link {
-    padding: 0 15px;
-}
-
 .product-logo.product-block {
     display: flex;
     flex-wrap: wrap;
