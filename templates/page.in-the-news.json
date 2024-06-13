@@ -888,11 +888,12 @@
         "text_block_LB8q3z": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/2017-03-ok-01.png",
+            "title": "OK",
+            "date": "February, 2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring BIOLIGHT™ Brightening Miracle Mask With Laminaria Complex",
+            "button_link": "\/collections\/biolight-brightening-skin-care-products"
           }
         },
         "text_block_aUGNzU": {
