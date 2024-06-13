@@ -1514,11 +1514,12 @@
         "text_block_t3fGHP": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/1002_glamour.png",
+            "title": "Glamour",
+            "date": "February, 2010",
+            "text": "<p>\"Work cleanser onto skin for about 15 seconds--any longer is overkill.\" - Lydia Sarfati<\/p>",
+            "button_label": "Featuring Sea Cleanse® Foaming Seaweed Cleanser",
+            "button_link": "\/products\/sea-cleanse-foaming-seaweed-cleanser"
           }
         },
         "text_block_Uzi38y": {
