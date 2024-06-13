@@ -521,6 +521,14 @@
     background: transparent;
 }
 
+.product_list-block [data-center-text=true] .grid-product__meta {
+    text-align: left;
+}
+
+.product_list-block .grid__item-image-wrapper .atc-btn {
+    text-align: left;
+}
+
 
 @media only screen and (max-width: 768px) {
 
