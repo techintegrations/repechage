@@ -932,11 +932,12 @@
         "text_block_LH9BBE": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/allure-eye-pads.png",
+            "title": "Allure",
+            "date": "2017",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Eye Rescue Pads",
+            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_cExhWb": {
