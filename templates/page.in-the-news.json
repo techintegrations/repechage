@@ -247,6 +247,17 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_qHT6jJ": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22-06-09-NewBeauty_df1045d2-fa80.png",
+            "title": "NewBeauty",
+            "date": "June 9, 2022",
+            "text": "<p>\"Features seaweed, peptides, caffeine, vitamin C and coenzymes to help improve skin firmness. Use it on the neck and décolleté twice a day for best results.\"<\/p>",
+            "button_label": "Featuring Vita Cura® CelluSea Firm™ Neck and Body Serum",
+            "button_link": "\/products\/vita-cura-cellusea-firm-neck-and-body-serum"
+          }
         }
       },
       "block_order": [
@@ -265,7 +276,8 @@
         "text_block_Jg8GRP",
         "text_block_9cEVFW",
         "text_block_9i6gLG",
-        "text_block_JxHFXK"
+        "text_block_JxHFXK",
+        "text_block_qHT6jJ"
       ],
       "settings": {
         "bg_color": "",
