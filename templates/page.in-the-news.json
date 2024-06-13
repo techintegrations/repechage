@@ -614,11 +614,12 @@
         "text_block_VyAhWC": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
+            "image": "shopify:\/\/shop_images\/Glamour-Lamina-Mask-Sept-2019.png",
+            "title": "Glamour",
+            "date": "September, 2019",
             "text": "",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Featuring Lamina Lift™ Hydrating Seaweed Mask For All Skin Types",
+            "button_link": "\/collections\/exfoliators-masks\/products\/repechage-lamina-lift-hydrating-seaweed-mask-for-all-skin-types"
           }
         }
       },
