@@ -225,6 +225,17 @@
             "button_label": "Featuring Repêchage® Triple Action Peptide Mask",
             "button_link": "\/products\/triple-action-peptide-mask-single-sheet-mask"
           }
+        },
+        "text_block_9i6gLG": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-07-27-NewBeauty.png",
+            "title": "NewBeauty",
+            "date": "July 27, 2022",
+            "text": "<p>\"Head-to-toe skin-fi rming and perfecting treatments to try on your arms, legs and butt at home.\"<br\/><\/p>",
+            "button_label": "Featuring Vita Cura® CelluSea Firm™ Neck and Body Serum",
+            "button_link": "\/products\/vita-cura-cellusea-firm-neck-and-body-serum"
+          }
         }
       },
       "block_order": [
@@ -241,7 +252,8 @@
         "text_block_BGY6Pc",
         "text_block_CTJxJB",
         "text_block_Jg8GRP",
-        "text_block_9cEVFW"
+        "text_block_9cEVFW",
+        "text_block_9i6gLG"
       ],
       "settings": {
         "bg_color": "",
