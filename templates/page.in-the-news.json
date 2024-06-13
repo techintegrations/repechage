@@ -482,11 +482,12 @@
         "text_block_qrqnK4": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/New-Beauty-Hydra-4-Moisturizer3.png",
+            "title": "New Beauty",
+            "date": "February, 2020",
+            "text": "<p>\"...this moisturizer for sensitive skin is packed with powerful ingredients, like olive oil extract combined with four seaweed extracts.\"<br\/><\/p>",
+            "button_label": "Featuring Hydra 4® Moisturizing Day Cream",
+            "button_link": "\/collections\/hydra-4-for-sensitive-skin\/products\/hydra-4-day-protection-cream-for-sensitive-skin"
           }
         },
         "text_block_TKz3q4": {
