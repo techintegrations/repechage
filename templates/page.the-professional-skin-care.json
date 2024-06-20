@@ -14,9 +14,131 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "rich_text_V9qig6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GhWhkq": {
+          "type": "heading",
+          "settings": {
+            "title": "THE PROFESSIONAL SKIN CARE LINE DIFFERENCE"
+          }
+        },
+        "heading_Xtzyp9": {
+          "type": "heading",
+          "settings": {
+            "title": "WHO WE ARE"
+          }
+        },
+        "text_FiLmBd": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/p>"
+          }
+        },
+        "text_rdLFm7": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We're committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GhWhkq",
+        "heading_Xtzyp9",
+        "text_FiLmBd",
+        "text_rdLFm7"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured_video_9MEiXh": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "divider": false
+      }
+    },
+    "rich_text_nrc3V8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CqNNNf": {
+          "type": "heading",
+          "settings": {
+            "title": "MESSAGE FROM OUR FOUNDER"
+          }
+        },
+        "text_3nRpUP": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"<\/p><p>— Lydia Sarfati<\/p>"
+          }
+        },
+        "heading_gGjMM9": {
+          "type": "heading",
+          "settings": {
+            "title": "A SEAWEED BREAKTHROUGH"
+          }
+        },
+        "text_hDVNrJ": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>It all began in the 1970s when our CEO and founder, Lydia Sarfati, uncovered the transformative powers of seawater and seaweed and discovered a holistic approach to wellness and skincare. In 1980, she founded Repêchage, pioneering the use of sustainably harvested seaweed to treat diverse skin types.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CqNNNf",
+        "text_3nRpUP",
+        "heading_gGjMM9",
+        "text_hDVNrJ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_HAc9CP": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_C6Rp8j": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/seaweed_ec87148c-44b8-49e6-a02b-85e4a57ccfdc.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_C6Rp8j"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_V9qig6",
+    "featured_video_9MEiXh",
+    "rich_text_nrc3V8",
+    "text_columns_HAc9CP"
   ]
 }
