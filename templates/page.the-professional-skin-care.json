@@ -132,6 +132,33 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "rich_text_XY33eP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4C4T9Q": {
+          "type": "heading",
+          "settings": {
+            "title": "THE STAR INGREDIENT? LAMINARIA DIGITATA."
+          }
+        },
+        "text_YzVWp8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>This seaweed is power-packed with an abundant concentration of 12 vitamins, 42 trace elements, and 18 amino acids that work to keep your skin hydrated, radiant, restored, and renewed. We’ve since developed over 180 product offerings inspired by the seaweeds off the coast of Maine. Using our exclusive extraction technique, we've mastered the art of harvesting the highest-grade seaweed, giving rise to iconic creations like the renowned Repêchage Four-Layer Facial.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4C4T9Q",
+        "text_YzVWp8"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -139,6 +166,7 @@
     "rich_text_V9qig6",
     "featured_video_9MEiXh",
     "rich_text_nrc3V8",
-    "text_columns_HAc9CP"
+    "text_columns_HAc9CP",
+    "rich_text_XY33eP"
   ]
 }
