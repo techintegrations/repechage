@@ -159,6 +159,303 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "text_columns_YEmaNw": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_JWEmiw": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/four_layer.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_JWEmiw"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_LNB8zR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qEGkJh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We’re all about spa wellness with clinical results. Experience our award-winning skincare available at luxury spas, destination resorts, professional skincare centers, medical facilities, and, of course, in the cozy comfort of your home.<\/p>"
+          }
+        },
+        "heading_ge4Vkf": {
+          "type": "heading",
+          "settings": {
+            "title": "SKINCARE YOU CAN TRUST"
+          }
+        },
+        "heading_PbdVjG": {
+          "type": "heading",
+          "settings": {
+            "title": "IT’S YOUR SKIN. DON’T COMPROMISE IT."
+          }
+        },
+        "text_i9m9wn": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<br\/><br\/><\/p>"
+          }
+        },
+        "heading_adFhCY": {
+          "type": "heading",
+          "settings": {
+            "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS"
+          }
+        },
+        "text_zyi9dt": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qEGkJh",
+        "heading_ge4Vkf",
+        "heading_PbdVjG",
+        "text_i9m9wn",
+        "heading_adFhCY",
+        "text_zyi9dt"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_nbmQYd": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_rci7Un": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/map_852ed184-26e9-4494-bd5a-2d26053d3d1c.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rci7Un"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_UdC8GE": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_N4AaWR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/clas2024.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_N4AaWR"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_3YynDp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_39XypH": {
+          "type": "heading",
+          "settings": {
+            "title": "2. COMMITMENT TO EDUCATION"
+          }
+        },
+        "text_pYhJBH": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.<\/p>"
+          }
+        },
+        "heading_EGeA43": {
+          "type": "heading",
+          "settings": {
+            "title": "3. COMMITMENT TO SPA SUCCESS"
+          }
+        },
+        "text_fGYf4W": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_39XypH",
+        "text_pYhJBH",
+        "heading_EGeA43",
+        "text_fGYf4W"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_jWVqce": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_JA8Jrn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/success.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_JA8Jrn"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_RKm9gn": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_efmCpn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/machine_1.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_efmCpn"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_9Rb877": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UNQtDp": {
+          "type": "heading",
+          "settings": {
+            "title": "4. COMMITMENT TO EXCELLENCE"
+          }
+        },
+        "text_eMwYbE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.<\/p>"
+          }
+        },
+        "heading_rYW4P7": {
+          "type": "heading",
+          "settings": {
+            "title": "5. COMMITMENT TO THE BEST PRODUCTS"
+          }
+        },
+        "text_7nWzKy": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UNQtDp",
+        "text_eMwYbE",
+        "heading_rYW4P7",
+        "text_7nWzKy"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_eMDXRW": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_APn4kM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/hydro.webp",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_APn4kM"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -167,6 +464,15 @@
     "featured_video_9MEiXh",
     "rich_text_nrc3V8",
     "text_columns_HAc9CP",
-    "rich_text_XY33eP"
+    "rich_text_XY33eP",
+    "text_columns_YEmaNw",
+    "rich_text_LNB8zR",
+    "text_columns_nbmQYd",
+    "text_columns_UdC8GE",
+    "rich_text_3YynDp",
+    "text_columns_jWVqce",
+    "text_columns_RKm9gn",
+    "rich_text_9Rb877",
+    "text_columns_eMDXRW"
   ]
 }
