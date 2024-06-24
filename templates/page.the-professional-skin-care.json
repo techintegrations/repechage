@@ -460,7 +460,7 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/player.vimeo.com\/video\/759634059?h=a92f740b4c&badge=0&autopause=0&player_id=0&app_id=58479",
+        "video_url": "https:\/\/player.vimeo.com\/video\/759634059",
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "auto"
