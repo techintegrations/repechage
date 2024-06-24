@@ -32,7 +32,7 @@
             {%- endif -%}
           </div>
         {%- when 'text' -%}
-          <div class="rte" tyle="color: {{ block.settings.text_color }}">
+          <div class="rte" style="color: {{ block.settings.text_color }}">
             {%- if block.settings.text != blank -%}
               {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
               {{ block.settings.text }}
