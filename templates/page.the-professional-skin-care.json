@@ -72,7 +72,7 @@
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "right",
+        "layout": "left",
         "bg_color": "",
         "padding_top": 60,
         "padding_bottom": 0,
@@ -449,6 +449,22 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "hero_video_Af8LYM": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/player.vimeo.com\/video\/759634059?h=a92f740b4c&badge=0&autopause=0&player_id=0&app_id=58479",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
     }
   },
   "order": [
@@ -465,6 +481,7 @@
     "text_columns_jWVqce",
     "text_columns_RKm9gn",
     "rich_text_9Rb877",
-    "text_columns_eMDXRW"
+    "text_columns_eMDXRW",
+    "hero_video_Af8LYM"
   ]
 }
