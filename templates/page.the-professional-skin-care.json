@@ -200,6 +200,14 @@
         "padding_top_m": 50,
         "padding_bottom_m": 20
       }
+    },
+    "featured_video_zy93cz": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/player.vimeo.com\/video\/759634059?h=a92f740b4c&badge=0&autopause=0&player_id=0&app_id=58479",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -207,6 +215,7 @@
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
     "rich_text_X66Ge8",
-    "custom_image_slider_with_text_fKK69K"
+    "custom_image_slider_with_text_fKK69K",
+    "featured_video_zy93cz"
   ]
 }
