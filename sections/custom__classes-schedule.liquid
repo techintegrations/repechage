@@ -22,12 +22,12 @@
 
     <div class="classes-schedule-row">
       {% for block in section.blocks %}
-        <div class="image-with-info__row" {{ block.shopify_attributes }}>
-          <div class="image-with-info__image">
+        <div class="classes-schedule-row" {{ block.shopify_attributes }}>
+          <div class="left-column col">
               <img src="{{ block.settings.image | img_url: 'master' }}">
           </div>
 
-          <div class="image-with-info__info rte">
+          <div class="right-column col">
               <div class="image-with-info-title">
                 <h3>{{ block.settings.title }}</h3>
                 {% if block.settings.date != blank %}
