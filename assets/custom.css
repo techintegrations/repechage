@@ -544,6 +544,29 @@
     flex: 1 0 0;
 }
 
+.classes-schedule-row .left-column {
+    flex: 0 0 200px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+}
+
+.classes-schedule-row .left-column .month {
+    background: #eeeeee;
+}
+
+.classes-schedule-row .left-column p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.classes-schedule-row .left-column .date {
+    margin: 0px;
+    padding: 10px;
+}
+
+.classes-schedule-row .left-column .classes {
+    background-color: powderblue;
+}
 
 @media only screen and (max-width: 768px) {
 
