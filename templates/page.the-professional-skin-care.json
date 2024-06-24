@@ -52,8 +52,8 @@
         "text_rdLFm7"
       ],
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
+        "align_text": "left",
+        "narrow_column": false,
         "divider": false
       }
     },
