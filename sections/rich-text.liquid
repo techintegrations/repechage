@@ -22,7 +22,7 @@
     <div class="theme-block" {{ block.shopify_attributes }}>
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h2>{{ block.settings.title | escape }}</h2>
+          <h2 style="color: {{ block.settings.title_color }}">{{ block.settings.title | escape }}</h2>
         {%- when 'page' -%}
           <div class="rte">
             {%- if block.settings.page_text != blank -%}
@@ -32,7 +32,7 @@
             {%- endif -%}
           </div>
         {%- when 'text' -%}
-          <div class="rte">
+          <div class="rte" tyle="color: {{ block.settings.text_color }}">
             {%- if block.settings.text != blank -%}
               {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
               {{ block.settings.text }}
