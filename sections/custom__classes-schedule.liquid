@@ -18,9 +18,9 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 
-  <div class="image-with-info-wrap page-width">
+  <div class="classes-schedule-wrap page-width">
 
-    <div class="image-with-info">
+    <div class="classes-schedule-row">
       {% for block in section.blocks %}
         <div class="image-with-info__row" {{ block.shopify_attributes }}>
           <div class="image-with-info__image">
@@ -132,7 +132,7 @@
         {
           "type": "richtext",
           "id": "text",
-          "label": "t:common.text_with_icons.blocks.column.settings.text.label"
+          "label": "Text"
         },
         { 
           "type": "text",
