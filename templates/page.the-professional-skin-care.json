@@ -125,100 +125,6 @@
         "divider": false
       }
     },
-    "text_columns_YEmaNw": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_JWEmiw": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/four_layer.webp",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_JWEmiw"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "rich_text_LNB8zR": {
-      "type": "rich-text",
-      "blocks": {
-        "text_qEGkJh": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>We’re all about spa wellness with clinical results. Experience our award-winning skincare available at luxury spas, destination resorts, professional skincare centers, medical facilities, and, of course, in the cozy comfort of your home.<\/p>",
-            "text_color": "#000000"
-          }
-        },
-        "heading_ge4Vkf": {
-          "type": "heading",
-          "settings": {
-            "title": "SKINCARE YOU CAN TRUST",
-            "title_color": "#000000"
-          }
-        },
-        "heading_PbdVjG": {
-          "type": "heading",
-          "settings": {
-            "title": "IT’S YOUR SKIN. DON’T COMPROMISE IT.",
-            "title_color": "#000000"
-          }
-        },
-        "text_i9m9wn": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<br\/><br\/><\/p>",
-            "text_color": "#000000"
-          }
-        },
-        "heading_adFhCY": {
-          "type": "heading",
-          "settings": {
-            "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS",
-            "title_color": "#000000"
-          }
-        },
-        "text_zyi9dt": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "text_qEGkJh",
-        "heading_ge4Vkf",
-        "heading_PbdVjG",
-        "text_i9m9wn",
-        "heading_adFhCY",
-        "text_zyi9dt"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": false
-      }
-    },
     "custom_image_slider_with_text_fKK69K": {
       "type": "custom__image-slider-with-text",
       "blocks": {
@@ -301,8 +207,6 @@
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
     "rich_text_X66Ge8",
-    "text_columns_YEmaNw",
-    "rich_text_LNB8zR",
     "custom_image_slider_with_text_fKK69K"
   ]
 }
