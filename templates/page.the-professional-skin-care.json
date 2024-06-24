@@ -66,83 +66,6 @@
         "divider": false
       }
     },
-    "rich_text_nrc3V8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_CqNNNf": {
-          "type": "heading",
-          "settings": {
-            "title": "MESSAGE FROM OUR FOUNDER",
-            "title_color": "#000000"
-          }
-        },
-        "text_3nRpUP": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"<\/p><p>— Lydia Sarfati<\/p>",
-            "text_color": "#000000"
-          }
-        },
-        "heading_gGjMM9": {
-          "type": "heading",
-          "settings": {
-            "title": "A SEAWEED BREAKTHROUGH",
-            "title_color": "#000000"
-          }
-        },
-        "text_hDVNrJ": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>It all began in the 1970s when our CEO and founder, Lydia Sarfati, uncovered the transformative powers of seawater and seaweed and discovered a holistic approach to wellness and skincare. In 1980, she founded Repêchage, pioneering the use of sustainably harvested seaweed to treat diverse skin types.<\/p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CqNNNf",
-        "text_3nRpUP",
-        "heading_gGjMM9",
-        "text_hDVNrJ"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": false
-      }
-    },
-    "text_columns_HAc9CP": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_C6Rp8j": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/seaweed_ec87148c-44b8-49e6-a02b-85e4a57ccfdc.webp",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_C6Rp8j"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
     "rich_text_XY33eP": {
       "type": "rich-text",
       "blocks": {
@@ -508,8 +431,6 @@
     "main",
     "rich_text_V9qig6",
     "featured_video_9MEiXh",
-    "rich_text_nrc3V8",
-    "text_columns_HAc9CP",
     "rich_text_XY33eP",
     "text_columns_YEmaNw",
     "rich_text_LNB8zR",
