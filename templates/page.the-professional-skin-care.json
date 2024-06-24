@@ -486,12 +486,36 @@
             "button_link": "",
             "button_style": "primary"
           }
+        },
+        "image_slider_block_hUxKXG": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/machine_1.webp",
+            "title": "4. COMMITMENT TO EXCELLENCE",
+            "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_bBLtaq": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydro.webp",
+            "title": "5. COMMITMENT TO THE BEST PRODUCTS",
+            "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
         }
       },
       "block_order": [
         "image_slider_block_fmkzwz",
         "image_slider_block_cQXLDU",
-        "image_slider_block_pNE4qP"
+        "image_slider_block_pNE4qP",
+        "image_slider_block_hUxKXG",
+        "image_slider_block_bBLtaq"
       ],
       "settings": {
         "title": "",
