@@ -479,8 +479,9 @@
         "image_slider_block_pNE4qP": {
           "type": "image_slider_block",
           "settings": {
-            "title": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/success_091c17c5-651c-4e86-b313-32f243c11d33.webp",
+            "title": "3. COMMITMENT TO SPA SUCCESS",
+            "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
