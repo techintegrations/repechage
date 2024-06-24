@@ -450,6 +450,56 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "custom_image_slider_with_text_fKK69K": {
+      "type": "custom__image-slider-with-text",
+      "blocks": {
+        "image_slider_block_fmkzwz": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/map_852ed184-26e9-4494-bd5a-2d26053d3d1c.jpg",
+            "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS",
+            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_cQXLDU": {
+          "type": "image_slider_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_pNE4qP": {
+          "type": "image_slider_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_block_fmkzwz",
+        "image_slider_block_cQXLDU",
+        "image_slider_block_pNE4qP"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
     }
   },
   "order": [
@@ -465,6 +515,7 @@
     "text_columns_jWVqce",
     "text_columns_RKm9gn",
     "rich_text_9Rb877",
-    "text_columns_eMDXRW"
+    "text_columns_eMDXRW",
+    "custom_image_slider_with_text_fKK69K"
   ]
 }
