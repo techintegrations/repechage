@@ -529,6 +529,11 @@
     width: 100%;
 }
 
+#shopify-section-template--17266728304813__custom_image_slider_with_text_fKK69K .image-slider-with-text .slider-banner-image img {
+    min-height: 533px;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
