@@ -48,10 +48,65 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "custom_classes_schedule_PX3jiM": {
+      "type": "custom__classes-schedule",
+      "blocks": {
+        "class_mWa8Ui": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "22-24",
+            "class": "TRADESHOW",
+            "title": "IECSC LAS VEGAS",
+            "text": "<p><strong>Las Vegas, NV<\/strong><\/p><p>Booth: 501<br\/>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "class_CU9pkY": {
+          "type": "class",
+          "settings": {
+            "month": "",
+            "date": "",
+            "class": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "class_XanHFe": {
+          "type": "class",
+          "settings": {
+            "month": "",
+            "date": "",
+            "class": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "class_mWa8Ui",
+        "class_CU9pkY",
+        "class_XanHFe"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_gg9waL"
+    "rich_text_gg9waL",
+    "custom_classes_schedule_PX3jiM"
   ]
 }
