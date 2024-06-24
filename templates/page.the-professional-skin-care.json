@@ -96,7 +96,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>It’s your skin. Don’t compromise it.<\/p>",
+            "text": "<p><em>It’s your skin. Don’t compromise it.<\/em><\/p>",
             "text_color": "#ffffff"
           }
         },
