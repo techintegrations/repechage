@@ -206,7 +206,12 @@
       "settings": {
         "title": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=2HPpPr2rP94",
-        "divider": false
+        "divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "#000000"
       }
     }
   },
