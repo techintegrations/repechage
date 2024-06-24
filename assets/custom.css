@@ -534,6 +534,17 @@
     object-fit: cover;
 }
 
+.classes-schedule-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100px;
+}
+
+.classes-schedule-row .right-column.col {
+    flex: 1 0 0;
+}
+
+
 @media only screen and (max-width: 768px) {
 
   .fc-featured-image-row {
