@@ -26,14 +26,14 @@
   {%- endif -%}
 
   <div class="image-slider-with-text">
-    <div class="slider slider-for">
+    <div class="slider">
       {% for block in section.blocks %}
         <div class="slider-banner-image">
           <img src="{{ block.settings.image | img_url: 'master' }}">
         </div>
       {% endfor %}
     </div>
-    <div class="slider slider-nav">
+    <div class="slider">
       {% for block in section.blocks %}
         <div class="slider-info">
           {% if block.settings.title != blank %}
