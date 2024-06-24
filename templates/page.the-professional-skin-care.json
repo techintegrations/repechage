@@ -82,6 +82,49 @@
         "lazyload_images": true
       }
     },
+    "rich_text_X66Ge8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ipqcA4": {
+          "type": "heading",
+          "settings": {
+            "title": "SKINCARE YOU CAN TRUST",
+            "title_color": "#ffffff"
+          }
+        },
+        "text_qFezhY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>It’s your skin. Don’t compromise it.<\/p>",
+            "text_color": "#ffffff"
+          }
+        },
+        "text_VHCeWE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<\/p>",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ipqcA4",
+        "text_qFezhY",
+        "text_VHCeWE"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "#000000",
+        "divider": false
+      }
+    },
     "featured_video_9MEiXh": {
       "type": "featured-video",
       "settings": {
@@ -455,6 +498,7 @@
     "main",
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
+    "rich_text_X66Ge8",
     "featured_video_9MEiXh",
     "rich_text_XY33eP",
     "text_columns_YEmaNw",
