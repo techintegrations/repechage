@@ -453,10 +453,10 @@
     "hero_video_Af8LYM": {
       "type": "hero-video",
       "settings": {
-        "title": "Bring your\nbrand to life.",
+        "title": "",
         "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
+        "subheading": "",
+        "link_text": "",
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
