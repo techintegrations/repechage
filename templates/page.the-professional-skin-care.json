@@ -468,8 +468,9 @@
         "image_slider_block_cQXLDU": {
           "type": "image_slider_block",
           "settings": {
-            "title": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/clas2024.webp",
+            "title": "2. COMMITMENT TO EDUCATION",
+            "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
