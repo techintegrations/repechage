@@ -541,6 +541,7 @@
 
 .classes-schedule-row .right-column {
     flex: 1 0 0;
+    margin-left: 40px;
 }
 
 .classes-schedule-row .left-column {
