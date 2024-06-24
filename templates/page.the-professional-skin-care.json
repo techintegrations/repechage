@@ -449,36 +449,6 @@
         "align_text": "center",
         "divider": false
       }
-    },
-    "hero_video_Af8LYM": {
-      "type": "hero-video",
-      "settings": {
-        "title": "",
-        "title_size": 80,
-        "subheading": "",
-        "link_text": "",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/vimeo.com\/759634059",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
-      }
-    },
-    "background_video_text_gthyqR": {
-      "type": "background-video-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "video_url": "https:\/\/player.vimeo.com\/video\/759634059",
-        "color_border": "#f4f4f4",
-        "layout": "left",
-        "height": 550
-      }
     }
   },
   "order": [
@@ -495,8 +465,6 @@
     "text_columns_jWVqce",
     "text_columns_RKm9gn",
     "rich_text_9Rb877",
-    "text_columns_eMDXRW",
-    "hero_video_Af8LYM",
-    "background_video_text_gthyqR"
+    "text_columns_eMDXRW"
   ]
 }
