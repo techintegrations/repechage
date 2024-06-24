@@ -18,35 +18,31 @@
     "rich_text_V9qig6": {
       "type": "rich-text",
       "blocks": {
-        "heading_GhWhkq": {
-          "type": "heading",
-          "settings": {
-            "title": "THE PROFESSIONAL SKIN CARE LINE DIFFERENCE"
-          }
-        },
         "heading_Xtzyp9": {
           "type": "heading",
           "settings": {
-            "title": "WHO WE ARE"
+            "title": "WHO WE ARE",
+            "title_color": "#ffffff"
           }
         },
         "text_FiLmBd": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/p>"
+            "text": "<p>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/p>",
+            "text_color": "#000"
           }
         },
         "text_rdLFm7": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>We're committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>"
+            "text": "<p>We're committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>",
+            "text_color": "#000"
           }
         }
       },
       "block_order": [
-        "heading_GhWhkq",
         "heading_Xtzyp9",
         "text_FiLmBd",
         "text_rdLFm7"
@@ -76,27 +72,31 @@
         "heading_CqNNNf": {
           "type": "heading",
           "settings": {
-            "title": "MESSAGE FROM OUR FOUNDER"
+            "title": "MESSAGE FROM OUR FOUNDER",
+            "title_color": "#000"
           }
         },
         "text_3nRpUP": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"<\/p><p>— Lydia Sarfati<\/p>"
+            "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"<\/p><p>— Lydia Sarfati<\/p>",
+            "text_color": "#000"
           }
         },
         "heading_gGjMM9": {
           "type": "heading",
           "settings": {
-            "title": "A SEAWEED BREAKTHROUGH"
+            "title": "A SEAWEED BREAKTHROUGH",
+            "title_color": "#000"
           }
         },
         "text_hDVNrJ": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>It all began in the 1970s when our CEO and founder, Lydia Sarfati, uncovered the transformative powers of seawater and seaweed and discovered a holistic approach to wellness and skincare. In 1980, she founded Repêchage, pioneering the use of sustainably harvested seaweed to treat diverse skin types.<\/p>"
+            "text": "<p>It all began in the 1970s when our CEO and founder, Lydia Sarfati, uncovered the transformative powers of seawater and seaweed and discovered a holistic approach to wellness and skincare. In 1980, she founded Repêchage, pioneering the use of sustainably harvested seaweed to treat diverse skin types.<\/p>",
+            "text_color": "#000"
           }
         }
       },
@@ -149,14 +149,16 @@
         "heading_4C4T9Q": {
           "type": "heading",
           "settings": {
-            "title": "THE STAR INGREDIENT? LAMINARIA DIGITATA."
+            "title": "THE STAR INGREDIENT? LAMINARIA DIGITATA.",
+            "title_color": "#000"
           }
         },
         "text_YzVWp8": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>This seaweed is power-packed with an abundant concentration of 12 vitamins, 42 trace elements, and 18 amino acids that work to keep your skin hydrated, radiant, restored, and renewed. We’ve since developed over 180 product offerings inspired by the seaweeds off the coast of Maine. Using our exclusive extraction technique, we've mastered the art of harvesting the highest-grade seaweed, giving rise to iconic creations like the renowned Repêchage Four-Layer Facial.<br\/><\/p>"
+            "text": "<p>This seaweed is power-packed with an abundant concentration of 12 vitamins, 42 trace elements, and 18 amino acids that work to keep your skin hydrated, radiant, restored, and renewed. We’ve since developed over 180 product offerings inspired by the seaweeds off the coast of Maine. Using our exclusive extraction technique, we've mastered the art of harvesting the highest-grade seaweed, giving rise to iconic creations like the renowned Repêchage Four-Layer Facial.<br\/><\/p>",
+            "text_color": "#000"
           }
         }
       },
@@ -208,39 +210,45 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>We’re all about spa wellness with clinical results. Experience our award-winning skincare available at luxury spas, destination resorts, professional skincare centers, medical facilities, and, of course, in the cozy comfort of your home.<\/p>"
+            "text": "<p>We’re all about spa wellness with clinical results. Experience our award-winning skincare available at luxury spas, destination resorts, professional skincare centers, medical facilities, and, of course, in the cozy comfort of your home.<\/p>",
+            "text_color": "#000"
           }
         },
         "heading_ge4Vkf": {
           "type": "heading",
           "settings": {
-            "title": "SKINCARE YOU CAN TRUST"
+            "title": "SKINCARE YOU CAN TRUST",
+            "title_color": "#000"
           }
         },
         "heading_PbdVjG": {
           "type": "heading",
           "settings": {
-            "title": "IT’S YOUR SKIN. DON’T COMPROMISE IT."
+            "title": "IT’S YOUR SKIN. DON’T COMPROMISE IT.",
+            "title_color": "#000"
           }
         },
         "text_i9m9wn": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<br\/><br\/><\/p>"
+            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<br\/><br\/><\/p>",
+            "text_color": "#000"
           }
         },
         "heading_adFhCY": {
           "type": "heading",
           "settings": {
-            "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS"
+            "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS",
+            "title_color": "#000"
           }
         },
         "text_zyi9dt": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>"
+            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>",
+            "text_color": "#000"
           }
         }
       },
@@ -321,27 +329,31 @@
         "heading_39XypH": {
           "type": "heading",
           "settings": {
-            "title": "2. COMMITMENT TO EDUCATION"
+            "title": "2. COMMITMENT TO EDUCATION",
+            "title_color": "#000"
           }
         },
         "text_pYhJBH": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.<\/p>"
+            "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.<\/p>",
+            "text_color": "#000"
           }
         },
         "heading_EGeA43": {
           "type": "heading",
           "settings": {
-            "title": "3. COMMITMENT TO SPA SUCCESS"
+            "title": "3. COMMITMENT TO SPA SUCCESS",
+            "title_color": "#000"
           }
         },
         "text_fGYf4W": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!<\/p>"
+            "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!<\/p>",
+            "text_color": "#000"
           }
         }
       },
@@ -420,27 +432,31 @@
         "heading_UNQtDp": {
           "type": "heading",
           "settings": {
-            "title": "4. COMMITMENT TO EXCELLENCE"
+            "title": "4. COMMITMENT TO EXCELLENCE",
+            "title_color": "#000"
           }
         },
         "text_eMwYbE": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.<\/p>"
+            "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.<\/p>",
+            "text_color": "#000"
           }
         },
         "heading_rYW4P7": {
           "type": "heading",
           "settings": {
-            "title": "5. COMMITMENT TO THE BEST PRODUCTS"
+            "title": "5. COMMITMENT TO THE BEST PRODUCTS",
+            "title_color": "#000"
           }
         },
         "text_7nWzKy": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.<\/p>"
+            "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.<\/p>",
+            "text_color": "#000"
           }
         }
       },
