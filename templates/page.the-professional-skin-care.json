@@ -465,6 +465,20 @@
         "section_height": "650px",
         "mobile_height": "auto"
       }
+    },
+    "background_video_text_gthyqR": {
+      "type": "background-video-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 550
+      }
     }
   },
   "order": [
@@ -482,6 +496,7 @@
     "text_columns_RKm9gn",
     "rich_text_9Rb877",
     "text_columns_eMDXRW",
-    "hero_video_Af8LYM"
+    "hero_video_Af8LYM",
+    "background_video_text_gthyqR"
   ]
 }
