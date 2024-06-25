@@ -575,7 +575,7 @@
     margin: 0px;
 }
 
-.image-with-text-section.sticky-text {
+.image-with-text-section.sticky-text .feature-row {
     position: relative;
     align-items: flex-start;
 }
