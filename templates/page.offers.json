@@ -101,6 +101,8 @@
       "settings": {
         "title": "Spend more, get more",
         "align_text": "center",
+        "button_label": "Shop Now",
+        "button_link": "",
         "block_align_text": "left",
         "divider": false
       }
