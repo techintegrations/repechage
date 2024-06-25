@@ -188,7 +188,7 @@
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "right",
+        "layout": "left",
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0,
@@ -196,6 +196,40 @@
         "padding_bottom_m": 0,
         "divider": false,
         "lazyload_images": true
+      }
+    },
+    "rich_text_9z3kw4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4CJHhH": {
+          "type": "heading",
+          "settings": {
+            "title": "GOING FORWARD",
+            "title_color": "#ffffff"
+          }
+        },
+        "text_X44Pgz": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>In 2015, Charles Yarish, Ph.D., Professor, Department of Ecology & Evolutionary Biology and Department of Marine Sciences, University of Connecticut, Stamford, became a consultant to the Repêchage Board of Directors, working with David and I to create harvesting possibilities right in here the USA. As a leading environmentalist and aquaculturist, Dr. Yarish is sharing his research with us to help create sustainable, organic seaweed harvests that can benefit both us and the ocean.<\/p><p>It is like coming full circle: the sea has provided us with so much, and we need to give back in return. We invite everyone to enjoy our seaweed-based products. Welcome to Repêchage! Welcome to Beauty From the Sea!<\/p>",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4CJHhH",
+        "text_X44Pgz"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "#000000",
+        "divider": false
       }
     }
   },
@@ -207,6 +241,7 @@
     "text_and_image_GyhYWx",
     "text_and_image_HgdtGa",
     "text_and_image_qMccT3",
-    "text_and_image_DBrcgg"
+    "text_and_image_DBrcgg",
+    "rich_text_9z3kw4"
   ]
 }
