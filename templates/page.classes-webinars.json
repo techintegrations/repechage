@@ -86,6 +86,23 @@
     },
     "custom_classes_schedule_PX3jiM": {
       "type": "custom__classes-schedule",
+      "blocks": {
+        "class_TDDqCR": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "22-24",
+            "class": "TRADESHOW",
+            "title": "IECSC LAS VEGAS",
+            "text": "<p><strong>Las Vegas, NV<\/strong><\/p><p>Booth: 501<\/p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.iecsclasvegas.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "class_TDDqCR"
+      ],
       "settings": {
         "bg_color": "",
         "padding_top": 0,
