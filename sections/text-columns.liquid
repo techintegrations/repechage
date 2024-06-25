@@ -61,6 +61,14 @@
       </div>
     {%- endfor -%}
   </div>
+
+
+  {%- if section.settings.title != blank -%}
+    <div class="section-header text-{{ section.settings.align_text }}">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  {%- endif -%}
+  
 </div>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
