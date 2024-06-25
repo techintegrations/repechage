@@ -92,12 +92,39 @@
         "bg_color": "#000000",
         "divider": false
       }
+    },
+    "text_and_image_GyhYWx": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/20211004_Repechage-2_2000x_a4f6d52e-e346-4d7f-a725-1afb73a5b208.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "C-SERUM, THE ORIGINAL SEAWEED SERUM",
+        "text": "<p>It was from this research that I created my first professional treatment, the Four Layer Facial®. Named the Facial of the Century by Cosmopolitan UK, this ground-breaking facial incorporated layer upon layer of seaweed and minerals from both the earth and the sea.<\/p><p>Top editors and clients found that nothing made skin more luminous and hydrated. One of my first at-home products was C-Serum Seaweed Filtrate. C-Serum®, short for cytoserum, is our special seaweed Laminaria Digitata filtrate, the first layer of the Four Layer Facial, and it has been my secret for perfect skin since 1980.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "text_and_image_tqyiVN",
     "text_and_image_ECmbbp",
-    "rich_text_UQCXDL"
+    "rich_text_UQCXDL",
+    "text_and_image_GyhYWx"
   ]
 }
