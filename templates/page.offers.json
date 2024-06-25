@@ -83,11 +83,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/SPAKIT.png",
+            "image": "shopify:\/\/shop_images\/Holiday-Shoot-Repechage-boxes---sock_1.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "title": "Spend $300 to unlock a 4-piece gift set",
+            "text": "<p>Facial Treatment Essence 1.0oz +<br\/>Facial Treatment Cleanser 0.5oz +<br\/>SKINPOWER Advanced Cream 0.1oz +<br\/>Facial Treatment Mask 1ct<\/p>",
             "button_label": "",
             "button_link": ""
           }
