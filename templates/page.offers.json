@@ -49,10 +49,65 @@
         "autoplay_speed": 5,
         "lazyload_images": true
       }
+    },
+    "text_columns_XLchWK": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_kUyQWJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Oncology_Kit.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Spend $150to unlock a 2-pc gift set",
+            "text": "<p>Facial Treatment Essence 1.0oz +<br\/>Facial Treatment Mask 1ct<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_8QWQtF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Oncology_Kit.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Spend $200 to unlock a 4-piece gift set",
+            "text": "<p>Facial Treatment Essence 0.3oz +<br\/>Facial Treatment Cleanser 0.5oz +<br\/>SKINPOWER Advanced Cream 0.1oz +<br\/>Facial Treatment Mask 1ct<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_pMhKPb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/SPAKIT.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kUyQWJ",
+        "text_block_8QWQtF",
+        "text_block_pMhKPb"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_97MbEr"
+    "slideshow_97MbEr",
+    "text_columns_XLchWK"
   ]
 }
