@@ -15,6 +15,42 @@
       "settings": {
       }
     },
+    "slideshow_aMnP7H": {
+      "type": "slideshow",
+      "blocks": {
+        "image_dRyLRe": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/93_rdo1719-a.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_dRyLRe"
+      ],
+      "settings": {
+        "show_container": false,
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "text_and_image_tqyiVN": {
       "type": "text-and-image",
       "settings": {
@@ -258,6 +294,7 @@
         "image_mMnQrm"
       ],
       "settings": {
+        "show_container": false,
         "section_height": "550px",
         "mobile_height": "auto",
         "parallax": true,
@@ -270,6 +307,7 @@
   },
   "order": [
     "main",
+    "slideshow_aMnP7H",
     "text_and_image_tqyiVN",
     "text_and_image_ECmbbp",
     "rich_text_UQCXDL",
