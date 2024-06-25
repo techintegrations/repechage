@@ -118,6 +118,32 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_and_image_HgdtGa": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Algo-Mist-with-Box-12-2022.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "REPÊCHAGE ALGO MIST",
+        "text": "<p>10 years later, in 1990, we created Algo Mist®, a unique combination of seaweed filtrate extract, Vitamin C, Gingko Biloba, Aloe and Orange Water. Unlike other products that are pure water in a bottle, this spray hydrator helps keep skin feeling smooth and soft through-out the day.<\/p><p>We now have scientific research on several different species of sea plants, all with unique properties influenced by the oceanic regions where they grow and formulated into over 100 different award-winning professional and consumer products.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -125,6 +151,7 @@
     "text_and_image_tqyiVN",
     "text_and_image_ECmbbp",
     "rich_text_UQCXDL",
-    "text_and_image_GyhYWx"
+    "text_and_image_GyhYWx",
+    "text_and_image_HgdtGa"
   ]
 }
