@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -79,22 +88,30 @@
             "button_label": "Read More",
             "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
           }
+        },
+        "text_block_tQ4m6p": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
+            "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
+            "button_label": "Read More",
+            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
+          }
         }
       },
       "block_order": [
         "text_block_JxrG7R",
         "text_block_cUPJX8",
         "text_block_WpaDHa",
-        "text_block_WigreC"
+        "text_block_WigreC",
+        "text_block_tQ4m6p"
       ],
       "settings": {
         "title": "KEY INGREDIENTS",
         "align_text": "center",
-        "title_color": "",
         "desktop_columns_per_row": 4,
         "mobile_columns_per_row": 2,
         "block_title_color": "",
-        "block_text_color": "",
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0,
