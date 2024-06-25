@@ -223,7 +223,7 @@
       ],
       "settings": {
         "show_container": true,
-        "section_height": "550px",
+        "section_height": "450px",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
@@ -259,7 +259,7 @@
       ],
       "settings": {
         "show_container": true,
-        "section_height": "550px",
+        "section_height": "450px",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
