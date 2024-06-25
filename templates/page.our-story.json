@@ -170,6 +170,33 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_and_image_DBrcgg": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/repechage-difference-machine.png",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/dr-yarish-seaweed.png",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "HE REPÊCHAGE DIFFERENCE",
+        "text": "<p>Most manufacturers of seaweed-based products use the oven drying method of processing. This method yields a product, which contains trace elements but may be deficient in vitamins and amino acids that are heat sensitive.This is where Repêchage makes all the difference. Once dried, the seaweed is packed and sent to our ISO 9001 certified manufacturing facility. There, by an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids, processed into the pure filtrate in small artisanal batches. You know when it’s a filtrate day---the whole facility smells like a day at the beach!<\/p><p>This filtrate is then properly refrigerated and stored for six months to allow the liquid to reach its full potency. Then, it is incorporated into the Repêchage products until the next harvest arrives. Nothing is purer or more effective at helping skin look and feel smoother and softer.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -179,6 +206,7 @@
     "rich_text_UQCXDL",
     "text_and_image_GyhYWx",
     "text_and_image_HgdtGa",
-    "text_and_image_qMccT3"
+    "text_and_image_qMccT3",
+    "text_and_image_DBrcgg"
   ]
 }
