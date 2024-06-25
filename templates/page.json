@@ -31,10 +31,45 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_TnpQt3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MFTzJX": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "title_color": "#000"
+          }
+        },
+        "text_DLX6ph": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MFTzJX",
+        "text_DLX6ph"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "rich_text_TnpQt3"
   ]
 }
