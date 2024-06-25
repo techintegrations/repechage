@@ -52,6 +52,7 @@
     "text_and_image_mJzQcP": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Lydia_in_China_Retouched_1.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
