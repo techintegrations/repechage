@@ -73,6 +73,32 @@
         "lazyload_images": true
       }
     },
+    "rich_text_77zUY6": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mcyPkD": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>\"I don't know anyone in the industry as forward-thinking as Lydia. 30 years ago, she created a mineral mask when no one was doing it, and now that is all anybody is talking about today. Lydia has been my beauty icon.\"<\/p><p>— Andrea Robinson, Former Beauty Editor, Vogue Magazine<br\/><\/p>",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_mcyPkD"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "#000000",
+        "divider": false
+      }
+    },
     "text_and_image_AiCeLt": {
       "type": "text-and-image",
       "settings": {
@@ -103,6 +129,7 @@
     "main",
     "rich_text_z67FEz",
     "text_and_image_mJzQcP",
+    "rich_text_77zUY6",
     "text_and_image_AiCeLt"
   ]
 }
