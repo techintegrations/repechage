@@ -219,6 +219,15 @@
             "button_label": "Read More",
             "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
           }
+        },
+        "text_block_qBYUbj": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pf-3d7bd056--buzojesuspHM4aRZSLEunsplash_5B1_5D.png",
+            "title": "Ginkgo Biloba Extract",
+            "button_label": "Read More",
+            "text": "<p>An extract known for its refreshing qualities.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -226,7 +235,8 @@
         "text_block_6Qcqer",
         "text_block_dQyHjF",
         "text_block_x7z9Mq",
-        "text_block_QkhXYy"
+        "text_block_QkhXYy",
+        "text_block_qBYUbj"
       ],
       "settings": {
         "title": "KEY INGREDIENTS",
