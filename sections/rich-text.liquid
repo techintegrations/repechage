@@ -43,6 +43,7 @@
           </div>
         {%- when 'html' -%}
           <div class="rte richtext-html">
+            {{ block.settings.html }}
           </div>
         {%- when 'button' -%}
           <div class="rte">
@@ -169,6 +170,23 @@
         },
         {
           "id": "text_color",
+          "type": "color",
+          "label": "Color",
+          "default": "#000"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "name": "HTML",
+      "settings": [
+        {
+          "id": "html",
+          "type": "html",
+          "label": "HTML"
+        },
+        {
+          "id": "html_color",
           "type": "color",
           "label": "Color",
           "default": "#000"
