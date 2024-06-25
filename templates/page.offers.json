@@ -39,7 +39,7 @@
           "type": "html",
           "settings": {
             "html": "<div class=\"klaviyo-form-K5dLJ3\"><\/div>",
-            "html_color": "#000"
+            "html_color": "#000000"
           }
         }
       },
@@ -56,11 +56,47 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "slideshow_97MbEr": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mFxPDE": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/New_York_Trade_Show_Booth_6.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mFxPDE"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "1719330332db78ebfd",
-    "rich_text_TnpQt3"
+    "rich_text_TnpQt3",
+    "slideshow_97MbEr"
   ]
 }
