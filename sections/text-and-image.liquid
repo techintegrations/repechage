@@ -36,7 +36,7 @@
 {% endstyle %}
 
 
-  <div class="image-with-text-section page-width feature-row-wrapper feature-row--{{ image_width }}">
+  <div class="image-with-text-section {% if section.settings.show_sticky_text %} sticky-text{% endif %} page-width feature-row-wrapper feature-row--{{ image_width }}">
     {%- capture image_layout -%}
       <div class="feature-row__item feature-row__images{% if overlap_images %} feature-row__item--overlap-images{% endif %} {% if placeholder_images %}feature-row__item--placeholder-images{% endif %}" data-aos>
           {%- if section.settings.image != blank -%}
@@ -123,7 +123,11 @@
           <h2 class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</h2>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
-          <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
+          <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">
+            {%- if section.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+            {{ section.settings.text }}
+            {%- if section.settings.enlarge_text %}</div>{% endif -%}
+          </div>
         {%- endif -%}
         {%- if section.settings.button_label != blank -%}
           <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
@@ -303,6 +307,12 @@
       "id": "text",
       "label": "t:sections.text-and-image.settings.text.label",
       "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "enlarge_text",
+      "label": "t:sections.rich-text.blocks.text.settings.enlarge_text.label",
+      "default": true
     },
     {
       "type": "text",
