@@ -136,6 +136,7 @@
             "image": "shopify:\/\/shop_images\/map_852ed184-26e9-4494-bd5a-2d26053d3d1c.jpg",
             "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS",
             "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>",
+            "enlarge_text": true,
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
@@ -147,6 +148,7 @@
             "image": "shopify:\/\/shop_images\/clas2024.png",
             "title": "2. COMMITMENT TO EDUCATION",
             "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.<\/p>",
+            "enlarge_text": true,
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
@@ -158,6 +160,7 @@
             "image": "shopify:\/\/shop_images\/success_2371fae8-64ac-43f2-9a81-bdb2ffa4facb.png",
             "title": "3. COMMITMENT TO SPA SUCCESS",
             "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!<\/p>",
+            "enlarge_text": true,
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
@@ -169,6 +172,7 @@
             "image": "shopify:\/\/shop_images\/machine.png",
             "title": "4. COMMITMENT TO EXCELLENCE",
             "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.<\/p>",
+            "enlarge_text": true,
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
@@ -180,6 +184,7 @@
             "image": "shopify:\/\/shop_images\/hydro.png",
             "title": "5. COMMITMENT TO THE BEST PRODUCTS",
             "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.<\/p>",
+            "enlarge_text": true,
             "button_label": "",
             "button_link": "",
             "button_style": "primary"
