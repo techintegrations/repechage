@@ -66,11 +66,38 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "rich_text_UQCXDL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_aR7Q4f": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Lydia Sarfati is known for her professional facial treatments, developing the <strong>world-famous Four Layer Facial®<\/strong>, deemed <strong>“facial of the century”<\/strong>by <strong>Cosmopolitan UK<\/strong>,but if you can’t get to one of her many spa resorts, the <strong>C-Serum® Seaweed Filtrate Face Serum<\/strong> is a way to achieve professional skin care results!<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "text_aR7Q4f"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "bg_color": "#000000",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "text_and_image_tqyiVN",
-    "text_and_image_ECmbbp"
+    "text_and_image_ECmbbp",
+    "rich_text_UQCXDL"
   ]
 }
