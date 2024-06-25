@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow_ybDcnc": {
@@ -260,7 +269,7 @@
     "featured_collection_U6DUhq": {
       "type": "featured-collection",
       "settings": {
-        "title": "Spa & Wellness",
+        "title": "Best Selling Products",
         "featured_image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.jpg",
         "home_featured_products": "travel-starter-kits",
         "per_row": 3,
@@ -277,9 +286,11 @@
         "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
         "image_mask": "none",
         "image2_mask": "none",
+        "show_sticky_text": false,
         "subtitle": "",
         "title": "\"Powerful skin care ingredients for the body with real results.\"",
         "text": "<p>-<strong>Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER, REPECHAGE<\/p>",
+        "enlarge_text": false,
         "button_label": "DISCOVER THE COLLECTION",
         "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura-cellusea-body-care-collection",
         "button_style": "primary",
@@ -304,6 +315,7 @@
             "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
             "title": "\"Powerful skin care ingredients for the body with real results.\"",
             "text": "<p><strong>-Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER,<br\/>REPECHAGE<\/p>",
+            "enlarge_text": false,
             "button_label": "DISCOVER THE COLLECTION",
             "button_link": "\/collections\/vita-cura-cellusea-body-care-collection",
             "button_style": "primary"
@@ -315,6 +327,7 @@
             "image": "shopify:\/\/shop_images\/IMG_1740rev.jpg",
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br\/><br\/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
@@ -326,6 +339,7 @@
             "image": "shopify:\/\/shop_images\/IMG_9988croped.jpg",
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
@@ -337,6 +351,7 @@
             "image": "shopify:\/\/shop_images\/IMG_0332rev.jpg",
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
@@ -348,6 +363,7 @@
             "image": "shopify:\/\/shop_images\/IMG_433rev.jpg",
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
@@ -451,9 +467,11 @@
         "image": "shopify:\/\/shop_images\/alternating-banner-1.jpg",
         "image_mask": "none",
         "image2_mask": "none",
+        "show_sticky_text": false,
         "subtitle": "",
         "title": "The Science of Seaweed",
         "text": "<p>Bringing together the remarkable health and beauty benefits of seaweed and the finest natural ingredients the Earth has to offer.<\/p>",
+        "enlarge_text": false,
         "button_label": "Discover the Difference",
         "button_link": "",
         "button_style": "primary",
@@ -476,9 +494,11 @@
         "image": "shopify:\/\/shop_images\/alternating-banner-2.jpg",
         "image_mask": "none",
         "image2_mask": "none",
+        "show_sticky_text": false,
         "subtitle": "",
         "title": "Beauty SEAcrets Blog",
         "text": "<p>Get experts tips and inspiration from our team of skincare veterans.<\/p>",
+        "enlarge_text": false,
         "button_label": "READ MORE",
         "button_link": "shopify:\/\/blogs\/news",
         "button_style": "primary",
