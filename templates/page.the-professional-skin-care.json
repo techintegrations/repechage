@@ -36,7 +36,7 @@
         "text_rdLFm7": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p>We're committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>",
             "text_color": "#ffffff"
           }
