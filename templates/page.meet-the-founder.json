@@ -89,7 +89,7 @@
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "right",
+        "layout": "left",
         "bg_color": "",
         "padding_top": 60,
         "padding_bottom": 70,
