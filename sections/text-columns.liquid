@@ -63,9 +63,9 @@
   </div>
 
 
-  {%- if section.settings.title != blank -%}
+  {%- if section.settings.button_label != blank -%}
     <div class="text-columns-buttons">
-      <h2>{{ section.settings.title }}</h2>
+      <a href="{{ section.settings.button_link }}" class="">{{ section.settings.button_label }}</a>
     </div>
   {%- endif -%}
   
