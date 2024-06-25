@@ -592,6 +592,11 @@
     top: 160px;
 }
 
+.text-columns-buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
