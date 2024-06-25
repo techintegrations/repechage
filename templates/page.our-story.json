@@ -144,6 +144,31 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_and_image_qMccT3": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "SUSTAINABLY HARVESTED",
+        "text": "<p>In the US, off the coast of Maine, Repêchage has worked with leading scientists and aquaculturists to sustainably harvest several species of nutrient-rich seaweed. It is key to source seaweed from the most pristine environments, such as off the coast of Down East Maine.<\/p><p>Seaweed can be wild harvested, or grown through aquaculture. For wild harvesting the harvest takes place early in the morning, during the lowest tides of the spring and summer months that accompany the new and full moons.<\/p><p>Or, seaweed can be grown on ropes suspended in seawater, harvested by boat along floating lines and gathered into nets or large storage bins on harvesting boats. Crops are harvested over a period of a month or two until temperature conditions limit the growth of the crop. The seaweed is initially stored in wet chambers then dried at temperatures that minimize degradation of bioreactive compounds<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -152,6 +177,7 @@
     "text_and_image_ECmbbp",
     "rich_text_UQCXDL",
     "text_and_image_GyhYWx",
-    "text_and_image_HgdtGa"
+    "text_and_image_HgdtGa",
+    "text_and_image_qMccT3"
   ]
 }
