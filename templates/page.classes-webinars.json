@@ -146,6 +146,18 @@
             "button_label": "Register",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-29-lo-que-tus-ojos-necesitan.php"
           }
+        },
+        "class_jpdCBF": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "5",
+            "class": "LS ACADEMY",
+            "title": "MASTER CLASS WITH LYDIA SARFATI: INTRODUCING THE REPECHAGE T-ZONE CLASSIC FACIAL",
+            "text": "<p><strong>Endorsed by CIDESCO INTERNATIONAL<\/strong><\/p><p>Lydia Sarfati Post-Graduate Skin Care Academy<br\/>9:30am – 5:30pm EST<br\/>300 Castle Road, Secaucus, NJ 07094<\/p><p>Join us for an extraordinary skincare experience as we demonstrate the latest addition to our exclusive treatment lineup – the Repêchage T-Zone Classic Facial, a CIDESCO International endorsed procedure. This innovative facial is specially crafted to target and transform the most problematic areas of your skin, leaving you with a flawless, radiant complexion. This full day program will include:<br\/>- Ingredients and treatments to truly address combination skin to help eliminate oiliness in the T-Zone while maintaining the skin’s essential moisture barrier<br\/>- How to perform proper consultation and diagnosis of the skin<br\/>- Demonstrations to master massage techniques<br\/>- The definitive method for extractions without pain<br\/>- How to incorporate upgrades and the Art of Retail to increase your business by 50%<br\/>- Advanced education on using modalities such as LED and the Ultrasonic Spatula to enhance product performance<br\/>- Repêchage\/CIDESCO Certificate Awarded with score of 70% or higher MCQ 35 questions with successful completion of test<br\/>Lunch and refreshments provided<br\/>Price $289.00 includes Workshop T-Zone Balance Clinical Facial Kit (kit contains 6 facials), LED and Ultrasonic Spatula<br\/><br\/>Each certification master class has a class capacity of 30 people.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-29-lo-que-tus-ojos-necesitan.php"
+          }
         }
       },
       "block_order": [
@@ -153,7 +165,8 @@
         "class_kDCUFb",
         "class_BCQ4cd",
         "class_ztpVVN",
-        "class_zffzRt"
+        "class_zffzRt",
+        "class_jpdCBF"
       ],
       "settings": {
         "bg_color": "",
