@@ -690,7 +690,7 @@
           "type": "text_block",
           "settings": {
             "select_icon": "custom_image",
-            "custom_image": "shopify:\/\/shop_images\/after-pay.png",
+            "custom_image": "shopify:\/\/shop_images\/Afterpay_Logo_Black-364x70-66065f7.png",
             "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
             "icon": "package",
             "title": "",
