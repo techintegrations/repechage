@@ -575,7 +575,7 @@
     margin: 0px;
 }
 
-.image-with-text-section .feature-row.sticky-text {
+.image-with-text-section.sticky-text {
     position: relative;
     align-items: flex-start;
 }
@@ -584,7 +584,7 @@
     overflow: initial;
 }
 
-.image-with-text-section .feature-row.sticky-text .feature-row__text {
+.image-with-text-section.sticky-text .feature-row__text {
     position: sticky;
     top: 0px;
 }
