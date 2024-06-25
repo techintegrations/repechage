@@ -11,56 +11,177 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
-    "1719330332db78ebfd": {
-      "type": "apps",
+    "slideshow_aAwwLJ": {
+      "type": "slideshow",
       "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_zrAHFB": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+        "image_gCBwGW": {
+          "type": "image",
           "settings": {
-            "formId": "K5dLJ3"
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Our_Bestsellers-26.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_zrAHFB"
+        "image_gCBwGW"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
-    "rich_text_TnpQt3": {
+    "rich_text_gg9waL": {
       "type": "rich-text",
       "blocks": {
-        "html_3Hezh9": {
-          "type": "html",
+        "heading_T476Qj": {
+          "type": "heading",
           "settings": {
-            "html": "<div class=\"klaviyo-form-K5dLJ3\"><\/div>",
-            "html_color": "#000"
+            "title": "CLASSES, WEBINARS & TRADE SHOW EDUCATION",
+            "title_color": "#000000"
+          }
+        },
+        "text_HKbbA8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The most important investment in your esthetics career is advanced education to enhance skills to develop professionally. These educational webinars provide immersive sessions in the latest innovations, techniques, protocols and ingredients in esthetics as well as proven methods to increase business.<br\/><br\/>The 2024 Webinars will provide 90 minutes of intense educational content, and provide all the features that have drawn over 12,000 people to participate in the past year, including live demonstration and an interactive Q&A.<\/p>",
+            "text_color": "#000000"
           }
         }
       },
       "block_order": [
-        "html_3Hezh9"
+        "heading_T476Qj",
+        "text_HKbbA8"
       ],
       "settings": {
         "align_text": "left",
         "narrow_column": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
         "bg_color": "",
+        "divider": false
+      }
+    },
+    "custom_classes_schedule_PX3jiM": {
+      "type": "custom__classes-schedule",
+      "blocks": {
+        "class_TDDqCR": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "22-24",
+            "class": "TRADESHOW",
+            "title": "IECSC LAS VEGAS",
+            "text": "<p><strong>Las Vegas, NV<\/strong><\/p><p>Booth: 501<\/p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.iecsclasvegas.com\/"
+          }
+        },
+        "class_kDCUFb": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "24",
+            "class": "CLASS",
+            "title": "TREAT 80% OF YOUR SKINCARE CLIENTELE WITH T-ZONE BALANCE CLASSIC FACIAL FOR COMBINATION SKIN: CIDESCO ENDORSED TREATMENT PROTOCOL",
+            "text": "<p><strong>At IECSC, Las Vegas<\/strong><\/p><p>Time: 10:00am to 11:00am PDT<\/p><p>Location: W227<\/p><p>Proven in-spa solutions for oily and dry \/ dehydrated skin types. Help your clients restore balance to their skin with the new Repêchage T-Zone Balance Classic Facial: A CIDESCO Endorsed Treatment Protocol using clinically proven ingredients and dermatologist tested products.<br\/>In this class you will learn:<br\/>- Live Demonstration of step-by-step CIDESCO endorsed treatment protocol<br\/>- Proven Ingredients specifically for addressing Combination Skin<br\/>- Ultrasonic Skin Spatula and LED + RF + EMS for best results in the treatment room<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/iecsclasvegas2024.sched.com\/event\/1bOg4\/repechage-presents-the-new-clinical-facial-treatment-with-proven-results?iframe=no"
+          }
+        },
+        "class_BCQ4cd": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "24",
+            "class": "WEBINAR",
+            "title": "EXPERIENCIA DE HIDRATACIÓN PROFUNDA DEL MAR: EL REPÊCHAGE FOUR-LAYER FACIAL",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Descubre un cutis radiante y juvenil con el lujoso Repêchage Four-Layer Facial. Este favorito de spa está diseñado para hidratar intensamente, rejuvenecer y reafirmar visiblemente tu piel. Sumérgete en una experiencia transformadora:<br\/>- Capa tras capa de hidratación: Disfruta de la nutrición profunda del mar con algas europeas frescas. Cada capa aporta vitaminas esenciales, minerales y antioxidantes para saciar la sed de tu piel y promover un brillo saludable.<br\/>- Exfoliación y limpieza profunda: Despídete del aspecto apagado y las impurezas. Este facial incorpora una limpieza y exfoliación profunda europea para refinar tus poros y revelar un rostro más suave y claro.<br\/>- Resultados visibles y efectos duraderos: Observa una apariencia revitalizada con mejor tono, elasticidad y un aumento de hidratación. El Repêchage Four-Layer Facial está diseñado para ofrecer resultados duraderos, dejándote con un aspecto fresco y juvenil.<br\/>- Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<br\/>Regálate un viaje sin igual de indulgencia y experimenta el poder transformador del mar.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-06-24-experiencia-de-hidratacion-profunda-del-mar-el-repechage-four-layer-facial.php"
+          }
+        },
+        "class_ztpVVN": {
+          "type": "class",
+          "settings": {
+            "month": "JULY",
+            "date": "1",
+            "class": "WEBINAR",
+            "title": "THE EYES HAVE IT",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Everyone wishes their wrinkles, dark circles, and puffy eyes would disappear. Learn how to create and perform an eye contour lifting procedure, massage, and mask so that men’s and women’s crow’s feet are gone. Join Repêchage® CEO and Founder Lydia Sarfati to learn how to restore and revitalize the eye zone area with sustainably-harvested seaweed-based skin care treatments that can help reduce the appearance of fine lines, wrinkles, puffiness and dark circles fast. In this webinar, you will learn:<br\/>– How to perform step-by-step eye contour protocols to help reduce signs of fatigue and aging<br\/>– In depth information and analysis of the effectiveness of cutting edge ingredients such as advanced Peptides to help restore youthful appearance to the eye area.<br\/>– Renowned massage methods to augment treatments for a full relaxation effect<br\/>– Upon completion of 10 question test, registrants will receive a certificate of participation<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-01-the-eyes-have-it.php"
+          }
+        },
+        "class_zffzRt": {
+          "type": "class",
+          "settings": {
+            "month": "JULY",
+            "date": "29",
+            "class": "WEBINAR",
+            "title": "LO QUE TUS OJOS NECESITAN",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Todo el mundo desearía que sus arrugas, ojeras y ojos hinchados desaparecieran. Aprenda a crear y realizar un procedimiento de lifting, masaje y mascarilla para el contorno de ojos para que las patas de gallo de hombres y mujeres desaparezcan. Únase a la directora ejecutiva y fundadora de Repêchage®, Lydia Sarfati, para aprender cómo restaurar y revitalizar el área de los ojos con tratamientos para el cuidado de la piel a base de algas marinas recolectadas de manera sostenible que pueden ayudar a reducir rápidamente la apariencia de líneas finas, arrugas, hinchazón y ojeras. En este seminario web, aprenderá:<br\/>– Cómo realizar protocolos de contorno de ojos paso a paso para ayudar a reducir los signos de fatiga y envejecimiento<br\/>– Información detallada y análisis de la eficacia de ingredientes de vanguardia, como péptidos avanzados, para ayudar a restaurar la apariencia juvenil del área de los ojos.<br\/>– Métodos de masaje reconocidos para complementar los tratamientos y lograr un efecto de relajación total.<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-29-lo-que-tus-ojos-necesitan.php"
+          }
+        },
+        "class_jpdCBF": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "5",
+            "class": "LS ACADEMY",
+            "title": "MASTER CLASS WITH LYDIA SARFATI: INTRODUCING THE REPECHAGE T-ZONE CLASSIC FACIAL",
+            "text": "<p><strong>Endorsed by CIDESCO INTERNATIONAL<\/strong><\/p><p>Lydia Sarfati Post-Graduate Skin Care Academy<br\/>9:30am – 5:30pm EST<br\/>300 Castle Road, Secaucus, NJ 07094<\/p><p>Join us for an extraordinary skincare experience as we demonstrate the latest addition to our exclusive treatment lineup – the Repêchage T-Zone Classic Facial, a CIDESCO International endorsed procedure. This innovative facial is specially crafted to target and transform the most problematic areas of your skin, leaving you with a flawless, radiant complexion. This full day program will include:<br\/>- Ingredients and treatments to truly address combination skin to help eliminate oiliness in the T-Zone while maintaining the skin’s essential moisture barrier<br\/>- How to perform proper consultation and diagnosis of the skin<br\/>- Demonstrations to master massage techniques<br\/>- The definitive method for extractions without pain<br\/>- How to incorporate upgrades and the Art of Retail to increase your business by 50%<br\/>- Advanced education on using modalities such as LED and the Ultrasonic Spatula to enhance product performance<br\/>- Repêchage\/CIDESCO Certificate Awarded with score of 70% or higher MCQ 35 questions with successful completion of test<br\/>Lunch and refreshments provided<br\/>Price $289.00 includes Workshop T-Zone Balance Clinical Facial Kit (kit contains 6 facials), LED and Ultrasonic Spatula<br\/><br\/>Each certification master class has a class capacity of 30 people.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.repechage.com\/products\/the-perfect-facial-for-the-most-common-skin-type-combination-skin-the-new-t-zone-balance-facial-workshop-august-5-2024"
+          }
+        }
+      },
+      "block_order": [
+        "class_TDDqCR",
+        "class_kDCUFb",
+        "class_BCQ4cd",
+        "class_ztpVVN",
+        "class_zffzRt",
+        "class_jpdCBF"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "padding_top_m": 0,
+        "padding_bottom_m": 50,
         "divider": false
       }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd",
-    "rich_text_TnpQt3"
+    "slideshow_aAwwLJ",
+    "rich_text_gg9waL",
+    "custom_classes_schedule_PX3jiM"
   ]
 }
