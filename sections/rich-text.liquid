@@ -41,6 +41,9 @@
               {{ 'home_page.onboarding.no_content' | t }}
             {%- endif -%}
           </div>
+        {%- when 'html' -%}
+          <div class="rte richtext-html">
+          </div>
         {%- when 'button' -%}
           <div class="rte">
             <a href="{{ block.settings.link }}" class="btn">
