@@ -40,10 +40,37 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_and_image_ECmbbp": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1977-Lydia-at-her-first-salon-Klisar-Skin-Care-NYC.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "WHY SEAWEED?",
+        "text": "<p>At Repêchage, we are always conducting ongoing research for new applications of our seaweed as well as investigating the newest ingredients to help address problems relating to the skin.<\/p><h4>What is the Magic of Seaweed and Repêchage?<\/h4><p>It is used as plant nutrient in the deserts of Israel. And if it can hydrate the desert, imagine what it can do for your skin!<\/p><p>Want your skin to look <strong>glowing<\/strong>? You can credit the use of seaweed with <strong>increased hydration<\/strong> and <strong>improves the complexion<\/strong>. Scientists believe that seaweed produces over 70% of the the earth's oxygen.<\/p><p>Seaweed feeds itself through osmosis by absorbing minerals and vitamins from the seawater. By an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids.<\/p><p>Researchers point out the almost uncanny similarity between seawater and human plasma, our intercellular fluid.  The sea covers over two-thirds of our planet, and, perhaps as no coincidence, the human body is made of two-thirds water as well.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
-    "text_and_image_tqyiVN"
+    "text_and_image_tqyiVN",
+    "text_and_image_ECmbbp"
   ]
 }
