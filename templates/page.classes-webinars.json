@@ -86,62 +86,6 @@
     },
     "custom_classes_schedule_PX3jiM": {
       "type": "custom__classes-schedule",
-      "blocks": {
-        "class_mWa8Ui": {
-          "type": "class",
-          "settings": {
-            "month": "JUNE",
-            "date": "22-24",
-            "class": "TRADESHOW",
-            "title": "IECSC LAS VEGAS",
-            "text": "<p><strong>Las Vegas, NV<\/strong><\/p><p>Booth: 501<\/p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
-            "button_label": "Register",
-            "button_link": "https:\/\/www.iecsclasvegas.com\/"
-          }
-        },
-        "class_HEcYAi": {
-          "type": "class",
-          "settings": {
-            "month": "JUNE",
-            "date": "24",
-            "class": "CLASS",
-            "title": "TREAT 80% OF YOUR SKINCARE CLIENTELE WITH T-ZONE BALANCE CLASSIC FACIAL FOR COMBINATION SKIN: CIDESCO ENDORSED TREATMENT PROTOCOL",
-            "text": "<p><strong>At IECSC, Las Vegas<\/strong><\/p><p>Time: 10:00am to 11:00am PDT<\/p><p>Location: W227<\/p><p>Proven in-spa solutions for oily and dry \/ dehydrated skin types. Help your clients restore balance to their skin with the new Repêchage T-Zone Balance Classic Facial: A CIDESCO Endorsed Treatment Protocol using clinically proven ingredients and dermatologist tested products.<br\/>In this class you will learn:<br\/>- Live Demonstration of step-by-step CIDESCO endorsed treatment protocol<br\/>- Proven Ingredients specifically for addressing Combination Skin<br\/>- Ultrasonic Skin Spatula and LED + RF + EMS for best results in the treatment room<\/p>",
-            "button_label": "Register",
-            "button_link": "https:\/\/iecsclasvegas2024.sched.com\/event\/1bOg4\/repechage-presents-the-new-clinical-facial-treatment-with-proven-results?iframe=no"
-          }
-        },
-        "class_XHRLNn": {
-          "type": "class",
-          "settings": {
-            "month": "JUNE",
-            "date": "24",
-            "class": "WEBINAR",
-            "title": "EXPERIENCIA DE HIDRATACIÓN PROFUNDA DEL MAR: EL REPÊCHAGE FOUR-LAYER FACIAL",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p><br\/>Descubre un cutis radiante y juvenil con el lujoso Repêchage Four-Layer Facial. Este favorito de spa está diseñado para hidratar intensamente, rejuvenecer y reafirmar visiblemente tu piel. Sumérgete en una experiencia transformadora:<br\/>- Capa tras capa de hidratación: Disfruta de la nutrición profunda del mar con algas europeas frescas. Cada capa aporta vitaminas esenciales, minerales y antioxidantes para saciar la sed de tu piel y promover un brillo saludable.<br\/>- Exfoliación y limpieza profunda: Despídete del aspecto apagado y las impurezas. Este facial incorpora una limpieza y exfoliación profunda europea para refinar tus poros y revelar un rostro más suave y claro.<br\/>- Resultados visibles y efectos duraderos: Observa una apariencia revitalizada con mejor tono, elasticidad y un aumento de hidratación. El Repêchage Four-Layer Facial está diseñado para ofrecer resultados duraderos, dejándote con un aspecto fresco y juvenil.<br\/>- Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<br\/>Regálate un viaje sin igual de indulgencia y experimenta el poder transformador del mar.<\/p>",
-            "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-06-24-experiencia-de-hidratacion-profunda-del-mar-el-repechage-four-layer-facial.php"
-          }
-        },
-        "class_qVCQ8Y": {
-          "type": "class",
-          "settings": {
-            "month": "JULY",
-            "date": "1",
-            "class": "WEBINAR",
-            "title": "THE EYES HAVE IT",
-            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Everyone wishes their wrinkles, dark circles, and puffy eyes would disappear. Learn how to create and perform an eye contour lifting procedure, massage, and mask so that men’s and women’s crow’s feet are gone. Join Repêchage® CEO and Founder Lydia Sarfati to learn how to restore and revitalize the eye zone area with sustainably-harvested seaweed-based skin care treatments that can help reduce the appearance of fine lines, wrinkles, puffiness and dark circles fast. In this webinar, you will learn:<br\/>– How to perform step-by-step eye contour protocols to help reduce signs of fatigue and aging<br\/>– In depth information and analysis of the effectiveness of cutting edge ingredients such as advanced Peptides to help restore youthful appearance to the eye area.<br\/>– Renowned massage methods to augment treatments for a full relaxation effect<br\/>– Upon completion of 10 question test, registrants will receive a certificate of participation<\/p>",
-            "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-01-the-eyes-have-it.php"
-          }
-        }
-      },
-      "block_order": [
-        "class_mWa8Ui",
-        "class_HEcYAi",
-        "class_XHRLNn",
-        "class_qVCQ8Y"
-      ],
       "settings": {
         "bg_color": "",
         "padding_top": 0,
