@@ -149,6 +149,32 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "rich_text_QKkjGH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NgYEtU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>\"Over the years, Lydia Sarfati has not only brought enormous contributions to this industry, she has also set the standards on how it should be done.\"<\/p><p>— Joel Gerson, PhD, Author, Milady's Standard Textbook for Professional Estheticians and Milady's Standard Fundamentals for Estheticians<\/p>",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_NgYEtU"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "#000000",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -157,6 +183,7 @@
     "text_and_image_mJzQcP",
     "text_and_image_AiCeLt",
     "rich_text_77zUY6",
-    "text_and_image_tzqcGU"
+    "text_and_image_tzqcGU",
+    "rich_text_QKkjGH"
   ]
 }
