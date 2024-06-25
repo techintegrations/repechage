@@ -193,11 +193,36 @@
             "text": "<p>Sarfati is one of the pioneers in the field of esthetics in the U.S. setting the professional and business standards for the industry. Her skincare methods are practiced by top estheticians around the world and are taught in over 200 schools in the US and globally. Sarfati serves as Chairman of CIDESCO Section U.S.A, the world's major international beauty therapy association.<\/p><p>Sarfati was honored with the prestigious CIDESCO Medaille du Merite, and was presented with the “Polish and American Woman of the Year 2019” Award by the Polish & American Women Entrepreneurs (WE). In 2020, Sarfati received the ROI-NJ Champions of the C- Suite Award, honoring the top influential CEOS in NJ.<\/p><p>Sarfati is also author of <a href=\"\/collections\/accessories\/products\/success-at-your-fingertips-how-to-succeed-in-the-skin-care-business-ebook\" title=\"\/collections\/accessories\/products\/success-at-your-fingertips-how-to-succeed-in-the-skin-care-business-ebook\">Success at Your Fingertips: How to Succeed in the Skin Care Business<\/a>. Written to help salon and spa professionals achieve professional success. She is also a contributing author to textbooks, including the Milady Standard Esthetics: Fundamentals, Twelfth Edition, (Cengage Learning, 2019) and Oncology Esthetics®, (Oncology Training International, 2020).<\/p>",
             "text_color": "#000"
           }
+        },
+        "heading_WzkJxD": {
+          "type": "heading",
+          "settings": {
+            "title": "Lydia's Mission",
+            "title_color": "#000"
+          }
+        },
+        "text_9iwkAx": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>\"Since the launch of Repêchage in 1980, my personal commitment has been to provide the most innovative and effective skin care products and treatments that truly WORK. This commitment stems from two things: from my background as an esthetician and from my own personal experience of the sea. I always want my clients leaving a professional facial treatment looking and feeling better than when they first walked in, and to see continued results days after they left. This was my goal when I first opened my skin care clinic and it is still the reason I continue to develop and create innovative treatments and products today. \"Sea\" for yourself why Repêchage is your second chance for a beautiful complexion. You will love the difference.\"<\/p><p>— Lydia Sarfati<\/p>",
+            "text_color": "#000"
+          }
+        },
+        "button_H8kgim": {
+          "type": "button",
+          "settings": {
+            "link": "\/pages\/professional-skin-care-line-difference",
+            "link_text": "See The Repêchage Difference"
+          }
         }
       },
       "block_order": [
         "heading_gKM6XT",
-        "text_46RnWx"
+        "text_46RnWx",
+        "heading_WzkJxD",
+        "text_9iwkAx",
+        "button_H8kgim"
       ],
       "settings": {
         "align_text": "left",
