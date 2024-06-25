@@ -62,7 +62,7 @@
             "image_width": 650,
             "title": "Spend $150to unlock a 2-pc gift set",
             "text": "<p>Facial Treatment Essence 1.0oz +<br\/>Facial Treatment Mask 1ct<\/p>",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -100,7 +100,7 @@
       ],
       "settings": {
         "title": "",
-        "align_text": "center",
+        "align_text": "left",
         "divider": false
       }
     }
