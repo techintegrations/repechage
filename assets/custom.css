@@ -586,7 +586,7 @@
 
 .image-with-text-section.sticky-text .feature-row__text {
     position: sticky;
-    top: 0px;
+    top: 160px;
 }
 
 @media only screen and (min-width: 769px) {
