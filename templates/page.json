@@ -39,7 +39,7 @@
           "type": "heading",
           "settings": {
             "title": "Rich text",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_DLX6ph": {
@@ -47,13 +47,21 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
+          }
+        },
+        "html_3Hezh9": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"klaviyo-form-K5dLJ3\"><\/div>",
+            "html_color": "#000"
           }
         }
       },
       "block_order": [
         "heading_MFTzJX",
-        "text_DLX6ph"
+        "text_DLX6ph",
+        "html_3Hezh9"
       ],
       "settings": {
         "align_text": "center",
