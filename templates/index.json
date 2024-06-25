@@ -689,7 +689,8 @@
         "text_block_f9MtBD": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_image",
+            "custom_image": "shopify:\/\/shop_images\/after-pay.png",
             "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
             "icon": "package",
             "title": "",
