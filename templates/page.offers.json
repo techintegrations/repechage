@@ -103,11 +103,73 @@
         "align_text": "left",
         "divider": false
       }
+    },
+    "text_with_icons_QpRF98": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_N7fbV4": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_WWbbBk": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_CBiQff": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_N7fbV4",
+        "text_block_WWbbBk",
+        "text_block_CBiQff"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow_97MbEr",
-    "text_columns_XLchWK"
+    "text_columns_XLchWK",
+    "text_with_icons_QpRF98"
   ]
 }
