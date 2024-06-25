@@ -537,6 +537,7 @@
 .classes-schedule-row {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .classes-schedule-row .right-column {
