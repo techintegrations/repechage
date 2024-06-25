@@ -110,7 +110,7 @@
       </div>
     {%- endcapture -%}
 
-    <div class="feature-row">
+    <div class="feature-row {% if section.settings.show_sticky_text %} sticky-text{% endif %}">
       {%- if section.settings.layout == 'left' -%}
         {{ image_layout }}
       {%- endif -%}
