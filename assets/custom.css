@@ -575,6 +575,20 @@
     margin: 0px;
 }
 
+.image-with-text-section .feature-row.sticky-text {
+    position: relative;
+    align-items: flex-start;
+}
+
+.image-with-text-section {
+    overflow: initial;
+}
+
+.image-with-text-section .feature-row.sticky-text .feature-row__text {
+    position: sticky;
+    top: 0px;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
