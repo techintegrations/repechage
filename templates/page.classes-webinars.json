@@ -255,6 +255,18 @@
             "button_label": "Register",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
           }
+        },
+        "class_c9CLCt": {
+          "type": "class",
+          "settings": {
+            "month": "DECEMBER",
+            "date": "TBA",
+            "class": "CONGRESS",
+            "title": "INTERNATIONAL SKIN CARE CONGRESS",
+            "text": "<p><strong>The Road to Success with the Why<\/strong><\/p><p>Location to be announced!<\/p><p><\/p>",
+            "button_label": "Save the date",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -271,7 +283,8 @@
         "class_eTk6PY",
         "class_hb6MHc",
         "class_VaqCr6",
-        "class_ULYxqg"
+        "class_ULYxqg",
+        "class_c9CLCt"
       ],
       "settings": {
         "bg_color": "",
