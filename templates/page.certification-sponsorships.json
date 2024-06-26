@@ -42,9 +42,21 @@
         "text_block_Vqbac9": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "image": "shopify:\/\/shop_images\/DEKRA-Seal-9001_2015_BW-75px_218714ab-819d-4020-a4cc-e54a9a1c0a48.png",
+            "title": "ISO 9001:2015",
             "date": "",
-            "text": "",
+            "text": "<p>Sarkli-Repechage,Ltd.’s Quality Management System is certified to the ISO 9001:2015 standard. Our ISO 9001:2015 certification was overseen by DEKRA Certification Inc., an ANAB-accredited management systems certification body.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_CXgUbn": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/i-spa-logo.png",
+            "title": "ISPA",
+            "date": "",
+            "text": "<p>ISPA advances the spa industry by providing invaluable educational and networking opportunities, promoting the value of the spa experience and speaking as the authoritative voice to foster professionalism and growth.<br\/><a href=\"https:\/\/experienceispa.com\/\" title=\"https:\/\/experienceispa.com\/\">experienceispa.com\/<\/a><\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -53,7 +65,8 @@
       "block_order": [
         "text_block_pqWWMf",
         "text_block_baN6Qa",
-        "text_block_Vqbac9"
+        "text_block_Vqbac9",
+        "text_block_CXgUbn"
       ],
       "settings": {
         "bg_color": "",
