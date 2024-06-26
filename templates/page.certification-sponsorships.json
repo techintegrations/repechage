@@ -13,9 +13,58 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "custom_image_with_info_CAMpjE": {
+      "type": "custom__image-with-info",
+      "blocks": {
+        "text_block_pqWWMf": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_baN6Qa": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_Vqbac9": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_pqWWMf",
+        "text_block_baN6Qa",
+        "text_block_Vqbac9"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_image_with_info_CAMpjE"
   ]
 }
