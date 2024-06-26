@@ -175,6 +175,23 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "featured_video_arz7nB": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "bg_color": ""
+      }
     }
   },
   "order": [
@@ -184,6 +201,7 @@
     "text_and_image_LkAtYA",
     "rich_text_UrhNNe",
     "rich_text_tHJH3J",
-    "text_and_image_4L3EBb"
+    "text_and_image_4L3EBb",
+    "featured_video_arz7nB"
   ]
 }
