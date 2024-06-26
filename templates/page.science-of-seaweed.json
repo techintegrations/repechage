@@ -38,10 +38,36 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_and_image_aABxBL": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "Skincare Superhero",
+        "text": "<p>We always say that if seaweed can hydrate the desert, imagine what it can do for your skin. That’s because seaweed naturally increases hydration and improves complexion. Using a unique proprietary process, Repêchage chemists extract fluid from seaweed, preserving its vitamins, minerals, trace elements, and amino acids to help skin lock in moisture, reduce redness and irritation, draw out toxins and impurities from the skin, and more. <\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
-    "text_and_image_JGJLpG"
+    "text_and_image_JGJLpG",
+    "text_and_image_aABxBL"
   ]
 }
