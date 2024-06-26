@@ -21,15 +21,12 @@
   <div class="image-with-two-columns__row page-width">
 
     <div class="top-heading">
+      {{ section.settings.top_heading }}
     </div>
 
     <div class="image-with-info">
       {% for block in section.blocks %}
         <div class="image-with-info__row" {{ block.shopify_attributes }}>
-          <div class="image-with-info__image">
-              <img src="{{ block.settings.image | img_url: 'master' }}">
-          </div>
-
           <div class="image-with-info__info rte">
               <div class="image-with-info-title">
                 <h3>{{ block.settings.title }}</h3>
