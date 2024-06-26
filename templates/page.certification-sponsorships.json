@@ -14,6 +14,31 @@
       "settings": {
       }
     },
+    "rich_text_zAxatG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xNAKR6": {
+          "type": "heading",
+          "settings": {
+            "title": "CERTIFICATIONS & SPONSORSHIPS",
+            "title_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xNAKR6"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 20,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "custom_image_with_info_CAMpjE": {
       "type": "custom__image-with-info",
       "blocks": {
@@ -128,6 +153,7 @@
   },
   "order": [
     "main",
+    "rich_text_zAxatG",
     "custom_image_with_info_CAMpjE"
   ]
 }
