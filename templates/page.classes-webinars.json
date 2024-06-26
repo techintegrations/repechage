@@ -41,6 +41,7 @@
         "image_gCBwGW"
       ],
       "settings": {
+        "show_container": false,
         "section_height": "550px",
         "mobile_height": "auto",
         "parallax": true,
@@ -158,6 +159,18 @@
             "button_label": "Register",
             "button_link": "https:\/\/www.repechage.com\/products\/the-perfect-facial-for-the-most-common-skin-type-combination-skin-the-new-t-zone-balance-facial-workshop-august-5-2024"
           }
+        },
+        "class_aFDFKN": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "26-27",
+            "class": "TRADESHOW",
+            "title": "LIVE LOVE SPA",
+            "text": "<p><strong>Loews Miami Beach Hotel, Miami, FL<\/strong><\/p><p>Live Love Spa is the premier community for spa professionals to connect, discover and learn about new trends, products, experiences and emerging insights in the wellness space.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/livelovespa.regfox.com\/live-love-spa-miami-2024"
+          }
         }
       },
       "block_order": [
@@ -166,7 +179,8 @@
         "class_BCQ4cd",
         "class_ztpVVN",
         "class_zffzRt",
-        "class_jpdCBF"
+        "class_jpdCBF",
+        "class_aFDFKN"
       ],
       "settings": {
         "bg_color": "",
