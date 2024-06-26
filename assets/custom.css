@@ -627,6 +627,7 @@
 .image-with-two-columns__image .content-column {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 24px;
 }
 
 .image-with-two-columns__image .content-column .col.rte {
