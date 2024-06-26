@@ -80,6 +80,7 @@
     "text_and_image_aABxBL": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Red-Out_Step_3_Silver_Ball_Massager.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
