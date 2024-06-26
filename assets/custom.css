@@ -677,6 +677,7 @@
 
   .classes-schedule-row .left-column {
       flex: 0 0 100%;
+      position: unset;
   }
   
   .classes-schedule-row .right-column {
