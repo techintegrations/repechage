@@ -54,6 +54,7 @@
     "text_and_image_JGJLpG": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1_1c6f9b3b-84df-44fa-a4d8-236ac6560984.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
