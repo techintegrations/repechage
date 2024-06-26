@@ -20,7 +20,7 @@
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width">
+<div class="{% unless section.settings.show_full_width %}page-width{% endunless %}">
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2>{{ section.settings.title }}</h2>
