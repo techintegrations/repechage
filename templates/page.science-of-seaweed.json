@@ -114,6 +114,40 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "rich_text_tHJH3J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qETKK3": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Seaweed Lineup",
+            "title_color": "#000"
+          }
+        },
+        "text_7Jrwi8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>At Repêchage, our commitment to innovation drives us to continuously explore seaweed’s potential and discover new ingredients to address various skin concerns. We use over a dozen kinds of sustainably sourced seaweeds in our products. Among them include:<\/p><ul><li><strong>Laminaria Digitata:<\/strong> Naturally found in the upper intertidal and shallow subtidal marine environments, our beloved Laminaria Digitata is a natural source of 12 vitamins, including B12, C, E, K, beta carotene, 18 amino acids, and 42 trace elements.   <\/li><li><strong>Codium Fragile Subsp. Atlanticum:<\/strong> With branched cylindrical fronds, this green seaweed attaches to rocks in intertidal-to-shallow subtidal marine environments. It helps make the skin appear smooth and soft. <\/li><\/ul>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qETKK3",
+        "text_7Jrwi8"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -121,6 +155,7 @@
     "text_and_image_JGJLpG",
     "text_and_image_aABxBL",
     "text_and_image_LkAtYA",
-    "rich_text_UrhNNe"
+    "rich_text_UrhNNe",
+    "rich_text_tHJH3J"
   ]
 }
