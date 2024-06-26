@@ -27,21 +27,18 @@
     <div class="content-column">
       {% for block in section.blocks %}
         <div class="col rte">
-          <div class="image-with-info-title">
+            {% if block.settings.title != blank %}
             <h3>{{ block.settings.title }}</h3>
-            {% if block.settings.date != blank %}
-              <h6>{{ block.settings.date }}</h6>
             {% endif %}
-          </div>
 
           {% if block.settings.text != blank %}
-            <div class="image-with-info-text">
+            <div class="text-col">
               {{ block.settings.text }}
             </div>
           {% endif %}
 
           {% if block.settings.button_label != blank %}
-            <div class="image-with-info-button">
+            <div class="image-with-two-columns-button">
               <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
             </div>
           {% endif %}
