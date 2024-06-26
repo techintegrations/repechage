@@ -561,6 +561,8 @@
     flex: 0 0 250px;
     text-align: center;
     border: 1px solid #f2f2f2;
+    position: sticky;
+    top: 136px;
 }
 
 .classes-schedule-row .left-column .month {
