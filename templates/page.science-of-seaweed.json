@@ -148,6 +148,31 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "text_and_image_4L3EBb": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "Where Science Meets Skin Care",
+        "text": "<p>At Repêchage, our passion for innovation drives us to continually explore new applications for our seaweed and uncover the latest ingredients to address skin concerns. That’s why we welcomed Professor Charles Yarish, Ph.D., an esteemed ecology and evolutionary biology expert from the University of Connecticut in Stamford, Connecticut, to our Board of Directors in 2015. Here, Dr. Yarish shares fascinating insights into seaweed's numerous skincare benefits.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -156,6 +181,7 @@
     "text_and_image_aABxBL",
     "text_and_image_LkAtYA",
     "rich_text_UrhNNe",
-    "rich_text_tHJH3J"
+    "rich_text_tHJH3J",
+    "text_and_image_4L3EBb"
   ]
 }
