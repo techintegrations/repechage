@@ -61,7 +61,7 @@
     "text_and_image_JmjzCR": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/NJITA_051524_0185-a.jpg",
+        "image": "shopify:\/\/shop_images\/Lydia-with-lamp-web_large_487c6740-dfb6-474d-9147-b5fb419d44cd.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": true,
@@ -213,6 +213,7 @@
       "settings": {
         "title": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=2HPpPr2rP94",
+        "show_full_width": false,
         "divider": false,
         "padding_top": 70,
         "padding_bottom": 70,
