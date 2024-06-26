@@ -88,12 +88,39 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "rich_text_UrhNNe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wRV3N8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We blend tradition with innovation in our harvesting methods. The seaweed is carefully gathered by hand during low tides or cultivated on ropes in seawater. Once harvested, we gently dry the seaweed to preserve its natural goodness before sending it to our ISO 9001-certified facility in the U.S. Unlike other manufacturers who use oven-drying, our exclusive method retains all the beneficial vitamins, minerals, and amino acids while extracting the intercellular fluid. This unique process results in a pure filtrate produced in small artisanal batches. This potent filtrate is refrigerated for six months to maximize its effectiveness before being blended into Repêchage products. Nothing is purer or more effective at making skin smoother and softer.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "text_wRV3N8"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "text_and_image_JGJLpG",
     "text_and_image_aABxBL",
-    "text_and_image_LkAtYA"
+    "text_and_image_LkAtYA",
+    "rich_text_UrhNNe"
   ]
 }
