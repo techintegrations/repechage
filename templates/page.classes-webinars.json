@@ -219,6 +219,18 @@
             "button_label": "Register",
             "button_link": "https:\/\/www.iecscflorida.com\/"
           }
+        },
+        "class_hb6MHc": {
+          "type": "class",
+          "settings": {
+            "month": "OCTOBER",
+            "date": "28",
+            "class": "WEBINAR",
+            "title": "LA PIEL COMPROMETIDA NECESITA BIENESTAR",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>¿La piel de sus clientes necesita una intervención? Hágales saber que su piel dice \"detente y ayúdame\". Ya sea por exposición al sol, tratamientos demasiado agresivos o incluso radiación y quimioterapia, muchas personas tienen la piel seca y comprometida la cual necesita ayuda. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo reconstruir una barrera cutánea comprometida mientras calma y protege. En este seminario web, aprenderá:<br\/>– Información sobre cómo afrontar la ansiedad, el estrés y los cambios físicos que se producen en el cliente.<br\/>– Cómo agregar “rituales” a cada servicio de spa ayuda a reducir el estrés al afectar los sistemas nerviosos simpático y parasimpático.<br\/>– Cómo realizar tratamientos faciales adecuados, como el tratamiento facial hidratante Hydra Dew Pure™ para restaurar y mantener la primera línea de defensa esencial del cuerpo: la piel.<br\/>– Información esencial sobre la utilización de ingredientes adecuados para el cliente sensibilizado.<br\/>– Técnicas de masaje adecuadas para la reducción del estrés y la relajación.<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-10-28-la-piel-comprometida-necesita-bienestar.php"
+          }
         }
       },
       "block_order": [
@@ -232,7 +244,8 @@
         "class_xJLqft",
         "class_tttkLC",
         "class_6h3WzJ",
-        "class_eTk6PY"
+        "class_eTk6PY",
+        "class_hb6MHc"
       ],
       "settings": {
         "bg_color": "",
