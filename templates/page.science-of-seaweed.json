@@ -215,66 +215,6 @@
         "margin_bottom_m": 0,
         "bg_color": ""
       }
-    },
-    "advanced_content_DeaKq4": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_6pPBVY": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "66%",
-            "alignment": "center"
-          }
-        },
-        "liquid_kgHBRb": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
-            "width": "33%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_6pPBVY",
-        "liquid_kgHBRb"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "advanced_content_xGt4Rt": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_LPVzH8": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
-            "width": "33%",
-            "alignment": "center"
-          }
-        },
-        "image_EJfTKz": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "66%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_LPVzH8",
-        "image_EJfTKz"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
@@ -285,8 +225,6 @@
     "custom_image_with_two_columns_4hqw3M",
     "rich_text_tHJH3J",
     "text_and_image_4L3EBb",
-    "featured_video_arz7nB",
-    "advanced_content_DeaKq4",
-    "advanced_content_xGt4Rt"
+    "featured_video_arz7nB"
   ]
 }
