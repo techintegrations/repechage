@@ -71,6 +71,17 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_g9hKh8": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04-lang-lang-73_a1604870-862a-4645-8500-23fc01a870e9.png",
+            "title": "LANG LANG INTERNATIONAL MUSIC FOUNDATION",
+            "date": "",
+            "text": "<p>The Lang Lang International Music Foundation's mission is to find a way to capture the potential in music to positively transform lives and provide inspiration to kids around the world in a meaningful and sustainable way.<br\/>l<a href=\"https:\/\/www.langlangfoundation.org\/\" title=\"https:\/\/www.langlangfoundation.org\/\">anglangfoundation.org<\/a><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -78,7 +89,8 @@
         "text_block_baN6Qa",
         "text_block_Vqbac9",
         "text_block_CXgUbn",
-        "text_block_E8NmbD"
+        "text_block_E8NmbD",
+        "text_block_g9hKh8"
       ],
       "settings": {
         "bg_color": "",
