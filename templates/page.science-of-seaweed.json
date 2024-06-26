@@ -122,7 +122,7 @@
           "type": "heading",
           "settings": {
             "title": "Our Seaweed Lineup",
-            "title_color": "#000"
+            "title_color": "#ffffff"
           }
         },
         "text_7Jrwi8": {
@@ -130,7 +130,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p>At Repêchage, our commitment to innovation drives us to continuously explore seaweed’s potential and discover new ingredients to address various skin concerns. We use over a dozen kinds of sustainably sourced seaweeds in our products. Among them include:<\/p><ul><li><strong>Laminaria Digitata:<\/strong> Naturally found in the upper intertidal and shallow subtidal marine environments, our beloved Laminaria Digitata is a natural source of 12 vitamins, including B12, C, E, K, beta carotene, 18 amino acids, and 42 trace elements.<\/li><\/ul><p><\/p><ul><li><strong>Codium Fragile Subsp. Atlanticum:<\/strong> With branched cylindrical fronds, this green seaweed attaches to rocks in intertidal-to-shallow subtidal marine environments. It helps make the skin appear smooth and soft.<\/li><\/ul><p><\/p><ul><li><strong>Ascophyllum Nodosum: <\/strong>A brown seaweed that flourishes in the upper intertidal and shallow subtidal marine regions of the North Atlantic Ocean. It contains high levels of vitamins, minerals, amino acids, fucoidan, and alginic acid. <\/li><\/ul><p><\/p><ul><li><strong>Porphyridium SPP. - Micro Alga: <\/strong>A red, unicellular seaweed high in essential fatty acids and vitamins B and C.<\/li><\/ul>",
-            "text_color": "#000"
+            "text_color": "#ffffff"
           }
         }
       },
@@ -141,11 +141,11 @@
       "settings": {
         "align_text": "left",
         "narrow_column": false,
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "#000000",
         "divider": false
       }
     },
