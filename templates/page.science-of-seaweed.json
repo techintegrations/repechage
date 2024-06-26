@@ -63,11 +63,37 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_and_image_LkAtYA": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "Harvesting Seaweed 101",
+        "text": "<p>Repêchage’s commitment to sustainability extends to every step of the production process, particularly in sourcing our seaweed. We collaborate with experts to responsibly harvest nutrient-rich seaweed species and choose only the purest seaweed from pristine waters, like those off the coast of Down East Maine.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "text_and_image_JGJLpG",
-    "text_and_image_aABxBL"
+    "text_and_image_aABxBL",
+    "text_and_image_LkAtYA"
   ]
 }
