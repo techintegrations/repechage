@@ -82,6 +82,17 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_9xjjeV": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020-Chamber-Member-Logo.png",
+            "title": "GREATER NEW YORK CHAMBER OF COMMERCE",
+            "date": "",
+            "text": "<p>The mission of the Chamber is to improve the business climate and quality of living in the New York Metropolitan Area for businesses, workers, residents and visitors.<\/p><p><a href=\"https:\/\/www.chamber.nyc\/\" title=\"https:\/\/www.chamber.nyc\/\">chamber.nyc<\/a><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -90,7 +101,8 @@
         "text_block_Vqbac9",
         "text_block_CXgUbn",
         "text_block_E8NmbD",
-        "text_block_g9hKh8"
+        "text_block_g9hKh8",
+        "text_block_9xjjeV"
       ],
       "settings": {
         "bg_color": "",
