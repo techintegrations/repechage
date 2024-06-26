@@ -243,6 +243,18 @@
             "button_label": "Register",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-11-04-anti-aging-menopausal-skin-over-40.php"
           }
+        },
+        "class_ULYxqg": {
+          "type": "class",
+          "settings": {
+            "month": "NOVEMBER",
+            "date": "25",
+            "class": "WEBINAR",
+            "title": "ANTIENVEJECIMIENTO: PIELES MENOPÁUSICAS MAYORES DE 40 AÑOS",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>La perimenopausia comienza en la piel a partir de los 40 años, pero puede comenzar incluso antes. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo levantar y reponer la humedad de la piel con tratamientos cutáneos avanzados que abordan de manera integral los cambios hormonales en la piel. Aquí aprenderá:<br\/>– La importancia de las hormonas y cómo afectan todas las funciones corporales y la piel, incluidos los cambios hormonales, la dieta y el estilo de vida, especialmente durante la perimenopausia.<br\/>– Reconocer la importancia del colágeno y la elastina, el “pegamento celular” que se pierde en incrementos del 1% anualmente después de cumplir los 20 años y que contribuye a la aparición del envejecimiento de la piel.<br\/>– Cómo el facial reafirmante de 5 fases Vita Cura® y la colección Vita Cura® Gold disminuyen las arrugas, igualan el tono de la piel y reafirman el contorno del rostro y los ojos.<br\/>– Cómo las algas, péptidos, fermentos marinos como Thermus Thermophillus, vitaminas, fitohormonas y la espirulina ayudan a restaurar y recuperar la piel de los cambios hormonales y signos del envejecimiento.<br\/>– Aprenda a potenciar sus tratamientos con dispositivos como la Máquina de Radiofrecuencia LED y EME para Estiramiento Cutáneo y la Espátula Ultrasónica para estimular y exfoliar la superficie de la piel.<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
+          }
         }
       },
       "block_order": [
@@ -258,7 +270,8 @@
         "class_6h3WzJ",
         "class_eTk6PY",
         "class_hb6MHc",
-        "class_VaqCr6"
+        "class_VaqCr6",
+        "class_ULYxqg"
       ],
       "settings": {
         "bg_color": "",
