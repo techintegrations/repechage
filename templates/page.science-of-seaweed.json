@@ -212,59 +212,22 @@
         "lazyload_images": true
       }
     },
-    "advanced_content_YFnMaw": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_XhDCPz": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "liquid_LPYBhz": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "image_axT9ad": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_XhDCPz",
-        "liquid_LPYBhz",
-        "image_axT9ad"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "hero_video_kC9apW": {
-      "type": "hero-video",
+    "featured_video_arz7nB": {
+      "type": "featured-video",
       "settings": {
         "title": "",
-        "title_size": 80,
-        "subheading": "",
-        "link_text": "",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
         "video_url": "https:\/\/www.youtube.com\/watch?v=DaEf_dMxDW8",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
+        "show_full_width": true,
+        "divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "bg_color": ""
       }
     }
   },
@@ -277,7 +240,6 @@
     "rich_text_UrhNNe",
     "rich_text_tHJH3J",
     "text_and_image_4L3EBb",
-    "advanced_content_YFnMaw",
-    "hero_video_kC9apW"
+    "featured_video_arz7nB"
   ]
 }
