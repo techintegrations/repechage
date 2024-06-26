@@ -93,6 +93,17 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_eznVUF": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-award-sm_9e4c20b6-9e4b-4537-8d2b-7004840d35e9.png",
+            "title": "SECAUCUS HERO AWARD",
+            "date": "",
+            "text": "<p>In recognition for outstanding community service during the COVID-19 health crisis, Repêchage was presented with the Hero Award by Secaucus Mayor Michael Gonnelli in Secaucus NJ<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -102,7 +113,8 @@
         "text_block_CXgUbn",
         "text_block_E8NmbD",
         "text_block_g9hKh8",
-        "text_block_9xjjeV"
+        "text_block_9xjjeV",
+        "text_block_eznVUF"
       ],
       "settings": {
         "bg_color": "",
