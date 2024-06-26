@@ -267,6 +267,18 @@
             "button_label": "Save the date",
             "button_link": ""
           }
+        },
+        "class_WNEhey": {
+          "type": "class",
+          "settings": {
+            "month": "DECEMBER",
+            "date": "TBA",
+            "class": "CONGRESS",
+            "title": "EMPOWERMENT EDUCATION",
+            "text": "<p><strong>The Road to Success with the Why<\/strong><\/p><p>Lydia Sarfati Academy<\/p><p>Join us for the Empowerment Educational certification program at the Lydia Sarfati Academy!<\/p><p>Education will be a Hands-on Workshop with a limited amount of seats<\/p>",
+            "button_label": "Save the date",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -284,7 +296,8 @@
         "class_hb6MHc",
         "class_VaqCr6",
         "class_ULYxqg",
-        "class_c9CLCt"
+        "class_c9CLCt",
+        "class_WNEhey"
       ],
       "settings": {
         "bg_color": "",
