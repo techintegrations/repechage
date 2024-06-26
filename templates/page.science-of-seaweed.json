@@ -152,6 +152,7 @@
     "text_and_image_4L3EBb": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/seaweed-anna.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
