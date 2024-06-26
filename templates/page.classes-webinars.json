@@ -171,6 +171,18 @@
             "button_label": "Register",
             "button_link": "https:\/\/livelovespa.regfox.com\/live-love-spa-miami-2024"
           }
+        },
+        "class_xJLqft": {
+          "type": "class",
+          "settings": {
+            "month": "SEPTEMBER",
+            "date": "9",
+            "class": "WEBINAR",
+            "title": "ALL ABOUT PEELS AND SKIN REJUVENATION",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Learn how to safely rejuvenate skin AHA BHA and enzymatic peels to create lasting results. Join Repêchage Founder and CEO Lydia Sarfati to learn how mild glycolic peels and exfoliating masks can create beautiful skin instantly. In this webinar, you will learn:<br\/>– How to integrate groundbreaking peels such as the hybrid Biolight® Luminex Mask and Glyco-Sea® Glycolic Peel, the Vita Cura® Enzymatic Micropeel and the Rapidex® Marine Exfoliator with Phyto Marine Actives into your treatment menu for transformative results<br\/>– How the proper formulations of ingredients to maintain pH and moisture barrier can create a non-irritating experience<br\/>– How to upgrade facials with bioadvanced peels for dramatic results<br\/>– Upon completion of 10 question test, registrants will receive a certificate of participation<\/p>",
+            "button_label": "Register",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-09-09-all-about-peels-and-skin-rejuvenation.php"
+          }
         }
       },
       "block_order": [
@@ -180,7 +192,8 @@
         "class_ztpVVN",
         "class_zffzRt",
         "class_jpdCBF",
-        "class_aFDFKN"
+        "class_aFDFKN",
+        "class_xJLqft"
       ],
       "settings": {
         "bg_color": "",
