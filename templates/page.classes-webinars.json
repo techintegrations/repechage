@@ -195,6 +195,18 @@
             "button_label": "REGISTER",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-09-30-todo-sobre-los-peelings-y-el-rejuvenecimiento-de-la-piel.php"
           }
+        },
+        "class_6h3WzJ": {
+          "type": "class",
+          "settings": {
+            "month": "OCTOBER",
+            "date": "7",
+            "class": "WEBINAR",
+            "title": "COMPROMISED SKIN NEEDS WELLNESS",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Does your clients' skin need an intervention? Let them know their skin is saying “stop and help me.” Whether from sun exposures, over-aggressive treatments or even radiation and chemotherapy, many people have dry, compromised skin that needs help. Join Repêchage Founder and CEO Lydia Sarfati to learn how to rebuild a compromised skin barrier while you calm, and protect. In this webinar, you will learn:<br\/>– Information on how to deal with anxiety, stress, and physical changes taking place in the client<br\/>– How adding ‘rituals’ to every spa service helps lower stress by affecting the sympathetic and para-sympathetic nervous systems.<br\/>– How to perform proper facial treatments such as the Hydra Dew Pure™ Moisturizing Lift Facial to restore and maintain the body’s essential first line of defense, the skin<br\/>– Essential information on utilizing proper ingredients for the sensitized client<br\/>– Proper massage techniques for stress reduction and relaxation<br\/>– Upon completion of 10 question test, registrants will receive a certificate of participation<\/p>",
+            "button_label": "REGISTER",
+            "button_link": "https:\/\/www.lydiasarfati.com\/2024-10-07-compromised-skin-needs-wellness.php"
+          }
         }
       },
       "block_order": [
@@ -206,7 +218,8 @@
         "class_jpdCBF",
         "class_aFDFKN",
         "class_xJLqft",
-        "class_tttkLC"
+        "class_tttkLC",
+        "class_6h3WzJ"
       ],
       "settings": {
         "bg_color": "",
