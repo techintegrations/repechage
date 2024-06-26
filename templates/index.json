@@ -92,6 +92,7 @@
         "image_Qbd63d"
       ],
       "settings": {
+        "show_container": false,
         "section_height": "550px",
         "mobile_height": "auto",
         "parallax": false,
@@ -271,7 +272,7 @@
       "settings": {
         "title": "Best Selling Products",
         "featured_image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.jpg",
-        "home_featured_products": "travel-starter-kits",
+        "home_featured_products": "our-best-sellers",
         "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
