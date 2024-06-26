@@ -610,6 +610,32 @@
     border-bottom: 1px solid #000;
 }
 
+.image-with-two-columns__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-with-two-columns__row .top-heading {
+    flex: 0 0 25%;
+}
+
+.image-with-two-columns__image {
+    flex: 1 0 0;
+    margin-left: 30px;
+}
+
+.image-with-two-columns__image .content-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-with-two-columns__image .content-column .col.rte {
+    flex: 1 0 0;
+    padding: 0 10px;
+    margin: 0px;
+}
+
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
