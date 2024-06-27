@@ -31,9 +31,14 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <div class="text-columns-with-images-section page-width">
-  {%- if section.settings.title != blank -%}
+  {%- if section.settings.title != blank or section.settings.text != blank -%}
     <div class="section-header text-{{ section.settings.align_text }}">
       <h2>{{ section.settings.title }}</h2>
+      {%- if section.settings.text != blank -%}
+      <div class="rte">
+        {{ section.settings.text }}
+      </div>
+    {%- endif -%}
     </div>
   {%- endif -%}
 
