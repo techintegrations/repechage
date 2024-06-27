@@ -636,6 +636,11 @@
     margin: 0px;
 }
 
+.text-columns-with-images-section .grid__item h3 {
+    font-size: 24px;
+    min-height: 57px;
+}
+
 
 @media only screen and (min-width: 769px) {
 
