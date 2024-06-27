@@ -723,6 +723,35 @@
         "padding_bottom_m": 20,
         "divider": false
       }
+    },
+    "image_compare_cybKQj": {
+      "type": "image-compare",
+      "blocks": {
+        "image_NF7h9G": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_ABG89W": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image_NF7h9G",
+        "image_ABG89W"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "fullwidth": true,
+        "slider_style": "classic",
+        "height": 600,
+        "color": "#FFFFFF",
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -739,6 +768,7 @@
     "newsletter_kJLxhd",
     "blog_posts_AkwbrY",
     "testimonials_WQarYp",
-    "text_with_icons_dTrr3R"
+    "text_with_icons_dTrr3R",
+    "image_compare_cybKQj"
   ]
 }
