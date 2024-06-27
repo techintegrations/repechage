@@ -20,12 +20,8 @@
       endcase
     -%}
     {%- for block in section.blocks -%}
-      {%- if section.blocks.size == 5 and forloop.index < 3 -%}
-        {%- assign column_width = 'medium-up--one-half' -%}
-      {%- else -%}
-        {%- assign column_width = grid_item_width -%}
-      {%- endif -%}
-      <div class="grid__item {{ column_width }} text-{{ section.settings.block_align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
+
+      <div class="grid__item text-{{ section.settings.block_align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
         {%- if block.settings.enable_image -%}
           <div style="{% if section.settings.block_align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
             {%- if block.settings.button_link != blank -%}
