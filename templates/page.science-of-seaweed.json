@@ -136,6 +136,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/LAMINARIA_DIGITATA_18843736_xl_copy_large_13ed2849-769b-4dd0-9b09-0b42745887a9.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "Laminaria Digitata",
@@ -148,6 +149,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/CODIUM.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "Codium Fragile Subsp. Atlanticum",
@@ -160,6 +162,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/ASCOPHYLLUM.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "Ascophyllum Nodosum",
