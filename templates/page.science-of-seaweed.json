@@ -103,43 +103,6 @@
         "lazyload_images": true
       }
     },
-    "custom_image_with_two_columns_4hqw3M": {
-      "type": "custom__image-with-two-columns",
-      "blocks": {
-        "content_iNGyUY": {
-          "type": "content",
-          "settings": {
-            "title": "",
-            "text": "<p>Repêchage’s commitment to sustainability extends to every step of the production process, particularly in sourcing our seaweed. We collaborate with experts to responsibly harvest nutrient-rich seaweed species and choose only the purest seaweed from pristine waters, like those off the coast of Down East Maine.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "content_r8VmdJ": {
-          "type": "content",
-          "settings": {
-            "title": "",
-            "text": "<p>We blend tradition with innovation in our harvesting methods. The seaweed is carefully gathered by hand during low tides or cultivated on ropes in seawater. Once harvested, we gently dry the seaweed to preserve its natural goodness before sending it to our ISO 9001-certified facility in the U.S. Unlike other manufacturers who use oven-drying, our exclusive method retains all the beneficial vitamins, minerals, and amino acids while extracting the intercellular fluid. This unique process results in a pure filtrate produced in small artisanal batches. This potent filtrate is refrigerated for six months to maximize its effectiveness before being blended into Repêchage products. Nothing is purer or more effective at making skin smoother and softer.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_iNGyUY",
-        "content_r8VmdJ"
-      ],
-      "settings": {
-        "top_heading": "HARVESTING SEAWEED 101",
-        "image": "shopify:\/\/shop_images\/SeaSmooth_Artisan_Seaweed_Wax_2015_shoot_-_091-a.jpg",
-        "bg_color": "",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "divider": false
-      }
-    },
     "rich_text_7JgiBU": {
       "type": "rich-text",
       "blocks": {
@@ -158,9 +121,9 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "padding_top": 0,
+        "padding_top": 70,
         "padding_bottom": 70,
-        "padding_top_m": 0,
+        "padding_top_m": 40,
         "padding_bottom_m": 40,
         "bg_color": "",
         "divider": false
@@ -250,7 +213,6 @@
     "slideshow_QWbzGN",
     "text_and_image_JGJLpG",
     "text_and_image_aABxBL",
-    "custom_image_with_two_columns_4hqw3M",
     "rich_text_7JgiBU",
     "rich_text_tHJH3J",
     "text_and_image_4L3EBb",
