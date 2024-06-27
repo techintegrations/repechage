@@ -749,7 +749,7 @@
         "heading_size": "h2",
         "heading_position": "left",
         "fullwidth": true,
-        "slider_style": "minimal",
+        "slider_style": "classic",
         "height": 600,
         "color": "#ffffff",
         "lazyload_images": true
