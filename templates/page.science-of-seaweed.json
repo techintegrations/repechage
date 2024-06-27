@@ -111,7 +111,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p>Repêchage’s commitment to sustainability extends to every step of the production process, particularly in sourcing our seaweed. We collaborate with experts to responsibly harvest nutrient-rich seaweed species and choose only the purest seaweed from pristine waters, like those off the coast of Down East Maine.<\/p><p>We blend tradition with innovation in our harvesting methods. The seaweed is carefully gathered by hand during low tides or cultivated on ropes in seawater. Once harvested, we gently dry the seaweed to preserve its natural goodness before sending it to our ISO 9001-certified facility in the U.S. Unlike other manufacturers who use oven-drying, our exclusive method retains all the beneficial vitamins, minerals, and amino acids while extracting the intercellular fluid. This unique process results in a pure filtrate produced in small artisanal batches. This potent filtrate is refrigerated for six months to maximize its effectiveness before being blended into Repêchage products. Nothing is purer or more effective at making skin smoother and softer.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -446,7 +446,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "block_bg_color": "",
         "button_label": "",
         "button_link": "",
@@ -521,7 +521,14 @@
         "align_text": "center",
         "button_label": "",
         "button_link": "",
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 1,
         "block_align_text": "left",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
         "divider": false
       }
     }
