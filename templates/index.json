@@ -730,6 +730,7 @@
         "image_NF7h9G": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/14.png"
           }
         },
         "image_ABG89W": {
@@ -747,9 +748,9 @@
         "heading_size": "h2",
         "heading_position": "left",
         "fullwidth": true,
-        "slider_style": "classic",
+        "slider_style": "minimal",
         "height": 600,
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "lazyload_images": true
       }
     }
