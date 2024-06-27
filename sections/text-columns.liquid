@@ -19,9 +19,8 @@
     }
 
     #shopify-section-{{section.id}} .grid__item {
-      flex: 0 0 calc((100% / {{ section.settings.mobile_columns_per_row }}) - 10px);
-      width: calc((100% / {{ section.settings.mobile_columns_per_row }}) - 10px);
-      margin: 0px 5px 20px 5px;
+      flex: 0 0 calc(100% / {{ section.settings.mobile_columns_per_row }});
+      width: calc(100% / {{ section.settings.mobile_columns_per_row }});
     }
 
 
