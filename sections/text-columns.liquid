@@ -5,7 +5,7 @@
       background-color: {{section.settings.bg_color}};
   }
 
-  #shopify-section-{{section.id}} .ingredients__block {
+  #shopify-section-{{section.id}} .grid__item {
       flex: 0 0 calc((100% / {{ section.settings.desktop_columns_per_row }}) - 20px);
       width: calc((100% / {{ section.settings.desktop_columns_per_row }}) - 20px);
       margin: 0px 10px 24px 10px;
@@ -18,7 +18,7 @@
       padding-bottom: {{ section.settings.padding_bottom_m }}px;
     }
 
-    #shopify-section-{{section.id}} .ingredients__block {
+    #shopify-section-{{section.id}} .grid__item {
       flex: 0 0 calc((100% / {{ section.settings.mobile_columns_per_row }}) - 10px);
       width: calc((100% / {{ section.settings.mobile_columns_per_row }}) - 10px);
       margin: 0px 5px 20px 5px;
