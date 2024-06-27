@@ -137,7 +137,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/LAMINARIA_DIGITATA_18843736_xl_copy_large_13ed2849-769b-4dd0-9b09-0b42745887a9.png",
-            "image_mask": "none",
+            "image_mask": "square",
             "image_width": 650,
             "title": "Laminaria Digitata",
             "text": "<p>Naturally found in the upper intertidal and shallow subtidal marine environments, our beloved Laminaria Digitata is a natural source of 12 vitamins, including B12, C, E, K, beta carotene, 18 amino acids, and 42 trace elements.<\/p>",
@@ -150,7 +150,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/CODIUM.png",
-            "image_mask": "none",
+            "image_mask": "square",
             "image_width": 650,
             "title": "Codium Fragile Subsp. Atlanticum",
             "text": "<p>With branched cylindrical fronds, this green seaweed attaches to rocks in intertidal-to-shallow subtidal marine environments. It helps make the skin appear smooth and soft.<\/p>",
@@ -163,7 +163,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/ASCOPHYLLUM.png",
-            "image_mask": "none",
+            "image_mask": "square",
             "image_width": 650,
             "title": "Ascophyllum Nodosum",
             "text": "<p>A brown seaweed that flourishes in the upper intertidal and shallow subtidal marine regions of the North Atlantic Ocean. It contains high levels of vitamins, minerals, amino acids, fucoidan, and alginic acid<\/p>",
@@ -176,7 +176,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/ENTEROMORPHA.png",
-            "image_mask": "none",
+            "image_mask": "square",
             "image_width": 650,
             "title": "Porphyridium SPP. - Micro Alga",
             "text": "<p>A red, unicellular seaweed high in essential fatty acids and vitamins B and C.<\/p>",
