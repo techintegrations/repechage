@@ -521,7 +521,7 @@
         "align_text": "center",
         "button_label": "",
         "button_link": "",
-        "block_align_text": "center",
+        "block_align_text": "left",
         "divider": false
       }
     }
