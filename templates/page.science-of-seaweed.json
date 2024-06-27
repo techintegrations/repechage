@@ -175,6 +175,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/ENTEROMORPHA.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "Porphyridium SPP. - Micro Alga",
