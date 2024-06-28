@@ -72,9 +72,9 @@ $(document).ready(function () {
 
 
 
-  if(window.outerWidth < 769) {
-    
-    const flickitySlider4 = new Flickity(".text-with-icons__blocks", {
+  if(window.outerWidth < 425) {
+
+    const flickitySlider3 = new Flickity(".product-list-block_slider", {
         cellAlign: "left",
         contain: true,
         prevNextButtons: false,
