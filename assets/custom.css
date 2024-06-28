@@ -719,6 +719,19 @@
       margin: 40px 0px 0px 0px;
   }
 
+  .article-grid-item-co .article__grid-meta {
+      margin-bottom: 0px;
+  }
+  
+  .article-grid-item-co .article__grid-image {
+      margin-bottom: 0px;
+  }
+  
+  .article-grid-item-col {
+      padding-bottom: 20px;
+  }
+
+
   
 }
 
