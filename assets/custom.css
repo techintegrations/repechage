@@ -736,7 +736,9 @@
       padding-top: 30px;
   }
 
-
+  .text-with-icons .text-with-icons__blocks {
+      display: block;
+  }
   
 }
 
