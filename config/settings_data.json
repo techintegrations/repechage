@@ -196,7 +196,7 @@
       },
       "17151115064775110295": {
         "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "color_brand": "#467C99",
           "contrast_color": "#FFFFFF",
@@ -208,6 +208,12 @@
           "images_aspect_ratio": "1",
           "cards_background": "#FFFFFF",
           "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "1232542678405107163": {
+        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {
         }
       }
     }
