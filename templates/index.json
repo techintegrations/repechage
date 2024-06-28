@@ -271,8 +271,8 @@
         "block_title_color": "",
         "block_text_color": "",
         "bg_color": "#f9f9f9",
-        "padding_top": 50,
-        "padding_bottom": 70,
+        "padding_top": 60,
+        "padding_bottom": 80,
         "padding_top_m": 50,
         "padding_bottom_m": 60,
         "divider": false
