@@ -694,7 +694,7 @@
       width: 100%;
       position: unset;
       transform: none;
-      padding: 0px;
+      padding: 32px 0px 0px 0px;
   }
 
   .image-with-info__row .image-with-info__image {
