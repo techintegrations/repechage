@@ -72,7 +72,6 @@ $(document).ready(function () {
 
 
 
-  if(window.outerWidth < 769) {
 
     const flickitySlider4 = new Flickity(".text-with-icons__blocks", {
         cellAlign: "left",
@@ -84,7 +83,6 @@ $(document).ready(function () {
         wrapAround: true,
     });
     
-  }
 
   
 });
