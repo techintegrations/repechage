@@ -750,6 +750,10 @@
   .text-with-icons .text-with-icons__blocks {
       display: block;
   }
+
+  .testimonials-slider .testimonials-slide {
+      padding: 0px;
+  }
   
 }
 
