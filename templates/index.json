@@ -204,7 +204,12 @@
         "title": "",
         "divider": false,
         "per_row": 3,
-        "enable_gutter": true
+        "enable_gutter": true,
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 55,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
       }
     },
     "custom_text_with_logos_VBrHLU": {
