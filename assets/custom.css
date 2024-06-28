@@ -399,6 +399,7 @@
 .fc-featured-image-row .fc-featured-image img {
     height: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 .image-with-text-section .feature-row__text .btn {
