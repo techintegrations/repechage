@@ -671,7 +671,7 @@
             "icon": "gift",
             "title": "",
             "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>",
-            "link_text": "",
+            "link_text": "Button text",
             "link": ""
           }
         },
