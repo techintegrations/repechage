@@ -593,8 +593,8 @@
         "bg_color": "",
         "padding_top": 70,
         "padding_bottom": 20,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0
+        "padding_top_m": 55,
+        "padding_bottom_m": 40
       }
     },
     "testimonials_WQarYp": {
