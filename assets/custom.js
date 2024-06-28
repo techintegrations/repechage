@@ -79,7 +79,7 @@ $(document).ready(function () {
           arrows: false,
           centerMode: true,
           dots: true,
-          slidesToShow: 3
+          slidesToShow: 2
         }
       },
       {
