@@ -71,5 +71,10 @@ $(document).ready(function () {
   });
 
 
+
+  if(window.outerWidth < 769) {
+    alert('your jquery code here - it fires for mobile device only');
+  }
+
   
 });
