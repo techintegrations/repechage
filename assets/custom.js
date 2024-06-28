@@ -41,7 +41,7 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
-  const flickitySlider3 = new Flickity(".text-with-icons__blocks", {
+  const flickitySlider3 = new Flickity(".product-list-block_slider", {
       cellAlign: "left",
       contain: true,
       prevNextButtons: false,
@@ -71,6 +71,7 @@ $(document).ready(function () {
   });
 
 
+
   $('.text-with-icons__blocks').slick({
     responsive: [
       {
@@ -92,5 +93,9 @@ $(document).ready(function () {
         }
       }
     ]
+  
+});
+
+
   
 });
