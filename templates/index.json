@@ -288,7 +288,12 @@
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": false,
-        "divider": false
+        "divider": false,
+        "bg_color": "",
+        "padding_top": 70,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
       }
     },
     "text_and_image_hPkL8i": {
