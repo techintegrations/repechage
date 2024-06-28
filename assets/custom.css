@@ -665,10 +665,6 @@
 
 @media only screen and (max-width: 768px) {
 
-  .testimonials-slider.custom-dots-style .flickity-page-dots {
-      bottom: 0px;
-  }
-
   .fc-featured-image-row {
       display: block;
   }
