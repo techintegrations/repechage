@@ -69,20 +69,5 @@ $(document).ready(function () {
     focusOnSelect: true,
     verticalSwiping: false,
   });
-
-
-
-
-    const flickitySlider5 = new Flickity(".text-with-icons__blocks", {
-        cellAlign: "left",
-        contain: true,
-        prevNextButtons: false,
-        pageDots: true,
-        freeScroll: false,
-        avoidReflow: true,
-        wrapAround: true,
-    });
-    
-
   
 });
