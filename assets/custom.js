@@ -73,7 +73,18 @@ $(document).ready(function () {
 
 
   if(window.outerWidth < 769) {
-    alert('your jquery code here - it fires for mobile device only');
+    
+      alert('your jquery code here - it fires for mobile device only');
+        const flickitySlider3 = new Flickity(".product-list-block_slider", {
+        cellAlign: "left",
+        contain: true,
+        prevNextButtons: false,
+        pageDots: true,
+        freeScroll: false,
+        avoidReflow: true,
+        wrapAround: true,
+    });
+
   }
 
   
