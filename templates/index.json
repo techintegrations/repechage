@@ -26,7 +26,6 @@
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/banners_12.png",
-            "image_mobile": "shopify:\/\/shop_images\/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
