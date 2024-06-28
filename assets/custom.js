@@ -72,32 +72,32 @@ $(document).ready(function () {
 
 
 
-  if(window.outerWidth < 769) {
+//   if(window.outerWidth < 769) {
 
-  $('.text-with-icons__blocks').slick({
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          dots: true,
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          dots: true,
-          slidesToShow: 1
-        }
-      }
-    ]
+//   $('.text-with-icons__blocks').slick({
+//     responsive: [
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           dots: true,
+//           slidesToShow: 2
+//         }
+//       },
+//       {
+//         breakpoint: 480,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           dots: true,
+//           slidesToShow: 1
+//         }
+//       }
+//     ]
   
-});
-}
+// });
+// }
 
   
 });
