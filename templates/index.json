@@ -218,13 +218,6 @@
     "custom_text_with_logos_VBrHLU": {
       "type": "custom__text-with-logos",
       "blocks": {
-        "text_block_bVM8p7": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "text": ""
-          }
-        },
         "text_block_EdJXpk": {
           "type": "text_block",
           "settings": {
@@ -267,7 +260,6 @@
         }
       },
       "block_order": [
-        "text_block_bVM8p7",
         "text_block_EdJXpk",
         "text_block_frN9HT",
         "text_block_wDJdWR",
