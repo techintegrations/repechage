@@ -72,16 +72,13 @@ $(document).ready(function () {
 
 
   $('.text-with-icons__blocks').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          dots: true,
           slidesToShow: 3
         }
       },
@@ -90,7 +87,7 @@ $(document).ready(function () {
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          dots: true,
           slidesToShow: 1
         }
       }
