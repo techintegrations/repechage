@@ -72,6 +72,8 @@ $(document).ready(function () {
 
 
 
+  if(window.outerWidth < 769) {
+
   $('.text-with-icons__blocks').slick({
     responsive: [
       {
@@ -95,7 +97,7 @@ $(document).ready(function () {
     ]
   
 });
-
+}
 
   
 });
