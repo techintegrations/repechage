@@ -64,6 +64,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/banner_9.png",
+            "image_mobile": "shopify:\/\/shop_images\/mb_banner_6.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
