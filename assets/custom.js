@@ -73,7 +73,7 @@ $(document).ready(function () {
 
 
 
-    const flickitySlider4 = new Flickity(".text-with-icons__blocks", {
+    const flickitySlider5 = new Flickity(".text-with-icons__blocks", {
         cellAlign: "left",
         contain: true,
         prevNextButtons: false,
