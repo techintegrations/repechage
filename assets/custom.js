@@ -51,6 +51,20 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
+
+  $(document).ready(function() {
+    $('.site-nav__item').hover(
+      function() { // Mouse enter
+        var itemClass = $(this).attr('class').split(' ')[0]; // Get the first class of the <li>
+        $(this).find('.custom-grid.grid__item.' + itemClass).addClass('open');
+      },
+      function() { // Mouse leave
+        var itemClass = $(this).attr('class').split(' ')[0];
+        $(this).find('.custom-grid.grid__item.' + itemClass).removeClass('open');
+      }
+    );
+  });
+
   $(".image-slider-with-text .slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
