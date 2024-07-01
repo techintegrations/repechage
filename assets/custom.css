@@ -93,6 +93,10 @@
     display: flex;
 }
 
+.site-nav .custom-grid.grid__item .grid-item {
+    flex: 0 0 20%;
+}
+
 .collection-item {
     border-radius: 8px;
 }
