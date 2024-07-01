@@ -62,7 +62,7 @@
 
                   
                         {% if block.settings.link_list_1 != blank %}
-                          <div class="custom-linklist">
+                          <div class="custom-linklist grid-item">
                                 {% assign menu = linklists[block.settings.link_list_1] %}
                                 <p class="footer__heading">
                                   {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
@@ -82,7 +82,7 @@
                         {% endif %}
 
                         {% if block.settings.link_list_2 != blank %}
-                    <div class="custom-linklist">
+                    <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_2] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
@@ -103,7 +103,7 @@
 
 
                         {% if block.settings.link_list_3 != blank %}
-                    <div class="custom-linklist">
+                    <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_3] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
@@ -124,7 +124,7 @@
 
 
                     {% if block.settings.link_list_4 != blank %}
-                    <div class="custom-linklist">
+                    <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_4] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
@@ -145,7 +145,7 @@
 
 
                     {% if block.settings.image_1 != blank %}
-                      <div class="custom-image image-1">
+                      <div class="custom-image image-1 grid-item">
                         <a href="{{ block.settings.image_1_link }}">
                           <div class="image">
                             <img src="{{ block.settings.image_1 | img_url: '400x' }}">
@@ -156,7 +156,7 @@
                     {% endif %}
 
                     {% if block.settings.image_2 != blank %}
-                      <div class="custom-image image-2">
+                      <div class="custom-image image-2 grid-item">
                           <a href="{{ block.settings.image_2_link }}">
                             <div class="image">
                               <img src="{{ block.settings.image_2 | img_url: '400x' }}">
@@ -167,7 +167,7 @@
                     {% endif %}
 
                     {% if block.settings.image_3 != blank %}
-                      <div class="custom-image image-3">
+                      <div class="custom-image image-3 grid-item">
                           <a href="{{ block.settings.image_3_link }}">
                             <div class="image">
                               <img src="{{ block.settings.image_3 | img_url: '400x' }}">
@@ -178,7 +178,7 @@
                     {% endif %}
 
                     {% if block.settings.image_4 != blank %}
-                      <div class="custom-image image-4">
+                      <div class="custom-image image-4 grid-item">
                           <a href="{{ block.settings.image_4_link }}">
                             <div class="image">
                               <img src="{{ block.settings.image_4 | img_url: '400x' }}">
