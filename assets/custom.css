@@ -690,6 +690,22 @@
     margin-top: 16px;
 }
 
+.image-slider-with-text .custom-arrows {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    z-index: 99999999999;
+    bottom: 0px;
+}
+
+.image-slider-with-text .custom-arrows .slick-arrow {
+    cursor: pointer;
+}
+
+.image-slider-with-text .custom-arrows .right-arrow.slick-arrow {
+    margin-left: 20px;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
