@@ -738,6 +738,10 @@
 
 @media only screen and (max-width: 768px) {
 
+  .hero[data-arrows=true] .flickity-prev-next-button {
+      display: none;
+  }
+
   .testimonials-slider.custom-dots-style .flickity-page-dots {
       bottom: 0px;
   }
