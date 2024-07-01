@@ -76,9 +76,7 @@
           data-mobile-natural="{{ natural_mobile_height }}"
           data-autoplay="{{ section.settings.autoplay }}"
           data-speed="{{ section.settings.autoplay_speed | times: 1000 }}"
-          {% if section.settings.style == 'arrows' %}
-            data-arrows="true"
-          {% endif %}
+          data-arrows="true"
           {% if section.settings.style == 'dots' %}
             data-dots="true"
           {% endif %}
