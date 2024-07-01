@@ -90,6 +90,11 @@
     object-fit: cover;
 }
 
+.site-nav .custom-image .image-title {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
 
 .header-wrapper .site-nav .custom-grid.grid__item {
     display: none;
