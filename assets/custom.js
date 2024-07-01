@@ -65,24 +65,28 @@ $(document).ready(function () {
     );
   });
 
-  $(".image-slider-with-text .slider-for").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    fade: true,
-    asNavFor: ".slider-nav",
-  });
-  $(".image-slider-with-text .slider-nav").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    vertical: false,
-    asNavFor: ".image-slider-with-text .slider-for",
-    dots: false,
-    arrows: false,
-    focusOnSelect: true,
-    verticalSwiping: false,
-  });
+$(".image-slider-with-text .slider-for").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  dots: true,
+  fade: true,
+  asNavFor: ".slider-nav",
+  prevArrow: '.custom-arrows .left-arrow',
+  nextArrow: '.custom-arrows .right-arrow'
+});
+
+$(".image-slider-with-text .slider-nav").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  vertical: false,
+  asNavFor: ".image-slider-with-text .slider-for",
+  dots: false,
+  arrows: false,
+  focusOnSelect: true,
+  verticalSwiping: false,
+});
+
 
 
 if (window.outerWidth < 769) {
