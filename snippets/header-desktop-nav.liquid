@@ -52,6 +52,11 @@
           <div class="site-nav__dropdown megamenu text-left">
             <div class="page-width">
               <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
+
+                {% for block in section.blocks %}
+                {% endfor %}
+
+                
                 <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
                   {%- assign animation_column = animation_column | plus: 1 -%}
 
