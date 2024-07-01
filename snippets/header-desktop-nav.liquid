@@ -146,6 +146,11 @@
 
                     {% if block.settings.image_1 != blank %}
                       <div class="custom-image image-1 grid-item">
+                        {% if block.settings.image_1_top_heading != blank %}
+                          <p class="image__heading">
+                            {{ block.settings.image_1_top_heading }}
+                          </p>
+                        {% endif %}
                         <a href="{{ block.settings.image_1_link }}">
                           <div class="image">
                             <img src="{{ block.settings.image_1 | img_url: '400x' }}">
