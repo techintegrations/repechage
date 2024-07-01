@@ -61,9 +61,9 @@
                   <div class="custom-grid">
 
                   
-                        {% if section.settings.link_list_1 != blank %}
+                        {% if block.settings.link_list_1 != blank %}
                           <div class="custom-linklist">
-                                {% assign menu = linklists[section.settings.link_list_1] %}
+                                {% assign menu = linklists[block.settings.link_list_1] %}
                                 <p class="footer__heading">
                                   {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                                     {{ menu.title }}
@@ -81,9 +81,9 @@
                             </div>
                         {% endif %}
 
-                        {% if section.settings.link_list_2 != blank %}
+                        {% if block.settings.link_list_2 != blank %}
                     <div class="custom-linklist">
-                          {% assign menu = linklists[section.settings.link_list_2] %}
+                          {% assign menu = linklists[block.settings.link_list_2] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
@@ -102,9 +102,9 @@
                         {% endif %}
 
 
-                        {% if section.settings.link_list_3 != blank %}
+                        {% if block.settings.link_list_3 != blank %}
                     <div class="custom-linklist">
-                          {% assign menu = linklists[section.settings.link_list_3] %}
+                          {% assign menu = linklists[block.settings.link_list_3] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
@@ -123,9 +123,9 @@
                         {% endif %}
 
 
-                    {% if section.settings.link_list_4 != blank %}
+                    {% if block.settings.link_list_4 != blank %}
                     <div class="custom-linklist">
-                          {% assign menu = linklists[section.settings.link_list_4] %}
+                          {% assign menu = linklists[block.settings.link_list_4] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
@@ -144,27 +144,27 @@
                     {% endif %}
 
 
-                    {% if section.settings.link_list_1 != blank %}
+                    {% if block.settings.link_list_1 != blank %}
                       <div class="custom-image">
-                          <img src="{{ section.settings.link_list_1 | img_url: 'master' }}">
+                          <img src="{{ block.settings.link_list_1 | img_url: 'master' }}">
                       </div>
                     {% endif %}
 
-                    {% if section.settings.link_list_2 != blank %}
+                    {% if block.settings.link_list_2 != blank %}
                       <div class="custom-image">
-                          <img src="{{ section.settings.link_list_2 | img_url: 'master' }}">
+                          <img src="{{ block.settings.link_list_2 | img_url: 'master' }}">
                       </div>
                     {% endif %}
 
-                    {% if section.settings.link_list_3 != blank %}
+                    {% if block.settings.link_list_3 != blank %}
                       <div class="custom-image">
-                          <img src="{{ section.settings.link_list_3 | img_url: 'master' }}">
+                          <img src="{{ block.settings.link_list_3 | img_url: 'master' }}">
                       </div>
                     {% endif %}
 
-                    {% if section.settings.link_list_4 != blank %}
+                    {% if block.settings.link_list_4 != blank %}
                       <div class="custom-image">
-                          <img src="{{ section.settings.link_list_4 | img_url: 'master' }}">
+                          <img src="{{ block.settings.link_list_4 | img_url: 'master' }}">
                       </div>
                     {% endif %}
                     
