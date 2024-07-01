@@ -16,7 +16,7 @@
       assign is_megamenu = false
       if link.links != blank
         assign has_dropdown = true
-        if link.levels > 1
+        if section.blocks.size > 0
           assign is_megamenu = true
         endif
       endif
