@@ -16,13 +16,13 @@
       assign is_megamenu = false
       if link.links != blank
         assign has_dropdown = true
-        if section.blocks.size > 0
+        if link.levels > 1
           assign is_megamenu = true
         endif
       endif
     -%}
 
-    <li class="{{ link.title | handle }} site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
+    <li class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
       {% if is_megamenu or has_dropdown %}
         <details
           data-hover="{{ hover_menu }}"
@@ -53,11 +53,6 @@
             <div class="page-width">
               <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
                 <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
-
-                  {% for block in section.blocks %}
-                  {% endfor %}
-
-                  
                   {%- assign animation_column = animation_column | plus: 1 -%}
 
                   {%- for childlink in link.links -%}
