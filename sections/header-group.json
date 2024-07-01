@@ -62,11 +62,13 @@
             "link_list_4": "",
             "image_1": "shopify:\/\/shop_images\/BiolightBrighteningCream.jpg",
             "image_1_title": "Biolight® Brightening Day Cream",
-            "image_1_link": "#",
-            "image_2_title": "",
-            "image_2_link": "",
-            "image_3_title": "",
-            "image_3_link": "",
+            "image_1_link": "shopify:\/\/products\/biolight-brightening-day-cream",
+            "image_2": "shopify:\/\/shop_images\/TripleActionPeptideSerum2.jpg",
+            "image_2_title": "Triple Action Peptide Serum",
+            "image_2_link": "shopify:\/\/products\/triple-action-peptide-serum",
+            "image_3": "shopify:\/\/shop_images\/20211004_Repechage-16_761fc229-a275-490f-bec0-f059704c1b3b.jpg",
+            "image_3_title": "Hydra Dew Pure™ Facial Essence Mist",
+            "image_3_link": "shopify:\/\/products\/hydra-dew-pure-facial-essence-mist",
             "image_4_title": "",
             "image_4_link": ""
           }
