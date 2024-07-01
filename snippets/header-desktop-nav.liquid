@@ -162,6 +162,11 @@
 
                     {% if block.settings.image_2 != blank %}
                       <div class="custom-image image-2 grid-item">
+                        {% if block.settings.image_1_top_heading != blank %}
+                          <p class="image__heading">
+                            {{ block.settings.image_1_top_heading }}
+                          </p>
+                        {% endif %}
                           <a href="{{ block.settings.image_2_link }}">
                             <div class="image">
                               <img src="{{ block.settings.image_2 | img_url: '400x' }}">
@@ -173,6 +178,11 @@
 
                     {% if block.settings.image_3 != blank %}
                       <div class="custom-image image-3 grid-item">
+                        {% if block.settings.image_1_top_heading != blank %}
+                          <p class="image__heading">
+                            {{ block.settings.image_1_top_heading }}
+                          </p>
+                        {% endif %}
                           <a href="{{ block.settings.image_3_link }}">
                             <div class="image">
                               <img src="{{ block.settings.image_3 | img_url: '400x' }}">
@@ -184,6 +194,11 @@
 
                     {% if block.settings.image_4 != blank %}
                       <div class="custom-image image-4 grid-item">
+                        {% if block.settings.image_1_top_heading != blank %}
+                          <p class="image__heading">
+                            {{ block.settings.image_1_top_heading }}
+                          </p>
+                        {% endif %}
                           <a href="{{ block.settings.image_4_link }}">
                             <div class="image">
                               <img src="{{ block.settings.image_4 | img_url: '400x' }}">
