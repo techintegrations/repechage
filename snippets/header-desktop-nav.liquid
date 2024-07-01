@@ -131,8 +131,8 @@
                       </div>
 
 
+                    {% if section.settings.link_list_4 != blank %}
                     <div class="custom-linklist">
-                        {% if menu_link != blank %}
                           {% assign menu = linklists[section.settings.link_list_4] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
@@ -148,11 +148,8 @@
                               </li>
                             {% endfor %}
                           </ul>
-                        {% else %}
-                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
-                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
-                        {% endif %}
                       </div>
+                    {% endif %}
 
 
                     {% if section.settings.link_list_1 != blank %}
