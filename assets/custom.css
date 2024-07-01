@@ -826,6 +826,21 @@
   .testimonials-slider .testimonials-slide {
       padding: 20px 0px;
   }
+
+  .image-slider-with-text .custom-arrows {
+      position: unset;
+      justify-content: center;
+      margin-top: 24px;
+  }
+  
+  .image-slider-with-text .custom-arrows .right-arrow.slick-arrow {
+      margin-left: 0px;
+  }
+  
+  .image-slider-with-text .custom-arrows .slick-arrow {
+      margin: 0 16px;
+  }
+
   
 }
 
