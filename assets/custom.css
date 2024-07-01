@@ -700,6 +700,13 @@
 
 .image-slider-with-text .custom-arrows .slick-arrow {
     cursor: pointer;
+    height: 44px;
+    width: 44px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
 }
 
 .image-slider-with-text .custom-arrows .right-arrow.slick-arrow {
