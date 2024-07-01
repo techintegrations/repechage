@@ -101,6 +101,11 @@
     margin: 0px;
 }
 
+.megamenu .grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .collection-item {
     border-radius: 8px;
 }
