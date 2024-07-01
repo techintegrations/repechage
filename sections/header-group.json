@@ -32,16 +32,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "header-0": {
-          "type": "logo",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "header-0"
-      ],
       "settings": {
         "main_menu_link_list": "header",
         "hover_menu": true,
