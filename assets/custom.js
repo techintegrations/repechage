@@ -24,7 +24,7 @@ $(document).ready(function () {
   const flickitySlider1 = new Flickity(".text-with-logos-slider", {
       cellAlign: "center",
       contain: true,
-      prevNextButtons: true,
+      prevNextButtons: false,
       pageDots: true,
       freeScroll: false,
       avoidReflow: true,
