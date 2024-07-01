@@ -82,6 +82,78 @@
                           <p>{{ 'homepage.onboarding.no_content' | t }}</p>
                         {% endif %}
                       </div>
+
+                    <div class="custom-linklist">
+                        {% if menu_link != blank %}
+                          {% assign menu = linklists[secttion.settings.link_list_2] %}
+                          <p class="footer__heading">
+                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                              {{ menu.title }}
+                            {% if link_setting != blank %}</a>{% endif %}
+                          </p>
+                          <ul>
+                            {% for link in menu.links %}
+                              <li class="footer__menu-link">
+                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                                  {{ link.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
+                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
+                        {% endif %}
+                      </div>
+
+
+                    <div class="custom-linklist">
+                        {% if menu_link != blank %}
+                          {% assign menu = linklists[secttion.settings.link_list_3] %}
+                          <p class="footer__heading">
+                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                              {{ menu.title }}
+                            {% if link_setting != blank %}</a>{% endif %}
+                          </p>
+                          <ul>
+                            {% for link in menu.links %}
+                              <li class="footer__menu-link">
+                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                                  {{ link.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
+                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
+                        {% endif %}
+                      </div>
+
+
+                    <div class="custom-linklist">
+                        {% if menu_link != blank %}
+                          {% assign menu = linklists[secttion.settings.link_list_4] %}
+                          <p class="footer__heading">
+                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                              {{ menu.title }}
+                            {% if link_setting != blank %}</a>{% endif %}
+                          </p>
+                          <ul>
+                            {% for link in menu.links %}
+                              <li class="footer__menu-link">
+                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                                  {{ link.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
+                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
+                        {% endif %}
+                      </div>
+                    
                   </div>
                 {% endfor %}
 
