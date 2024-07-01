@@ -84,6 +84,13 @@
 
 
 
+.custom-grid.grid__item {
+    display: none;
+}
+
+.custom-grid.grid__item.open {
+    display: block;
+}
 
 .collection-item {
     border-radius: 8px;
