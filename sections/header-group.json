@@ -49,10 +49,46 @@
             "image_4_title": "",
             "image_4_link": ""
           }
+        },
+        "logo_n4JLTH": {
+          "type": "logo",
+          "settings": {
+            "link_list_1": "",
+            "link_list_2": "",
+            "link_list_3": "",
+            "link_list_4": "",
+            "image_1_title": "",
+            "image_1_link": "",
+            "image_2_title": "",
+            "image_2_link": "",
+            "image_3_title": "",
+            "image_3_link": "",
+            "image_4_title": "",
+            "image_4_link": ""
+          }
+        },
+        "logo_enxnhy": {
+          "type": "logo",
+          "settings": {
+            "link_list_1": "",
+            "link_list_2": "",
+            "link_list_3": "",
+            "link_list_4": "",
+            "image_1_title": "",
+            "image_1_link": "",
+            "image_2_title": "",
+            "image_2_link": "",
+            "image_3_title": "",
+            "image_3_link": "",
+            "image_4_title": "",
+            "image_4_link": ""
+          }
         }
       },
       "block_order": [
-        "logo_z4377w"
+        "logo_z4377w",
+        "logo_n4JLTH",
+        "logo_enxnhy"
       ],
       "settings": {
         "main_menu_link_list": "header",
