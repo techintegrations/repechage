@@ -86,10 +86,11 @@
 
 .header-wrapper .site-nav .custom-grid.grid__item {
     display: none;
+    flex-wrap: wrap;
 }
 
 .header-wrapper .site-nav .custom-grid.grid__item.open {
-    display: block;
+    display: flex;
 }
 
 .collection-item {
