@@ -16,7 +16,7 @@
       assign is_megamenu = false
       if link.links != blank
         assign has_dropdown = true
-        if link.levels > 1
+        if section.blocks.size > 1
           assign is_megamenu = true
         endif
       endif
@@ -53,6 +53,11 @@
             <div class="page-width">
               <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
                 <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
+
+                  {% for block in section.blocks %}
+                  {% endfor %}
+
+                  
                   {%- assign animation_column = animation_column | plus: 1 -%}
 
                   {%- for childlink in link.links -%}
