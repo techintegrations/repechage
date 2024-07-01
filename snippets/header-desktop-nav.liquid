@@ -35,7 +35,16 @@
             aria-controls="site-nav-item--{{ forloop.index }}"
             class="site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}"
           >
-            {{ link.title }} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
+            {{ link.title }}
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              role="presentation"
+              class="icon icon--wide icon-chevron-down"
+              viewBox="0 0 28 16"
+            >
+              <path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/>
+            </svg>
           </summary>
       {% else %}
         <a
@@ -45,261 +54,259 @@
           {{ link.title }}
         </a>
       {% endif %}
-        {%- if is_megamenu -%}
-          {%- assign previous_column_type = '' -%}
-          {%- assign animation_column = 1 -%}
+      {%- if is_megamenu -%}
+        {%- assign previous_column_type = '' -%}
+        {%- assign animation_column = 1 -%}
 
-          <div class="site-nav__dropdown megamenu text-left">
-            <div class="page-width">
-              <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
-
-
-
-
-                
-                {% for block in section.blocks %}
-                  <div class="custom-grid grid__item {{ block.settings.link_handle }}"> 
-
-                  
-                        {% if block.settings.link_list_1 != blank %}
-                          <div class="custom-linklist grid-item">
-                                {% assign menu = linklists[block.settings.link_list_1] %}
-                                <p class="menu__heading h5">
-                                  {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
-                                    {{ menu.title }}
-                                  {% if link_setting != blank %}</a>{% endif %}
-                                </p>
-                                <ul>
-                                  {% for link in menu.links %}
-                                    <li class="menu-link">
-                                      <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
-                                        {{ link.title }}
-                                      </a>
-                                    </li>
-                                  {% endfor %}
-                                </ul>
-                            </div>
-                        {% endif %}
-
-                        {% if block.settings.link_list_2 != blank %}
+        <div class="site-nav__dropdown megamenu text-left">
+          <div class="page-width">
+            <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
+              {% for block in section.blocks %}
+                <div class="custom-grid grid__item {{ block.settings.link_handle }}">
+                  {% if block.settings.link_list_1 != blank %}
                     <div class="custom-linklist grid-item">
-                          {% assign menu = linklists[block.settings.link_list_2] %}
-                          <p class="menu__heading h5">
-                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
-                              {{ menu.title }}
-                            {% if link_setting != blank %}</a>{% endif %}
-                          </p>
-                          <ul>
-                            {% for link in menu.links %}
-                              <li class="menu-link">
-                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
-                                  {{ link.title }}
-                                </a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                      </div>
-                        {% endif %}
+                      {% assign menu = linklists[block.settings.link_list_1] %}
+                      <p class="menu__heading h5">
+                        {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                        {{ menu.title }}
+                        {% if link_setting != blank %}</a>{% endif %}
+                      </p>
+                      <ul>
+                        {% for link in menu.links %}
+                          <li class="menu-link">
+                            <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                              {{ link.title }}
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
 
-
-                        {% if block.settings.link_list_3 != blank %}
+                  {% if block.settings.link_list_2 != blank %}
                     <div class="custom-linklist grid-item">
-                          {% assign menu = linklists[block.settings.link_list_3] %}
-                          <p class="menu__heading h5">
-                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
-                              {{ menu.title }}
-                            {% if link_setting != blank %}</a>{% endif %}
-                          </p>
-                          <ul>
-                            {% for link in menu.links %}
-                              <li class="menu-link">
-                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
-                                  {{ link.title }}
-                                </a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                      </div>
-                        {% endif %}
+                      {% assign menu = linklists[block.settings.link_list_2] %}
+                      <p class="menu__heading h5">
+                        {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                        {{ menu.title }}
+                        {% if link_setting != blank %}</a>{% endif %}
+                      </p>
+                      <ul>
+                        {% for link in menu.links %}
+                          <li class="menu-link">
+                            <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                              {{ link.title }}
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
 
-
-                    {% if block.settings.link_list_4 != blank %}
+                  {% if block.settings.link_list_3 != blank %}
                     <div class="custom-linklist grid-item">
-                          {% assign menu = linklists[block.settings.link_list_4] %}
-                          <p class="menu__heading h5">
-                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
-                              {{ menu.title }}
-                            {% if link_setting != blank %}</a>{% endif %}
-                          </p>
-                          <ul>
-                            {% for link in menu.links %}
-                              <li class="menu-link">
-                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
-                                  {{ link.title }}
-                                </a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                      </div>
-                    {% endif %}
+                      {% assign menu = linklists[block.settings.link_list_3] %}
+                      <p class="menu__heading h5">
+                        {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                        {{ menu.title }}
+                        {% if link_setting != blank %}</a>{% endif %}
+                      </p>
+                      <ul>
+                        {% for link in menu.links %}
+                          <li class="menu-link">
+                            <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                              {{ link.title }}
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
 
+                  {% if block.settings.link_list_4 != blank %}
+                    <div class="custom-linklist grid-item">
+                      {% assign menu = linklists[block.settings.link_list_4] %}
+                      <p class="menu__heading h5">
+                        {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                        {{ menu.title }}
+                        {% if link_setting != blank %}</a>{% endif %}
+                      </p>
+                      <ul>
+                        {% for link in menu.links %}
+                          <li class="menu-link">
+                            <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                              {{ link.title }}
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
 
-                    {% if block.settings.image_1 != blank %}
-                      <div class="custom-image image-1 grid-item">
-                          <p class="image__heading h5">
-                            {{ block.settings.image_1_top_heading }}
-                          </p>
-                        <a href="{{ block.settings.image_1_link }}">
-                          <div class="image">
-                            <img src="{{ block.settings.image_1 | img_url: '400x' }}">
-                          </div>
-                          <p class="image-title">{{ block.settings.image_1_title }}</p>
-                        </a>
-                      </div>
-                    {% endif %}
+                  {% if block.settings.image_1 != blank %}
+                    <div class="custom-image image-1 grid-item">
+                      <p class="image__heading h5">
+                        {{ block.settings.image_1_top_heading }}
+                      </p>
+                      <a href="{{ block.settings.image_1_link }}">
+                        <div class="image">
+                          <img src="{{ block.settings.image_1 | img_url: '400x' }}">
+                        </div>
+                        <p class="image-title">{{ block.settings.image_1_title }}</p>
+                      </a>
+                    </div>
+                  {% endif %}
 
-                    {% if block.settings.image_2 != blank %}
-                      <div class="custom-image image-2 grid-item">
-                          <p class="image__heading h5">
-                            {{ block.settings.image_2_top_heading }}
-                          </p>
-                          <a href="{{ block.settings.image_2_link }}">
-                            <div class="image">
-                              <img src="{{ block.settings.image_2 | img_url: '400x' }}">
-                            </div>
-                            <p class="image-title">{{ block.settings.image_2_title }}</p>
-                          </a>
-                      </div>
-                    {% endif %}
+                  {% if block.settings.image_2 != blank %}
+                    <div class="custom-image image-2 grid-item">
+                      <p class="image__heading h5">
+                        {{ block.settings.image_2_top_heading }}
+                      </p>
+                      <a href="{{ block.settings.image_2_link }}">
+                        <div class="image">
+                          <img src="{{ block.settings.image_2 | img_url: '400x' }}">
+                        </div>
+                        <p class="image-title">{{ block.settings.image_2_title }}</p>
+                      </a>
+                    </div>
+                  {% endif %}
 
-                    {% if block.settings.image_3 != blank %}
-                      <div class="custom-image image-3 grid-item">
-                          <p class="image__heading h5">
-                            {{ block.settings.image_3_top_heading }}
-                          </p>
-                          <a href="{{ block.settings.image_3_link }}">
-                            <div class="image">
-                              <img src="{{ block.settings.image_3 | img_url: '400x' }}">
-                            </div>
-                            <p class="image-title">{{ block.settings.image_3_title }}</p>
-                          </a>
-                      </div>
-                    {% endif %}
+                  {% if block.settings.image_3 != blank %}
+                    <div class="custom-image image-3 grid-item">
+                      <p class="image__heading h5">
+                        {{ block.settings.image_3_top_heading }}
+                      </p>
+                      <a href="{{ block.settings.image_3_link }}">
+                        <div class="image">
+                          <img src="{{ block.settings.image_3 | img_url: '400x' }}">
+                        </div>
+                        <p class="image-title">{{ block.settings.image_3_title }}</p>
+                      </a>
+                    </div>
+                  {% endif %}
 
-                    {% if block.settings.image_4 != blank %}
-                      <div class="custom-image image-4 grid-item">
-                          <p class="image__heading h5">
-                            {{ block.settings.image_4_top_heading }}
-                          </p>
-                          <a href="{{ block.settings.image_4_link }}">
-                            <div class="image">
-                              <img src="{{ block.settings.image_4 | img_url: '400x' }}">
-                            </div>
-                            <p class="image-title">{{ block.settings.image_4_title }}</p>
-                          </a>
-                      </div>
-                    {% endif %}
-                    
-                  </div>
-                {% endfor %}
+                  {% if block.settings.image_4 != blank %}
+                    <div class="custom-image image-4 grid-item">
+                      <p class="image__heading h5">
+                        {{ block.settings.image_4_top_heading }}
+                      </p>
+                      <a href="{{ block.settings.image_4_link }}">
+                        <div class="image">
+                          <img src="{{ block.settings.image_4 | img_url: '400x' }}">
+                        </div>
+                        <p class="image-title">{{ block.settings.image_4_title }}</p>
+                      </a>
+                    </div>
+                  {% endif %}
+                </div>
+              {% endfor %}
 
+              <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
+                {%- assign animation_column = animation_column | plus: 1 -%}
 
+                {%- for childlink in link.links -%}
+                  {%- liquid
+                    assign create_new_column = false
 
+                    if childlink.levels > 0 and forloop.index != 1
+                      assign create_new_column = true
+                    endif
 
+                    if childlink.levels == 0 and previous_column_type == 'full'
+                      assign create_new_column = true
+                    endif
+                  -%}
 
-                
-
-                
-                <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
-                  {%- assign animation_column = animation_column | plus: 1 -%}
-
-                  {%- for childlink in link.links -%}
-                    {%- liquid
-                      assign create_new_column = false
-
-                      if childlink.levels > 0 and forloop.index != 1
-                        assign create_new_column = true
-                      endif
-
-                      if childlink.levels == 0 and previous_column_type == 'full'
-                        assign create_new_column = true
-                      endif
-                    -%}
-
-                    {%- if create_new_column -%}
-                      </div><div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
+                  {%- if create_new_column -%}
+                    </div>
+                    <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
                       {%- assign animation_column = animation_column | plus: 1 -%}
-                    {%- endif -%}
+                  {%- endif -%}
 
-                    {%- if childlink.levels > 0 and childlink.url contains '/collections/' -%}
-                      {%- if collections[childlink.object.handle].image != blank and section.settings.mega_menu_images -%}
-                        <a href="{{ childlink.url }}">
-                          <div class="svg-mask svg-mask--landscape">
+                  {%- if childlink.levels > 0 and childlink.url contains '/collections/' -%}
+                    {%- if collections[childlink.object.handle].image != blank and section.settings.mega_menu_images -%}
+                      <a href="{{ childlink.url }}">
+                        <div class="svg-mask svg-mask--landscape">
                           {%- render 'image-element',
                             img: collections[childlink.object.handle].image,
                             sizeVariable: '20vw',
                             alt: collections[childlink.object.handle].title,
-                            classes: 'megamenu__collection-image',
+                            classes: 'megamenu__collection-image'
                           -%}
-                          </div>
-                        </a>
-                      {%- endif -%}
+                        </div>
+                      </a>
                     {%- endif -%}
+                  {%- endif -%}
 
-                    <div class="h5">
-                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                  <div class="h5">
+                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">
+                      {{- childlink.title -}}
+                    </a>
+                  </div>
+
+                  {%- liquid
+                    if childlink.levels > 0
+                      assign previous_column_type = 'full'
+                    else
+                      assign previous_column_type = 'single'
+                    endif
+                  -%}
+
+                  {%- for grandchildlink in childlink.links -%}
+                    <div>
+                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
+                        {{ grandchildlink.title }}
+                      </a>
                     </div>
-
-                    {%- liquid
-                      if childlink.levels > 0
-                        assign previous_column_type = 'full'
-                      else
-                        assign previous_column_type = 'single'
-                      endif
-                    -%}
-
-                    {%- for grandchildlink in childlink.links -%}
-                      <div>
-                        <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
-                          {{grandchildlink.title}}
-                        </a>
-                      </div>
-                    {%- endfor -%}
                   {%- endfor -%}
-                </div>
+                {%- endfor -%}
               </div>
             </div>
           </div>
-        {%- elsif has_dropdown -%}
-          <ul class="site-nav__dropdown text-left">
-            {%- for childlink in link.links -%}
-              {%- liquid
-                assign has_sub_dropdown = false
-                if childlink.links != blank
-                  assign has_sub_dropdown = true
-                endif
-              -%}
+        </div>
+      {%- elsif has_dropdown -%}
+        <ul class="site-nav__dropdown text-left">
+          {%- for childlink in link.links -%}
+            {%- liquid
+              assign has_sub_dropdown = false
+              if childlink.links != blank
+                assign has_sub_dropdown = true
+              endif
+            -%}
 
-              <li class="{% if has_sub_dropdown %} site-nav__deep-dropdown-trigger{% endif %}">
-                <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--second-level{% if has_sub_dropdown %} site-nav__dropdown-link--has-children{% endif %}">
-                  {{ childlink.title | escape }}
-                  {%- if has_sub_dropdown -%}
-                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
-                  {%- endif -%}
-                </a>
+            <li class="{% if has_sub_dropdown %} site-nav__deep-dropdown-trigger{% endif %}">
+              <a
+                href="{{ childlink.url }}"
+                class="site-nav__dropdown-link site-nav__dropdown-link--second-level{% if has_sub_dropdown %} site-nav__dropdown-link--has-children{% endif %}"
+              >
+                {{ childlink.title | escape }}
                 {%- if has_sub_dropdown -%}
-                  <ul class="site-nav__deep-dropdown">
-                    {%- for grandchildlink in childlink.links -%}
-                      <li>
-                        <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">{{ grandchildlink.title | escape }}</a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    role="presentation"
+                    class="icon icon--wide icon-chevron-down"
+                    viewBox="0 0 28 16"
+                  >
+                    <path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/>
+                  </svg>
                 {%- endif -%}
-              </li>
-            {%- endfor -%}
-          </ul>
-        {%- endif -%}
+              </a>
+              {%- if has_sub_dropdown -%}
+                <ul class="site-nav__deep-dropdown">
+                  {%- for grandchildlink in childlink.links -%}
+                    <li>
+                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
+                        {{- grandchildlink.title | escape -}}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
       {% if is_megamenu or has_dropdown %}
         </details>
       {% endif %}
