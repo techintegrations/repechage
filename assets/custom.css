@@ -713,6 +713,17 @@
     margin-left: 20px;
 }
 
+.image-slider-with-text .custom-arrows .slick-arrow svg {
+    height: 12px;
+    width: 12px;
+    stroke: #fff;
+}
+
+.image-slider-with-text .custom-arrows .slick-arrow .icon {
+    width: auto;
+    height: auto;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
