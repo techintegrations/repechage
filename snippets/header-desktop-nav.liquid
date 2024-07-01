@@ -62,7 +62,7 @@
                     
                     <div class="custom-linklist">
                         {% if menu_link != blank %}
-                          {% assign menu = linklists[secttion.settings.link_list_1] %}
+                          {% assign menu = linklists[section.settings.link_list_1] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
@@ -85,31 +85,7 @@
 
                     <div class="custom-linklist">
                         {% if menu_link != blank %}
-                          {% assign menu = linklists[secttion.settings.link_list_2] %}
-                          <p class="footer__heading">
-                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
-                              {{ menu.title }}
-                            {% if link_setting != blank %}</a>{% endif %}
-                          </p>
-                          <ul>
-                            {% for link in menu.links %}
-                              <li class="footer__menu-link">
-                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
-                                  {{ link.title }}
-                                </a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                        {% else %}
-                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
-                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
-                        {% endif %}
-                      </div>
-
-
-                    <div class="custom-linklist">
-                        {% if menu_link != blank %}
-                          {% assign menu = linklists[secttion.settings.link_list_3] %}
+                          {% assign menu = linklists[section.settings.link_list_2] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
@@ -133,7 +109,7 @@
 
                     <div class="custom-linklist">
                         {% if menu_link != blank %}
-                          {% assign menu = linklists[secttion.settings.link_list_4] %}
+                          {% assign menu = linklists[section.settings.link_list_3] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
@@ -155,21 +131,53 @@
                       </div>
 
 
-                    <div class="custom-image">
-                        <img src="{{ secttion.settings.link_list_1 | img_url: 'master' }}">
-                    </div>
+                    <div class="custom-linklist">
+                        {% if menu_link != blank %}
+                          {% assign menu = linklists[section.settings.link_list_4] %}
+                          <p class="footer__heading">
+                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                              {{ menu.title }}
+                            {% if link_setting != blank %}</a>{% endif %}
+                          </p>
+                          <ul>
+                            {% for link in menu.links %}
+                              <li class="footer__menu-link">
+                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                                  {{ link.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
+                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
+                        {% endif %}
+                      </div>
 
-                    <div class="custom-image">
-                        <img src="{{ secttion.settings.link_list_2 | img_url: 'master' }}">
-                    </div>
 
-                    <div class="custom-image">
-                        <img src="{{ secttion.settings.link_list_3 | img_url: 'master' }}">
-                    </div>
+                    {% if section.settings.link_list_1 != blank %}
+                      <div class="custom-image">
+                          <img src="{{ section.settings.link_list_1 | img_url: 'master' }}">
+                      </div>
+                    {% endif %}
 
-                    <div class="custom-image">
-                        <img src="{{ secttion.settings.link_list_3 | img_url: 'master' }}">
-                    </div>
+                    {% if section.settings.link_list_2 != blank %}
+                      <div class="custom-image">
+                          <img src="{{ section.settings.link_list_2 | img_url: 'master' }}">
+                      </div>
+                    {% endif %}
+
+                    {% if section.settings.link_list_3 != blank %}
+                      <div class="custom-image">
+                          <img src="{{ section.settings.link_list_3 | img_url: 'master' }}">
+                      </div>
+                    {% endif %}
+
+                    {% if section.settings.link_list_4 != blank %}
+                      <div class="custom-image">
+                          <img src="{{ section.settings.link_list_4 | img_url: 'master' }}">
+                      </div>
+                    {% endif %}
                     
                   </div>
                 {% endfor %}
