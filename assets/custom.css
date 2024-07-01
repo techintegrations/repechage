@@ -97,6 +97,10 @@
     flex: 0 0 20%;
 }
 
+.custom-linklist ul {
+    margin: 0px;
+}
+
 .collection-item {
     border-radius: 8px;
 }
