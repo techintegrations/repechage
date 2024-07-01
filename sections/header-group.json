@@ -36,6 +36,7 @@
         "logo_z4377w": {
           "type": "logo",
           "settings": {
+            "link_handle": "shop",
             "link_list_1": "",
             "link_list_2": "",
             "link_list_3": "",
@@ -53,6 +54,7 @@
         "logo_n4JLTH": {
           "type": "logo",
           "settings": {
+            "link_handle": "",
             "link_list_1": "",
             "link_list_2": "",
             "link_list_3": "",
@@ -70,6 +72,7 @@
         "logo_enxnhy": {
           "type": "logo",
           "settings": {
+            "link_handle": "",
             "link_list_1": "",
             "link_list_2": "",
             "link_list_3": "",
