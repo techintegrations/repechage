@@ -53,10 +53,43 @@
             <div class="page-width">
               <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
 
+
+
+
+                
                 {% for block in section.blocks %}
                   <div class="custom-grid">
+                    
+                    <div class="custom-linklist">
+                        {% if menu_link != blank %}
+                          {% assign menu = linklists[menu_link] %}
+                          <p class="footer__heading">
+                            {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
+                              {{ menu.title }}
+                            {% if link_setting != blank %}</a>{% endif %}
+                          </p>
+                          <ul>
+                            {% for link in menu.links %}
+                              <li class="footer__menu-link">
+                                <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
+                                  {{ link.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          <p class="footer__heading">{{ 'homepage.onboarding.menu_title' | t }}</p>
+                          <p>{{ 'homepage.onboarding.no_content' | t }}</p>
+                        {% endif %}
+                      </div>
                   </div>
                 {% endfor %}
+
+
+
+
+
+                
 
                 
                 <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
