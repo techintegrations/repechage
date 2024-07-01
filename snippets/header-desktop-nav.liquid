@@ -22,7 +22,7 @@
       endif
     -%}
 
-    <li class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
+    <li class="{{ link.title }} site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
       {% if is_megamenu or has_dropdown %}
         <details
           data-hover="{{ hover_menu }}"
