@@ -64,14 +64,14 @@
                         {% if block.settings.link_list_1 != blank %}
                           <div class="custom-linklist grid-item">
                                 {% assign menu = linklists[block.settings.link_list_1] %}
-                                <p class="footer__heading">
+                                <p class="menu__heading">
                                   {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                                     {{ menu.title }}
                                   {% if link_setting != blank %}</a>{% endif %}
                                 </p>
                                 <ul>
                                   {% for link in menu.links %}
-                                    <li class="footer__menu-link">
+                                    <li class="menu-link">
                                       <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
                                         {{ link.title }}
                                       </a>
@@ -84,14 +84,14 @@
                         {% if block.settings.link_list_2 != blank %}
                     <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_2] %}
-                          <p class="footer__heading">
+                          <p class="menu__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
                             {% if link_setting != blank %}</a>{% endif %}
                           </p>
                           <ul>
                             {% for link in menu.links %}
-                              <li class="footer__menu-link">
+                              <li class="menu-link">
                                 <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
                                   {{ link.title }}
                                 </a>
@@ -105,14 +105,14 @@
                         {% if block.settings.link_list_3 != blank %}
                     <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_3] %}
-                          <p class="footer__heading">
+                          <p class="menu__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
                             {% if link_setting != blank %}</a>{% endif %}
                           </p>
                           <ul>
                             {% for link in menu.links %}
-                              <li class="footer__menu-link">
+                              <li class="menu-link">
                                 <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
                                   {{ link.title }}
                                 </a>
@@ -126,14 +126,14 @@
                     {% if block.settings.link_list_4 != blank %}
                     <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_4] %}
-                          <p class="footer__heading">
+                          <p class="menu__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
                             {% if link_setting != blank %}</a>{% endif %}
                           </p>
                           <ul>
                             {% for link in menu.links %}
-                              <li class="footer__menu-link">
+                              <li class="menu-link">
                                 <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
                                   {{ link.title }}
                                 </a>
