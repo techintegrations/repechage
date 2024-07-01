@@ -272,6 +272,42 @@
     },
     {
       "type": "header",
+      "content": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:sections.header.blocks.logo.settings.logo.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo-inverted",
+      "label": "t:sections.header.blocks.logo.settings.logo-inverted.label",
+      "info": "t:sections.header.blocks.logo.settings.logo-inverted.info"
+    },
+    {
+      "type": "range",
+      "id": "desktop_logo_width",
+      "label": "t:sections.header.blocks.logo.settings.desktop_logo_width.label",
+      "default": 200,
+      "min": 100,
+      "max": 400,
+      "step": 10,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_logo_width",
+      "label": "t:sections.header.blocks.logo.settings.mobile_logo_width.label",
+      "default": 140,
+      "min": 60,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "info": "t:sections.header.blocks.logo.settings.mobile_logo_width.info"
+    },
+    {
+      "type": "header",
       "content": "t:sections.header.settings.header_toolbar"
     },
     {
@@ -320,38 +356,7 @@
       "name": "t:sections.header.blocks.logo.name",
       "limit": 1,
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "logo",
-          "label": "t:sections.header.blocks.logo.settings.logo.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "logo-inverted",
-          "label": "t:sections.header.blocks.logo.settings.logo-inverted.label",
-          "info": "t:sections.header.blocks.logo.settings.logo-inverted.info"
-        },
-        {
-          "type": "range",
-          "id": "desktop_logo_width",
-          "label": "t:sections.header.blocks.logo.settings.desktop_logo_width.label",
-          "default": 200,
-          "min": 100,
-          "max": 400,
-          "step": 10,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "mobile_logo_width",
-          "label": "t:sections.header.blocks.logo.settings.mobile_logo_width.label",
-          "default": 140,
-          "min": 60,
-          "max": 200,
-          "step": 10,
-          "unit": "px",
-          "info": "t:sections.header.blocks.logo.settings.mobile_logo_width.info"
-        }
+        
       ]
     },
     {
