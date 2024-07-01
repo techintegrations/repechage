@@ -216,45 +216,7 @@
                 </div>
               {% endfor %}
 
-              <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
-                {%- assign animation_column = animation_column | plus: 1 -%}
-
-                {%- for childlink in link.links -%}
-                  {%- liquid
-                    assign create_new_column = false
-
-                    if childlink.levels > 0 and forloop.index != 1
-                      assign create_new_column = true
-                    endif
-
-                    if childlink.levels == 0 and previous_column_type == 'full'
-                      assign create_new_column = true
-                    endif
-                  -%}
-
-                  {%- if create_new_column -%}
-                    </div>
-                    <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
-                      {%- assign animation_column = animation_column | plus: 1 -%}
-                  {%- endif -%}
-
-                  {%- if childlink.levels > 0 and childlink.url contains '/collections/' -%}
-                    {%- if collections[childlink.object.handle].image != blank and section.settings.mega_menu_images -%}
-                      <a href="{{ childlink.url }}">
-                        <div class="svg-mask svg-mask--landscape">
-                          {%- render 'image-element',
-                            img: collections[childlink.object.handle].image,
-                            sizeVariable: '20vw',
-                            alt: collections[childlink.object.handle].title,
-                            classes: 'megamenu__collection-image'
-                          -%}
-                        </div>
-                      </a>
-                    {%- endif -%}
-                  {%- endif -%}
- 
-                {%- endfor -%}
-              </div>
+              
             </div>
           </div>
         </div>
