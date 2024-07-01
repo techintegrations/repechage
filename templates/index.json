@@ -257,6 +257,22 @@
             "title": "",
             "text": ""
           }
+        },
+        "text_block_EBHx4L": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_WfVeED": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
@@ -264,7 +280,9 @@
         "text_block_frN9HT",
         "text_block_wDJdWR",
         "text_block_33LTrN",
-        "text_block_UFc3fT"
+        "text_block_UFc3fT",
+        "text_block_EBHx4L",
+        "text_block_WfVeED"
       ],
       "settings": {
         "title": "in the press",
