@@ -64,14 +64,14 @@
                         {% if block.settings.link_list_1 != blank %}
                           <div class="custom-linklist grid-item">
                                 {% assign menu = linklists[block.settings.link_list_1] %}
-                                <p class="menu__heading">
+                                <p class="menu__heading h5">
                                   {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                                     {{ menu.title }}
                                   {% if link_setting != blank %}</a>{% endif %}
                                 </p>
                                 <ul>
                                   {% for link in menu.links %}
-                                    <li class="menu-link">
+                                    <li class="menu-link h5">
                                       <a href="{{ link.url }}" class="{% if link.active %}is-active{% endif %}">
                                         {{ link.title }}
                                       </a>
@@ -84,7 +84,7 @@
                         {% if block.settings.link_list_2 != blank %}
                     <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_2] %}
-                          <p class="menu__heading">
+                          <p class="menu__heading h5">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
                             {% if link_setting != blank %}</a>{% endif %}
@@ -105,7 +105,7 @@
                         {% if block.settings.link_list_3 != blank %}
                     <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_3] %}
-                          <p class="menu__heading">
+                          <p class="menu__heading h5">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
                             {% if link_setting != blank %}</a>{% endif %}
@@ -126,7 +126,7 @@
                     {% if block.settings.link_list_4 != blank %}
                     <div class="custom-linklist grid-item">
                           {% assign menu = linklists[block.settings.link_list_4] %}
-                          <p class="menu__heading">
+                          <p class="menu__heading h5">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
                             {% if link_setting != blank %}</a>{% endif %}
@@ -146,7 +146,7 @@
 
                     {% if block.settings.image_1 != blank %}
                       <div class="custom-image image-1 grid-item">
-                          <p class="image__heading">
+                          <p class="image__heading h5">
                             {{ block.settings.image_1_top_heading }}
                           </p>
                         <a href="{{ block.settings.image_1_link }}">
@@ -160,7 +160,7 @@
 
                     {% if block.settings.image_2 != blank %}
                       <div class="custom-image image-2 grid-item">
-                          <p class="image__heading">
+                          <p class="image__heading h5">
                             {{ block.settings.image_2_top_heading }}
                           </p>
                           <a href="{{ block.settings.image_2_link }}">
@@ -174,7 +174,7 @@
 
                     {% if block.settings.image_3 != blank %}
                       <div class="custom-image image-3 grid-item">
-                          <p class="image__heading">
+                          <p class="image__heading h5">
                             {{ block.settings.image_3_top_heading }}
                           </p>
                           <a href="{{ block.settings.image_3_link }}">
@@ -188,7 +188,7 @@
 
                     {% if block.settings.image_4 != blank %}
                       <div class="custom-image image-4 grid-item">
-                          <p class="image__heading">
+                          <p class="image__heading h5">
                             {{ block.settings.image_4_top_heading }}
                           </p>
                           <a href="{{ block.settings.image_4_link }}">
