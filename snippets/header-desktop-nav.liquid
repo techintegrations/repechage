@@ -22,7 +22,7 @@
       endif
     -%}
 
-    <li class="site-nav__item site-nav__expanded-item {{ link.levels }} {% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
+    <li class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
       {% if is_megamenu or has_dropdown %}
         <details
           data-hover="{{ hover_menu }}"
@@ -88,17 +88,9 @@
                       {%- endif -%}
                     {%- endif -%}
 
-                    {%- assign hideTitle = childlink.title | split: '#' -%}
-
-                        {%- if hideTitle[1] == "hide" -%}
-                    <div class="h5 title-hide">
-                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ hideTitle[0]  }}</a>
+                    <div class="h5">
+                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
                     </div>
-                        {% else %}
-                          <div class="h5">
-                            <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
-                          </div>
-                        {% endif %}
 
                     {%- liquid
                       if childlink.levels > 0
@@ -109,40 +101,10 @@
                     -%}
 
                     {%- for grandchildlink in childlink.links -%}
-
-                      {%- assign isInfo = grandchildlink.title | split: '#' -%}
-
                       <div>
-                      {%- if isInfo[1] == "product" -%}
-
-                        {% assign fproduct = all_products[isInfo[0]] %}
-
-                          <div class="megamenu-product">
-                            <a href="{{ fproduct.url }}">
-                              <div class="img">
-                                <img src="{{ fproduct.featured_image | img_url: 'master' }}">
-                              </div>
-                              <p>{{ fproduct.title }}</p>
-                            </a>
-                          </div>
-                        
-                        {%- elsif isInfo[0] contains ".png" or isInfo[0] contains ".jpg" -%}
-
-                        <div class="megamenu-image">
-                          <a href="{{ grandchildlink.url }}">
-                            <div class="image">
-                              <img src="{{ isInfo[0] | replace: ' ', '_' | strip | file_url }}" alt="{{ isInfo[0] }}">
-                            </div>
-                            <p>{{ isInfo[1] }}</p>
-                          </a>
-                        </div>
-                        
-                        {% else %}
-                      
                         <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
                           {{grandchildlink.title}}
                         </a>
-                        {% endif %}
                       </div>
                     {%- endfor -%}
                   {%- endfor -%}
