@@ -22,7 +22,7 @@ $(document).ready(function () {
   });
 
   const flickitySlider1 = new Flickity(".text-with-logos-slider", {
-      cellAlign: "left",
+      cellAlign: "center",
       contain: true,
       prevNextButtons: true,
       pageDots: true,
