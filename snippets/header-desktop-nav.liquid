@@ -7,16 +7,31 @@
   endunless
 -%}
 
+
+
+
 <ul
   class="site-nav site-navigation small--hide"
 >
   {%- for link in main_menu.links limit: limit offset: offset -%}
+
+
+    {% assign has_handle = false %}
+      {% assign link_handle = link.title | handle %}
+      {% for block in section.blocks %}
+        {% if block.settings.link_handle == link_handle %}
+          {% assign has_handle = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+    
     {%- liquid
       assign has_dropdown = false
       assign is_megamenu = false
       if link.links != blank
         assign has_dropdown = true
-        if section.blocks.size > 0
+        if section.blocks.size > 0 and has_handle
           assign is_megamenu = true
         endif
       endif
