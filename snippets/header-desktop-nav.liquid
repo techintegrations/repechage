@@ -62,7 +62,7 @@
                     
                     <div class="custom-linklist">
                         {% if menu_link != blank %}
-                          {% assign menu = linklists[menu_link] %}
+                          {% assign menu = linklists[secttion.settings.link_list_1] %}
                           <p class="footer__heading">
                             {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
                               {{ menu.title }}
