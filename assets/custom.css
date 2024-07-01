@@ -84,11 +84,11 @@
 
 
 
-.site-nav .custom-grid.grid__item {
+.header-wrapper .site-nav .custom-grid.grid__item {
     display: none;
 }
 
-.site-nav .custom-grid.grid__item.open {
+.header-wrapper .site-nav .custom-grid.grid__item.open {
     display: block;
 }
 
