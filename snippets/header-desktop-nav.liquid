@@ -252,28 +252,7 @@
                       </a>
                     {%- endif -%}
                   {%- endif -%}
-
-                  <div class="h5">
-                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">
-                      {{- childlink.title -}}
-                    </a>
-                  </div>
-
-                  {%- liquid
-                    if childlink.levels > 0
-                      assign previous_column_type = 'full'
-                    else
-                      assign previous_column_type = 'single'
-                    endif
-                  -%}
-
-                  {%- for grandchildlink in childlink.links -%}
-                    <div>
-                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
-                        {{ grandchildlink.title }}
-                      </a>
-                    </div>
-                  {%- endfor -%}
+ 
                 {%- endfor -%}
               </div>
             </div>
