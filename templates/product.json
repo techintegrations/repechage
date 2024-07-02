@@ -34,12 +34,6 @@
           "settings": {
           }
         },
-        "recharge_subscriptions_subscription_widget_H67F3t": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -54,6 +48,12 @@
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
+          }
+        },
+        "recharge_subscriptions_subscription_widget_H67F3t": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "quantity_selector_HQMt8q": {
@@ -111,9 +111,9 @@
         "price",
         "richtext_EpXmjL",
         "separator",
-        "recharge_subscriptions_subscription_widget_H67F3t",
         "variant_picker",
         "inventory_status",
+        "recharge_subscriptions_subscription_widget_H67F3t",
         "quantity_selector_HQMt8q",
         "buy_buttons",
         "share",
