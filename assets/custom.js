@@ -44,7 +44,7 @@ $(document).ready(function () {
   const flickitySlider3 = new Flickity(".product-list-block_slider", {
       cellAlign: "left",
       contain: true,
-      prevNextButtons: false,
+      prevNextButtons: true,
       pageDots: true,
       freeScroll: false,
       avoidReflow: true,
