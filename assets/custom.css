@@ -812,6 +812,19 @@
     justify-content: center;
 }
 
+.product-list-block_slider .flickity-button {
+    width: 32px;
+    height: 32px;
+}
+
+.product-list-block_slider .flickity-button.flickity-next {
+    right: -10px;
+}
+
+.product-list-block_slider .flickity-button.flickity-previous {
+    left: -10px;
+}
+
 
 @media only screen and (min-width: 769px) {
 
