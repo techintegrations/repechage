@@ -757,7 +757,8 @@
     font-family: var(--typeBasePrimary),var(--typeBaseFallback);
 }
 
-.yotpo-horizontal-pagination .selected, .yotpo-horizontal-pagination .yotpo-pagination-number:hover {
+.yotpo-horizontal-pagination .selected, 
+.yotpo-horizontal-pagination .yotpo-pagination-number:hover {
     background-color: transparent !important;
     color: #000 !important;
     opacity: .3;
@@ -775,6 +776,20 @@
     font-size: 18px !important;
     padding: 8px 20px !important;
 }
+
+.yotpo .text-m {
+    color: #000 !important;
+    font-family: var(--typeBasePrimary), var(--typeBaseFallback) !important;
+}
+
+.yotpo .text-m:hover {
+    color: #000 !important;
+}
+
+#shopify-block-yotpo_product_reviews_ugc_star_rating_pBPBWG {
+    margin-bottom: 20px;
+}
+
 
 @media only screen and (min-width: 769px) {
 
