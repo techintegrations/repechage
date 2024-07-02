@@ -215,90 +215,6 @@
         "padding_bottom_m": 40
       }
     },
-    "custom_text_with_logos_VBrHLU": {
-      "type": "custom__text-with-logos",
-      "blocks": {
-        "text_block_EdJXpk": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/cosmo-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_frN9HT": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_wDJdWR": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/marie-logo.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_33LTrN": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_UFc3fT": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_EBHx4L": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_WfVeED": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_EdJXpk",
-        "text_block_frN9HT",
-        "text_block_wDJdWR",
-        "text_block_33LTrN",
-        "text_block_UFc3fT",
-        "text_block_EBHx4L",
-        "text_block_WfVeED"
-      ],
-      "settings": {
-        "title": "in the press",
-        "align_text": "center",
-        "title_color": "",
-        "desktop_columns_per_row": 4,
-        "block_title_color": "",
-        "block_text_color": "",
-        "bg_color": "#f9f9f9",
-        "padding_top": 60,
-        "padding_bottom": 80,
-        "padding_top_m": 50,
-        "padding_bottom_m": 70,
-        "divider": false
-      }
-    },
     "featured_collection_U6DUhq": {
       "type": "featured-collection",
       "settings": {
@@ -498,6 +414,44 @@
         "lazyload_images": true
       }
     },
+    "newsletter_kJLxhd": {
+      "type": "newsletter",
+      "blocks": {
+        "title_kQY4Jz": {
+          "type": "title",
+          "settings": {
+            "title": "TAKE 10% OFF YOUR FIRST ORDER",
+            "heading_size": "h2"
+          }
+        },
+        "text_wiiHG4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up to our mailing list and get access to exclusive offers.<\/p>"
+          }
+        },
+        "form_rTbMBQ": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title_kQY4Jz",
+        "text_wiiHG4",
+        "form_rTbMBQ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#b1e4e3",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
     "text_and_image_T3jnem": {
       "type": "text-and-image",
       "disabled": true,
@@ -640,26 +594,6 @@
         "divider": false
       }
     },
-    "blog_posts_AkwbrY": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "Beauty Seacrets Blog",
-        "blog": "news",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": false,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": false,
-        "blog_image_size": "landscape",
-        "divider": false,
-        "bg_color": "",
-        "padding_top": 70,
-        "padding_bottom": 20,
-        "padding_top_m": 55,
-        "padding_bottom_m": 30
-      }
-    },
     "testimonials_WQarYp": {
       "type": "testimonials",
       "blocks": {
@@ -728,42 +662,90 @@
         "padding_bottom_m": 60
       }
     },
-    "newsletter_kJLxhd": {
-      "type": "newsletter",
+    "blog_posts_AkwbrY": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Beauty Seacrets Blog",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "blog_image_size": "landscape",
+        "divider": false,
+        "bg_color": "",
+        "padding_top": 70,
+        "padding_bottom": 20,
+        "padding_top_m": 55,
+        "padding_bottom_m": 30
+      }
+    },
+    "custom_text_with_logos_VBrHLU": {
+      "type": "custom__text-with-logos",
       "blocks": {
-        "title_kQY4Jz": {
-          "type": "title",
+        "text_block_EdJXpk": {
+          "type": "text_block",
           "settings": {
-            "title": "TAKE 10% OFF YOUR FIRST ORDER",
-            "heading_size": "h2"
+            "logo": "shopify:\/\/shop_images\/cosmo-logo-2.png",
+            "title": "",
+            "text": ""
           }
         },
-        "text_wiiHG4": {
-          "type": "text",
+        "text_block_frN9HT": {
+          "type": "text_block",
           "settings": {
-            "text": "<p>Sign up to our mailing list and get access to exclusive offers.<\/p>"
+            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
+            "title": "",
+            "text": ""
           }
         },
-        "form_rTbMBQ": {
-          "type": "form",
+        "text_block_wDJdWR": {
+          "type": "text_block",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/marie-logo.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_33LTrN": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_UFc3fT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "title_kQY4Jz",
-        "text_wiiHG4",
-        "form_rTbMBQ"
+        "text_block_EdJXpk",
+        "text_block_frN9HT",
+        "text_block_wDJdWR",
+        "text_block_33LTrN",
+        "text_block_UFc3fT"
       ],
       "settings": {
+        "title": "in the press",
         "align_text": "center",
-        "image_width": "33",
-        "image_mask": "none",
-        "image_position": "right",
-        "color_background": "#b1e4e3",
-        "color_text": "#1c1d1d",
-        "top_padding": true,
-        "bottom_padding": true
+        "title_color": "",
+        "desktop_columns_per_row": 4,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "padding_top_m": 50,
+        "padding_bottom_m": 70,
+        "divider": false
       }
     }
   },
@@ -771,16 +753,16 @@
     "slideshow_ybDcnc",
     "custom_featured_collection_tabs_PaGxFn",
     "featured_collections_xaap9R",
-    "custom_text_with_logos_VBrHLU",
     "featured_collection_U6DUhq",
     "text_and_image_hPkL8i",
     "custom_image_slider_with_text_gBLLcE",
     "promo_grid_q7xmp6",
+    "newsletter_kJLxhd",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
     "text_with_icons_dTrr3R",
-    "blog_posts_AkwbrY",
     "testimonials_WQarYp",
-    "newsletter_kJLxhd"
+    "blog_posts_AkwbrY",
+    "custom_text_with_logos_VBrHLU"
   ]
 }
