@@ -767,10 +767,13 @@
     display: none;
 }
 
-button#yotpo-reviews-basic-btn {
+.yotpo-new-review-btn-wrapper .yotpo-new-review-btn {
     background: var(--colorBtnPrimary) !important;
-    font-family: var(--typeBasePrimary),var(--typeBaseFallback) !important;
-    font-weight: normal !important;
+    font-family: var(--typeBasePrimary), var(--typeBaseFallback) !important;
+    font-weight: 400 !important;
+    border-radius: 0px !important;
+    font-size: 18px !important;
+    padding: 8px 20px !important;
 }
 
 @media only screen and (min-width: 769px) {
