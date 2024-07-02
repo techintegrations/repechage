@@ -758,8 +758,8 @@
 }
 
 .yotpo-horizontal-pagination .selected, .yotpo-horizontal-pagination .yotpo-pagination-number:hover {
-    background-color: transparent;
-    color: #000;
+    background-color: transparent !important;
+    color: #000 !important;
     opacity: .3;
 }
 
