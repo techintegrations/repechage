@@ -803,6 +803,15 @@
     margin-bottom: 20px;
 }
 
+.grid-product__meta #prod-info-yot {
+    margin: 10px 0px;
+}
+
+#prod-info-yot .yotpo-display-wrapper .yotpo-bottomline {
+    float: none !important;
+    justify-content: center;
+}
+
 
 @media only screen and (min-width: 769px) {
 
