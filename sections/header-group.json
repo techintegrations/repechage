@@ -37,7 +37,7 @@
           "type": "logo",
           "settings": {
             "link_handle": "shop",
-            "link_list_1": "by-collection",
+            "link_list_1": "shop-by-collection",
             "link_list_2": "by-category",
             "link_list_3": "by-ingredients",
             "link_list_4": "",
