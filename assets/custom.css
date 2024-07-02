@@ -730,7 +730,16 @@
     color: #000 !important;
 }
 
-.yotpo-review-form input, .yotpo-review-form select, .yotpo-review-form textarea, .yotpo-review-form .yotpo-form-label, .yotpo-review .yotpo-review-content .yotpo-read-more, .yotpo-reviewer .yotpo-reviewer-verified-buyer-text, .yotpo-review .yotpo-review-content, .yotpo-review .yotpo-read-more-text, .yotpo-review .yotpo-date-format, .yotpo-bottom-line-summary .yotpo-bottom-line-text {
+.yotpo-review-form input, 
+.yotpo-review-form select, 
+.yotpo-review-form textarea, 
+.yotpo-review-form .yotpo-form-label, 
+.yotpo-review .yotpo-review-content .yotpo-read-more, 
+.yotpo-reviewer .yotpo-reviewer-verified-buyer-text, 
+.yotpo-review .yotpo-review-content, 
+.yotpo-review .yotpo-read-more-text, 
+.yotpo-review .yotpo-date-format, 
+.yotpo-bottom-line-summary .yotpo-bottom-line-text {
     color: #000 !important;
     font-family: var(--typeBasePrimary), var(--typeBaseFallback) !important;
 }
