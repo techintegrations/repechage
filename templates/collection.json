@@ -12,7 +12,7 @@
     "collection-header": {
       "type": "collection-header",
       "settings": {
-        "enable": false,
+        "enable": true,
         "collection_image_enable": true,
         "parallax": true,
         "parallax_direction": "top"
