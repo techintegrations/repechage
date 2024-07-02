@@ -665,7 +665,7 @@
     "blog_posts_AkwbrY": {
       "type": "blog-posts",
       "settings": {
-        "title": "Beauty Seacrets Blog",
+        "title": "Articles From The Blog",
         "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
