@@ -23,7 +23,14 @@
  <!-- YOTPO SCRIPT -->  
   <script type="text/javascript">(function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/MuDItJDCxmC2E3JxzzY2EACQxSMJSwbHW9iiM0Wr/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();</script>
  <!-- YOTPO SCRIPT --> 
-  
+  <link href="//cdn.shopify.com/s/files/1/0834/3901/t/16/assets/yotpo-full-css.css?v=11295031326505434247" rel="stylesheet" type="text/css" media="all" />
+  {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
+  {%- assign time_now = 'now' | date: '%s' %}
+  {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}
+  {%- assign diffSeconds = time_now | minus: yotpo_live_time %}
+  {%- if yotpo_offload_content == 'yes' and diffSeconds < 86400 -%}
+    {{ 'yotpo-full-css.css' | asset_url | stylesheet_tag }}
+  {%- endif -%}
 
   {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
