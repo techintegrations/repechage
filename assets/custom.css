@@ -825,6 +825,10 @@
     left: -10px;
 }
 
+.product_list-block.product-block #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline {
+    justify-content: flex-start;
+}
+
 
 @media only screen and (min-width: 769px) {
 
