@@ -835,12 +835,12 @@
     align-items: center;
 }
 
-.collection-banner_row .info-col {
+.collection-banner_row .col {
     flex: 0 0 50%;
     padding: 0 10px;
 }
 
-.collection-banner_row .image-col {
+.collection-banner_row .col {
     flex: 0 0 50%;
     padding: 0 10px;
 }
