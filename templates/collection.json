@@ -11,11 +11,23 @@
   "sections": {
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "settings": {
         "enable": true,
         "collection_image_enable": true,
         "parallax": true,
         "parallax_direction": "top"
+      }
+    },
+    "custom_breadcrumbs_section_JtheVM": {
+      "type": "custom__breadcrumbs-section",
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
       }
     },
     "custom_collection_banner_jDWdY6": {
@@ -64,6 +76,7 @@
   },
   "order": [
     "collection-header",
+    "custom_breadcrumbs_section_JtheVM",
     "custom_collection_banner_jDWdY6",
     "main-collection"
   ]
