@@ -54,13 +54,13 @@
 
               {% if block.settings.image != blank or block.settings.video_url != blank %}
                 <div class="product-tab__image-video">
-                  <div class="product-tab__image">
-                    <img src="{{ block.settings.image | img_url: 'master' }}">
-                  </div>
                   <div class="product-tab__video">
                     <video controls>
                       <source src="{{ block.settings.video_url }}" type="video/mp4">
                     </video>
+                  </div>
+                  <div class="product-tab__image">
+                    <img src="{{ block.settings.image | img_url: 'master' }}">
                   </div>
                 </div>
               {% endif %}
