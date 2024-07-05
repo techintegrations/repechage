@@ -18,38 +18,10 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 
-  <div class="image-with-info-wrap page-width">
+  <div class="page-width">
 
-    <div class="image-with-info">
-      {% for block in section.blocks %}
-        <div class="image-with-info__row" {{ block.shopify_attributes }}>
-          <div class="image-with-info__image">
-              <img src="{{ block.settings.image | img_url: 'master' }}">
-          </div>
+    <div class="breadcrumbs-wrap">
 
-          <div class="image-with-info__info rte">
-              <div class="image-with-info-title">
-                <h3>{{ block.settings.title }}</h3>
-                {% if block.settings.date != blank %}
-                <h6>{{ block.settings.date }}</h6>
-                {% endif %}
-              </div>
-  
-            {% if block.settings.text != blank %}
-              <div class="image-with-info-text">
-                {{ block.settings.text }}
-              </div>
-            {% endif %}
-
-            {% if block.settings.button_label != blank %}
-              <div class="image-with-info-button">
-                <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
-              </div>
-            {% endif %}
-            </div>
-          
-        </div>
-      {% endfor %}
     </div>
   </div>
 
