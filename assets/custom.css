@@ -841,8 +841,10 @@
 }
 
 .collection-banner_row .image-col img {
-    width: 100%;
+    width: auto;
     object-fit: cover;
+    max-height: 260px;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 769px) {
