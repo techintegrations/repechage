@@ -19,6 +19,9 @@
         <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
           {{ block.settings.tab_title }}
         </a>
+        <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
+          {{ block.settings.tab_title }}
+        </a>
       {% endfor %}
     </div>
 
@@ -142,6 +145,12 @@
           "type": "checkbox",
           "id": "show_active",
           "label": "Show active"
+        },
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab title",
+          "default": "Tab title"
         }
       ]
     }
