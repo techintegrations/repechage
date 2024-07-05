@@ -194,7 +194,7 @@
           "settings": {
             "logo": "{{ block.repeater.ingredient_image.value }}",
             "title": "{{ block.repeater.ingredient_title.value }}",
-            "button_label": "{{ block.repeater.ingredients_name.value }}",
+            "button_label": "Read More",
             "text": "{{ block.repeater.ingredients_description | metafield_tag }}"
           }
         },
