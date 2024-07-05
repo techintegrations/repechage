@@ -169,7 +169,7 @@
           "settings": {
             "tab_title": "Full Ingredients",
             "show_product_description": false,
-            "text": "",
+            "text": "{{ product.metafields.custom.full_ingredients | metafield_tag }}",
             "image_video": "image",
             "video_url": ""
           }
