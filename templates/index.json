@@ -724,6 +724,38 @@
             "title": "",
             "text": ""
           }
+        },
+        "text_block_TbeYCC": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_Xrx9PY": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_fAUMcf": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_RqAgqT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
@@ -731,7 +763,11 @@
         "text_block_frN9HT",
         "text_block_wDJdWR",
         "text_block_33LTrN",
-        "text_block_UFc3fT"
+        "text_block_UFc3fT",
+        "text_block_TbeYCC",
+        "text_block_Xrx9PY",
+        "text_block_fAUMcf",
+        "text_block_RqAgqT"
       ],
       "settings": {
         "title": "in the press",
