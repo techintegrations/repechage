@@ -143,6 +143,13 @@
     "custom_product_tabs_aAdT9e": {
       "type": "custom__product-tabs",
       "blocks": {
+        "product_description_xhA9cV": {
+          "type": "product_description",
+          "settings": {
+            "show_active": false,
+            "tab_title": "Tab title"
+          }
+        },
         "tab_qJfBU4": {
           "type": "tab",
           "settings": {
@@ -176,6 +183,7 @@
         }
       },
       "block_order": [
+        "product_description_xhA9cV",
         "tab_qJfBU4",
         "tab_c7TMwR",
         "tab_B8eLpx"
