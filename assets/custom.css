@@ -863,6 +863,19 @@
     text-align: left;
 }
 
+.yotpo-icon.yotpo-icon-star {
+    color: #000 !important;
+}
+
+.yotpo-star-rating-icon.yotpo-sr-star-full {
+    color: #000 !important;
+}
+
+.yotpo-star-rating-icon.yotpo-sr-star-full path {
+    stroke: #000;
+    fill: #000;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
