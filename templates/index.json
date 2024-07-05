@@ -724,6 +724,14 @@
             "title": "",
             "text": ""
           }
+        },
+        "text_block_Utbah9": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/marie-logo.png",
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
@@ -731,7 +739,8 @@
         "text_block_frN9HT",
         "text_block_wDJdWR",
         "text_block_33LTrN",
-        "text_block_UFc3fT"
+        "text_block_UFc3fT",
+        "text_block_Utbah9"
       ],
       "settings": {
         "title": "in the press",
