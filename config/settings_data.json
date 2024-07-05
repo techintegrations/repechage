@@ -82,7 +82,7 @@
     "search_enable": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-white.png",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#000000",
     "checkout_input_background_color_mode": "transparent",
     "checkout_sidebar_background_color": "#000000",
