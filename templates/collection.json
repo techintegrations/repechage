@@ -25,8 +25,8 @@
         "bg_color": "",
         "padding_top": 70,
         "padding_bottom": 30,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top_m": 48,
+        "padding_bottom_m": 10,
         "divider": false
       }
     },
