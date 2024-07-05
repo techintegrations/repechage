@@ -844,7 +844,7 @@
     width: auto;
     object-fit: cover;
     max-height: 260px;
-    margin: 0 auto;
+    margin-right: 0px;
 }
 
 .text-with-logos-slider .flickity-prev-next-button, .text-with-logos-mb-slider .flickity-prev-next-button {
