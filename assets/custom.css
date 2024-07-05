@@ -847,7 +847,7 @@
     margin: 0 auto;
 }
 
-.text-with-logos-slider .flickity-prev-next-button {
+.text-with-logos-slider .flickity-prev-next-button, .text-with-logos-mb-slider .flickity-prev-next-button {
     width: 32px;
     height: 32px;
 }
