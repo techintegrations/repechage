@@ -17,7 +17,7 @@
 
 <div class="custom-collection-banner page-width">
   <div class="collection-banner_row">
-    <div class="image-with-info__info rte">
+    <div class="info-col rte">
       <div class="image-with-info-title">
         <h2>{{ collection.title }}</h2>
       </div>
@@ -29,7 +29,7 @@
       {% endif %}
     </div>
 
-    <div class="image-with-info__image">
+    <div class="image-col">
       <img src="{{ collection.featured_image | img_url: 'master' }}">
     </div>
   </div>
