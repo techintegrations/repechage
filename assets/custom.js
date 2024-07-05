@@ -90,7 +90,7 @@ $(".image-slider-with-text .slider-nav").slick({
 
 
 if (window.outerWidth < 769) {
-  $('.text-with-icons__blocks').slick({
+  $('.text-with-icons__blocks-slider').slick({
     arrows: false, // Common setting for all breakpoints
     dots: true, // Common setting for all breakpoints
     responsive: [
