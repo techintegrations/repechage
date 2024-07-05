@@ -146,27 +146,14 @@
         "product_description_xhA9cV": {
           "type": "product_description",
           "settings": {
-            "show_active": false,
             "tab_title": "Description"
-          }
-        },
-        "tab_qJfBU4": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "show_product_description": true,
-            "text": "",
-            "image_video": "image",
-            "video_url": ""
           }
         },
         "tab_c7TMwR": {
           "type": "tab",
           "settings": {
             "tab_title": "Directions",
-            "show_product_description": false,
             "text": "{{ product.metafields.custom.direction | metafield_tag }}",
-            "image_video": "image",
             "image": "{{ product.metafields.custom.direction_media.value }}",
             "video_url": "{{ product.metafields.custom.direction_video_youtube_vimeo_.value }}"
           }
@@ -175,16 +162,13 @@
           "type": "tab",
           "settings": {
             "tab_title": "Full Ingredients",
-            "show_product_description": false,
             "text": "{{ product.metafields.custom.full_ingredients | metafield_tag }}",
-            "image_video": "image",
             "video_url": ""
           }
         }
       },
       "block_order": [
         "product_description_xhA9cV",
-        "tab_qJfBU4",
         "tab_c7TMwR",
         "tab_B8eLpx"
       ],
