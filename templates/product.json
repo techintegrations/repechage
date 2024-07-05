@@ -158,7 +158,7 @@
           "settings": {
             "tab_title": "Directions",
             "show_product_description": false,
-            "text": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.custom.direction | metafield_tag }}",
             "image_video": "image",
             "image": "{{ product.metafields.custom.direction_media.value }}",
             "video_url": "{{ product.metafields.custom.direction_video_youtube_vimeo_.value }}"
@@ -166,11 +166,10 @@
         },
         "tab_B8eLpx": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "tab_title": "Full Ingredients",
             "show_product_description": false,
-            "text": "<p>Water\/Aqua\/Eau, Caprylic\/Capric Triglyceride, Glyceryl Stearate, Hydrogenated Vegetable Oil, Glyceryl Behenate, Cetyl Alcohol, Propanediol, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Aloe Barbadensis Leaf Juice Powder, Laminaria Digitata Extract, Ascophyllum Nodosum Extract, Chamomilla Recutita (Matricaria) Flower Extract, Camellia Sinensis Leaf Extract, Ahnfeltiopsis Concinna Extract, Bellis Perennis (Daisy) Flower Extract, Centella Asiatica Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Salix Alba (Willow) Bark Extract, Aspalathus Linearis Leaf Extract, Sodium Ascorbyl Phosphate, Vaccinium Myrtillus Fruit\/Leaf Extract, Saccharum Officinarum (Sugar Cane) Extract, Acer Saccharum (Sugar Maple) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Citrus Grandis (Grapefruit) Peel Oil, Zingiber Officinale (Ginger) Root Oil, Glycerin, Steareth-21, Tocopheryl Acetate, Xanthan Gum, Ethylhexylglycerin, Phenethyl Alcohol, Sodium Benzoate, Potassium Sorbate, Phenoxyethanol, Citric Acid, Polysorbate 20, Sodium Hydroxide<\/p>",
+            "text": "",
             "image_video": "image",
             "video_url": ""
           }
