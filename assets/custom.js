@@ -110,6 +110,19 @@ if (window.outerWidth < 769) {
       }
     ]
   });
+
+
+
+  const flickitySlider4 = new Flickity(".text-with-logos-mb-slider", {
+      cellAlign: "center",
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+  });
+  
 }
 
 
