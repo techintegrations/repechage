@@ -17,60 +17,61 @@
     <div class="tab-row">
       {% for block in section.blocks %}
         {% if block.type == 'product_description' %}
-        <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
-          {{ block.settings.tab_title }}
-        </a>
-          {% else %}
-        <a href="#" class="tab {% if forloop.index == 1 %}active{% endif %}" data-toggle-target=".tab-content-{{ forloop.index }}">
-          {{ block.settings.tab_title }}
-        </a>
-          {% endif %}
+          <a
+            href="#"
+            class="tab {% if forloop.index == 1 %}active{% endif %}"
+            data-toggle-target=".tab-content-{{ forloop.index }}"
+          >
+            {{ block.settings.tab_title }}
+          </a>
+        {% else %}
+          <a
+            href="#"
+            class="tab {% if forloop.index == 1 %}active{% endif %}"
+            data-toggle-target=".tab-content-{{ forloop.index }}"
+          >
+            {{ block.settings.tab_title }}
+          </a>
+        {% endif %}
       {% endfor %}
     </div>
 
     <div class="tab-content-row">
       {% for block in section.blocks %}
         <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
-
           {% if block.type == 'product_description' %}
             <div class="product-description">
               {{ product.description }}
             </div>
 
           {% else %}
+            <div class="tab__text-image-video">
+              {% if block.settings.text != blank %}
+                <div class="text">
+                  {{ block.settings.text }}
+                </div>
+              {% endif %}
 
-          <div class="tab__text-image-video">
-          {% if block.settings.text != blank %}
-            <div class="text">
-              {{ block.settings.text }}
+              {% if block.settings.image != blank or block.settings.video_url != blank %}
+                {% if block.settings.image_video == 'image' %}
+                  <div class="product-tab__image-video">
+                    <div class="product-tab__image">
+                      <img src="{{ block.settings.image | img_url: 'master' }}">
+                    </div>
+                {% else %}
+                  <div class="product-tab__video">
+                    <video controls>
+                      <source src="{{ block.settings.video_url }}" type="video/mp4">
+                    </video>
+                  </div>
+                {% endif %}
+                </div>
+              {% endif %}
             </div>
           {% endif %}
-
-          {% if block.settings.image != blank or block.settings.video_url != blank %}
-            {% if block.settings.image_video == 'image' %}
-          <div class="product-tab__image-video">
-            <div class="product-tab__image">
-              <img src="{{ block.settings.image | img_url: 'master' }}">
-            </div>
-            {% else %}
-            <div class="product-tab__video">
-              <video controls>
-                <source src="{{ block.settings.video_url }}" type="video/mp4">
-              </video>
-            </div>
-            {% endif %}
-          </div>
-          {% endif %}
-          </div>
-
-          
-          {% endif %}
-          
         </div>
       {% endfor %}
     </div>
-
-    
   </div>
 </div>
 
