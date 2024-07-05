@@ -840,11 +840,6 @@
     padding: 0 10px;
 }
 
-.collection-banner_row .col {
-    flex: 0 0 50%;
-    padding: 0 10px;
-}
-
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
