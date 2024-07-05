@@ -840,6 +840,11 @@
     padding: 0 10px;
 }
 
+.collection-banner_row .image-col img {
+    width: 100%;
+    object-fit: cover;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
