@@ -80,6 +80,7 @@
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@repechage",
     "social_youtube_link": "https:\/\/www.youtube.com\/user\/SarkliRepechage",
     "search_enable": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-white.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#000000",
