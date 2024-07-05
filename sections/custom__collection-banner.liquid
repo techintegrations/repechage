@@ -1,4 +1,4 @@
-{% style %} 
+{% style %}
   #shopify-section-{{section.id}} {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -13,34 +13,27 @@
   }
 {% endstyle %}
 
- 
-
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
+<div class="custom-collection-banner page-width">
+  <div class="collection-banner_row">
+    <div class="image-with-info__info rte">
+      <div class="image-with-info-title">
+        <h2>{{ collection.title }}</h2>
+      </div>
 
-  <div class="custom-collection-banner page-width">
+      {% if collection.description != blank %}
+        <div class="image-with-info-text">
+          {{ collection.description }}
+        </div>
+      {% endif %}
+    </div>
 
-    <div class="image-with-info">
-
-      <div class="image-with-info__info rte">
-              <div class="image-with-info-title">
-                <h2>{{ collection.title }}</h2>
-              </div>
-  
-            {% if collection.description != blank %}
-              <div class="image-with-info-text">
-                {{ collection.description }}
-              </div>
-            {% endif %}
-
-            </div>
-      
-          <div class="image-with-info__image">
-              <img src="{{ collection.featured_image | img_url: 'master' }}">
-          </div>
-          
+    <div class="image-with-info__image">
+      <img src="{{ collection.featured_image | img_url: 'master' }}">
     </div>
   </div>
+</div>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
@@ -103,4 +96,3 @@
   }
 }
 {% endschema %}
-
