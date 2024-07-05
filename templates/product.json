@@ -190,15 +190,17 @@
       "blocks": {
         "text_block_X7GFUr": {
           "type": "text_block",
+          "repeater": "{{ product.metafields.custom.product_ingredients.value }}",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/pf-3d7bd056--buzojesuspHM4aRZSLEunsplash_5B1_5D.png",
-            "title": "Ginkgo Biloba Extract",
-            "button_label": "Read More",
-            "text": "<p>An extract known for its refreshing qualities.<\/p>"
+            "logo": "{{ block.repeater.ingredient_image.value }}",
+            "title": "{{ block.repeater.ingredient_title.value }}",
+            "button_label": "{{ block.repeater.ingredients_name.value }}",
+            "text": "{{ block.repeater.ingredients_description | metafield_tag }}"
           }
         },
         "text_block_6Qcqer": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/Laminaria-200.png",
             "title": "Laminaria digitata - Exclusive Seaweed Extract",
@@ -218,6 +220,7 @@
         },
         "text_block_x7z9Mq": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
             "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
@@ -227,6 +230,7 @@
         },
         "text_block_QkhXYy": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
