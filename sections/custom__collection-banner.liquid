@@ -15,7 +15,7 @@
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="custom-collection-banner page-width">
+<div class="custom-collection-banner {% if section.settings.show_image == false %} hide-image {% endif %} page-width">
   <div class="collection-banner_row">
     <div class="info-col col rte">
       <div class="image-with-info-title">
@@ -29,9 +29,11 @@
       {% endif %}
     </div>
 
-    <div class="image-col col">
-      <img src="{{ collection.featured_image | img_url: 'master' }}">
-    </div>
+    {% if section.settings.show_image %}
+      <div class="image-col col">
+        <img src="{{ collection.featured_image | img_url: 'master' }}">
+      </div>
+    {% endif %}
   </div>
 </div>
 
