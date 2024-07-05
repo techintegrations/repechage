@@ -33,6 +33,7 @@
     "custom_collection_banner_jDWdY6": {
       "type": "custom__collection-banner",
       "settings": {
+        "show_image": true,
         "bg_color": "",
         "padding_top": 50,
         "padding_bottom": 30,
