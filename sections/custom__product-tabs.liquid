@@ -33,7 +33,8 @@
             <div class="product-description">
               {{ product.description }}
             </div>
-          {% endif %}
+
+          {% else %}
 
           <div class="tab__text-image-video">
           {% if block.settings.text != blank %}
@@ -58,6 +59,9 @@
           </div>
           {% endif %}
           </div>
+
+          
+          {% endif %}
           
         </div>
       {% endfor %}
