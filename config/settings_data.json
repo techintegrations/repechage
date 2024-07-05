@@ -81,6 +81,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/user\/SarkliRepechage",
     "search_enable": true,
     "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-white.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
