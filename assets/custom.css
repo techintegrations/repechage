@@ -852,6 +852,11 @@
     height: 32px;
 }
 
+.breadcrumbs-wrap .breadcrumb {
+    margin: 0px;
+    text-align: left;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
