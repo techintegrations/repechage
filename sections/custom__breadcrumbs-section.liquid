@@ -1,6 +1,155 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %} 
+  #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      background-color: {{section.settings.bg_color}};
   }
+
+  @media screen and (max-width:768px){
+    #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+    }
+  }
+{% endstyle %}
+
+ 
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+
+  <div class="image-with-info-wrap page-width">
+
+    <div class="image-with-info">
+      {% for block in section.blocks %}
+        <div class="image-with-info__row" {{ block.shopify_attributes }}>
+          <div class="image-with-info__image">
+              <img src="{{ block.settings.image | img_url: 'master' }}">
+          </div>
+
+          <div class="image-with-info__info rte">
+              <div class="image-with-info-title">
+                <h3>{{ block.settings.title }}</h3>
+                {% if block.settings.date != blank %}
+                <h6>{{ block.settings.date }}</h6>
+                {% endif %}
+              </div>
+  
+            {% if block.settings.text != blank %}
+              <div class="image-with-info-text">
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
+
+            {% if block.settings.button_label != blank %}
+              <div class="image-with-info-button">
+                <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+              </div>
+            {% endif %}
+            </div>
+          
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+{
+  "name": "Breadcrumbs section",
+  "class": "breadcrumbs-section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "header",
+      "content": "Spacing Desktop"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing Mobile"
+    },
+    {
+      "type": "number",
+      "id": "padding_top_m",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom_m",
+      "label": "Bottom spacing",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:common.text_with_icons.settings.divider.label",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "t:common.text_with_icons.blocks.column.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        { 
+          "type": "text",
+          "id": "title",
+          "label": "t:common.text_with_icons.blocks.column.settings.title.label"
+        },
+        { 
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:common.text_with_icons.blocks.column.settings.text.label"
+        },
+        { 
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        { 
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Breadcrumbs section"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
+  }
+}
 {% endschema %}
+
