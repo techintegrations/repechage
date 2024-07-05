@@ -18,6 +18,17 @@
         "parallax_direction": "top"
       }
     },
+    "custom_collection_banner_jDWdY6": {
+      "type": "custom__collection-banner",
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -52,6 +63,7 @@
   },
   "order": [
     "collection-header",
+    "custom_collection_banner_jDWdY6",
     "main-collection"
   ]
 }
