@@ -59,9 +59,10 @@
           "repeater": "{{ page.metafields.custom.ingredients.value }}",
           "settings": {
             "logo": "{{ block.repeater.ingredient_image.value }}",
-            "title": "{{ block.repeater.ingredient_title.value }}",
+            "title": "{{ block.repeater.ingredients_name.value }}",
+            "short_name": "{{ block.repeater.ingredient_title.value }}",
             "button_label": "Read More",
-            "text": "{{ block.repeater.ingredients_description | metafield_tag }}"
+            "text": "<p>{{ block.repeater.ingredients_description | metafield_tag }}<\/p>"
           }
         }
       },
