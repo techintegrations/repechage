@@ -153,7 +153,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "Directions",
-            "text": "<p>fdsfsdfsddfs<\/p>",
+            "text": "{{ product.metafields.custom.direction | metafield_tag }}",
             "image": "{{ product.metafields.custom.direction_media.value }}",
             "video_url": "{{ product.metafields.custom.direction_video_youtube_vimeo_.value }}"
           }
