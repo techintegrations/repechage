@@ -78,6 +78,28 @@
             "image_4_link": ""
           }
         },
+        "logo_chQK7Y": {
+          "type": "logo",
+          "settings": {
+            "link_handle": "",
+            "link_list_1": "",
+            "link_list_2": "",
+            "link_list_3": "",
+            "link_list_4": "",
+            "image_1_top_heading": "",
+            "image_1_title": "",
+            "image_1_link": "",
+            "image_2_top_heading": "",
+            "image_2_title": "",
+            "image_2_link": "",
+            "image_3_top_heading": "",
+            "image_3_title": "",
+            "image_3_link": "",
+            "image_4_top_heading": "",
+            "image_4_title": "",
+            "image_4_link": ""
+          }
+        },
         "logo_n4JLTH": {
           "type": "logo",
           "settings": {
@@ -87,7 +109,7 @@
             "link_list_3": "",
             "link_list_4": "",
             "image_1_top_heading": "Featured Product Lines",
-            "image_1": "shopify:\/\/shop_images\/drydehydratedskin.jpg",
+            "image_1": "shopify:\/\/shop_images\/September_2023_Promos_-_1.png",
             "image_1_title": "Dryness & Dehydration",
             "image_1_link": "shopify:\/\/collections\/hydra-dew-pure",
             "image_2_top_heading": "",
@@ -156,6 +178,7 @@
       "block_order": [
         "logo_z4377w",
         "logo_Y9wYnc",
+        "logo_chQK7Y",
         "logo_n4JLTH",
         "logo_enxnhy",
         "logo_FLYKdW"
