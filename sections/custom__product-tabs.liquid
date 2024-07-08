@@ -28,7 +28,7 @@
           {% endif %}
         {% else %}
 
-          {% if block.settings.tab_title != blank or block.settings.text or block.settings.image or block.settings.video_url %}
+          {% if block.settings.text or block.settings.image or block.settings.video_url %}
             <a
               href="#"
               class="tab {% if forloop.index == 1 %}active{% endif %}"
@@ -46,7 +46,7 @@
         <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
           {% if block.type == 'product_description' %}
 
-            {% if block.settings.tab_title != blank and product.description != blank %}
+            {% if product.description != blank %}
               <div class="product-description">
                 {{ product.description }}
               </div>
@@ -54,7 +54,7 @@
 
           {% else %}
 
-            {% if block.settings.tab_title != blank or block.settings.text or block.settings.image or block.settings.video_url %}
+            {% if block.settings.text or block.settings.image or block.settings.video_url %}
             <div class="tab__text-image-video">
               {% if block.settings.text != blank %}
                 <div class="text">
