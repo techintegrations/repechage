@@ -51,10 +51,10 @@
         "lazyload_images": true
       }
     },
-    "custom_product_ingredients_3qB6YX": {
-      "type": "custom__product-ingredients",
+    "page_ingredients_kCn7nn": {
+      "type": "page-ingredients",
       "blocks": {
-        "text_block_p9mqrY": {
+        "text_block_kffDXR": {
           "type": "text_block",
           "repeater": "{{ page.metafields.custom.ingredients.value }}",
           "settings": {
@@ -66,12 +66,12 @@
         }
       },
       "block_order": [
-        "text_block_p9mqrY"
+        "text_block_kffDXR"
       ],
       "settings": {
-        "title": "KEY INGREDIENTS",
+        "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 4,
+        "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 2,
         "show_slider": false,
         "block_title_color": "",
@@ -87,6 +87,6 @@
   "order": [
     "main",
     "slideshow_k7fhXm",
-    "custom_product_ingredients_3qB6YX"
+    "page_ingredients_kCn7nn"
   ]
 }
