@@ -54,7 +54,7 @@
 
           {% else %}
 
-            {% if block.settings.text or block.settings.image or block.settings.video_url %}
+            {% if block.settings.text != blank or block.settings.image != blank or block.settings.video_url != blank %}
             <div class="tab__text-image-video">
               {% if block.settings.text != blank %}
                 <div class="text">
