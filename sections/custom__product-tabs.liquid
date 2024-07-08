@@ -17,16 +17,18 @@
     <div class="tab-row">
       {% for block in section.blocks %}
         {% if block.type == 'product_description' %}
-          <a
-            href="#"
-            class="tab {% if forloop.index == 1 %}active{% endif %}"
-            data-toggle-target=".tab-content-{{ forloop.index }}"
-          >
-            {{ block.settings.tab_title }}
-          </a>
+          {% if block.settings.tab_title != blank and product.description != blank %}
+            <a
+              href="#"
+              class="tab {% if forloop.index == 1 %}active{% endif %}"
+              data-toggle-target=".tab-content-{{ forloop.index }}"
+            >
+              {{ block.settings.tab_title }}
+            </a>
+          {% endif %}
         {% else %}
 
-          {% if block.settings.tab_title != blank %}
+          {% if block.settings.tab_title != blank or block.settings.text or block.settings.image or block.settings.video_url %}
             <a
               href="#"
               class="tab {% if forloop.index == 1 %}active{% endif %}"
@@ -43,11 +45,16 @@
       {% for block in section.blocks %}
         <div class="tab-content tab-content-{{ forloop.index }} {% if forloop.index == 1 %}active{% endif %}">
           {% if block.type == 'product_description' %}
-            <div class="product-description">
-              {{ product.description }}
-            </div>
+
+            {% if block.settings.tab_title != blank and product.description != blank %}
+              <div class="product-description">
+                {{ product.description }}
+              </div>
+            {% endif %}
 
           {% else %}
+
+            {% if block.settings.tab_title != blank or block.settings.text or block.settings.image or block.settings.video_url %}
             <div class="tab__text-image-video">
               {% if block.settings.text != blank %}
                 <div class="text">
@@ -71,6 +78,7 @@
                 </div>
               {% endif %}
             </div>
+          {% endif %}
           {% endif %}
         </div>
       {% endfor %}
