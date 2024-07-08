@@ -23,6 +23,12 @@
           "settings": {
           }
         },
+        "weight_d6icf4": {
+          "type": "weight",
+          "settings": {
+            "weight": "{{ product.metafields.custom.weight | metafield_text }}"
+          }
+        },
         "richtext_EpXmjL": {
           "type": "richtext",
           "settings": {
@@ -109,6 +115,7 @@
       "block_order": [
         "yotpo_product_reviews_ugc_star_rating_pBPBWG",
         "price",
+        "weight_d6icf4",
         "richtext_EpXmjL",
         "separator",
         "variant_picker",
@@ -186,6 +193,7 @@
           "settings": {
             "logo": "{{ block.repeater.ingredient_image.value }}",
             "title": "{{ block.repeater.ingredient_title.value }}",
+            "short_name": "",
             "button_label": "Read More",
             "text": "{{ block.repeater.ingredients_description | metafield_tag }}"
           }
@@ -196,6 +204,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/Laminaria-200.png",
             "title": "Laminaria digitata - Exclusive Seaweed Extract",
+            "short_name": "",
             "button_label": "Read More",
             "text": "<p>Natural source of 12 vitamins including B12, C, E, K and Beta Carotene, 18 amino acids, and 42 trace elements.<\/p>"
           }
@@ -206,6 +215,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
+            "short_name": "",
             "button_label": "Read More",
             "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
           }
@@ -216,6 +226,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
             "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
+            "short_name": "",
             "button_label": "Read More",
             "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.<\/p>"
           }
@@ -226,6 +237,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
+            "short_name": "",
             "button_label": "Read More",
             "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
           }
