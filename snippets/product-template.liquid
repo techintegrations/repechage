@@ -157,12 +157,6 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.text }}
                     </div>
-                  {%- when 'weight' -%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
-                      {% if block.settings.weight != blank %}
-                      Weight: {{ block.settings.weight }}
-                      {% endif %}
-                    </div>
                   {%- when 'tab' -%}
                     {% assign tab_id = block.id | append: product.id %}
                     {% capture tab_content %}
