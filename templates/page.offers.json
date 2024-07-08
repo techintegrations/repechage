@@ -116,6 +116,34 @@
         "divider": false
       }
     },
+    "text_and_image_xgxQaY": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/David_Favorites.png",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/Lydia_Favorites.png",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
     "text_with_icons_QpRF98": {
       "type": "text-with-icons",
       "blocks": {
@@ -209,6 +237,7 @@
     "main",
     "slideshow_97MbEr",
     "text_columns_XLchWK",
+    "text_and_image_xgxQaY",
     "text_with_icons_QpRF98"
   ]
 }
