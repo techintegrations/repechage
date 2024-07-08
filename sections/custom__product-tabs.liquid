@@ -25,13 +25,16 @@
             {{ block.settings.tab_title }}
           </a>
         {% else %}
-          <a
-            href="#"
-            class="tab {% if forloop.index == 1 %}active{% endif %}"
-            data-toggle-target=".tab-content-{{ forloop.index }}"
-          >
-            {{ block.settings.tab_title }}
-          </a>
+
+          {% if block.settings.tab_title != blank %}
+            <a
+              href="#"
+              class="tab {% if forloop.index == 1 %}active{% endif %}"
+              data-toggle-target=".tab-content-{{ forloop.index }}"
+            >
+              {{ block.settings.tab_title }}
+            </a>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>
