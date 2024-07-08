@@ -22,7 +22,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "<p>Ingredients<\/p>",
             "title_size": 80,
             "subheading": "",
             "link": "",
@@ -42,7 +42,7 @@
       ],
       "settings": {
         "show_container": false,
-        "section_height": "550px",
+        "section_height": "450px",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
