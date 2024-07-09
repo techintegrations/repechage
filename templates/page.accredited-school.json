@@ -75,70 +75,36 @@
         "lazyload_images": true
       }
     },
-    "rich_text_X66Ge8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ipqcA4": {
-          "type": "heading",
-          "settings": {
-            "title": "CURRICULUM",
-            "title_color": "#ffffff"
-          }
-        },
-        "text_qFezhY": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><em>It’s your skin. Don’t compromise it.<\/em><\/p>",
-            "text_color": "#ffffff"
-          }
-        },
-        "text_VHCeWE": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.<\/li><li>Milady and Pivot Point overlay and resource guides designed for instructors.<\/li><li>Comprehensive library of online training materials and recorded webinars.<\/li><li>On-demand access to training materials through our online portal.<\/li><\/ul>",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ipqcA4",
-        "text_qFezhY",
-        "text_VHCeWE"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "bg_color": "#000000",
-        "divider": false
-      }
-    },
     "rich_text_zWkNYL": {
       "type": "rich-text",
       "blocks": {
         "heading_HmKxJU": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "CURRICULUM",
             "title_color": "#000"
           }
         },
-        "text_xjTqra": {
+        "text_MfjXkR": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "text_color": "#000"
           }
+        },
+        "text_xjTqra": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.<\/li><li>Milady and Pivot Point overlay and resource guides designed for instructors.<\/li><li>Comprehensive library of online training materials and recorded webinars.<\/li><li>On-demand access to training materials through our online portal.<\/li><\/ul>",
+            "text_color": "#000"
+          }
         }
       },
       "block_order": [
         "heading_HmKxJU",
+        "text_MfjXkR",
         "text_xjTqra"
       ],
       "settings": {
@@ -148,7 +114,7 @@
         "padding_bottom": 70,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
-        "bg_color": "",
+        "bg_color": "#b1e4e3",
         "divider": false
       }
     }
@@ -157,7 +123,6 @@
     "main",
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
-    "rich_text_X66Ge8",
     "rich_text_zWkNYL"
   ]
 }
