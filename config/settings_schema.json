@@ -872,8 +872,8 @@
         "label": "t:settings_schema.cart.settings.cart_terms_conditions_page.label"
       },
       {
-      "type": "header",
-      "content": "Cart Progress Bar Settings"
+        "type": "header",
+        "content": "Cart Progress Bar Settings"
       },
       {
         "type": "text",
@@ -909,7 +909,13 @@
         "label": "Progress Bar Full Color",
         "default": "#d53600",
         "info": "Color of the progress bar when complete."
-      }
+      },
+	  {
+	    "type": "color",
+	    "id": "cart_progress_bar_text_color",
+	    "label": "Progress Bar Text Color",
+	    "default": "#333"
+	  }
     ]
   },
   {
