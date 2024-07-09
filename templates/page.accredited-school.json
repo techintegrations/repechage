@@ -180,16 +180,16 @@
     "hero_video_AejHXn": {
       "type": "hero-video",
       "settings": {
-        "title": "Bring your\nbrand to life.",
+        "title": "",
         "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
+        "subheading": "",
+        "link_text": "",
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
         "overlay_opacity": 0,
-        "section_height": "650px",
+        "section_height": "100vh",
         "mobile_height": "auto"
       }
     }
