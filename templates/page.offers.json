@@ -92,12 +92,51 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_eQPFAi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_MD9Uya": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_zQipqQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_kUyQWJ",
         "text_block_8QWQtF",
-        "text_block_pMhKPb"
+        "text_block_pMhKPb",
+        "text_block_eQPFAi",
+        "text_block_MD9Uya",
+        "text_block_zQipqQ"
       ],
       "settings": {
         "title": "Shop exclusive and limited-time offers",
