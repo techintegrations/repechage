@@ -139,6 +139,8 @@
                 </h1>
               {%- endif -%}
 
+              {%- if sku_enable or sku_enable -%}
+              <div class="">
               {%- if sku_enable -%}
                 <p data-sku class="product-single__sku">
                   {%- if current_variant.sku -%}
@@ -153,6 +155,8 @@
                   Weight: {{ current_variant.weight | weight_with_unit }}
                 {%- endif -%}
               </p>
+              {%- endif -%}
+              </div>
               {%- endif -%}
   
               </div>
