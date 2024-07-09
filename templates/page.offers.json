@@ -123,10 +123,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AfterPay-HydraMedic-Banner-Mobile.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "title": "SHOP NOW, PAY LATER",
+            "text": "<p>Shop now, pay later in four interest-free installments. Enjoy now, pay later—no interest, no hassle!<\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
