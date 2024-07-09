@@ -160,6 +160,7 @@
     },
     "featured_video_az9zwG": {
       "type": "featured-video",
+      "disabled": true,
       "settings": {
         "title": "",
         "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
@@ -175,6 +176,22 @@
         "margin_bottom_m": 0,
         "bg_color": "#000000"
       }
+    },
+    "hero_video_AejHXn": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
     }
   },
   "order": [
@@ -183,6 +200,7 @@
     "text_and_image_JmjzCR",
     "rich_text_zWkNYL",
     "background_video_text_p9V9Ci",
-    "featured_video_az9zwG"
+    "featured_video_az9zwG",
+    "hero_video_AejHXn"
   ]
 }
