@@ -58,13 +58,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/gcs2.png",
+            "image": "shopify:\/\/shop_images\/2024-01-starter-kit-bag.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Spend $150to unlock a 2-pc gift set",
-            "text": "<p>Facial Treatment Essence 1.0oz +<br\/>Facial Treatment Mask 1ct<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "title": "FREE SIGNATURE TOTE",
+            "text": "<p>With purchase of 3 or more clear start items.. No Code Needed.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/travel-kits"
           }
         },
         "text_block_8QWQtF": {
