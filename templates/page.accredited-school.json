@@ -160,6 +160,7 @@
     },
     "featured_video_az9zwG": {
       "type": "featured-video",
+      "disabled": true,
       "settings": {
         "title": "",
         "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
@@ -178,7 +179,6 @@
     },
     "hero_video_AejHXn": {
       "type": "hero-video",
-      "disabled": true,
       "settings": {
         "title": "",
         "title_size": 80,
