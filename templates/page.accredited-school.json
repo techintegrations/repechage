@@ -75,6 +75,67 @@
         "lazyload_images": true
       }
     },
+    "text_with_icons_tynBh6": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_nYpki7": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "bills",
+            "title": "CURRICULUM",
+            "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.<\/li><li>Milady and Pivot Point overlay and resource guides designed for instructors.<\/li><li>Comprehensive library of online training materials and recorded webinars.<\/li><li>On-demand access to training materials through our online portal.<\/li><\/ul>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_ciXAt3": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "SUPPORT",
+            "text": "<ul><li>Exclusive pricing for school partners<\/li><li>Dedicated business development manager<\/li><li>Comprehensive onboarding training for all staff, with annual refreshers<\/li><li>On-demand access to training materials via our online portal<\/li><\/ul>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_yN8wyw": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "KITS",
+            "text": "<ul><li>Curated selection of Repechage bestsellers<\/li><li>Designed to meet state board requirements and essential facial protocols<\/li><li>Customizable to suit different skin types and conditions<\/li><li>Assists schools in managing inventory efficiently<\/li><\/ul>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_nYpki7",
+        "text_block_ciXAt3",
+        "text_block_yN8wyw"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000",
+        "block_bg_color": "rgba(0,0,0,0)",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "#b1e4e3",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
     "rich_text_zWkNYL": {
       "type": "rich-text",
       "blocks": {
@@ -132,6 +193,7 @@
         "heading_Fkky4y",
         "text_tUCMFq"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -167,6 +229,7 @@
     "main",
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
+    "text_with_icons_tynBh6",
     "rich_text_zWkNYL",
     "featured_video_az9zwG"
   ]
