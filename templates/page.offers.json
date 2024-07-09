@@ -23,7 +23,7 @@
           "settings": {
             "top_subheading": "",
             "title": "<p>Exclusively for you<\/p>",
-            "title_size": 48,
+            "title_size": 67,
             "subheading": "<p>Luxurious skincare treats, with our compliments.<\/p>",
             "link": "",
             "link_text": "",
@@ -31,7 +31,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Holiday_Shoot_Repechage_boxes-2237-a.jpg",
+            "image": "shopify:\/\/shop_images\/Hydra_Medic_Collection_Flatlay_1.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
