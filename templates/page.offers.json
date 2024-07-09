@@ -97,9 +97,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/freepillow.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
+            "title": "FREE BATH PILLOW",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
