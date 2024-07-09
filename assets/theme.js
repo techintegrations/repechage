@@ -8351,33 +8351,4 @@ theme.recentlyViewed = {
     document.dispatchEvent(new CustomEvent('page:loaded'));
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 })();
-
-
-
-
-
-
-
-
-
-
-
