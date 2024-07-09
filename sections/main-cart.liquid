@@ -15,9 +15,7 @@
   {%- if cart.item_count > 0 -%}
     <form action="{{ routes.cart_url }}" method="post" novalidate data-location="page" id="CartPageForm">
 
-      {%- unless settings.cart_type == 'drawer' -%}
 	{% render 'cart-progress-bar-custom' %}
-{%- endunless -%}
 
       
       <div class="cart__page">
