@@ -143,21 +143,6 @@
         "divider": false
       }
     },
-    "background_video_text_p9V9Ci": {
-      "type": "background-video-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large video with text box",
-        "text": "<p>Pair large text with a full-width video to showcase your brand's lifestyle video or to describe and showcase an important detail of your products.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
-        "color_border": "#f4f4f4",
-        "layout": "left",
-        "height": 550
-      }
-    },
     "featured_video_az9zwG": {
       "type": "featured-video",
       "settings": {
@@ -176,23 +161,6 @@
         "margin_bottom_m": 0,
         "bg_color": "#000000"
       }
-    },
-    "hero_video_AejHXn": {
-      "type": "hero-video",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "title_size": 80,
-        "subheading": "Sub heading",
-        "link_text": "Shoop",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
-        "overlay_opacity": 0,
-        "section_height": "100vh",
-        "mobile_height": "auto"
-      }
     }
   },
   "order": [
@@ -200,8 +168,6 @@
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
     "rich_text_zWkNYL",
-    "background_video_text_p9V9Ci",
-    "featured_video_az9zwG",
-    "hero_video_AejHXn"
+    "featured_video_az9zwG"
   ]
 }
