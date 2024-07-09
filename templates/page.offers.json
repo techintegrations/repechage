@@ -74,7 +74,7 @@
             "image": "shopify:\/\/shop_images\/PFS_250x500_REWARDS.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Join OUr",
+            "title": "earn points and save",
             "text": "<p>Facial Treatment Essence 0.3oz +<br\/>Facial Treatment Cleanser 0.5oz +<br\/>SKINPOWER Advanced Cream 0.1oz +<br\/>Facial Treatment Mask 1ct<\/p>",
             "button_label": "JOIN NOW",
             "button_link": "https:\/\/www.repechage.com\/pages\/repechage-rewards"
@@ -103,7 +103,7 @@
         "title": "Shop exclusive and limited-time offers",
         "text": "",
         "align_text": "center",
-        "button_label": "Shop Now",
+        "button_label": "",
         "button_link": "shopify:\/\/collections\/all",
         "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 2,
