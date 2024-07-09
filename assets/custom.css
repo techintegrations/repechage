@@ -880,6 +880,16 @@
     display: none !important;
 }
 
+.sku-weight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sku-weight > p {
+    margin: 0px;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
