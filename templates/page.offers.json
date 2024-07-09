@@ -21,10 +21,10 @@
         "image_mFxPDE": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
+            "top_subheading": "<p>seasonal offers<\/p>",
             "title": "<p>Exclusively for you<\/p>",
             "title_size": 67,
-            "subheading": "<p>Luxurious skincare treats, with our compliments.<\/p>",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",
