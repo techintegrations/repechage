@@ -85,14 +85,6 @@
             "title_color": "#000"
           }
         },
-        "text_MfjXkR": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_color": "#000"
-          }
-        },
         "text_xjTqra": {
           "type": "text",
           "settings": {
@@ -100,12 +92,45 @@
             "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.<\/li><li>Milady and Pivot Point overlay and resource guides designed for instructors.<\/li><li>Comprehensive library of online training materials and recorded webinars.<\/li><li>On-demand access to training materials through our online portal.<\/li><\/ul>",
             "text_color": "#000"
           }
+        },
+        "heading_GCpF6n": {
+          "type": "heading",
+          "settings": {
+            "title": "SUPPORT",
+            "title_color": "#000"
+          }
+        },
+        "text_kGwLW8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<ul><li>Exclusive pricing for school partners<\/li><li>Dedicated business development manager<\/li><li>Comprehensive onboarding training for all staff, with annual refreshers<\/li><li>On-demand access to training materials via our online portal<\/li><\/ul>",
+            "text_color": "#000"
+          }
+        },
+        "heading_Fkky4y": {
+          "type": "heading",
+          "settings": {
+            "title": "KITS",
+            "title_color": "#000"
+          }
+        },
+        "text_tUCMFq": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<ul><li>Curated selection of Repechage bestsellers<\/li><li>Designed to meet state board requirements and essential facial protocols<\/li><li>Customizable to suit different skin types and conditions<\/li><li>Assists schools in managing inventory efficiently<\/li><\/ul>",
+            "text_color": "#000"
+          }
         }
       },
       "block_order": [
         "heading_HmKxJU",
-        "text_MfjXkR",
-        "text_xjTqra"
+        "text_xjTqra",
+        "heading_GCpF6n",
+        "text_kGwLW8",
+        "heading_Fkky4y",
+        "text_tUCMFq"
       ],
       "settings": {
         "align_text": "center",
