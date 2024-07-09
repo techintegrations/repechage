@@ -182,8 +182,8 @@
       "settings": {
         "title": "",
         "title_size": 80,
-        "subheading": "",
-        "link_text": "",
+        "subheading": "Sub heading",
+        "link_text": "Shoop",
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
