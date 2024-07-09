@@ -82,7 +82,7 @@
           "type": "heading",
           "settings": {
             "title": "CURRICULUM",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_xjTqra": {
@@ -90,14 +90,14 @@
           "settings": {
             "enlarge_text": true,
             "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.<\/li><li>Milady and Pivot Point overlay and resource guides designed for instructors.<\/li><li>Comprehensive library of online training materials and recorded webinars.<\/li><li>On-demand access to training materials through our online portal.<\/li><\/ul>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "heading_GCpF6n": {
           "type": "heading",
           "settings": {
             "title": "SUPPORT",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_kGwLW8": {
@@ -105,14 +105,14 @@
           "settings": {
             "enlarge_text": true,
             "text": "<ul><li>Exclusive pricing for school partners<\/li><li>Dedicated business development manager<\/li><li>Comprehensive onboarding training for all staff, with annual refreshers<\/li><li>On-demand access to training materials via our online portal<\/li><\/ul>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "heading_Fkky4y": {
           "type": "heading",
           "settings": {
             "title": "KITS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_tUCMFq": {
@@ -120,7 +120,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<ul><li>Curated selection of Repechage bestsellers<\/li><li>Designed to meet state board requirements and essential facial protocols<\/li><li>Customizable to suit different skin types and conditions<\/li><li>Assists schools in managing inventory efficiently<\/li><\/ul>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -145,6 +145,7 @@
     },
     "background_video_text_p9V9Ci": {
       "type": "background-video-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Impressive",
         "title": "Large video with text box",
@@ -156,6 +157,24 @@
         "layout": "left",
         "height": 550
       }
+    },
+    "featured_video_az9zwG": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
+        "show_full_width": false,
+        "divider": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 20,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "bg_color": "#000000"
+      }
     }
   },
   "order": [
@@ -163,6 +182,7 @@
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
     "rich_text_zWkNYL",
-    "background_video_text_p9V9Ci"
+    "background_video_text_p9V9Ci",
+    "featured_video_az9zwG"
   ]
 }
