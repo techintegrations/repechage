@@ -160,10 +160,10 @@
     },
     "featured_video_az9zwG": {
       "type": "featured-video",
-      "disabled": true,
       "settings": {
         "title": "",
-        "video_url": "https:\/\/vimeo.com\/981452271\/ec119b45ca",
+        "self_hosted_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0093cea73e514791a1e83a003264f6a6.mp4",
+        "video_url": "",
         "show_full_width": false,
         "divider": false,
         "padding_top": 20,
@@ -179,6 +179,7 @@
     },
     "hero_video_AejHXn": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "title": "",
         "title_size": 80,
