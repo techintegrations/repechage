@@ -179,6 +179,45 @@
   </template>
 
 
+
+  <script>
+  function updateProgressBar() {
+    $.ajax({
+      url: '/cart.js',
+      dataType: 'json',
+      success: function(cart) {
+        var progressThresholdDollars = {{ settings.cart_progress_threshold }};
+        var progressThreshold = progressThresholdDollars * 100;
+        var cartTotal = cart.total_price;
+        var progressPercentage = (cartTotal * 100) / progressThreshold;
+        if (progressPercentage > 100) {
+          progressPercentage = 100;
+        }
+
+        var remainingForGoal = progressThreshold - cartTotal;
+        if (remainingForGoal < 0) {
+          remainingForGoal = 0;
+        }
+        var remainingForGoalFormatted = Shopify.formatMoney(remainingForGoal);
+        var preGoalMessageTemplate = "{{ settings.cart_pre_goal_message }}";
+        var postGoalMessage = "{{ settings.cart_post_goal_message }}";
+        var dynamicPreGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingForGoalFormatted);
+
+        $('#cart-progress-bar').css('width', progressPercentage + '%');
+        if (remainingForGoal > 0) {
+          $('.goal-message').text(dynamicPreGoalMessage);
+        } else {
+          $('.goal-message').text(postGoalMessage);
+        }
+      }
+    });
+  }
+
+  $(document).ready(function() {
+    updateProgressBar();
+  });
+</script>
+
   
 </body>
 </html>
