@@ -2,7 +2,7 @@
   <div id="CartDrawer" class="drawer drawer--right">
 
 
-  {% render 'cart-progress-bar-custom' %}
+  
 
   
     <form id="CartDrawerForm" action="{{ routes.cart_url }}" method="post" novalidate class="drawer__contents" data-location="cart-drawer">
@@ -17,6 +17,9 @@
           </div>
         </div>
       </div>
+
+
+  {% render 'cart-progress-bar-custom' %}
 
       <div class="drawer__inner">
         <div class="drawer__scrollable">
