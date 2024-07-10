@@ -1873,13 +1873,12 @@ theme.recentlyViewed = {
             }));
           }.bind(this))
           .catch(function(XMLHttpRequest){});
+        
+      },
 
 
 
-
-
-
-        // Function to update progress bar
+      // Function to update progress bar
 updateProgressBar: function(cartTotal, itemCount) {
   const progressWrapper = document.getElementById('cart-progress-wrapper');
 
@@ -1937,10 +1936,6 @@ updateProgressBar: function(cartTotal, itemCount) {
     }
   }
 }
-
-        
-      },
-  
       /*============================================================================
         Update elements of the cart
       ==============================================================================*/
