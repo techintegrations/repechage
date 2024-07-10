@@ -22,7 +22,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "<p>Our Story<\/p>",
             "title_size": 80,
             "subheading": "",
             "link": "",
@@ -216,7 +216,7 @@
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
-        "title": "HE REPÊCHAGE DIFFERENCE",
+        "title": "THE REPÊCHAGE DIFFERENCE",
         "text": "<p>Most manufacturers of seaweed-based products use the oven drying method of processing. This method yields a product, which contains trace elements but may be deficient in vitamins and amino acids that are heat sensitive.This is where Repêchage makes all the difference. Once dried, the seaweed is packed and sent to our ISO 9001 certified manufacturing facility. There, by an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids, processed into the pure filtrate in small artisanal batches. You know when it’s a filtrate day---the whole facility smells like a day at the beach!<\/p><p>This filtrate is then properly refrigerated and stored for six months to allow the liquid to reach its full potency. Then, it is incorporated into the Repêchage products until the next harvest arrives. Nothing is purer or more effective at helping skin look and feel smoother and softer.<\/p>",
         "enlarge_text": false,
         "button_label": "",
@@ -241,7 +241,7 @@
           "type": "heading",
           "settings": {
             "title": "GOING FORWARD",
-            "title_color": "#ffffff"
+            "title_color": "#000000"
           }
         },
         "text_X44Pgz": {
@@ -249,7 +249,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p>In 2015, Charles Yarish, Ph.D., Professor, Department of Ecology & Evolutionary Biology and Department of Marine Sciences, University of Connecticut, Stamford, became a consultant to the Repêchage Board of Directors, working with David and I to create harvesting possibilities right in here the USA. As a leading environmentalist and aquaculturist, Dr. Yarish is sharing his research with us to help create sustainable, organic seaweed harvests that can benefit both us and the ocean.<\/p><p>It is like coming full circle: the sea has provided us with so much, and we need to give back in return. We invite everyone to enjoy our seaweed-based products. Welcome to Repêchage! Welcome to Beauty From the Sea!<\/p>",
-            "text_color": "#ffffff"
+            "text_color": "#000000"
           }
         }
       },
@@ -267,42 +267,6 @@
         "bg_color": "#000000",
         "divider": false
       }
-    },
-    "slideshow_ygKhMa": {
-      "type": "slideshow",
-      "blocks": {
-        "image_mMnQrm": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "\/pages\/science-of-seaweed-1",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/lydia-with-dolphin.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_mMnQrm"
-      ],
-      "settings": {
-        "show_container": false,
-        "section_height": "550px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
@@ -315,7 +279,6 @@
     "text_and_image_HgdtGa",
     "text_and_image_qMccT3",
     "text_and_image_DBrcgg",
-    "rich_text_9z3kw4",
-    "slideshow_ygKhMa"
+    "rich_text_9z3kw4"
   ]
 }
