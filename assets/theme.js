@@ -8355,6 +8355,7 @@ theme.recentlyViewed = {
 
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Function to update progress bar based on cart total
   function updateProgressBar(cartTotal, itemCount) {
     const progressWrapper = document.getElementById('cart-progress-wrapper');
     const progressBar = document.getElementById('cart-progress-bar');
@@ -8397,23 +8398,34 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Simulate fetching cart data
+  // Function to fetch cart data (replace with actual Shopify cart fetching logic)
   function fetchCartData() {
-    // This should be replaced with actual cart fetching logic
+    // Example implementation: Replace with actual Shopify cart fetching logic
     return {
-      total_price: 5000, // example cart total in cents
-      item_count: 3      // example item count
+      total_price: 5000, // Example cart total in cents
+      item_count: 3      // Example item count
     };
   }
 
-  // Initial load
-  const initialCartData = fetchCartData();
-  updateProgressBar(initialCartData.total_price, initialCartData.item_count);
+  // Function to initialize progress bar
+  function initializeProgressBar() {
+    const storedCartTotal = sessionStorage.getItem('cartTotal');
+    if (storedCartTotal) {
+      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+      updateProgressBar(cartData.total_price, cartData.item_count);
+    }
+  }
 
-  // Add event listeners if your theme supports dynamic updates
+  // Initial load
+  initializeProgressBar();
+
+  // Event listener for cart updates (replace with your actual event listener logic)
   document.addEventListener('cart:updated', function(event) {
     const updatedCartData = event.detail.cart;
     updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+
+    // Store updated cart total in sessionStorage
+    sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
 });
 
