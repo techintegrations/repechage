@@ -1,5 +1,10 @@
 {%- if settings.cart_type == 'drawer' -%}
   <div id="CartDrawer" class="drawer drawer--right">
+
+
+  {% render 'cart-progress-bar-custom' %}
+
+  
     <form id="CartDrawerForm" action="{{ routes.cart_url }}" method="post" novalidate class="drawer__contents" data-location="cart-drawer">
       <div class="drawer__fixed-header">
         <div class="drawer__header appear-animation appear-delay-1">
