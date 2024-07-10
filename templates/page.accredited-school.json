@@ -223,6 +223,37 @@
         "margin_bottom_m": 0,
         "bg_color": "#000000"
       }
+    },
+    "advanced_content_ihrYHw": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_XGbmdQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PowerLunch2017DA.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_rHkRzQ": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Repêchage Power Lunch<\/h2><p>Join us at Repechage Headquarters for a intimate conversation on how to truly create services and an environment that fosters clients needs to grow your business.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_XGbmdQ",
+        "liquid_rHkRzQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -231,6 +262,7 @@
     "text_and_image_JmjzCR",
     "text_with_icons_tynBh6",
     "rich_text_zWkNYL",
-    "featured_video_az9zwG"
+    "featured_video_az9zwG",
+    "advanced_content_ihrYHw"
   ]
 }
