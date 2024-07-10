@@ -8411,8 +8411,9 @@ document.addEventListener('DOMContentLoaded', function() {
   function initializeProgressBar() {
     const storedCartTotal = sessionStorage.getItem('cartTotal');
     if (storedCartTotal) {
+      const cartTotal = parseInt(storedCartTotal, 10);
       const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-      updateProgressBar(cartData.total_price, cartData.item_count);
+      updateProgressBar(cartTotal, cartData.item_count);
     }
   }
 
@@ -8428,4 +8429,5 @@ document.addEventListener('DOMContentLoaded', function() {
     sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
 });
+
 
