@@ -1832,13 +1832,6 @@ theme.recentlyViewed = {
           .then(function(cart) {
   
             const parsedCart = JSON.parse(cart);
-
-
-            const updatedCartTotal = parsedCart.total_price;
-            const itemCount = parsedCart.item_count;
-            this.updateProgressBar(updatedCartTotal, itemCount);
-
-            
   
             if (parsedCart.status === 422) {
               alert(parsedCart.message);
@@ -1873,69 +1866,8 @@ theme.recentlyViewed = {
             }));
           }.bind(this))
           .catch(function(XMLHttpRequest){});
-        
       },
-
-
-
-      // Function to update progress bar
-updateProgressBar: function(cartTotal, itemCount) {
-  const progressWrapper = document.getElementById('cart-progress-wrapper');
-
-  // Ensure progressWrapper and other necessary elements exist
-  if (!progressWrapper) {
-    return;
-  }
-
-  // Your existing logic for updating the progress bar
-  // Example logic:
-  const moneyFormat = progressWrapper.dataset.moneyFormat;
-  const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
-  const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
-  const postGoalMessage = progressWrapper.dataset.postGoalMessage;
-
-  const progressBar = document.getElementById('cart-progress-bar');
-  const goalMessageElement = document.querySelector('.goal-message');
-
-  if (itemCount === 0 || cartTotal === 0) {
-    if (progressWrapper) {
-      progressWrapper.style.display = 'none';
-    }
-    if (goalMessageElement) {
-      goalMessageElement.style.display = 'none';
-    }
-  } else {
-    if (progressWrapper) {
-      progressWrapper.style.display = 'block'; 
-    }
-    if (progressBar) {
-      progressBar.style.display = 'block';
-      const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
-      progressBar.style.width = `${progressPercentage}%`;
-
-      if (progressPercentage >= 100) {
-        progressWrapper.classList.add('full');
-      } else {
-        progressWrapper.classList.remove('full');
-      }
-    }
   
-    if (goalMessageElement) {
-      goalMessageElement.style.display = 'block';
-      let remainingForGoal = progressThreshold - cartTotal;
-  
-      if (remainingForGoal < 0) {
-        remainingForGoal = 0;
-      }
-  
-      const remainingAmount = remainingForGoal / 100;
-      const remainingAmountFormatted = moneyFormat.replace('{{amount}}', remainingAmount.toFixed(2));
-      const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
-
-      goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
-    }
-  }
-}
       /*============================================================================
         Update elements of the cart
       ==============================================================================*/
