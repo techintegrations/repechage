@@ -5,6 +5,7 @@
   {% assign preGoalMessageTemplate = settings.cart_pre_goal_message %}
   {% assign postGoalMessage = settings.cart_post_goal_message %}
 
+
   {% assign cartTotal = cart.total_price %} 
   {% assign progressPercentage = cartTotal | times: 100 | divided_by: progressThreshold %}
   {% if progressPercentage > 100 %}
@@ -23,7 +24,6 @@
     data-threshold="{{ progressThreshold }}" 
     data-pre-goal-message-template="{{ preGoalMessageTemplate | escape }}"
     data-post-goal-message="{{ postGoalMessage | escape }}"
-		data-money-format="{{ shop.money_format | escape }}"
   >
     <div class="cart-progress-bar-container">
       <div id="cart-progress-bar" style="width: {{ progressPercentage }}%;"></div>
@@ -68,7 +68,7 @@
     text-align: center;
     margin: 2px auto 10px;
     font-size: 1em;
-    color: {{ settings.cart_progress_bar_text_color }};
+    color: #333;
   }
 
 </style>
