@@ -224,35 +224,92 @@
         "bg_color": "#000000"
       }
     },
-    "advanced_content_ihrYHw": {
-      "type": "advanced-content",
+    "text_with_icons_di3kUp": {
+      "type": "text-with-icons",
       "blocks": {
-        "image_XGbmdQ": {
-          "type": "image",
+        "text_block_ppR3HM": {
+          "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PowerLunch2017DA.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "gift",
+            "title": "FREE SAMPLES",
+            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>",
+            "link_text": "",
+            "link": ""
           }
         },
-        "liquid_rHkRzQ": {
-          "type": "liquid",
+        "text_block_JbATXK": {
+          "type": "text_block",
           "settings": {
-            "code": "<h2>Repêchage Power Lunch<\/h2><p>Join us at Repechage Headquarters for a intimate conversation on how to truly create services and an environment that fosters clients needs to grow your business.<\/p>",
-            "width": "50%",
-            "alignment": "center"
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "truck",
+            "title": "FREE SHIPPING",
+            "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_UNa4hy": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "bills",
+            "title": "HASSLE FREE RETURNS",
+            "text": "<p>Enjoy hassle-free returns for a worry-free shopping experience!<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_8fPjcD": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "concierge Service",
+            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_RbXgW9": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify:\/\/shop_images\/Afterpay_Logo_Black-364x70-66065f7.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "",
+            "text": "<p>Flexible Payment<br\/>(via Afterpay)<\/p>",
+            "link_text": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "image_XGbmdQ",
-        "liquid_rHkRzQ"
+        "text_block_ppR3HM",
+        "text_block_JbATXK",
+        "text_block_UNa4hy",
+        "text_block_8fPjcD",
+        "text_block_RbXgW9"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "divider": false
       }
     }
   },
@@ -263,6 +320,6 @@
     "text_with_icons_tynBh6",
     "rich_text_zWkNYL",
     "featured_video_az9zwG",
-    "advanced_content_ihrYHw"
+    "text_with_icons_di3kUp"
   ]
 }
