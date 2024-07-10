@@ -36,36 +36,36 @@
 
 
 <style>
-  .cart-progress-bar-container {
-    width: 100%;
-    background-color: #eee;
-    border-radius: 10px;
-    margin: 2px auto;
-    padding: 1px; 
-    overflow: hidden; 
-  }
+.cart-progress-bar-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 2px auto;
+  padding: 1px; 
+  overflow: hidden; 
+}
 
-  #cart-progress-bar {
-    display: block;
-    height: 10px;
-    background-color: var(--progress-bar-color, {{ settings.cart_progress_bar_color }}); /* Default color */
-    border-radius: 2px;
-    transition: width 0.5s ease-in-out;
-    border: 1px solid var(--progress-bar-border-color, {{ settings.cart_progress_bar_color }}); 
-    padding: 5px 0;
-    box-sizing: border-box;
-  }
+#cart-progress-bar {
+  display: block;
+  height: 10px;
+  background-color: var(--progress-bar-color, {{ settings.cart_progress_bar_color }}); 
+  border-radius: 2px;
+  transition: width 0.5s ease-in-out;
+  border: 1px solid var(--progress-bar-border-color, {{ settings.cart_progress_bar_color }}); 
+  padding: 5px 0;
+  box-sizing: border-box;
+}
 
-  #cart-progress-wrapper.full #cart-progress-bar {
-    --progress-bar-color: {{ settings.cart_progress_bar_full_color }};
-    --progress-bar-border-color: {{ settings.cart_progress_bar_full_color }};
-  }
-  
-  .goal-message {
-    text-align: center;
-    margin: 2px auto 10px;
-    font-size: 1em;
-    color: #333;
-  }
+#cart-progress-wrapper.full #cart-progress-bar {
+  --progress-bar-color: {{ settings.cart_progress_bar_full_color }};
+  --progress-bar-border-color: {{ settings.cart_progress_bar_full_color }};
+}
+
+.goal-message {
+  text-align: center;
+  margin: 2px auto 10px;
+  font-size: 1em;
+  color: #333;
+}
 
 </style>
