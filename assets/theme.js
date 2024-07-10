@@ -8352,3 +8352,68 @@ theme.recentlyViewed = {
   });
 
 })();
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  function updateProgressBar(cartTotal, itemCount) {
+    const progressWrapper = document.getElementById('cart-progress-wrapper');
+    const progressBar = document.getElementById('cart-progress-bar');
+    const goalMessageElement = document.querySelector('.goal-message');
+
+    if (!progressWrapper || !progressBar || !goalMessageElement) {
+      console.error('Progress bar elements not found');
+      return;
+    }
+
+    const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+    const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+    const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+
+    if (itemCount === 0 || cartTotal === 0) {
+      progressWrapper.style.display = 'none';
+      goalMessageElement.style.display = 'none';
+    } else {
+      progressWrapper.style.display = 'block'; 
+      progressBar.style.display = 'block';
+      const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
+      progressBar.style.width = `${progressPercentage}%`;
+
+      if (progressPercentage >= 100) {
+        progressWrapper.classList.add('full');
+      } else {
+        progressWrapper.classList.remove('full');
+      }
+
+      goalMessageElement.style.display = 'block';
+      let remainingForGoal = progressThreshold - cartTotal;
+
+      if (remainingForGoal < 0) {
+        remainingForGoal = 0;
+      }
+
+      const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
+      const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
+      goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
+    }
+  }
+
+  // Simulate fetching cart data
+  function fetchCartData() {
+    // This should be replaced with actual cart fetching logic
+    return {
+      total_price: 5000, // example cart total in cents
+      item_count: 3      // example item count
+    };
+  }
+
+  // Initial load
+  const initialCartData = fetchCartData();
+  updateProgressBar(initialCartData.total_price, initialCartData.item_count);
+
+  // Add event listeners if your theme supports dynamic updates
+  document.addEventListener('cart:updated', function(event) {
+    const updatedCartData = event.detail.cart;
+    updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+  });
+});
+
