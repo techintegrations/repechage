@@ -1832,6 +1832,20 @@ theme.recentlyViewed = {
           .then(function(cart) {
   
             const parsedCart = JSON.parse(cart);
+
+
+            // Call updateProgressBar with updated cart total and item count
+            const updatedCartTotal = parsedCart.total_price;
+            const itemCount = parsedCart.item_count;
+            this.updateProgressBar(updatedCartTotal, itemCount);
+        
+            // Return cart for further handling if needed
+            return cart;
+          }.bind(this))
+          .catch(function(error) {
+            console.error('Error updating cart:', error);
+          });
+                
   
             if (parsedCart.status === 422) {
               alert(parsedCart.message);
