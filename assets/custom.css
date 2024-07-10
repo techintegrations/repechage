@@ -890,6 +890,12 @@
     margin: 0px;
 }
 
+body.template-cart #cart-progress-wrapper {
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+}
+
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
