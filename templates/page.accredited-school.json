@@ -107,7 +107,7 @@
           "settings": {
             "select_icon": "icon",
             "custom_icon": "",
-            "icon": "chat",
+            "icon": "gift",
             "title": "KITS",
             "text": "<ul><li>Curated selection of Repechage bestsellers<\/li><li>Designed to meet state board requirements and essential facial protocols<\/li><li>Customizable to suit different skin types and conditions<\/li><li>Assists schools in managing inventory efficiently<\/li><\/ul>",
             "link_text": "",
@@ -124,7 +124,7 @@
         "title": "",
         "align_text": "left",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "block_bg_color": "rgba(0,0,0,0)",
         "button_label": "",
         "button_link": "",
