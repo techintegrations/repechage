@@ -22,8 +22,8 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "<p>SCIENCE OF SEAWEED<\/p>",
-            "title_size": 48,
+            "title": "<p>The SCIENCE OF SEAWEED<\/p>",
+            "title_size": 83,
             "subheading": "",
             "link": "",
             "link_text": "",
@@ -273,6 +273,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
+        "self_hosted_video": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=DaEf_dMxDW8",
         "show_full_width": false,
         "divider": false,
