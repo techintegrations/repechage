@@ -81,7 +81,7 @@
         "text_block_nYpki7": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_svg_icon",
             "custom_icon": "",
             "icon": "bills",
             "title": "CURRICULUM",
@@ -93,7 +93,7 @@
         "text_block_ciXAt3": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_svg_icon",
             "custom_icon": "",
             "icon": "chat",
             "title": "SUPPORT",
@@ -105,7 +105,7 @@
         "text_block_yN8wyw": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_svg_icon",
             "custom_icon": "",
             "icon": "gift",
             "title": "KITS",
