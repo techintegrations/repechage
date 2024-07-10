@@ -910,12 +910,12 @@
         "default": "#d53600",
         "info": "Color of the progress bar when complete."
       },
-	  {
-	    "type": "color",
-	    "id": "cart_progress_bar_text_color",
-	    "label": "Progress Bar Text Color",
-	    "default": "#333"
-	  }
+      {
+        "type": "color",
+        "id": "cart_progress_bar_text_color",
+        "label": "Progress Bar Text Color",
+        "default": "#333"
+      }
     ]
   },
   {
