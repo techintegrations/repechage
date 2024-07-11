@@ -27,6 +27,8 @@
     </div>
   {%- endif -%}
 <div class="video-wrapper">
+
+  {{ section.settings.video_url.type }}
   {% if section.settings.self_hosted_video != blank %}
     <video width="100%" height="480" controls>
       <source src="{{ section.settings.self_hosted_video }}" type="video/mp4">
