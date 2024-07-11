@@ -35,7 +35,7 @@
        {%- else -%}
 
       {%- assign vimeo_video_id = section.settings.video_url | split: '/' | last | split: '?' | first -%}
-      <iframe src="//player.vimeo.com/video/{{ vimeo_video_id }}" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+     <iframe src="//player.vimeo.com/video/{{ section.settings.video_url.id }}?color={{ settings.color_button | remove: "#" }}&byline=0&portrait=0&badge=0" width="850" height="480" frameborder="0" allowfullscreen></iframe>
       
         {%- if section.settings.video_url == blank -%}
           <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
