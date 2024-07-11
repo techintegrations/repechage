@@ -36,7 +36,7 @@
     {% if section.settings.video_url == blank %}
       <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
     {% else %}
-      {{ section.settings.video_url }}
+      {{ section.settings.video_url }} <!-- Add this line to debug -->
       {% if section.settings.video_url.type == "youtube" %}
         <iframe src="//www.youtube.com/embed/{{ section.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
       {% endif %}
