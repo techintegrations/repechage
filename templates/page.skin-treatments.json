@@ -75,7 +75,7 @@
         "image_mask": "portrait",
         "image2_mask": "portrait",
         "show_sticky_text": false,
-        "subtitle": "For All Skin Types",
+        "subtitle": "SIGNATURE TREATMENT",
         "title": "FOUR-LAYER FACIAL",
         "text": "<p>Our premier facial treatment. Experience layer upon layer of pure, fresh, sustainably-harvested<br\/>seaweed to help tone, deep cleanse and frm the appearance of the skin dramatically. <\/p><p>Enjoy two facial massages and a cool seaweed mask, followed by a mineral-rich thermal mask that allows for total relaxation and a glowing complexion. Every step of the facial is a uni-dose preparation only opened and used at the time of the application for accuracy and sanitiation.<\/p>",
         "enlarge_text": false,
@@ -94,6 +94,40 @@
         "lazyload_images": true
       }
     },
+    "rich_text_nkFFKc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QMpPrn": {
+          "type": "heading",
+          "settings": {
+            "title": "ANTI-AGING TREATMENTS",
+            "title_color": "#000"
+          }
+        },
+        "text_6jCn7H": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QMpPrn",
+        "text_6jCn7H"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "text_columns_iV8iDy": {
       "type": "text-columns",
       "blocks": {
@@ -101,13 +135,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/seaweed-drying.png",
+            "image": "shopify:\/\/shop_images\/Seaweed_Mask.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "preheading": "Preheading",
-            "title": "Example title",
+            "preheading": "For All Skin Types",
+            "title": "seaweed treatment",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "LOCATE A SPA",
             "button_link": "shopify:\/\/collections\/all"
           }
         },
@@ -115,13 +149,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/seaweed-drying.png",
+            "image": "shopify:\/\/shop_images\/biolight-facial.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "preheading": "Preheading",
-            "title": "Example title",
+            "preheading": "For Uneven Skin Tone",
+            "title": "biolight miracle facial with glyco-sea peel",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "LOCATE A SPA",
             "button_link": "shopify:\/\/collections\/all"
           }
         },
@@ -129,13 +163,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/seaweed-drying.png",
+            "image": "shopify:\/\/shop_images\/VC_STEP_4__300_2.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "preheading": "Preheading",
-            "title": "Example title",
+            "preheading": "For Smoother, Younger Looking Skin",
+            "title": "Vita Cura 5 phase firming facial with micropeel",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "LOCATE A SPA",
             "button_link": "shopify:\/\/collections\/all"
           }
         }
@@ -173,6 +207,7 @@
     "1719330332db78ebfd",
     "rich_text_HVXhXe",
     "text_and_image_H4kBCt",
+    "rich_text_nkFFKc",
     "text_columns_iV8iDy"
   ]
 }
