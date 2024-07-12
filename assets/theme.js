@@ -8358,7 +8358,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to update progress bar based on cart total
   function updateProgressBar(cartTotal, itemCount) {
     const progressWrappers = document.getElementsByClassName('cart-progress-wrapper');
-    const progressBars = document.getElementsByClassName('cart-progress-bar');
+    const progressBar = document.getElementsByClassName('cart-progress-bar');
     const goalMessageElement = document.querySelector('.goal-message');
 
     if (!progressWrapper || !progressBar || !goalMessageElement) {
