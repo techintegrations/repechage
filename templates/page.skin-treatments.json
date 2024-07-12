@@ -142,7 +142,7 @@
             "title": "seaweed treatment",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "LOCATE A SPA",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/pages\/locate-a-spa"
           }
         },
         "text_block_nLVmtr": {
@@ -156,7 +156,7 @@
             "title": "biolight miracle facial with glyco-sea peel",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "LOCATE A SPA",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": ""
           }
         },
         "text_block_phkFa8": {
@@ -207,7 +207,7 @@
         "heading_mcpCHA": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "purifying deep pore cleansing facials",
             "title_color": "#000"
           }
         },
@@ -245,7 +245,7 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
+            "title": "hydra medic facial with desicrustation",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
@@ -258,7 +258,7 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
+            "title": "t-zone balance classic facial",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
@@ -271,7 +271,7 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
+            "title": "classic european facial",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
@@ -298,8 +298,8 @@
         "text_color": "#000",
         "button_link_color": "#000",
         "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "divider": false
