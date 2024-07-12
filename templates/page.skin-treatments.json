@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -32,10 +33,94 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_HVXhXe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AkdNDh": {
+          "type": "heading",
+          "settings": {
+            "title": "Professional Skincare treatments",
+            "title_color": "#000"
+          }
+        },
+        "text_9U4eNC": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Discover in-office professional treatments and learn how to enhance results with Repechage product pairings.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AkdNDh",
+        "text_9U4eNC"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "custom_image_with_info_MerjMj": {
+      "type": "custom__image-with-info",
+      "blocks": {
+        "text_block_F8b4Lr": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_xVyxMe": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_r3hdEQ": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_F8b4Lr",
+        "text_block_xVyxMe",
+        "text_block_r3hdEQ"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "padding_top_m": 40,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "rich_text_HVXhXe",
+    "custom_image_with_info_MerjMj"
   ]
 }

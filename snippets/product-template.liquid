@@ -151,8 +151,8 @@
 
               {%- if sku_enable -%}
               <p data-weight class="product-single__weight">
-                {%- if current_variant.weight -%}
-                  Weight: {{ current_variant.weight | weight_with_unit }}
+                {%- if product.metafields.custom.weight != blank -%}
+                  Weight: {{ product.metafields.custom.weight }}
                 {%- endif -%}
               </p>
               {%- endif -%}
