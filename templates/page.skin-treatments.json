@@ -349,12 +349,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/HDP-Facial2.png",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
             "title": "hydra dew pure moisturizing lift facial",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "FIND A SPA",
             "button_link": ""
           }
         },
@@ -362,12 +363,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/RED_OUT_STEP4_300dpi.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
             "title": "hydra 4 red out facial",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "FIND A SPA",
             "button_link": ""
           }
         },
@@ -375,12 +377,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2019-04_08_FB_Instagram.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
             "title": "red out express soothing facial",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "FIND A SPA",
             "button_link": ""
           }
         }
