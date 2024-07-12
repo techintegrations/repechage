@@ -139,7 +139,6 @@
                 </h1>
               {%- endif -%}
 
-              {%- if sku_enable -%}
               <div class="sku-weight">
               {%- if sku_enable -%}
                 <p data-sku class="product-single__sku">
@@ -149,15 +148,12 @@
                 </p>
               {%- endif -%}
 
-              {%- if sku_enable -%}
+              {%- if product.metafields.custom.weight != blank -%}
               <p data-weight class="product-single__weight">
-                {%- if product.metafields.custom.weight != blank -%}
                   Weight: {{ product.metafields.custom.weight }}
-                {%- endif -%}
               </p>
               {%- endif -%}
               </div>
-              {%- endif -%}
   
               </div>
 
