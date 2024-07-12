@@ -93,12 +93,75 @@
         "divider": false,
         "lazyload_images": true
       }
+    },
+    "text_columns_iV8iDy": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_daNBf9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_9k4mTP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_nGedn8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_daNBf9",
+        "text_block_9k4mTP",
+        "text_block_nGedn8"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "1719330332db78ebfd",
     "rich_text_HVXhXe",
-    "text_and_image_H4kBCt"
+    "text_and_image_H4kBCt",
+    "text_columns_iV8iDy"
   ]
 }
