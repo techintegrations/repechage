@@ -256,6 +256,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/T-Zone-Facial-Repechage.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
@@ -269,6 +270,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Classic_STEP_3_300_high_res.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
