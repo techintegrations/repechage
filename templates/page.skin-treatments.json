@@ -307,6 +307,110 @@
         "padding_bottom_m": 0,
         "divider": false
       }
+    },
+    "rich_text_Fgp3Qc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AxqGXL": {
+          "type": "heading",
+          "settings": {
+            "title": "sensitive skin treatments",
+            "title_color": "#000"
+          }
+        },
+        "text_XNTkjq": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AxqGXL",
+        "text_XNTkjq"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 21,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "text_columns_ktCiCi": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_TphijP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "hydra dew pure moisturizing lift facial",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_b7W6iF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "hydra 4 red out facial",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_iUaLky": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "red out express soothing facial",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_TphijP",
+        "text_block_b7W6iF",
+        "text_block_iUaLky"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -317,6 +421,8 @@
     "rich_text_nkFFKc",
     "text_columns_iV8iDy",
     "rich_text_YJVYMV",
-    "text_columns_mCMAmM"
+    "text_columns_mCMAmM",
+    "rich_text_Fgp3Qc",
+    "text_columns_ktCiCi"
   ]
 }
