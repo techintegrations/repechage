@@ -151,6 +151,7 @@
         "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 2,
         "block_align_text": "left",
+        "button_style": "link",
         "bg_color": "",
         "padding_top": 70,
         "padding_bottom": 70,
