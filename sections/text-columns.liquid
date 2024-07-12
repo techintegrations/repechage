@@ -74,7 +74,7 @@
           <h3>{{ block.settings.title }}</h3>
         {%- endif -%}
         {%- if block.settings.text != blank -%}
-          <div class="rte-setting text-spacing">{{ block.settings.text }}</div>
+          <div class="info rte-setting text-spacing">{{ block.settings.text }}</div>
         {%- endif -%}
         {%- if block.settings.button_label != blank -%}
           <div class="grid__item-button {% if section.settings.button_style == 'link' %}rte{% endif %}">
@@ -330,8 +330,7 @@
         {
           "type": "text",
           "id": "preheading",
-          "label": "Preheading",
-          "default": "Preheading"
+          "label": "Preheading"
         },
         {
           "type": "text",
