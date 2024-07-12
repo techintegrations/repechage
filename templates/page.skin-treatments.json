@@ -101,49 +101,49 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-07-02_at_7.37.52_AM.png",
+            "image": "shopify:\/\/shop_images\/seaweed-drying.png",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "Preheading",
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/all"
           }
         },
-        "text_block_9k4mTP": {
+        "text_block_nLVmtr": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-07-02_at_7.37.52_AM.png",
+            "image": "shopify:\/\/shop_images\/seaweed-drying.png",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "Preheading",
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/all"
           }
         },
-        "text_block_nGedn8": {
+        "text_block_phkFa8": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-07-02_at_7.37.52_AM.png",
+            "image": "shopify:\/\/shop_images\/seaweed-drying.png",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "Preheading",
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
         "text_block_daNBf9",
-        "text_block_9k4mTP",
-        "text_block_nGedn8"
+        "text_block_nLVmtr",
+        "text_block_phkFa8"
       ],
       "settings": {
         "title": "",
