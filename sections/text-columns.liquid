@@ -74,9 +74,11 @@
           <div class="rte-setting text-spacing">{{ block.settings.text }}</div>
         {%- endif -%}
         {%- if block.settings.button_label != blank -%}
-          <a href="{{ block.settings.button_link }}" class="btn btn--medium">
-            {{ block.settings.button_label }}
-          </a>
+          <div class="text-columns-buttons">
+            <a href="{{ block.settings.button_link }}" class="btn btn--medium">
+              {{ block.settings.button_label }}
+            </a>
+          </div>
         {%- endif -%}
       </div>
     {%- endfor -%}
