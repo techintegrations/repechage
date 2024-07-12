@@ -8357,8 +8357,8 @@ theme.recentlyViewed = {
 document.addEventListener('DOMContentLoaded', function() {
   // Function to update progress bar based on cart total
   function updateProgressBar(cartTotal, itemCount) {
-    const progressWrapper = document.getElementsByClassName('cart-progress-wrapper');
-    const progressBar = document.getElementsByClassName('cart-progress-bar');
+    const progressWrapper = document.getElementById('cart-progress-wrapper');
+    const progressBar = document.getElementById('cart-progress-bar');
     const goalMessageElement = document.querySelector('.goal-message');
 
     if (!progressWrapper || !progressBar || !goalMessageElement) {
