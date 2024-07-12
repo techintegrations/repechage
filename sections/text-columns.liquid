@@ -10,6 +10,23 @@
       width: calc(100% / {{ section.settings.desktop_columns_per_row }});
   }
 
+  .text-columns-with-images-section .grid__item .preheading {
+      color: red;
+  }
+  
+  .text-columns-with-images-section .grid__item h3 {
+      color: green;
+  }
+  
+  .text-columns-with-images-section .grid__item .grid__item-button.rte .link {
+      color: red;
+  }
+  
+  .text-columns-with-images-section .grid__item .info {
+      color: orange;
+  }
+
+
 
   @media screen and (max-width:768px){
     #shopify-section-{{section.id}} {
@@ -200,6 +217,30 @@
           "label": "Link"
         }
       ]
+    },
+    {
+      "type": "header",
+      "content": "Block text color"
+    },
+    {
+      "type": "color",
+      "id": "preheading_color",
+      "label": "Prehading color"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "button_link_color",
+      "label": "Button link color"
     },
     {
       "type": "color",
