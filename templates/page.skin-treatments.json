@@ -71,9 +71,9 @@
     "text_and_image_H4kBCt": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/four_layer.webp",
-        "image_mask": "none",
-        "image2_mask": "none",
+        "image": "shopify:\/\/shop_images\/4-layer.jpg",
+        "image_mask": "portrait",
+        "image2_mask": "portrait",
         "show_sticky_text": false,
         "subtitle": "For All Skin Types",
         "title": "FOUR-LAYER FACIAL",
