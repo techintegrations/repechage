@@ -15,8 +15,7 @@
   {% assign remainingForGoalFormatted = remainingForGoal | money %}
   {% assign dynamicPreGoalMessage = preGoalMessageTemplate | replace: '[remainingForGoalFormatted]', remainingForGoalFormatted %}
 
-  <div id="cart-progress-wrapper" 
-    class="cart-progress-wrapper {% if progressPercentage == 100 %}full{% else %}not-full{% endif %}"
+  <div id="cart-progress-wrapper" class="cart-progress-wrapper {% if progressPercentage == 100 %}full{% else %}not-full{% endif %}"
     data-threshold="{{ progressThreshold }}" 
     data-pre-goal-message-template="{{ preGoalMessageTemplate | escape }}"
     data-post-goal-message="{{ postGoalMessage | escape }}"
