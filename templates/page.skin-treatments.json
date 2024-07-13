@@ -141,7 +141,7 @@
             "preheading": "For All Skin Types",
             "title": "seaweed treatment",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "Find A Spa",
             "button_link": ""
           }
         },
@@ -155,7 +155,7 @@
             "preheading": "For Uneven Skin Tone",
             "title": "biolight miracle facial with glyco-sea peel",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "Find A Spa",
             "button_link": ""
           }
         },
@@ -169,7 +169,7 @@
             "preheading": "For Smoother, Younger Looking Skin",
             "title": "Vita Cura 5 phase firming facial with micropeel",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "Find A Spa",
             "button_link": ""
           }
         }
@@ -198,79 +198,6 @@
         "padding_bottom": 60,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
-        "divider": false
-      }
-    },
-    "text_columns_iV8iDy": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_daNBf9": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Seaweed_Mask.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "For All Skin Types",
-            "title": "seaweed treatment",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "LOCATE A SPA",
-            "button_link": "shopify:\/\/pages\/locate-a-spa"
-          }
-        },
-        "text_block_nLVmtr": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/biolight-facial.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "For Uneven Skin Tone",
-            "title": "biolight miracle facial with glyco-sea peel",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "LOCATE A SPA",
-            "button_link": ""
-          }
-        },
-        "text_block_phkFa8": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/VC_STEP_4__300_2.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "For Smoother, Younger Looking Skin",
-            "title": "Vita Cura 5 phase firming facial with micropeel",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "LOCATE A SPA",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_daNBf9",
-        "text_block_nLVmtr",
-        "text_block_phkFa8"
-      ],
-      "settings": {
-        "title": "",
-        "text": "",
-        "align_text": "center",
-        "button_label": "",
-        "button_link": "",
-        "desktop_columns_per_row": 3,
-        "mobile_columns_per_row": 2,
-        "block_align_text": "left",
-        "button_style": "link",
-        "preheading_color": "#000000",
-        "heading_color": "#000000",
-        "text_color": "#000000",
-        "button_link_color": "#000000",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 70,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
         "divider": false
       }
     },
@@ -496,7 +423,6 @@
     "text_and_image_H4kBCt",
     "rich_text_nkFFKc",
     "text_columns_VeD6dA",
-    "text_columns_iV8iDy",
     "rich_text_YJVYMV",
     "text_columns_mCMAmM",
     "rich_text_Fgp3Qc",
