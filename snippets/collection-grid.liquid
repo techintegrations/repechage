@@ -69,13 +69,16 @@ Snippet Arguments
   </div>
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
+    
     {%- for item in items -%}
       {%- if item.object_type == 'product' -%}
-        {%- render 'product-grid-item',
-          product: item,
-          per_row: per_row,
-          quick_shop_enable: quick_shop_enable
-        -%}
+        {%- if item.metafields.custom.sample_product != true -%}
+          {%- render 'product-grid-item',
+            product: item,
+            per_row: per_row,
+            quick_shop_enable: quick_shop_enable
+          -%}
+        {%- endif -%}
       {%- else -%}
         {%- render 'search-grid-item',
           item: item,
@@ -83,6 +86,7 @@ Snippet Arguments
         %}
       {%- endif -%}
     {%- endfor -%}
+
   </div>
 </div>
 
