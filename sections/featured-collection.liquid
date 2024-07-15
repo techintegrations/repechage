@@ -94,17 +94,23 @@
 
         {%- else -%}
 
-          {%- for product in collections[section.settings.home_featured_products].products limit: product_limit -%}
-            {%- if product.metafields.custom.sample_product != true -%}
-              {%- render 'product-grid-item',
-                product: product,
-                collection: collection,
-                per_row: per_row,
-                quick_shop_enable: settings.quick_shop_enable,
-                fallback: fallback,
-              -%}
-            {%- endif -%}
-          {%- endfor -%}
+          {%- assign displayed_products = 0 -%}
+            {%- for product in collections[section.settings.home_featured_products].products -%}
+              {%- if product.metafields.custom.sample_product != true -%}
+                {%- render 'product-grid-item',
+                  product: product,
+                  collection: collection,
+                  per_row: per_row,
+                  quick_shop_enable: settings.quick_shop_enable,
+                  fallback: fallback,
+                -%}
+                {%- assign displayed_products = displayed_products | plus: 1 -%}
+              {%- endif -%}
+              {%- if displayed_products >= product_limit -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+
 
 
           {%- if section.settings.view_all -%}
