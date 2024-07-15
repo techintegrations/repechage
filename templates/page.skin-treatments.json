@@ -41,7 +41,7 @@
           "type": "heading",
           "settings": {
             "title": "Professional Skincare treatments",
-            "title_color": "#ffffff"
+            "title_color": "#2b2a27"
           }
         },
         "text_9U4eNC": {
@@ -49,7 +49,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Discover in-office professional treatments and learn how to enhance results with Repechage product pairings.<\/p>",
-            "text_color": "#ffffff"
+            "text_color": "#1c1d1d"
           }
         }
       },
@@ -64,7 +64,7 @@
         "padding_bottom": 60,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
-        "bg_color": "#000000",
+        "bg_color": "#ffffff",
         "divider": false
       }
     },
