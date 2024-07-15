@@ -73,6 +73,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/4-layer.jpg",
         "image_mask": "portrait",
+        "image2": "shopify:\/\/shop_images\/4-Layer-Mask-Early-Cut.jpg",
         "image2_mask": "portrait",
         "show_sticky_text": false,
         "subtitle": "SIGNATURE TREATMENT",
