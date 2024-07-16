@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -32,10 +33,42 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "advanced_content_cgTmbN": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_FMpL3j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/T-Zone-PGA-SPA-30192.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_9UN74m": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Featured Spas<\/h2><p>Discover the luxury and effectiveness of Repechage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Paris, Tokyo, or any other major city, Repechage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repechage difference, no matter where you are in the world.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_FMpL3j",
+        "liquid_9UN74m"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "advanced_content_cgTmbN"
   ]
 }
