@@ -212,8 +212,8 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "self_hosted_video": "",
-        "video_url": "https:\/\/vimeo.com\/971955436",
+        "self_hosted_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/04d8877d1a3446fda3ba77d04b0c2b2e.mp4",
+        "video_url": "",
         "show_full_width": false,
         "divider": false,
         "padding_top": 70,
