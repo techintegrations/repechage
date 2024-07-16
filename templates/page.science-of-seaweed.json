@@ -20,6 +20,7 @@
       "blocks": {
         "image_AUVHH4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>The SCIENCE OF SEAWEED<\/p>",
@@ -40,6 +41,7 @@
       "block_order": [
         "image_AUVHH4"
       ],
+      "disabled": true,
       "settings": {
         "show_container": false,
         "section_height": "550px",
@@ -66,8 +68,8 @@
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
+        "image_width": "33",
+        "layout": "left",
         "bg_color": "",
         "padding_top": 70,
         "padding_bottom": 70,
@@ -205,10 +207,10 @@
         "mobile_columns_per_row": 1,
         "block_align_text": "left",
         "button_style": "solid",
-        "preheading_color": "#000",
-        "heading_color": "#000",
-        "text_color": "#000",
-        "button_link_color": "#000",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 70,
         "padding_bottom": 0,
