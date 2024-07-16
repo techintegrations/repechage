@@ -72,7 +72,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/4-layer.jpg",
-        "image_mask": "portrait",
+        "image_mask": "square",
         "image2_mask": "portrait",
         "show_sticky_text": false,
         "subtitle": "SIGNATURE TREATMENT",
