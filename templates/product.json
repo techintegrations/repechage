@@ -90,17 +90,7 @@
           "type": "product_list",
           "settings": {
             "product_list_heading": "Complete the Regime",
-            "product_list": [
-              "algo-mist-hydrating-seaweed-facial-spray-travel-size",
-              "algo-mist-hydrating-seaweed-facial-spray-2",
-              "biolight-brightening-overnight-cream",
-              "biolight-brightening-serum",
-              "biolight-brightening-sheet-mask-single-sheet-mask",
-              "biolight-brightening-toner",
-              "biolight-express-brightening-facial",
-              "biolight-frost-bright-eye-contour-gel",
-              "biolight-frost-bright-eye-contour-gel-sample"
-            ],
+            "product_list": "{{ product.metafields.custom.complete_the_regime.value }}",
             "per_row": "1",
             "product_limit": 3
           }
