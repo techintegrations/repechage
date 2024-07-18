@@ -15,7 +15,7 @@
             </h3>
             <ul role="listbox" aria-labelledby="predictive-search-queries">
               {%- for query in predictive_search.resources.queries -%}
-                <li role="option 11">
+                <li role="option">
                   <a href="{{ query.url }}">
                     <span>{{ query.styled_text }}</span>
                   </a>
@@ -76,7 +76,7 @@
 
       <div class="results__group-2">
         {%- if predictive_search.resources.products.size > 0 -%}
-          <div class="results results--products">
+          <div class="results results--products aasdds">
             <h3 class="h4" id="predictive-search-products">
               {{ 'general.search.products' | t }}
             </h3>
