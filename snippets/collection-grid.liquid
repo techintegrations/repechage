@@ -48,9 +48,12 @@ Snippet Arguments
       </button>
     </div>
 
+    {%- assign filtered_items = items | where: "metafields.custom.sample_product", false -%}
+    {%- assign filtered_count = filtered_items.size -%}
+
     <div class="collection-filter__item collection-filter__item--count small--hide">
       {%- if enable_collection_count -%}
-        {{ count_label | t: count: count }}
+        {{ count_label | t: count: filtered_count }}
       {%- endif -%}
     </div>
 
