@@ -89,7 +89,7 @@
         "product_list_QNBe7e": {
           "type": "product_list",
           "settings": {
-            "product_list_heading": "Complete the Regime",
+            "product_list_heading": "Complete the Regimen",
             "product_list": "{{ product.metafields.custom.complete_the_regime.value }}",
             "per_row": "1",
             "product_limit": 3
