@@ -137,7 +137,7 @@
                 </div>
 
               {% else %}
-                <div class="sample-product-row simple-product">
+                <div class="sample-product-row simple-product {{ required_amount }} {{ cart_total_dollars }}">
                   {% for Sproduct in settings.sample_products %}
                     <div class="sample-product">
                       <div class="f-image">
