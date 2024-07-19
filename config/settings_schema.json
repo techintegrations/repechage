@@ -912,12 +912,18 @@
     ]
   },
   {
-    "name": "t:settings_schema.social_media.name",
+    "name": "Sample Products",
     "settings": [
       {
-        "type": "header",
-        "content": "t:settings_schema.social_media.settings.header_accounts"
+        "type": "product_list",
+        "id": "sample_products",
+        "label": "Sample Products"
       },
+      {
+        "type": "product_list",
+        "id": "premium_products",
+        "label": "Premium Products"
+      }
     ]
   },
   {
