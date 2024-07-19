@@ -51,31 +51,38 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
-  // Initialize Flickity slider
-  const flickitySlider4 = new Flickity('.sample-product-row', {
-    cellAlign: 'left',
-    contain: true,
-    prevNextButtons: true,
-    pageDots: true,
-    freeScroll: false,
-    avoidReflow: true,
-    wrapAround: true
+  const flickitySlider4 = new Flickity(".sample-product-row", {
+      cellAlign: "left",
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
   });
 
-  // Add event listener for button click
-  document.querySelector('.sample-product-btn').addEventListener('click', function() {
-    // Open the popup
-    $.fancybox.open({
-      src  : '#cart-sample-product',
-      type : 'inline',
-      opts : {
-        afterShow : function(instance, current) {
-          // Call Flickity resize method when popup is shown
-          flickitySlider4.resize();
+
+  $('.sample-product-row').slick({
+      arrows: false, // Common setting for all breakpoints
+      dots: true, // Common setting for all breakpoints
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            centerMode: true,
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            centerMode: true,
+            slidesToShow: 1
+          }
         }
-      }
+      ]
     });
-  });
+
 
 
   $(document).ready(function() {
