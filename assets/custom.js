@@ -51,15 +51,15 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
-  // const flickitySlider4 = new Flickity(".sample-product-row", {
-  //     cellAlign: "left",
-  //     contain: true,
-  //     prevNextButtons: true,
-  //     pageDots: true,
-  //     freeScroll: false,
-  //     avoidReflow: true,
-  //     wrapAround: true,
-  // });
+  const flickitySlider4 = new Flickity(".sample-product-row", {
+      cellAlign: "left",
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+  });
 
 
   $(document).ready(function() {
