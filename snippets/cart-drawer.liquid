@@ -91,14 +91,14 @@
 
             <div id="cart-sample-product" style="display:none;max-width:500px;">
               <div class="sample-product-row">
-                {% for fproduct in settings.sample_products %}
-                  <div>
+                {% for Sproduct in settings.sample_products %}
+                  <div class="sample-product">
                     <div class="f-image">
-                      <img src="{{ fproduct.featured_image | img_url:'300x' }}">
+                      <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
                     </div>
-                    <div class="grid-product__title grid-product__title--body">{{ fproduct.title }}</div>
+                    <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
 
-                    {% assign current_variant = fproduct.selected_or_first_available_variant %}
+                    {% assign current_variant = Sproduct.selected_or_first_available_variant %}
                     <div class="atc-btn">
                       <button
                         type="button"
