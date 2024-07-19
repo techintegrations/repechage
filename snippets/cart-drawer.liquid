@@ -91,6 +91,23 @@
                   </div>
                   <h2>{{ fproduct.title }}</h2>
                 </div>
+                          {%- assign current_variant = product.selected_or_first_available_variant -%}
+        <div class="atc-btn">
+          <button
+            type="button"
+            {% unless current_variant.available %}
+              disabled="disabled"
+            {% endunless %}
+            onclick="add_to_cart_grid({{current_variant.id}},1)"
+            class="btn"
+          >
+            {% if current_variant.available %}
+              {{ 'products.product.add_to_cart' | t }}
+            {% else %}
+              {{ 'products.product.sold_out' | t }}
+            {% endif %}
+          </button>
+        </div>
               {% endfor %}
               </div>
           
