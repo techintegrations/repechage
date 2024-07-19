@@ -51,6 +51,16 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
+  const flickitySlider4 = new Flickity(".product-list-block_slider", {
+      cellAlign: "left",
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+  });
+
 
   $(document).ready(function() {
     $('.site-nav__item').hover(
