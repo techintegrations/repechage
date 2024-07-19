@@ -915,6 +915,12 @@
     "name": "Sample Products",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "show_sample_product",
+        "label": "Show sample product popup",
+        "default": true
+      },
+      {
         "type": "header",
         "content": "Top heading"
       },
