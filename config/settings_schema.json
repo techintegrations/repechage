@@ -923,6 +923,11 @@
         "type": "product_list",
         "id": "premium_products",
         "label": "Premium Products"
+      },
+      {
+        "type": "text",
+        "id": "amount",
+        "label": "Amount"
       }
     ]
   },
