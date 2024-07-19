@@ -918,6 +918,15 @@
         "type": "header",
         "content": "t:settings_schema.social_media.settings.header_accounts"
       },
+    ]
+  },
+  {
+    "name": "t:settings_schema.social_media.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.social_media.settings.header_accounts"
+      },
       {
         "type": "text",
         "id": "social_facebook_link",
