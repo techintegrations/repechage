@@ -902,7 +902,10 @@ body.template-cart #cart-progress-wrapper {
     margin: 0px;
 }
 
-
+.sample-product-row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .sample-product-row .sample-product {
     flex: 0 0 calc(25% - 16px);
