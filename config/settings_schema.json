@@ -919,6 +919,11 @@
         "content": "Top heading"
       },
       {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
         "type": "product_list",
         "id": "sample_products",
         "label": "Sample Products"
