@@ -106,7 +106,7 @@
               {% if cart.total_price > settings.amount %}
                 <div class="sample-product-row premium-product {{ settings.amount }}">
                   {% for Pproduct in settings.premium_products %}
-                    <div class="sample-product premium-product">
+                    <div class="sample-product">
                       <div class="f-image">
                         <img src="{{ Pproduct.featured_image | img_url:'300x' }}">
                       </div>
