@@ -937,6 +937,15 @@ body.template-cart #cart-progress-wrapper {
     margin-bottom: 20px;
 }
 
+#cart-sample-product .btn.cart__checkout {
+    width: auto;
+}
+
+#cart-sample-product .checkout-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
