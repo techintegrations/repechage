@@ -105,7 +105,7 @@
 
               {% assign required_amount = settings.amount | times: 1 %}
               {% if cart.total_price > required_amount %}
-                <div class="sample-product-row premium-product {{ settings.amount }} {{ totalPrice }}">
+                <div class="sample-product-row premium-product {{ required_amount }} {{ cart.total_price }}">
                   {% for Pproduct in settings.premium_products %}
                     <div class="sample-product">
                       <div class="f-image">
