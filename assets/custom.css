@@ -947,6 +947,14 @@ body.template-cart #cart-progress-wrapper {
     margin-top: 20px;
 }
 
+#cart-sample-product .flickity-previous {
+    left: -22px;
+}
+
+#cart-sample-product .flickity-next {
+    right: 0px;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
