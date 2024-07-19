@@ -95,7 +95,7 @@
 
             
 
-            <div id="cart-sample-product" style="display:none;">
+            <div id="cart-sample-product" style="display:none;" data-cart-total="{{ cart.total_price | divided_by: 100 }}" data-required-amount="{{ settings.amount | times: 1 }}">
               {% if settings.heading != blank or settings.text != blank %}
                 <div class="top-heading">
                   {% if settings.heading != blank %}
