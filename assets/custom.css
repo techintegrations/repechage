@@ -902,6 +902,27 @@ body.template-cart #cart-progress-wrapper {
     margin: 0px;
 }
 
+.sample-product-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sample-product-row .sample-product {
+    flex: 0 0 25%;
+    padding: 0 10px;
+    border: 1px solid #d9dbde;
+}
+
+#cart-sample-product {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.sample-product .atc-btn .btn {
+    margin: 0px;
+}
+
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
