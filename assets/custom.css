@@ -922,6 +922,19 @@ body.template-cart #cart-progress-wrapper {
     margin: 0px;
 }
 
+.sample-product .grid-product__info {
+    text-align: center;
+    padding: 16px 10px;
+}
+
+.sample-product .grid-product__info .grid-product__title {
+    margin-bottom: 10px;
+}
+
+#cart-sample-product .top-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 @media only screen and (min-width: 769px) {
 
