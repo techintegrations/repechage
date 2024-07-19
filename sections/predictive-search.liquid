@@ -2,11 +2,14 @@
   {%- if predictive_search.resources.products.size > 0 -%}
     <div data-type-products>
       {%- for product in predictive_search.resources.products -%}
+        {%- unless product.metafields.custom.sample_product == true -%}
         {%- render 'product-grid-item',
           product: product,
           per_row: 4,
           quick_shop_enable: settings.quick_shop_enable
         -%}
+        
+                {%- endunless -%}
       {%- endfor -%}
     </div>
   {% endif %}
