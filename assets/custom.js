@@ -51,21 +51,7 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
-    // Initialize Flickity slider
-    const flickitySlider4 = new Flickity('.sample-product-row', {
-        cellAlign: 'left',
-        contain: true,
-        prevNextButtons: true,
-        pageDots: true,
-        freeScroll: false,
-        avoidReflow: true,
-        wrapAround: true,
-    });
 
-    // Attach click event handler to button
-    document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
-        flickitySlider4.resize(); // Resize Flickity slider
-    });
 
 
   $(document).ready(function() {
