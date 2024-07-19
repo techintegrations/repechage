@@ -908,9 +908,9 @@ body.template-cart #cart-progress-wrapper {
 }
 
 .sample-product-row .sample-product {
-    flex: 0 0 25%;
-    padding: 0 10px;
+    flex: 0 0 calc(25% - 16px);
     border: 1px solid #d9dbde;
+    margin: 8px;
 }
 
 #cart-sample-product {
