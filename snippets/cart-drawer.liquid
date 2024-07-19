@@ -92,6 +92,14 @@
             </button>
 
             <div id="cart-sample-product" style="display:none;">
+              <div class="top-heading">
+                {% if settings.heading !=  blank %}
+                  <h2>{{ settings.heading }}</h2>
+                {% endif %}
+                {% if settings.text !=  blank %}
+                  <h4>{{ settings.text }}</h4>
+                {% endif %}
+              </div>
               <div class="sample-product-row">
                 {% for Sproduct in settings.sample_products %}
                   <div class="sample-product">
