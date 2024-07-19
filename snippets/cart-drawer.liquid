@@ -78,6 +78,13 @@
           {% endif %}
 
           <div class="cart__checkout-wrapper">
+
+
+            {% if settings.show_sample_product %}
+            <button data-fancybox data-src="#cart-sample-product" class="btn cart__checkout sample-product-btn">
+              {{ 'cart.general.checkout' | t }}
+            </button>
+            {% else %}
             <button
               type="submit"
               name="checkout"
@@ -86,10 +93,7 @@
             >
               {{ 'cart.general.checkout' | t }}
             </button>
-
-            <button data-fancybox data-src="#cart-sample-product" class="btn cart__checkout sample-product-btn">
-              Checkout
-            </button>
+            {% endif %}
 
             <div id="cart-sample-product" style="display:none;">
               {% if settings.heading != blank or settings.text != blank %}
