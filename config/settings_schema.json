@@ -941,7 +941,7 @@
         "label": "Premium Products"
       },
       {
-        "type": "text",
+        "type": "number",
         "id": "amount",
         "label": "Amount"
       }
