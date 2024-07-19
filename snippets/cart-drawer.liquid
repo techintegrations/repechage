@@ -103,7 +103,7 @@
                 </div>
               {% endif %}
 
-              {% if cart.total_price < settings.amount %}
+              {% if cart.total_price > settings.amount %}
                 <div class="sample-product-row premium-product">
                   {% for Sproduct in settings.premium_products %}
                     <div class="sample-product">
