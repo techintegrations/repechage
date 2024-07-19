@@ -87,7 +87,9 @@
               {{ 'cart.general.checkout' | t }}
             </button>
 
-            <button data-fancybox data-src="#cart-sample-product" class="btn cart__checkout sample-product-btn">Launch Dialog</button>
+            <button data-fancybox data-src="#cart-sample-product" class="btn cart__checkout sample-product-btn">
+              Launch Dialog
+            </button>
 
             <div id="cart-sample-product" style="display:none;">
               <div class="sample-product-row">
@@ -96,29 +98,29 @@
                     <div class="f-image">
                       <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
                     </div>
-                    <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
-
-                    {% assign current_variant = Sproduct.selected_or_first_available_variant %}
-                    <div class="atc-btn">
-                      <button
-                        type="button"
-                        {% unless current_variant.available %}
-                          disabled="disabled"
-                        {% endunless %}
-                        onclick="add_to_cart_grid({{ current_variant.id }}, 1)"
-                        class="btn"
-                      >
-                        {% if current_variant.available %}
-                          {{ 'products.product.add_to_cart' | t }}
-                        {% else %}
-                          {{ 'products.product.sold_out' | t }}
-                        {% endif %}
-                      </button>
+                    <div class="grid-product__info">
+                      <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
+                      {% assign current_variant = Sproduct.selected_or_first_available_variant %}
+                      <div class="atc-btn">
+                        <button
+                          type="button"
+                          {% unless current_variant.available %}
+                            disabled="disabled"
+                          {% endunless %}
+                          onclick="add_to_cart_grid({{ current_variant.id }}, 1)"
+                          class="btn"
+                        >
+                          {% if current_variant.available %}
+                            {{ 'products.product.add_to_cart' | t }}
+                          {% else %}
+                            {{ 'products.product.sold_out' | t }}
+                          {% endif %}
+                        </button>
+                      </div>
                     </div>
                   </div>
                 {% endfor %}
               </div>
-
 
               <div class="sample-product-row">
                 {% for Sproduct in settings.premium_products %}
@@ -126,29 +128,29 @@
                     <div class="f-image">
                       <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
                     </div>
-                    <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
-
-                    {% assign current_variant = Sproduct.selected_or_first_available_variant %}
-                    <div class="atc-btn">
-                      <button
-                        type="button"
-                        {% unless current_variant.available %}
-                          disabled="disabled"
-                        {% endunless %}
-                        onclick="add_to_cart_grid({{ current_variant.id }}, 1)"
-                        class="btn"
-                      >
-                        {% if current_variant.available %}
-                          {{ 'products.product.add_to_cart' | t }}
-                        {% else %}
-                          {{ 'products.product.sold_out' | t }}
-                        {% endif %}
-                      </button>
+                    <div class="grid-product__info">
+                      <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
+                      {% assign current_variant = Sproduct.selected_or_first_available_variant %}
+                      <div class="atc-btn">
+                        <button
+                          type="button"
+                          {% unless current_variant.available %}
+                            disabled="disabled"
+                          {% endunless %}
+                          onclick="add_to_cart_grid({{ current_variant.id }}, 1)"
+                          class="btn"
+                        >
+                          {% if current_variant.available %}
+                            {{ 'products.product.add_to_cart' | t }}
+                          {% else %}
+                            {{ 'products.product.sold_out' | t }}
+                          {% endif %}
+                        </button>
+                      </div>
                     </div>
                   </div>
                 {% endfor %}
               </div>
-              
             </div>
 
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}
