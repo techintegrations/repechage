@@ -51,7 +51,7 @@ $(document).ready(function () {
       wrapAround: true,
   });
 
-  const flickitySlider4 = new Flickity(".product-list-block_slider", {
+  const flickitySlider4 = new Flickity(".sample-product-row", {
       cellAlign: "left",
       contain: true,
       prevNextButtons: true,
