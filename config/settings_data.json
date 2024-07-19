@@ -77,7 +77,7 @@
     "cart_post_goal_message": "<p>🎉 Congrats! You've unlocked <strong>FREE SHIPPING<\/strong><\/p>",
     "cart_progress_bar_color": "#000000",
     "cart_progress_bar_full_color": "#000000",
-    "show_sample_product": false,
+    "show_sample_product": true,
     "sample_products": [
       "advanced-skincare-workshop-december-3-2024",
       "algo-mist-hydrating-seaweed-facial-spray-2",
