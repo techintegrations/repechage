@@ -105,14 +105,14 @@
 
               {% if cart.total_price > settings.amount %}
                 <div class="sample-product-row premium-product {{ settings.amount }}">
-                  {% for Sproduct in settings.premium_products %}
+                  {% for Pproduct in settings.premium_products %}
                     <div class="sample-product">
                       <div class="f-image">
-                        <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
+                        <img src="{{ Pproduct.featured_image | img_url:'300x' }}">
                       </div>
                       <div class="grid-product__info">
-                        <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
-                        {% assign current_variant = Sproduct.selected_or_first_available_variant %}
+                        <div class="grid-product__title grid-product__title--body">{{ Pproduct.title }}</div>
+                        {% assign current_variant = Pproduct.selected_or_first_available_variant %}
                         <div class="atc-btn">
                           <button
                             type="button"
