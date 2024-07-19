@@ -1088,6 +1088,11 @@ body.template-cart #cart-progress-wrapper {
   .collection-banner_row .info-col {
       margin-top: 30px;
   }
+
+  .sample-product-row .sample-product {
+      flex: 0 0 calc(50% - 16px);
+      width: calc(50% - 16px);
+  }
   
 }
 
