@@ -103,8 +103,9 @@
                 </div>
               {% endif %}
 
+              {% assign totalPrice = cart.total_price | money %}
               {% if cart.total_price > settings.amount %}
-                <div class="sample-product-row premium-product {{ settings.amount }}">
+                <div class="sample-product-row premium-product {{ settings.amount }} {{ totalPrice }}">
                   {% for Pproduct in settings.premium_products %}
                     <div class="sample-product">
                       <div class="f-image">
