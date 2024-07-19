@@ -1,23 +1,26 @@
 {%- if settings.cart_type == 'drawer' -%}
   <div id="CartDrawer" class="drawer drawer--right">
-
-
-  
-
-  
-    <form id="CartDrawerForm" action="{{ routes.cart_url }}" method="post" novalidate class="drawer__contents" data-location="cart-drawer">
+    <form
+      id="CartDrawerForm"
+      action="{{ routes.cart_url }}"
+      method="post"
+      novalidate
+      class="drawer__contents"
+      data-location="cart-drawer"
+    >
       <div class="drawer__fixed-header">
         <div class="drawer__header appear-animation appear-delay-1">
           <div class="h2 drawer__title">{{ 'cart.general.title' | t }}</div>
           <div class="drawer__close">
             <button type="button" class="drawer__close-button js-drawer-close">
-              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64">
+                <title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/>
+              </svg>
               <span class="icon__fallback-text">{{ 'cart.general.close_cart' | t }}</span>
             </button>
           </div>
         </div>
       </div>
-
 
       {% render 'cart-progress-bar-custom' %}
 
@@ -56,7 +59,8 @@
 
           <div class="cart__item-row text-center">
             <small>
-              {{ 'cart.general.shipping_at_checkout' | t }}<br />
+              {{ 'cart.general.shipping_at_checkout' | t -}}
+              <br>
             </small>
           </div>
 
@@ -74,51 +78,52 @@
           {% endif %}
 
           <div class="cart__checkout-wrapper">
-            <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
+            <button
+              type="submit"
+              name="checkout"
+              data-terms-required="{{ settings.cart_terms_conditions_enable }}"
+              class="btn cart__checkout"
+            >
               {{ 'cart.general.checkout' | t }}
             </button>
 
-
             <button data-fancybox data-src="#dialog-content" class="btn cart__checkout">Launch Dialog</button>
 
-
             <div id="dialog-content" style="display:none;max-width:500px;">
+              <div>
+                {% for fproduct in settings.sample_products %}
+                  <div>
+                    <div class="f-image">
+                      <img src="{{ fproduct.featured_image | img_url:'300x' }}">
+                    </div>
+                    <div class="grid-product__title grid-product__title--body">{{ fproduct.title }}</div>
 
-              
-<div>
-  {% for fproduct in settings.sample_products %}
-    <div>
-      <div class="f-image">
-        <img src="{{ fproduct.featured_image | img_url:'300x' }}">
-      </div>
-      <div class="grid-product__title grid-product__title--body">{{ fproduct.title }}</div>
-    </div>
-    {% assign current_variant = fproduct.selected_or_first_available_variant %}
-    <div class="atc-btn">
-      <button
-        type="button"
-        {% unless current_variant.available %}
-          disabled="disabled"
-        {% endunless %}
-        onclick="add_to_cart_grid({{ current_variant.id }}, 1)"
-        class="btn"
-      >
-        {% if current_variant.available %}
-          {{ 'products.product.add_to_cart' | t }}
-        {% else %}
-          {{ 'products.product.sold_out' | t }}
-        {% endif %}
-      </button>
-    </div>
-  {% endfor %}
-</div>
-
-          
+                    {% assign current_variant = fproduct.selected_or_first_available_variant %}
+                    <div class="atc-btn">
+                      <button
+                        type="button"
+                        {% unless current_variant.available %}
+                          disabled="disabled"
+                        {% endunless %}
+                        onclick="add_to_cart_grid({{ current_variant.id }}, 1)"
+                        class="btn"
+                      >
+                        {% if current_variant.available %}
+                          {{ 'products.product.add_to_cart' | t }}
+                        {% else %}
+                          {{ 'products.product.sold_out' | t }}
+                        {% endif %}
+                      </button>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
             </div>
 
-
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}
-              <div class="additional-checkout-buttons additional-checkout-buttons--vertical">{{ content_for_additional_checkout_buttons }}</div>
+              <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
+                {{ content_for_additional_checkout_buttons }}
+              </div>
             {% endif %}
           </div>
         </div>
