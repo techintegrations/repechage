@@ -83,6 +83,15 @@
 
 
             <div id="dialog-content" style="display:none;max-width:500px;">
+              <div>
+                {% for fproduct in settings.sample_products %}
+                <div>
+                  <div class="f-image">
+                    <img src="{{ product.featured_image | img_url:'300x' }}">
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
           
             </div>
 
