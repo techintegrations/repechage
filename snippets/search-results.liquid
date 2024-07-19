@@ -186,7 +186,7 @@
       <div class="results sdfds"><a class="predictive-search__no-results" href="{{ routes.search_url }}?q={{ predictive_search.terms | escape }}">{{ 'general.search.no_results_html' | t: terms: predictive_search.terms }}</a></div>
     {% endif %}
   </div>
-  {% if totalCount > 0 %}
+  {% if totalCount > 1 %}
     <button class="results__search-btn">
       {{ 'general.search.view_more' | t: terms: predictive_search.terms }} <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 5H12.5M12.5 5L8.5 1M12.5 5L8.5 9" stroke="currentColor"/></svg>
     </button>
