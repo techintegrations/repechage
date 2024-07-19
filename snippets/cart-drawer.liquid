@@ -87,8 +87,9 @@
                 {% for fproduct in settings.sample_products %}
                 <div>
                   <div class="f-image">
-                    <img src="{{ product.featured_image | img_url:'300x' }}">
+                    <img src="{{ fproduct.featured_image | img_url:'300x' }}">
                   </div>
+                  <h2></h2>
                 </div>
               {% endfor %}
               </div>
