@@ -915,6 +915,10 @@
     "name": "Sample Products",
     "settings": [
       {
+        "type": "header",
+        "content": "Top heading"
+      },
+      {
         "type": "product_list",
         "id": "sample_products",
         "label": "Sample Products"
