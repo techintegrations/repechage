@@ -104,8 +104,8 @@
               {% endif %}
 
               {% if cart.total_price > settings.amount %}
-                <div class="sample-product-row simple-product">
-                  {% for Sproduct in settings.sample_products %}
+                <div class="sample-product-row premium-product">
+                  {% for Sproduct in settings.premium_products %}
                     <div class="sample-product">
                       <div class="f-image">
                         <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
@@ -135,8 +135,8 @@
                 </div>
 
               {% else %}
-                <div class="sample-product-row premium-product">
-                  {% for Sproduct in settings.premium_products %}
+                <div class="sample-product-row simple-product">
+                  {% for Sproduct in settings.sample_products %}
                     <div class="sample-product">
                       <div class="f-image">
                         <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
