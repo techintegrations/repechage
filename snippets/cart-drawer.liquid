@@ -103,9 +103,10 @@
                 </div>
               {% endif %}
 
+              {% assign cart_total_dollars = cart.total_price | divided_by: 100 %}
               {% assign required_amount = settings.amount | times: 1 %}
-              {% if cart.total_price > required_amount %}
-                <div class="sample-product-row premium-product {{ required_amount }} {{ cart.total_price }}">
+              {% if cart_total_dollars > required_amount %}
+                <div class="sample-product-row premium-product {{ required_amount }} {{ cart_total_dollars }}">
                   {% for Pproduct in settings.premium_products %}
                     <div class="sample-product">
                       <div class="f-image">
