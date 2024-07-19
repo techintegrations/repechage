@@ -110,7 +110,7 @@
               {% assign cart_total_dollars = cart.total_price | divided_by: 100 %}
               {% assign required_amount = settings.amount | times: 1 %}
               {% if cart_total_dollars > required_amount %}
-                <div class="sample-product-row premium-product {{ settings.premium_products.size }} {% if settings.premium_products.size > 4 %}sample-product-slider{% endif %}">
+                <div class="sample-product-row premium-product {{ settings.premium_products.size }}-size {% if settings.premium_products.size > 4 %}sample-product-slider{% endif %}">
                 {% for Pproduct in settings.premium_products %}
                   <div class="sample-product">
                     <div class="f-image">
