@@ -91,7 +91,7 @@
       <div class="f-image">
         <img src="{{ fproduct.featured_image | img_url:'300x' }}">
       </div>
-      <h2>{{ fproduct.title }}</h2>
+      <div class="grid-product__title grid-product__title--body">{{ fproduct.title }}</div>
     </div>
     {% assign current_variant = fproduct.selected_or_first_available_variant %}
     <div class="atc-btn">
