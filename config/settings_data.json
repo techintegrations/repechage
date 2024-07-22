@@ -79,24 +79,10 @@
     "cart_progress_bar_full_color": "#000000",
     "show_sample_product": true,
     "sample_products": [
-      "advanced-skincare-workshop-december-3-2024",
-      "algo-mist-hydrating-seaweed-facial-spray-2",
-      "algo-mist-hydrating-seaweed-facial-spray-travel-size",
-      "biolight-brightening-cleanser",
-      "biolight-brightening-day-cream",
-      "biolight-brightening-overnight-cream",
-      "biolight-brightening-serum",
-      "biolight-brightening-sheet-mask",
-      "biolight-brightening-sheet-mask-single-sheet-mask"
+      "biolight-day-cream-sample"
     ],
     "premium_products": [
-      "hydra-4-cleanser-for-sensitive-skin",
-      "hydra-4-day-protection-cream-for-sensitive-skin",
-      "hydra-4-mask-for-sensitive-skin",
-      "hydra-4-soothing-toner",
-      "night-magic-skin-transformation-basket",
-      "hydra-dew-pure-gift-basket",
-      "hydra-dew-pure-oil"
+      "hydra-dew-pure-eye-contour-cream-sample"
     ],
     "amount": 200,
     "social_facebook_link": "https:\/\/www.facebook.com\/RepechageSkinCare",
