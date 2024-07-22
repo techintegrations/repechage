@@ -1744,18 +1744,21 @@ theme.recentlyViewed = {
       },
 
       checkForOnlySampleProducts: function() {
-        // Check if the cart only contains sample items
         var items = this.products.querySelectorAll('.cart__item');
         var hasNonSampleProduct = false;
         var sampleProductKey = null;
       
         items.forEach(function(item) {
+          console.log('Item data:', item.dataset); // Debugging log
           if (!item.dataset.sampleItem) {
             hasNonSampleProduct = true;
           } else {
             sampleProductKey = item.dataset.key;
           }
         });
+      
+        console.log('Has non-sample product:', hasNonSampleProduct); // Debugging log
+        console.log('Sample product key:', sampleProductKey); // Debugging log
       
         if (!hasNonSampleProduct && sampleProductKey) {
           // Remove the sample product
@@ -1764,6 +1767,7 @@ theme.recentlyViewed = {
           });
         }
       },
+
 
   
       /*============================================================================
