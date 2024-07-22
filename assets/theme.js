@@ -1744,29 +1744,31 @@ theme.recentlyViewed = {
       },
 
       checkForOnlySampleProducts: function() {
+        // Check if the cart only contains sample items
         var items = this.products.querySelectorAll('.cart__item');
         var hasNonSampleProduct = false;
         var sampleProductKey = null;
       
         items.forEach(function(item) {
-          console.log('Item data:', item.dataset); // Debugging log
-          if (!item.dataset.sampleItem) {
+          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
+          if (!item.hasAttribute('data-sample-item')) {
             hasNonSampleProduct = true;
           } else {
             sampleProductKey = item.dataset.key;
           }
         });
       
-        console.log('Has non-sample product:', hasNonSampleProduct); // Debugging log
-        console.log('Sample product key:', sampleProductKey); // Debugging log
+        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
       
         if (!hasNonSampleProduct && sampleProductKey) {
           // Remove the sample product
+          console.log('Removing sample product:', sampleProductKey);
           theme.cart.changeItem(sampleProductKey, 0).then(() => {
             this.buildCart();
           });
         }
       },
+
 
 
   
