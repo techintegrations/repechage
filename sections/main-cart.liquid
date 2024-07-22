@@ -34,8 +34,12 @@
 
           
           {% for item in cart.items %}
-            {%- render 'cart-item', product: item, sizes: '150px', -%}
-          {%- endfor -%}
+            {%- if item.product.metafields.custom.sample_product == true and has_non_sample_product == false -%}
+              {# Do not render the sample product if there are no non-sample products #}
+            {%- else -%}
+              {%- render 'cart-item', product: item, sizes: '150px', sizeVariable: sizeVariable, fallback: fallback -%}
+            {%- endif -%}
+          {% endfor %}
         </div>
         <div class="cart__page-col">
           {% if settings.cart_notes_enable %}
