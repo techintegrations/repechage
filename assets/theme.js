@@ -1892,7 +1892,7 @@ theme.recentlyViewed = {
             console.log('Calling checkForOnlySampleProducts');
             setTimeout(() => {
               this.checkForOnlySampleProducts();
-            }, 2000);
+            }, 1000);
             
             document.dispatchEvent(new CustomEvent('cart:updated', {
               detail: {
