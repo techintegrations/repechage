@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -16,16 +25,15 @@
       "type": "cutom__product-list-section",
       "settings": {
         "title": "PRODUCTS USED IN THIS ARTICLE",
-        "product_list": [
-          "algo-mist-hydrating-seaweed-facial-spray-travel-size",
-          "algo-mist-hydrating-seaweed-facial-spray-2",
-          "biolight-brightening-overnight-cream",
-          "biolight-brightening-serum",
-          "biolight-brightening-sheet-mask"
-        ],
+        "product_list": "{{ article.metafields.custom.related_products.value }}",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
         "divider": false
       }
     },
@@ -41,7 +49,12 @@
         "blog_show_author": false,
         "view_all": false,
         "blog_image_size": "square",
-        "divider": false
+        "divider": false,
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
       }
     }
   },
