@@ -1889,7 +1889,8 @@ theme.recentlyViewed = {
             this.buildCart();
 
             // Check for only sample products
-            this.checkForOnlySampleProducts(parsedCart.items);
+            console.log('Calling checkForOnlySampleProducts');
+            this.checkForOnlySampleProducts();
             
             
             document.dispatchEvent(new CustomEvent('cart:updated', {
