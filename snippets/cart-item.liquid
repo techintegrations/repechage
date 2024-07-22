@@ -1,3 +1,12 @@
+{% assign has_non_sample_product = false %}
+{% for item in cart.items %}
+  {% unless item.product.metafields.custom.sample_product == true %}
+    {% assign has_non_sample_product = true %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
+
+
 <div class="cart__item" data-key="{{ product.key }}" {% if product.product.metafields.custom.sample_product == true %}data-sample-item="true"{% endif %}>
   <div class="cart__image">
     {% if product.image != blank %}
