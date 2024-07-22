@@ -1,4 +1,4 @@
-<div class="cart__item" data-key="{{ product.key }}" {% if product.metafield.custom.sample_product == true %}data-sample-item="true"{% endif %}>
+<div class="cart__item" data-key="{{ product.key }}" {% if product.product.metafield.custom.sample_product == true %}data-sample-item="true"{% endif %}>
   <div class="cart__image">
     {% if product.image != blank %}
       <a href="{{ product.url }}" class="image-wrap">
