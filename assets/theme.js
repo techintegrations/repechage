@@ -1743,17 +1743,28 @@ theme.recentlyViewed = {
         }
       },
 
+      checkForOnlySampleProducts: function() {
+        // Check if the cart only contains sample items
+        var items = this.products.querySelectorAll('.cart__item');
+        var hasNonSampleProduct = false;
+        var sampleProductKey = null;
       
-        checkForOnlySampleProducts: function(items) {
-          var hasNonSampleProduct = items.some(item => !item['data-sample-item']);
-          var sampleProduct = items.find(item => item['data-sample-item']);
-        
-          if (!hasNonSampleProduct && sampleProduct) {
-            theme.cart.changeItem(sampleProduct.key, 0).then(() => {
-              this.buildCart();
-            });
+        items.forEach(function(item) {
+          if (!item.dataset.sampleItem) {
+            hasNonSampleProduct = true;
+          } else {
+            sampleProductKey = item.dataset.key;
           }
-        },
+        });
+      
+        if (!hasNonSampleProduct && sampleProductKey) {
+          // Remove the sample product
+          theme.cart.changeItem(sampleProductKey, 0).then(() => {
+            this.buildCart();
+          });
+        }
+      },
+
   
       /*============================================================================
         Query cart page to get markup
