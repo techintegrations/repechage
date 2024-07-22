@@ -1696,6 +1696,21 @@ theme.recentlyViewed = {
             theme.cart.updateNote(newNote);
           });
         }
+
+
+        checkForOnlySampleProducts: function(items) {
+          var hasNonSampleProduct = items.some(item => !item['data-sample-item']);
+          var sampleProduct = items.find(item => item['data-sample-item']);
+        
+          if (!hasNonSampleProduct && sampleProduct) {
+            theme.cart.changeItem(sampleProduct.key, 0).then(() => {
+              this.buildCart();
+            });
+          }
+        },
+
+
+        
   
         // Dev-friendly way to build the cart
         document.addEventListener('cart:build', function() {
