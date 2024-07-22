@@ -23,6 +23,16 @@
       
       <div class="cart__page">
         <div data-products class="cart__page-col">
+          {% assign has_non_sample_product = false %}
+          {% for item in cart.items %}
+            {% unless item.product.metafields.custom.sample_product == true %}
+              {% assign has_non_sample_product = true %}
+              {% break %}
+            {% endunless %}
+          {% endfor %}
+
+
+          
           {% for item in cart.items %}
             {%- render 'cart-item', product: item, sizes: '150px', -%}
           {%- endfor -%}
