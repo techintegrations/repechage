@@ -25,7 +25,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
   data-context="featured-collection">
-  {%- if section.settings.title != blank -%}
+  {%- if section.settings.product_list != blank -%}
     <div class="page-width">
       <div class="section-header">
         <h2 class="section-header__title">
@@ -78,7 +78,7 @@
 {% schema %}
 {
   "name": "Product list",
-  "class": "index-section product-list-section",
+  "class": "product-list-section",
   "settings": [
     {
       "type": "text",
