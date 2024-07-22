@@ -1873,7 +1873,11 @@ theme.recentlyViewed = {
             }
   
             this.buildCart();
-  
+
+            // Check for only sample products
+            this.checkForOnlySampleProducts(parsedCart.items);
+            
+            
             document.dispatchEvent(new CustomEvent('cart:updated', {
               detail: {
                 cart: parsedCart
