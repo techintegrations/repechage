@@ -1888,10 +1888,11 @@ theme.recentlyViewed = {
   
             this.buildCart();
 
-            // Check for only sample products
+           // Check for only sample products after a delay
             console.log('Calling checkForOnlySampleProducts');
-            this.checkForOnlySampleProducts();
-            
+            setTimeout(() => {
+              this.checkForOnlySampleProducts();
+            }, 2000);
             
             document.dispatchEvent(new CustomEvent('cart:updated', {
               detail: {
