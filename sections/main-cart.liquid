@@ -15,6 +15,15 @@
 
 	{% render 'cart-progress-bar-custom' %}
 
+{% assign has_non_sample_product = false %}
+  {% for item in cart.items %}
+    {% unless item.product.metafields.custom.sample_product == true %}
+      {% assign has_non_sample_product = true %}
+      {% break %}
+    {% endunless %}
+{% endfor %}
+  
+
   {%- if cart.item_count > 0 -%}
     <form action="{{ routes.cart_url }}" method="post" novalidate data-location="page" id="CartPageForm">
 
@@ -22,23 +31,9 @@
 
       
       <div class="cart__page">
-        <div data-products class="cart__page-col">
-          {% assign has_non_sample_product = false %}
+        <div data-products class="cart__page-col"> 
           {% for item in cart.items %}
-            {% unless item.product.metafields.custom.sample_product == true %}
-              {% assign has_non_sample_product = true %}
-              {% break %}
-            {% endunless %}
-          {% endfor %}
-
-
-          
-          {% for item in cart.items %}
-            {%- if item.product.metafields.custom.sample_product == true and has_non_sample_product == false -%}
-              {# Do not render the sample product if there are no non-sample products #}
-            {%- else -%}
               {%- render 'cart-item', product: item, sizes: '150px', sizeVariable: sizeVariable, fallback: fallback -%}
-            {%- endif -%}
           {% endfor %}
         </div>
         <div class="cart__page-col">
