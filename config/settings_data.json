@@ -79,7 +79,12 @@
     "cart_progress_bar_full_color": "#000000",
     "show_sample_product": true,
     "sample_products": [
-      "biolight-day-cream-sample"
+      "biolight-day-cream-sample",
+      "biolight-brightening-cleanser",
+      "biolight-brightening-day-cream",
+      "biolight-brightening-overnight-cream",
+      "biolight-brightening-serum",
+      "algo-mist-hydrating-seaweed-facial-spray-travel-size"
     ],
     "premium_products": [
       "hydra-dew-pure-eye-contour-cream-sample"
