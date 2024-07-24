@@ -93,7 +93,9 @@
               </button>
             {% endif %}
 
-            {% render 'sample-products-popup' %}
+            <div id="cart-sample-product" class="custom-dots-style" style="display:none;">
+              {% render 'sample-products-popup' %}
+            </div>
 
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}
               <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
