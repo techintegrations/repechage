@@ -64,11 +64,55 @@
         "space_around": true,
         "lazyload_images": true
       }
+    },
+    "logo_list_djixUC": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_fnXdQJ": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Conrad_Ft_Laudedale_and_Repechage.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_K3P9hc": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spa_E_and_Repechage.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_ik6fU9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aquanox_Spa_and_Repechage.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_JhhpPD": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_fnXdQJ",
+        "logo_image_K3P9hc",
+        "logo_image_ik6fU9",
+        "logo_image_JhhpPD"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 76,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "1719330332db78ebfd",
-    "advanced_content_cgTmbN"
+    "advanced_content_cgTmbN",
+    "logo_list_djixUC"
   ]
 }
