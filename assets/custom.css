@@ -100,7 +100,7 @@
     line-height: 24px;
 }
 
-.announcement-slider__slide p {
+.announcement-slider .announcement-slider__slide p {
     margin: 0px;
 }
 
