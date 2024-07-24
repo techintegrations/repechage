@@ -25,8 +25,6 @@
         <div
           id="AnnouncementSlider"
           class="announcement-slider"
-          data-compact="{{ section.settings.announcement_compact }}"
-          data-block-count="{{ announcement_block_count }}">
           {%- assign slide_index = 0 -%}
           {%- for block in section.blocks -%}
             {%- if block.type == '@app' -%}
