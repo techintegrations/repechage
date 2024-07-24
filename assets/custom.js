@@ -52,7 +52,7 @@ $(document).ready(function () {
   });
 
   // Initialize Flickity slider
-  const flickitySlider4 = new Flickity('.sample-product-row', {
+  const flickitySlider4 = new Flickity('#cart-sample-product .sample-product-row', {
       cellAlign: 'left',
       contain: true,
       prevNextButtons: true,
