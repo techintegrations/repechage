@@ -108,7 +108,7 @@ $(".image-slider-with-text .slider-nav").slick({
 });
 
 $('#AnnouncementSlider').slick({
-  speed: 2000,
+  speed: 10000,
   autoplay: true,
   autoplaySpeed: 0,
   centerMode: true,
