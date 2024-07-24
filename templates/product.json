@@ -146,7 +146,7 @@
             "tab_title": "Directions",
             "text": "{{ product.metafields.custom.direction | metafield_tag }}",
             "image": "{{ product.metafields.custom.direction_media.value }}",
-            "video_url": "{{ product.metafields.custom.direction_video_youtube_vimeo_.value }}"
+            "video_url": ""
           }
         },
         "tab_B8eLpx": {
