@@ -63,7 +63,7 @@ $(document).ready(function () {
   });
 
   // Attach click event handler to button
-  document.querySelector('.btn.cart__checkout.sample-product-btn, .drawer__close .drawer__close-button').addEventListener('click', function() {
+  document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
       setTimeout(function() {
           flickitySlider4.resize(); // Resize Flickity slider
@@ -79,6 +79,14 @@ $(document).ready(function () {
       freeScroll: false,
       avoidReflow: true,
       wrapAround: true,
+  });
+
+  // Attach click event handler to button
+  document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
+      // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
+      setTimeout(function() {
+          flickitySlider5.resize(); // Resize Flickity slider
+      }, 500);
   });
 
 
