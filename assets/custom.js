@@ -71,7 +71,7 @@ $(document).ready(function () {
   });
 
 
-  const flickitySlider4 = new Flickity('.sample-product-row', {
+  const flickitySlider4 = new Flickity('.sample-product-on-cart .sample-product-row', {
       cellAlign: 'left',
       contain: true,
       prevNextButtons: true,
