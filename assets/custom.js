@@ -107,7 +107,7 @@ $(".image-slider-with-text .slider-nav").slick({
   verticalSwiping: false,
 });
 
-// $('.announcement-slider').slick({
+// $('.custom-announcement-slider').slick({
 //     speed: 10000,
 //     autoplay: true,
 //     autoplaySpeed: 0,
