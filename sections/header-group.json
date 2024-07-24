@@ -21,10 +21,28 @@
             "link_text": "FREE STD. SHIPPING ON CONTIGOUS US ORDERS OF $99+ PLUS COMPLIMENTARY SAMPLES WITH EVERY ORDER!",
             "link": ""
           }
+        },
+        "announcement_Aqcjfd": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        },
+        "announcement_GVaPtH": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-0"
+        "announcement-0",
+        "announcement_Aqcjfd",
+        "announcement_GVaPtH"
       ],
       "settings": {
         "announcement_compact": false
