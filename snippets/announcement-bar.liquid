@@ -6,17 +6,9 @@
         class="announcement-slider"
       >
         {%- for block in section.blocks -%}
-          {%- if block.type == 'announcement' -%}
-            <div class="announcement-slider__slide"
-              {{ block.shopify_attributes }}>
-              {%- if block.settings.text != blank -%}
-                <span class="announcement-text">{{ block.settings.text }}</span>
-              {%- endif -%}
-              {%- if block.settings.link_text != blank -%}
-                <span class="announcement-link-text">{{ block.settings.link_text }}</span>
-              {%- endif -%}
+            <div class="announcement-slider__slide">
+                {{ block.settings.text }}
             </div>
-          {%- endif -%}
         {%- endfor -%}
       </div>
     </div>
