@@ -108,6 +108,15 @@
     margin: 0px 15px;
 }
 
+.announcement-row .announcement-slider__slide p {
+    margin-bottom: 5px;
+}
+
+.announcement-row .announcement-slider__slide:last-child p {
+    margin-bottom: 0px;
+}
+
+
 #AnnouncementSlider.slick-initialized .slick-slide {
     display: flex;
     line-height: normal;
