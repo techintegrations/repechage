@@ -104,6 +104,10 @@
     margin: 0px;
 }
 
+.custom-announcement-slider.slick-initialized .slick-slide > div {
+    line-height: normal;
+}
+
 .announcement-slider__slide {
     margin: 0px 15px;
 }
