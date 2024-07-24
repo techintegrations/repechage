@@ -104,6 +104,10 @@
     margin: 0px;
 }
 
+.announcement-slider__slide {
+    margin: 0px 15px;
+}
+
 #AnnouncementSlider.slick-initialized .slick-slide {
     display: flex;
     line-height: normal;
