@@ -62,11 +62,11 @@
                 </div>
               {% endif %}
 
-              {% if block.settings.image != blank or block.settings.video_html != blank %}
+              {% if block.settings.image != blank or block.settings.video_url != blank %}
                 <div class="product-tab__image-video">
-                  {% if block.settings.video_html != blank %}
+                  {% if block.settings.video_url != blank %}
                   <div class="product-tab__video">
-                    {{ block.settings.video_html }}
+                    {{ block.settings.video_url }}
                   </div>
                   {% else %}
                   <div class="product-tab__image">
@@ -129,6 +129,11 @@
           "type": "html",
           "id": "video_html",
           "label": "Video HTML"
+        },
+        {
+          "type": "html",
+          "id": "video_url",
+          "label": "Video Url"
         }
       ]
     },
