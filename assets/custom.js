@@ -71,24 +71,23 @@ $(document).ready(function () {
   });
 
 
-// const flickitySlider5 = new Flickity('.sample-product-on-cart .sample-product-row', {
-//     cellAlign: 'left',
-//     contain: true,
-//     prevNextButtons: true,
-//     pageDots: true,
-//     freeScroll: false,
-//     avoidReflow: true,
-//     wrapAround: true,
-// });
+const flickitySlider5 = new Flickity('.sample-product-on-cart .sample-product-row', {
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: true,
+    freeScroll: false,
+    avoidReflow: true,
+    wrapAround: true,
+});
 
-// const drawerCloseButton = document.querySelector('.drawer__close');
-// const drawerElement = document.querySelector('.drawer__close-button'); // Adjust selector as needed
-
-// drawerCloseButton.addEventListener('click', function() {
-//     drawerElement.addEventListener('transitionend', function() {
-//         flickitySlider5.resize();
-//     }, { once: true });
-// });
+// Attach click event handler to button
+document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
+    // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
+    setTimeout(function() {
+        flickitySlider5.resize(); // Resize Flickity slider
+    }, 500);
+});
 
 
 
