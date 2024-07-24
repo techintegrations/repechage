@@ -64,10 +64,16 @@
 
               {% if block.settings.image != blank or block.settings.video_url != blank %}
                 <div class="product-tab__image-video">
-                  {% if block.settings.video_url != blank %}
-                  <div class="product-tab__video">
-                    {{ block.settings.video_url }}
-                  </div>
+                  {% if block.settings.video_url != blank or block.settings.video_url %}
+                    {% if block.settings.video_url != blank or block.settings.video_url %}
+                      <div class="product-tab__video">
+                        {{ block.settings.video_url }}
+                      </div>
+                    {% else %}
+                      <div class="product-tab__video">
+                        {{ block.settings.video_url }}
+                      </div>
+                  {% endif %}
                   {% else %}
                   <div class="product-tab__image">
                     <img src="{{ block.settings.image | img_url: 'master' }}">
