@@ -54,7 +54,7 @@
 
           {% else %}
 
-            {% if block.settings.text != blank or block.settings.image != blank or block.settings.video_url != blank %}
+            {% if block.settings.text != blank or block.settings.image != blank or block.settings.video_url != blank or block.settings.video_html != blank %}
             <div class="tab__text-image-video">
               {% if block.settings.text != blank %}
                 <div class="text">
@@ -62,12 +62,12 @@
                 </div>
               {% endif %}
 
-              {% if block.settings.image != blank or block.settings.video_url != blank %}
+              {% if block.settings.image != blank or block.settings.video_html != blank or block.settings.video_url != blank %}
                 <div class="product-tab__image-video">
-                  {% if block.settings.video_url != blank or block.settings.video_url %}
-                    {% if block.settings.video_url != blank or block.settings.video_url %}
+                  {% if block.settings.video_html != blank or block.settings.video_url %}
+                    {% if block.settings.video_html != blank %}
                       <div class="product-tab__video">
-                        {{ block.settings.video_url }}
+                        {{ block.settings.video_html }}
                       </div>
                     {% else %}
                       <div class="product-tab__video">
