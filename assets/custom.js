@@ -82,7 +82,7 @@ const flickitySlider5 = new Flickity('.sample-product-on-cart .sample-product-ro
 });
 
 const drawerCloseButton = document.querySelector('.drawer__close');
-const drawerElement = document.querySelector('.drawer'); // Adjust selector as needed
+const drawerElement = document.querySelector('.drawer__close-button'); // Adjust selector as needed
 
 drawerCloseButton.addEventListener('click', function() {
     drawerElement.addEventListener('transitionend', function() {
