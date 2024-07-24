@@ -117,7 +117,7 @@
 }
 
 
-.custom-announcement-slider .slick-initialized .slick-slide {
+#AnnouncementSlider.slick-initialized .slick-slide {
     line-height: normal;
 }
 
