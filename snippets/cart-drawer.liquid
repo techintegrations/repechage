@@ -97,6 +97,12 @@
 
             <div id="cart-sample-product" class="custom-dots-style" style="display:none;">
               {% render 'sample-products-popup' %}
+
+                <div class="checkout-btn">
+                  <a class="btn cart__checkout" href="/checkout">
+                    {{ 'cart.general.checkout' | t }}
+                  </a>
+                </div>
             </div>
 
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}
