@@ -107,8 +107,24 @@ $(".image-slider-with-text .slider-nav").slick({
   verticalSwiping: false,
 });
 
+$('#AnnouncementSlider').slick({
+  speed: 5000,
+  autoplay: true,
+  autoplaySpeed: 0,
+  centerMode: true,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  variableWidth: true,
+  infinite: true,
+  initialSlide: 1,
+  arrows: false,
+  buttons: false,
+  pauseOnFocus: true,
+  pauseOnHover: true
+});
 
-
+  
 if (window.outerWidth < 769) {
   $('.text-with-icons__blocks-slider').slick({
     arrows: false, // Common setting for all breakpoints
