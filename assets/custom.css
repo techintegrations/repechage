@@ -605,6 +605,10 @@
     width: 100%;
 }
 
+.product-tab__video {
+    line-height: 0px;
+}
+
 #shopify-section-template--17266728304813__custom_image_slider_with_text_fKK69K .image-slider-with-text .slider-banner-image img {
     min-height: 533px;
     object-fit: cover;
