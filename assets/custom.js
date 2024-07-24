@@ -107,7 +107,7 @@ $(".image-slider-with-text .slider-nav").slick({
   verticalSwiping: false,
 });
 
-$('#AnnouncementSlider').slick({
+$('.announcement-slider').slick({
   speed: 10000,
   autoplay: true,
   autoplaySpeed: 0,
