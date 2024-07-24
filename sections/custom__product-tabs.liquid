@@ -72,7 +72,9 @@
                       </div>
                     {% else %}
                       <div class="product-tab__video">
-                        {{ block.settings.video_url }}
+                        <video controls>
+                          <source src="{{ block.settings.video_url }}" type="video/mp4">
+                        </video>
                       </div>
                   {% endif %}
                     
