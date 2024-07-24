@@ -104,6 +104,11 @@
     margin: 0px;
 }
 
+#AnnouncementSlider.slick-initialized .slick-slide {
+    display: flex;
+    line-height: normal;
+}
+
 .header-wrapper .site-nav .custom-grid.grid__item {
     display: none;
     flex-wrap: wrap;
