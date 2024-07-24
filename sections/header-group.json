@@ -17,32 +17,19 @@
         "announcement-0": {
           "type": "announcement",
           "settings": {
-            "text": "Top Professional skincare brand recommended by estheticians worldwide",
-            "link_text": "FREE STD. SHIPPING ON CONTIGOUS US ORDERS OF $99+ PLUS COMPLIMENTARY SAMPLES WITH EVERY ORDER!",
-            "link": ""
+            "text": "<p><strong>TOP PROFESSIONAL SKINCARE BRAND RECOMMENDED BY ESTHETICIANS WORLDWIDE<\/strong><\/p>"
           }
         },
         "announcement_Aqcjfd": {
           "type": "announcement",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
-          }
-        },
-        "announcement_GVaPtH": {
-          "type": "announcement",
-          "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
+            "text": "<p>FREE STD. SHIPPING ON CONTIGOUS US ORDERS OF $99+ PLUS COMPLIMENTARY SAMPLES WITH EVERY ORDER!<\/p>"
           }
         }
       },
       "block_order": [
         "announcement-0",
-        "announcement_Aqcjfd",
-        "announcement_GVaPtH"
+        "announcement_Aqcjfd"
       ],
       "settings": {
         "announcement_compact": true
