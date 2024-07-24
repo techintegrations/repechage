@@ -147,7 +147,7 @@
             "text": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
             "image": "{{ product.metafields.custom.direction_media.value }}",
             "video_html": "{{ product.metafields.custom.direction_video_youtube_vmeo_embed_link_only_.value }}",
-            "video_url": ""
+            "video_url": "{{ product.metafields.custom.direction_video_self_hosted_video_url_.value }}"
           }
         },
         "tab_B8eLpx": {
