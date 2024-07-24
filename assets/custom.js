@@ -63,7 +63,7 @@ $(document).ready(function () {
     });
 
     // Attach click event handler to button
-    document.querySelector('.cart__checkout-wrapper .btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
+    document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
         // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
         setTimeout(function() {
             flickitySlider4.resize(); // Resize Flickity slider
