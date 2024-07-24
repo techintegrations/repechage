@@ -45,7 +45,7 @@
         "announcement_GVaPtH"
       ],
       "settings": {
-        "announcement_compact": false
+        "announcement_compact": true
       }
     },
     "header": {
