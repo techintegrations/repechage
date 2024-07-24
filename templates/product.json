@@ -144,8 +144,9 @@
           "type": "tab",
           "settings": {
             "tab_title": "Directions",
-            "text": "{{ product.metafields.custom.direction | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
             "image": "{{ product.metafields.custom.direction_media.value }}",
+            "video_html": "{{ product.metafields.custom.direction_video_youtube_vmeo_embed_link_only_.value }}",
             "video_url": ""
           }
         },
@@ -154,6 +155,7 @@
           "settings": {
             "tab_title": "Full Ingredients",
             "text": "{{ product.metafields.custom.full_ingredients | metafield_tag }}",
+            "video_html": "",
             "video_url": ""
           }
         }
