@@ -1,5 +1,4 @@
-<div id="cart-sample-product" class="custom-dots-style" style="display:none;">
-  <div class="sample-product-wrapper">
+<div class="sample-product-wrapper">
   {% if settings.heading != blank or settings.text != blank %}
     <div class="top-heading">
       {% if settings.heading != blank %}
@@ -24,9 +23,7 @@
             <div class="grid-product__title grid-product__title--body">{{ Pproduct.title }}</div>
             {% assign current_variant = Pproduct.selected_or_first_available_variant %}
             <div class="atc-btn">
-              <button class="btn">
-                Add
-              </button>
+              <button class="btn">Add</button>
             </div>
           </div>
         </div>
@@ -44,22 +41,17 @@
             <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
             {% assign current_variant = Sproduct.selected_or_first_available_variant %}
             <div class="atc-btn">
-              <button class="btn">
-                Add
-              </button>
+              <button class="btn">Add</button>
             </div>
           </div>
         </div>
       {% endfor %}
     </div>
   {% endif %}
-  
-            
 
-            <div class="checkout-btn">
-                <a class="btn cart__checkout" href="/checkout">
-                  {{ 'cart.general.checkout' | t }}
-                </a>
-              </div>
-</div>
+  <div class="checkout-btn">
+    <a class="btn cart__checkout" href="/checkout">
+      {{ 'cart.general.checkout' | t }}
+    </a>
   </div>
+</div>
