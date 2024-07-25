@@ -9,60 +9,112 @@
 */
 {
   "sections": {
+    "rich_text_mVAyUD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_78WbYT": {
+          "type": "heading",
+          "settings": {
+            "title": "FEATURED SPAS",
+            "title_color": "#ffffff"
+          }
+        },
+        "text_eUTGYG": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Discover the luxury and effectiveness of Repechage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Italy, Mexico, or any other destination, Repechage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repechage difference, no matter where you are in the world.<\/p>",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_78WbYT",
+        "text_eUTGYG"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "#000000",
+        "divider": false
+      }
+    },
+    "custom_image_slider_with_text_xJYhbx": {
+      "type": "custom__image-slider-with-text",
+      "blocks": {
+        "image_slider_block_rznPbj": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
+            "title": "CONRAD SPA - HILTON",
+            "text": "<h4>FT LAUDERDALE, FL<\/h4><p>Experience unparalleled relaxation where luxurious treatments and serene ocean views create the perfect wellness retreat.<\/p>",
+            "enlarge_text": true,
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_c88R8k": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spa-e.jpg",
+            "title": "SPA E",
+            "text": "<h4>MIAMI BEACH, FL<\/h4><p>Discover ultimate relaxation, offering luxurious treatments and a serene atmosphere for a rejuvenating wellness experience.<\/p>",
+            "enlarge_text": true,
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_nQYVAf": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aquanox-spa-at-the-trump.jpg",
+            "title": "AQUANOX SPA",
+            "text": "<h4>SUNNY ISLES, FL<\/h4><p>Immerse yourself in tranquility, where indulgent treatments and a peaceful setting provide the ultimate relaxation experience.<\/p>",
+            "enlarge_text": true,
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_HRBHkP": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-07-25_at_10.27.30_AM.png",
+            "title": "PGA SPA",
+            "text": "<h4>WEST PALM BEACH, FL<\/h4><p>Unwind at PGA Spa, where luxurious treatments and serene surroundings offer a perfect escape for relaxation and revitalization.<\/p>",
+            "enlarge_text": true,
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_block_rznPbj",
+        "image_slider_block_c88R8k",
+        "image_slider_block_nQYVAf",
+        "image_slider_block_HRBHkP"
+      ],
+      "settings": {
+        "title": "Featured SPAS",
+        "align_text": "center",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
-      }
-    },
-    "1719330332db78ebfd": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_zrAHFB": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "K5dLJ3"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_zrAHFB"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "advanced_content_cgTmbN": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_FMpL3j": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/T-Zone-PGA-SPA-30192.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "liquid_9UN74m": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Featured Spas<\/h2><p>Discover the luxury and effectiveness of Repechage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Italy, Mexico, or any other destination, Repechage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repechage difference, no matter where you are in the world.<\/p>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_FMpL3j",
-        "liquid_9UN74m"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
       }
     },
     "logo_list_djixUC": {
@@ -105,112 +157,8 @@
       ],
       "settings": {
         "title": "",
-        "logo_opacity": 76,
+        "logo_opacity": 100,
         "divider": false
-      }
-    },
-    "text_and_image_LU4Mpt": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
-        "image_mask": "landscape",
-        "image2_mask": "none",
-        "show_sticky_text": false,
-        "subtitle": "Ft Lauderdale, FL",
-        "title": "CONRAD SPA - HILTON",
-        "text": "<p>Experience unparalleled relaxation where luxurious treatments and serene ocean views create the perfect wellness retreat.<\/p>",
-        "enlarge_text": false,
-        "button_label": "LEAN MORE",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "bg_color": "#ebebeb",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 40,
-        "padding_bottom_m": 0,
-        "divider": false,
-        "lazyload_images": true
-      }
-    },
-    "text_and_image_cV34bH": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Spa-e.jpg",
-        "image_mask": "landscape",
-        "image2_mask": "none",
-        "show_sticky_text": false,
-        "subtitle": "Miami Beach, FL",
-        "title": "SPA E",
-        "text": "<p>Discover ultimate relaxation, offering luxurious treatments and a serene atmosphere for a rejuvenating wellness experience.<\/p>",
-        "enlarge_text": false,
-        "button_label": "LEARN MORE",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "bg_color": "",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "divider": false,
-        "lazyload_images": true
-      }
-    },
-    "text_and_image_GDdAw7": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/aquanox-spa-at-the-trump.jpg",
-        "image_mask": "landscape",
-        "image2_mask": "none",
-        "show_sticky_text": false,
-        "subtitle": "Sunny ISles, FL",
-        "title": "AQUANOX SPA",
-        "text": "<p>Immerse yourself in tranquility, where indulgent treatments and a peaceful setting provide the ultimate relaxation experience.<\/p>",
-        "enlarge_text": false,
-        "button_label": "LEARN MORE",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "bg_color": "#ebebeb",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "divider": false,
-        "lazyload_images": true
-      }
-    },
-    "text_and_image_FGWLXd": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-07-25_at_10.27.30_AM.png",
-        "image_mask": "landscape",
-        "image2_mask": "none",
-        "show_sticky_text": false,
-        "subtitle": "West Palm Beach, FL",
-        "title": "PGA SPA",
-        "text": "<p>Unwind at PGA Spa, where luxurious treatments and serene surroundings offer a perfect escape for relaxation and revitalization.<\/p>",
-        "enlarge_text": false,
-        "button_label": "LEARN MORE",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "bg_color": "",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "divider": false,
-        "lazyload_images": true
       }
     },
     "text_and_image_qTab8G": {
@@ -241,14 +189,10 @@
     }
   },
   "order": [
+    "rich_text_mVAyUD",
+    "custom_image_slider_with_text_xJYhbx",
     "main",
-    "1719330332db78ebfd",
-    "advanced_content_cgTmbN",
     "logo_list_djixUC",
-    "text_and_image_LU4Mpt",
-    "text_and_image_cV34bH",
-    "text_and_image_GDdAw7",
-    "text_and_image_FGWLXd",
     "text_and_image_qTab8G"
   ]
 }
