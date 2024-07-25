@@ -113,7 +113,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
-        "image_mask": "none",
+        "image_mask": "landscape",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "Ft Lauderdale FL",
@@ -139,7 +139,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Spa-e.jpg",
-        "image_mask": "none",
+        "image_mask": "landscape",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "Miami Beach, FL",
@@ -165,19 +165,45 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/aquanox-spa-at-the-trump.jpg",
-        "image_mask": "none",
+        "image_mask": "landscape",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "Sunny ISles, FL",
         "title": "AQUANOX SPA",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
         "enlarge_text": false,
-        "button_label": "",
+        "button_label": "LEARN MORE",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_FGWLXd": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PGA_SPA_3.png",
+        "image_mask": "landscape",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "West Palm Beach, FL",
+        "title": "PGA SPA",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "enlarge_text": false,
+        "button_label": "LEARN MORE",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
         "bg_color": "",
         "padding_top": 40,
         "padding_bottom": 40,
@@ -195,6 +221,7 @@
     "logo_list_djixUC",
     "text_and_image_LU4Mpt",
     "text_and_image_cV34bH",
-    "text_and_image_GDdAw7"
+    "text_and_image_GDdAw7",
+    "text_and_image_FGWLXd"
   ]
 }
