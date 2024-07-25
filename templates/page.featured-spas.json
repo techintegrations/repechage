@@ -213,6 +213,32 @@
         "lazyload_images": true
       }
     },
+    "text_and_image_qTab8G": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spa_partner.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "",
+        "title": "COLLABORATE with REPECHAGE",
+        "text": "<p>Accelerate your journey with an expert skin care advisor on why Repechage is right for your business.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
     "advanced_content_PprByw": {
       "type": "advanced-content",
       "blocks": {
@@ -254,6 +280,7 @@
     "text_and_image_cV34bH",
     "text_and_image_GDdAw7",
     "text_and_image_FGWLXd",
+    "text_and_image_qTab8G",
     "advanced_content_PprByw"
   ]
 }
