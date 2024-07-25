@@ -115,8 +115,8 @@
         "image_TEFEPd": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>Ft. Lauderdale Beach<\/p>",
-            "title": "<p>CONRAD<\/p>",
+            "top_subheading": "",
+            "title": "<p>CONRAD SPA<\/p>",
             "title_size": 58,
             "subheading": "",
             "link": "",
@@ -129,10 +129,28 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "image_PDnXhQ": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>SPA E<\/p>",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "image_TEFEPd"
+        "image_TEFEPd",
+        "image_PDnXhQ"
       ],
       "settings": {
         "show_container": false,
