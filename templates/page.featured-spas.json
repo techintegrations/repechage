@@ -109,92 +109,82 @@
         "divider": false
       }
     },
-    "slideshow_UqtCGc": {
-      "type": "slideshow",
-      "blocks": {
-        "image_TEFEPd": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>CONRAD SPA<\/p>",
-            "title_size": 58,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_PDnXhQ": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>SPA E<\/p>",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_TEFEPd",
-        "image_PDnXhQ"
-      ],
+    "text_and_image_LU4Mpt": {
+      "type": "text-and-image",
       "settings": {
-        "show_container": false,
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
-    "rich_text_MKBRND": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Di9XUf": {
-          "type": "heading",
-          "settings": {
-            "title": "Conrad Fort Lauderdale Beach - Hilton",
-            "title_color": "#000"
-          }
-        },
-        "text_cBf3nB": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_color": "#000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Di9XUf",
-        "text_cBf3nB"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
+        "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "Ft Lauderdale FL",
+        "title": "CONRAD SPA - HILTON",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "enlarge_text": false,
+        "button_label": "LEAN MORE",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
         "padding_top": 40,
         "padding_bottom": 40,
         "padding_top_m": 40,
         "padding_bottom_m": 0,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_cV34bH": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Spa-e.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "Miami Beach, FL",
+        "title": "SPA E",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "enlarge_text": false,
+        "button_label": "LEARN MORE",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
         "bg_color": "",
-        "divider": false
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_GDdAw7": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aquanox-spa-at-the-trump.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "Sunny ISles, FL",
+        "title": "AQUANOX SPA",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "divider": false,
+        "lazyload_images": true
       }
     }
   },
@@ -203,7 +193,8 @@
     "1719330332db78ebfd",
     "advanced_content_cgTmbN",
     "logo_list_djixUC",
-    "slideshow_UqtCGc",
-    "rich_text_MKBRND"
+    "text_and_image_LU4Mpt",
+    "text_and_image_cV34bH",
+    "text_and_image_GDdAw7"
   ]
 }
