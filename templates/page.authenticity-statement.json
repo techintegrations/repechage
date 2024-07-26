@@ -32,10 +32,37 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_PEhJRj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_KecQix": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>At Repechage.com, we pride ourselves on delivering the highest quality skincare products, made from the finest natural and organic ingredients. To ensure you receive genuine Repechage products, we strongly encourage you to purchase directly from our website or through our authorized retail partners.<\/p><ul><li>Purchasing from unauthorized sellers may pose significant risks, including:<\/li><li>Not getting the products you intended to buy<\/li><li>Receiving counterfeit, expired, or damaged products<\/li><li>Being unable to return or exchange items<\/li><li>Buying items that may not be suitable for your skin type<\/li><li>Receiving incorrect usage advice, particularly for products meant for professional use by trained estheticians<\/li><li>Incurring unexpected costs from additional shipping fees, customs duties, or taxes<\/li><\/ul><p><br\/>To maintain the highest standards of customer service and product quality, please ensure you buy only from trusted sources.<\/p><p>For a list of authorized retailers, visit our Store Locator or contact our Customer Support team at 1-800-248-SKIN for assistance.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "text_KecQix"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "rich_text_PEhJRj"
   ]
 }
