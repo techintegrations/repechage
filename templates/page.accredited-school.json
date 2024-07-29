@@ -219,7 +219,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "",
+            "text": "<p>Join the Repechage team and empower your students to achieve success! At Repechage, we are dedicated to providing top-tier educational resources and support to educators like you. By joining us, you'll gain access to innovative teaching tools, comprehensive training, and a collaborative community of passionate professionals. Together, we can inspire and guide students toward their academic goals and beyond.<\/p>",
             "text_color": "#000"
           }
         }
@@ -236,7 +236,7 @@
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "bg_color": "",
-        "divider": false
+        "divider": true
       }
     },
     "featured_video_az9zwG": {
