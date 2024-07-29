@@ -575,6 +575,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/REPECHAGE-HONEY_BODY_POLISH.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
