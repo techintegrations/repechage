@@ -26,10 +26,6 @@
   })(window,document,'script','dataLayer','GTM-CPXG');</script>
   <!-- End Google Tag Manager -->
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-CPXG"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5002739Y7"></script>
@@ -155,6 +151,12 @@
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
 
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-CPXG"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
   <div id="PageContainer" class="page-container">
@@ -189,6 +191,22 @@
       </image-element>
     </div>
   </template>
+
+  <!-- KLAVIYO SCRIPT -->        
+  <script>    
+    var _learnq = _learnq || [];
+    _learnq.push(['account', 'M3nkhZ']);
+    _learnq.push(['identify', {   
+      // Change the line below to dynamically print the user's email.   
+      '$email' : '{{ email }}'    
+    }]);
+    (function () {  
+      var b = document.createElement('script'); b.type = 'text/javascript'; b.async = true;   
+      b.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.klaviyo.com/media/js/analytics/analytics.js';    
+      var a = document.getElementsByTagName('script')[0]; a.parentNode.insertBefore(b, a);    
+    })();   
+  </script>     
+  <!-- KLAVIYO SCRIPT -->   
 
 </body>
 </html>
