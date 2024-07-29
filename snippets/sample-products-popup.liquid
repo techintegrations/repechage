@@ -64,8 +64,8 @@
   var selectedProducts = [];
   var maxProducts = document.querySelector('.sample-product-wrapper').getAttribute('data-max-products');
   var threshold = document.querySelector('.sample-product-wrapper').getAttribute('data-threshold');
-  var flickitySlider4; // Define the flickitySlider4 variable in the correct scope
-  
+  var premiumSlider, simpleSlider; // Define the Flickity variables for both sliders
+
   function toggleProduct(variantId, button) {
     if (selectedProducts.includes(variantId)) {
       selectedProducts = selectedProducts.filter(id => id !== variantId);
@@ -95,11 +95,16 @@
       simpleProductRow.style.display = 'block';
     }
 
-    // Resize Flickity slider
-    if (flickitySlider4) {
+    // Resize Flickity sliders
+    if (premiumSlider) {
       setTimeout(function() {
-        flickitySlider4.resize();
-      }, 1000);
+        premiumSlider.resize();
+      }, 500);
+    }
+    if (simpleSlider) {
+      setTimeout(function() {
+        simpleSlider.resize();
+      }, 500);
     }
   }
 
@@ -169,8 +174,18 @@
   document.addEventListener('DOMContentLoaded', function() {
     initializeSampleProductDisplay();
 
-    // Initialize Flickity slider
-    flickitySlider4 = new Flickity('.sample-product-row', {
+    // Initialize Flickity sliders
+    premiumSlider = new Flickity('.premium-product', {
+      cellAlign: 'left',
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+    });
+
+    simpleSlider = new Flickity('.simple-product', {
       cellAlign: 'left',
       contain: true,
       prevNextButtons: true,
@@ -193,11 +208,13 @@
     document.querySelector('.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
       setTimeout(function() {
-        flickitySlider4.resize(); // Resize Flickity slider
-      }, 1000);
+        if (premiumSlider) premiumSlider.resize(); // Resize premium Flickity slider
+        if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
+      }, 500);
     });
   });
 </script>
+
 
 <style>
   .remove-btn {
