@@ -321,12 +321,14 @@
         "image_Qa9gRf": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/World-Spa-NYC-01.jpg",
             "image_caption": ""
           }
         },
         "image_M7qwzr": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/World-Spa-02.jpg",
             "image_caption": ""
           }
         },
