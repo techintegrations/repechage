@@ -49,7 +49,7 @@
         "heading_AbPUr7": {
           "type": "heading",
           "settings": {
-            "title": "PGA National resort - West Palm Beach",
+            "title": "PGA National resort",
             "title_color": "#000000"
           }
         },
@@ -202,7 +202,7 @@
         "heading_zyczta": {
           "type": "heading",
           "settings": {
-            "title": "Conrad Fort Lauderdale Beach - Hilton",
+            "title": "Conrad Fort Lauderdale Beach",
             "title_color": "#000000"
           }
         },
@@ -274,6 +274,81 @@
         "mb_image_per_row": 2
       }
     },
+    "rich_text_EVbacP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4g66yA": {
+          "type": "heading",
+          "settings": {
+            "title": "WORLD SPA",
+            "title_color": "#000"
+          }
+        },
+        "text_mMLBNV": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>New York, NY USA<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4g66yA",
+        "text_mMLBNV"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "custom_gallery_t7zAhL": {
+      "type": "custom-gallery",
+      "blocks": {
+        "image_ndjaqb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-3.jpg",
+            "image_caption": ""
+          }
+        },
+        "image_Qa9gRf": {
+          "type": "image",
+          "settings": {
+            "image_caption": ""
+          }
+        },
+        "image_M7qwzr": {
+          "type": "image",
+          "settings": {
+            "image_caption": ""
+          }
+        },
+        "image_CYQc7B": {
+          "type": "image",
+          "settings": {
+            "image_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ndjaqb",
+        "image_Qa9gRf",
+        "image_M7qwzr",
+        "image_CYQc7B"
+      ],
+      "settings": {
+        "title": "",
+        "image_per_row": 4,
+        "mb_image_per_row": 2
+      }
+    },
     "text_and_image_qTab8G": {
       "type": "text-and-image",
       "settings": {
@@ -309,6 +384,8 @@
     "custom_gallery_VPRnGr",
     "rich_text_ChdnCN",
     "custom_gallery_9yTkEm",
+    "rich_text_EVbacP",
+    "custom_gallery_t7zAhL",
     "text_and_image_qTab8G"
   ]
 }
