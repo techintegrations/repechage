@@ -249,6 +249,7 @@
         "image_FHNEMa": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Conrad-01.jpg",
             "image_caption": ""
           }
         },
