@@ -22,7 +22,7 @@
           "type": "heading",
           "settings": {
             "title": "Repechage Aesthetic School Program",
-            "title_color": "#ffffff"
+            "title_color": "#2b2a27"
           }
         },
         "text_rdLFm7": {
@@ -30,7 +30,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>At Repechage, education is part of who we are. We invite accredited schools to partner with us, delivering dynamic education alongside exceptional professional treatments and products.<\/p>",
-            "text_color": "#ffffff"
+            "text_color": "#2b2a27"
           }
         }
       },
@@ -45,7 +45,7 @@
         "padding_bottom": 60,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
-        "bg_color": "#000000",
+        "bg_color": "#ffffff",
         "divider": false
       }
     },
