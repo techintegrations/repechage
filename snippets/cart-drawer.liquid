@@ -83,7 +83,8 @@
               <button data-fancybox data-src="#cart-sample-product" class="btn cart__checkout sample-product-btn">
                 {{ 'cart.general.checkout' | t }}
               </button>
-            {% else %}
+            {% endif %}
+            
               <button
                 type="submit"
                 name="checkout"
@@ -92,7 +93,7 @@
               >
                 {{ 'cart.general.checkout' | t }}
               </button>
-            {% endif %}
+           
 
             <div id="cart-sample-product" style="display:none;">
               {% render 'sample-products-popup' %}
