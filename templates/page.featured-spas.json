@@ -254,10 +254,11 @@
             "image_caption": ""
           }
         },
-        "video_zx9f9N": {
-          "type": "video",
+        "image_KwM4MN": {
+          "type": "image",
           "settings": {
-            "self_hosted_url": ""
+            "image": "shopify:\/\/shop_images\/Conrad-03.jpg",
+            "image_caption": ""
           }
         }
       },
@@ -265,7 +266,7 @@
         "image_qCMnbX",
         "image_63Xmxi",
         "image_FHNEMa",
-        "video_zx9f9N"
+        "image_KwM4MN"
       ],
       "settings": {
         "title": "",
