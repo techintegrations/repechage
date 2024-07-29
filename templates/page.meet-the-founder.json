@@ -22,15 +22,15 @@
           "type": "heading",
           "settings": {
             "title": "ABOUT LYDIA SARFATI",
-            "title_color": "#ffffff"
+            "title_color": "#2b2a27"
           }
         },
         "text_YggCxg": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>\"Since the launch of Repêchage in 1980, my personal commitment has been to provide the most innovative and effective skin care products. This commitment stems from two things: from my background as an esthetician and from my own personal experience of the sea.\"<\/p><p>— Lydia Sarfati<br\/><\/p>",
-            "text_color": "#ffffff"
+            "text": "<p><em>\"Since the launch of Repêchage in 1980, my personal commitment has been to provide the most innovative and effective skin care products. This commitment stems from two things: from my background as an esthetician and from my own personal experience of the sea.\"<\/em><\/p><p>— Lydia Sarfati<br\/><\/p>",
+            "text_color": "#2b2a27"
           }
         }
       },
@@ -41,11 +41,11 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "padding_top": 70,
-        "padding_bottom": 70,
+        "padding_top": 60,
+        "padding_bottom": 60,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
-        "bg_color": "#000000",
+        "bg_color": "#ffffff",
         "divider": false
       }
     },
