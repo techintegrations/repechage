@@ -14,28 +14,21 @@
   {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="logo-bar logo-bar--{{ section.id }}">
-      {%- for block in section.blocks -%}
-        <div class="logo-bar__item" {{ block.shopify_attributes }}>
-          {%- if block.settings.link != blank -%}
-            <a href="{{ block.settings.link }}" class="logo-bar__link">
-          {%- endif -%}
-          {%- if block.settings.image != blank -%}
-            {%- render 'image-element',
-              img: block.settings.image,
-              widths: '180, 360, 540, 720',
-              classes: 'logo-bar__image',
-              sizeVariable: '160px',
-              fallback: '110px',
-            -%}
-          {%- else -%}
-            {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
-          {%- if block.settings.link != blank -%}
+    <div class="custom-gallery">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+            {% if block.settings.image != blank %}
+              <a href="{{ block.settings.image | image_url : '1200' }}" data-fancybox="gallery" class="gallery-item image-item">
+                <img src="{{ block.settings.image | image_url : '400' }}" width="" height="">
+              </a>
+            {% endif %}
+          {% when 'video' %}
+            <a href="{{ block.settings.self_hosted_url }}" data-fancybox="gallery" class="gallery-item video-item">
+               <img src="{{ block.settings.video_thumbnail | image_url : '400' }}" width="" height="">
             </a>
-          {%- endif -%}
-        </div>
-      {%- endfor -%}
+        {% endcase %}
+      {% endfor %}
     </div>
   {%- endif -%}
 </div>
@@ -45,7 +38,7 @@
 {% schema %}
 {
   "name": "Gallery",
-  "class": "index-section custom-gallery",
+  "class": "index-section custom-gallery-wrap",
   "settings": [
     {
       "type": "text",
@@ -64,7 +57,7 @@
   ],
   "blocks": [
     {
-      "type": "gallery_image",
+      "type": "image",
       "name": "Image",
       "settings": [
         {
@@ -80,7 +73,7 @@
       ]
     },
     {
-      "type": "gallery_video",
+      "type": "video",
       "name": "Video",
       "settings": [
         {
@@ -88,10 +81,10 @@
           "id": "self_hosted_url",
           "label": "Self Hosted video url"
         },
-        {
-          "type": "html",
-          "id": "video_embed_code",
-          "label": "Video Embed Code"
+         {
+          "type": "image_picker",
+          "id": "video_thumbnail",
+          "label": "Video Thumbnail"
         }
       ]
     }
