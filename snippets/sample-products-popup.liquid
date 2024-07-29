@@ -66,7 +66,8 @@
 <script>
   var selectedProducts = [];
   var maxProducts = document.querySelector('.sample-product-wrapper').getAttribute('data-max-products');
-
+  var threshold = document.querySelector('.sample-product-wrapper').getAttribute('data-threshold');
+  
   function toggleProduct(variantId, button) {
     if (selectedProducts.includes(variantId)) {
       selectedProducts = selectedProducts.filter(id => id !== variantId);
@@ -83,6 +84,37 @@
     }
     document.querySelector('.max-samples-message').style.display = selectedProducts.length == maxProducts ? 'block' : 'none';
   }
+
+  function updateSampleProductDisplay(cartTotal) {
+    const premiumProductRow = document.querySelector('.premium-product');
+    const simpleProductRow = document.querySelector('.simple-product');
+
+    if (cartTotal >= threshold) {
+      premiumProductRow.style.display = 'block';
+      simpleProductRow.style.display = 'none';
+    } else {
+      premiumProductRow.style.display = 'none';
+      simpleProductRow.style.display = 'block';
+    }
+  }
+
+  function fetchCartData() {
+    // Example implementation: Replace with actual Shopify cart fetching logic
+    return {
+      total_price: 5000, // Example cart total in cents
+      item_count: 3      // Example item count
+    };
+  }
+
+  function initializeSampleProductDisplay() {
+    const storedCartTotal = sessionStorage.getItem('cartTotal');
+    if (storedCartTotal) {
+      const cartTotal = parseInt(storedCartTotal, 10);
+      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+      updateSampleProductDisplay(cartTotal);
+    }
+  }
+  
 
   document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', () => {
@@ -125,6 +157,19 @@
     }
 
     addProductToCart(0); // Start adding products from the first one
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    initializeSampleProductDisplay();
+
+    // Event listener for cart updates (replace with your actual event listener logic)
+    document.addEventListener('cart:updated', function(event) {
+      const updatedCartData = event.detail.cart;
+      updateSampleProductDisplay(updatedCartData.total_price);
+
+      // Store updated cart total in sessionStorage
+      sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
+    });
   });
 </script>
 
