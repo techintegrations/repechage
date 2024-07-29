@@ -11,31 +11,64 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
-    "1719330332db78ebfd": {
-      "type": "apps",
+    "custom_gallery_QADbDa": {
+      "type": "custom-gallery",
       "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_zrAHFB": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+        "image_CAqN76": {
+          "type": "image",
           "settings": {
-            "formId": "K5dLJ3"
+            "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
+            "image_caption": ""
+          }
+        },
+        "image_PGh3jr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Gotu.png",
+            "image_caption": ""
+          }
+        },
+        "image_Jh8WWx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/almonds_5def27cd-86b1-4549-a4c6-9a2dde6de0a5.jpg",
+            "image_caption": ""
+          }
+        },
+        "video_BLty9C": {
+          "type": "video",
+          "settings": {
+            "self_hosted_url": "https:\/\/www.youtube.com\/watch?v=z2X2HaTvkl8",
+            "video_thumbnail": "shopify:\/\/shop_images\/Orange-slices-thin.jpg"
+          }
+        },
+        "video_qcyEcy": {
+          "type": "video",
+          "settings": {
+            "self_hosted_url": "https:\/\/vimeo.com\/259411563",
+            "video_thumbnail": "shopify:\/\/shop_images\/T-Zone_Starter_Kit_-_Lifestyle1.2_55c1724d-0f07-4042-80b7-d311ac008af9.jpg"
           }
         }
       },
       "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_zrAHFB"
+        "image_CAqN76",
+        "image_PGh3jr",
+        "image_Jh8WWx",
+        "video_BLty9C",
+        "video_qcyEcy"
       ],
-      "disabled": true,
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "",
+        "image_per_row": 4
       }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "custom_gallery_QADbDa"
   ]
 }
