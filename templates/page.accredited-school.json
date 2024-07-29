@@ -68,7 +68,7 @@
         "layout": "right",
         "bg_color": "#ebebeb",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 40,
         "padding_top_m": 50,
         "padding_bottom_m": 50,
         "divider": true,
