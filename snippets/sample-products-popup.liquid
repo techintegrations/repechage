@@ -57,6 +57,7 @@
   {% endif %}
   <button type="button" class="btn btn--full popup-checkout-btn">Checkout</button>
 </div>
+
 <script>
   var selectedProducts = [];
 
@@ -88,7 +89,17 @@
       return;
     }
     
-    selectedProducts.forEach(variantId => {
+    // Function to add products to cart one by one
+    function addProductToCart(index) {
+      if (index >= selectedProducts.length) {
+        console.log('All products added to cart');
+        var cart = new theme.CartDrawer;
+        cart.init();
+        cart.open();
+        return;
+      }
+      
+      var variantId = selectedProducts[index];
       console.log('Adding product with variant ID: ' + variantId); // Debugging information
       var ajax = {
         type: "POST",
@@ -97,15 +108,16 @@
         dataType: "json",
         success: function (n) {
           console.log('Product added to cart: ' + variantId); // Debugging information
-          var cart = new theme.CartDrawer
-          cart.init()
-          cart.open();
+          addProductToCart(index + 1); // Add next product
         },
         error: function (n, c) {
           console.log('Failed to add product to cart: ' + variantId); // Debugging information
+          addProductToCart(index + 1); // Try to add next product even if this one fails
         }
       };
       jQuery.ajax(ajax);
-    });
+    }
+    
+    addProductToCart(0); // Start adding products from the first one
   });
 </script>
