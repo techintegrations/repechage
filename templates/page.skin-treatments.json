@@ -421,7 +421,7 @@
         "heading_NCp3EM": {
           "type": "heading",
           "settings": {
-            "title": "SIGNATURE SPA ENHANCEMENTS  ",
+            "title": "BODY CARE TREATMENTS",
             "title_color": "#000"
           }
         },
@@ -429,7 +429,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Elevate your treatments with personalized upgrades for optimal results and luxurious indulgence.<\/p>",
+            "text": "<p>Wrap yourself in ultimate relaxation with our body-focused experiences that nourish, hydrate, and pamper your skin from head to toe.<\/p>",
             "text_color": "#000"
           }
         }
@@ -442,7 +442,7 @@
         "align_text": "center",
         "narrow_column": true,
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 20,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "bg_color": "",
@@ -459,8 +459,8 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Opti-Firm® Eye Contour Treatment",
-            "text": "<p>This is a professional treatment designed to reduce the appearance of dark circles, puffiness, and wrinkles using the latest skincare advances.<\/p>",
+            "title": "Seaweed Body Contouring Mask",
+            "text": "<p>Indulge in the tradition of European Thalassotherapy with our mask enriched with mint and seaweed extracts and blended with kaolin clay. It softens and tones, leaving you feeling relaxed and rejuvenated.<strong> <\/strong><\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -472,8 +472,8 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Anti-Aging Hand Treatment",
-            "text": "<p>Give your hands the attention they deserve with gentle exfoliation, a hydrating seaweed mask, and a luxurious massage using our Sea Spa Hand Cream. Reveal hands that are deeply hydrated, nourished, and left feeling irresistibly smooth.<strong> <\/strong><\/p>",
+            "title": "Honey Body Polish",
+            "text": "<p>Enriched with pure honey and almond meal from freshly crushed almonds, this ancient beauty ritual gently exfoliates, revealing smoother, hydrated, and refreshed skin.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -485,8 +485,8 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Biolight Express Brightening Facial ",
-            "text": "<p>Need a quick glow-up? Achieve a luminous, flawless-looking complexion in just 30 minutes. Perfect for those on-the-go moments when you need to shine.<\/p>",
+            "title": "Sea Spa Glow All Over Body Scrub",
+            "text": "<p>Awaken your senses with our invigorating, all-over body exfoliant infused with marine salts, nourishing seaweed, and soothing aloe. Reveal irresistibly smooth, silky-soft skin that feels revitalized and refreshed after each use.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -513,7 +513,7 @@
         "button_link_color": "#000",
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 40,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "divider": false
