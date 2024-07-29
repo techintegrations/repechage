@@ -335,6 +335,7 @@
         "image_CYQc7B": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/World-Spa-03.jpg",
             "image_caption": ""
           }
         }
