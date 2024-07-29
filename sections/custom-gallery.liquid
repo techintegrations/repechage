@@ -1,6 +1,108 @@
+{%- style -%}
+.logo-bar--{{ section.id }} {
+  opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
+}
+{%- endstyle -%}
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="page-width" data-aos="logo__animation">
+  {%- if section.settings.title != blank -%}
+    <div class="section-header">
+      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+    </div>
+  {%- endif -%}
+
+  {%- if section.blocks.size > 0 -%}
+    <div class="logo-bar logo-bar--{{ section.id }}">
+      {%- for block in section.blocks -%}
+        <div class="logo-bar__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.link != blank -%}
+            <a href="{{ block.settings.link }}" class="logo-bar__link">
+          {%- endif -%}
+          {%- if block.settings.image != blank -%}
+            {%- render 'image-element',
+              img: block.settings.image,
+              widths: '180, 360, 540, 720',
+              classes: 'logo-bar__image',
+              sizeVariable: '160px',
+              fallback: '110px',
+            -%}
+          {%- else -%}
+            {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+          {%- if block.settings.link != blank -%}
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{
+  "name": "Gallery",
+  "class": "index-section custom-gallery",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.logo-list.settings.title.label"
+    },
+    {
+      "type": "range",
+      "id": "image_per_row",
+      "label": "Images Per row",
+      "default": 4,
+      "min": 2,
+      "max": 8,
+      "step": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "gallery_image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "image_caption",
+          "label": "Image Caption"
+        }
+      ]
+    },
+    {
+      "type": "gallery_video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "url",
+          "id": "self_hosted_url",
+          "label": "Self Hosted video url"
+        },
+        {
+          "type": "html",
+          "id": "video_embed_code",
+          "label": "Video Embed Code"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.logo-list.presets.logo_list.name"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
   }
+}
 {% endschema %}
