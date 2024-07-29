@@ -228,7 +228,7 @@
         "align_text": "center",
         "narrow_column": true,
         "padding_top": 20,
-        "padding_bottom": 60,
+        "padding_bottom": 20,
         "padding_top_m": 20,
         "padding_bottom_m": 40,
         "bg_color": "#ffffff",
@@ -337,7 +337,7 @@
         "padding_top": 20,
         "padding_bottom": 20,
         "padding_top_m": 20,
-        "padding_bottom_m": 21,
+        "padding_bottom_m": 20,
         "bg_color": "",
         "divider": true
       }
@@ -441,10 +441,10 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
         "bg_color": "",
         "divider": true
       }
@@ -548,7 +548,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 20,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
