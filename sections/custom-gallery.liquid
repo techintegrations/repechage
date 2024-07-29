@@ -14,7 +14,7 @@
   {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="custom-gallery">
+    <div class="custom-gallery colum-{{ section.settings.image_per_row }}">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'image' %}
