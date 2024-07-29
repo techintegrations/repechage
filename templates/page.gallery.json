@@ -15,6 +15,40 @@
       "settings": {
       }
     },
+    "rich_text_Y748Ey": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Lhhxek": {
+          "type": "heading",
+          "settings": {
+            "title": "Radiant Reflections",
+            "title_color": "#ffffff"
+          }
+        },
+        "text_L4cbwi": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Explore the stunning transformations achieved with our skincare products. See our clients' glowing skin and our salons in action.<\/p>",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lhhxek",
+        "text_L4cbwi"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 30,
+        "padding_bottom_m": 30,
+        "bg_color": "#000000",
+        "divider": false
+      }
+    },
     "custom_gallery_QADbDa": {
       "type": "custom-gallery",
       "blocks": {
@@ -69,6 +103,7 @@
   },
   "order": [
     "main",
+    "rich_text_Y748Ey",
     "custom_gallery_QADbDa"
   ]
 }
