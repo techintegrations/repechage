@@ -50,7 +50,7 @@
   overflow: hidden; 
 }
 
-#cart-progress-bar {
+.cart-progress-bar {
   display: block;
   height: 10px;
   background-color: var(--progress-bar-color, {{ settings.cart_progress_bar_color }}); 
@@ -61,7 +61,7 @@
   box-sizing: border-box;
 }
 
-.cart-progress-wrapper.full #cart-progress-bar {
+.cart-progress-wrapper.full .cart-progress-bar {
   --progress-bar-color: {{ settings.cart_progress_bar_full_color }};
   --progress-bar-border-color: {{ settings.cart_progress_bar_full_color }};
 }
