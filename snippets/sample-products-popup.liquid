@@ -81,6 +81,18 @@
       }
     }
     document.querySelector('.max-samples-message').style.display = selectedProducts.length == maxProducts ? 'block' : 'none';
+    toggleCheckoutButton();
+  }
+
+  function toggleCheckoutButton() {
+    var checkoutButton = document.querySelector('.popup-checkout-btn');
+    if (selectedProducts.length === 0) {
+      checkoutButton.classList.add('disabled');
+      checkoutButton.setAttribute('disabled', 'disabled');
+    } else {
+      checkoutButton.classList.remove('disabled');
+      checkoutButton.removeAttribute('disabled');
+    }
   }
 
   function updateSampleProductDisplay(cartTotal) {
@@ -212,8 +224,12 @@
         if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
       }, 500);
     });
+
+    // Initial toggle of checkout button state
+    toggleCheckoutButton();
   });
 </script>
+
 
 
 <style>
