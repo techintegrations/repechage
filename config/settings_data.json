@@ -90,6 +90,7 @@
       "hydra-dew-pure-eye-contour-cream-sample"
     ],
     "amount": 200,
+    "max_product_message": "Max [number] Samples are allowed",
     "social_facebook_link": "https:\/\/www.facebook.com\/RepechageSkinCare",
     "social_twitter_link": "https:\/\/twitter.com\/Repechage",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/repechage\/",
