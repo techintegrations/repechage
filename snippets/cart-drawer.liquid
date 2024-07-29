@@ -80,9 +80,7 @@
 
           <div class="cart__checkout-wrapper">
             {% if settings.show_sample_product %}
-              <button data-fancybox data-src="#cart-sample-product" class="sample-product-btn">
-                Try out our free samples
-              </button>
+              <button data-fancybox data-src="#cart-sample-product" class="sample-product-btn">{{ settings.max_product_message }}</button>
             {% endif %}
             
               <button
