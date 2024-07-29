@@ -141,8 +141,6 @@ if (window.outerWidth < 769) {
     ]
   });
 
-
-
   const flickitySlider5 = new Flickity(".text-with-logos-mb-slider", {
       cellAlign: "center",
       contain: true,
@@ -154,7 +152,6 @@ if (window.outerWidth < 769) {
   });
   
 }
-
 
   
 });
