@@ -448,6 +448,76 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "text_columns_Dz8bKP": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_edGhV3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Opti-Firm® Eye Contour Treatment",
+            "text": "<p>This is a professional treatment designed to reduce the appearance of dark circles, puffiness, and wrinkles using the latest skincare advances.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_7M74rq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Anti-Aging Hand Treatment",
+            "text": "<p>Give your hands the attention they deserve with gentle exfoliation, a hydrating seaweed mask, and a luxurious massage using our Sea Spa Hand Cream. Reveal hands that are deeply hydrated, nourished, and left feeling irresistibly smooth.<strong> <\/strong><\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_eCKbFx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Biolight Express Brightening Facial ",
+            "text": "<p>Need a quick glow-up? Achieve a luminous, flawless-looking complexion in just 30 minutes. Perfect for those on-the-go moments when you need to shine.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_edGhV3",
+        "text_block_7M74rq",
+        "text_block_eCKbFx"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -461,6 +531,7 @@
     "text_columns_mCMAmM",
     "rich_text_Fgp3Qc",
     "text_columns_ktCiCi",
-    "rich_text_kTpyBL"
+    "rich_text_kTpyBL",
+    "text_columns_Dz8bKP"
   ]
 }
