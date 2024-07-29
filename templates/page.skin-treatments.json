@@ -322,7 +322,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Calm sensitive skin with proven ingredients to soothe and nourish. Our treatments provide a little TLC to soothe, calm, and keep your complexion glowing. <\/p>",
             "text_color": "#000000"
           }
         }
@@ -354,7 +354,7 @@
             "image_width": 650,
             "preheading": "",
             "title": "hydra dew pure moisturizing lift facial",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Indulge in the ultimate soothing, moisturizing facial that gives your skin a naturally lifted appearance and a dewy, youthful glow.<\/p>",
             "button_label": "FIND A SPA",
             "button_link": "shopify:\/\/pages\/locate-a-spa"
           }
@@ -368,7 +368,7 @@
             "image_width": 650,
             "preheading": "",
             "title": "hydra 4 red out facial",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Say goodbye to redness and sensitive skin with this calming facial. Experience the gentle touch of seaweed and silver for a radiant, even complexion.<\/p>",
             "button_label": "FIND A SPA",
             "button_link": "shopify:\/\/pages\/locate-a-spa"
           }
@@ -382,7 +382,7 @@
             "image_width": 650,
             "preheading": "",
             "title": "red out express soothing facial",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>A 30-minute treatment that transforms stressed, red skin into a calm, hydrated glow. This express facial combines seaweed’s powerhouse vitamins and antioxidants with skin-soothing ingredients like hyaluronic acid, aloe, and silver.<\/p>",
             "button_label": "FIND A SPA",
             "button_link": "shopify:\/\/pages\/locate-a-spa"
           }
