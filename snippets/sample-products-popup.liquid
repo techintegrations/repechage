@@ -55,7 +55,7 @@
       {% endfor %}
     </div>
   {% endif %}
-  <button type="button" class="btn btn--full checkout-btn">Checkout</button>
+  <button type="button" class="btn btn--full popup-checkout-btn">Checkout</button>
 </div>
 
 <script>
@@ -82,7 +82,7 @@
     });
   });
 
-  document.querySelector('.checkout-btn').addEventListener('click', () => {
+  document.querySelector('.popup-checkout-btn').addEventListener('click', () => {
     selectedProducts.forEach(variantId => {
       var ajax = {
         type: "POST",
