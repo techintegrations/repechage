@@ -974,6 +974,11 @@
         "id": "max_product_message",
         "label": "Alert Message"
       },
+      {
+        "type": "text",
+        "id": "sample_products_trigger",
+        "label": "Sample Popup Trigger"
+      }
     ]
   },
   {
