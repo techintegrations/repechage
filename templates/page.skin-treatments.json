@@ -60,8 +60,8 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 30,
-        "padding_bottom": 30,
+        "padding_top": 20,
+        "padding_bottom": 20,
         "padding_top_m": 30,
         "padding_bottom_m": 30,
         "bg_color": "#ffffff",
