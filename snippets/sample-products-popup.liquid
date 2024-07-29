@@ -1,4 +1,4 @@
-<div class="sample-product-wrapper custom-dots-style" data-max-products="{{ settings.max_products }}" data-threshold="{{ settings.amount | times: 100  }}">
+<div class="sample-product-wrapper custom-dots-style" data-max-products="{{ settings.max_products }}" data-threshold="{{ settings.amount }}">
   {% if settings.heading != blank or settings.text != blank %}
     <div class="top-heading">
       {% if settings.heading != blank %}
@@ -93,6 +93,13 @@
       premiumProductRow.style.display = 'none';
       simpleProductRow.style.display = 'block';
     }
+
+    // Resize Flickity slider
+    if (flickitySlider4) {
+      setTimeout(function() {
+        flickitySlider4.resize();
+      }, 500);
+    }
   }
 
   function fetchCartData() {
@@ -161,6 +168,17 @@
   document.addEventListener('DOMContentLoaded', function() {
     initializeSampleProductDisplay();
 
+    // Initialize Flickity slider
+    var flickitySlider4 = new Flickity('.sample-product-row', {
+      cellAlign: 'left',
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+    });
+
     // Event listener for cart updates (replace with your actual event listener logic)
     document.addEventListener('cart:updated', function(event) {
       const updatedCartData = event.detail.cart;
@@ -168,6 +186,14 @@
 
       // Store updated cart total in sessionStorage
       sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
+    });
+
+    // Attach click event handler to button
+    document.querySelector('.sample-product-btn').addEventListener('click', function() {
+      // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
+      setTimeout(function() {
+        flickitySlider4.resize(); // Resize Flickity slider
+      }, 500);
     });
   });
 </script>
