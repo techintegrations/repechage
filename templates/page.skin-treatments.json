@@ -414,6 +414,40 @@
         "padding_bottom_m": 0,
         "divider": false
       }
+    },
+    "rich_text_kTpyBL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NCp3EM": {
+          "type": "heading",
+          "settings": {
+            "title": "SIGNATURE SPA ENHANCEMENTS  ",
+            "title_color": "#000"
+          }
+        },
+        "text_YrmdcY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Elevate your treatments with personalized upgrades for optimal results and luxurious indulgence.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NCp3EM",
+        "text_YrmdcY"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -426,6 +460,7 @@
     "rich_text_YJVYMV",
     "text_columns_mCMAmM",
     "rich_text_Fgp3Qc",
-    "text_columns_ktCiCi"
+    "text_columns_ktCiCi",
+    "rich_text_kTpyBL"
   ]
 }
