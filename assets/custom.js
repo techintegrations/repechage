@@ -70,29 +70,6 @@ $(document).ready(function () {
       }, 500);
   });
 
-
-const flickitySlider5 = new Flickity('.sample-product-on-cart .sample-product-row', {
-    cellAlign: 'left',
-    contain: true,
-    prevNextButtons: true,
-    pageDots: true,
-    freeScroll: false,
-    avoidReflow: true,
-    wrapAround: true,
-});
-
-// Attach click event handler to button
-document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListener('click', function() {
-    // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
-    setTimeout(function() {
-        flickitySlider5.resize(); // Resize Flickity slider
-    }, 500);
-});
-
-
-
-
-  $(document).ready(function() {
     $('.site-nav__item').hover(
       function() { // Mouse enter
         var itemClass = $(this).attr('class').split(' ')[0]; // Get the first class of the <li>
@@ -103,8 +80,7 @@ document.querySelector('.btn.cart__checkout.sample-product-btn').addEventListene
         $(this).find('.custom-grid.grid__item.' + itemClass).removeClass('open');
       }
     );
-  });
-
+  
 $(".image-slider-with-text .slider-for").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -167,7 +143,7 @@ if (window.outerWidth < 769) {
 
 
 
-  const flickitySlider4 = new Flickity(".text-with-logos-mb-slider", {
+  const flickitySlider5 = new Flickity(".text-with-logos-mb-slider", {
       cellAlign: "center",
       contain: true,
       prevNextButtons: false,
