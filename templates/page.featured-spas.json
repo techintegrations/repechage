@@ -57,7 +57,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>A Palm Beach GolfResort — Surprise Your Special Someone with the Ultimate Golf Experience, at the PGA National. Play at PGA NationalResort With Packages and Specials That Fit Like a Custom Set.<\/p>",
+            "text": "",
             "text_color": "#000000"
           }
         }
@@ -69,12 +69,12 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 0,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "bg_color": "",
-        "divider": false
+        "divider": true
       }
     },
     "custom_image_slider_with_text_xJYhbx": {
@@ -230,6 +230,47 @@
         "divider": false
       }
     },
+    "custom_gallery_9yTkEm": {
+      "type": "custom-gallery",
+      "blocks": {
+        "image_qCMnbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-4.jpg",
+            "image_caption": ""
+          }
+        },
+        "image_63Xmxi": {
+          "type": "image",
+          "settings": {
+            "image_caption": ""
+          }
+        },
+        "image_FHNEMa": {
+          "type": "image",
+          "settings": {
+            "image_caption": ""
+          }
+        },
+        "video_zx9f9N": {
+          "type": "video",
+          "settings": {
+            "self_hosted_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qCMnbX",
+        "image_63Xmxi",
+        "image_FHNEMa",
+        "video_zx9f9N"
+      ],
+      "settings": {
+        "title": "",
+        "image_per_row": 4,
+        "mb_image_per_row": 2
+      }
+    },
     "text_and_image_qTab8G": {
       "type": "text-and-image",
       "settings": {
@@ -264,6 +305,7 @@
     "main",
     "custom_gallery_VPRnGr",
     "rich_text_ChdnCN",
+    "custom_gallery_9yTkEm",
     "text_and_image_qTab8G"
   ]
 }

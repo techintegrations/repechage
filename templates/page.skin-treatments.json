@@ -422,7 +422,7 @@
           "type": "heading",
           "settings": {
             "title": "SIGNATURE SPA ENHANCEMENTS  ",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_96zCpH": {
@@ -430,7 +430,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Elevate your treatments with personalized upgrades for optimal results and luxurious indulgence.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -470,6 +470,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Repechage-Hand-Treatment.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
@@ -509,10 +510,10 @@
         "mobile_columns_per_row": 2,
         "block_align_text": "center",
         "button_style": "solid",
-        "preheading_color": "#000",
-        "heading_color": "#000",
-        "text_color": "#000",
-        "button_link_color": "#000",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 20,
         "padding_bottom": 40,
