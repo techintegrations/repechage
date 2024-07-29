@@ -483,6 +483,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/REPECHAGE-BIOLIGHT_EXPRESS_BRIGHTENING_FACIAL.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
