@@ -55,8 +55,9 @@
       {% endfor %}
     </div>
   {% endif %}
-  <button type="button" class="btn btn--full popup-checkout-btn">Checkout</button>
+  <button type="button" class="btn btn--full checkout-btn">Checkout</button>
 </div>
+
 <script>
   var selectedProducts = [];
 
@@ -74,38 +75,48 @@
     }
   }
 
-  document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      var variantId = button.getAttribute('data-variant-id');
-      toggleProduct(variantId, button);
+  function setupEventListeners(container) {
+    container.querySelectorAll('.add-to-cart-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        var variantId = button.getAttribute('data-variant-id');
+        toggleProduct(variantId, button);
+      });
     });
-  });
 
-  document.querySelector('.popup-checkout-btn').addEventListener('click', () => {
-    console.log('Checkout button clicked'); // Debugging information
-    if (selectedProducts.length === 0) {
-      alert('No products selected for checkout.');
-      return;
-    }
-    
-    selectedProducts.forEach(variantId => {
-      console.log('Adding product with variant ID: ' + variantId); // Debugging information
-      var ajax = {
-        type: "POST",
-        url: "/cart/add.js",
-        data: "quantity=1&id=" + variantId,
-        dataType: "json",
-        success: function (n) {
-          console.log('Product added to cart: ' + variantId); // Debugging information
-          var cart = new theme.CartDrawer
-          cart.init()
-          cart.open();
-        },
-        error: function (n, c) {
-          console.log('Failed to add product to cart: ' + variantId); // Debugging information
-        }
-      };
-      jQuery.ajax(ajax);
+    container.querySelector('.checkout-btn').addEventListener('click', () => {
+      console.log('Checkout button clicked'); // Debugging information
+      if (selectedProducts.length === 0) {
+        alert('No products selected for checkout.');
+        return;
+      }
+      
+      selectedProducts.forEach(variantId => {
+        console.log('Adding product with variant ID: ' + variantId); // Debugging information
+        var ajax = {
+          type: "POST",
+          url: "/cart/add.js",
+          data: "quantity=1&id=" + variantId,
+          dataType: "json",
+          success: function (n) {
+            console.log('Product added to cart: ' + variantId); // Debugging information
+            var cart = new theme.CartDrawer;
+            cart.init();
+            cart.open();
+          },
+          error: function (n, c) {
+            console.log('Failed to add product to cart: ' + variantId); // Debugging information
+          }
+        };
+        jQuery.ajax(ajax);
+      });
+    });
+  }
+
+  // Initialize event listeners for both popup and sidebar cart
+  document.addEventListener('DOMContentLoaded', function() {
+    var sampleProductWrappers = document.querySelectorAll('.sample-product-wrapper');
+    sampleProductWrappers.forEach(wrapper => {
+      setupEventListeners(wrapper);
     });
   });
 </script>
