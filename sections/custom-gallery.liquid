@@ -138,3 +138,48 @@
   }
 }
 {% endschema %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const gallery = document.querySelector('.custom-gallery');
+    const galleryItems = Array.from(gallery.children);
+
+    function initMasonry() {
+        // Get the column count from the class name
+        const classList = gallery.classList;
+        let columnCount = 4; // Default to 4 columns
+        classList.forEach(className => {
+            if (className.startsWith('column-')) {
+                columnCount = parseInt(className.split('-')[1]);
+            }
+        });
+
+        const columns = Array.from({ length: columnCount }, () => []);
+        
+        galleryItems.forEach(item => {
+            const minColumn = columns.reduce((minIndex, column, index, columns) => {
+                return column.length < columns[minIndex].length ? index : minIndex;
+            }, 0);
+            columns[minColumn].push(item);
+        });
+
+        gallery.innerHTML = '';
+        columns.forEach(column => {
+            const columnDiv = document.createElement('div');
+            columnDiv.style.width = `${100 / columnCount}%`;
+            column.forEach(item => columnDiv.appendChild(item));
+            gallery.appendChild(columnDiv);
+        });
+    }
+
+    function updateMasonry() {
+        galleryItems.forEach(item => {
+            item.style.height = 'auto';
+        });
+        initMasonry();
+    }
+
+    window.addEventListener('resize', updateMasonry);
+    initMasonry();
+});
+</script>
