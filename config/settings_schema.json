@@ -970,7 +970,7 @@
         "step": 1
       },
       {
-        "type": "richtext",
+        "type": "text",
         "id": "max_product_message",
         "label": "Alert Message"
       },
