@@ -1,52 +1,44 @@
 {%- style -%}
-.custom-gallery--{{ section.id }} {
-    display: grid;
-    grid-auto-flow: dense;
-    gap: 10px;
+.custom-gallery {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.custom-gallery--{{ section.id }} .gallery-item {
-    break-inside: avoid;
+.gallery-item {
     margin-bottom: 10px;
 }
 
-.custom-gallery--{{ section.id }}.column-1 {
-    grid-template-columns: repeat(1, 1fr);
+.custom-gallery--{{ section.id }}.column-1 .gallery-item  {
+  width: 100%;
+}
+.custom-gallery--{{ section.id }}.column-2 .gallery-item  {
+  width: 50%;
+}
+.custom-gallery--{{ section.id }}.column-3 .gallery-item  {
+  width: 33.33%;
+}
+.custom-gallery--{{ section.id }}.column-4 .gallery-item  {
+  width: 25%;
+}
+.custom-gallery--{{ section.id }}.column-5 .gallery-item  {
+  width: 20%;
+}
+.custom-gallery--{{ section.id }}.column-6 .gallery-item  {
+  width: 16.66%;
+}
+.custom-gallery--{{ section.id }}.column-7 .gallery-item  {
+  width: 14.28%;
+}
+.custom-gallery--{{ section.id }}.column-8 .gallery-item  {
+  width: 12.5%;
 }
 
-.custom-gallery--{{ section.id }}.column-2 {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.custom-gallery--{{ section.id }}.column-3 {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.custom-gallery--{{ section.id }}.column-4 {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.custom-gallery--{{ section.id }}.column-5 {
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.custom-gallery--{{ section.id }}.column-6 {
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.custom-gallery--{{ section.id }}.column-7 {
-    grid-template-columns: repeat(7, 1fr);
-}
-
-.custom-gallery--{{ section.id }}.column-8 {
-    grid-template-columns: repeat(8, 1fr);
-}
-
-.custom-gallery--{{ section.id }} .gallery-item img {
+.custom-gallery .gallery-item img {
     width: 100%;
     height: auto;
     display: block;
 }
+
 {%- endstyle -%}
 
 <div class="page-width" data-aos="logo__animation">
