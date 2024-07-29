@@ -67,19 +67,13 @@
   {%- endif -%}
 
   {%- render 'social-meta-tags' -%}
-
   {%- render 'font-face' -%}
 
-
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
   {{ 'yotpo-full-css.css' | asset_url | stylesheet_tag }}
+  {{ 'flickity.min.css' | asset_url | stylesheet_tag }}
+  {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
+  {{ 'slick-theme.min.css' | asset_url | stylesheet_tag }}
+  {{ 'slick.min.css' | asset_url | stylesheet_tag }}
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
   {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
@@ -160,16 +154,12 @@
 
   <div id="PageContainer" class="page-container">
     <div class="transition-body">
-
     {%- sections 'header-group' -%}
     {%- sections 'popup-group' -%}
-
       <main class="main-content" id="MainContent">
         {{ content_for_layout }}
       </main>
-
     {%- sections 'footer-group' -%}
-
     </div>
   </div>
 
@@ -195,46 +185,5 @@
     </div>
   </template>
 
-
-
-  <script>
-  function updateProgressBar() {
-    $.ajax({
-      url: '/cart.js',
-      dataType: 'json',
-      success: function(cart) {
-        var progressThresholdDollars = {{ settings.cart_progress_threshold }};
-        var progressThreshold = progressThresholdDollars * 100;
-        var cartTotal = cart.total_price;
-        var progressPercentage = (cartTotal * 100) / progressThreshold;
-        if (progressPercentage > 100) {
-          progressPercentage = 100;
-        }
-
-        var remainingForGoal = progressThreshold - cartTotal;
-        if (remainingForGoal < 0) {
-          remainingForGoal = 0;
-        }
-        var remainingForGoalFormatted = Shopify.formatMoney(remainingForGoal);
-        var preGoalMessageTemplate = "{{ settings.cart_pre_goal_message }}";
-        var postGoalMessage = "{{ settings.cart_post_goal_message }}";
-        var dynamicPreGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingForGoalFormatted);
-
-        $('#cart-progress-bar').css('width', progressPercentage + '%');
-        if (remainingForGoal > 0) {
-          $('.goal-message').text(dynamicPreGoalMessage);
-        } else {
-          $('.goal-message').text(postGoalMessage);
-        }
-      }
-    });
-  }
-
-  $(document).ready(function() {
-    updateProgressBar();
-  });
-</script>
-
-  
 </body>
 </html>
