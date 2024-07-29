@@ -959,7 +959,21 @@
         "type": "number",
         "id": "amount",
         "label": "Amount"
-      }
+      },
+      {
+        "type": "range",
+        "id": "max_products",
+        "label": "Max Allowed Products",
+        "default": 3,
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "type": "text",
+        "id": "max_product_message",
+        "label": "Alert Message"
+      },
     ]
   },
   {
