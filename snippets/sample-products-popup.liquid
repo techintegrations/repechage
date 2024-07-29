@@ -1,4 +1,4 @@
-<div class="sample-product-wrapper custom-dots-style" data-max-products="{{ settings.max_products }}" data-threshold="{{ settings.amount }}">
+<div class="sample-product-wrapper custom-dots-style" data-max-products="{{ settings.max_products }}" data-threshold="{{ settings.amount  | times: 100 }}">
   {% if settings.heading != blank or settings.text != blank %}
     <div class="top-heading">
       {% if settings.heading != blank %}
