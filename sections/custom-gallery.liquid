@@ -1,9 +1,21 @@
 {%- style -%}
 .custom-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
 }
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .custom-gallery--{{ section.id }}.column-1 .gallery-item  {
   flex: 0 0 100%;
 }
@@ -38,7 +50,7 @@
   {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="custom-gallery colum-{{ section.settings.image_per_row }} {{ section.id }}">
+    <div class="custom-gallery column-{{ section.settings.image_per_row }} custom-gallery--{{ section.id }}">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'image' %}
