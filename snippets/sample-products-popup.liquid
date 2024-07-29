@@ -10,51 +10,48 @@
     </div>
   {% endif %}
 
-  {% assign cart_total_dollars = cart.total_price | divided_by: 100 %}
-  {% assign required_amount = settings.amount | times: 1 %}
-  {% if cart_total_dollars > required_amount %}
-    <div class="sample-product-row premium-product {% if settings.premium_products.size > 4 %}sample-product-slider{% endif %}">
-      {% for Pproduct in settings.premium_products %}
-        <div class="sample-product">
-          <div class="f-image">
-            <img src="{{ Pproduct.featured_image | img_url:'300x' }}">
-          </div>
-          <div class="grid-product__info">
-            <div class="grid-product__title grid-product__title--body">{{ Pproduct.title }}</div>
-            {% assign current_variant = Pproduct.selected_or_first_available_variant %}
-            <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
-              {% if current_variant.available %}
-                {{ 'products.product.add_to_cart' | t }}
-              {% else %}
-                {{ 'products.product.sold_out' | t }}
-              {% endif %}
-            </button>
-          </div>
+  <div class="sample-product-row premium-product {% if settings.premium_products.size > 4 %}sample-product-slider{% endif %}">
+    {% for Pproduct in settings.premium_products %}
+      <div class="sample-product">
+        <div class="f-image">
+          <img src="{{ Pproduct.featured_image | img_url:'300x' }}">
         </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <div class="sample-product-row simple-product">
-      {% for Sproduct in settings.sample_products %}
-        <div class="sample-product">
-          <div class="f-image">
-            <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
-          </div>
-          <div class="grid-product__info">
-            <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
-            {% assign current_variant = Sproduct.selected_or_first_available_variant %}
-            <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
-              {% if current_variant.available %}
-                {{ 'products.product.add_to_cart' | t }}
-              {% else %}
-                {{ 'products.product.sold_out' | t }}
-              {% endif %}
-            </button>
-          </div>
+        <div class="grid-product__info">
+          <div class="grid-product__title grid-product__title--body">{{ Pproduct.title }}</div>
+          {% assign current_variant = Pproduct.selected_or_first_available_variant %}
+          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
+            {% if current_variant.available %}
+              {{ 'products.product.add_to_cart' | t }}
+            {% else %}
+              {{ 'products.product.sold_out' | t }}
+            {% endif %}
+          </button>
         </div>
-      {% endfor %}
-    </div>
-  {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="sample-product-row simple-product">
+    {% for Sproduct in settings.sample_products %}
+      <div class="sample-product">
+        <div class="f-image">
+          <img src="{{ Sproduct.featured_image | img_url:'300x' }}">
+        </div>
+        <div class="grid-product__info">
+          <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
+          {% assign current_variant = Sproduct.selected_or_first_available_variant %}
+          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
+            {% if current_variant.available %}
+              {{ 'products.product.add_to_cart' | t }}
+            {% else %}
+              {{ 'products.product.sold_out' | t }}
+            {% endif %}
+          </button>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
   {% assign maxProducts = settings.max_products %}
   <p class="max-samples-message" style="display:none;">{{ settings.max_product_message | replace: '[number]', maxProducts }}</p>
   <div class="sample-checkout-wrap">
@@ -99,22 +96,24 @@
   }
 
   function fetchCartData() {
-    // Example implementation: Replace with actual Shopify cart fetching logic
-    return {
-      total_price: 5000, // Example cart total in cents
-      item_count: 3      // Example item count
-    };
+    return fetch('/cart.js')
+      .then(response => response.json())
+      .then(data => ({
+        total_price: data.total_price, 
+        item_count: data.item_count 
+      }))
+      .catch(error => {
+        console.error('Error fetching cart data:', error);
+        return { total_price: 0, item_count: 0 };
+      });
   }
 
   function initializeSampleProductDisplay() {
-    const storedCartTotal = sessionStorage.getItem('cartTotal');
-    if (storedCartTotal) {
-      const cartTotal = parseInt(storedCartTotal, 10);
-      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-      updateSampleProductDisplay(cartTotal);
-    }
+    fetchCartData().then(cartData => {
+      updateSampleProductDisplay(cartData.total_price);
+      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
+    });
   }
-  
 
   document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', () => {
