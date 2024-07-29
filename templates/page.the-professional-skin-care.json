@@ -91,7 +91,7 @@
           "type": "heading",
           "settings": {
             "title": "SKINCARE YOU CAN TRUST",
-            "title_color": "#ffffff"
+            "title_color": "#2b2a27"
           }
         },
         "text_qFezhY": {
@@ -99,7 +99,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p><em>It’s your skin. Don’t compromise it.<\/em><\/p>",
-            "text_color": "#ffffff"
+            "text_color": "#2b2a27"
           }
         },
         "text_VHCeWE": {
@@ -107,7 +107,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<\/p>",
-            "text_color": "#ffffff"
+            "text_color": "#000000"
           }
         }
       },
@@ -123,7 +123,7 @@
         "padding_bottom": 70,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
-        "bg_color": "#000000",
+        "bg_color": "#ebebeb",
         "divider": false
       }
     },
