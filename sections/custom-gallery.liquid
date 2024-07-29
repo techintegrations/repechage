@@ -77,7 +77,7 @@
   {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="custom-gallery column-{{ section.settings.image_per_row }} mb-coumn-{{ mb_image_per_row }} custom-gallery--{{ section.id }}">
+    <div class="custom-gallery column-{{ section.settings.image_per_row }} mb-coumn-{{ section.settings.mb_image_per_row }} custom-gallery--{{ section.id }}">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'image' %}
