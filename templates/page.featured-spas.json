@@ -50,15 +50,15 @@
           "type": "heading",
           "settings": {
             "title": "PGA National resort",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_AEzyUb": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_color": "#000"
+            "text": "<p>A Palm Beach GolfResort — Surprise Your Special Someone with the UltimateGolfExperience, at thePGA National. Play atPGA NationalResort With Packages and Specials That Fit Like a Custom Set.<\/p>",
+            "text_color": "#000000"
           }
         }
       },
@@ -168,43 +168,57 @@
             "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
             "image_caption": ""
           }
+        },
+        "image_J3Adae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conrad-event.jpg",
+            "image_caption": ""
+          }
         }
       },
       "block_order": [
         "image_nG8YEa",
-        "image_mVKYXn"
+        "image_mVKYXn",
+        "image_J3Adae"
       ],
       "settings": {
         "title": "",
-        "image_per_row": 4,
+        "image_per_row": 3,
         "mb_image_per_row": 2
       }
     },
-    "logo_list_djixUC": {
-      "type": "logo-list",
+    "rich_text_ChdnCN": {
+      "type": "rich-text",
       "blocks": {
-        "logo_image_fnXdQJ": {
-          "type": "logo_image",
+        "heading_zyczta": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Conrad_Ft_Laudedale_and_Repechage.jpg",
-            "link": ""
+            "title": "CONRAD FT LAUDERDALE",
+            "title_color": "#000"
           }
         },
-        "logo_image_JhhpPD": {
-          "type": "logo_image",
+        "text_eXyQYq": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Spa_at_PGA_National_Resort_Logo_PMS_4035.jpg",
-            "link": ""
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
           }
         }
       },
       "block_order": [
-        "logo_image_fnXdQJ",
-        "logo_image_JhhpPD"
+        "heading_zyczta",
+        "text_eXyQYq"
       ],
       "settings": {
-        "title": "",
-        "logo_opacity": 100,
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
         "divider": false
       }
     },
@@ -241,7 +255,7 @@
     "custom_image_slider_with_text_xJYhbx",
     "main",
     "custom_gallery_VPRnGr",
-    "logo_list_djixUC",
+    "rich_text_ChdnCN",
     "text_and_image_qTab8G"
   ]
 }
