@@ -205,6 +205,40 @@
         "divider": false
       }
     },
+    "rich_text_6wRYhE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UYDpGC": {
+          "type": "heading",
+          "settings": {
+            "title": "Message From Lydia",
+            "title_color": "#000"
+          }
+        },
+        "text_hATJfw": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UYDpGC",
+        "text_hATJfw"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "featured_video_az9zwG": {
       "type": "featured-video",
       "settings": {
@@ -320,6 +354,7 @@
     "text_and_image_JmjzCR",
     "text_with_icons_tynBh6",
     "rich_text_zWkNYL",
+    "rich_text_6wRYhE",
     "featured_video_az9zwG",
     "text_with_icons_di3kUp"
   ]
