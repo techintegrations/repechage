@@ -55,6 +55,7 @@
       {% endfor %}
     </div>
   {% endif %}
+  <p class="max-samples-message" style="display:none;">Max 3 samples are allowed.</p>
   <button type="button" class="btn btn--full popup-checkout-btn">Checkout</button>
 </div>
 
@@ -65,14 +66,17 @@
     if (selectedProducts.includes(variantId)) {
       selectedProducts = selectedProducts.filter(id => id !== variantId);
       button.textContent = '{{ "products.product.add_to_cart" | t }}';
+      button.classList.remove('remove-btn');
     } else {
       if (selectedProducts.length < 3) {
         selectedProducts.push(variantId);
         button.textContent = 'Remove';
+        button.classList.add('remove-btn');
       } else {
         alert('You can only add up to 3 products.');
       }
     }
+    document.querySelector('.max-samples-message').style.display = selectedProducts.length === 3 ? 'block' : 'none';
   }
 
   document.querySelectorAll('.add-to-cart-btn').forEach(button => {
@@ -88,17 +92,14 @@
       alert('No products selected for checkout.');
       return;
     }
-    
-    // Function to add products to cart one by one
+
     function addProductToCart(index) {
       if (index >= selectedProducts.length) {
         console.log('All products added to cart');
-        var cart = new theme.CartDrawer;
-        cart.init();
-        cart.open();
+        window.location.href = '/checkout'; // Redirect to checkout page
         return;
       }
-      
+
       var variantId = selectedProducts[index];
       console.log('Adding product with variant ID: ' + variantId); // Debugging information
       var ajax = {
@@ -117,7 +118,14 @@
       };
       jQuery.ajax(ajax);
     }
-    
+
     addProductToCart(0); // Start adding products from the first one
   });
 </script>
+
+<style>
+  .remove-btn {
+    background-color: red; /* Example style for 'Remove' button */
+    color: white;
+  }
+</style>
