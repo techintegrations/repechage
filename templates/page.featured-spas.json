@@ -179,7 +179,8 @@
         "video_Ab9XiV": {
           "type": "video",
           "settings": {
-            "self_hosted_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d4751aad7f6f4f3683eca2868de9f23a.mp4"
+            "self_hosted_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d4751aad7f6f4f3683eca2868de9f23a.mp4",
+            "video_thumbnail": "shopify:\/\/shop_images\/Screenshot_2024-07-29_at_2.30.10_PM.png"
           }
         }
       },
