@@ -418,25 +418,25 @@
     "rich_text_xDWq9V": {
       "type": "rich-text",
       "blocks": {
+        "heading_fCKwMy": {
+          "type": "heading",
+          "settings": {
+            "title": "SIGNATURE SPA ENHANCEMENTS  ",
+            "title_color": "#000"
+          }
+        },
         "text_96zCpH": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Elevate your treatments with personalized upgrades for optimal results and luxurious indulgence.<\/p>",
             "text_color": "#000"
-          }
-        },
-        "heading_fCKwMy": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "title_color": "#000"
           }
         }
       },
       "block_order": [
-        "text_96zCpH",
-        "heading_fCKwMy"
+        "heading_fCKwMy",
+        "text_96zCpH"
       ],
       "settings": {
         "align_text": "center",
@@ -459,8 +459,8 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "title": "Opti-Firm® Eye Contour Treatment",
+            "text": "<p>This is a professional treatment designed to reduce the appearance of dark circles, puffiness, and wrinkles using the latest skincare advances.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -472,8 +472,8 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "title": "Anti-Aging Hand Treatment",
+            "text": "<p>Give your hands the attention they deserve with gentle exfoliation, a hydrating seaweed mask, and a luxurious massage using our Sea Spa Hand Cream. Reveal hands that are deeply hydrated, nourished, and left feeling irresistibly smooth.<strong> <\/strong><\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -485,8 +485,8 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "title": "Biolight Express Brightening Facial ",
+            "text": "<p>Need a quick glow-up? Achieve a luminous, flawless-looking complexion in just 30 minutes. Perfect for those on-the-go moments when you need to shine.<strong> <\/strong><\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
