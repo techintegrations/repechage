@@ -43,6 +43,40 @@
         "divider": false
       }
     },
+    "rich_text_pK3djV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AbPUr7": {
+          "type": "heading",
+          "settings": {
+            "title": "PGA National resort",
+            "title_color": "#000"
+          }
+        },
+        "text_AEzyUb": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AbPUr7",
+        "text_AEzyUb"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "custom_image_slider_with_text_xJYhbx": {
       "type": "custom__image-slider-with-text",
       "blocks": {
@@ -101,6 +135,7 @@
         "image_slider_block_nQYVAf",
         "image_slider_block_HRBHkP"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured USA SPAS",
         "align_text": "center",
@@ -202,6 +237,7 @@
   },
   "order": [
     "rich_text_mVAyUD",
+    "rich_text_pK3djV",
     "custom_image_slider_with_text_xJYhbx",
     "main",
     "custom_gallery_VPRnGr",

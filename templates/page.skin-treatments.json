@@ -108,7 +108,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Experience the transformative power of Repêchage's anti-aging treatments, designed to rejuvenate your skin and reduce the visible signs of aging.<\/p>",
             "text_color": "#000000"
           }
         }
@@ -140,7 +140,7 @@
             "image_width": 650,
             "preheading": "For All Skin Types",
             "title": "seaweed treatment",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Your express ticket to a clean and glowing complexion, this treatment features a soothing massage with multivitamin C-Serum followed by a cooling seaweed mask to hydrate and enhance skin tone and clarity.<\/p>",
             "button_label": "Find A Spa",
             "button_link": "shopify:\/\/pages\/locate-a-spa"
           }
@@ -154,7 +154,7 @@
             "image_width": 650,
             "preheading": "For Uneven Skin Tone",
             "title": "biolight miracle facial with glyco-sea peel",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Combining cutting-edge brightening ingredients and innovative marine biotechnology, this facial reduces dark spots and hyperpigmentation, giving you a glowing complexion without compromising your skin's delicate balance.<\/p>",
             "button_label": "Find A Spa",
             "button_link": "shopify:\/\/pages\/locate-a-spa"
           }
