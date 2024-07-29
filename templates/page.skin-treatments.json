@@ -86,8 +86,8 @@
         "image_width": "33",
         "layout": "right",
         "bg_color": "#ebebeb",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "divider": false,
@@ -461,7 +461,7 @@
             "preheading": "",
             "title": "Seaweed Body Contouring Mask",
             "text": "<p>Indulge in the tradition of European Thalassotherapy with our mask enriched with mint and seaweed extracts and blended with kaolin clay. It softens and tones, leaving you feeling relaxed and rejuvenated.<strong> <\/strong><\/p>",
-            "button_label": "Optional button",
+            "button_label": "FIND A SPA",
             "button_link": ""
           }
         },
@@ -474,7 +474,7 @@
             "preheading": "",
             "title": "Honey Body Polish",
             "text": "<p>Enriched with pure honey and almond meal from freshly crushed almonds, this ancient beauty ritual gently exfoliates, revealing smoother, hydrated, and refreshed skin.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "FIND A SPA",
             "button_link": ""
           }
         },
