@@ -415,6 +415,110 @@
         "divider": false
       }
     },
+    "rich_text_xDWq9V": {
+      "type": "rich-text",
+      "blocks": {
+        "text_96zCpH": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
+          }
+        },
+        "heading_fCKwMy": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "title_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "text_96zCpH",
+        "heading_fCKwMy"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "text_columns_3ThPCN": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_39t3Ww": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_NirLkb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_Q3qjhd": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_39t3Ww",
+        "text_block_NirLkb",
+        "text_block_Q3qjhd"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
     "rich_text_kTpyBL": {
       "type": "rich-text",
       "blocks": {
@@ -518,110 +622,6 @@
         "padding_bottom_m": 0,
         "divider": false
       }
-    },
-    "rich_text_xDWq9V": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fCKwMy": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "title_color": "#000"
-          }
-        },
-        "text_96zCpH": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_color": "#000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fCKwMy",
-        "text_96zCpH"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": false
-      }
-    },
-    "text_columns_3ThPCN": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_39t3Ww": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_NirLkb": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_Q3qjhd": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_39t3Ww",
-        "text_block_NirLkb",
-        "text_block_Q3qjhd"
-      ],
-      "settings": {
-        "title": "",
-        "text": "",
-        "align_text": "center",
-        "button_label": "",
-        "button_link": "",
-        "desktop_columns_per_row": 3,
-        "mobile_columns_per_row": 2,
-        "block_align_text": "center",
-        "button_style": "solid",
-        "preheading_color": "#000",
-        "heading_color": "#000",
-        "text_color": "#000",
-        "button_link_color": "#000",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -635,9 +635,9 @@
     "text_columns_mCMAmM",
     "rich_text_Fgp3Qc",
     "text_columns_ktCiCi",
-    "rich_text_kTpyBL",
-    "text_columns_Dz8bKP",
     "rich_text_xDWq9V",
-    "text_columns_3ThPCN"
+    "text_columns_3ThPCN",
+    "rich_text_kTpyBL",
+    "text_columns_Dz8bKP"
   ]
 }
