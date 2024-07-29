@@ -1,10 +1,29 @@
 {%- style -%}
-.logo-bar--{{ section.id }} {
-  opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
+.custom-gallery--{{ section.id }}.column-1 {
+  flex: 0 0 100%;
+}
+.custom-gallery--{{ section.id }}.column-2 {
+  flex: 0 0 50%;
+}
+.custom-gallery--{{ section.id }}.column-3 {
+  flex: 0 0 33.33%;
+}
+.custom-gallery--{{ section.id }}.column-4 {
+  flex: 0 0 25%;
+}
+.custom-gallery--{{ section.id }}.column-5 {
+  flex: 0 0 20%;
+}
+.custom-gallery--{{ section.id }}.column-6 {
+  flex: 0 0 16.66%;
+}
+.custom-gallery--{{ section.id }}.column-7 {
+  flex: 0 0 14.28%;
+}
+.custom-gallery--{{ section.id }}.column-8 {
+  flex: 0 0 12.5%;
 }
 {%- endstyle -%}
-
-{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <div class="page-width" data-aos="logo__animation">
   {%- if section.settings.title != blank -%}
@@ -14,19 +33,23 @@
   {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="custom-gallery colum-{{ section.settings.image_per_row }}">
+    <div class="custom-gallery colum-{{ section.settings.image_per_row }} custom-gallery--{{ section.id }}">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'image' %}
             {% if block.settings.image != blank %}
-              <a href="{{ block.settings.image | image_url : width: 1200 }}" data-fancybox="gallery" class="gallery-item image-item">
+              <div  class="gallery-item image-item">
+              <a href="{{ block.settings.image | image_url : width: 1200 }}" data-fancybox="gallery">
                 <img src="{{ block.settings.image | image_url : width: 450 }}" width="" height="">
               </a>
+              </div>
             {% endif %}
           {% when 'video' %}
-            <a href="{{ block.settings.self_hosted_url }}" data-fancybox="gallery" class="gallery-item video-item">
+          <div  class="gallery-item video-item">
+            <a href="{{ block.settings.self_hosted_url }}" data-fancybox="gallery">
                <img src="{{ block.settings.video_thumbnail | image_url : width: 450 }}" width="" height="">
             </a>
+          </div>
         {% endcase %}
       {% endfor %}
     </div>
