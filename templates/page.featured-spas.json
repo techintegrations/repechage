@@ -410,10 +410,10 @@
             "image_caption": ""
           }
         },
-        "image_i7HLnq": {
-          "type": "image",
+        "video_diQTUA": {
+          "type": "video",
           "settings": {
-            "image_caption": ""
+            "self_hosted_url": ""
           }
         }
       },
@@ -421,7 +421,7 @@
         "image_kQwpGQ",
         "image_MVKL6K",
         "image_WUUqgf",
-        "image_i7HLnq"
+        "video_diQTUA"
       ],
       "settings": {
         "title": "",
