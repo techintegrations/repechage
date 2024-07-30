@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -11,6 +20,7 @@
       "blocks": {
         "image_znbwBn": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>IN THE NEWS<\/p>",
@@ -31,7 +41,9 @@
       "block_order": [
         "image_znbwBn"
       ],
+      "disabled": true,
       "settings": {
+        "show_container": false,
         "section_height": "550px",
         "mobile_height": "auto",
         "parallax": true,
@@ -47,14 +59,16 @@
         "heading_aQ9gyR": {
           "type": "heading",
           "settings": {
-            "title": "IN THE NEWS"
+            "title": "IN THE NEWS",
+            "title_color": "#000"
           }
         },
         "text_WVggcL": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>"
+            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
+            "text_color": "#000"
           }
         }
       },
@@ -66,6 +80,45 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "rich_text_BCtdkL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_94tkRn": {
+          "type": "heading",
+          "settings": {
+            "title": "IN THE NEWS",
+            "title_color": "#000"
+          }
+        },
+        "text_d4HBTa": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_94tkRn",
+        "text_d4HBTa"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "",
         "divider": false
       }
     },
@@ -1787,6 +1840,7 @@
     "main",
     "slideshow_cPY6ry",
     "rich_text_mmLUFq",
+    "rich_text_BCtdkL",
     "custom_image_with_info_x89fqx",
     "custom_image_with_info_gekQH6",
     "custom_image_with_info_iFLBLe"
