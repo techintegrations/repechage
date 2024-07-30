@@ -352,6 +352,40 @@
         "mb_image_per_row": 2
       }
     },
+    "rich_text_q7QKw4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FUwHHq": {
+          "type": "heading",
+          "settings": {
+            "title": "THE MARINA SPA BY REPECHAGE",
+            "title_color": "#000"
+          }
+        },
+        "text_Jghnq3": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>AYIA NAPA, CYPRUS<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FUwHHq",
+        "text_Jghnq3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "text_and_image_qTab8G": {
       "type": "text-and-image",
       "settings": {
@@ -389,6 +423,7 @@
     "custom_gallery_9yTkEm",
     "rich_text_EVbacP",
     "custom_gallery_t7zAhL",
+    "rich_text_q7QKw4",
     "text_and_image_qTab8G"
   ]
 }
