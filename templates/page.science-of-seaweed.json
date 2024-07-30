@@ -9,6 +9,40 @@
 */
 {
   "sections": {
+    "rich_text_Qn3eTw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MWPaGR": {
+          "type": "heading",
+          "settings": {
+            "title": "The ocean’s most effective ingredient for skincare",
+            "title_color": "#000"
+          }
+        },
+        "text_UTrj33": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MWPaGR",
+        "text_UTrj33"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -61,15 +95,15 @@
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
-        "title": "The ocean’s most effective ingredient for skincare",
+        "title": "",
         "text": "<p>Founder Lydia Sarfati unlocked the secret of the sea: Laminaria Digitata and its transformative powers for skin care. This very seaweed became the cornerstone ingredient that launched Repêchage Skincare in 1980. Packed with 12 vitamins, 42 trace elements, and 18 amino acids, Laminaria Digitata provides the skin with unmatched hydration, radiance, and rejuvenation. We’ve since developed over 180 curated products, all inspired by the nutrient-rich seaweeds harvested from the pristine waters off the Brittany Coast of France and the coast of Maine. Our core product line features the pure essence of seaweed—our exclusive filtrate—meticulously crafted through a one-of-a-kind extraction process. Bursting with potent phytonutrients, it's the ultimate beauty secret from the ocean depths. <\/p>",
-        "enlarge_text": false,
+        "enlarge_text": true,
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
-        "align_text": "right",
+        "align_text": "left",
         "image_width": "50",
-        "layout": "left",
+        "layout": "right",
         "bg_color": "",
         "padding_top": 70,
         "padding_bottom": 70,
@@ -121,7 +155,7 @@
         "text_JUkrjQ"
       ],
       "settings": {
-        "align_text": "left",
+        "align_text": "center",
         "narrow_column": true,
         "padding_top": 70,
         "padding_bottom": 70,
@@ -282,6 +316,7 @@
     }
   },
   "order": [
+    "rich_text_Qn3eTw",
     "main",
     "slideshow_QWbzGN",
     "text_and_image_JGJLpG",
