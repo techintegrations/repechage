@@ -20,6 +20,7 @@
       "blocks": {
         "image_iq3Jqe": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Ingredients<\/p>",
@@ -40,6 +41,7 @@
       "block_order": [
         "image_iq3Jqe"
       ],
+      "disabled": true,
       "settings": {
         "show_container": false,
         "section_height": "450px",
@@ -58,7 +60,7 @@
           "type": "heading",
           "settings": {
             "title": "Experience Repechage Premium Natural and Organic Ingredients",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_dq4emM": {
@@ -66,7 +68,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Repechage is devoted to using the finest natural and organic ingredients to deliver the healthiest and most effective skin care products to our customers.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -78,7 +80,7 @@
         "align_text": "center",
         "narrow_column": true,
         "padding_top": 60,
-        "padding_bottom": 0,
+        "padding_bottom": 40,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "bg_color": "",
