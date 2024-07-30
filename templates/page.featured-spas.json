@@ -281,7 +281,7 @@
           "type": "heading",
           "settings": {
             "title": "WORLD SPA",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_mMLBNV": {
@@ -289,7 +289,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>New York, NY USA<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -359,7 +359,7 @@
           "type": "heading",
           "settings": {
             "title": "THE MARINA SPA BY REPECHAGE",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_Jghnq3": {
@@ -367,7 +367,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>AYIA NAPA, CYPRUS<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -413,7 +413,8 @@
         "video_diQTUA": {
           "type": "video",
           "settings": {
-            "self_hosted_url": ""
+            "self_hosted_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/262e6f734d2c4588bcb8c1c98027141b.mp4",
+            "video_thumbnail": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-04.jpg"
           }
         }
       },
