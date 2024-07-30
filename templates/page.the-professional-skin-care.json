@@ -76,10 +76,10 @@
         "image_width": "50",
         "layout": "right",
         "bg_color": "#ebebeb",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "divider": false,
         "lazyload_images": true
       }
@@ -119,8 +119,8 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "padding_top": 70,
-        "padding_bottom": 70,
+        "padding_top": 60,
+        "padding_bottom": 60,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
         "bg_color": "#ffffff",
@@ -202,10 +202,10 @@
         "title": "",
         "align_text": "center",
         "bg_color": "",
-        "padding_top": 70,
-        "padding_bottom": 40,
-        "padding_top_m": 50,
-        "padding_bottom_m": 20
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40
       }
     },
     "featured_video_zy93cz": {
