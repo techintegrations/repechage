@@ -29,7 +29,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h2>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/h2>",
+            "text": "<h1>SUSTAINABLE SEAWEED SKINCARE INNOVATORS<\/h1>",
             "text_color": "#000000"
           }
         },
@@ -65,7 +65,7 @@
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": true,
-        "subtitle": "",
+        "subtitle": "Made in the USA",
         "title": "SINCE 1980",
         "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"<\/p><p>— Lydia Sarfati<\/p>",
         "enlarge_text": true,
