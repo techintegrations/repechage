@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "title": "The ocean’s most effective ingredient",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_UTrj33": {
@@ -24,7 +24,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Unlock the Power of Marine-Based Skincare Solutions<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -35,10 +35,10 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 20,
-        "padding_bottom_m": 0,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "bg_color": "",
         "divider": false
       }
