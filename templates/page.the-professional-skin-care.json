@@ -21,7 +21,7 @@
         "heading_Xtzyp9": {
           "type": "heading",
           "settings": {
-            "title": "WHY REPECHAGE",
+            "title": "",
             "title_color": "#2b2a27"
           }
         },
@@ -29,7 +29,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/p>",
+            "text": "<h2>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/h2>",
             "text_color": "#000000"
           }
         },
@@ -37,7 +37,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We're committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>",
+            "text": "<p>Repechage is committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>",
             "text_color": "#2b2a27"
           }
         }
