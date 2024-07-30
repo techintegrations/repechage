@@ -25,12 +25,12 @@
             "title_color": "#2b2a27"
           }
         },
-        "text_FiLmBd": {
+        "text_9NUUTV": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><em>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/em><\/p>",
-            "text_color": "#2b2a27"
+            "text": "<p>INNOVATORS OF SUSTAINABLE SEAWEED SKINCARE SINCE 1980. MADE IN THE USA.<\/p>",
+            "text_color": "#000"
           }
         },
         "text_rdLFm7": {
@@ -44,7 +44,7 @@
       },
       "block_order": [
         "heading_Xtzyp9",
-        "text_FiLmBd",
+        "text_9NUUTV",
         "text_rdLFm7"
       ],
       "settings": {
