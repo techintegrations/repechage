@@ -67,11 +67,11 @@
         "image_width": "50",
         "layout": "right",
         "bg_color": "#ebebeb",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
-        "divider": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "divider": false,
         "lazyload_images": true
       }
     },
@@ -212,7 +212,7 @@
           "type": "heading",
           "settings": {
             "title": "Deliver The BEST FOR YOUR STUDENTS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_hATJfw": {
@@ -220,7 +220,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Join the Repechage team and empower your students to achieve success! At Repechage, we are dedicated to providing top-tier educational resources and support to educators like you. By joining us, you'll gain access to innovative teaching tools, comprehensive training, and a collaborative community of passionate professionals. Together, we can inspire and guide students toward their academic goals and beyond.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -231,12 +231,12 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": true
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "#ebebeb",
+        "divider": false
       }
     },
     "featured_video_az9zwG": {
