@@ -386,6 +386,49 @@
         "divider": false
       }
     },
+    "custom_gallery_6tcg9C": {
+      "type": "custom-gallery",
+      "blocks": {
+        "image_kQwpGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-01.jpg",
+            "image_caption": ""
+          }
+        },
+        "image_MVKL6K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-02.jpg",
+            "image_caption": ""
+          }
+        },
+        "image_WUUqgf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-03.jpg",
+            "image_caption": ""
+          }
+        },
+        "image_i7HLnq": {
+          "type": "image",
+          "settings": {
+            "image_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kQwpGQ",
+        "image_MVKL6K",
+        "image_WUUqgf",
+        "image_i7HLnq"
+      ],
+      "settings": {
+        "title": "",
+        "image_per_row": 4,
+        "mb_image_per_row": 2
+      }
+    },
     "text_and_image_qTab8G": {
       "type": "text-and-image",
       "settings": {
@@ -424,6 +467,7 @@
     "rich_text_EVbacP",
     "custom_gallery_t7zAhL",
     "rich_text_q7QKw4",
+    "custom_gallery_6tcg9C",
     "text_and_image_qTab8G"
   ]
 }
