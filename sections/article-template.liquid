@@ -91,7 +91,9 @@
     {% for aproduct in aproducts %}
       {% assign product_counter = forloop.index %}
       {% capture product_block %}
+        <div class="in-article-product">
         {% render 'product-grid-item', product: aproduct %}
+        </div>
       {% endcapture %}
       {% assign placeholder = '##product-' | append: product_counter %}
       {% assign content = content | replace: placeholder, product_block %}
