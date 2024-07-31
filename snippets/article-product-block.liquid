@@ -1,0 +1,10 @@
+{% assign product = all_products[product_handle] %}
+{% if product %}
+  <div class="product-grid">
+    <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+    <h3>{{ product.title }}</h3>
+    <p>{{ product.price | money }}</p>
+  </div>
+{% else %}
+  <p>Product not found: {{ product_handle }}</p>
+{% endif %}
