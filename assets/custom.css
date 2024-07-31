@@ -1,3 +1,24 @@
+.in-article-product .grid__item.grid-product {
+    float: none;
+    padding: 0;
+    width: 100%;
+    max-width: 310px;
+}
+
+.in-article-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.in-article-product .grid__item.grid-product a.grid-product__link {
+    border-bottom: 0;
+}
+
+.in-article-product .grid__item.grid-product a.grid-product__link:after {
+    display: none;
+}
+
 .flickity-prev-next-button { 
     top: 50%; 
     width: 44px;
