@@ -89,7 +89,7 @@
             {% if part contains ']' %}
               {% assign product_handle = part | split: ']' | first %}
               {% capture product_grid %}
-                {% include 'product-grid', product_handle: product_handle %}
+                {% include 'article-product-block', product_handle: product_handle %}
               {% endcapture %}
               {% assign content = content | replace: '[' | append: product_handle | append: ']', product_grid %}
             {% endif %}
