@@ -83,9 +83,12 @@
     {%- endunless -%}
 
     <div class="article__body rte">
+
+      {{ article.metafields.custom.related_products.value }}
+
+      
        {% assign content = article.content %}
       {% assign product_handles = content | split: '###' %}
-     <h2>{{ product_handles }}</h2>
           {% for part in product_handles %}
             {% if part contains ']' %}
               {% assign product_handle = part | split: ']' | first %}
