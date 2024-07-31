@@ -84,7 +84,7 @@
 
     <div class="article__body rte">
        {% assign content = article.content %}
-      {% assign product_handles = content | split: '[' %}
+      {% assign product_handles = content | split: '###' %}
      
           {% for part in product_handles %}
             {% if part contains ']' %}
