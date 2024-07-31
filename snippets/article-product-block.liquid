@@ -1,6 +1,6 @@
 {% assign product = all_products[product_handle] %}
 {% if product %}
-  <div class="product-grid">
+  <div class="product-block">
     <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
     <h3>{{ product.title }}</h3>
     <p>{{ product.price | money }}</p>
