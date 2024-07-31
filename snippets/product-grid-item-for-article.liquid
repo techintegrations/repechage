@@ -348,6 +348,12 @@
             {% endif %}
           </button>
         </div>
+
+        {% if product.metafields.custom.product_description_for_articles != blank %}
+        <div class="product-article-description">
+          {{ product.metafields.custom.product_description_for_articles }}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
