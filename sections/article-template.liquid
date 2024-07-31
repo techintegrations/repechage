@@ -83,8 +83,9 @@
     {%- endunless -%}
 
     <div class="article__body rte">
+       {% assign content = article.content %}
       {% assign product_handles = content | split: '[' %}
-      {% assign content = article.content %}
+     
           {% for part in product_handles %}
             {% if part contains ']' %}
               {% assign product_handle = part | split: ']' | first %}
