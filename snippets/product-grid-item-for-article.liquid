@@ -351,7 +351,7 @@
 
         {% if product.metafields.custom.product_description_for_articles != blank %}
         <div class="product-article-description">
-          {{ product.metafields.custom.product_description_for_articles }}
+          {{ product.metafields.custom.product_description_for_articles | metafield_tag }}
         </div>
         {% endif %}
       </div>
