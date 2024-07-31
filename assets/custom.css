@@ -2,11 +2,11 @@
     float: none;
     padding: 0;
     width: 100%;
-    max-width: 33%;
+    max-width: 32%;
 }
 
 .in-article-product {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
 }
