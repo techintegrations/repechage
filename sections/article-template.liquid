@@ -84,15 +84,21 @@
 
     <div class="article__body rte">
 
-     {% assign aproducts = article.metafields.custom.related_products.value %}
-
-      {% for aproduct in aproducts %}
-        <h2>{{ aproduct.title }}</h2>
-         {% render 'article-product-block', product_handle: aproduct.handle %}
-      {% endfor %}
+    {% assign aproducts = article.metafields.custom.related_products.value %}
+    {% assign content = article.content %}
+    
+    {% assign product_counter = 0 %}
+    {% for aproduct in aproducts %}
+      {% assign product_counter = forloop.index %}
+      {% capture product_block %}
+        {% render 'article-product-block', product_handle: aproduct.handle %}
+      {% endcapture %}
+      {% assign placeholder = '##product-' | append: product_counter %}
+      {% assign content = content | replace: placeholder, product_block %}
+    {% endfor %}
 
           
-          {{ article.content }}
+    {{ content }}
     </div>
 
     {%- if section.settings.social_sharing_blog -%}
