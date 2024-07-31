@@ -84,22 +84,14 @@
 
     <div class="article__body rte">
 
-      {{ article.metafields.custom.related_products }}
+      {% assign aproducts = article.metafields.custom.related_products %}
 
-      
-       {% assign content = article.content %}
-      {% assign product_handles = content | split: '###' %}
-          {% for part in product_handles %}
-            {% if part contains ']' %}
-              {% assign product_handle = part | split: ']' | first %}
-              {% capture product_grid %}
-                {% include 'article-product-block', product_handle: product_handle %}
-              {% endcapture %}
-              {% assign content = content | replace: '[' | append: product_handle | append: ']', product_grid %}
-            {% endif %}
-          {% endfor %}
+      {% for aproduct in aproducts %}
+         {% render 'article-product-block', product_handle: aproduct.handle %}
+      {% endfor %}
+
           
-          {{ content }}
+          {{ article.content }}
     </div>
 
     {%- if section.settings.social_sharing_blog -%}
