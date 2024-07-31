@@ -87,6 +87,7 @@
       {% assign aproducts = article.metafields.custom.related_products %}
 
       {% for aproduct in aproducts %}
+        <h2>{{ aproduct.title }}</h2>
          {% render 'article-product-block', product_handle: aproduct.handle %}
       {% endfor %}
 
