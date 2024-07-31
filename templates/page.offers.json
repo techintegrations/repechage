@@ -20,6 +20,7 @@
       "blocks": {
         "image_mFxPDE": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>seasonal offers<\/p>",
             "title": "<p>Exclusively for you<\/p>",
@@ -40,6 +41,7 @@
       "block_order": [
         "image_mFxPDE"
       ],
+      "disabled": true,
       "settings": {
         "show_container": false,
         "section_height": "550px",
@@ -61,6 +63,7 @@
             "image": "shopify:\/\/shop_images\/2024-01-starter-kit-bag.jpg",
             "image_mask": "none",
             "image_width": 650,
+            "preheading": "",
             "title": "FREE SIGNATURE TOTE",
             "text": "<p>Gift With Purchase  of Any Starter Collection<\/p>",
             "button_label": "SHOP NOW",
@@ -74,6 +77,7 @@
             "image": "shopify:\/\/shop_images\/PFS_250x500_REWARDS.jpg",
             "image_mask": "none",
             "image_width": 650,
+            "preheading": "",
             "title": "earn points and save",
             "text": "<p>Facial Treatment Essence 0.3oz +<br\/>Facial Treatment Cleanser 0.5oz +<\/p>",
             "button_label": "JOIN NOW",
@@ -87,6 +91,7 @@
             "image": "shopify:\/\/shop_images\/AlgoMist.jpg",
             "image_mask": "none",
             "image_width": 650,
+            "preheading": "",
             "title": "3  FREE SAMPLES",
             "text": "<p>Select up to 3 skincare samples at chekout. Online Only. Sample selection may vary based on availability.<br\/><\/p>",
             "button_label": "LEARN MORE",
@@ -100,6 +105,7 @@
             "image": "shopify:\/\/shop_images\/freepillow.jpg",
             "image_mask": "none",
             "image_width": 650,
+            "preheading": "",
             "title": "FREE BATH PILLOW",
             "text": "<p>Get a plush bath pillow for ultimate comfort and support during your relaxing bath time.<\/p>",
             "button_label": "SHOP NOW",
@@ -113,6 +119,7 @@
             "image": "shopify:\/\/shop_images\/VC_Sea_Spa_Body_Collection_Gift_Set.jpg",
             "image_mask": "none",
             "image_width": 650,
+            "preheading": "",
             "title": "FREE DRY BODY BRUSH",
             "text": "<p>Discover luxury with our NEW Sea Spa Body Collection: Cleanser, Exfoliator, Moisturizer + Dry Body Brush in a chic drawstring bag.<\/p>",
             "button_label": "SHOP NOW",
@@ -126,6 +133,7 @@
             "image": "shopify:\/\/shop_images\/AfterPay-HydraMedic-Banner-Mobile.jpg",
             "image_mask": "none",
             "image_width": 650,
+            "preheading": "",
             "title": "SHOP NOW, PAY LATER",
             "text": "<p>Shop now, pay later in four interest-free installments. Enjoy now, pay later—no interest, no hassle!<\/p>",
             "button_label": "LEARN MORE",
@@ -150,11 +158,16 @@
         "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 2,
         "block_align_text": "left",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
         "bg_color": "",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_m": 48,
-        "padding_bottom_m": 48,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "divider": false
       }
     },
