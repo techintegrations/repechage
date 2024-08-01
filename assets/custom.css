@@ -14,6 +14,8 @@
 }
 .collapsible-trigger-btn {
     letter-spacing: 1.3px;
+        font-family: "Verdana Pro", sans-serif;
+    font-weight: 600;
 }
 
 .grid-product .grid-product__title {
