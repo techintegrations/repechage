@@ -5,7 +5,9 @@
 .tag-list a, .tag-list label {
     font-size: 14px;
 }
-
+.product-single__title {
+    font-size: 22px;
+}
 /******/
 
 .in-article-product .grid__item.grid-product {
