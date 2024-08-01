@@ -1,6 +1,17 @@
 .site-nav__dropdown a {
     font-size: 14px;
 }
+.product-single__meta .yotpo-bottomline {
+    align-items: center;
+}
+
+.product-single__meta .yotpo-bottomline .yotpo-stars {
+    margin-right: 5px;
+}
+
+.product-block.product-block--price .product__price {
+    font-weight: 600;
+}
 
 .tag-list a, .tag-list label {
     font-size: 14px;
