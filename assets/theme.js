@@ -4434,7 +4434,9 @@ theme.recentlyViewed = {
   
       open: function() {
         this.drawer.open();
-        alert('123');
+        // Initial load
+        initializeProgressBar();
+        
         theme.a11y.trapFocus({
           container: this.form,
           elementToFocus: this.form,
