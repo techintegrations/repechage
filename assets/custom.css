@@ -8,6 +8,9 @@
 .product-single__title {
     font-size: 22px;
 }
+.site-nav__link, .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
+  font-size: 16px;
+}
 /******/
 
 .in-article-product .grid__item.grid-product {
