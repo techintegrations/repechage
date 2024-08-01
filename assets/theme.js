@@ -4454,10 +4454,6 @@ theme.CartDrawer = (function() {
       });
     },
 
-    updateProgressBarWithCartData: function() {
-      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-      updateProgressBar(cartData.total_price, cartData.item_count);
-    }
   });
 
   return CartDrawer;
