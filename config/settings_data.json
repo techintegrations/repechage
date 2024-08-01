@@ -35,7 +35,7 @@
     "color_image_overlay": "#000000",
     "color_image_overlay_opacity": 15,
     "color_image_overlay_text_shadow": 30,
-    "type_header_font_family": "verdana_pro_n4",
+    "type_header_font_family": "montserrat_n4",
     "type_header_spacing": "150",
     "type_header_base_size": 45,
     "type_header_line_height": 1.2,
