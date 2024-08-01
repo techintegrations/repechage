@@ -106,6 +106,94 @@
         "lazyload_images": false
       }
     },
+    "text_with_icons_dTrr3R": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_gLLAGX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "gift",
+            "title": "",
+            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_3DUCnQ": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "truck",
+            "title": "",
+            "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_Cai9em": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "bills",
+            "title": "",
+            "text": "<p>Hassle-Free Returns<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_PbmhNc": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "",
+            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_f9MtBD": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify:\/\/shop_images\/Afterpay_Logo_Black-364x70-66065f7.png",
+            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
+            "icon": "package",
+            "title": "",
+            "text": "<p>Flexible Payment<br\/>(via Afterpay)<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gLLAGX",
+        "text_block_3DUCnQ",
+        "text_block_Cai9em",
+        "text_block_PbmhNc",
+        "text_block_f9MtBD"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "block_bg_color": "rgba(0,0,0,0)",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "divider": false
+      }
+    },
     "custom_featured_collection_tabs_PaGxFn": {
       "type": "custom__featured-collection-tabs",
       "blocks": {
@@ -574,94 +662,6 @@
         "lazyload_images": true
       }
     },
-    "text_with_icons_dTrr3R": {
-      "type": "text-with-icons",
-      "blocks": {
-        "text_block_gLLAGX": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "gift",
-            "title": "",
-            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_3DUCnQ": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "truck",
-            "title": "",
-            "text": "<p>Free Shipping + Free 2-Day<br\/>with Orders Over $300<\/p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_Cai9em": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "bills",
-            "title": "",
-            "text": "<p>Hassle-Free Returns<\/p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_PbmhNc": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "",
-            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_f9MtBD": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "custom_image",
-            "custom_image": "shopify:\/\/shop_images\/Afterpay_Logo_Black-364x70-66065f7.png",
-            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
-            "icon": "package",
-            "title": "",
-            "text": "<p>Flexible Payment<br\/>(via Afterpay)<\/p>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_gLLAGX",
-        "text_block_3DUCnQ",
-        "text_block_Cai9em",
-        "text_block_PbmhNc",
-        "text_block_f9MtBD"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 5,
-        "icon_color": "#000000",
-        "block_bg_color": "rgba(0,0,0,0)",
-        "button_label": "",
-        "button_link": "",
-        "bg_color": "#f9f9f9",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
-        "divider": false
-      }
-    },
     "testimonials_WQarYp": {
       "type": "testimonials",
       "blocks": {
@@ -791,6 +791,7 @@
   },
   "order": [
     "slideshow_ybDcnc",
+    "text_with_icons_dTrr3R",
     "custom_featured_collection_tabs_PaGxFn",
     "custom_text_with_logos_VBrHLU",
     "featured_collections_xaap9R",
@@ -800,7 +801,6 @@
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
-    "text_with_icons_dTrr3R",
     "testimonials_WQarYp",
     "blog_posts_AkwbrY",
     "newsletter_kJLxhd"
