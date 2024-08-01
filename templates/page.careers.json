@@ -200,11 +200,19 @@
             "text": "<p><strong>Responsibilities:<\/strong><\/p><ul><li>Must be able to penetrate our targeted market and substantially increase sales activity<\/li><li>Prospect and open new accounts among top salon and spas in the territory<\/li><li>Develop long-term business relationships with existing accounts<\/li><li>Keep client profile records updated on a regular basis to ensure accuracy<\/li><li>Strong negotiation and selling skills are critical<\/li><li>Follow up to all inquiries, purchase orders and education requests<\/li><li>Weekly, monthly and quarterly reporting to management on sales activity<\/li><\/ul><p><strong>Must have skills:<\/strong><\/p><ul><li>Excellent Verbal, Communication and Presentation Skills<\/li><li>Energetic and positive attitude<\/li><li>Willing to do overnight travel and have access to reliable transportation for driving to appointments and meetings<\/li><li>Training and Sales Experience<\/li><li>Esthetics license and spa sales experience preferred<\/li><li>Working knowledge of Microsoft Word, Excel, PowerPoint and Outlook<\/li><\/ul>",
             "text_color": "#000"
           }
+        },
+        "button_fgjLta": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/contact-us",
+            "link_text": "APPLY HERE"
+          }
         }
       },
       "block_order": [
         "heading_PrmbVy",
-        "text_EWepHU"
+        "text_EWepHU",
+        "button_fgjLta"
       ],
       "settings": {
         "align_text": "left",
