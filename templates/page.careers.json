@@ -116,11 +116,19 @@
             "text": "<p><strong>Position:<\/strong><\/p><p>We are seeking a qualified candidate with great communication skills and experience in the professional beauty industry.<\/p><p><strong>Responsibilities:<\/strong><\/p><ul><li>Develop new business in direct sales of professional skin care products<\/li><li>Manage and maintain accurate records of sales and prospecting activities, including sales and follow-up calls on a weekly basis<\/li><li>Prospect and develop new business and growing existing accounts in the high-end skin care market<\/li><li>Meet sales quota and facilitate future sales \/ communicate all marketing developments<\/li><li>Enter and update customer information in our database<\/li><li>Process orders and manage client accounts<\/li><li>Work closely with the sales manager to set-up marketing calendar on a monthly basis<\/li><\/ul><p><strong>Must have skills:<\/strong><\/p><ul><li>Esthetic License and beauty industry experience a must<\/li><li>Excellent communication skills<\/li><li>Ability to build and maintain professional relationships<\/li><li>High energy level<\/li><li>Proven sales\/customer service experience<\/li><li>Strong administrative and data\/order entry skills<\/li><li>Must have working knowledge of Microsoft Word, Excel, Office<\/li><li>Minimum 2 years of experience<\/li><li>Participate in 4 to 6 tradeshows per year.<\/li><\/ul>",
             "text_color": "#000"
           }
+        },
+        "button_pi6gy6": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "APPLY HERE"
+          }
         }
       },
       "block_order": [
         "heading_qpdJfj",
-        "text_DLL84j"
+        "text_DLL84j",
+        "button_pi6gy6"
       ],
       "settings": {
         "align_text": "left",
