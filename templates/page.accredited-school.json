@@ -109,7 +109,7 @@
             "custom_icon": "",
             "icon": "package",
             "title": "KITS",
-            "text": "<ul><li>Curated selection of Repechage bestsellers<\/li><li>Designed to meet state board requirements and essential facial protocols<\/li><li>Customizable to suit different skin types and conditions<\/li><li>Assists schools in managing inventory efficiently<\/li><\/ul>",
+            "text": "<ul><li>Curated selection of Repêchage bestsellers<\/li><li>Designed to meet state board requirements and essential facial protocols<\/li><li>Customizable to suit different skin types and conditions<\/li><li>Assists schools in managing inventory efficiently<\/li><\/ul>",
             "link_text": "",
             "link": ""
           }
@@ -218,8 +218,8 @@
         "text_hATJfw": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Join the Repechage team and empower your students to achieve success! At Repechage, we are dedicated to providing top-tier educational resources and support to educators like you. By joining us, you'll gain access to innovative teaching tools, comprehensive training, and a collaborative community of passionate professionals. Together, we can inspire and guide students toward their academic goals and beyond.<\/p>",
+            "enlarge_text": false,
+            "text": "<p>Join the Repêchage team and empower your students to achieve success! At Repêchage we are dedicated to providing top-tier educational resources and support to educators like you. By joining us, you'll gain access to innovative teaching tools, comprehensive training, and a collaborative community of passionate professionals. Together, we can inspire and guide students toward their academic goals and beyond.<\/p>",
             "text_color": "#000000"
           }
         }
