@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -32,10 +33,112 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_bKFybp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VEJGrk": {
+          "type": "heading",
+          "settings": {
+            "title": "CAREERS",
+            "title_color": "#000"
+          }
+        },
+        "text_aJ6m6x": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Join Repechage, a renowned professional skincare company, and advance your career while working with thousands of estheticians worldwide. At Repechage, you'll have the opportunity to be part of a supportive and innovative community dedicated to excellence in skincare. Enhance your skills, collaborate with industry experts, and contribute to the global beauty industry.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VEJGrk",
+        "text_aJ6m6x"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 60,
+        "padding_bottom": 20,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "advanced_content_grBjpD": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_Wk4MkD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Manufacturing-Team-Members.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_4xemKc": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>CURRENT OPPORTUNITIES<\/h2><p>Find your dream career and become part of Repechage!<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Wk4MkD",
+        "liquid_4xemKc"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_meEifd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qpdJfj": {
+          "type": "heading",
+          "settings": {
+            "title": "Pro Beauty Sales (Secaucus, NJ)",
+            "title_color": "#000"
+          }
+        },
+        "text_DLL84j": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Position:<\/strong><\/p><p>We are seeking a qualified candidate with great communication skills and experience in the professional beauty industry.<\/p><p><strong>Responsibilities:<\/strong><\/p><ul><li>Develop new business in direct sales of professional skin care products<\/li><li>Manage and maintain accurate records of sales and prospecting activities, including sales and follow-up calls on a weekly basis<\/li><li>Prospect and develop new business and growing existing accounts in the high-end skin care market<\/li><li>Meet sales quota and facilitate future sales \/ communicate all marketing developments<\/li><li>Enter and update customer information in our database<\/li><li>Process orders and manage client accounts<\/li><li>Work closely with the sales manager to set-up marketing calendar on a monthly basis<\/li><\/ul><p><strong>Must have skills:<\/strong><\/p><ul><li>Esthetic License and beauty industry experience a must<\/li><li>Excellent communication skills<\/li><li>Ability to build and maintain professional relationships<\/li><li>High energy level<\/li><li>Proven sales\/customer service experience<\/li><li>Strong administrative and data\/order entry skills<\/li><li>Must have working knowledge of Microsoft Word, Excel, Office<\/li><li>Minimum 2 years of experience<\/li><li>Participate in 4 to 6 tradeshows per year.<\/li><\/ul>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qpdJfj",
+        "text_DLL84j"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "rich_text_bKFybp",
+    "advanced_content_grBjpD",
+    "rich_text_meEifd"
   ]
 }
