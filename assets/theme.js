@@ -8440,11 +8440,15 @@ function updateProgressBar(cartTotal, itemCount) {
 
 // Function to fetch cart data (replace with actual Shopify cart fetching logic)
 function fetchCartData() {
-  // Example implementation: Replace with actual Shopify cart fetching logic
-  return {
-    total_price: 5000, // Example cart total in cents
-    item_count: 3      // Example item count
-  };
+  return new Promise((resolve, reject) => {
+    // Replace with actual Shopify cart fetching logic
+    const cartData = {
+      total_price: 5000, // Example cart total in cents
+      item_count: 3      // Example item count
+    };
+    resolve(cartData);
+  });
 }
+
 
 
