@@ -28,7 +28,7 @@
         "text_YggCxg": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p><em>\"Since the launch of Repêchage in 1980, my personal commitment has been to provide the most innovative and effective skin care products. This commitment stems from two things: from my background as an esthetician and from my own personal experience of the sea.\"<\/em><\/p><p>— Lydia Sarfati<br\/><\/p>",
             "text_color": "#2b2a27"
           }
