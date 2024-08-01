@@ -97,7 +97,7 @@
         "subtitle": "",
         "title": "",
         "text": "<p>Founder Lydia Sarfati unlocked the secret of the sea: Laminaria Digitata and its transformative powers for skin care. This very seaweed became the cornerstone ingredient that launched Repêchage Skincare in 1980. Packed with 12 vitamins, 42 trace elements, and 18 amino acids, Laminaria Digitata provides the skin with unmatched hydration, radiance, and rejuvenation. We’ve since developed over 180 curated products, all inspired by the nutrient-rich seaweeds harvested from the pristine waters off the Brittany Coast of France and the coast of Maine. Our core product line features the pure essence of seaweed—our exclusive filtrate—meticulously crafted through a one-of-a-kind extraction process. Bursting with potent phytonutrients, it's the ultimate beauty secret from the ocean depths. <\/p>",
-        "enlarge_text": true,
+        "enlarge_text": false,
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -123,7 +123,7 @@
         "subtitle": "",
         "title": "Skincare Superhero",
         "text": "<p>We always say that if seaweed can hydrate the desert, imagine what it can do for your skin. That’s because seaweed naturally increases hydration and improves complexion. Using a unique proprietary process, Repêchage chemists extract fluid from seaweed, preserving its vitamins, minerals, trace elements, and amino acids to help skin lock in moisture, reduce redness and irritation, draw out toxins and impurities from the skin, and more. <\/p>",
-        "enlarge_text": true,
+        "enlarge_text": false,
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -145,7 +145,7 @@
         "text_JUkrjQ": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "<p>Repêchage’s commitment to sustainability extends to every step of the production process, particularly in sourcing our seaweed. We collaborate with experts to responsibly harvest nutrient-rich seaweed species and choose only the purest seaweed from pristine waters, like those off the coast of Down East Maine.<\/p><p>We blend tradition with innovation in our harvesting methods. The seaweed is carefully gathered by hand during low tides or cultivated on ropes in seawater. Once harvested, we gently dry the seaweed to preserve its natural goodness before sending it to our ISO 9001-certified facility in the U.S. Unlike other manufacturers who use oven-drying, our exclusive method retains all the beneficial vitamins, minerals, and amino acids while extracting the intercellular fluid. This unique process results in a pure filtrate produced in small artisanal batches. This potent filtrate is refrigerated for six months to maximize its effectiveness before being blended into Repêchage products. Nothing is purer or more effective at making skin smoother and softer.<\/p>",
             "text_color": "#1c1d1d"
           }
@@ -298,7 +298,7 @@
         "subtitle": "",
         "title": "Where Science Meets Skin Care",
         "text": "<p>At Repêchage, our passion for innovation drives us to continually explore new applications for our seaweed and uncover the latest ingredients to address skin concerns. <\/p>",
-        "enlarge_text": true,
+        "enlarge_text": false,
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
