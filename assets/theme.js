@@ -8391,45 +8391,48 @@ theme.recentlyViewed = {
 document.addEventListener('DOMContentLoaded', function() {
   // Function to update progress bar based on cart total
   function updateProgressBar(cartTotal, itemCount) {
-    const progressWrapper = document.getElementById('cart-progress-wrapper');
-    const progressBar = document.getElementById('cart-progress-bar');
-    const goalMessageElement = document.querySelector('.goal-message');
+    const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+    
+    progressWrappers.forEach(progressWrapper => {
+      const progressBar = progressWrapper.querySelector('.cart-progress-bar');
+      const goalMessageElement = progressWrapper.querySelector('.goal-message');
 
-    if (!progressWrapper || !progressBar || !goalMessageElement) {
-      console.error('Progress bar elements not found');
-      return;
-    }
+      if (!progressWrapper || !progressBar || !goalMessageElement) {
+        console.error('Progress bar elements not found');
+        return;
+      }
 
-    const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
-    const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
-    const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+      const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+      const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+      const postGoalMessage = progressWrapper.dataset.postGoalMessage;
 
-    if (itemCount === 0 || cartTotal === 0) {
-      progressWrapper.style.display = 'none';
-      goalMessageElement.style.display = 'none';
-    } else {
-      progressWrapper.style.display = 'block'; 
-      progressBar.style.display = 'block';
-      const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
-      progressBar.style.width = `${progressPercentage}%`; // Corrected this line
-
-      if (progressPercentage >= 100) {
-        progressWrapper.classList.add('full');
+      if (itemCount === 0 || cartTotal === 0) {
+        progressWrapper.style.display = 'none';
+        goalMessageElement.style.display = 'none';
       } else {
-        progressWrapper.classList.remove('full');
+        progressWrapper.style.display = 'block'; 
+        progressBar.style.display = 'block';
+        const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
+        progressBar.style.width = `${progressPercentage}%`;
+
+        if (progressPercentage >= 100) {
+          progressWrapper.classList.add('full');
+        } else {
+          progressWrapper.classList.remove('full');
+        }
+
+        goalMessageElement.style.display = 'block';
+        let remainingForGoal = progressThreshold - cartTotal;
+
+        if (remainingForGoal < 0) {
+          remainingForGoal = 0;
+        }
+
+        const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
+        const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
+        goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
       }
-
-      goalMessageElement.style.display = 'block';
-      let remainingForGoal = progressThreshold - cartTotal;
-
-      if (remainingForGoal < 0) {
-        remainingForGoal = 0;
-      }
-
-      const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`; // Corrected this line
-      const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
-      goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
-    }
+    });
   }
 
   // Function to fetch cart data (replace with actual Shopify cart fetching logic)
