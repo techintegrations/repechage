@@ -20,6 +20,7 @@
       "blocks": {
         "image_dRyLRe": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Our Story<\/p>",
@@ -40,6 +41,7 @@
       "block_order": [
         "image_dRyLRe"
       ],
+      "disabled": true,
       "settings": {
         "show_container": false,
         "section_height": "550px",
