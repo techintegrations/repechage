@@ -4404,61 +4404,62 @@ theme.recentlyViewed = {
     }
   };
   
-  theme.CartDrawer = (function() {
-    var selectors = {
-      drawer: '#CartDrawer',
-      form: '#CartDrawerForm'
-    };
-  
-    function CartDrawer() {
-      this.form = document.querySelector(selectors.form);
-      this.drawer = new theme.Drawers('CartDrawer', 'cart');
-  
-      this.init();
-    }
-  
-    CartDrawer.prototype = Object.assign({}, CartDrawer.prototype, {
-      init: function() {
-        this.cartForm = new theme.CartForm(this.form);
+theme.CartDrawer = (function() {
+  var selectors = {
+    drawer: '#CartDrawer',
+    form: '#CartDrawerForm'
+  };
+
+  function CartDrawer() {
+    this.form = document.querySelector(selectors.form);
+    this.drawer = new theme.Drawers('CartDrawer', 'cart');
+
+    this.init();
+  }
+
+  CartDrawer.prototype = Object.assign({}, CartDrawer.prototype, {
+    init: function() {
+      this.cartForm = new theme.CartForm(this.form);
+      this.cartForm.buildCart();
+
+      document.addEventListener('ajaxProduct:added', function(evt) {
         this.cartForm.buildCart();
-  
-        document.addEventListener('ajaxProduct:added', function(evt) {
-          this.cartForm.buildCart();
-          this.updateProgressBarWithCartData();
-          this.open();
-        }.bind(this));
-  
-        // Dev-friendly way to open cart
-        document.addEventListener('cart:open', this.open.bind(this));
-        document.addEventListener('cart:close', this.close.bind(this));
-      },
-  
-      open: function() {
-        this.drawer.open();
-        //alert('123');
-        theme.a11y.trapFocus({
-          container: this.form,
-          elementToFocus: this.form,
-          namespace: 'cartdrawer_focus'
-        });
-      },
-  
-      close: function() {
-        this.drawer.close();
-  
-        theme.a11y.removeTrapFocus({
-          container: this.form,
-          namespace: 'cartdrawer_focus'
-        });
-      },
-      updateProgressBarWithCartData: function() {
-        const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-        updateProgressBar(cartData.total_price, cartData.item_count);
-      }
-    });
-  
-    return CartDrawer;
-  })();
+        this.updateProgressBarWithCartData();
+        this.open();
+      }.bind(this));
+
+      // Dev-friendly way to open cart
+      document.addEventListener('cart:open', this.open.bind(this));
+      document.addEventListener('cart:close', this.close.bind(this));
+    },
+
+    open: function() {
+      this.drawer.open();
+      theme.a11y.trapFocus({
+        container: this.form,
+        elementToFocus: this.form,
+        namespace: 'cartdrawer_focus'
+      });
+    },
+
+    close: function() {
+      this.drawer.close();
+
+      theme.a11y.removeTrapFocus({
+        container: this.form,
+        namespace: 'cartdrawer_focus'
+      });
+    },
+
+    updateProgressBarWithCartData: function() {
+      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+      updateProgressBar(cartData.total_price, cartData.item_count);
+    }
+  });
+
+  return CartDrawer;
+})();
+
   
   theme.headerNav = (function() {
     var selectors = {
