@@ -158,19 +158,27 @@
             "text": "<p><strong>Responsibilities:<\/strong><\/p><ul><li>Coordinates on location and in house education for qualifying clients<\/li><li>Prepares customized extensive educational agenda for on location and in house training<\/li><li>Creates a list of educational materials for training and trade shows<\/li><li>Sets up Academy training facility with materials for workshop, classroom set up and agenda for training<\/li><li>Creates presentations for in-house educational events and on location education<\/li><li>Conducts full training on product knowledge, sales, marketing, merchandising and treatment techniques for international and domestic clients.<\/li><li>Conducts customized webinars and virtual training<\/li><li>Advises and supports sales staff with product and treatment related questions<\/li><li>Assists in creation of scripts for educational videos<\/li><li>Prepare educational videos for consumer education.<\/li><li>Submits extensive reports on all educational events to CEO<\/li><li>Trains the in-house sales staff on product knowledge and sales<\/li><li>Tests the new formulas of products and treatments<\/li><li>Assists in set up of the domestic and international tradeshow floor and product displays<\/li><li>Performs educational presentations during domestic and international tradeshows<\/li><li>Performs treatments on clients during domestic and international tradeshows<\/li><li>Hosts on site special events at client locations domestically and internationally<\/li><li>Performs treatments and skin analysis on spa\/salon clients during special events.<\/li><li>Analyze competitor brands and industry trends on regular basis<\/li><\/ul><p><strong>Must have skills:<\/strong><\/p><ul><li>Excellent communication and presentation skills in front of a group.<\/li><li>Knowledge of Microsoft Power Point and Microsoft Word<\/li><li>Exceptional organizational skills<\/li><li>Organized and well informed of international etiquette<\/li><li>Available to travel domestically and internationally<\/li><li>Valid US Passport<\/li><\/ul><p><strong>Qualifications:<\/strong><\/p><ul><li>NJ and NY licensed esthetician, behind the chair experience of 3 years<\/li><li>Experience in the beauty industry minimum of 5 years<\/li><li>Bilingual skills a plus<\/li><li>CIDESCO Diploma \/ ITEC a plus<\/li><\/ul>",
             "text_color": "#000"
           }
+        },
+        "button_yt8xVe": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/contact-us",
+            "link_text": "APPLY HERE"
+          }
         }
       },
       "block_order": [
         "heading_AVMBNP",
-        "text_KfWN4Y"
+        "text_KfWN4Y",
+        "button_yt8xVe"
       ],
       "settings": {
-        "align_text": "center",
+        "align_text": "left",
         "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
         "bg_color": "",
         "divider": false
       }
