@@ -1,3 +1,13 @@
+.site-nav__dropdown a {
+    font-size: 14px;
+}
+
+.tag-list a, .tag-list label {
+    font-size: 14px;
+}
+
+/******/
+
 .in-article-product .grid__item.grid-product {
     float: none;
     padding: 0;
