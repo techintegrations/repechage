@@ -268,10 +268,18 @@
             "image": "shopify:\/\/shop_images\/2061f56a-5db3-4471-a7b4-8252aa70defa.jpg",
             "image_caption": ""
           }
+        },
+        "image_8JDaw9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9405.heic",
+            "image_caption": ""
+          }
         }
       },
       "block_order": [
-        "image_JLU7UM"
+        "image_JLU7UM",
+        "image_8JDaw9"
       ],
       "settings": {
         "title": "LIFE AT REPECHAGE",
