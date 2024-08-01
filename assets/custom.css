@@ -14,7 +14,7 @@
 }
 .collapsible-trigger-btn {
     letter-spacing: 1.3px;
-        font-family: "Verdana Pro", sans-serif;
+        /* font-family: "Verdana Pro", sans-serif; */
     font-weight: 600;
 }
 
@@ -23,11 +23,11 @@
     font-weight: 600;
 }
 .h1, .h2, .h3, h1, h2, h3 {
-  font-family: "Verdana Pro", sans-serif !important;
+  /* font-family: "Verdana Pro", sans-serif !important; */
 }
 .text-with-icons__block-text {
     font-size: 14px;
-    font-family:  "Verdana Pro", sans-serif;
+    /* font-family:  "Verdana Pro", sans-serif; */
 }
 /******/
 
