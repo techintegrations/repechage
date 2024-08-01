@@ -224,6 +224,66 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "rich_text_DJEFP7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tyfyf4": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR CULTURE",
+            "title_color": "#000"
+          }
+        },
+        "text_w4Tf7W": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>At Repechage, our culture is rooted in a commitment to excellence, innovation, and community. We believe in fostering a collaborative and supportive environment where every team member feels valued and empowered. Our dedication to quality and continuous improvement drives us to stay at the forefront of the skincare industry, while our strong sense of community ensures that we support each other in achieving both personal and professional growth. At Repechage, we celebrate diversity, encourage creativity, and strive to make a positive impact in the lives of our clients and colleagues worldwide.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tyfyf4",
+        "text_w4Tf7W"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "faq_HGDwHd": {
+      "type": "faq",
+      "blocks": {
+        "question_zC4VkU": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "question_BQzFGL": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_zC4VkU",
+        "question_BQzFGL"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
@@ -233,6 +293,8 @@
     "advanced_content_grBjpD",
     "rich_text_meEifd",
     "rich_text_9h9N6m",
-    "rich_text_BzaUbe"
+    "rich_text_BzaUbe",
+    "rich_text_DJEFP7",
+    "faq_HGDwHd"
   ]
 }
