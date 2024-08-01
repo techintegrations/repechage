@@ -191,7 +191,7 @@
                       {%- render 'product-description', id: id, product: product, is_tab: block.settings.is_tab -%}
                     </div>
                   {%- when 'price' -%}
-                    <div class="product-block product-block--price" {{ block.shopify_attributes }}>
+                    <div class="product__price product-block product-block--price" {{ block.shopify_attributes }}>
                       {%- assign hide_sale_price = true -%}
                       {%- if product.compare_at_price_max > product.price -%}
                         {%- if current_variant.compare_at_price > current_variant.price -%}
@@ -204,7 +204,7 @@
                             {{ 'products.general.regular_price' | t }}
                         </span>
                         <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
-                          <span data-compare-price class="product__price product__price--compare">
+                          <span data-compare-price class="product__price--compare">
                             {%- if current_variant.compare_at_price > current_variant.price -%}
                               {{ current_variant.compare_at_price | money }}
                             {%- endif -%}
