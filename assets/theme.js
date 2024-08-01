@@ -4424,6 +4424,7 @@ theme.recentlyViewed = {
   
         document.addEventListener('ajaxProduct:added', function(evt) {
           this.cartForm.buildCart();
+          this.updateProgressBarWithCartData();
           this.open();
         }.bind(this));
   
@@ -4434,9 +4435,7 @@ theme.recentlyViewed = {
   
       open: function() {
         this.drawer.open();
-        // Initial load
-        initializeProgressBar();
-        
+        alert('123');
         theme.a11y.trapFocus({
           container: this.form,
           elementToFocus: this.form,
@@ -4451,6 +4450,10 @@ theme.recentlyViewed = {
           container: this.form,
           namespace: 'cartdrawer_focus'
         });
+      },
+      updateProgressBarWithCartData: function() {
+        const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+        updateProgressBar(cartData.total_price, cartData.item_count);
       }
     });
   
