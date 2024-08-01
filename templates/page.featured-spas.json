@@ -22,8 +22,8 @@
         "text_eUTGYG": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Discover the luxury and effectiveness of Repechage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Italy, Mexico, or any other destination, Repechage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repechage difference, no matter where you are in the world.<\/p>",
+            "enlarge_text": false,
+            "text": "<p>Discover the luxury and effectiveness of Repêchage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Italy, Mexico, or any other destination, Repêchage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repêchage difference, no matter where you are in the world.<\/p>",
             "text_color": "#2b2a27"
           }
         }
