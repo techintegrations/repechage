@@ -4435,7 +4435,7 @@ theme.recentlyViewed = {
   
       open: function() {
         this.drawer.open();
-        alert('123');
+        //alert('123');
         theme.a11y.trapFocus({
           container: this.form,
           elementToFocus: this.form,
