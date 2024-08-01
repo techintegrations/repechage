@@ -12,6 +12,14 @@
 .site-nav__link, .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
   font-size: 16px !important;
 }
+.collapsible-trigger-btn {
+    letter-spacing: 1.3px;
+}
+
+.grid-product .grid-product__title {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
 /******/
 
 .in-article-product .grid__item.grid-product {
