@@ -8411,7 +8411,7 @@ document.addEventListener('DOMContentLoaded', function() {
       progressWrapper.style.display = 'block'; 
       progressBar.style.display = 'block';
       const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
-      progressBar.style.width = ${progressPercentage}%;
+      progressBar.style.width = `${progressPercentage}%`; // Corrected this line
 
       if (progressPercentage >= 100) {
         progressWrapper.classList.add('full');
@@ -8426,7 +8426,7 @@ document.addEventListener('DOMContentLoaded', function() {
         remainingForGoal = 0;
       }
 
-      const remainingAmountFormatted = $${(remainingForGoal / 100).toFixed(2)};
+      const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`; // Corrected this line
       const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
       goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
     }
@@ -8463,3 +8463,4 @@ document.addEventListener('DOMContentLoaded', function() {
     sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
 });
+
