@@ -8449,9 +8449,11 @@ function fetchCartData() {
   });
 }
 CartForm.prototype.updateProgressBar = function() {
-  const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-  updateProgressBar(cartData.total_price, cartData.item_count);
+  fetchCartData().then(cartData => {
+    updateProgressBar(cartData.total_price, cartData.item_count);
+  });
 };
+
 
 
 
