@@ -20,9 +20,10 @@
             </button>
           </div>
         </div>
+       {% render 'cart-progress-bar-custom' %}
       </div>
 
-      {% render 'cart-progress-bar-custom' %}
+     
 
       <div class="drawer__inner">
         <div class="drawer__scrollable">
@@ -80,7 +81,7 @@
 
           <div class="cart__checkout-wrapper">
             {% if settings.show_sample_product %}
-              <button data-fancybox data-src="#cart-sample-product" class="sample-product-btn">{{ settings.max_product_message }}</button>
+              <button data-fancybox data-src="#cart-sample-product" class="sample-product-btn">{{ settings.sample_products_trigger }}</button>
             {% endif %}
             
               <button
