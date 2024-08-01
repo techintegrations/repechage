@@ -41,7 +41,7 @@
           "type": "heading",
           "settings": {
             "title": "CAREERS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_aJ6m6x": {
@@ -49,7 +49,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p>Join Repechage, a renowned professional skincare company, and advance your career while working with thousands of estheticians worldwide. At Repechage, you'll have the opportunity to be part of a supportive and innovative community dedicated to excellence in skincare. Enhance your skills, collaborate with industry experts, and contribute to the global beauty industry.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -106,7 +106,7 @@
           "type": "heading",
           "settings": {
             "title": "Pro Beauty Sales (Secaucus, NJ)",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_DLL84j": {
@@ -114,7 +114,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p><strong>Position:<\/strong><\/p><p>We are seeking a qualified candidate with great communication skills and experience in the professional beauty industry.<\/p><p><strong>Responsibilities:<\/strong><\/p><ul><li>Develop new business in direct sales of professional skin care products<\/li><li>Manage and maintain accurate records of sales and prospecting activities, including sales and follow-up calls on a weekly basis<\/li><li>Prospect and develop new business and growing existing accounts in the high-end skin care market<\/li><li>Meet sales quota and facilitate future sales \/ communicate all marketing developments<\/li><li>Enter and update customer information in our database<\/li><li>Process orders and manage client accounts<\/li><li>Work closely with the sales manager to set-up marketing calendar on a monthly basis<\/li><\/ul><p><strong>Must have skills:<\/strong><\/p><ul><li>Esthetic License and beauty industry experience a must<\/li><li>Excellent communication skills<\/li><li>Ability to build and maintain professional relationships<\/li><li>High energy level<\/li><li>Proven sales\/customer service experience<\/li><li>Strong administrative and data\/order entry skills<\/li><li>Must have working knowledge of Microsoft Word, Excel, Office<\/li><li>Minimum 2 years of experience<\/li><li>Participate in 4 to 6 tradeshows per year.<\/li><\/ul>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "button_pi6gy6": {
@@ -140,6 +140,40 @@
         "bg_color": "",
         "divider": false
       }
+    },
+    "rich_text_9h9N6m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AVMBNP": {
+          "type": "heading",
+          "settings": {
+            "title": "Brand Educator",
+            "title_color": "#000"
+          }
+        },
+        "text_KfWN4Y": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Responsibilities:<\/strong><\/p><ul><li>Coordinates on location and in house education for qualifying clients<\/li><li>Prepares customized extensive educational agenda for on location and in house training<\/li><li>Creates a list of educational materials for training and trade shows<\/li><li>Sets up Academy training facility with materials for workshop, classroom set up and agenda for training<\/li><li>Creates presentations for in-house educational events and on location education<\/li><li>Conducts full training on product knowledge, sales, marketing, merchandising and treatment techniques for international and domestic clients.<\/li><li>Conducts customized webinars and virtual training<\/li><li>Advises and supports sales staff with product and treatment related questions<\/li><li>Assists in creation of scripts for educational videos<\/li><li>Prepare educational videos for consumer education.<\/li><li>Submits extensive reports on all educational events to CEO<\/li><li>Trains the in-house sales staff on product knowledge and sales<\/li><li>Tests the new formulas of products and treatments<\/li><li>Assists in set up of the domestic and international tradeshow floor and product displays<\/li><li>Performs educational presentations during domestic and international tradeshows<\/li><li>Performs treatments on clients during domestic and international tradeshows<\/li><li>Hosts on site special events at client locations domestically and internationally<\/li><li>Performs treatments and skin analysis on spa\/salon clients during special events.<\/li><li>Analyze competitor brands and industry trends on regular basis<\/li><\/ul><p><strong>Must have skills:<\/strong><\/p><ul><li>Excellent communication and presentation skills in front of a group.<\/li><li>Knowledge of Microsoft Power Point and Microsoft Word<\/li><li>Exceptional organizational skills<\/li><li>Organized and well informed of international etiquette<\/li><li>Available to travel domestically and internationally<\/li><li>Valid US Passport<\/li><\/ul><p><strong>Qualifications:<\/strong><\/p><ul><li>NJ and NY licensed esthetician, behind the chair experience of 3 years<\/li><li>Experience in the beauty industry minimum of 5 years<\/li><li>Bilingual skills a plus<\/li><li>CIDESCO Diploma \/ ITEC a plus<\/li><\/ul>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AVMBNP",
+        "text_KfWN4Y"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -147,6 +181,7 @@
     "1719330332db78ebfd",
     "rich_text_bKFybp",
     "advanced_content_grBjpD",
-    "rich_text_meEifd"
+    "rich_text_meEifd",
+    "rich_text_9h9N6m"
   ]
 }
