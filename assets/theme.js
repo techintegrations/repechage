@@ -1822,8 +1822,7 @@ theme.recentlyViewed = {
           Shopify.StorefrontExpressButtons.initialize();
         }
         // Update the progress bar
-        const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-        updateProgressBar(cartData.total_price, cartData.item_count);
+        this.updateProgressBar();
       },
   
       updateCartDiscounts: function(markup) {
@@ -8449,6 +8448,10 @@ function fetchCartData() {
     resolve(cartData);
   });
 }
+CartForm.prototype.updateProgressBar = function() {
+  const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+  updateProgressBar(cartData.total_price, cartData.item_count);
+};
 
 
 
