@@ -59,7 +59,7 @@
         "subtitle": "",
         "title": "MESSAGE FROM OUR FOUNDER",
         "text": "<p>Dear Esteemed Educators,<\/p><p>As the CEO and founder of Repêchage, I am thrilled to invite you to become an accredited professional skin care school with us. By partnering with Repêchage, you will gain access to our exclusive curriculum, cutting-edge treatments, and premium products, ensuring your students receive the highest level of education and training. Together, we can elevate the standards of skincare education and empower the next generation of skincare professionals.<\/p><p>Warm regards,<\/p><p>Lydia Sarfati<br\/>CEO and Founder, Repêchage<\/p>",
-        "enlarge_text": true,
+        "enlarge_text": false,
         "button_label": "OPEN AN ACCOUNT",
         "button_link": "shopify:\/\/pages\/open-a-professional-account",
         "button_style": "primary",
