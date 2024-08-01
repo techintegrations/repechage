@@ -1821,6 +1821,9 @@ theme.recentlyViewed = {
         if (Shopify && Shopify.StorefrontExpressButtons) {
           Shopify.StorefrontExpressButtons.initialize();
         }
+
+        // Initialize the progress bar after building the cart
+        initializeProgressBar();
       },
   
       updateCartDiscounts: function(markup) {
