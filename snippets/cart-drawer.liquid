@@ -8,7 +8,6 @@
       class="drawer__contents"
       data-location="cart-drawer"
     >
-  {% render 'cart-progress-bar-custom' %}
       <div class="drawer__fixed-header">
         <div class="drawer__header appear-animation appear-delay-1">
           <div class="h2 drawer__title">{{ 'cart.general.title' | t }}</div>
@@ -21,10 +20,9 @@
             </button>
           </div>
         </div>
-       
       </div>
 
-     
+      {% render 'cart-progress-bar-custom' %}
 
       <div class="drawer__inner">
         <div class="drawer__scrollable">
