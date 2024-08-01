@@ -21,15 +21,15 @@
         "heading_Xtzyp9": {
           "type": "heading",
           "settings": {
-            "title": "Repechage Aesthetic School Program",
+            "title": "Repêchage Aesthetic School Program",
             "title_color": "#2b2a27"
           }
         },
         "text_rdLFm7": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>At Repechage, education is part of who we are. We invite accredited schools to partner with us, delivering dynamic education alongside exceptional professional treatments and products.<\/p>",
+            "enlarge_text": false,
+            "text": "<p>At Repêchage, education is part of who we are. We invite accredited schools to partner with us, delivering dynamic education alongside exceptional professional treatments and products.<\/p>",
             "text_color": "#2b2a27"
           }
         }
