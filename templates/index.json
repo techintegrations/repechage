@@ -266,10 +266,10 @@
         "block_title_color": "",
         "block_text_color": "",
         "bg_color": "#f9f9f9",
-        "padding_top": 60,
-        "padding_bottom": 80,
-        "padding_top_m": 50,
-        "padding_bottom_m": 70,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
         "divider": false
       }
     },
@@ -581,7 +581,7 @@
           "type": "heading",
           "settings": {
             "title": "",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_kWTcE6": {
@@ -589,7 +589,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<h3>The Repechage Experience<\/h3>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
