@@ -1709,6 +1709,7 @@ document.addEventListener('DOMContentLoaded', function() {
     sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
 
+  var theme = window.theme || {};
   theme.CartForm = (function() {
     var selectors = {
       products: '[data-products]',
@@ -1994,6 +1995,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     return CartForm;
   })();
+
+  const forms = document.querySelectorAll('form[data-location]');
+  forms.forEach(function(form) {
+    new theme.CartForm(form);
+  });
 });
 
   
