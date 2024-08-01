@@ -1821,8 +1821,6 @@ theme.recentlyViewed = {
         if (Shopify && Shopify.StorefrontExpressButtons) {
           Shopify.StorefrontExpressButtons.initialize();
         }
-        // Update the progress bar
-        this.updateProgressBar();
       },
   
       updateCartDiscounts: function(markup) {
@@ -4406,58 +4404,56 @@ theme.recentlyViewed = {
     }
   };
   
-theme.CartDrawer = (function() {
-  var selectors = {
-    drawer: '#CartDrawer',
-    form: '#CartDrawerForm'
-  };
-
-  function CartDrawer() {
-    this.form = document.querySelector(selectors.form);
-    this.drawer = new theme.Drawers('CartDrawer', 'cart');
-
-    this.init();
-  }
-
-  CartDrawer.prototype = Object.assign({}, CartDrawer.prototype, {
-    init: function() {
-      this.cartForm = new theme.CartForm(this.form);
-      this.cartForm.buildCart();
-
-      document.addEventListener('ajaxProduct:added', function(evt) {
+  theme.CartDrawer = (function() {
+    var selectors = {
+      drawer: '#CartDrawer',
+      form: '#CartDrawerForm'
+    };
+  
+    function CartDrawer() {
+      this.form = document.querySelector(selectors.form);
+      this.drawer = new theme.Drawers('CartDrawer', 'cart');
+  
+      this.init();
+    }
+  
+    CartDrawer.prototype = Object.assign({}, CartDrawer.prototype, {
+      init: function() {
+        this.cartForm = new theme.CartForm(this.form);
         this.cartForm.buildCart();
-        this.updateProgressBarWithCartData();
-        this.open();
-      }.bind(this));
-
-      // Dev-friendly way to open cart
-      document.addEventListener('cart:open', this.open.bind(this));
-      document.addEventListener('cart:close', this.close.bind(this));
-    },
-
-    open: function() {
-      this.drawer.open();
-      theme.a11y.trapFocus({
-        container: this.form,
-        elementToFocus: this.form,
-        namespace: 'cartdrawer_focus'
-      });
-    },
-
-    close: function() {
-      this.drawer.close();
-
-      theme.a11y.removeTrapFocus({
-        container: this.form,
-        namespace: 'cartdrawer_focus'
-      });
-    },
-
-  });
-
-  return CartDrawer;
-})();
-
+  
+        document.addEventListener('ajaxProduct:added', function(evt) {
+          this.cartForm.buildCart();
+          this.open();
+        }.bind(this));
+  
+        // Dev-friendly way to open cart
+        document.addEventListener('cart:open', this.open.bind(this));
+        document.addEventListener('cart:close', this.close.bind(this));
+      },
+  
+      open: function() {
+        this.drawer.open();
+  
+        theme.a11y.trapFocus({
+          container: this.form,
+          elementToFocus: this.form,
+          namespace: 'cartdrawer_focus'
+        });
+      },
+  
+      close: function() {
+        this.drawer.close();
+  
+        theme.a11y.removeTrapFocus({
+          container: this.form,
+          namespace: 'cartdrawer_focus'
+        });
+      }
+    });
+  
+    return CartDrawer;
+  })();
   
   theme.headerNav = (function() {
     var selectors = {
@@ -8391,69 +8387,83 @@ theme.CartDrawer = (function() {
   });
 
 })();
-// Function to update progress bar based on cart total
-function updateProgressBar(cartTotal, itemCount) {
-  const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
-  
-  progressWrappers.forEach(progressWrapper => {
-    const progressBar = progressWrapper.querySelector('.cart-progress-bar');
-    const goalMessageElement = progressWrapper.querySelector('.goal-message');
 
-    if (!progressWrapper || !progressBar || !goalMessageElement) {
-      console.error('Progress bar elements not found');
-      return;
-    }
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to update progress bar based on cart total
+  function updateProgressBar(cartTotal, itemCount) {
+    const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+    
+    progressWrappers.forEach(progressWrapper => {
+      const progressBar = progressWrapper.querySelector('.cart-progress-bar');
+      const goalMessageElement = progressWrapper.querySelector('.goal-message');
 
-    const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
-    const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
-    const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+      if (!progressWrapper || !progressBar || !goalMessageElement) {
+        console.error('Progress bar elements not found');
+        return;
+      }
 
-    if (itemCount === 0 || cartTotal === 0) {
-      progressWrapper.style.display = 'none';
-      goalMessageElement.style.display = 'none';
-    } else {
-      progressWrapper.style.display = 'block'; 
-      progressBar.style.display = 'block';
-      const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
-      progressBar.style.width = `${progressPercentage}%`;
+      const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+      const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+      const postGoalMessage = progressWrapper.dataset.postGoalMessage;
 
-      if (progressPercentage >= 100) {
-        progressWrapper.classList.add('full');
+      if (itemCount === 0 || cartTotal === 0) {
+        progressWrapper.style.display = 'none';
+        goalMessageElement.style.display = 'none';
       } else {
-        progressWrapper.classList.remove('full');
+        progressWrapper.style.display = 'block'; 
+        progressBar.style.display = 'block';
+        const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
+        progressBar.style.width = `${progressPercentage}%`;
+
+        if (progressPercentage >= 100) {
+          progressWrapper.classList.add('full');
+        } else {
+          progressWrapper.classList.remove('full');
+        }
+
+        goalMessageElement.style.display = 'block';
+        let remainingForGoal = progressThreshold - cartTotal;
+
+        if (remainingForGoal < 0) {
+          remainingForGoal = 0;
+        }
+
+        const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
+        const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
+        goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
       }
+    });
+  }
 
-      goalMessageElement.style.display = 'block';
-      let remainingForGoal = progressThreshold - cartTotal;
-
-      if (remainingForGoal < 0) {
-        remainingForGoal = 0;
-      }
-
-      const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
-      const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
-      goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
-    }
-  });
-}
-
-// Function to fetch cart data (replace with actual Shopify cart fetching logic)
-function fetchCartData() {
-  return new Promise((resolve, reject) => {
-    // Replace with actual Shopify cart fetching logic
-    const cartData = {
+  // Function to fetch cart data (replace with actual Shopify cart fetching logic)
+  function fetchCartData() {
+    // Example implementation: Replace with actual Shopify cart fetching logic
+    return {
       total_price: 5000, // Example cart total in cents
       item_count: 3      // Example item count
     };
-    resolve(cartData);
+  }
+
+  // Function to initialize progress bar
+  function initializeProgressBar() {
+    const storedCartTotal = sessionStorage.getItem('cartTotal');
+    if (storedCartTotal) {
+      const cartTotal = parseInt(storedCartTotal, 10);
+      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+      updateProgressBar(cartTotal, cartData.item_count);
+    }
+  }
+
+  // Initial load
+  initializeProgressBar();
+
+  // Event listener for cart updates (replace with your actual event listener logic)
+  document.addEventListener('cart:updated', function(event) {
+    const updatedCartData = event.detail.cart;
+    updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+
+    // Store updated cart total in sessionStorage
+    sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
-}
-CartForm.prototype.updateProgressBar = function() {
-  fetchCartData().then(cartData => {
-    updateProgressBar(cartData.total_price, cartData.item_count);
-  });
-};
-
-
-
+});
 
