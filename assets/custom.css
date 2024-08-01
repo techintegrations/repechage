@@ -12,6 +12,9 @@
 .product-block.product-block--price .product__price {
     font-weight: 600;
 }
+.yotpo .yotpo-bottomline .yotpo-icon-star, .yotpo .yotpo-bottomline .yotpo-icon-half-star, .yotpo .yotpo-bottomline .yotpo-icon-empty-star {
+    color: #000;
+}
 
 .tag-list a, .tag-list label {
     font-size: 14px;
