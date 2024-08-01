@@ -1710,7 +1710,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   var theme = window.theme || {};
-  theme.CartForm = (function() {
+  theme.CartForm = function(form) {
+    if (!form) {
+      return;
+    }
+
     var selectors = {
       products: '[data-products]',
       qtySelector: '.js-qty__wrapper',
@@ -1731,270 +1735,262 @@ document.addEventListener('DOMContentLoaded', function() {
       requiresTerms: false
     };
 
-    function CartForm(form) {
-      if (!form) {
-        return;
-      }
+    this.form = form;
+    this.wrapper = form.parentNode;
+    this.location = form.dataset.location;
+    this.namespace = '.cart-' + this.location;
+    this.products = form.querySelector(selectors.products);
+    this.submitBtn = form.querySelector(selectors.checkoutBtn);
 
-      this.form = form;
-      this.wrapper = form.parentNode;
-      this.location = form.dataset.location;
-      this.namespace = '.cart-' + this.location;
-      this.products = form.querySelector(selectors.products)
-      this.submitBtn = form.querySelector(selectors.checkoutBtn);
+    this.discounts = form.querySelector(selectors.discounts);
+    this.savings = form.querySelector(selectors.savings);
+    this.subtotal = form.querySelector(selectors.subTotal);
+    this.termsCheckbox = form.querySelector(selectors.termsCheckbox);
+    this.noteInput = form.querySelector(selectors.cartNote);
 
-      this.discounts = form.querySelector(selectors.discounts);
-      this.savings = form.querySelector(selectors.savings);
-      this.subtotal = form.querySelector(selectors.subTotal);
-      this.termsCheckbox = form.querySelector(selectors.termsCheckbox);
-      this.noteInput = form.querySelector(selectors.cartNote);
+    this.cartItemsUpdated = false;
 
-      this.cartItemsUpdated = false;
-
-      if (this.termsCheckbox) {
-        config.requiresTerms = true;
-      }
-
-      this.init();
+    if (this.termsCheckbox) {
+      config.requiresTerms = true;
     }
 
-    CartForm.prototype = Object.assign({}, CartForm.prototype, {
-      init: function() {
-        this.initQtySelectors();
+    this.init();
+  };
 
-        document.addEventListener('cart:quantity' + this.namespace, this.quantityChanged.bind(this));
+  theme.CartForm.prototype = {
+    init: function() {
+      this.initQtySelectors();
 
-        this.form.on('submit' + this.namespace, this.onSubmit.bind(this));
+      document.addEventListener('cart:quantity' + this.namespace, this.quantityChanged.bind(this));
 
-        if (this.noteInput) {
-          this.noteInput.addEventListener('change', function() {
-            var newNote = this.value;
-            theme.cart.updateNote(newNote);
-          });
-        }
+      this.form.addEventListener('submit' + this.namespace, this.onSubmit.bind(this));
 
-        // Dev-friendly way to build the cart
-        document.addEventListener('cart:build', function() {
-          this.buildCart();
-        }.bind(this));
-      },
+      if (this.noteInput) {
+        this.noteInput.addEventListener('change', function() {
+          var newNote = this.value;
+          theme.cart.updateNote(newNote);
+        });
+      }
 
-      reInit: function() {
-        this.initQtySelectors();
-      },
+      // Dev-friendly way to build the cart
+      document.addEventListener('cart:build', function() {
+        this.buildCart();
+      }.bind(this));
+    },
 
-      onSubmit: function(evt) {
-        this.submitBtn.classList.add(classes.btnLoading);
+    reInit: function() {
+      this.initQtySelectors();
+    },
 
-        if (document.documentElement.classList.contains('js-drawer-open') && this.cartItemsUpdated ||
-          document.documentElement.classList.contains('cart-open') && this.cartItemsUpdated) {
+    onSubmit: function(evt) {
+      this.submitBtn.classList.add(classes.btnLoading);
+
+      if (document.documentElement.classList.contains('js-drawer-open') && this.cartItemsUpdated ||
+        document.documentElement.classList.contains('cart-open') && this.cartItemsUpdated) {
+        this.submitBtn.classList.remove(classes.btnLoading);
+        evt.preventDefault();
+        return false;
+      }
+
+      if (config.requiresTerms) {
+        if (this.termsCheckbox.checked) {
+          // continue to checkout
+        } else {
+          alert(theme.strings.cartTermsConfirmation);
           this.submitBtn.classList.remove(classes.btnLoading);
           evt.preventDefault();
           return false;
         }
+      }
+    },
 
-        if (config.requiresTerms) {
-          if (this.termsCheckbox.checked) {
-            // continue to checkout
-          } else {
-            alert(theme.strings.cartTermsConfirmation);
-            this.submitBtn.classList.remove(classes.btnLoading)
-            evt.preventDefault();
-            return false;
-          }
-        }
-      },
+    checkForOnlySampleProducts: function() {
+      var items = this.products.querySelectorAll('.cart__item');
+      var hasNonSampleProduct = false;
+      var sampleProductKey = null;
 
-      checkForOnlySampleProducts: function() {
-        var items = this.products.querySelectorAll('.cart__item');
-        var hasNonSampleProduct = false;
-        var sampleProductKey = null;
-
-        items.forEach(function(item) {
-          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
-          if (!item.hasAttribute('data-sample-item')) {
-            hasNonSampleProduct = true;
-          } else {
-            sampleProductKey = item.dataset.key;
-          }
-        });
-
-        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
-
-        if (!hasNonSampleProduct && sampleProductKey) {
-          console.log('Removing sample product:', sampleProductKey);
-          theme.cart.changeItem(sampleProductKey, 0).then(() => {
-            this.buildCart();
-          });
-        }
-      },
-
-      _parseProductHTML: function(text) {
-        const html = document.createElement('div');
-        html.innerHTML = text;
-
-        return {
-          items: html.querySelector('.cart__items'),
-          discounts: html.querySelector('.cart__discounts')
-        }
-      },
-
-      buildCart: function() {
-        theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
-      },
-
-      cartMarkup: function(text) {
-        var markup = this._parseProductHTML(text);
-        var items = markup.items;
-        var count = parseInt(items.dataset.count);
-        var subtotal = items.dataset.cartSubtotal;
-        var savings = items.dataset.cartSavings;
-
-        this.updateCartDiscounts(markup.discounts);
-        this.updateSavings(savings);
-
-        if (count > 0) {
-          this.wrapper.classList.remove('is-empty');
+      items.forEach(function(item) {
+        console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
+        if (!item.hasAttribute('data-sample-item')) {
+          hasNonSampleProduct = true;
         } else {
-          this.wrapper.classList.add('is-empty');
+          sampleProductKey = item.dataset.key;
         }
+      });
 
-        this.updateCount(count);
+      console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
 
-        // Append item markup
-        this.products.innerHTML = '';
-        this.products.append(items);
-
-        // Update subtotal
-        this.subtotal.innerHTML = theme.Currency.formatMoney(subtotal, theme.settings.moneyFormat);
-
-        this.reInit();
-
-        if (window.AOS) { AOS.refreshHard() }
-
-        if (Shopify && Shopify.StorefrontExpressButtons) {
-          Shopify.StorefrontExpressButtons.initialize();
-        }
-
-        // Initialize the progress bar after building the cart
-        initializeProgressBar();
-      },
-
-      updateCartDiscounts: function(markup) {
-        if (!this.discounts) {
-          return;
-        }
-        this.discounts.innerHTML = '';
-        this.discounts.append(markup);
-      },
-
-      initQtySelectors: function() {
-        this.form.querySelectorAll(selectors.qtySelector).forEach(el => {
-          var selector = new theme.QtySelector(el, {
-            namespace: this.namespace,
-            isCart: true
-          });
+      if (!hasNonSampleProduct && sampleProductKey) {
+        console.log('Removing sample product:', sampleProductKey);
+        theme.cart.changeItem(sampleProductKey, 0).then(() => {
+          this.buildCart();
         });
-      },
+      }
+    },
 
-      quantityChanged: function(evt) {
-        var key = evt.detail[0];
-        var qty = evt.detail[1];
-        var el = evt.detail[2];
+    _parseProductHTML: function(text) {
+      const html = document.createElement('div');
+      html.innerHTML = text;
 
-        if (!key || !qty) {
-          return;
-        }
+      return {
+        items: html.querySelector('.cart__items'),
+        discounts: html.querySelector('.cart__discounts')
+      };
+    },
 
-        if (el) {
-          el.classList.add('is-loading');
-        }
+    buildCart: function() {
+      theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
+    },
 
-        theme.cart.changeItem(key, qty)
-          .then(function(cart) {
-            const parsedCart = JSON.parse(cart);
+    cartMarkup: function(text) {
+      var markup = this._parseProductHTML(text);
+      var items = markup.items;
+      var count = parseInt(items.dataset.count);
+      var subtotal = items.dataset.cartSubtotal;
+      var savings = items.dataset.cartSavings;
 
-            if (parsedCart.status === 422) {
-              alert(parsedCart.message);
-            } else {
-              const updatedItem = parsedCart.items.find(item => item.key === key);
+      this.updateCartDiscounts(markup.discounts);
+      this.updateSavings(savings);
 
-              if (updatedItem && (evt.type === 'cart:quantity.cart-cart-drawer' || evt.type === 'cart:quantity.cart-header')) {
-                this.cartItemsUpdated = true;
-              }
+      if (count > 0) {
+        this.wrapper.classList.remove('is-empty');
+      } else {
+        this.wrapper.classList.add('is-empty');
+      }
 
-              if ((updatedItem && evt.type === 'cart:quantity.cart-cart-drawer') || (updatedItem && evt.type === 'cart:quantity.cart-header')) {
-                if (updatedItem.quantity !== qty) {
-                }
-                this.cartItemsUpdated = false;
-              }
+      this.updateCount(count);
 
-              if (parsedCart.item_count > 0) {
-                this.wrapper.classList.remove('is-empty');
-              } else {
-                this.wrapper.classList.add('is-empty');
-              }
+      // Append item markup
+      this.products.innerHTML = '';
+      this.products.append(items);
+
+      // Update subtotal
+      this.subtotal.innerHTML = theme.Currency.formatMoney(subtotal, theme.settings.moneyFormat);
+
+      this.reInit();
+
+      if (window.AOS) { AOS.refreshHard(); }
+
+      if (Shopify && Shopify.StorefrontExpressButtons) {
+        Shopify.StorefrontExpressButtons.initialize();
+      }
+
+      // Initialize the progress bar after building the cart
+      initializeProgressBar();
+    },
+
+    updateCartDiscounts: function(markup) {
+      if (!this.discounts) {
+        return;
+      }
+      this.discounts.innerHTML = '';
+      this.discounts.append(markup);
+    },
+
+    initQtySelectors: function() {
+      this.form.querySelectorAll('.js-qty__wrapper').forEach(el => {
+        new theme.QtySelector(el, {
+          namespace: this.namespace,
+          isCart: true
+        });
+      });
+    },
+
+    quantityChanged: function(evt) {
+      var key = evt.detail[0];
+      var qty = evt.detail[1];
+      var el = evt.detail[2];
+
+      if (!key || !qty) {
+        return;
+      }
+
+      if (el) {
+        el.classList.add('is-loading');
+      }
+
+      theme.cart.changeItem(key, qty)
+        .then(function(cart) {
+          const parsedCart = JSON.parse(cart);
+
+          if (parsedCart.status === 422) {
+            alert(parsedCart.message);
+          } else {
+            const updatedItem = parsedCart.items.find(item => item.key === key);
+
+            if (updatedItem && (evt.type === 'cart:quantity.cart-cart-drawer' || evt.type === 'cart:quantity.cart-header')) {
+              this.cartItemsUpdated = true;
             }
 
-            this.buildCart();
-
-            setTimeout(() => {
-              this.checkForOnlySampleProducts();
-            }, 1000);
-
-            document.dispatchEvent(new CustomEvent('cart:updated', {
-              detail: {
-                cart: parsedCart
+            if ((updatedItem && evt.type === 'cart:quantity.cart-cart-drawer') || (updatedItem && evt.type === 'cart:quantity.cart-header')) {
+              if (updatedItem.quantity !== qty) {
               }
-            }));
-          }.bind(this))
-          .catch(function(XMLHttpRequest){});
-      },
+              this.cartItemsUpdated = false;
+            }
 
-      updateSubtotal: function(subtotal) {
-        this.form.querySelector(selectors.subTotal).innerHTML = theme.Currency.formatMoney(subtotal, theme.settings.moneyFormat);
-      },
+            if (parsedCart.item_count > 0) {
+              this.wrapper.classList.remove('is-empty');
+            } else {
+              this.wrapper.classList.add('is-empty');
+            }
+          }
 
-      updateSavings: function(savings) {
-        if (!this.savings) {
-          return;
-        }
+          this.buildCart();
 
-        if (savings > 0) {
-          var amount = theme.Currency.formatMoney(savings, theme.settings.moneyFormat);
-          this.savings.classList.remove('hide');
-          this.savings.innerHTML = theme.strings.cartSavings.replace('[savings]', amount);
+          setTimeout(() => {
+            this.checkForOnlySampleProducts();
+          }, 1000);
+
+          document.dispatchEvent(new CustomEvent('cart:updated', {
+            detail: {
+              cart: parsedCart
+            }
+          }));
+        }.bind(this))
+        .catch(function(XMLHttpRequest) {});
+    },
+
+    updateSubtotal: function(subtotal) {
+      this.form.querySelector('[data-subtotal]').innerHTML = theme.Currency.formatMoney(subtotal, theme.settings.moneyFormat);
+    },
+
+    updateSavings: function(savings) {
+      if (!this.savings) {
+        return;
+      }
+
+      if (savings > 0) {
+        var amount = theme.Currency.formatMoney(savings, theme.settings.moneyFormat);
+        this.savings.classList.remove('hide');
+        this.savings.innerHTML = theme.strings.cartSavings.replace('[savings]', amount);
+      } else {
+        this.savings.classList.add('hide');
+      }
+    },
+
+    updateCount: function(count) {
+      var countEls = document.querySelectorAll('.cart-link__bubble-num');
+
+      if (countEls.length) {
+        countEls.forEach(el => {
+          el.innerText = count;
+        });
+      }
+
+      var bubbles = document.querySelectorAll('.cart-link__bubble');
+      if (bubbles.length) {
+        if (count > 0) {
+          bubbles.forEach(b => {
+            b.classList.add('cart-link__bubble--visible');
+          });
         } else {
-          this.savings.classList.add('hide');
-        }
-      },
-
-      updateCount: function(count) {
-        var countEls = document.querySelectorAll('.cart-link__bubble-num');
-
-        if (countEls.length) {
-          countEls.forEach(el => {
-            el.innerText = count;
+          bubbles.forEach(b => {
+            b.classList.remove('cart-link__bubble--visible');
           });
         }
-
-        var bubbles = document.querySelectorAll(selectors.cartBubble);
-        if (bubbles.length) {
-          if (count > 0) {
-            bubbles.forEach(b => {
-              b.classList.add('cart-link__bubble--visible');
-            });
-          } else {
-            bubbles.forEach(b => {
-              b.classList.remove('cart-link__bubble--visible');
-            });
-          }
-        }
       }
-    });
-
-    return CartForm;
-  })();
+    }
+  };
 
   const forms = document.querySelectorAll('form[data-location]');
   forms.forEach(function(form) {
