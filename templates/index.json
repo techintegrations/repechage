@@ -588,7 +588,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>The Repechage Experience<\/p>",
+            "text": "<h3>The Repechage Experience<\/h3>",
             "text_color": "#000"
           }
         }
@@ -604,7 +604,7 @@
         "padding_bottom": 0,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
-        "bg_color": "",
+        "bg_color": "#f9f9f9",
         "divider": false
       }
     },
