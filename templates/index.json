@@ -574,6 +574,40 @@
         "lazyload_images": true
       }
     },
+    "rich_text_8EWUMC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YPnTqd": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "title_color": "#000"
+          }
+        },
+        "text_kWTcE6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>The Repechage Experience<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YPnTqd",
+        "text_kWTcE6"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "text_with_icons_dTrr3R": {
       "type": "text-with-icons",
       "blocks": {
@@ -800,6 +834,7 @@
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
+    "rich_text_8EWUMC",
     "text_with_icons_dTrr3R",
     "testimonials_WQarYp",
     "blog_posts_AkwbrY",
