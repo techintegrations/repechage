@@ -211,11 +211,6 @@
     line-height: normal;
 }
 
-.announcement-slider__slide {
-    margin: 0px 15px;
-    width: auto;
-}
-
 .announcement-row .announcement-slider__slide p {
     margin-bottom: 5px;
 }
