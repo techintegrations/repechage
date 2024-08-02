@@ -1739,9 +1739,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-
-
-  
   
   theme.CartForm = (function() {
     var selectors = {
@@ -1906,7 +1903,7 @@ document.addEventListener('DOMContentLoaded', function() {
           Shopify.StorefrontExpressButtons.initialize();
         }
 
-           // Check for only sample products after a delay and update progress bar
+          // Check for only sample products after a delay and update progress bar
           console.log('Calling checkForOnlySampleProducts');
           setTimeout(() => {
             this.checkForOnlySampleProducts();
@@ -4554,6 +4551,17 @@ document.addEventListener('DOMContentLoaded', function() {
         document.addEventListener('ajaxProduct:added', function(evt) {
           this.cartForm.buildCart();
           this.open();
+
+
+        // Initialize the progress bar after the cart is built
+        setTimeout(() => {
+          fetchCartData().then(cartData => {
+            if (cartData) {
+              updateProgressBar(cartData.total_price, cartData.item_count);
+            }
+          });
+        }, 500);
+          
         }.bind(this));
   
         // Dev-friendly way to open cart
