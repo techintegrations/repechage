@@ -105,13 +105,15 @@ $(".image-slider-with-text .slider-nav").slick({
 
 
 $('.custom-announcement-slider').slick({
-  vertical: true,  // Enables vertical scrolling
-  slidesToShow: 1,  // Shows one slide at a time
-  slidesToScroll: 1,  // Scrolls one slide at a time
-  autoplay: true,  // Enables automatic scrolling
-  autoplaySpeed: 3000,  // Sets the speed of the autoplay (3 seconds)
-  arrows: true,  // Hides navigation arrows
-  dots: false  // Hides navigation dots
+  vertical: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: true,
+  dots: false,
+  prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+  nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
 });
 
   
