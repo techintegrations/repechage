@@ -180,7 +180,7 @@
         "padding_top_m": 20,
         "padding_bottom_m": 20,
         "bg_color": "",
-        "divider": false
+        "divider": true
       }
     },
     "rich_text_BzaUbe": {
@@ -258,32 +258,6 @@
         "bg_color": "",
         "divider": false
       }
-    },
-    "faq_HGDwHd": {
-      "type": "faq",
-      "blocks": {
-        "question_zC4VkU": {
-          "type": "question",
-          "settings": {
-            "title": "Does Repechage Offer Benefits?",
-            "text": "<p><strong>Benefits Available:<\/strong><\/p><ul><li><strong>10 Paid Holidays<\/strong><\/li><li><strong>Medical, Dental, Vision and Life Insurance (after 30 days of employment)<\/strong><\/li><li><strong>401 (k) (after one year of service)<\/strong><\/li><li><strong>Employee Corporate Discount Program<\/strong><\/li><li><strong>PTO (Paid Time Off)<\/strong><\/li><\/ul>"
-          }
-        },
-        "question_BQzFGL": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_zC4VkU",
-        "question_BQzFGL"
-      ],
-      "settings": {
-        "title": "FAQs"
-      }
     }
   },
   "order": [
@@ -294,7 +268,6 @@
     "rich_text_meEifd",
     "rich_text_9h9N6m",
     "rich_text_BzaUbe",
-    "rich_text_DJEFP7",
-    "faq_HGDwHd"
+    "rich_text_DJEFP7"
   ]
 }
