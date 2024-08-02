@@ -1878,11 +1878,7 @@ theme.recentlyViewed = {
         setTimeout(() => {
           this.checkForOnlySampleProducts();     
         }, 300);
-          fetchCartData().then(cartData => {
-            if (cartData) {
-              updateProgressBar(cartData.total_price, cartData.item_count);
-            }
-          });
+     
         
       },
 
