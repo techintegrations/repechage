@@ -1717,9 +1717,7 @@ theme.recentlyViewed = {
   
   document.addEventListener('DOMContentLoaded', function() {
     // Initial load with a timeout to ensure elements are ready
-    setTimeout(() => {
       initializeProgressBar();
-    }, 500);
   
     // Event listener for cart updates (replace with your actual event listener logic)
     document.addEventListener('cart:updated', function(event) {
@@ -1904,13 +1902,13 @@ theme.recentlyViewed = {
         // Check for only sample products after a delay and update progress bar
         console.log('Calling checkForOnlySampleProducts');
         setTimeout(() => {
-          this.checkForOnlySampleProducts();
+          this.checkForOnlySampleProducts();     
+        }, 300);
           fetchCartData().then(cartData => {
             if (cartData) {
               updateProgressBar(cartData.total_price, cartData.item_count);
             }
           });
-        }, 1000);
         
       },
 
@@ -2014,7 +2012,7 @@ theme.recentlyViewed = {
             console.log('Calling checkForOnlySampleProducts');
             setTimeout(() => {
               this.checkForOnlySampleProducts();
-            }, 1000);
+            }, 300);
             
             document.dispatchEvent(new CustomEvent('cart:updated', {
               detail: {
