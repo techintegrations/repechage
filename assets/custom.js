@@ -115,7 +115,7 @@ $('.custom-announcement-slider').slick({
     nextArrow: "<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
     responsive: [
         {
-            breakpoint: 768, // Adjust this value based on your mobile breakpoint
+            breakpoint: 992, // Adjust this value based on your mobile breakpoint
             settings: {
                 slidesToShow: 1,
                 vertical: false,
