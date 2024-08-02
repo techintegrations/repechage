@@ -1,3 +1,20 @@
+.custom-announcement-slider .slick-arrow {
+    position: unset;
+    transform: none;
+}
+
+.custom-announcement-slider .slick-arrow::before {
+    display: none;
+}
+
+.custom-announcement-slider {
+    display: flex;
+}
+
+.custom-announcement-slider .slick-list.draggable {
+    flex: 0 0 auto;
+}
+
 .site-nav__dropdown a {
     font-size: 14px;
 }
