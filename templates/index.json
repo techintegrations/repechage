@@ -326,8 +326,8 @@
       "settings": {
         "title": "Featured Product line - Vita Cura",
         "featured_image": "shopify:\/\/shop_images\/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
-        "home_featured_products": "vita-cura-1",
-        "per_row": 3,
+        "home_featured_products": "our-best-sellers",
+        "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": false,
