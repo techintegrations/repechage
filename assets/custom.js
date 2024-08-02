@@ -123,8 +123,7 @@ $(".image-slider-with-text .slider-nav").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       fade: true,
-      cssEase: 'linear',
-      autoplay: true, // Optional: for automatic slide transition
+      autoplay: false, // Optional: for automatic slide transition
       autoplaySpeed: 3000, // Optional: adjust the speed as needed
       arrows: true, // Optional: to show next/prev arrows
       dots: false,
