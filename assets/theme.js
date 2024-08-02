@@ -8352,3 +8352,64 @@ theme.recentlyViewed = {
   });
 
 })();
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Assuming you have a function to get the updated cart total and item count
+  // Replace this with your actual method of getting the cart state
+  const updatedCartTotal = /* your method to get updated cart total */;
+  const itemCount = /* your method to get item count */;
+  updateProgressBar(updatedCartTotal, itemCount);
+});
+
+function updateProgressBar(cartTotal, itemCount) {
+  const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+
+  progressWrappers.forEach(progressWrapper => {
+    const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+    const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+    const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+
+    const progressBar = progressWrapper.querySelector('.cart-progress-bar');
+    const goalMessageElement = progressWrapper.querySelector('.goal-message');
+
+    if (itemCount === 0 || cartTotal === 0) {
+      if (progressWrapper) {
+        progressWrapper.style.display = 'none';
+      }
+      if (goalMessageElement) {
+        goalMessageElement.style.display = 'none';
+      }
+    } else {
+      if (progressWrapper) {
+        progressWrapper.style.display = 'block'; 
+      }
+      if (progressBar) {
+        progressBar.style.display = 'block';
+        const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
+        progressBar.style.width = `${progressPercentage}%`;
+
+        if (progressPercentage >= 100) {
+          progressWrapper.classList.add('full');
+        } else {
+          progressWrapper.classList.remove('full');
+        }
+      }
+
+      if (goalMessageElement) {
+        goalMessageElement.style.display = 'block';
+        let remainingForGoal = progressThreshold - cartTotal;
+
+        if (remainingForGoal < 0) {
+          remainingForGoal = 0;
+        }
+
+        const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
+        const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
+        goalMessageElement.innerHTML = remainingForGoal > 0
+          ? preGoalMessage
+          : postGoalMessage;
+      }
+    }
+  });
+}
