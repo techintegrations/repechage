@@ -13,6 +13,8 @@
   </header>
 
 
+	{% render 'cart-progress-bar-custom' %}
+
 {% assign has_non_sample_product = false %}
   {% for item in cart.items %}
     {% unless item.product.metafields.custom.sample_product == true %}
