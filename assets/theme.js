@@ -1633,7 +1633,7 @@ theme.recentlyViewed = {
     - Prevent checkout when terms checkbox exists
     - Listen to quantity changes, rebuild cart (both widget and page)
   ==============================================================================*/
-  // Function to update progress bar based on cart total
+// Function to update progress bar based on cart total
 function updateProgressBar(cartTotal, itemCount) {
   const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
   
@@ -1679,31 +1679,7 @@ function updateProgressBar(cartTotal, itemCount) {
   });
 }
 
-// Function to fetch cart data (replace with actual Shopify cart fetching logic)
-function fetchCartData() {
-  // Example implementation: Replace with actual Shopify cart fetching logic
-  return {
-    total_price: 5000, // Example cart total in cents
-    item_count: 3      // Example item count
-  };
-}
-
-// Function to initialize progress bar
-function initializeProgressBar() {
-  const storedCartTotal = sessionStorage.getItem('cartTotal');
-  if (storedCartTotal) {
-    const cartTotal = parseInt(storedCartTotal, 10);
-    const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-    updateProgressBar(cartTotal, cartData.item_count);
-  }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-  // Initial load with a timeout to ensure elements are ready
-  setTimeout(() => {
-    initializeProgressBar();
-  }, 1000);
-
   // Event listener for cart updates (replace with your actual event listener logic)
   document.addEventListener('cart:updated', function(event) {
     const updatedCartData = event.detail.cart;
@@ -1713,7 +1689,6 @@ document.addEventListener('DOMContentLoaded', function() {
     sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
 });
-
   
 
 
@@ -1851,6 +1826,11 @@ document.addEventListener('DOMContentLoaded', function() {
           theme.cart.changeItem(sampleProductKey, 0).then(() => {
             this.buildCart();
           });
+        } else {
+          // Update progress bar if there are non-sample products
+          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
+          const itemCount = items.length;
+          updateProgressBar(cartTotal, itemCount);
         }
       },
 
@@ -1907,12 +1887,12 @@ document.addEventListener('DOMContentLoaded', function() {
           Shopify.StorefrontExpressButtons.initialize();
         }
 
-        // Initialize the progress bar after building the cart
-        setTimeout(() => {
-          if (count > 0) {
+        // Check for only sample products after a delay and update progress bar
+          console.log('Calling checkForOnlySampleProducts');
+          setTimeout(() => {
+            this.checkForOnlySampleProducts();
             updateProgressBar(subtotal, count);
-          }
-        }, 1000);
+          }, 1000);
       },
   
       updateCartDiscounts: function(markup) {
