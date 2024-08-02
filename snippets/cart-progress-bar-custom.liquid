@@ -1,4 +1,4 @@
-{% if cart != empty %}
+
   {% assign progressThresholdDollars = settings.cart_progress_threshold %}
   {% assign progressThreshold = progressThresholdDollars | times: 100 %}
   {% assign preGoalMessageTemplate = settings.cart_pre_goal_message %}
@@ -31,7 +31,6 @@
       {% endif %}
     </div>
   </div>
-{% endif %}
 
 
 
