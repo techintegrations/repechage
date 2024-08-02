@@ -1,3 +1,34 @@
+.announcement-bar {
+    background-color: #f5f5f5; /* Adjust the background color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.slideshow-wrapper {
+    overflow: hidden; /* Ensures slides are contained within the wrapper */
+}
+
+#AnnouncementSlider-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.announcement-slider__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Adjust the height as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+    background-color: #fff; /* Adjust the background color as needed */
+    border: 1px solid #ddd; /* Adjust the border as needed */
+    margin-bottom: 5px; /* Adjust the spacing between slides */
+}
+
+
+
+
 .site-nav__dropdown a {
     font-size: 14px;
 }
