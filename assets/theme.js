@@ -1678,33 +1678,7 @@ theme.recentlyViewed = {
       }
     });
   }
-  
-  // Function to fetch cart data (replace with actual Shopify cart fetching logic)
-  function fetchCartData() {
-    const cartUrl = '/cart.js'; // Ensure this URL is correct for fetching the cart data
-    return fetch(cartUrl, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Requested-With': 'XMLHttpRequest'
-      }
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => {
-        return {
-          total_price: data.total_price,
-          item_count: data.item_count
-        };
-      })
-      .catch(error => {
-        console.error('There has been a problem with your fetch operation:', error);
-      });
-  }
+
   
   // Function to initialize progress bar
   function initializeProgressBar() {
