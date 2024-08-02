@@ -222,7 +222,7 @@
         "padding_top_m": 20,
         "padding_bottom_m": 20,
         "bg_color": "",
-        "divider": false
+        "divider": true
       }
     },
     "rich_text_DJEFP7": {
