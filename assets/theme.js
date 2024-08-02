@@ -1703,13 +1703,13 @@ theme.recentlyViewed = {
     });
   
     // Event listener for product added via AJAX
-    document.addEventListener('ajaxProduct:added', function(event) {
-      fetchCartData().then(cartData => {
-        if (cartData) {
-          updateProgressBar(cartData.total_price, cartData.item_count);
-        }
-      });
-    });
+    // document.addEventListener('ajaxProduct:added', function(event) {
+    //   fetchCartData().then(cartData => {
+    //     if (cartData) {
+    //       updateProgressBar(cartData.total_price, cartData.item_count);
+    //     }
+    //   });
+    // });
   });
 
   
