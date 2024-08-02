@@ -260,11 +260,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/consultation-683x1024_fd04f691-3edb-4d45-83ec-45461fea94b5.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
             "title": "PESONAL DEVELOPMENT",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Repêchage® emphasizes training for employees interested in skincare. Their programs cover seaweed-based skincare advancements, techniques, and customer service, ensuring staff provide top-notch care and uphold the brand's high standards in the industry.<\/p>",
             "button_label": "LEARN MORE",
             "button_link": "https:\/\/www.lydiasarfati.com\/make-your-career-in-esthetics-the-best-it-can-be-skincare-spa-business-tips.php"
           }
