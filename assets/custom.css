@@ -17,11 +17,13 @@
 }
 
 .custom-announcement-slider .slick-arrow img {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
 }
 
-
+.custom-announcement-slider .slick-arrow {
+    z-index: 9;
+}
 
 
 
