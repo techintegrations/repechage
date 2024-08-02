@@ -2033,6 +2033,19 @@ document.addEventListener('DOMContentLoaded', function() {
   
     return CartForm;
   })();
+
+  
+// Define fetchCartData function to fetch the cart data after adding a product
+function fetchCartData() {
+  return fetch(theme.routes.cartUrl + '?view=json')
+    .then(response => response.json())
+    .then(data => {
+      return {
+        total_price: data.total_price,
+        item_count: data.item_count
+      };
+    });
+}
   
   // Either collapsible containers all acting individually,
   // or tabs that can only have one open at a time
