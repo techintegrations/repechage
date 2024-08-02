@@ -127,7 +127,9 @@ $(".image-slider-with-text .slider-nav").slick({
       autoplay: true, // Optional: for automatic slide transition
       autoplaySpeed: 3000, // Optional: adjust the speed as needed
       arrows: true, // Optional: to show next/prev arrows
-      dots: true // Optional: to show navigation dots
+      dots: true, // Optional: to show navigation dots
+      prevArrow: '.custom-arrows .left-arrow',
+      nextArrow: '.custom-arrows .right-arrow'
   });
 
 
