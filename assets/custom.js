@@ -107,7 +107,7 @@ $(".image-slider-with-text .slider-nav").slick({
 $('.custom-announcement-slider').slick({
     vertical: true,
     slidesToShow: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     arrows: true,
     dots: false,
