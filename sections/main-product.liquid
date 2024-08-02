@@ -1,3 +1,10 @@
+{% if product.metafields.custom.sample_product == 'true' %}
+  <script>
+    window.location.href = "{{ shop.url }}";
+  </script>
+{% else %}
+
+  
 {%- liquid
   assign isModal = false
   if template == 'product.modal'
@@ -24,6 +31,8 @@
   context: 'main-product',
 -%}
 
+  
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.main-product.name",
