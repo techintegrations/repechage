@@ -118,10 +118,11 @@ $('.custom-announcement-slider').slick({
             breakpoint: 768, // Adjust this value based on your mobile breakpoint
             settings: {
                 slidesToShow: 1,
-                vertical: false, // Change to horizontal slide on mobile if needed
+                vertical: false,
                 arrows: true,
                 dots: false,
-                fade: false // Ensure fade is not enabled on mobile
+                fade: false,
+                fade: true
             }
         }
     ]
