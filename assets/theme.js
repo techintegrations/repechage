@@ -1903,20 +1903,20 @@ document.addEventListener('DOMContentLoaded', function() {
           Shopify.StorefrontExpressButtons.initialize();
         }
 
-          // Check for only sample products after a delay and update progress bar
-          console.log('Calling checkForOnlySampleProducts');
-          setTimeout(() => {
-            this.checkForOnlySampleProducts();
-            fetchCartData().then(cartData => {
-              if (cartData) {
-                updateProgressBar(cartData.total_price, cartData.item_count);
-              }
-            });
-          }, 1000);
+         // Check for only sample products after a delay and update progress bar
+        console.log('Calling checkForOnlySampleProducts');
+        setTimeout(() => {
+          this.checkForOnlySampleProducts();
+          fetchCartData().then(cartData => {
+            if (cartData) {
+              updateProgressBar(cartData.total_price, cartData.item_count);
+            }
+          });
+        }, 1000);
       },
 
       
-      checkForOnlySampleProducts: function() {
+     checkForOnlySampleProducts: function() {
       // Check if the cart only contains sample items
       var items = this.products.querySelectorAll('.cart__item');
       var hasNonSampleProduct = false;
@@ -4577,6 +4577,15 @@ document.addEventListener('DOMContentLoaded', function() {
           elementToFocus: this.form,
           namespace: 'cartdrawer_focus'
         });
+
+         // Initialize the progress bar after opening the drawer
+          setTimeout(() => {
+            fetchCartData().then(cartData => {
+              if (cartData) {
+                updateProgressBar(cartData.total_price, cartData.item_count);
+              }
+            });
+          }, 500);
       },
   
       close: function() {
