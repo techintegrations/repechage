@@ -232,10 +232,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-08-02_at_11.17.41_AM.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
+            "title": "Corporate events",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
@@ -262,10 +263,10 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
+            "title": "PESONAL DEVELOPMENT",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "button_label": "LEARN MORE",
+            "button_link": "https:\/\/www.lydiasarfati.com\/make-your-career-in-esthetics-the-best-it-can-be-skincare-spa-business-tips.php"
           }
         }
       },
