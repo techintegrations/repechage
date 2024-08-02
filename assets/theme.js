@@ -8353,49 +8353,39 @@ theme.recentlyViewed = {
 
 })();
 
-
 document.addEventListener('DOMContentLoaded', function() {
-  // Replace this with your actual method of getting the cart state
-  const updatedCartTotal = getUpdatedCartTotal(); // Replace with actual function
-  const itemCount = getItemCount(); // Replace with actual function
-  updateProgressBar(updatedCartTotal, itemCount);
-});
+  // Function to update progress bar based on cart total
+  function updateProgressBar(cartTotal, itemCount) {
+    const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+    
+    progressWrappers.forEach(progressWrapper => {
+      const progressBar = progressWrapper.querySelector('.cart-progress-bar');
+      const goalMessageElement = progressWrapper.querySelector('.goal-message');
 
-function updateProgressBar(cartTotal, itemCount) {
-  const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+      if (!progressWrapper || !progressBar || !goalMessageElement) {
+        console.error('Progress bar elements not found');
+        return;
+      }
 
-  progressWrappers.forEach(progressWrapper => {
-    const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
-    const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
-    const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+      const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+      const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+      const postGoalMessage = progressWrapper.dataset.postGoalMessage;
 
-    const progressBar = progressWrapper.querySelector('.cart-progress-bar');
-    const goalMessageElement = progressWrapper.querySelector('.goal-message');
-
-    if (itemCount === 0 || cartTotal === 0) {
-      if (progressWrapper) {
+      if (itemCount === 0 || cartTotal === 0) {
         progressWrapper.style.display = 'none';
-      }
-      if (goalMessageElement) {
         goalMessageElement.style.display = 'none';
-      }
-    } else {
-      if (progressWrapper) {
+      } else {
         progressWrapper.style.display = 'block'; 
-      }
-      if (progressBar) {
         progressBar.style.display = 'block';
         const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
-        progressBar.style.width = `${progressPercentage}%`;
+        progressBar.style.width = ${progressPercentage}%;
 
         if (progressPercentage >= 100) {
           progressWrapper.classList.add('full');
         } else {
           progressWrapper.classList.remove('full');
         }
-      }
 
-      if (goalMessageElement) {
         goalMessageElement.style.display = 'block';
         let remainingForGoal = progressThreshold - cartTotal;
 
@@ -8403,23 +8393,42 @@ function updateProgressBar(cartTotal, itemCount) {
           remainingForGoal = 0;
         }
 
-        const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
+        const remainingAmountFormatted = $${(remainingForGoal / 100).toFixed(2)};
         const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
-        goalMessageElement.innerHTML = remainingForGoal > 0
-          ? preGoalMessage
-          : postGoalMessage;
+        goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
       }
+    });
+  }
+
+  // Function to fetch cart data (replace with actual Shopify cart fetching logic)
+  function fetchCartData() {
+    // Example implementation: Replace with actual Shopify cart fetching logic
+    return {
+      total_price: 5000, // Example cart total in cents
+      item_count: 3      // Example item count
+    };
+  }
+
+  // Function to initialize progress bar
+  function initializeProgressBar() {
+    const storedCartTotal = sessionStorage.getItem('cartTotal');
+    if (storedCartTotal) {
+      const cartTotal = parseInt(storedCartTotal, 10);
+      const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+      updateProgressBar(cartTotal, cartData.item_count);
     }
+  }
+
+  // Initial load
+  initializeProgressBar();
+
+  // Event listener for cart updates (replace with your actual event listener logic)
+  document.addEventListener('cart:updated', function(event) {
+    const updatedCartData = event.detail.cart;
+    updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+
+    // Store updated cart total in sessionStorage
+    sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
-}
+});
 
-// Example placeholder functions to replace with actual methods
-function getUpdatedCartTotal() {
-  // Replace this with the actual method to get updated cart total
-  return 5000; // Example value in cents
-}
-
-function getItemCount() {
-  // Replace this with the actual method to get item count
-  return 3; // Example value
-}
