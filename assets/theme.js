@@ -1906,12 +1906,16 @@ document.addEventListener('DOMContentLoaded', function() {
           Shopify.StorefrontExpressButtons.initialize();
         }
 
-       // Check for only sample products after a delay and update progress bar
-        console.log('Calling checkForOnlySampleProducts');
-        setTimeout(() => {
-          this.checkForOnlySampleProducts();
-          updateProgressBar(subtotal, count);
-        }, 1000);
+           // Check for only sample products after a delay and update progress bar
+          console.log('Calling checkForOnlySampleProducts');
+          setTimeout(() => {
+            this.checkForOnlySampleProducts();
+            fetchCartData().then(cartData => {
+              if (cartData) {
+                updateProgressBar(cartData.total_price, cartData.item_count);
+              }
+            });
+          }, 1000);
       },
 
       
@@ -2077,17 +2081,6 @@ document.addEventListener('DOMContentLoaded', function() {
   })();
 
 
-// Define fetchCartData function to fetch the cart data after adding a product
-function fetchCartData() {
-  return fetch(theme.routes.cartUrl + '?view=json')
-    .then(response => response.json())
-    .then(data => {
-      return {
-        total_price: data.total_price,
-        item_count: data.item_count
-      };
-    });
-}
   // Either collapsible containers all acting individually,
   // or tabs that can only have one open at a time
   theme.collapsibles = (function() {
