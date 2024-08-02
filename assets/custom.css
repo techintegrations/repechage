@@ -43,6 +43,9 @@
     font-size: 14px;
     /* font-family:  "Verdana Pro", sans-serif; */
 }
+.cart__item-sub {
+    font-weight: 700;
+}
 /******/
 
 .in-article-product .grid__item.grid-product {
