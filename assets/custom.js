@@ -98,7 +98,7 @@ $(".image-slider-with-text .slider-nav").slick({
   vertical: false,
   asNavFor: ".image-slider-with-text .slider-for",
   dots: false,
-  arrows: true,
+  arrows: false,
   focusOnSelect: true,
   verticalSwiping: false,
 });
@@ -110,7 +110,7 @@ $('.custom-announcement-slider').slick({
   slidesToScroll: 1,  // Scrolls one slide at a time
   autoplay: true,  // Enables automatic scrolling
   autoplaySpeed: 3000,  // Sets the speed of the autoplay (3 seconds)
-  arrows: false,  // Hides navigation arrows
+  arrows: true,  // Hides navigation arrows
   dots: false  // Hides navigation dots
 });
 
