@@ -98,7 +98,7 @@ $(".image-slider-with-text .slider-nav").slick({
   vertical: false,
   asNavFor: ".image-slider-with-text .slider-for",
   dots: false,
-  arrows: false,
+  arrows: true,
   focusOnSelect: true,
   verticalSwiping: false,
 });
