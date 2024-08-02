@@ -259,42 +259,6 @@
         "divider": false
       }
     },
-    "custom_gallery_XJ8eJG": {
-      "type": "custom-gallery",
-      "blocks": {
-        "image_JLU7UM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2061f56a-5db3-4471-a7b4-8252aa70defa.jpg",
-            "image_caption": ""
-          }
-        },
-        "image_8JDaw9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9405.heic",
-            "image_caption": ""
-          }
-        },
-        "image_r3qj6j": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3445.jpg",
-            "image_caption": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JLU7UM",
-        "image_8JDaw9",
-        "image_r3qj6j"
-      ],
-      "settings": {
-        "title": "LIFE AT REPECHAGE",
-        "image_per_row": 4,
-        "mb_image_per_row": 2
-      }
-    },
     "faq_HGDwHd": {
       "type": "faq",
       "blocks": {
@@ -331,7 +295,6 @@
     "rich_text_9h9N6m",
     "rich_text_BzaUbe",
     "rich_text_DJEFP7",
-    "custom_gallery_XJ8eJG",
     "faq_HGDwHd"
   ]
 }
