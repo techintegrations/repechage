@@ -24,6 +24,9 @@
     z-index: 9;
 }
 
+.announcement-bar {
+    padding: 10px 0 8px 0px;
+}
 
 .site-nav__dropdown a {
     font-size: 14px;
