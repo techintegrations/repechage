@@ -49,6 +49,9 @@
 .announcement-bar {
     padding: 10px 0 7px 0;
 }
+.grid-product span.grid-product__price--savings {
+    display: none;
+}
 /******/
 
 .in-article-product .grid__item.grid-product {
