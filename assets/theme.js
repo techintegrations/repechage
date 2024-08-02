@@ -1633,8 +1633,6 @@ theme.recentlyViewed = {
     - Prevent checkout when terms checkbox exists
     - Listen to quantity changes, rebuild cart (both widget and page)
   ==============================================================================*/
-
-  document.addEventListener('DOMContentLoaded', function() {
     // Function to update progress bar based on cart total
     function updateProgressBar(cartTotal, itemCount) {
       const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
@@ -1680,17 +1678,8 @@ theme.recentlyViewed = {
         }
       });
     }
-  
-    // Function to fetch cart data (replace with actual Shopify cart fetching logic)
-    function fetchCartData() {
-      // Example implementation: Replace with actual Shopify cart fetching logic
-      return {
-        total_price: 5000, // Example cart total in cents
-        item_count: 3      // Example item count
-      };
-    }
-  
-    // Function to initialize progress bar
+
+  // Function to initialize progress bar
     function initializeProgressBar() {
       const storedCartTotal = sessionStorage.getItem('cartTotal');
       if (storedCartTotal) {
@@ -1699,7 +1688,17 @@ theme.recentlyViewed = {
         updateProgressBar(cartTotal, cartData.item_count);
       }
     }
-  
+  document.addEventListener('DOMContentLoaded', function() {
+
+    // Function to fetch cart data (replace with actual Shopify cart fetching logic)
+    function fetchCartData() {
+      // Example implementation: Replace with actual Shopify cart fetching logic
+      return {
+        total_price: 5000, // Example cart total in cents
+        item_count: 3      // Example item count
+      };
+    }
+
     // Initial load
     initializeProgressBar();
   
