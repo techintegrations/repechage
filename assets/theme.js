@@ -1633,7 +1633,7 @@ theme.recentlyViewed = {
     - Prevent checkout when terms checkbox exists
     - Listen to quantity changes, rebuild cart (both widget and page)
   ==============================================================================*/
-// Function to update progress bar based on cart total
+  // Function to update progress bar based on cart total
 function updateProgressBar(cartTotal, itemCount) {
   const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
   
@@ -1679,6 +1679,25 @@ function updateProgressBar(cartTotal, itemCount) {
   });
 }
 
+// Function to fetch cart data (replace with actual Shopify cart fetching logic)
+function fetchCartData() {
+  return fetch(theme.routes.cartUrl + '?view=json')
+    .then(response => response.json())
+    .then(data => {
+      return {
+        total_price: data.total_price,
+        item_count: data.item_count
+      };
+    });
+}
+
+// Function to initialize progress bar
+function initializeProgressBar() {
+  fetchCartData().then(cartData => {
+    updateProgressBar(cartData.total_price, cartData.item_count);
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   // Initial load with a timeout to ensure elements are ready
   setTimeout(() => {
@@ -1696,10 +1715,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Event listener for product added via AJAX
   document.addEventListener('ajaxProduct:added', function(event) {
-    const cartData = fetchCartData(); // Fetch updated cart data
-    updateProgressBar(cartData.total_price, cartData.item_count);
+    fetchCartData().then(cartData => {
+      updateProgressBar(cartData.total_price, cartData.item_count);
+    });
   });
 });
+
+  
   
   theme.CartForm = (function() {
     var selectors = {
@@ -1864,45 +1886,45 @@ document.addEventListener('DOMContentLoaded', function() {
           Shopify.StorefrontExpressButtons.initialize();
         }
 
-        // Check for only sample products after a delay and update progress bar
-          console.log('Calling checkForOnlySampleProducts');
-          setTimeout(() => {
-            this.checkForOnlySampleProducts();
-            updateProgressBar(subtotal, count);
-          }, 1000);
+       // Check for only sample products after a delay and update progress bar
+        console.log('Calling checkForOnlySampleProducts');
+        setTimeout(() => {
+          this.checkForOnlySampleProducts();
+          updateProgressBar(subtotal, count);
+        }, 1000);
       },
 
       
       checkForOnlySampleProducts: function() {
-        // Check if the cart only contains sample items
-        var items = this.products.querySelectorAll('.cart__item');
-        var hasNonSampleProduct = false;
-        var sampleProductKey = null;
-      
-        items.forEach(function(item) {
-          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
-          if (!item.hasAttribute('data-sample-item')) {
-            hasNonSampleProduct = true;
-          } else {
-            sampleProductKey = item.dataset.key;
-          }
-        });
-      
-        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
-      
-        if (!hasNonSampleProduct && sampleProductKey) {
-          // Remove the sample product
-          console.log('Removing sample product:', sampleProductKey);
-          theme.cart.changeItem(sampleProductKey, 0).then(() => {
-            this.buildCart();
-          });
+      // Check if the cart only contains sample items
+      var items = this.products.querySelectorAll('.cart__item');
+      var hasNonSampleProduct = false;
+      var sampleProductKey = null;
+
+      items.forEach(function(item) {
+        console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
+        if (!item.hasAttribute('data-sample-item')) {
+          hasNonSampleProduct = true;
         } else {
-          // Update progress bar if there are non-sample products
-          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
-          const itemCount = items.length;
-          updateProgressBar(cartTotal, itemCount);
+          sampleProductKey = item.dataset.key;
         }
-      },
+      });
+
+      console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
+
+      if (!hasNonSampleProduct && sampleProductKey) {
+        // Remove the sample product
+        console.log('Removing sample product:', sampleProductKey);
+        theme.cart.changeItem(sampleProductKey, 0).then(() => {
+          this.buildCart();
+        });
+      } else {
+        // Update progress bar if there are non-sample products
+        const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
+        const itemCount = items.length;
+        updateProgressBar(cartTotal, itemCount);
+      }
+    },
 
   
       updateCartDiscounts: function(markup) {
@@ -2034,7 +2056,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return CartForm;
   })();
 
-  
+
 // Define fetchCartData function to fetch the cart data after adding a product
 function fetchCartData() {
   return fetch(theme.routes.cartUrl + '?view=json')
@@ -2046,7 +2068,6 @@ function fetchCartData() {
       };
     });
 }
-  
   // Either collapsible containers all acting individually,
   // or tabs that can only have one open at a time
   theme.collapsibles = (function() {
