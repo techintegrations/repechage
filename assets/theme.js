@@ -1873,6 +1873,11 @@ theme.recentlyViewed = {
         if (Shopify && Shopify.StorefrontExpressButtons) {
           Shopify.StorefrontExpressButtons.initialize();
         }
+        fetchCartData().then(cartData => {
+          if (cartData) {
+            updateProgressBar(cartData.total_price, cartData.item_count);
+          }
+        });
       },
   
       updateCartDiscounts: function(markup) {
