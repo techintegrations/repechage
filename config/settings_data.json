@@ -109,7 +109,7 @@
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_heading_font": "Open Sans",
     "checkout_body_font": "Open Sans",
-    "checkout_accent_color": "#b1e4e3",
+    "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#ff6d6d",
     "breadcrumb": true,
