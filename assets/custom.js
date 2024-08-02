@@ -112,8 +112,8 @@ $('.custom-announcement-slider').slick({
   autoplaySpeed: 3000,
   arrows: true,
   dots: false,
-  prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-  nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+  prevArrow:"<button type='button' class='slick-prev pull-left'><img src="https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806"></button>",
+  nextArrow:"<button type='button' class='slick-next pull-right'><img src="https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806"></button>"
 });
 
   
