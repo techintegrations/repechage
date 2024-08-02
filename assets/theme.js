@@ -1629,9 +1629,8 @@ theme.recentlyViewed = {
   }
   
   /*============================================================================
-    CartForm
-    - Prevent checkout when terms checkbox exists
-    - Listen to quantity changes, rebuild cart (both widget and page)
+    Free Shipping Bar
+    - Free Shipping Progress bar on cart and cart drawer
   ==============================================================================*/
     // Function to update progress bar based on cart total
     function updateProgressBar(cartTotal, itemCount) {
@@ -1678,8 +1677,7 @@ theme.recentlyViewed = {
         }
       });
     }
-
-  // Function to initialize progress bar
+    
     function initializeProgressBar() {
       const storedCartTotal = sessionStorage.getItem('cartTotal');
       if (storedCartTotal) {
@@ -1688,31 +1686,35 @@ theme.recentlyViewed = {
         updateProgressBar(cartTotal, cartData.item_count);
       }
     }
-  document.addEventListener('DOMContentLoaded', function() {
-
-    // Function to fetch cart data (replace with actual Shopify cart fetching logic)
-    function fetchCartData() {
-      // Example implementation: Replace with actual Shopify cart fetching logic
-      return {
-        total_price: 5000, // Example cart total in cents
-        item_count: 3      // Example item count
-      };
-    }
-
-    // Initial load
-    initializeProgressBar();
   
-    // Event listener for cart updates (replace with your actual event listener logic)
-    document.addEventListener('cart:updated', function(event) {
-      const updatedCartData = event.detail.cart;
-      updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+    document.addEventListener('DOMContentLoaded', function() {
   
-      // Store updated cart total in sessionStorage
-      sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
+      // Function to fetch cart data (replace with actual Shopify cart fetching logic)
+      function fetchCartData() {
+        // Example implementation: Replace with actual Shopify cart fetching logic
+        return {
+          total_price: 5000, // Example cart total in cents
+          item_count: 3      // Example item count
+        };
+      }
+      initializeProgressBar();
+    
+      // Event listener for cart updates (replace with your actual event listener logic)
+      document.addEventListener('cart:updated', function(event) {
+        const updatedCartData = event.detail.cart;
+        updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+    
+        // Store updated cart total in sessionStorage
+        sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
+      });
     });
-  });
 
-  
+    
+  /*============================================================================
+    CartForm
+    - Prevent checkout when terms checkbox exists
+    - Listen to quantity changes, rebuild cart (both widget and page)
+  ==============================================================================*/
   theme.CartForm = (function() {
     var selectors = {
       products: '[data-products]',
