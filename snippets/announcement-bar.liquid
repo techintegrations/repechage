@@ -9,3 +9,27 @@
     </div>
   </div>
 </div>
+
+
+<div class="announcement-bar"> 
+  <div class="slideshow-wrapper">
+    <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
+      <div class="announcement-slider-container">
+        {%- for block in section.blocks -%}
+          <div class="announcement-slider__slide">
+            {{ block.settings.text }}
+          </div>
+        {%- endfor -%}
+      </div>
+      <div class="announcement-slider-arrows">
+        <button type='button' class='slick-prev pull-left'>
+          <img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'>
+        </button>
+        <button type='button' class='slick-next pull-right'>
+          <img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
