@@ -1699,8 +1699,10 @@ function initializeProgressBar() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Initial load
-  initializeProgressBar();
+  // Initial load with a timeout to ensure elements are ready
+  setTimeout(() => {
+    initializeProgressBar();
+  }, 500);
 
   // Event listener for cart updates (replace with your actual event listener logic)
   document.addEventListener('cart:updated', function(event) {
@@ -1906,7 +1908,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Initialize the progress bar after building the cart
-        updateProgressBar(subtotal, count);
+        setTimeout(() => {
+          if (count > 0) {
+            updateProgressBar(subtotal, count);
+          }
+        }, 500);
       },
   
       updateCartDiscounts: function(markup) {
