@@ -1,40 +1,36 @@
- {% assign progressThresholdDollars = settings.cart_progress_threshold %}
+
+  {% assign progressThresholdDollars = settings.cart_progress_threshold %}
   {% assign progressThreshold = progressThresholdDollars | times: 100 %}
   {% assign preGoalMessageTemplate = settings.cart_pre_goal_message %}
   {% assign postGoalMessage = settings.cart_post_goal_message %}
-
-
   {% assign cartTotal = cart.total_price %} 
   {% assign progressPercentage = cartTotal | times: 100 | divided_by: progressThreshold %}
   {% if progressPercentage > 100 %}
     {% assign progressPercentage = 100 %}
   {% endif %}
-  
   {% assign remainingForGoal = progressThreshold | minus: cartTotal %}
   {% if remainingForGoal < 0 %}
     {% assign remainingForGoal = 0 %}
   {% endif %}
   {% assign remainingForGoalFormatted = remainingForGoal | money %}
   {% assign dynamicPreGoalMessage = preGoalMessageTemplate | replace: '[remainingForGoalFormatted]', remainingForGoalFormatted %}
-  
-<div class="cart-progress-wrapper" 
-  class="{% if progressPercentage == 100 %}full{% else %}not-full{% endif %}"
-  data-threshold="{{ progressThreshold }}" 
-  data-pre-goal-message-template="{{ preGoalMessageTemplate | escape }}"
-  data-post-goal-message="{{ postGoalMessage | escape }}"
->
-  <div class="cart-progress-bar-container">
-    <div class="cart-progress-bar" style="width: {{ progressPercentage }}%;"></div>
-  </div>
-  <div class="goal-message">
-    {% if remainingForGoal > 0 %}
-      {{ dynamicPreGoalMessage }}
-    {% else %}
-      {{ postGoalMessage }}
-    {% endif %}
-  </div>
-</div>
 
+  <div class="cart-progress-wrapper {% if progressPercentage == 100 %}full{% else %}not-full{% endif %}"
+    data-threshold="{{ progressThreshold }}" 
+    data-pre-goal-message-template="{{ preGoalMessageTemplate | escape }}"
+    data-post-goal-message="{{ postGoalMessage | escape }}"
+  >
+    <div class="cart-progress-bar-container">
+      <div class="cart-progress-bar" style="width: {{ progressPercentage }}%;"></div>
+    </div>
+    <div class="goal-message">
+      {% if remainingForGoal > 0 %}
+        {{ dynamicPreGoalMessage }}
+      {% else %}
+        {{ postGoalMessage }}
+      {% endif %}
+    </div>
+  </div>
 <style>
 .cart-progress-bar-container {
   width: 100%;
