@@ -1,3 +1,30 @@
+.slideshow-wrapper .custom-arrows {
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    cursor: pointer;
+}
+
+.slideshow-wrapper .custom-arrows .icon {
+    height: 16px;
+    width: 16px;
+}
+
+.slideshow-wrapper .custom-arrows .icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.slideshow-wrapper .left-arrow.custom-arrows {
+    left: 0px;
+}
+
+.slideshow-wrapper .right-arrow.custom-arrows {
+    right: 0px;
+}
+
 .site-nav__dropdown a {
     font-size: 14px;
 }
