@@ -8355,10 +8355,9 @@ theme.recentlyViewed = {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Assuming you have a function to get the updated cart total and item count
   // Replace this with your actual method of getting the cart state
-  const updatedCartTotal = /* your method to get updated cart total */;
-  const itemCount = /* your method to get item count */;
+  const updatedCartTotal = getUpdatedCartTotal(); // Replace with actual function
+  const itemCount = getItemCount(); // Replace with actual function
   updateProgressBar(updatedCartTotal, itemCount);
 });
 
@@ -8412,4 +8411,15 @@ function updateProgressBar(cartTotal, itemCount) {
       }
     }
   });
+}
+
+// Example placeholder functions to replace with actual methods
+function getUpdatedCartTotal() {
+  // Replace this with the actual method to get updated cart total
+  return 5000; // Example value in cents
+}
+
+function getItemCount() {
+  // Replace this with the actual method to get item count
+  return 3; // Example value
 }
