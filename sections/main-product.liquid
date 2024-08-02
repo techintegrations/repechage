@@ -1,10 +1,3 @@
-{% if product.metafields.custom.sample_product == 'true' %}
-  <script>
-    window.location.href = "{{ shop.url }}";
-  </script>
-{% else %}
-
-  
 {%- liquid
   assign isModal = false
   if template == 'product.modal'
@@ -31,8 +24,17 @@
   context: 'main-product',
 -%}
 
-  
-{% endif %}
+
+<!-- Add this script to handle redirection -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var metafieldValue = '{{ product.metafields.custom.sample_product }}';
+    if (metafieldValue === 'true') {
+      window.location.href = "{{ shop.url }}";
+    }
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
