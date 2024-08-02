@@ -1634,111 +1634,111 @@ theme.recentlyViewed = {
     - Listen to quantity changes, rebuild cart (both widget and page)
   ==============================================================================*/
   // Function to update progress bar based on cart total
-function updateProgressBar(cartTotal, itemCount) {
-  const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+  function updateProgressBar(cartTotal, itemCount) {
+    const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+    
+    progressWrappers.forEach(progressWrapper => {
+      const progressBar = progressWrapper.querySelector('.cart-progress-bar');
+      const goalMessageElement = progressWrapper.querySelector('.goal-message');
   
-  progressWrappers.forEach(progressWrapper => {
-    const progressBar = progressWrapper.querySelector('.cart-progress-bar');
-    const goalMessageElement = progressWrapper.querySelector('.goal-message');
-
-    if (!progressWrapper || !progressBar || !goalMessageElement) {
-      console.error('Progress bar elements not found');
-      return;
-    }
-
-    const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
-    const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
-    const postGoalMessage = progressWrapper.dataset.postGoalMessage;
-
-    if (itemCount === 0 || cartTotal === 0) {
-      progressWrapper.style.display = 'none';
-      goalMessageElement.style.display = 'none';
-    } else {
-      progressWrapper.style.display = 'block'; 
-      progressBar.style.display = 'block';
-      const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
-      progressBar.style.width = `${progressPercentage}%`;
-
-      if (progressPercentage >= 100) {
-        progressWrapper.classList.add('full');
-        goalMessageElement.innerHTML = postGoalMessage;
-        console.log('Post goal message shown:', postGoalMessage);
+      if (!progressWrapper || !progressBar || !goalMessageElement) {
+        console.error('Progress bar elements not found');
+        return;
+      }
+  
+      const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+      const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+      const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+  
+      if (itemCount === 0 || cartTotal === 0) {
+        progressWrapper.style.display = 'none';
+        goalMessageElement.style.display = 'none';
       } else {
-        progressWrapper.classList.remove('full');
+        progressWrapper.style.display = 'block'; 
+        progressBar.style.display = 'block';
+        const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
+        progressBar.style.width = `${progressPercentage}%`;
+  
+        if (progressPercentage >= 100) {
+          progressWrapper.classList.add('full');
+        } else {
+          progressWrapper.classList.remove('full');
+        }
+  
+        goalMessageElement.style.display = 'block';
         let remainingForGoal = progressThreshold - cartTotal;
-        remainingForGoal = remainingForGoal < 0 ? 0 : remainingForGoal;
+  
+        if (remainingForGoal < 0) {
+          remainingForGoal = 0;
+        }
+  
         const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
         const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
-        goalMessageElement.innerHTML = preGoalMessage;
-        console.log('Pre goal message shown:', preGoalMessage);
+        goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
       }
-
-      goalMessageElement.style.display = 'block';
-    }
-  });
-}
-
-// Function to fetch cart data (replace with actual Shopify cart fetching logic)
-function fetchCartData() {
-  const cartUrl = '/cart.js'; // Ensure this URL is correct for fetching the cart data
-  return fetch(cartUrl, {
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Requested-With': 'XMLHttpRequest'
-    }
-  })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      return {
-        total_price: data.total_price,
-        item_count: data.item_count
-      };
-    })
-    .catch(error => {
-      console.error('There has been a problem with your fetch operation:', error);
     });
-}
-
-// Function to initialize progress bar
-function initializeProgressBar() {
-  fetchCartData().then(cartData => {
-    if (cartData) {
-      updateProgressBar(cartData.total_price, cartData.item_count);
-    }
-  });
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-  // Initial load with a timeout to ensure elements are ready
-  setTimeout(() => {
-    initializeProgressBar();
-  }, 500);
-
-  // Event listener for cart updates (replace with your actual event listener logic)
-  document.addEventListener('cart:updated', function(event) {
-    const updatedCartData = event.detail.cart;
-    updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
-
-    // Store updated cart total in sessionStorage
-    sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
-  });
-
-  // Event listener for product added via AJAX
-  document.addEventListener('ajaxProduct:added', function(event) {
+  }
+  
+  // Function to fetch cart data (replace with actual Shopify cart fetching logic)
+  function fetchCartData() {
+    const cartUrl = '/cart.js'; // Ensure this URL is correct for fetching the cart data
+    return fetch(cartUrl, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Requested-With': 'XMLHttpRequest'
+      }
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        return {
+          total_price: data.total_price,
+          item_count: data.item_count
+        };
+      })
+      .catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+      });
+  }
+  
+  // Function to initialize progress bar
+  function initializeProgressBar() {
     fetchCartData().then(cartData => {
       if (cartData) {
         updateProgressBar(cartData.total_price, cartData.item_count);
       }
     });
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initial load with a timeout to ensure elements are ready
+    setTimeout(() => {
+      initializeProgressBar();
+    }, 500);
+  
+    // Event listener for cart updates (replace with your actual event listener logic)
+    document.addEventListener('cart:updated', function(event) {
+      const updatedCartData = event.detail.cart;
+      updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+  
+      // Store updated cart total in sessionStorage
+      sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
+    });
+  
+    // Event listener for product added via AJAX
+    document.addEventListener('ajaxProduct:added', function(event) {
+      fetchCartData().then(cartData => {
+        if (cartData) {
+          updateProgressBar(cartData.total_price, cartData.item_count);
+        }
+      });
+    });
   });
-});
-
 
   
   theme.CartForm = (function() {
