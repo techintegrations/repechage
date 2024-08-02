@@ -111,6 +111,7 @@ $('.custom-announcement-slider').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
+    variableWidth: true,
     dots: false,
     prevArrow: "<button type='button' class='slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
     nextArrow: "<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>"
