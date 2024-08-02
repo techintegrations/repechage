@@ -225,37 +225,74 @@
         "divider": true
       }
     },
-    "rich_text_DJEFP7": {
-      "type": "rich-text",
+    "text_columns_wmj7eC": {
+      "type": "text-columns",
       "blocks": {
-        "heading_tyfyf4": {
-          "type": "heading",
+        "text_block_qdhqi4": {
+          "type": "text_block",
           "settings": {
-            "title": "OUR CULTURE",
-            "title_color": "#000"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "text_w4Tf7W": {
-          "type": "text",
+        "text_block_WVFjiM": {
+          "type": "text_block",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>At Repechage, our culture is rooted in a commitment to excellence, innovation, and community. We believe in fostering a collaborative and supportive environment where every team member feels valued and empowered. Our dedication to quality and continuous improvement drives us to stay at the forefront of the skincare industry, while our strong sense of community ensures that we support each other in achieving both personal and professional growth. At Repechage, we celebrate diversity, encourage creativity, and strive to make a positive impact in the lives of our clients and colleagues worldwide.<\/p>",
-            "text_color": "#000"
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Repechage-Events.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "In PERson Events",
+            "text": "<p>Repêchage®, pioneers in seaweed-based skincare, unveiled their newest facial treatment and at-home collection at exclusive events across the East Coast. These events showcased the rejuvenating benefits of their latest products, reinforcing Repêchage®'s reputation as a leader in innovative skincare.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": ""
+          }
+        },
+        "text_block_RKYRP8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_tyfyf4",
-        "text_w4Tf7W"
+        "text_block_qdhqi4",
+        "text_block_WVFjiM",
+        "text_block_RKYRP8"
       ],
       "settings": {
+        "title": "OUR CULTURE",
+        "text": "<p>At Repechage, our culture is rooted in a commitment to excellence, innovation, and community. We believe in fostering a collaborative and supportive environment where every team member feels valued and empowered. Our dedication to quality and continuous improvement drives us to stay at the forefront of the skincare industry, while our strong sense of community ensures that we support each other in achieving both personal and professional growth. At Repechage, we celebrate diversity, encourage creativity, and strive to make a positive impact in the lives of our clients and colleagues worldwide.<\/p>",
         "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
         "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
         "divider": false
       }
     }
@@ -268,6 +305,6 @@
     "rich_text_meEifd",
     "rich_text_9h9N6m",
     "rich_text_BzaUbe",
-    "rich_text_DJEFP7"
+    "text_columns_wmj7eC"
   ]
 }
