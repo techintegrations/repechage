@@ -3,7 +3,23 @@
     border: 0px;
 }
 
+.custom-announcement-slider .slick-prev {
+    left: 0px;
+    transform: translate(0,-50%) rotate(180deg);
+}
 
+.custom-announcement-slider .slick-arrow::before {
+    display: none;
+}
+
+.custom-announcement-slider .slick-next {
+    right: 0px;
+}
+
+.custom-announcement-slider .slick-arrow img {
+    width: 16px;
+    height: 16px;
+}
 
 
 
