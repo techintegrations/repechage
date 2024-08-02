@@ -1,8 +1,9 @@
-#AnnouncementSlider-wrap .slick-vertical .slick-slide {
+#AnnouncementSlider-wrap .slick-slide {
     display: inline-block;
-    width: auto !important;
     border: 0px;
+    width: auto !important;
 }
+
 
 
 
