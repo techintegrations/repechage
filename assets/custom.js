@@ -156,9 +156,5 @@ if (window.outerWidth < 769) {
 }
 
 
-
-
-
-
   
 });
