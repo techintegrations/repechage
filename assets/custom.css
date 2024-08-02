@@ -1,3 +1,30 @@
+.announcement-bar {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.custom-announcement-slider {
+    display: flex;
+    animation: slide 15s linear infinite;
+}
+
+.announcement-slider__slide {
+    flex: 0 0 auto;
+    padding: 0 50px;
+    font-size: 14px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+
+
+
 .site-nav__dropdown a {
     font-size: 14px;
 }
