@@ -1,19 +1,51 @@
-.custom-announcement-slider .slick-arrow {
-    position: unset;
-    transform: none;
+.announcement-bar {
+    background-color: #f5f5f5; /* Adjust the background color as needed */
+    padding: 10px; /* Adjust the padding as needed */
 }
 
-.custom-announcement-slider .slick-arrow::before {
-    display: none;
+.slideshow-wrapper {
+    overflow: hidden; /* Ensures slides are contained within the wrapper */
 }
 
 .custom-announcement-slider {
+    position: relative;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.custom-announcement-slider .slick-list.draggable {
-    display: inline-block;
+.announcement-slider-container {
+    flex: 1;
 }
+
+.announcement-slider__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Adjust the height as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+    background-color: #fff; /* Adjust the background color as needed */
+    border: 1px solid #ddd; /* Adjust the border as needed */
+    margin-bottom: 5px; /* Adjust the spacing between slides */
+}
+
+.announcement-slider-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.slick-prev, .slick-next {
+    background: none;
+    border: none;
+}
+
+
+
+
 
 .site-nav__dropdown a {
     font-size: 14px;
