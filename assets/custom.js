@@ -103,22 +103,16 @@ $(".image-slider-with-text .slider-nav").slick({
   verticalSwiping: false,
 });
 
-// $('.custom-announcement-slider').slick({
-//     speed: 10000,
-//     autoplay: true,
-//     autoplaySpeed: 0,
-//     centerMode: true,
-//     cssEase: 'linear',
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     variableWidth: true,
-//     infinite: true,
-//     initialSlide: 1,
-//     arrows: false,
-//     buttons: false
-// });
 
-
+$('.custom-announcement-slider').slick({
+  vertical: true,  // Enables vertical scrolling
+  slidesToShow: 1,  // Shows one slide at a time
+  slidesToScroll: 1,  // Scrolls one slide at a time
+  autoplay: true,  // Enables automatic scrolling
+  autoplaySpeed: 3000,  // Sets the speed of the autoplay (3 seconds)
+  arrows: false,  // Hides navigation arrows
+  dots: false  // Hides navigation dots
+});
 
   
 if (window.outerWidth < 769) {
