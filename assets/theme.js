@@ -1680,6 +1680,11 @@ function updateProgressBar(cartTotal, itemCount) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Initial load with a timeout to ensure elements are ready
+  setTimeout(() => {
+    initializeProgressBar();
+  }, 500);
+
   // Event listener for cart updates (replace with your actual event listener logic)
   document.addEventListener('cart:updated', function(event) {
     const updatedCartData = event.detail.cart;
@@ -1688,10 +1693,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Store updated cart total in sessionStorage
     sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
   });
+
+  // Event listener for product added via AJAX
+  document.addEventListener('ajaxProduct:added', function(event) {
+    const cartData = fetchCartData(); // Fetch updated cart data
+    updateProgressBar(cartData.total_price, cartData.item_count);
+  });
 });
-  
-
-
   
   theme.CartForm = (function() {
     var selectors = {
@@ -1803,37 +1811,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       },
 
-      checkForOnlySampleProducts: function() {
-        // Check if the cart only contains sample items
-        var items = this.products.querySelectorAll('.cart__item');
-        var hasNonSampleProduct = false;
-        var sampleProductKey = null;
-      
-        items.forEach(function(item) {
-          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
-          if (!item.hasAttribute('data-sample-item')) {
-            hasNonSampleProduct = true;
-          } else {
-            sampleProductKey = item.dataset.key;
-          }
-        });
-      
-        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
-      
-        if (!hasNonSampleProduct && sampleProductKey) {
-          // Remove the sample product
-          console.log('Removing sample product:', sampleProductKey);
-          theme.cart.changeItem(sampleProductKey, 0).then(() => {
-            this.buildCart();
-          });
-        } else {
-          // Update progress bar if there are non-sample products
-          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
-          const itemCount = items.length;
-          updateProgressBar(cartTotal, itemCount);
-        }
-      },
-
 
 
   
@@ -1894,6 +1871,39 @@ document.addEventListener('DOMContentLoaded', function() {
             updateProgressBar(subtotal, count);
           }, 1000);
       },
+
+      
+      checkForOnlySampleProducts: function() {
+        // Check if the cart only contains sample items
+        var items = this.products.querySelectorAll('.cart__item');
+        var hasNonSampleProduct = false;
+        var sampleProductKey = null;
+      
+        items.forEach(function(item) {
+          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
+          if (!item.hasAttribute('data-sample-item')) {
+            hasNonSampleProduct = true;
+          } else {
+            sampleProductKey = item.dataset.key;
+          }
+        });
+      
+        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
+      
+        if (!hasNonSampleProduct && sampleProductKey) {
+          // Remove the sample product
+          console.log('Removing sample product:', sampleProductKey);
+          theme.cart.changeItem(sampleProductKey, 0).then(() => {
+            this.buildCart();
+          });
+        } else {
+          // Update progress bar if there are non-sample products
+          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
+          const itemCount = items.length;
+          updateProgressBar(cartTotal, itemCount);
+        }
+      },
+
   
       updateCartDiscounts: function(markup) {
         if (!this.discounts) {
