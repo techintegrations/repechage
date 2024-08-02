@@ -1,27 +1,8 @@
-.announcement-slider-container {
-  position: relative;
+#AnnouncementSlider-wrap .slick-slide {
+    display: inline-block;
+    border: 0px;
 }
 
-.custom-announcement-slider {
-  display: flex;
-  flex-direction: column;
-}
-
-.announcement-slider-container .slick-prev.custom-slick-prev,
-.announcement-slider-container .slick-next.custom-slick-next {
-  position: absolute;
-  top: 50%; /* Adjust this value based on where you want the arrows to appear vertically */
-  transform: translateY(-50%);
-  z-index: 1;
-}
-
-.announcement-slider-container .slick-prev.custom-slick-prev {
-  left: -40px; /* Adjust this value based on your design */
-}
-
-.announcement-slider-container .slick-next.custom-slick-next {
-  right: -40px; /* Adjust this value based on your design */
-}
 
 
 
