@@ -7,19 +7,19 @@
   flex-direction: column;
 }
 
-.custom-announcement-slider .slick-prev.custom-slick-prev,
-.custom-announcement-slider .slick-next.custom-slick-next {
+.announcement-slider-container .slick-prev.custom-slick-prev,
+.announcement-slider-container .slick-next.custom-slick-next {
   position: absolute;
   top: 50%; /* Adjust this value based on where you want the arrows to appear vertically */
   transform: translateY(-50%);
   z-index: 1;
 }
 
-.custom-announcement-slider .slick-prev.custom-slick-prev {
+.announcement-slider-container .slick-prev.custom-slick-prev {
   left: -40px; /* Adjust this value based on your design */
 }
 
-.custom-announcement-slider .slick-next.custom-slick-next {
+.announcement-slider-container .slick-next.custom-slick-next {
   right: -40px; /* Adjust this value based on your design */
 }
 
