@@ -17,55 +17,56 @@
   {% assign remainingForGoalFormatted = remainingForGoal | money %}
   {% assign dynamicPreGoalMessage = preGoalMessageTemplate | replace: '[remainingForGoalFormatted]', remainingForGoalFormatted %}
   
-  <div id="cart-progress-wrapper" 
-    class="{% if progressPercentage == 100 %}full{% else %}not-full{% endif %}"
-    data-threshold="{{ progressThreshold }}" 
-    data-pre-goal-message-template="{{ preGoalMessageTemplate | escape }}"
-    data-post-goal-message="{{ postGoalMessage | escape }}"
-  >
-    <div class="cart-progress-bar-container">
-      <div id="cart-progress-bar" style="width: {{ progressPercentage }}%;"></div>
-    </div>
-    <div class="goal-message">
-      {% if remainingForGoal > 0 %}
-        {{ dynamicPreGoalMessage }}
-      {% else %}
-        {{ postGoalMessage }}
-      {% endif %}
-    </div>
+<div class="cart-progress-wrapper" 
+  class="{% if progressPercentage == 100 %}full{% else %}not-full{% endif %}"
+  data-threshold="{{ progressThreshold }}" 
+  data-pre-goal-message-template="{{ preGoalMessageTemplate | escape }}"
+  data-post-goal-message="{{ postGoalMessage | escape }}"
+>
+  <div class="cart-progress-bar-container">
+    <div class="cart-progress-bar" style="width: {{ progressPercentage }}%;"></div>
   </div>
+  <div class="goal-message">
+    {% if remainingForGoal > 0 %}
+      {{ dynamicPreGoalMessage }}
+    {% else %}
+      {{ postGoalMessage }}
+    {% endif %}
+  </div>
+</div>
 
 <style>
-  .cart-progress-bar-container {
-    width: 100%;
-    background-color: #eee;
-    border-radius: 10px;
-    margin: 2px auto;
-    padding: 1px; 
-    overflow: hidden; 
-  }
+.cart-progress-bar-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 2px auto;
+  padding: 1px; 
+  overflow: hidden; 
+}
 
-  #cart-progress-bar {
-    display: block;
-    height: 10px;
-    background-color: var(--progress-bar-color, {{ settings.cart_progress_bar_color }}); /* Default color */
-    border-radius: 2px;
-    transition: width 0.5s ease-in-out;
-    border: 1px solid var(--progress-bar-border-color, {{ settings.cart_progress_bar_color }}); 
-    padding: 5px 0;
-    box-sizing: border-box;
-  }
+.cart-progress-bar {
+  display: block;
+  height: 10px;
+  background-color: var(--progress-bar-color, {{ settings.cart_progress_bar_color }}); /* Default color */
+  border-radius: 2px;
+  transition: width 0.5s ease-in-out;
+  border: 1px solid var(--progress-bar-border-color, {{ settings.cart_progress_bar_color }}); 
+  padding: 5px 0;
+  box-sizing: border-box;
+}
 
-  #cart-progress-wrapper.full #cart-progress-bar {
-    --progress-bar-color: {{ settings.cart_progress_bar_full_color }};
-    --progress-bar-border-color: {{ settings.cart_progress_bar_full_color }};
-  }
-  
-  .goal-message {
-    text-align: center;
-    margin: 2px auto 10px;
-    font-size: 1em;
-    color: #333;
-  }
+.cart-progress-wrapper.full .cart-progress-bar {
+  --progress-bar-color: {{ settings.cart_progress_bar_full_color }};
+  --progress-bar-border-color: {{ settings.cart_progress_bar_full_color }};
+}
+
+.goal-message {
+  text-align: center;
+  margin: 2px auto 10px;
+  font-size: 1em;
+  color: #333;
+}
+
 
 </style>
