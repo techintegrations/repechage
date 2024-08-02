@@ -1,4 +1,6 @@
 {%- if settings.cart_type == 'drawer' -%}
+  
+      {% render 'cart-progress-bar-custom' %}
   <div id="CartDrawer" class="drawer drawer--right">
     <form
       id="CartDrawerForm"
@@ -22,7 +24,6 @@
         </div>
       </div>
 
-      {% render 'cart-progress-bar-custom' %}
 
       <div class="drawer__inner">
         <div class="drawer__scrollable">
