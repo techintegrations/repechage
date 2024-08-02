@@ -128,6 +128,7 @@ $(".image-slider-with-text .slider-nav").slick({
       autoplaySpeed: 3000, // Optional: adjust the speed as needed
       arrows: true, // Optional: to show next/prev arrows
       dots: false,
+      verticalSwiping: true,
       prevArrow: '.announcement-custom-arrows .left-arrow',
       nextArrow: '.announcement-custom-arrows .right-arrow'
   });
