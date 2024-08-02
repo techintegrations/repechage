@@ -1,20 +1,11 @@
 <div class="announcement-bar"> 
   <div class="slideshow-wrapper">
-    <div class="announcement-slider-container">
-      <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
-        {%- for block in section.blocks -%}
-          <div class="announcement-slider__slide">
-            {{ block.settings.text }}
-          </div>
-        {%- endfor -%}
-      </div>
-      <button type="button" class="slick-prev custom-slick-prev">
-        <img src="https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806">
-      </button>
-      <button type="button" class="slick-next custom-slick-next">
-        <img src="https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806">
-      </button>
+    <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
+      {%- for block in section.blocks -%}
+        <div class="announcement-slider__slide">
+          {{ block.settings.text }}
+        </div>
+      {%- endfor -%}
     </div>
   </div>
 </div>
-
