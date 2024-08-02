@@ -368,6 +368,7 @@
     text-underline-offset: 4px;
     font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
     flex: 0 0 auto;
+    font-weight: 700;
 }
 
 .featured-collection-tabs .tab-row .tab:hover {
