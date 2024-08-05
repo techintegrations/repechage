@@ -27,12 +27,12 @@
 
 <!-- Add this script to handle redirection -->
 <script>
-  // document.addEventListener('DOMContentLoaded', function() {
-  //   var metafieldValue = '{{ product.metafields.custom.sample_product }}';
-  //   if (metafieldValue === 'true') {
-  //     window.location.href = "{{ shop.url }}";
-  //   }
-  // });
+  document.addEventListener('DOMContentLoaded', function() {
+    var metafieldValue = '{{ product.metafields.custom.sample_product }}';
+    if (metafieldValue === 'true') {
+      window.location.href = "{{ shop.url }}";
+    }
+  });
 </script>
 
 {% schema %}
