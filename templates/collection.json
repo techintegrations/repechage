@@ -112,7 +112,7 @@
         "text_BgVQhn": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "{{ collection.metafields.custom.collections_seo_text | metafield_tag }}",
             "text_color": "#000"
           }
@@ -123,7 +123,7 @@
         "text_BgVQhn"
       ],
       "settings": {
-        "align_text": "center",
+        "align_text": "left",
         "narrow_column": true,
         "padding_top": 40,
         "padding_bottom": 40,
