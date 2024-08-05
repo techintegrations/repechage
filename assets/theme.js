@@ -1783,7 +1783,18 @@ theme.recentlyViewed = {
         document.addEventListener('cart:build', function() {
           this.buildCart();
         }.bind(this));
+
+        // Add event listener for checkout button
+        this.submitBtn.addEventListener('click', function(evt) {
+          if (this.submitBtn.hasAttribute('disabled')) {
+            alert('Please add some retail product first.');
+            evt.preventDefault();
+          }
+        }.bind(this));
+        
       },
+
+     
   
       reInit: function() {
         this.initQtySelectors();
@@ -1913,6 +1924,14 @@ theme.recentlyViewed = {
           const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
           const itemCount = items.length;
           updateProgressBar(cartTotal, itemCount);
+
+          // Disable checkout button if only sample products
+            if (!hasNonSampleProduct) {
+              this.submitBtn.setAttribute('disabled', 'disabled');
+            } else {
+              this.submitBtn.removeAttribute('disabled');
+            }
+          
         }
       },
   
