@@ -73,12 +73,24 @@
         "enable_swatch_labels": false,
         "enable_sort": true
       }
+    },
+    "custom_breadcrumbs_section_kGHQ8B": {
+      "type": "custom__breadcrumbs-section",
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "collection-header",
     "custom_breadcrumbs_section_JtheVM",
     "custom_collection_banner_jDWdY6",
-    "main-collection"
+    "main-collection",
+    "custom_breadcrumbs_section_kGHQ8B"
   ]
 }
