@@ -1902,23 +1902,23 @@ theme.recentlyViewed = {
         var hasNonSampleProduct = false;
         var sampleProductKey = null;
   
-        // items.forEach(function(item) {
-        //   console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
-        //   if (!item.hasAttribute('data-sample-item')) {
-        //     hasNonSampleProduct = true;
-        //   } else {
-        //     sampleProductKey = item.dataset.key;
-        //   }
-        // });
+        items.forEach(function(item) {
+          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
+          if (!item.hasAttribute('data-sample-item')) {
+            hasNonSampleProduct = true;
+          } else {
+            sampleProductKey = item.dataset.key;
+          }
+        });
   
         console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
   
         if (!hasNonSampleProduct && sampleProductKey) {
           // Remove the sample product
           console.log('Removing sample product:', sampleProductKey);
-          // theme.cart.changeItem(sampleProductKey, 0).then(() => {
-          //   this.buildCart();
-          // });
+          theme.cart.changeItem(sampleProductKey, 0).then(() => {
+            this.buildCart();
+          });
         } else {
           // Update progress bar if there are non-sample products
           const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
