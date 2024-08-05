@@ -92,6 +92,7 @@
       "blocks": {
         "class_TDDqCR": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JUNE",
             "date": "22-24",
@@ -104,6 +105,7 @@
         },
         "class_kDCUFb": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JUNE",
             "date": "24",
@@ -116,6 +118,7 @@
         },
         "class_BCQ4cd": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JUNE",
             "date": "24",
@@ -128,6 +131,7 @@
         },
         "class_ztpVVN": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JULY",
             "date": "1",
@@ -140,6 +144,7 @@
         },
         "class_zffzRt": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JULY",
             "date": "29",
@@ -152,6 +157,7 @@
         },
         "class_jpdCBF": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "AUGUST",
             "date": "5",
