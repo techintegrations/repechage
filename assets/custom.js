@@ -95,18 +95,18 @@ $(document).ready(function () {
       prevArrow: "<button type='button' class='slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
       nextArrow: "<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
       responsive: [
-          {
-              breakpoint: 992, // Adjust this value based on your mobile breakpoint
-              settings: {
-                  slidesToShow: 1,
-                  vertical: false,
-                  arrows: true,
-                  dots: false,
-                  fade: false,
-                  fade: true
-              }
-          }
-      ]
+      {
+          breakpoint: 992, // Adjust this value based on your mobile breakpoint
+          settings: {
+            slidesToShow: 1,
+            vertical: false,
+            arrows: true,
+            dots: false,
+            fade: false,
+            fade: true
+        }
+    }
+    ]
   });
 
   if (window.outerWidth < 769) {
