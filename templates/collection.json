@@ -111,6 +111,7 @@
         },
         "text_BgVQhn": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "enlarge_text": false,
             "text": "{{ collection.metafields.custom.collections_seo_text | metafield_tag }}",
