@@ -27,8 +27,6 @@
           <div class="rte">
             {%- if block.settings.page_text != blank -%}
               {{ pages[block.settings.page_text].content }}
-            {%- else -%}
-              {{ 'home_page.onboarding.no_content' | t }}
             {%- endif -%}
           </div>
         {%- when 'text' -%}
@@ -37,8 +35,6 @@
               {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
               {{ block.settings.text }}
               {%- if block.settings.enlarge_text %}</div>{% endif -%}
-            {%- else -%}
-              {{ 'home_page.onboarding.no_content' | t }}
             {%- endif -%}
           </div>
         {%- when 'html' -%}
