@@ -49,11 +49,30 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "image_Rx9W9J": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/hj.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "image_iCkPT9",
-        "image_QYiDV7"
+        "image_QYiDV7",
+        "image_Rx9W9J"
       ],
       "settings": {
         "show_container": false,
