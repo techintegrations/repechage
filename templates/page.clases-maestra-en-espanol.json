@@ -81,6 +81,7 @@
       "blocks": {
         "class_TDDqCR": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JANUARY",
             "date": "29",
@@ -93,6 +94,7 @@
         },
         "class_kDCUFb": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "FEBRUARY",
             "date": "26",
@@ -105,6 +107,7 @@
         },
         "class_BCQ4cd": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "25",
@@ -117,6 +120,7 @@
         },
         "class_ztpVVN": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "APRIL",
             "date": "29",
@@ -129,6 +133,7 @@
         },
         "class_zffzRt": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MAY",
             "date": "20",
@@ -141,6 +146,7 @@
         },
         "class_jpdCBF": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JUNE",
             "date": "24",
@@ -153,6 +159,7 @@
         },
         "class_4mLkCm": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JULY",
             "date": "29",
@@ -170,7 +177,7 @@
             "date": "30",
             "class": "WEBINAR",
             "title": "TODO SOBRE LOS PEELINGS Y EL REJUVENECIMIENTO DE LA PIEL",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1pm EST<\/p><p>Aprenda cómo rejuvenecer la piel de forma segura con AHA’s BHA’s y Exfoliaciones Enzimáticas para crear resultados duraderos. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo las exfoliaciones suaves con ácido glicólico y las mascarillas exfoliantes pueden crear una piel hermosa al instante. En este seminario web, aprenderá:<br\/>– Cómo integrar exfoliaciones innovadoras como la mascarilla híbrida Biolight® Luminex y la exfoliación glicólica Glyco-Sea®, el Micropeel Enzimático Vita Cura® y el Exfoliante Marino Rapidex® con activos Fito-Marinos en su menú de tratamientos para obtener resultados transformadores<br\/>– Cómo las formulaciones adecuadas de ingredientes para mantener el pH y la humedad de la barrera cutánea pueden crear una experiencia no irritante<br\/>– Cómo mejorar los tratamientos faciales con exfoliaciones bioavanzadas para obtener resultados espectaculares<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1pm EST<\/p><p>Aprenda cómo rejuvenecer la piel de forma segura con AHA’s BHA’s y Exfoliaciones Enzimáticas para crear resultados duraderos. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo las exfoliaciones suaves con ácido glicólico y las mascarillas exfoliantes pueden crear una piel hermosa al instante. En este seminario web, aprenderá:<\/p><ul><li>Cómo integrar exfoliaciones innovadoras como la mascarilla híbrida Biolight® Luminex y la exfoliación glicólica Glyco-Sea®, el Micropeel Enzimático Vita Cura® y el Exfoliante Marino Rapidex® con activos Fito-Marinos en su menú de tratamientos para obtener resultados transformadores<\/li><li>Cómo las formulaciones adecuadas de ingredientes para mantener el pH y la humedad de la barrera cutánea pueden crear una experiencia no irritante<\/li><li>Cómo mejorar los tratamientos faciales con exfoliaciones bioavanzadas para obtener resultados espectaculares<\/li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/li><\/ul>",
             "button_label": "Register",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-09-30-todo-sobre-los-peelings-y-el-rejuvenecimiento-de-la-piel.php"
           }
@@ -182,7 +189,7 @@
             "date": "28",
             "class": "WEBINAR",
             "title": "LA PIEL COMPROMETIDA NECESITA BIENESTAR",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1pm EST<\/p><p>¿La piel de sus clientes necesita una intervención? Hágales saber que su piel dice \"detente y ayúdame\". Ya sea por exposición al sol, tratamientos demasiado agresivos o incluso radiación y quimioterapia, muchas personas tienen la piel seca y comprometida la cual necesita ayuda. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo reconstruir una barrera cutánea comprometida mientras calma y protege. En este seminario web, aprenderá:<br\/>– Información sobre cómo afrontar la ansiedad, el estrés y los cambios físicos que se producen en el cliente.<br\/>– Cómo agregar “rituales” a cada servicio de spa ayuda a reducir el estrés al afectar los sistemas nerviosos simpático y parasimpático.<br\/>– Cómo realizar tratamientos faciales adecuados, como el tratamiento facial hidratante Hydra Dew Pure™ para restaurar y mantener la primera línea de defensa esencial del cuerpo: la piel.<br\/>– Información esencial sobre la utilización de ingredientes adecuados para el cliente sensibilizado.<br\/>– Técnicas de masaje adecuadas para la reducción del estrés y la relajación.<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1pm EST<\/p><p>¿La piel de sus clientes necesita una intervención? Hágales saber que su piel dice \"detente y ayúdame\". Ya sea por exposición al sol, tratamientos demasiado agresivos o incluso radiación y quimioterapia, muchas personas tienen la piel seca y comprometida la cual necesita ayuda. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo reconstruir una barrera cutánea comprometida mientras calma y protege. En este seminario web, aprenderá:<\/p><ul><li>Información sobre cómo afrontar la ansiedad, el estrés y los cambios físicos que se producen en el cliente.<\/li><li>Cómo agregar “rituales” a cada servicio de spa ayuda a reducir el estrés al afectar los sistemas nerviosos simpático y parasimpático.<\/li><li>Cómo realizar tratamientos faciales adecuados, como el tratamiento facial hidratante Hydra Dew Pure™ para restaurar y mantener la primera línea de defensa esencial del cuerpo: la piel.<\/li><li>Información esencial sobre la utilización de ingredientes adecuados para el cliente sensibilizado.<\/li><li>Técnicas de masaje adecuadas para la reducción del estrés y la relajación.<\/li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/li><\/ul>",
             "button_label": "Register",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-10-28-la-piel-comprometida-necesita-bienestar.php"
           }
@@ -194,7 +201,7 @@
             "date": "25",
             "class": "WEBINAR",
             "title": "ANTIENVEJECIMIENTO: PIELES MENOPÁUSICAS MAYORES DE 40 AÑOS",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1pm EST<\/p><p>La perimenopausia comienza en la piel a partir de los 40 años, pero puede comenzar incluso antes. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo levantar y reponer la humedad de la piel con tratamientos cutáneos avanzados que abordan de manera integral los cambios hormonales en la piel. Aquí aprenderá:<br\/>– La importancia de las hormonas y cómo afectan todas las funciones corporales y la piel, incluidos los cambios hormonales, la dieta y el estilo de vida, especialmente durante la perimenopausia.<br\/>– Reconocer la importancia del colágeno y la elastina, el “pegamento celular” que se pierde en incrementos del 1% anualmente después de cumplir los 20 años y que contribuye a la aparición del envejecimiento de la piel.<br\/>– Cómo el facial reafirmante de 5 fases Vita Cura® y la colección Vita Cura® Gold disminuyen las arrugas, igualan el tono de la piel y reafirman el contorno del rostro y los ojos.<br\/>– Cómo las algas, péptidos, fermentos marinos como Thermus Thermophillus, vitaminas, fitohormonas y la espirulina ayudan a restaurar y recuperar la piel de los cambios hormonales y signos del envejecimiento.<br\/>– Aprenda a potenciar sus tratamientos con dispositivos como la Máquina de Radiofrecuencia LED y EME para Estiramiento Cutáneo y la Espátula Ultrasónica para estimular y exfoliar la superficie de la piel.<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1pm EST<\/p><p>La perimenopausia comienza en la piel a partir de los 40 años, pero puede comenzar incluso antes. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo levantar y reponer la humedad de la piel con tratamientos cutáneos avanzados que abordan de manera integral los cambios hormonales en la piel. Aquí aprenderá:<\/p><ul><li>La importancia de las hormonas y cómo afectan todas las funciones corporales y la piel, incluidos los cambios hormonales, la dieta y el estilo de vida, especialmente durante la perimenopausia.<\/li><li>Reconocer la importancia del colágeno y la elastina, el “pegamento celular” que se pierde en incrementos del 1% anualmente después de cumplir los 20 años y que contribuye a la aparición del envejecimiento de la piel.<\/li><li>Cómo el facial reafirmante de 5 fases Vita Cura® y la colección Vita Cura® Gold disminuyen las arrugas, igualan el tono de la piel y reafirman el contorno del rostro y los ojos.<\/li><li>Cómo las algas, péptidos, fermentos marinos como Thermus Thermophillus, vitaminas, fitohormonas y la espirulina ayudan a restaurar y recuperar la piel de los cambios hormonales y signos del envejecimiento.<\/li><li>Aprenda a potenciar sus tratamientos con dispositivos como la Máquina de Radiofrecuencia LED y EME para Estiramiento Cutáneo y la Espátula Ultrasónica para estimular y exfoliar la superficie de la piel.<\/li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/li><\/ul>",
             "button_label": "Register",
             "button_link": "https:\/\/www.lydiasarfati.com\/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
           }
