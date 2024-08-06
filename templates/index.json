@@ -396,7 +396,7 @@
         "image_slider_block_epmVdd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hydro.jpg",
+            "image": "shopify:\/\/shop_images\/Hydro-Comples-Dry.jpg",
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "enlarge_text": false,
