@@ -1,13 +1,11 @@
 <div class="announcement-bar"> 
-  <div class="page-width"> 
-    <div class="slideshow-wrapper">
-      <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
-        {%- for block in section.blocks -%}
-          <div class="announcement-slider__slide">
-            {{ block.settings.text }}
-          </div>
-        {%- endfor -%}
-      </div>
+  <div class="slideshow-wrapper">
+    <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
+      {%- for block in section.blocks -%}
+        <div class="announcement-slider__slide">
+          {{ block.settings.text }}
+        </div>
+      {%- endfor -%}
     </div>
   </div>
 </div>
