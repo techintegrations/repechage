@@ -3,7 +3,7 @@
 }
 
 .custom-announcement-slider .slick-prev {
-    left: 75px;
+    left: 50px;
     transform: translate(0,-50%) rotate(180deg);
 }
 
@@ -12,7 +12,7 @@
 }
 
 .custom-announcement-slider .slick-next {
-    right: 75px;
+    right: 50px;
 }
 
 .custom-announcement-slider .slick-arrow img {
