@@ -396,12 +396,23 @@
         "image_slider_block_epmVdd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9988croped.jpg",
+            "image": "shopify:\/\/shop_images\/hydro.png",
             "title": "Lorem Ipsum is simply dummy",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
             "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_6PFhpD": {
+          "type": "image_slider_block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_link": "",
             "button_style": "primary"
           }
         },
@@ -434,6 +445,7 @@
         "image_slider_block_EgJ8hb",
         "image_slider_block_RtbnDd",
         "image_slider_block_epmVdd",
+        "image_slider_block_6PFhpD",
         "image_slider_block_VqLBi7",
         "image_slider_block_Fe6pXT"
       ],
