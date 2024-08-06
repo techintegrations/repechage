@@ -384,9 +384,9 @@
         "image_slider_block_RtbnDd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1740rev.jpg",
-            "title": "Lorem Ipsum is simply dummy",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br\/><br\/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "image": "shopify:\/\/shop_images\/Repechage-T-Zone-Complex.jpg",
+            "title": "Achieve Balanced Skin with Repêchage® T-Zone Balance: Soothing Botanicals and Antioxidants",
+            "text": "<p>Experience the benefits of Repêchage® T-Zone Balance products, specially crafted for combination skin. Infused with St. John's Wort for its soothing botanical properties and powerful antioxidants from Green and White Teas, these products help balance the skin and refine its texture. Try them daily to achieve a healthier, more even complexion.<\/p>",
             "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
