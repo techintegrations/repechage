@@ -49,51 +49,11 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_BMcmbU": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Say good bye to dry<\/p>",
-            "title_size": 54,
-            "subheading": "<p>Help restore the appearance of the skins natural moisture barrier and create soft, smooth skin. <strong>Buy <\/strong>our Hydra Dew Pure Elixir Balm and get a <strong>FREE <\/strong>Hydra Dew Pure Oil!<\/p>",
-            "link": "",
-            "link_text": "NOW ON SPECIAL*",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/banner_9.png",
-            "image_mobile": "shopify:\/\/shop_images\/mb_banner_6.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Qbd63d": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/banner_3.png",
-            "image_mobile": "shopify:\/\/shop_images\/mb_banner_2.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "image_iCkPT9",
-        "image_QYiDV7",
-        "image_BMcmbU",
-        "image_Qbd63d"
+        "image_QYiDV7"
       ],
       "settings": {
         "show_container": false,
