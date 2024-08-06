@@ -1,3 +1,14 @@
+.slideshow-wrapper .hero .flickity-button {
+    top: 50%;
+    transform: translateY(-50%) !important;
+    bottom: auto;
+}
+
+.slideshow-wrapper .hero[data-arrows=true] .flickity-previous {
+    left: 40px;
+    right: auto;
+}
+
 #AnnouncementSlider-wrap .slick-slide {
     border: 0px;
 }
