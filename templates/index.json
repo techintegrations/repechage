@@ -408,11 +408,12 @@
         "image_slider_block_6PFhpD": {
           "type": "image_slider_block",
           "settings": {
-            "title": "",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Repechage-Concealer-Stick-Makeup.jpg",
+            "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick: Try It Today!",
+            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!<\/p>",
             "enlarge_text": false,
-            "button_label": "",
-            "button_link": "",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/perfecting-concealer-light",
             "button_style": "primary"
           }
         },
