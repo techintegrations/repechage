@@ -85,6 +85,24 @@
         "lazyload_images": false
       }
     },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "featured_image": "shopify:\/\/shop_images\/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
+        "home_featured_products": "our-best-sellers",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false,
+        "bg_color": "",
+        "padding_top": 43,
+        "padding_bottom": 40,
+        "padding_top_m": 55,
+        "padding_bottom_m": 60
+      }
+    },
     "custom_featured_collection_tabs_PaGxFn": {
       "type": "custom__featured-collection-tabs",
       "blocks": {
@@ -298,24 +316,6 @@
         "padding_bottom": 0,
         "padding_top_m": 0,
         "padding_bottom_m": 40
-      }
-    },
-    "featured_collection_U6DUhq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "featured_image": "shopify:\/\/shop_images\/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
-        "home_featured_products": "vita-cura-1",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false,
-        "bg_color": "",
-        "padding_top": 43,
-        "padding_bottom": 40,
-        "padding_top_m": 55,
-        "padding_bottom_m": 60
       }
     },
     "text_and_image_hPkL8i": {
@@ -817,10 +817,10 @@
   },
   "order": [
     "slideshow_ybDcnc",
+    "featured_collection_U6DUhq",
     "custom_featured_collection_tabs_PaGxFn",
     "custom_text_with_logos_VBrHLU",
     "featured_collections_xaap9R",
-    "featured_collection_U6DUhq",
     "text_and_image_hPkL8i",
     "custom_image_slider_with_text_gBLLcE",
     "promo_grid_q7xmp6",
