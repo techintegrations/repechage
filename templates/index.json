@@ -17,15 +17,15 @@
           "settings": {
             "top_subheading": "<p>EXPERIENCE<\/p>",
             "title": "<p>VITA CURA GOLD COLLECTION<\/p>",
-            "title_size": 54,
+            "title_size": 71,
             "subheading": "<p>A BREAKTHROUGH IN TRANSFORMATIVE SKINCARE<\/p>",
             "link": "shopify:\/\/collections\/all",
             "link_text": "TRY NOW",
             "link_2": "shopify:\/\/collections\/all",
             "link_text_2": "",
             "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Banner_01_ebcba583-a4f2-42ce-afcf-40e9f37b02fb.jpg",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Banner_02.jpg",
             "image_mobile": "shopify:\/\/shop_images\/mb_banner_4.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
