@@ -65,7 +65,7 @@
             "text_align": "vertical-center horizontal-right",
             "image": "shopify:\/\/shop_images\/hj.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 36
           }
         }
       },
