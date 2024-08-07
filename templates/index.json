@@ -21,7 +21,7 @@
             "subheading": "<p>A Breakthrough in Transformative Skincare<\/p>",
             "link": "shopify:\/\/collections\/all",
             "link_text": "SHOP THE COLLECTION",
-            "link_2": "shopify:\/\/collections\/body-care-anti-aging",
+            "link_2": "shopify:\/\/products\/vita-cura-b3-lifting-mask-single-sheet-mask",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
@@ -80,7 +80,7 @@
         "mobile_height": "500px",
         "parallax": false,
         "style": "dots",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 7,
         "lazyload_images": false
       }
