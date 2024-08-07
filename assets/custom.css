@@ -1,3 +1,6 @@
+.hero__text-shadow:before {
+  display: none !important;
+}
 .slideshow-wrapper .hero .flickity-button {
     top: 50%;
     transform: translateY(-50%) !important;
