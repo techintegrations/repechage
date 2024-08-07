@@ -1,4 +1,4 @@
-<div class="page-width page-content">
+<div class="page-width page-content cart-page-main">
 
   {%- render 'breadcrumbs' -%}
 
@@ -15,13 +15,13 @@
 
 	{% render 'cart-progress-bar-custom' %}
 
-{% assign has_non_sample_product = false %}
-  {% for item in cart.items %}
-    {% unless item.product.metafields.custom.sample_product == true %}
-      {% assign has_non_sample_product = true %}
-      {% break %}
-    {% endunless %}
-{% endfor %}
+    {% assign has_non_sample_product = false %}
+      {% for item in cart.items %}
+        {% unless item.product.metafields.custom.sample_product == true %}
+          {% assign has_non_sample_product = true %}
+          {% break %}
+        {% endunless %}
+    {% endfor %}
   
 
   {%- if cart.item_count > 0 and has_non_sample_product == true -%}
