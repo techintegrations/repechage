@@ -1,6 +1,23 @@
 .hero__text-shadow:before {
   display: none !important;
 }
+.view-cart-wrap {
+    margin-bottom: 5px;
+}
+
+.view-cart-wrap .btn {
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.view-cart-wrap .btn:hover, .view-cart-wrap .btn:focus {
+    background-color: #000;
+    color: #fff;
+}
 .slideshow-wrapper .hero .flickity-button {
     top: 50%;
     transform: translateY(-50%) !important;
