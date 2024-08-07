@@ -375,9 +375,9 @@
         "image_slider_block_epmVdd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hydro-Comples-Dry.jpg",
-            "title": "Revitalize Dry Skin with Repêchage® Hydro Complex: Deep Hydration and Lasting Moisture",
-            "text": "<p>Repêchage® Hydro Complex for dry skin is a deeply hydrating formula enriched with seaweed extracts, delivering essential vitamins and antioxidants. This lightweight, non-greasy complex absorbs quickly, leaving skin soft, smooth, and revitalized. Ideal for daily use, it provides lasting moisture, alleviating dryness and promoting a radiant complexion.<\/p>",
+            "image": "shopify:\/\/shop_images\/VC_Eau_Fraiche_Candle-Side.jpg",
+            "title": "Vita Cura® Eau Fraîche Candle",
+            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.<\/p>",
             "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/products\/hydro-complex-pfs-for-dry-skin-types",
