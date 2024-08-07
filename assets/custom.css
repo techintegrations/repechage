@@ -18,6 +18,10 @@
     background-color: #000;
     color: #fff;
 }
+.cart-page-main .cart-progress-wrapper {
+    max-width: 720px;
+    margin: 0 auto 20px auto;
+}
 .slideshow-wrapper .hero .flickity-button {
     top: 50%;
     transform: translateY(-50%) !important;
