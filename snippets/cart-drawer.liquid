@@ -82,7 +82,9 @@
             {% if settings.show_sample_product %}
               <button data-fancybox data-src="#cart-sample-product" class="sample-product-btn">{{ settings.sample_products_trigger }}</button>
             {% endif %}
-            
+              <div class="view-cart-wrap">
+                <a href="/cart" class="btn">View Cart</a>
+              </div>
               <button
                 type="submit"
                 name="checkout"
