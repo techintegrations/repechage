@@ -151,7 +151,7 @@
         "collection_LCHdgT"
       ],
       "settings": {
-        "title": "shop by categories",
+        "title": "AWARD WINNERS",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -307,7 +307,7 @@
         "collection_UQdtM8"
       ],
       "settings": {
-        "title": "FEATURED",
+        "title": "FEATURED COLLECTIONS",
         "divider": false,
         "per_row": 3,
         "enable_gutter": true,
