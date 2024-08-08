@@ -60,7 +60,7 @@
           "type": "heading",
           "settings": {
             "title": "IN THE NEWS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_WVggcL": {
@@ -68,7 +68,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -95,7 +95,7 @@
           "type": "heading",
           "settings": {
             "title": "IN THE NEWS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_d4HBTa": {
@@ -103,7 +103,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -119,6 +119,45 @@
         "padding_top_m": 40,
         "padding_bottom_m": 40,
         "bg_color": "",
+        "divider": false
+      }
+    },
+    "custom_image_with_info_xL4cDE": {
+      "type": "custom__image-with-info",
+      "blocks": {
+        "text_block_DQfjRn": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HORA_Summer2024_8.5x11_PressGraphic3.jpg",
+            "title": "HORA MIAMI",
+            "date": "Summer, 2024",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_bMbkQr": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HORA_Summer2024_8.5x11_PressGraphic4.jpg",
+            "title": "HORA MIAMI",
+            "date": "Summer, 2024",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_DQfjRn",
+        "text_block_bMbkQr"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
         "divider": false
       }
     },
@@ -1841,6 +1880,7 @@
     "slideshow_cPY6ry",
     "rich_text_mmLUFq",
     "rich_text_BCtdkL",
+    "custom_image_with_info_xL4cDE",
     "custom_image_with_info_x89fqx",
     "custom_image_with_info_gekQH6",
     "custom_image_with_info_iFLBLe"
