@@ -136,16 +136,6 @@
             "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura"
           }
         },
-        "text_block_LNnLbz": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "text_block_bMbkQr": {
           "type": "text_block",
           "settings": {
@@ -157,8 +147,20 @@
             "button_link": ""
           }
         },
+        "text_block_LNnLbz": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_DQfjRn": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/HORA_Summer2024_8.5x11_PressGraphic3.jpg",
             "title": "HORA MIAMI",
@@ -171,8 +173,8 @@
       },
       "block_order": [
         "text_block_9D3UEV",
-        "text_block_LNnLbz",
         "text_block_bMbkQr",
+        "text_block_LNnLbz",
         "text_block_DQfjRn"
       ],
       "settings": {
