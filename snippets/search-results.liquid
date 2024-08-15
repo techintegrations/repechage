@@ -183,7 +183,7 @@
         {%- endif -%}
       </div>
     {% else %}
-      <div class="results sdfds"><a class="predictive-search__no-results" href="{{ routes.search_url }}?q={{ predictive_search.terms | escape }}">{{ 'general.search.no_results_html' | t: terms: predictive_search.terms }}</a></div>
+      <div class="results"><a class="predictive-search__no-results" href="{{ routes.search_url }}?q={{ predictive_search.terms | escape }}">{{ 'general.search.no_results_html' | t: terms: predictive_search.terms }}</a></div>
     {% endif %}
   </div>
   {% if totalCount > 1 %}
