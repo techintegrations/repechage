@@ -7,6 +7,8 @@
 {%- if predictive_search.performed -%}
   <div class="predictive-search-results {% if totalCount == 0 %}predictive-search-results--none{% endif %}" id="predictive-search-results">
     {% if totalCount > 0 %}
+
+      {% comment %}
       <div class="results__group-1" {% if columnCount == 0 %}style="display: none"{% endif %}>
         {%- if predictive_search.resources.queries.size > 0 -%}
           <div class="results results--queries">
@@ -73,6 +75,7 @@
           </div>
         {%- endif -%}
       </div>
+      {% endcomment %}
 
       <div class="results__group-2">
         {%- if predictive_search.resources.products.size > 1 -%}
