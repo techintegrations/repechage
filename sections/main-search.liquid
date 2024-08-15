@@ -39,18 +39,23 @@
             -%}
           </div>
 
+          {% assign product_results = search.results | where: "object_type", "product" %}
           <div class="grid__item medium-up--four-fifths grid__item--content">
+            {% if product_results.size > 0 %}
             {% render 'collection-grid',
               collection: search,
-              items: search.results,
+              items: product_results,
               enable_sidebar: section.settings.enable_sidebar,
               filter_style: section.settings.filter_style,
               enable_sort: true,
               enable_collection_count: true,
               per_row: section.settings.per_row,
-              mobile_flush_grid: section.settings.mobile_flush_grid
+              mobile_flush_grid: section.settings.mobile_flush_grid,
               quick_shop_enable: settings.quick_shop_enable
             %}
+          {% else %}
+            <p>{{ 'general.search.no_results_html' | t: terms: search.terms | replace: '*', '' }}</p>
+          {% endif %}
 
             {%- if paginate.pages > 1 -%}
               {%- render 'pagination', paginate: paginate -%}
