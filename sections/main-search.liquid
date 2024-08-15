@@ -23,51 +23,53 @@
 
       {%- if search.results_count != 0 -%}
 
-        {%- assign product_results = search.results | where: "object_type", "product" -%}
         {%- assign paginate_by = section.settings.per_row | times: section.settings.rows_per_page -%}
+        {%- paginate search.results by paginate_by -%}
 
-        {% if product_results.size > 0 %}
-          <p>{{ product_results.size }} products found</p> <!-- Debug line -->
+        <div id="CollectionAjaxContent" class="grid grid--uniform" data-scroll-to>
 
-          {%- paginate search.results by paginate_by -%}
-          <div id="CollectionAjaxContent" class="grid grid--uniform" data-scroll-to>
-
-            <div class="grid__item medium-up--one-fifth grid__item--sidebar">
-              {%- render 'collection-grid-filters',
-                collection: search,
-                enable_sidebar: section.settings.enable_sidebar,
-                filter_style: section.settings.filter_style,
-                collapsed: section.settings.collapsed,
-                enable_color_swatches: section.settings.enable_color_swatches,
-                enable_swatch_labels: section.settings.enable_swatch_labels
-              -%}
-            </div>
-
-            <div class="grid__item medium-up--four-fifths grid__item--content">
-              {% for item in search.results %}
-                {% if item.object_type == "product" %}
-                  <!-- Render product template for each product -->
-                  {% render 'collection-grid-item', product: item %}
-                {% endif %}
-              {% endfor %}
-            </div>
+          <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+            {%- render 'collection-grid-filters',
+              collection: search,
+              enable_sidebar: section.settings.enable_sidebar,
+              filter_style: section.settings.filter_style,
+              collapsed: section.settings.collapsed,
+              enable_color_swatches: section.settings.enable_color_swatches,
+              enable_swatch_labels: section.settings.enable_swatch_labels
+            -%}
           </div>
-          {%- endpaginate -%}
 
-          {%- if paginate.pages > 1 -%}
-            {%- render 'pagination', paginate: paginate -%}
-          {%- endif -%}
+          {% assign product_results = search.results | where: "object_type", "product" %}
+          <div class="grid__item medium-up--four-fifths grid__item--content">
+            {% if product_results.size > 0 %}
+            {% render 'collection-grid',
+              collection: search,
+              items: product_results,
+              enable_sidebar: section.settings.enable_sidebar,
+              filter_style: section.settings.filter_style,
+              enable_sort: true,
+              enable_collection_count: true,
+              per_row: section.settings.per_row,
+              mobile_flush_grid: section.settings.mobile_flush_grid,
+              quick_shop_enable: settings.quick_shop_enable
+            %}
+          {% else %}
+            <p>{{ 'general.search.no_results_html' | t: terms: search.terms | replace: '*', '' }}</p>
+          {% endif %}
 
-        {% else %}
-          <p>No products found for "{{ search.terms }}"</p>
-        {% endif %}
+            {%- if paginate.pages > 1 -%}
+              {%- render 'pagination', paginate: paginate -%}
+            {%- endif -%}
+          </div>
+        </div>
+
+        {%- endpaginate -%}
 
       {% endif %}
 
     {%- endif -%}
   </div>
 </div>
-
 
 {%- if section.settings.enable_sidebar == false or section.settings.filter_style == 'drawer' -%}
 {% comment %}
