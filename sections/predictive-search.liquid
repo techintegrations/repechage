@@ -14,7 +14,6 @@
     </div>
   {% endif %}
 
-  {% comment %}
   {%- if predictive_search.resources.collections.size > 0 -%}
     <div data-type-collections>
       <p class="h6 predictive__label">{{ 'general.search.collections' | t }}</p>
@@ -69,6 +68,4 @@
       {%- endfor -%}
     </div>
   {% endif %}
-  {% endcomment %}
-  
 {%- endif -%}
