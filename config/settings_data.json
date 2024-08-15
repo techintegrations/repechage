@@ -79,12 +79,13 @@
     "cart_progress_bar_full_color": "#000000",
     "show_sample_product": true,
     "sample_products": [
+      "honey-and-almond-scrub-sample",
       "biolight-day-cream-sample",
       "biolight-frost-bright-eye-contour-gel-sample",
+      "biolight-overnight-cream-sample",
       "hydra-dew-pure-eye-contour-cream-sample",
       "hydra-medic-sea-mud-mask-sample",
-      "mineral-face-shield-sample",
-      "biolight-overnight-cream-sample"
+      "mineral-face-shield-sample"
     ],
     "premium_products": [
       "algo-mist-hydrating-seaweed-facial-spray-2"
