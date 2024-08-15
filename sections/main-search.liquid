@@ -23,14 +23,13 @@
 
       {%- if search.results_count != 0 -%}
 
-        {%- assign paginate_by = section.settings.per_row | times: section.settings.rows_per_page -%}
-
         {%- assign product_results = search.results | where: "object_type", "product" -%}
+        {%- assign paginate_by = section.settings.per_row | times: section.settings.rows_per_page -%}
 
         {% if product_results.size > 0 %}
           <p>{{ product_results.size }} products found</p> <!-- Debug line -->
 
-          {%- paginate product_results by paginate_by -%}
+          {%- paginate search.results by paginate_by -%}
           <div id="CollectionAjaxContent" class="grid grid--uniform" data-scroll-to>
 
             <div class="grid__item medium-up--one-fifth grid__item--sidebar">
@@ -45,23 +44,17 @@
             </div>
 
             <div class="grid__item medium-up--four-fifths grid__item--content">
-              {% render 'collection-grid',
-                collection: search,
-                items: product_results,
-                enable_sidebar: section.settings.enable_sidebar,
-                filter_style: section.settings.filter_style,
-                enable_sort: true,
-                enable_collection_count: true,
-                per_row: section.settings.per_row,
-                mobile_flush_grid: section.settings.mobile_flush_grid,
-                quick_shop_enable: settings.quick_shop_enable
-              %}
+              {% for item in search.results %}
+                {% if item.object_type == "product" %}
+                  <!-- Render product template for each product -->
+                  {% render 'collection-grid-item', product: item %}
+                {% endif %}
+              {% endfor %}
             </div>
           </div>
           {%- endpaginate -%}
 
-          {%- assign total_pages = product_results.size | divided_by: paginate_by | ceil -%}
-          {%- if total_pages > 1 -%}
+          {%- if paginate.pages > 1 -%}
             {%- render 'pagination', paginate: paginate -%}
           {%- endif -%}
 
