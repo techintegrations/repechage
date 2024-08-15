@@ -77,11 +77,6 @@ Snippet Arguments
           per_row: per_row,
           quick_shop_enable: quick_shop_enable
         -%}
-      {%- elsif item.object_type != 'product' -%}
-        {%- render 'search-grid-item',
-          item: item,
-          per_row: per_row
-        -%}
       {%- endif -%}
     {%- endfor -%}
 
