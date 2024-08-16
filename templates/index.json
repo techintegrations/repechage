@@ -756,9 +756,9 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p><strong>Best Face Cream Ever!<\/strong><\/p><p>I love the consistency of this day cream. It’s not too heavy and not too greasy. It makes my skin soft and seems to reduce fine lines.<\/p>",
+            "author": "Taylor A.",
+            "author_info": ""
           }
         },
         "testimonial_CVknJn": {
