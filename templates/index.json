@@ -701,6 +701,7 @@
         "form_rTbMBQ": {
           "type": "form",
           "settings": {
+            "success_msg": "<p>Thank you for subscribing, Please use this code <strong>Welcome10<\/strong> at checkout.<\/p>"
           }
         }
       },
