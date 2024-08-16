@@ -172,13 +172,14 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Offers_0012.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "title": "BUNDLE & SAVE",
+            "text": "<p>50% Off One-minute Exfoliating Mask With Purchase Of Triple Action Peptide Serum<\/p>",
             "button_label": "BUY NOW",
-            "button_link": ""
+            "button_link": "https:\/\/www.repechage.com\/collections\/best-sellers\/products\/50-off-one-minute-exfoliating-mask-with-purchase-of-triple-action-peptide-serum"
           }
         }
       },
