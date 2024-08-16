@@ -179,7 +179,7 @@
           "settings": {
             "logo": "{{ block.repeater.ingredient_image.value }}",
             "title": "{{ block.repeater.ingredient_title.value }}",
-            "short_name": "",
+            "short_name": "{{ block.repeater.ingredient_title.value }}",
             "button_label": "Read More",
             "text": "{{ block.repeater.ingredients_description | metafield_tag }}"
           }
