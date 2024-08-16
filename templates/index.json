@@ -751,12 +751,22 @@
             "author": "Dianne S.",
             "author_info": ""
           }
+        },
+        "testimonial_3PtNAt": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Unbelievable Texture and Visible Difference.<\/strong><\/p><p>Magical Serum in a bottle. I started using only a few days now and can feel the difference<\/p>",
+            "author": "Ryan R.",
+            "author_info": ""
+          }
         }
       },
       "block_order": [
         "testimonial_Q8WHqt",
         "testimonial_ktVwkx",
-        "testimonial_pk9xCj"
+        "testimonial_pk9xCj",
+        "testimonial_3PtNAt"
       ],
       "settings": {
         "title": "",
