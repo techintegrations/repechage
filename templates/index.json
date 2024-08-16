@@ -734,49 +734,19 @@
             "author_info": ""
           }
         },
-        "testimonial_KfVePB": {
+        "testimonial_ktVwkx": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_8G9tJ3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_CVknJn": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_87e7k3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p><strong>Amazing Bath Salt!<\/strong><\/p><p>This is the best bath salt I’ve used. Smells great and makes the skin so soft. Highly recommend.<\/p>",
+            "author": "Katherine",
+            "author_info": ""
           }
         }
       },
       "block_order": [
         "testimonial_Q8WHqt",
-        "testimonial_KfVePB",
-        "testimonial_8G9tJ3",
-        "testimonial_CVknJn",
-        "testimonial_87e7k3"
+        "testimonial_ktVwkx"
       ],
       "settings": {
         "title": "",
