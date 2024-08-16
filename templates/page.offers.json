@@ -271,7 +271,7 @@
         "align_text": "center",
         "narrow_column": true,
         "padding_top": 20,
-        "padding_bottom": 20,
+        "padding_bottom": 0,
         "padding_top_m": 20,
         "padding_bottom_m": 20,
         "bg_color": "#f9f9f9",
