@@ -244,6 +244,40 @@
         "lazyload_images": true
       }
     },
+    "rich_text_d9wBRB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P8YtxB": {
+          "type": "heading",
+          "settings": {
+            "title": "The Repêchage® Experience",
+            "title_color": "#000"
+          }
+        },
+        "text_KdCxKE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P8YtxB",
+        "text_KdCxKE"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "#ebebeb",
+        "divider": false
+      }
+    },
     "text_with_icons_QpRF98": {
       "type": "text-with-icons",
       "blocks": {
@@ -338,6 +372,7 @@
     "slideshow_97MbEr",
     "text_columns_XLchWK",
     "text_and_image_xgxQaY",
+    "rich_text_d9wBRB",
     "text_with_icons_QpRF98"
   ]
 }
