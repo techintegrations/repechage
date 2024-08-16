@@ -1,3 +1,23 @@
+#rc_container .rc_block.rc_block__type {
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    letter-spacing: normal;
+}
+
+.rc_block  .rc_label {
+    font-size: 14px !important;
+    font-family: 'Montserrat' !important;
+    letter-spacing: 1px !important;
+    /* display: flex !important; */
+}
+
+.rc_label .rc_price {
+    font-weight: 700;
+}
+
 .account-bottom-btns {
     padding: 5px 15px;
     text-align: center;
