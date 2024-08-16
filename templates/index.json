@@ -64,6 +64,7 @@
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify:\/\/shop_images\/wewew.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Banner_003.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
