@@ -139,6 +139,45 @@
             "button_label": "LEARN MORE",
             "button_link": "https:\/\/www.repechage.com\/pages\/after-pay"
           }
+        },
+        "text_block_MATjYY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "FREE GIFT WITH PURCHASE",
+            "text": "<p>Free Algo Mist With Purchase Of C-serum & Hydro-complex Pfs For Normal To Dry Skin<\/p>",
+            "button_label": "BUY NOW",
+            "button_link": "https:\/\/www.repechage.com\/collections\/best-sellers\/products\/algo-mist-hydrating-seaweed-facial-spray-copy"
+          }
+        },
+        "text_block_Kpd9iB": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_YQPxPV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -147,7 +186,10 @@
         "text_block_pMhKPb",
         "text_block_eQPFAi",
         "text_block_MD9Uya",
-        "text_block_zQipqQ"
+        "text_block_zQipqQ",
+        "text_block_MATjYY",
+        "text_block_Kpd9iB",
+        "text_block_YQPxPV"
       ],
       "settings": {
         "title": "Shop exclusive and limited-time offers",

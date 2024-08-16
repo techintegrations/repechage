@@ -778,15 +778,6 @@
             "author": "Margaret",
             "author_info": ""
           }
-        },
-        "testimonial_F8EM3B": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
         }
       },
       "block_order": [
@@ -795,8 +786,7 @@
         "testimonial_pk9xCj",
         "testimonial_3PtNAt",
         "testimonial_8z4WzU",
-        "testimonial_3T6tJH",
-        "testimonial_F8EM3B"
+        "testimonial_3T6tJH"
       ],
       "settings": {
         "title": "",
