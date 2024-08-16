@@ -742,11 +742,21 @@
             "author": "Katherine",
             "author_info": ""
           }
+        },
+        "testimonial_pk9xCj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Helps with saggy neck!<\/strong><\/p><p>I do believe my neckline looks improved by using this product.<\/p>",
+            "author": "Dianne S.",
+            "author_info": ""
+          }
         }
       },
       "block_order": [
         "testimonial_Q8WHqt",
-        "testimonial_ktVwkx"
+        "testimonial_ktVwkx",
+        "testimonial_pk9xCj"
       ],
       "settings": {
         "title": "",
