@@ -1,3 +1,14 @@
+.account-bottom-btns {
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.account-bottom-btns a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+}
 .text-columns-with-images-section .info {
     font-size: 14px;
     min-height: 40px;
