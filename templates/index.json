@@ -734,12 +734,21 @@
             "author_info": ""
           }
         },
+        "testimonial_fTQiki": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
         "testimonial_KfVePB": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>I would have never believed it!!!<\/strong><\/p><p>This eye serum is the best! It depuffs, lightens dark circles and addresses fine lines. <\/p>",
-            "author": "Margaret",
+            "testimonial": "<p><strong>Love it!<\/strong><\/p><p>This night cream is great! It’s smoothe and does not make me break out.<\/p>",
+            "author": "Andrea D.",
             "author_info": ""
           }
         },
@@ -773,6 +782,7 @@
       },
       "block_order": [
         "testimonial_Q8WHqt",
+        "testimonial_fTQiki",
         "testimonial_KfVePB",
         "testimonial_8G9tJ3",
         "testimonial_CVknJn",
