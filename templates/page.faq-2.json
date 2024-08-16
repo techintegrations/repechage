@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -32,10 +33,72 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_FqJUmT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zHhdkz": {
+          "type": "heading",
+          "settings": {
+            "title": "101 Frequently Asked Questions",
+            "title_color": "#000"
+          }
+        },
+        "text_GPmWEn": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The Repêchage FAQ page is a comprehensive resource designed to address common questions and concerns about our skincare products and services. Whether you're curious about the ingredients in our formulas, need guidance on choosing the right products for your skin type, or have inquiries about shipping and returns, this page provides clear and detailed answers to help you make informed decisions. Our goal is to ensure you have all the information you need to fully enjoy the benefits of our seaweed-based skincare solutions. If you can't find what you're looking for, our customer care team is always available to assist you further.<\/p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zHhdkz",
+        "text_GPmWEn"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "faq_QxdQgp": {
+      "type": "faq",
+      "blocks": {
+        "question_aqLmmQ": {
+          "type": "question",
+          "settings": {
+            "title": "SEAWEED QUESTIONS",
+            "text": "<p>Where does Repêchage get its seaweed?Most of the Repêchage seaweeds are sustainably harvested off the Brittany Coast of France and Maine, USA. Repêchage has worked with leading scientists and aquaculturists to sustainably harvest several species of nutrient-rich seaweed.2.What makes Repêchage seaweed different from the seaweed in other skincare lines?Most manufacturers of seaweed-based products use the oven drying method of processing. This method yields a product, which contains trace elements but may be deficient in vitamins and amino acids that are heat sensitive. This is where Repêchage makes all the difference. Once dried, the seaweed is packed and sent to our ISO 9001 certified manufacturing facility. There, by an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids, processed into the pure filtrate in small artisanal batches. You know when it’s a filtrate day---the whole facility smells like a day at the beach!3.Is Repêchage seaweed sourced from sustainable sources?Yes. Repêchage uses sustainably harvested seaweed from the Brittany Coast of France and coast of Maine, USA.<\/p>"
+          }
+        },
+        "question_UYewqL": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_aqLmmQ",
+        "question_UYewqL"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "rich_text_FqJUmT",
+    "faq_QxdQgp"
   ]
 }
