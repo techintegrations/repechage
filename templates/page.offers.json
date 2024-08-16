@@ -161,9 +161,9 @@
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "FREE GIFT WITH PURCHASE",
+            "text": "<p>Free Algo Mist (6 oz.) With Purchase Of C-serum & Hydro-complex Pfs For Oily Combination Skin<\/p>",
+            "button_label": "BUY NOW",
             "button_link": ""
           }
         },
@@ -176,7 +176,7 @@
             "preheading": "",
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "BUY NOW",
             "button_link": ""
           }
         }
