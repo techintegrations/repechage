@@ -1,4 +1,4 @@
-{%- form 'product', product, id: form_id, class: 'product-single__form' -%}
+{%- form 'product', product, data-productid: product.id, id: form_id, class: 'product-single__form' -%}
 
   {% if product.available %}{% render 'subscription-product' %}{% endif %}
   
