@@ -26,7 +26,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify:\/\/shop_images\/dfsdf.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_001.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/mb_banner_4.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -64,7 +64,6 @@
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify:\/\/shop_images\/wewew.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_003.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -82,7 +81,7 @@
         "parallax": false,
         "style": "dots",
         "autoplay": true,
-        "autoplay_speed": 7,
+        "autoplay_speed": 10,
         "lazyload_images": false
       }
     },
@@ -729,17 +728,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>This is the best bath salt I’ve used. Smells great and makes the skin so soft. Highly recommend.<\/p>",
-            "author": "Katherine",
-            "author_info": ""
-          }
-        },
-        "testimonial_fTQiki": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>Excellent Product!<\/strong><\/p><p>It brightened my skin and helped it feel soft and refreshed.<\/p>",
-            "author": "Tammy P.",
+            "testimonial": "<p><strong>Opti-Firm® Eye Contour Cream<\/strong><\/p><p>Undereye feels\/looks smooth and moist all day. Perfect eye cream in every way<\/p>",
+            "author": "Debra",
             "author_info": ""
           }
         },
@@ -747,36 +737,45 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Love it!<\/strong><\/p><p>This night cream is great! It’s smoothe and does not make me break out.<\/p>",
-            "author": "Andrea D.",
-            "author_info": ""
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
         "testimonial_8G9tJ3": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Best Face Cream Ever!<\/strong><\/p><p>I love the consistency of this day cream. It’s not too heavy and not too greasy. It makes my skin soft and seems to reduce fine lines.<\/p>",
-            "author": "Taylor A.",
-            "author_info": ""
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
         "testimonial_CVknJn": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Love this mist!<\/strong><\/p><p>I love using this after i wash my face or before and after a mask. Very refreshing to my skin<\/p>",
-            "author": "Kelly G",
-            "author_info": ""
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_87e7k3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         }
       },
       "block_order": [
         "testimonial_Q8WHqt",
-        "testimonial_fTQiki",
         "testimonial_KfVePB",
         "testimonial_8G9tJ3",
-        "testimonial_CVknJn"
+        "testimonial_CVknJn",
+        "testimonial_87e7k3"
       ],
       "settings": {
         "title": "",
