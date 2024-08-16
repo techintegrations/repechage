@@ -17,7 +17,9 @@
 .rc_label .rc_price {
     font-weight: 700;
 }
-
+.product_list-block .product-list__title {
+    font-size: 16px;
+}
 .account-bottom-btns {
     padding: 5px 15px;
     text-align: center;
