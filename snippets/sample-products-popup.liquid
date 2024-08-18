@@ -228,6 +228,25 @@
     // Initial toggle of checkout button state
     toggleCheckoutButton();
   });
+
+
+  // Fetch cart data
+  fetch('/cart.js')
+    .then(response => response.json())
+    .then(cart => {
+      // Get all add-to-cart buttons
+      document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+        let variantId = button.getAttribute('data-variant-id');
+        
+        // Check if the variant ID is in the cart
+        let itemInCart = cart.items.find(item => item.id == variantId);
+
+        if (itemInCart) {
+          // Add the "remove" class if the item is already in the cart
+          button.classList.add('remove');
+        }
+      });
+    });
 </script>
 
 
