@@ -133,12 +133,29 @@
       });
   }
 
-  function initializeSampleProductDisplay() {
-    fetchCartData().then(cartData => {
-      updateSampleProductDisplay(cartData.total_price);
-      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
-    });
-  }
+    function initializeSampleProductDisplay() {
+      fetchCartData().then(cartData => {
+        updateSampleProductDisplay(cartData.total_price);
+        sessionStorage.setItem('cartTotal', cartData.total_price.toString());
+    
+        // Check if any products in the cart are already selected
+        cartData.items.forEach(item => {
+          if (selectedProducts.length < maxProducts) {
+            selectedProducts.push(item.variant_id);
+    
+            // Find the corresponding button and add the remove-btn class
+            const button = document.querySelector(`.add-to-cart-btn[data-variant-id="${item.variant_id}"]`);
+            if (button) {
+              button.textContent = 'Remove';
+              button.classList.add('remove-btn');
+            }
+          }
+        });
+    
+        // Update the checkout button state
+        toggleCheckoutButton();
+      });
+    }
 
   document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', () => {
