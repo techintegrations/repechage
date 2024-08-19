@@ -1408,6 +1408,7 @@ body.template-cart #cart-progress-wrapper {
 
   .cart__image {
       flex: 0 0 100px;
+      margin-right: 12px;
   }
   
 }
