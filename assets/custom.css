@@ -1,3 +1,25 @@
+#prod-info-yot .yotpo-display-wrapper .yotpo-bottomline {
+    display: block;
+    text-align: center;
+}
+
+#prod-info-yot .yotpo-display-wrapper .yotpo-bottomline span.yotpo-stars {
+    display: flex;
+    height: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#prod-info-yot .yotpo-display-wrapper .yotpo-bottomline a.text-m {
+    display: block;
+    font-size: 12px;
+}
+
+.atc-btn button.btn {
+    margin: 0;
+    font-size: 10px;
+}
+
 #rc_container .rc_block.rc_block__type {
     border: 1px solid #e7e7e7;
     border-radius: 3px;
