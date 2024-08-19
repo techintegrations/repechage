@@ -88,19 +88,8 @@
       });
   }
 
-  function initializeSampleProductDisplay() {
-    fetchCartData().then(cartData => {
-      updateSampleProductDisplay(cartData.total_price);
-      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
-    });
-  }
 
-  document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      var variantId = button.getAttribute('data-variant-id');
-      toggleProduct(variantId, button);
-    });
-  });
+
 
   document.querySelector('.popup-checkout-btn').addEventListener('click', () => {
     console.log('Checkout button clicked'); // Debugging information
@@ -175,7 +164,6 @@
     document.querySelector('.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
       setTimeout(function() {
-        if (premiumSlider) premiumSlider.resize(); // Resize premium Flickity slider
         if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
       }, 500);
     });
