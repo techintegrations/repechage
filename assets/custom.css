@@ -1402,6 +1402,10 @@ body.template-cart #cart-progress-wrapper {
   .collection-banner_row .info-col.col {
       padding: 0px;
   }
+
+  .cart__image {
+      flex: 0 0 110px;
+  }
   
 }
 
