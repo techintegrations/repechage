@@ -1407,8 +1407,13 @@ body.template-cart #cart-progress-wrapper {
   }
 
   .cart__image {
-      flex: 0 0 110px;
+      flex: 0 0 100px;
   }
+  
+}
+
+
+@media only screen and (max-width: 480px) {
   
 }
 
