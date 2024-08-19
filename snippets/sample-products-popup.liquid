@@ -74,6 +74,15 @@
     }
   }
 
+  function updateSampleProductDisplay(cartTotal) {
+    const simpleProductRow = document.querySelector('.simple-product');
+
+    if (simpleSlider) {
+      setTimeout(function() {
+        simpleSlider.resize();
+      }, 500);
+    }
+  }
 
   function fetchCartData() {
     return fetch('/cart.js')
@@ -88,8 +97,19 @@
       });
   }
 
+  function initializeSampleProductDisplay() {
+    fetchCartData().then(cartData => {
+      updateSampleProductDisplay(cartData.total_price);
+      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
+    });
+  }
 
-
+  document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      var variantId = button.getAttribute('data-variant-id');
+      toggleProduct(variantId, button);
+    });
+  });
 
   document.querySelector('.popup-checkout-btn').addEventListener('click', () => {
     console.log('Checkout button clicked'); // Debugging information
