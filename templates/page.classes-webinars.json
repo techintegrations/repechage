@@ -331,9 +331,21 @@
             "date": "5-7",
             "class": "TRADESHOW",
             "title": "America's Beauty Show",
-            "text": "<p><strong>Location: Donald E. Stephens Convention Center<\/strong><\/p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "text": "<p><strong>Location: Donald E. Stephens Convention Center<\/strong><\/p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
             "button_label": "REGISTER",
             "button_link": "https:\/\/www.americasbeautyshow.com\/collections\/abs-2025-tickets"
+          }
+        },
+        "class_LWJTPy": {
+          "type": "class",
+          "settings": {
+            "month": "October",
+            "date": "28-30",
+            "class": "MASTER CLASS",
+            "title": "Elevate Your Skincare Expertise",
+            "text": "<p><strong>Master Class with Lydia Sarfati<\/strong><\/p><p>This masterclass will provide hands-on experience, practical insights, and advanced techniques to elevate your skincare practice. Don’t miss this opportunity to learn from a leading expert in the field and enhance your skills with cutting-edge treatments.<\/p><p><strong>Day 1: Mastering Compromised Skin<\/strong><\/p><p><strong>Lecture and Workshop:<\/strong> Explore the complexities of compromised skin, including conditions resulting from harsh chemicals, chemotherapy, sun damage, wind, cold, and more. Learn how to assess and address these conditions with a do-no-harm approach.<\/p><p><strong>Treatments:<\/strong><\/p><ul><li><strong>Hydra Dew Pure Facial:<\/strong> Understand the fundamentals of this hydrating treatment and its benefits for compromised skin.<\/li><li><strong>Red Out Facial:<\/strong> Focus on rosacea and learn effective strategies for managing and soothing sensitive skin.<\/li><li><strong>Eye Contour Treatment Add-Ons:<\/strong> Enhance your knowledge of targeted treatments for delicate eye areas.<\/li><li><strong>Skin Histology Review:<\/strong> Gain insights into skin structure and function to better understand treatment outcomes.<\/li><\/ul><p><strong>Day 2: Advanced Facial Techniques<\/strong><\/p><p><strong>Treatments:<\/strong><\/p><ul><li><strong>Vita Cura Facial:<\/strong> Discover the powerful effects of this anti-aging treatment designed to rejuvenate and revitalize the skin.<\/li><li><strong>Biolight Facial:<\/strong> Learn about this brightening treatment and its benefits for uneven skin tones.<\/li><li><strong>Biolight Express Facial:<\/strong> Get to know the express version of the Biolight treatment for those clients on the go.<\/li><\/ul><p><strong>Day 3: Comprehensive Facial and Body Therapies<\/strong><\/p><p><strong>Facials and Body Treatments:<\/strong><\/p><ul><li><strong>Four Layer Facial:<\/strong> Master this multi-layered treatment designed to deeply nourish and hydrate the skin.<\/li><li><strong>Body Therapy Treatments:<\/strong> Delve into detox and anti-cellulite techniques to complement your facial services and offer holistic skincare solutions.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
@@ -357,7 +369,8 @@
         "class_ULYxqg",
         "class_c9CLCt",
         "class_WNEhey",
-        "class_xNiYcL"
+        "class_xNiYcL",
+        "class_LWJTPy"
       ],
       "settings": {
         "bg_color": "",
