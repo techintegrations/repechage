@@ -71,6 +71,10 @@
       selectedProducts = selectedProducts.filter(id => id !== variantId);
       button.textContent = '{{ "products.product.add_to_cart" | t }}';
       button.classList.remove('remove-btn');
+      
+      // Remove the product from the cart
+      removeProductFromCart(variantId);
+      
     } else {
       if (selectedProducts.length < maxProducts) {
         selectedProducts.push(variantId);
@@ -83,6 +87,7 @@
     document.querySelector('.max-samples-message').style.display = selectedProducts.length == maxProducts ? 'block' : 'none';
     toggleCheckoutButton();
   }
+
 
   function toggleCheckoutButton() {
     var checkoutButton = document.querySelector('.popup-checkout-btn');
