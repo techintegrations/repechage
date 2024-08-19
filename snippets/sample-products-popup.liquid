@@ -133,33 +133,12 @@
       });
   }
 
-    function initializeSampleProductDisplay() {
-  fetchCartData().then(cartData => {
-    updateSampleProductDisplay(cartData.total_price);
-    sessionStorage.setItem('cartTotal', cartData.total_price.toString());
-
-    // Ensure that items is an array
-    if (Array.isArray(cartData.items)) {
-      // Check if any products in the cart are already selected
-      cartData.items.forEach(item => {
-        if (selectedProducts.length < maxProducts) {
-          selectedProducts.push(item.variant_id);
-
-          // Find the corresponding button and add the remove-btn class
-          const button = document.querySelector(`.add-to-cart-btn[data-variant-id="${item.variant_id}"]`);
-          if (button) {
-            button.textContent = 'Remove';
-            button.classList.add('remove-btn');
-          }
-        }
-      });
-    }
-
-    // Update the checkout button state
-    toggleCheckoutButton();
-  });
-}
-
+  function initializeSampleProductDisplay() {
+    fetchCartData().then(cartData => {
+      updateSampleProductDisplay(cartData.total_price);
+      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
+    });
+  }
 
   document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', () => {
@@ -249,25 +228,6 @@
     // Initial toggle of checkout button state
     toggleCheckoutButton();
   });
-
-
-  // Fetch cart data
-  fetch('/cart.js')
-    .then(response => response.json())
-    .then(cart => {
-      // Get all add-to-cart buttons
-      document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-        let variantId = button.getAttribute('data-variant-id');
-        
-        // Check if the variant ID is in the cart
-        let itemInCart = cart.items.find(item => item.id == variantId);
-
-        if (itemInCart) {
-          // Add the "remove" class if the item is already in the cart
-          button.classList.add('remove-btn');
-        }
-      });
-    });
 </script>
 
 
