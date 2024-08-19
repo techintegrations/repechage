@@ -1393,6 +1393,15 @@ body.template-cart #cart-progress-wrapper {
 
 
 @media only screen and (max-width: 480px) {
+
+  .image-with-info-title h2 {
+      font-size: 24px;
+      line-height: normal;
+  }
+  
+  .collection-banner_row .info-col.col {
+      padding: 0px;
+  }
   
 }
 
