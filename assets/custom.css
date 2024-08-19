@@ -533,7 +533,7 @@
 .grid__item-image-wrapper .atc-btn {
     text-align: center;
     position: relative;
-    z-index: 11;
+    z-index: 1;
     margin-top: 5px;
 }
 
