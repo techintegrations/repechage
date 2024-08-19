@@ -1384,6 +1384,10 @@ body.template-cart #cart-progress-wrapper {
       padding: 0 15px;
   }
 
+  .cart__page-col {
+      margin-top: 24px;
+  }
+
   
 }
 
