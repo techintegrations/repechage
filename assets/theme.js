@@ -1896,6 +1896,8 @@ theme.recentlyViewed = {
         });
       },
 
+      
+
       checkForOnlySampleProducts: function() {
         // Check if the cart only contains sample items
         var items = this.products.querySelectorAll('.cart__item');
