@@ -75,7 +75,25 @@
   }
 
 
+  function fetchCartData() {
+    return fetch('/cart.js')
+      .then(response => response.json())
+      .then(data => ({
+        total_price: data.total_price, 
+        item_count: data.item_count 
+      }))
+      .catch(error => {
+        console.error('Error fetching cart data:', error);
+        return { total_price: 0, item_count: 0 };
+      });
+  }
 
+  function initializeSampleProductDisplay() {
+    fetchCartData().then(cartData => {
+      updateSampleProductDisplay(cartData.total_price);
+      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
+    });
+  }
 
   document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', () => {
@@ -123,6 +141,16 @@
   document.addEventListener('DOMContentLoaded', function() {
     initializeSampleProductDisplay();
 
+    // Initialize Flickity sliders
+    premiumSlider = new Flickity('.premium-product', {
+      cellAlign: 'left',
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+    });
 
     simpleSlider = new Flickity('.simple-product', {
       cellAlign: 'left',
@@ -147,6 +175,7 @@
     document.querySelector('.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
       setTimeout(function() {
+        if (premiumSlider) premiumSlider.resize(); // Resize premium Flickity slider
         if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
       }, 500);
     });
