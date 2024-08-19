@@ -1232,6 +1232,9 @@ body.template-cart #cart-progress-wrapper {
     padding: 7px 10px 16px 10px;
 }
 
+.cart__image .image-wrap {
+    border: 1px solid #d9dbde;
+}
 
 @media only screen and (min-width: 769px) {
 
