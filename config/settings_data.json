@@ -112,7 +112,7 @@
     "premium_products": [
       "algo-mist-hydrating-seaweed-facial-spray-2"
     ],
-    "amount": 25000,
+    "amount": 250,
     "max_product_message": "Max [number] Samples are allowed",
     "sample_products_trigger": "SELECT 3 FREE SAMPLES",
     "social_facebook_link": "https:\/\/www.facebook.com\/RepechageSkinCare",
@@ -434,10 +434,6 @@
             "1520882467782": {
               "type": "logo",
               "settings": {
-                "logo": "",
-                "logo-inverted": "",
-                "desktop_logo_width": 200,
-                "mobile_logo_width": 140
               }
             }
           },
