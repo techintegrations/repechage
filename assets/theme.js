@@ -1900,46 +1900,43 @@ theme.recentlyViewed = {
       
 
       checkForOnlySampleProducts: function() {
-      // Check if the cart contains only sample items and handle accordingly
-      var items = this.products.querySelectorAll('.cart__item');
-      var hasNonSampleProduct = false;
-      var sampleProducts = [];
-      var sampleProductKey = null;
+  var items = this.products.querySelectorAll('.cart__item');
+  var hasNonSampleProduct = false;
+  var sampleProducts = [];
 
-      items.forEach(function(item) {
-        if (!item.hasAttribute('data-sample-item')) {
-          hasNonSampleProduct = true;
-        } else {
-          sampleProducts.push(item.dataset.key);
-        }
-      });
+  items.forEach(function(item) {
+    if (!item.hasAttribute('data-sample-item')) {
+      hasNonSampleProduct = true;
+    } else {
+      sampleProducts.push(item.dataset.key);
+    }
+  });
 
-      // Automatically remove the fourth sample product
-      if (sampleProducts.length > 3) {
-        // Remove the fourth (and any subsequent) sample product(s)
-        var removeItems = sampleProducts.slice(3); // Get the fourth and beyond
-        removeItems.forEach(function(key) {
-          theme.cart.changeItem(key, 0).then(() => {
-            this.buildCart(); // Rebuild cart after removal
-          }.bind(this));
-        }.bind(this));
-      }
+  // Automatically remove the fourth sample product
+  if (sampleProducts.length > 3) {
+    var removeItems = sampleProducts.slice(3); // Get the fourth and beyond
+    removeItems.forEach(function(key) {
+      theme.cart.changeItem(key, 0).then(function() {
+        this.buildCart(); // Rebuild cart after removal
+      }.bind(this));
+    }.bind(this));
+  }
 
-      // Disable checkout button if only sample products
-      if (!hasNonSampleProduct && sampleProducts.length > 0) {
-        this.submitBtn.setAttribute('disabled', 'disabled');
-      } else {
-        this.submitBtn.removeAttribute('disabled');
-      }
+  // Disable checkout button if only sample products
+  if (!hasNonSampleProduct && sampleProducts.length > 0) {
+    this.submitBtn.setAttribute('disabled', 'disabled');
+  } else {
+    this.submitBtn.removeAttribute('disabled');
+  }
 
-      // Hide "SELECT 3 FREE SAMPLES" button if 3 samples are in the cart
-      if (sampleProducts.length >= 3) {
-        $(selectors.sampleProductBtn).hide();
-      } else {
-        $(selectors.sampleProductBtn).show();
-      }
-    },
-  
+  // Hide "SELECT 3 FREE SAMPLES" button if 3 samples are in the cart
+  if (sampleProducts.length >= 3) {
+    $(selectors.sampleProductBtn).hide();
+  } else {
+    $(selectors.sampleProductBtn).show();
+  }
+},
+
       updateCartDiscounts: function(markup) {
         if (!this.discounts) {
           return;
