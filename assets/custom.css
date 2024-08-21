@@ -1524,6 +1524,15 @@ body.template-cart #cart-progress-wrapper {
       margin-top: 24px;
   }
 
+  .footer__bottom-text {
+      display: block;
+      margin-top: 30px;
+  }
+  
+  .footer__bottom-text .footer__small-text {
+      margin-bottom: 16px;
+  }
+
   
 }
 
