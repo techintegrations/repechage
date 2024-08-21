@@ -668,7 +668,6 @@
     transition: 0.3s;
     background: #d9dbde;
     padding: 12px 25px;
-    margin-right: 20px;    
     font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
     text-transform: uppercase;
 }
