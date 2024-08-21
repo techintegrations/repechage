@@ -124,11 +124,11 @@ jQuery(document).ready(function($) {
         if ($(button).hasClass('remove-btn')) {
             // Remove product from selected list
             selectedProducts = selectedProducts.filter(id => id !== variantId);
-            $(button).removeClass('remove-btn').text('Remove');
+            $(button).removeClass('remove-btn').text('Add to cart');
         } else {
             // Add product to selected list
             selectedProducts.push(variantId);
-            $(button).addClass('remove-btn').text('{{ "products.product.remove_from_cart" | t }}');
+            $(button).addClass('remove-btn').text('Add to cart');
         }
         updateUI();
     }
