@@ -342,7 +342,7 @@
             class="btn"
           >
             {% if current_variant.available %}
-              {{ 'products.product.add_to_cart' | t }}
+              <span class="text">{{ 'products.product.add_to_cart' | t }}</span>
             {% else %}
               {{ 'products.product.sold_out' | t }}
             {% endif %}
