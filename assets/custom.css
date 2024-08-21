@@ -853,6 +853,9 @@
 .product_list-block .grid-product__content .grid-product__info {
     flex: 1 0 0;
     padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .product_list-block .grid-product {
