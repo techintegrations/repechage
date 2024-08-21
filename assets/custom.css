@@ -1325,6 +1325,10 @@ body.template-cart #cart-progress-wrapper {
     border: 1px solid #d9dbde;
 }
 
+.grid__item-image-wrapper .atc-btn .icon-svg {
+    display: none;
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
