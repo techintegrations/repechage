@@ -889,6 +889,26 @@
     min-height: auto;
 }
 
+.product_list-block .grid__item-image-wrapper .atc-btn .text {
+    display: none;
+}
+
+.product_list-block .grid__item-image-wrapper .atc-btn .icon-svg {
+    display: inline-flex;
+    align-items: center;
+    width: 50px;
+    height: 44px;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.product_list-block .grid-product__info .grid-product__link {
+    flex: 1 0 0;
+}
+
+
 .tab__text-image-video {
     display: flex;
     flex-wrap: wrap;
