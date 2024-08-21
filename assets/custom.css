@@ -660,9 +660,9 @@
 .product-tabs .tab-row {
     border-bottom: 1px solid #000;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
+    overflow: auto;
 }
 
 .product-tabs .tab-row .tab {
