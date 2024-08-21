@@ -671,6 +671,7 @@
     padding: 12px 25px;
     font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .product-tabs .tab-row .tab.active {
