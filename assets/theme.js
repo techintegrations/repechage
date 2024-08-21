@@ -1886,7 +1886,7 @@ theme.recentlyViewed = {
           Shopify.StorefrontExpressButtons.initialize();
         }
         // Sample products 
-        this.checkForOnlySampleProducts();
+        //this.checkForOnlySampleProducts();
 
         // Free shipping bar 
         fetchCartData().then(cartData => {
