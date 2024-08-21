@@ -44,7 +44,6 @@
 
 .rc-template__radio .rc-radio.rc-radio--active~.rc-selling-plans {
     padding: 0 !important;
-    background: transparent !important;
 }
 
 .rc-template__radio .rc-radio__label {
