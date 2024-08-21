@@ -98,7 +98,10 @@
 
   });
 
-  jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
+    // Maximum allowed products
+    var maxAllowedProducts = 3;
+
     // Attach event listener to all buttons with the class 'add-to-cart-btn'
     $('.add-to-cart-btn').on('click', function() {
         // Get the variant ID from the data attribute
@@ -112,24 +115,55 @@
         var id = variantId;
         var q = qty;
 
-        var ajax = {
-            type: "POST",
-            url: "/cart/add.js",
-            data: "quantity=" + q + "&id=" + id,
-            dataType: "json",
-            success: function(n) {
+        // Fetch the current cart data to count products
+        fetch('/cart.js')
+        .then(response => response.json())
+        .then(cartData => {
+            var itemCount = cartData.item_count;
+
+            if (itemCount >= maxAllowedProducts) {
+                // Close the cart drawer since the max limit is reached
                 var cart = new theme.CartDrawer();
                 cart.init();
-                cart.open();
-            },
-            error: function(n, c) {
-                console.log('fail');
-            }
-        };
+                cart.close();
 
-        jQuery.ajax(ajax);
+                alert('You have reached the maximum number of allowed sample products.');
+
+                return; // Prevent adding more products
+            }
+
+            // Proceed with adding the product if limit is not reached
+            var ajax = {
+                type: "POST",
+                url: "/cart/add.js",
+                data: "quantity=" + q + "&id=" + id,
+                dataType: "json",
+                success: function(n) {
+                    var cart = new theme.CartDrawer();
+                    cart.init();
+                    cart.open();
+
+                    // Close the cart drawer if max products are now in the cart
+                    if (itemCount + 1 >= maxAllowedProducts) {
+                        setTimeout(function() {
+                            cart.close();
+                        }, 1000);
+                    }
+
+                    // Rebuild the cart to apply any sample product conditions
+                    theme.CartForm.prototype.buildCart();
+                },
+                error: function(n, c) {
+                    console.log('fail');
+                }
+            };
+
+            jQuery.ajax(ajax);
+        });
     }
-}); 
+});
+
+
 </script>
 
 
