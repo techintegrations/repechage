@@ -881,6 +881,8 @@
 
 .product_list-block .grid__item-image-wrapper .atc-btn {
     text-align: left;
+    flex: 0 0 auto;
+    margin: 0px;
 }
 
 .product_list-block .grid-product .grid-product__title {
