@@ -182,6 +182,41 @@
     // // Initial toggle of checkout button state
     // toggleCheckoutButton();
   });
+
+  jQuery(document).ready(function($) {
+    // Attach event listener to all buttons with the class 'add-to-cart-btn'
+    $('.add-to-cart-btn').on('click', function() {
+        // Get the variant ID from the data attribute
+        var variantId = $(this).data('variant-id');
+
+        // Call the add to cart function with the correct variant ID and a quantity of 1
+        add_to_cart_grid(variantId, 1);
+    });
+
+    function add_to_cart_grid(variantId, qty) {
+        var id = variantId;
+        var q = qty;
+
+        var ajax = {
+            type: "POST",
+            url: "/cart/add.js",
+            data: "quantity=" + q + "&id=" + id,
+            dataType: "json",
+            success: function(n) {
+                var cart = new theme.CartDrawer();
+                cart.init();
+                cart.open();
+            },
+            error: function(n, c) {
+                console.log('fail');
+            }
+        };
+
+        jQuery.ajax(ajax);
+    }
+});
+
+  
 </script>
 
 
