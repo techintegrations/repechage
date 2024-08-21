@@ -32,8 +32,9 @@
     left: 18px;
 }
 
-.rc-template__radio .rc-radio {
+.rc-widget .rc-template__radio .rc-radio {
     position: relative;
+    padding: 12px;
 }
 
 .rc-radio .rc-radio__input {
