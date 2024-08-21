@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.product_list-block .grid-product__content .grid-product__info #prod-info-yot {
+    display: none;
+}
+
 #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline span.yotpo-stars {
     display: flex;
     height: 20px;
