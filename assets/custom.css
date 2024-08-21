@@ -1362,6 +1362,11 @@ body.template-cart #cart-progress-wrapper {
   .product_list-block .grid-product {
       width: 100%;
   }
+
+  .product_list-block .grid-product__content .grid-product__info {
+      padding: 0 12px;
+  }
+  
 }
 
 @media only screen and (min-width: 769px) {
