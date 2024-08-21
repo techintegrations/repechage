@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
         if ($(button).hasClass('remove-btn')) {
             // Remove product from selected list
             selectedProducts = selectedProducts.filter(id => id !== variantId);
-            $(button).removeClass('remove-btn').text('{{ "products.product.add_to_cart" | t }}');
+            $(button).removeClass('remove-btn').text('Remove');
         } else {
             // Add product to selected list
             selectedProducts.push(variantId);
