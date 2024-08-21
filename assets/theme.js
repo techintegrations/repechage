@@ -1682,26 +1682,26 @@ theme.recentlyViewed = {
       const storedCartTotal = sessionStorage.getItem('cartTotal');
       if (storedCartTotal) {
         const cartTotal = parseInt(storedCartTotal, 10);
-       // const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-       // updateProgressBar(cartTotal, cartData.item_count);
+        const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+        updateProgressBar(cartTotal, cartData.item_count);
       }
     }
   
     document.addEventListener('DOMContentLoaded', function() {
   
       // Function to fetch cart data (replace with actual Shopify cart fetching logic)
-      // function fetchCartData() {
-      //   // Example implementation: Replace with actual Shopify cart fetching logic
-      //   return {
-      //     total_price: 5000, // Example cart total in cents
-      //     item_count: 3      // Example item count
-      //   };
-      // }
+      function fetchCartData() {
+        // Example implementation: Replace with actual Shopify cart fetching logic
+        return {
+          total_price: 5000, // Example cart total in cents
+          item_count: 3      // Example item count
+        };
+      }
       initializeProgressBar();
     
       // Event listener for cart updates (replace with your actual event listener logic)
       document.addEventListener('cart:updated', function(event) {
-        //const updatedCartData = event.detail.cart;
+        const updatedCartData = event.detail.cart;
         updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
     
         // Store updated cart total in sessionStorage
@@ -1889,11 +1889,11 @@ theme.recentlyViewed = {
         this.checkForOnlySampleProducts();
 
         // Free shipping bar 
-        // fetchCartData().then(cartData => {
-        //   if (cartData) {
-        //     updateProgressBar(cartData.total_price, cartData.item_count);
-        //   }
-        // });
+        fetchCartData().then(cartData => {
+          if (cartData) {
+            updateProgressBar(cartData.total_price, cartData.item_count);
+          }
+        });
       },
 
       
