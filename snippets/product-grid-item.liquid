@@ -341,8 +341,14 @@
             onclick="add_to_cart_grid({{current_variant.id}},1)"
             class="btn"
           >
-            
+            {% if current_variant.available %}
+              <span class="text">{{ 'products.product.add_to_cart' | t }}</span>
+              <span class="icon-svg">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path style="stroke-miterlimit:10" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+              </span>
+            {% else %}
               {{ 'products.product.sold_out' | t }}
+            {% endif %}
           </button>
         </div>
       </div>
