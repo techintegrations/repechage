@@ -98,24 +98,27 @@
 
   });
 
-  jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
     // Maximum allowed sample products
     var maxAllowedSamples = 3;
+
+    // Function to update the UI based on the number of sample products in the cart
+    function updateUI(sampleCount) {
+        if (sampleCount >= maxAllowedSamples) {
+            $('.max-samples-message').show(); // Show the max samples message
+            $('.add-to-cart-btn').attr('disabled', true); // Disable all add-to-cart buttons
+        } else {
+            $('.max-samples-message').hide(); // Hide the max samples message
+            $('.add-to-cart-btn').removeAttr('disabled'); // Enable all add-to-cart buttons
+        }
+    }
 
     // Attach event listener to all buttons with the class 'add-to-cart-btn'
     $('.add-to-cart-btn').on('click', function() {
         // Get the variant ID from the data attribute
         var variantId = $(this).data('variant-id');
 
-        // Call the add to cart function with the correct variant ID and a quantity of 1
-        add_to_cart_grid(variantId, 1);
-    });
-
-    function add_to_cart_grid(variantId, qty) {
-        var id = variantId;
-        var q = qty;
-
-        // Fetch the current cart data to count sample products
+        // Fetch the current cart data to count sample products before proceeding
         fetch('/cart.js')
         .then(response => response.json())
         .then(cartData => {
@@ -123,14 +126,8 @@
             var sampleCount = cartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
 
             if (sampleCount >= maxAllowedSamples) {
-                // Show the max samples message
-                $('.max-samples-message').show();
-
-                // Close the cart drawer since the max limit is reached
-                var cart = new theme.CartDrawer();
-                cart.init();
-                cart.close();
-
+                // Update the UI to show max samples message and disable buttons
+                updateUI(sampleCount);
                 return; // Prevent adding more products
             }
 
@@ -138,31 +135,43 @@
             var ajax = {
                 type: "POST",
                 url: "/cart/add.js",
-                data: "quantity=" + q + "&id=" + id,
+                data: "quantity=" + 1 + "&id=" + variantId,
                 dataType: "json",
-                success: function(n) {
-                    var cart = new theme.CartDrawer();
-                    cart.init();
-                    cart.open();
+                success: function() {
+                    // Update the cart after adding the product
+                    fetch('/cart.js')
+                    .then(response => response.json())
+                    .then(updatedCartData => {
+                        var updatedSampleCount = updatedCartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
+                        updateUI(updatedSampleCount);
 
-                    // Close the cart drawer if max sample products are now in the cart
-                    if (sampleCount + 1 >= maxAllowedSamples) {
-                        setTimeout(function() {
-                            cart.close();
-                        }, 1000);
-                    }
+                        var cart = new theme.CartDrawer();
+                        cart.init();
+                        cart.open();
 
-                    // Rebuild the cart to apply any sample product conditions
-                    theme.CartForm.prototype.buildCart();
+                        if (updatedSampleCount >= maxAllowedSamples) {
+                            setTimeout(function() {
+                                cart.close();
+                            }, 1000);
+                        }
+                    });
                 },
-                error: function(n, c) {
+                error: function() {
                     console.log('fail');
                 }
             };
 
             jQuery.ajax(ajax);
         });
-    }
+    });
+
+    // Initial check on page load to disable buttons if limit is reached
+    fetch('/cart.js')
+    .then(response => response.json())
+    .then(cartData => {
+        var sampleCount = cartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
+        updateUI(sampleCount);
+    });
 });
 
 </script>
