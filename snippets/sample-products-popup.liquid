@@ -164,19 +164,19 @@
     // Event listener for cart updates (replace with your actual event listener logic)
     // document.addEventListener('cart:updated', function(event) {
     //   const updatedCartData = event.detail.cart;
-    //   updateSampleProductDisplay(updatedCartData.total_price);
+    // updateSampleProductDisplay(updatedCartData.total_price);
 
     //   // Store updated cart total in sessionStorage
     //   sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
     // });
 
     // Attach click event handler to button
-    // document.querySelector('.sample-product-btn').addEventListener('click', function() {
-    //   // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
-    //   setTimeout(function() {
-    //     if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
-    //   }, 500);
-    // });
+    document.querySelector('.sample-product-btn').addEventListener('click', function() {
+      // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
+      setTimeout(function() {
+        if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
+      }, 500);
+    });
 
     // // Initial toggle of checkout button state
     // toggleCheckoutButton();
