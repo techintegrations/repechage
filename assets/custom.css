@@ -858,6 +858,7 @@
 .product_list-block .grid-product {
     margin-bottom: 0px;
     padding: 0 5px;
+    width: 75%;
 }
 
 .product_list-block .atc-btn .btn {
