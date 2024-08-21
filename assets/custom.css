@@ -35,6 +35,7 @@
 .rc-widget .rc-template__radio .rc-radio {
     position: relative;
     padding: 12px;
+    border: 1px solid #000;
 }
 
 .rc-radio .rc-radio__input {
@@ -89,10 +90,6 @@
 .rc-widget .rc-template__radio .rc-selling-plans-dropdown select {
     border-top: 0px;
     padding-top: 5px;
-}
-
-.rc-widget .rc-template__radio .rc-radio.onetime-radio {
-    margin-bottom: 10px;
 }
 
 .rc-widget .rc-template__radio .rc-radio.rc-radio--active.subscription-radio {
