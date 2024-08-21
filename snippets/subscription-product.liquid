@@ -186,7 +186,7 @@
 				<div class="rc_block rc_block__type rc_block__type__onetime {% unless select_subscription_first %}rc_block__type--active{% endunless %}">
 					<input type="radio" id="rc_purchase_type_onetime" name="purchase_type" value="onetime" {% unless select_subscription_first %}checked{% endunless %} class="rc_radio rc_radio__onetime">
 					<label for="rc_purchase_type_onetime" class="rc_label rc_label__onetime">
-						<span>{{ label_onetime }}</span>{% if discount_percentage > 0 %}:{% endif %}
+						{{ label_onetime }}{% if discount_percentage > 0 %}:{% endif %}
 						{% if discount_percentage > 0 %}
 							<span id="rc_price_onetime" class="rc_price rc_price__onetime" aria-label="original price"></span>
 						{% endif %}
