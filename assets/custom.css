@@ -1357,6 +1357,13 @@ body.template-cart #cart-progress-wrapper {
     display: none;
 }
 
+
+@media only screen and (max-width: 1200px) {
+  .product_list-block .grid-product {
+      width: 100%;
+  }
+}
+
 @media only screen and (min-width: 769px) {
 
   .feature-row-wrapper.feature-row--66 .feature-row__text {
@@ -1369,10 +1376,6 @@ body.template-cart #cart-progress-wrapper {
 
 
 @media only screen and (max-width: 768px) {
-
-  .product_list-block .grid-product {
-      width: 100%;
-  }
 
   .hero[data-arrows=true] .flickity-prev-next-button {
       display: none;
