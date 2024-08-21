@@ -1552,6 +1552,10 @@ body.template-cart #cart-progress-wrapper {
       display: block;
       padding-right: 0px;
   }
+
+  .product_list-block .grid__item-image-wrapper .grid-product__image-mask {
+      flex: 0 0 115px;
+  }
   
 }
 
