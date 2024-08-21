@@ -1938,7 +1938,6 @@ theme.recentlyViewed = {
       } else {
         $(selectors.sampleProductBtn).show();
       }
-    },
   
       updateCartDiscounts: function(markup) {
         if (!this.discounts) {
