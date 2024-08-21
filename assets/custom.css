@@ -12,23 +12,23 @@
 
 .rc-template__radio .rc-radio:before {
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     display: inline-block;
     border: 1px solid #000000;
     position: absolute;
-    top: 12px;
+    top: 13px;
     left: 15px;
 }
 
 .rc-template__radio .rc-radio.rc-radio--active:after {
     content: '';
     display: inline-block;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     background: #000;
     position: absolute;
-    top: 15px;
+    top: 16px;
     left: 18px;
 }
 
