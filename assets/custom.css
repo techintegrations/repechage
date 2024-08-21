@@ -1,8 +1,6 @@
-.cart__item[data-sample="true"] {}
-
-.cart__item[data-sample-item="true"] .cart__remove {
+/* .cart__item[data-sample-item="true"] .cart__remove {
     display: block;
-}
+} */
 #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline {
     display: block;
     text-align: center;
