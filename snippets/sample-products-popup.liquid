@@ -97,81 +97,71 @@
     });
 
   });
-
 jQuery(document).ready(function($) {
     // Maximum allowed sample products
     var maxAllowedSamples = 3;
+    var selectedProducts = [];
 
-    // Function to update the UI based on the number of sample products in the cart
-    function updateUI(sampleCount) {
-        if (sampleCount >= maxAllowedSamples) {
-            $('.max-samples-message').show(); // Show the max samples message
-            $('.add-to-cart-btn').attr('disabled', true); // Disable all add-to-cart buttons
+    // Function to update the UI based on the selected products
+    function updateUI() {
+        if (selectedProducts.length >= maxAllowedSamples) {
+            $('.add-to-cart-btn:not(.remove-btn)').attr('disabled', true); // Disable all add-to-cart buttons
         } else {
-            $('.max-samples-message').hide(); // Hide the max samples message
             $('.add-to-cart-btn').removeAttr('disabled'); // Enable all add-to-cart buttons
         }
+
+        if (selectedProducts.length > 0) {
+            $('.popup-checkout-btn').removeAttr('disabled'); // Enable checkout button
+        } else {
+            $('.popup-checkout-btn').attr('disabled', true); // Disable checkout button
+        }
+    }
+
+    // Function to handle add/remove button click
+    function toggleProductSelection(button, variantId) {
+        if ($(button).hasClass('remove-btn')) {
+            // Remove product from selected list
+            selectedProducts = selectedProducts.filter(id => id !== variantId);
+            $(button).removeClass('remove-btn').text('{{ "products.product.add_to_cart" | t }}');
+        } else {
+            // Add product to selected list
+            selectedProducts.push(variantId);
+            $(button).addClass('remove-btn').text('{{ "products.product.remove_from_cart" | t }}');
+        }
+        updateUI();
     }
 
     // Attach event listener to all buttons with the class 'add-to-cart-btn'
     $('.add-to-cart-btn').on('click', function() {
-        // Get the variant ID from the data attribute
         var variantId = $(this).data('variant-id');
-
-        // Fetch the current cart data to count sample products before proceeding
-        fetch('/cart.js')
-        .then(response => response.json())
-        .then(cartData => {
-            // Filter to get only the sample items from the cart
-            var sampleCount = cartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
-
-            if (sampleCount >= maxAllowedSamples) {
-                // Update the UI to show max samples message and disable buttons
-                updateUI(sampleCount);
-                return; // Prevent adding more products
-            }
-
-            // Proceed with adding the product if limit is not reached
-            var ajax = {
-                type: "POST",
-                url: "/cart/add.js",
-                data: "quantity=" + 1 + "&id=" + variantId,
-                dataType: "json",
-                success: function() {
-                    // Update the cart after adding the product
-                    fetch('/cart.js')
-                    .then(response => response.json())
-                    .then(updatedCartData => {
-                        var updatedSampleCount = updatedCartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
-                        updateUI(updatedSampleCount);
-
-                        var cart = new theme.CartDrawer();
-                        cart.init();
-                        cart.open();
-
-                        if (updatedSampleCount >= maxAllowedSamples) {
-                            setTimeout(function() {
-                                cart.close();
-                            }, 1000);
-                        }
-                    });
-                },
-                error: function() {
-                    console.log('fail');
-                }
-            };
-
-            jQuery.ajax(ajax);
-        });
+        toggleProductSelection(this, variantId);
     });
 
-    // Initial check on page load to disable buttons if limit is reached
-    fetch('/cart.js')
-    .then(response => response.json())
-    .then(cartData => {
-        var sampleCount = cartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
-        updateUI(sampleCount);
+    // Handle the checkout button click
+    $('.popup-checkout-btn').on('click', function() {
+        if (selectedProducts.length > 0) {
+            var ajaxCalls = selectedProducts.map(function(variantId) {
+                return $.ajax({
+                    type: "POST",
+                    url: "/cart/add.js",
+                    data: { quantity: 1, id: variantId },
+                    dataType: "json"
+                });
+            });
+
+            // Execute all AJAX calls and then open the cart drawer
+            $.when.apply($, ajaxCalls).then(function() {
+                var cart = new theme.CartDrawer();
+                cart.init();
+                cart.open();
+                // Close the popup
+                $.fancybox.close();
+            });
+        }
     });
+
+    // Initial UI setup
+    updateUI();
 });
 
 </script>
