@@ -10,26 +10,6 @@
     </div>
   {% endif %}
 
-  <div class="sample-product-row premium-product {% if settings.premium_products.size > 4 %}sample-product-slider{% endif %}">
-    {% for Pproduct in settings.premium_products %}
-      <div class="sample-product">
-        <div class="f-image">
-          <img src="{{ Pproduct.featured_image | img_url:'300x' }}">
-        </div>
-        <div class="grid-product__info">
-          <div class="grid-product__title grid-product__title--body">{{ Pproduct.title }}</div>
-          {% assign current_variant = Pproduct.selected_or_first_available_variant %}
-          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
-            {% if current_variant.available %}
-              {{ 'products.product.add_to_cart' | t }}
-            {% else %}
-              {{ 'products.product.sold_out' | t }}
-            {% endif %}
-          </button>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 
   <div class="sample-product-row simple-product">
     {% for Sproduct in settings.sample_products %}
@@ -64,7 +44,7 @@
   var selectedProducts = [];
   var maxProducts = document.querySelector('.sample-product-wrapper').getAttribute('data-max-products');
   var threshold = document.querySelector('.sample-product-wrapper').getAttribute('data-threshold');
-  var premiumSlider, simpleSlider; // Define the Flickity variables for both sliders
+  var simpleSlider; // Define the Flickity variables for both sliders
 
   function toggleProduct(variantId, button) {
     if (selectedProducts.includes(variantId)) {
@@ -96,23 +76,8 @@
   }
 
   function updateSampleProductDisplay(cartTotal) {
-    const premiumProductRow = document.querySelector('.premium-product');
     const simpleProductRow = document.querySelector('.simple-product');
 
-    if (cartTotal >= threshold) {
-      premiumProductRow.style.display = 'block';
-      simpleProductRow.style.display = 'none';
-    } else {
-      premiumProductRow.style.display = 'none';
-      simpleProductRow.style.display = 'block';
-    }
-
-    // Resize Flickity sliders
-    if (premiumSlider) {
-      setTimeout(function() {
-        premiumSlider.resize();
-      }, 500);
-    }
     if (simpleSlider) {
       setTimeout(function() {
         simpleSlider.resize();
@@ -186,17 +151,6 @@
   document.addEventListener('DOMContentLoaded', function() {
     initializeSampleProductDisplay();
 
-    // Initialize Flickity sliders
-    premiumSlider = new Flickity('.premium-product', {
-      cellAlign: 'left',
-      contain: true,
-      prevNextButtons: true,
-      pageDots: true,
-      freeScroll: false,
-      avoidReflow: true,
-      wrapAround: true,
-    });
-
     simpleSlider = new Flickity('.simple-product', {
       cellAlign: 'left',
       contain: true,
@@ -220,7 +174,6 @@
     document.querySelector('.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
       setTimeout(function() {
-        if (premiumSlider) premiumSlider.resize(); // Resize premium Flickity slider
         if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
       }, 500);
     });
