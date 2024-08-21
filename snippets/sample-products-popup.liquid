@@ -139,27 +139,36 @@ jQuery(document).ready(function($) {
         toggleProductSelection(this, variantId);
     });
 
+    // Function to add products to the cart sequentially
+    function addProductsSequentially(products, index, callback) {
+        if (index < products.length) {
+            $.ajax({
+                type: "POST",
+                url: "/cart/add.js",
+                data: { quantity: 1, id: products[index] },
+                dataType: "json",
+                success: function() {
+                    addProductsSequentially(products, index + 1, callback); // Add next product
+                },
+                error: function() {
+                    console.log('Failed to add product with ID ' + products[index]);
+                    addProductsSequentially(products, index + 1, callback); // Attempt to add next product
+                }
+            });
+        } else {
+            callback(); // All products added, execute callback
+        }
+    }
+
     // Handle the checkout button click
     $('.popup-checkout-btn').on('click', function() {
         if (selectedProducts.length > 0) {
-            var ajaxCalls = selectedProducts.map(function(variantId) {
-                return $.ajax({
-                    type: "POST",
-                    url: "/cart/add.js",
-                    data: { quantity: 1, id: variantId },
-                    dataType: "json"
-                });
-            });
-
-            // Execute all AJAX calls sequentially
-            $.when.apply($, ajaxCalls).done(function() {
+            addProductsSequentially(selectedProducts, 0, function() {
                 var cart = new theme.CartDrawer();
                 cart.init();
                 cart.open();
                 // Close the popup
                 $.fancybox.close();
-            }).fail(function() {
-                console.log('Failed to add one or more products to the cart.');
             });
         }
     });
