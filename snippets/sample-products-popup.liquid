@@ -82,7 +82,7 @@
       cellAlign: 'left',
       contain: true,
       prevNextButtons: true,
-      pageDots: true,
+      pageDots: false,
       freeScroll: false,
       avoidReflow: true,
       wrapAround: true,
@@ -128,7 +128,7 @@ jQuery(document).ready(function($) {
         } else {
             // Add product to selected list
             selectedProducts.push(variantId);
-            $(button).addClass('remove-btn').text('Add to cart');
+            $(button).addClass('remove-btn').text('Remove');
         }
         updateUI();
     }
