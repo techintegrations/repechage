@@ -1629,6 +1629,88 @@ theme.recentlyViewed = {
   }
   
   /*============================================================================
+    Free Shipping Bar
+    - Free Shipping Progress bar on cart and cart drawer
+  ==============================================================================*/
+    // Function to update progress bar based on cart total
+    function updateProgressBar(cartTotal, itemCount) {
+      const progressWrappers = document.querySelectorAll('.cart-progress-wrapper');
+      
+      progressWrappers.forEach(progressWrapper => {
+        const progressBar = progressWrapper.querySelector('.cart-progress-bar');
+        const goalMessageElement = progressWrapper.querySelector('.goal-message');
+  
+        if (!progressWrapper || !progressBar || !goalMessageElement) {
+          console.error('Progress bar elements not found');
+          return;
+        }
+  
+        const progressThreshold = parseInt(progressWrapper.dataset.threshold, 10);
+        const preGoalMessageTemplate = progressWrapper.dataset.preGoalMessageTemplate;
+        const postGoalMessage = progressWrapper.dataset.postGoalMessage;
+  
+        if (itemCount === 0 || cartTotal === 0) {
+          progressWrapper.style.display = 'none';
+          goalMessageElement.style.display = 'none';
+        } else {
+          progressWrapper.style.display = 'block'; 
+          progressBar.style.display = 'block';
+          const progressPercentage = Math.min((cartTotal / progressThreshold) * 100, 100); 
+          progressBar.style.width = `${progressPercentage}%`;
+  
+          if (progressPercentage >= 100) {
+            progressWrapper.classList.add('full');
+          } else {
+            progressWrapper.classList.remove('full');
+          }
+  
+          goalMessageElement.style.display = 'block';
+          let remainingForGoal = progressThreshold - cartTotal;
+  
+          if (remainingForGoal < 0) {
+            remainingForGoal = 0;
+          }
+  
+          const remainingAmountFormatted = `$${(remainingForGoal / 100).toFixed(2)}`;
+          const preGoalMessage = preGoalMessageTemplate.replace('[remainingForGoalFormatted]', remainingAmountFormatted);
+          goalMessageElement.innerHTML = remainingForGoal > 0 ? preGoalMessage : postGoalMessage;
+        }
+      });
+    }
+    
+    function initializeProgressBar() {
+      const storedCartTotal = sessionStorage.getItem('cartTotal');
+      if (storedCartTotal) {
+        const cartTotal = parseInt(storedCartTotal, 10);
+        const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
+        updateProgressBar(cartTotal, cartData.item_count);
+      }
+    }
+  
+    document.addEventListener('DOMContentLoaded', function() {
+  
+      // Function to fetch cart data (replace with actual Shopify cart fetching logic)
+      function fetchCartData() {
+        // Example implementation: Replace with actual Shopify cart fetching logic
+        return {
+          total_price: 5000, // Example cart total in cents
+          item_count: 3      // Example item count
+        };
+      }
+      initializeProgressBar();
+    
+      // Event listener for cart updates (replace with your actual event listener logic)
+      document.addEventListener('cart:updated', function(event) {
+        const updatedCartData = event.detail.cart;
+        updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
+    
+        // Store updated cart total in sessionStorage
+        sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
+      });
+    });
+
+    
+  /*============================================================================
     CartForm
     - Prevent checkout when terms checkbox exists
     - Listen to quantity changes, rebuild cart (both widget and page)
@@ -1701,7 +1783,18 @@ theme.recentlyViewed = {
         document.addEventListener('cart:build', function() {
           this.buildCart();
         }.bind(this));
+
+        // Add event listener for checkout button
+        this.submitBtn.addEventListener('click', function(evt) {
+          if (this.submitBtn.hasAttribute('disabled')) {
+            alert('Please add some retail product first.');
+            evt.preventDefault();
+          }
+        }.bind(this));
+        
       },
+
+     
   
       reInit: function() {
         this.initQtySelectors();
@@ -1791,6 +1884,56 @@ theme.recentlyViewed = {
   
         if (Shopify && Shopify.StorefrontExpressButtons) {
           Shopify.StorefrontExpressButtons.initialize();
+        }
+        // Sample products 
+        this.checkForOnlySampleProducts();
+
+        // Free shipping bar 
+        fetchCartData().then(cartData => {
+          if (cartData) {
+            updateProgressBar(cartData.total_price, cartData.item_count);
+          }
+        });
+      },
+
+      
+
+      checkForOnlySampleProducts: function() {
+        // Check if the cart only contains sample items
+        var items = this.products.querySelectorAll('.cart__item');
+        var hasNonSampleProduct = false;
+        var sampleProductKey = null;
+  
+        items.forEach(function(item) {
+          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
+          if (!item.hasAttribute('data-sample-item')) {
+            hasNonSampleProduct = true;
+          } else {
+            sampleProductKey = item.dataset.key;
+          }
+        });
+  
+        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
+  
+        if (!hasNonSampleProduct && sampleProductKey) {
+          // Remove the sample product
+          console.log('Removing sample product:', sampleProductKey);
+          theme.cart.changeItem(sampleProductKey, 0).then(() => {
+            this.buildCart();
+          });
+        } else {
+          // Update progress bar if there are non-sample products
+          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
+          const itemCount = items.length;
+          updateProgressBar(cartTotal, itemCount);
+
+          // Disable checkout button if only sample products
+            if (!hasNonSampleProduct) {
+              this.submitBtn.setAttribute('disabled', 'disabled');
+            } else {
+              this.submitBtn.removeAttribute('disabled');
+            }
+          
         }
       },
   
@@ -8352,3 +8495,6 @@ theme.recentlyViewed = {
   });
 
 })();
+
+
+
