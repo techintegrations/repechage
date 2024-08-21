@@ -1683,7 +1683,7 @@ theme.recentlyViewed = {
       if (storedCartTotal) {
         const cartTotal = parseInt(storedCartTotal, 10);
        // const cartData = fetchCartData(); // Replace with actual Shopify cart fetching logic
-        updateProgressBar(cartTotal, cartData.item_count);
+       // updateProgressBar(cartTotal, cartData.item_count);
       }
     }
   
