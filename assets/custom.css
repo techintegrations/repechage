@@ -1544,8 +1544,13 @@ body.template-cart #cart-progress-wrapper {
       margin-right: 12px;
   }
   .sample-product-row .sample-product {
-    flex: 0 0 100%;
+      flex: 0 0 100%;
       width: 100%;
+  }
+
+  .product_list-block .grid-product__content .grid-product__info {
+      display: block;
+      padding-right: 0px;
   }
   
 }
