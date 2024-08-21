@@ -20,13 +20,14 @@
         <div class="grid-product__info">
           <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
           {% assign current_variant = Sproduct.selected_or_first_available_variant %}
-          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
+          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{ current_variant.id }}">
             {% if current_variant.available %}
-              {{ 'products.product.add_to_cart' | t }}
+                {{ 'products.product.add_to_cart' | t }}
             {% else %}
-              {{ 'products.product.sold_out' | t }}
+                {{ 'products.product.sold_out' | t }}
             {% endif %}
-          </button>
+        </button>
+
         </div>
       </div>
     {% endfor %}
