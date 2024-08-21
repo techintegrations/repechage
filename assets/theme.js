@@ -1904,6 +1904,7 @@ theme.recentlyViewed = {
   var hasNonSampleProduct = false;
   var sampleProducts = [];
 
+  // Iterate through all cart items
   items.forEach(function(item) {
     if (!item.hasAttribute('data-sample-item')) {
       hasNonSampleProduct = true;
@@ -1912,7 +1913,17 @@ theme.recentlyViewed = {
     }
   });
 
-  // Automatically remove the fourth sample product
+  // If there are no non-sample products and there are sample products, remove all samples
+  if (!hasNonSampleProduct && sampleProducts.length > 0) {
+    sampleProducts.forEach(function(key) {
+      theme.cart.changeItem(key, 0).then(function() {
+        this.buildCart(); // Rebuild the cart after removal
+      }.bind(this));
+    }.bind(this));
+    return; // Exit the function early since we've cleared the cart
+  }
+
+  // Automatically remove any sample products beyond the third one
   if (sampleProducts.length > 3) {
     var removeItems = sampleProducts.slice(3); // Get the fourth and beyond
     removeItems.forEach(function(key) {
@@ -1922,20 +1933,21 @@ theme.recentlyViewed = {
     }.bind(this));
   }
 
-  // Disable checkout button if only sample products
-  if (!hasNonSampleProduct && sampleProducts.length > 0) {
-    this.submitBtn.setAttribute('disabled', 'disabled');
-  } else {
-    this.submitBtn.removeAttribute('disabled');
-  }
-
-  // Hide "SELECT 3 FREE SAMPLES" button if 3 samples are in the cart
+  // Hide or show the "SELECT 3 FREE SAMPLES" button
   if (sampleProducts.length >= 3) {
     $(selectors.sampleProductBtn).hide();
   } else {
     $(selectors.sampleProductBtn).show();
   }
+
+  // Disable checkout button if only sample products are in the cart
+  if (!hasNonSampleProduct && sampleProducts.length > 0) {
+    this.submitBtn.setAttribute('disabled', 'disabled');
+  } else {
+    this.submitBtn.removeAttribute('disabled');
+  }
 },
+
 
       updateCartDiscounts: function(markup) {
         if (!this.discounts) {
