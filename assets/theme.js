@@ -1903,50 +1903,64 @@ theme.recentlyViewed = {
   var items = this.products.querySelectorAll('.cart__item');
   var hasNonSampleProduct = false;
   var sampleProducts = [];
+  var totalSampleCount = 0;
 
   // Iterate through all cart items
   items.forEach(function(item) {
+    var quantity = parseInt(item.querySelector('.js-qty__num').value, 10) || 0;
+
     if (!item.hasAttribute('data-sample-item')) {
       hasNonSampleProduct = true;
     } else {
-      sampleProducts.push(item.dataset.key);
+      sampleProducts.push({
+        key: item.dataset.key,
+        quantity: quantity
+      });
+      totalSampleCount += quantity;
     }
   });
 
   // If there are no non-sample products and there are sample products, remove all samples
-  if (!hasNonSampleProduct && sampleProducts.length > 0) {
-    sampleProducts.forEach(function(key) {
-      theme.cart.changeItem(key, 0).then(function() {
+  if (!hasNonSampleProduct && totalSampleCount > 0) {
+    sampleProducts.forEach(function(product) {
+      theme.cart.changeItem(product.key, 0).then(function() {
         this.buildCart(); // Rebuild the cart after removal
       }.bind(this));
     }.bind(this));
     return; // Exit the function early since we've cleared the cart
   }
 
-  // Automatically remove any sample products beyond the third one
-  if (sampleProducts.length > 3) {
-    var removeItems = sampleProducts.slice(3); // Get the fourth and beyond
-    removeItems.forEach(function(key) {
-      theme.cart.changeItem(key, 0).then(function() {
-        this.buildCart(); // Rebuild cart after removal
-      }.bind(this));
+  // Automatically remove any sample products that exceed the total limit of 3
+  if (totalSampleCount > 3) {
+    var currentSampleCount = 0;
+    sampleProducts.forEach(function(product) {
+      if (currentSampleCount + product.quantity > 3) {
+        var quantityToRemove = (currentSampleCount + product.quantity) - 3;
+        theme.cart.changeItem(product.key, product.quantity - quantityToRemove).then(function() {
+          this.buildCart(); // Rebuild cart after adjusting quantity
+        }.bind(this));
+        return false; // Stop further processing
+      } else {
+        currentSampleCount += product.quantity;
+      }
     }.bind(this));
   }
 
   // Hide or show the "SELECT 3 FREE SAMPLES" button
-  if (sampleProducts.length >= 3) {
+  if (totalSampleCount >= 3) {
     $(selectors.sampleProductBtn).hide();
   } else {
     $(selectors.sampleProductBtn).show();
   }
 
   // Disable checkout button if only sample products are in the cart
-  if (!hasNonSampleProduct && sampleProducts.length > 0) {
+  if (!hasNonSampleProduct && totalSampleCount > 0) {
     this.submitBtn.setAttribute('disabled', 'disabled');
   } else {
     this.submitBtn.removeAttribute('disabled');
   }
 },
+
 
 
       updateCartDiscounts: function(markup) {
