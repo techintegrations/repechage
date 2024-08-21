@@ -1413,7 +1413,7 @@ body.template-cart #cart-progress-wrapper {
       flex: 0 0 100px;
       margin-right: 12px;
   }
-  .sample-product-on-cart .sample-product-row .sample-product {
+  .sample-product-row .sample-product {
     flex: 0 0 100%;
       width: 100%;
   }
