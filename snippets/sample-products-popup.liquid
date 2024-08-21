@@ -43,38 +43,7 @@
 
 <script>
   var selectedProducts = [];
-  //var maxProducts = document.querySelector('.sample-product-wrapper').getAttribute('data-max-products');
-  //var threshold = document.querySelector('.sample-product-wrapper').getAttribute('data-threshold');
   var simpleSlider; // Define the Flickity variables for both sliders
-
-  // function toggleProduct(variantId, button) {
-  //   if (selectedProducts.includes(variantId)) {
-  //     selectedProducts = selectedProducts.filter(id => id !== variantId);
-  //     button.textContent = '{{ "products.product.add_to_cart" | t }}';
-  //     button.classList.remove('remove-btn');
-  //   } else {
-  //     if (selectedProducts.length < maxProducts) {
-  //       selectedProducts.push(variantId);
-  //       button.textContent = 'Remove';
-  //       button.classList.add('remove-btn');
-  //     } else {
-  //       alert('You can only add up to ' + maxProducts + ' products.');
-  //     }
-  //   }
-  //   document.querySelector('.max-samples-message').style.display = selectedProducts.length == maxProducts ? 'block' : 'none';
-  //   toggleCheckoutButton();
-  // }
-
-  // function toggleCheckoutButton() {
-  //   var checkoutButton = document.querySelector('.popup-checkout-btn');
-  //   if (selectedProducts.length === 0) {
-  //     checkoutButton.classList.add('disabled');
-  //     checkoutButton.setAttribute('disabled', 'disabled');
-  //   } else {
-  //     checkoutButton.classList.remove('disabled');
-  //     checkoutButton.removeAttribute('disabled');
-  //   }
-  // }
 
   function updateSampleProductDisplay(cartTotal) {
     const simpleProductRow = document.querySelector('.simple-product');
@@ -106,49 +75,6 @@
     });
   }
 
-  // document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-  //   button.addEventListener('click', () => {
-  //     var variantId = button.getAttribute('data-variant-id');
-  //     toggleProduct(variantId, button);
-  //   });
-  // });
-
-  // document.querySelector('.popup-checkout-btn').addEventListener('click', () => {
-  //   console.log('Checkout button clicked'); // Debugging information
-  //   if (selectedProducts.length === 0) {
-  //     alert('No products selected for checkout.');
-  //     return;
-  //   }
-
-  //   function addProductToCart(index) {
-  //     if (index >= selectedProducts.length) {
-  //       console.log('All products added to cart');
-  //       window.location.href = '/checkout'; // Redirect to checkout page
-  //       return;
-  //     }
-
-  //     var variantId = selectedProducts[index];
-  //     console.log('Adding product with variant ID: ' + variantId); // Debugging information
-  //     var ajax = {
-  //       type: "POST",
-  //       url: "/cart/add.js",
-  //       data: "quantity=1&id=" + variantId,
-  //       dataType: "json",
-  //       success: function (n) {
-  //         console.log('Product added to cart: ' + variantId); // Debugging information
-  //         addProductToCart(index + 1); // Add next product
-  //       },
-  //       error: function (n, c) {
-  //         console.log('Failed to add product to cart: ' + variantId); // Debugging information
-  //         addProductToCart(index + 1); // Try to add next product even if this one fails
-  //       }
-  //     };
-  //     jQuery.ajax(ajax);
-  //   }
-
-  //   addProductToCart(0); // Start adding products from the first one
-  // });
-
   document.addEventListener('DOMContentLoaded', function() {
     initializeSampleProductDisplay();
 
@@ -162,15 +88,6 @@
       wrapAround: true,
     });
 
-    // Event listener for cart updates (replace with your actual event listener logic)
-    // document.addEventListener('cart:updated', function(event) {
-    //   const updatedCartData = event.detail.cart;
-    // updateSampleProductDisplay(updatedCartData.total_price);
-
-    //   // Store updated cart total in sessionStorage
-    //   sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
-    // });
-
     // Attach click event handler to button
     document.querySelector('.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
@@ -179,8 +96,6 @@
       }, 500);
     });
 
-    // // Initial toggle of checkout button state
-    // toggleCheckoutButton();
   });
 
   jQuery(document).ready(function($) {
@@ -214,9 +129,7 @@
 
         jQuery.ajax(ajax);
     }
-});
-
-  
+}); 
 </script>
 
 
