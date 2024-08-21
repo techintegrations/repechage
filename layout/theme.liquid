@@ -79,7 +79,7 @@
   {%- render 'css-variables' -%}
   {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
 
-  <script src="{{ 'jquery-3.7.1.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'jquery-3.7.1.js' | asset_url }}"></script>
   <script src="{{ 'jquery.fancybox.min.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'flickity.pkgd.min.js' | asset_url }}" defer="defer"></script>
