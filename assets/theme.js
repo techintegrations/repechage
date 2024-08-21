@@ -1889,11 +1889,11 @@ theme.recentlyViewed = {
         //this.checkForOnlySampleProducts();
 
         // Free shipping bar 
-        fetchCartData().then(cartData => {
-          if (cartData) {
-            updateProgressBar(cartData.total_price, cartData.item_count);
-          }
-        });
+        // fetchCartData().then(cartData => {
+        //   if (cartData) {
+        //     updateProgressBar(cartData.total_price, cartData.item_count);
+        //   }
+        // });
       },
 
       
