@@ -98,12 +98,12 @@
       });
   }
 
-  // function initializeSampleProductDisplay() {
-  //   fetchCartData().then(cartData => {
-  //     updateSampleProductDisplay(cartData.total_price);
-  //     sessionStorage.setItem('cartTotal', cartData.total_price.toString());
-  //   });
-  // }
+  function initializeSampleProductDisplay() {
+    fetchCartData().then(cartData => {
+      updateSampleProductDisplay(cartData.total_price);
+      sessionStorage.setItem('cartTotal', cartData.total_price.toString());
+    });
+  }
 
   // document.querySelectorAll('.add-to-cart-btn').forEach(button => {
   //   button.addEventListener('click', () => {
