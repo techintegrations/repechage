@@ -10,6 +10,40 @@
     display: none;
 }
 
+.rc-template__radio .rc-radio:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.rc-template__radio .rc-radio.rc-radio--active:after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #000;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+}
+
+.rc-template__radio .rc-radio {
+    position: relative;
+}
+
+.rc-radio .rc-radio__input {
+    opacity: 0;
+}
+
+.rc-template__radio .rc-radio.rc-radio--active~.rc-selling-plans {
+    padding: 0px;
+}
+
 #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline span.yotpo-stars {
     display: flex;
     height: 20px;
