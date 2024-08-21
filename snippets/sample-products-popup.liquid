@@ -97,6 +97,8 @@
     });
 
   });
+
+  
 jQuery(document).ready(function($) {
     // Maximum allowed sample products
     var maxAllowedSamples = 3;
@@ -149,13 +151,15 @@ jQuery(document).ready(function($) {
                 });
             });
 
-            // Execute all AJAX calls and then open the cart drawer
-            $.when.apply($, ajaxCalls).then(function() {
+            // Execute all AJAX calls sequentially
+            $.when.apply($, ajaxCalls).done(function() {
                 var cart = new theme.CartDrawer();
                 cart.init();
                 cart.open();
                 // Close the popup
                 $.fancybox.close();
+            }).fail(function() {
+                console.log('Failed to add one or more products to the cart.');
             });
         }
     });
