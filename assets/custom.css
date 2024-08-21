@@ -906,6 +906,7 @@
 
 .product_list-block .grid-product__info .grid-product__link {
     flex: 1 0 0;
+    padding-right: 10px;
 }
 
 
