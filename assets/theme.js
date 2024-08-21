@@ -1701,7 +1701,7 @@ theme.recentlyViewed = {
     
       // Event listener for cart updates (replace with your actual event listener logic)
       document.addEventListener('cart:updated', function(event) {
-        const updatedCartData = event.detail.cart;
+        //const updatedCartData = event.detail.cart;
         updateProgressBar(updatedCartData.total_price, updatedCartData.item_count);
     
         // Store updated cart total in sessionStorage
