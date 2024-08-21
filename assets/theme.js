@@ -1726,7 +1726,8 @@ theme.recentlyViewed = {
       cartBubble: '.cart-link__bubble',
       cartNote: '[name="note"]',
       termsCheckbox: '.cart__terms-checkbox',
-      checkoutBtn: '.cart__checkout'
+      checkoutBtn: '.cart__checkout',
+      sampleProductBtn: '.sample-product-btn'
     };
   
     var classes = {
@@ -1899,43 +1900,45 @@ theme.recentlyViewed = {
       
 
       checkForOnlySampleProducts: function() {
-        // Check if the cart only contains sample items
-        var items = this.products.querySelectorAll('.cart__item');
-        var hasNonSampleProduct = false;
-        var sampleProductKey = null;
-  
-        items.forEach(function(item) {
-          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
-          if (!item.hasAttribute('data-sample-item')) {
-            hasNonSampleProduct = true;
-          } else {
-            sampleProductKey = item.dataset.key;
-          }
-        });
-  
-        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
-  
-        if (!hasNonSampleProduct && sampleProductKey) {
-          // Remove the sample product
-          console.log('Removing sample product:', sampleProductKey);
-          theme.cart.changeItem(sampleProductKey, 0).then(() => {
-            this.buildCart();
-          });
-        } else {
-          // Update progress bar if there are non-sample products
-          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
-          const itemCount = items.length;
-          updateProgressBar(cartTotal, itemCount);
+      // Check if the cart contains only sample items and handle accordingly
+      var items = this.products.querySelectorAll('.cart__item');
+      var hasNonSampleProduct = false;
+      var sampleProducts = [];
+      var sampleProductKey = null;
 
-          // Disable checkout button if only sample products
-            if (!hasNonSampleProduct) {
-              this.submitBtn.setAttribute('disabled', 'disabled');
-            } else {
-              this.submitBtn.removeAttribute('disabled');
-            }
-          
+      items.forEach(function(item) {
+        if (!item.hasAttribute('data-sample-item')) {
+          hasNonSampleProduct = true;
+        } else {
+          sampleProducts.push(item.dataset.key);
         }
-      },
+      });
+
+      // Automatically remove the fourth sample product
+      if (sampleProducts.length > 3) {
+        // Remove the fourth (and any subsequent) sample product(s)
+        var removeItems = sampleProducts.slice(3); // Get the fourth and beyond
+        removeItems.forEach(function(key) {
+          theme.cart.changeItem(key, 0).then(() => {
+            this.buildCart(); // Rebuild cart after removal
+          }.bind(this));
+        }.bind(this));
+      }
+
+      // Disable checkout button if only sample products
+      if (!hasNonSampleProduct && sampleProducts.length > 0) {
+        this.submitBtn.setAttribute('disabled', 'disabled');
+      } else {
+        this.submitBtn.removeAttribute('disabled');
+      }
+
+      // Hide "SELECT 3 FREE SAMPLES" button if 3 samples are in the cart
+      if (sampleProducts.length >= 3) {
+        $(selectors.sampleProductBtn).hide();
+      } else {
+        $(selectors.sampleProductBtn).show();
+      }
+    },
   
       updateCartDiscounts: function(markup) {
         if (!this.discounts) {
