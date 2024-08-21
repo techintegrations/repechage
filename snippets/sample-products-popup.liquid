@@ -97,6 +97,8 @@
     });
 
   });
+
+  
 jQuery(document).ready(function($) {
     // Maximum allowed sample products
     var maxAllowedSamples = 3;
@@ -125,6 +127,9 @@ jQuery(document).ready(function($) {
                 // Show the max samples message
                 $('.max-samples-message').show();
 
+                // Disable all add-to-cart buttons
+                $('.add-to-cart-btn').attr('disabled', true);
+
                 // Close the cart drawer since the max limit is reached
                 var cart = new theme.CartDrawer();
                 cart.init();
@@ -148,6 +153,8 @@ jQuery(document).ready(function($) {
                     if (sampleCount + 1 >= maxAllowedSamples) {
                         setTimeout(function() {
                             cart.close();
+                            $('.max-samples-message').show();
+                            $('.add-to-cart-btn').attr('disabled', true);
                         }, 1000);
                     }
 
@@ -162,8 +169,18 @@ jQuery(document).ready(function($) {
             jQuery.ajax(ajax);
         });
     }
-});
 
+    // Initial check on page load to disable buttons if limit is reached
+    fetch('/cart.js')
+    .then(response => response.json())
+    .then(cartData => {
+        var sampleCount = cartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
+        if (sampleCount >= maxAllowedSamples) {
+            $('.max-samples-message').show();
+            $('.add-to-cart-btn').attr('disabled', true);
+        }
+    });
+});
 
 </script>
 
