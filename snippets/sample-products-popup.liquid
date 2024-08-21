@@ -10,26 +10,6 @@
     </div>
   {% endif %}
 
-  <div class="sample-product-row premium-product {% if settings.premium_products.size > 4 %}sample-product-slider{% endif %}">
-    {% for Pproduct in settings.premium_products %}
-      <div class="sample-product">
-        <div class="f-image">
-          <img src="{{ Pproduct.featured_image | img_url:'300x' }}">
-        </div>
-        <div class="grid-product__info">
-          <div class="grid-product__title grid-product__title--body">{{ Pproduct.title }}</div>
-          {% assign current_variant = Pproduct.selected_or_first_available_variant %}
-          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
-            {% if current_variant.available %}
-              {{ 'products.product.add_to_cart' | t }}
-            {% else %}
-              {{ 'products.product.sold_out' | t }}
-            {% endif %}
-          </button>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 
   <div class="sample-product-row simple-product">
     {% for Sproduct in settings.sample_products %}
@@ -40,13 +20,14 @@
         <div class="grid-product__info">
           <div class="grid-product__title grid-product__title--body">{{ Sproduct.title }}</div>
           {% assign current_variant = Sproduct.selected_or_first_available_variant %}
-          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{current_variant.id}}">
+          <button type="button" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn btn--full add-to-cart-btn" data-variant-id="{{ current_variant.id }}">
             {% if current_variant.available %}
-              {{ 'products.product.add_to_cart' | t }}
+                {{ 'products.product.add_to_cart' | t }}
             {% else %}
-              {{ 'products.product.sold_out' | t }}
+                {{ 'products.product.sold_out' | t }}
             {% endif %}
-          </button>
+        </button>
+
         </div>
       </div>
     {% endfor %}
@@ -62,57 +43,11 @@
 
 <script>
   var selectedProducts = [];
-  var maxProducts = document.querySelector('.sample-product-wrapper').getAttribute('data-max-products');
-  var threshold = document.querySelector('.sample-product-wrapper').getAttribute('data-threshold');
-  var premiumSlider, simpleSlider; // Define the Flickity variables for both sliders
-
-  function toggleProduct(variantId, button) {
-    if (selectedProducts.includes(variantId)) {
-      selectedProducts = selectedProducts.filter(id => id !== variantId);
-      button.textContent = '{{ "products.product.add_to_cart" | t }}';
-      button.classList.remove('remove-btn');
-    } else {
-      if (selectedProducts.length < maxProducts) {
-        selectedProducts.push(variantId);
-        button.textContent = 'Remove';
-        button.classList.add('remove-btn');
-      } else {
-        alert('You can only add up to ' + maxProducts + ' products.');
-      }
-    }
-    document.querySelector('.max-samples-message').style.display = selectedProducts.length == maxProducts ? 'block' : 'none';
-    toggleCheckoutButton();
-  }
-
-  function toggleCheckoutButton() {
-    var checkoutButton = document.querySelector('.popup-checkout-btn');
-    if (selectedProducts.length === 0) {
-      checkoutButton.classList.add('disabled');
-      checkoutButton.setAttribute('disabled', 'disabled');
-    } else {
-      checkoutButton.classList.remove('disabled');
-      checkoutButton.removeAttribute('disabled');
-    }
-  }
+  var simpleSlider; // Define the Flickity variables for both sliders
 
   function updateSampleProductDisplay(cartTotal) {
-    const premiumProductRow = document.querySelector('.premium-product');
     const simpleProductRow = document.querySelector('.simple-product');
 
-    if (cartTotal >= threshold) {
-      premiumProductRow.style.display = 'block';
-      simpleProductRow.style.display = 'none';
-    } else {
-      premiumProductRow.style.display = 'none';
-      simpleProductRow.style.display = 'block';
-    }
-
-    // Resize Flickity sliders
-    if (premiumSlider) {
-      setTimeout(function() {
-        premiumSlider.resize();
-      }, 500);
-    }
     if (simpleSlider) {
       setTimeout(function() {
         simpleSlider.resize();
@@ -140,94 +75,108 @@
     });
   }
 
-  document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      var variantId = button.getAttribute('data-variant-id');
-      toggleProduct(variantId, button);
-    });
-  });
-
-  document.querySelector('.popup-checkout-btn').addEventListener('click', () => {
-    console.log('Checkout button clicked'); // Debugging information
-    if (selectedProducts.length === 0) {
-      alert('No products selected for checkout.');
-      return;
-    }
-
-    function addProductToCart(index) {
-      if (index >= selectedProducts.length) {
-        console.log('All products added to cart');
-        window.location.href = '/checkout'; // Redirect to checkout page
-        return;
-      }
-
-      var variantId = selectedProducts[index];
-      console.log('Adding product with variant ID: ' + variantId); // Debugging information
-      var ajax = {
-        type: "POST",
-        url: "/cart/add.js",
-        data: "quantity=1&id=" + variantId,
-        dataType: "json",
-        success: function (n) {
-          console.log('Product added to cart: ' + variantId); // Debugging information
-          addProductToCart(index + 1); // Add next product
-        },
-        error: function (n, c) {
-          console.log('Failed to add product to cart: ' + variantId); // Debugging information
-          addProductToCart(index + 1); // Try to add next product even if this one fails
-        }
-      };
-      jQuery.ajax(ajax);
-    }
-
-    addProductToCart(0); // Start adding products from the first one
-  });
-
   document.addEventListener('DOMContentLoaded', function() {
     initializeSampleProductDisplay();
-
-    // Initialize Flickity sliders
-    premiumSlider = new Flickity('.premium-product', {
-      cellAlign: 'left',
-      contain: true,
-      prevNextButtons: true,
-      pageDots: true,
-      freeScroll: false,
-      avoidReflow: true,
-      wrapAround: true,
-    });
 
     simpleSlider = new Flickity('.simple-product', {
       cellAlign: 'left',
       contain: true,
       prevNextButtons: true,
-      pageDots: true,
+      pageDots: false,
       freeScroll: false,
       avoidReflow: true,
       wrapAround: true,
-    });
-
-    // Event listener for cart updates (replace with your actual event listener logic)
-    document.addEventListener('cart:updated', function(event) {
-      const updatedCartData = event.detail.cart;
-      updateSampleProductDisplay(updatedCartData.total_price);
-
-      // Store updated cart total in sessionStorage
-      sessionStorage.setItem('cartTotal', updatedCartData.total_price.toString());
     });
 
     // Attach click event handler to button
     document.querySelector('.sample-product-btn').addEventListener('click', function() {
       // Use setTimeout to delay the resize by 2 seconds (2000 milliseconds)
       setTimeout(function() {
-        if (premiumSlider) premiumSlider.resize(); // Resize premium Flickity slider
         if (simpleSlider) simpleSlider.resize(); // Resize simple Flickity slider
       }, 500);
     });
 
-    // Initial toggle of checkout button state
-    toggleCheckoutButton();
   });
+
+  
+jQuery(document).ready(function($) {
+    // Maximum allowed sample products
+    var maxAllowedSamples = 3;
+    var selectedProducts = [];
+
+    // Function to update the UI based on the selected products
+    function updateUI() {
+        if (selectedProducts.length >= maxAllowedSamples) {
+            $('.add-to-cart-btn:not(.remove-btn)').attr('disabled', true); // Disable all add-to-cart buttons
+        } else {
+            $('.add-to-cart-btn').removeAttr('disabled'); // Enable all add-to-cart buttons
+        }
+
+        if (selectedProducts.length > 0) {
+            $('.popup-checkout-btn').removeAttr('disabled'); // Enable checkout button
+        } else {
+            $('.popup-checkout-btn').attr('disabled', true); // Disable checkout button
+        }
+    }
+
+    // Function to handle add/remove button click
+    function toggleProductSelection(button, variantId) {
+        if ($(button).hasClass('remove-btn')) {
+            // Remove product from selected list
+            selectedProducts = selectedProducts.filter(id => id !== variantId);
+            $(button).removeClass('remove-btn').text('Add to cart');
+        } else {
+            // Add product to selected list
+            selectedProducts.push(variantId);
+            $(button).addClass('remove-btn').text('Remove');
+        }
+        updateUI();
+    }
+
+    // Attach event listener to all buttons with the class 'add-to-cart-btn'
+    $('.add-to-cart-btn').on('click', function() {
+        var variantId = $(this).data('variant-id');
+        toggleProductSelection(this, variantId);
+    });
+
+    // Function to add products to the cart sequentially
+    function addProductsSequentially(products, index, callback) {
+        if (index < products.length) {
+            $.ajax({
+                type: "POST",
+                url: "/cart/add.js",
+                data: { quantity: 1, id: products[index] },
+                dataType: "json",
+                success: function() {
+                    addProductsSequentially(products, index + 1, callback); // Add next product
+                },
+                error: function() {
+                    console.log('Failed to add product with ID ' + products[index]);
+                    addProductsSequentially(products, index + 1, callback); // Attempt to add next product
+                }
+            });
+        } else {
+            callback(); // All products added, execute callback
+        }
+    }
+
+    // Handle the checkout button click
+    $('.popup-checkout-btn').on('click', function() {
+        if (selectedProducts.length > 0) {
+            addProductsSequentially(selectedProducts, 0, function() {
+                var cart = new theme.CartDrawer();
+                cart.init();
+                cart.open();
+                // Close the popup
+                $.fancybox.close();
+            });
+        }
+    });
+
+    // Initial UI setup
+    updateUI();
+});
+
 </script>
 
 

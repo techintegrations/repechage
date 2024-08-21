@@ -1726,7 +1726,8 @@ theme.recentlyViewed = {
       cartBubble: '.cart-link__bubble',
       cartNote: '[name="note"]',
       termsCheckbox: '.cart__terms-checkbox',
-      checkoutBtn: '.cart__checkout'
+      checkoutBtn: '.cart__checkout',
+      sampleProductBtn: '.sample-product-btn'
     };
   
     var classes = {
@@ -1896,45 +1897,72 @@ theme.recentlyViewed = {
         });
       },
 
-      checkForOnlySampleProducts: function() {
-        // Check if the cart only contains sample items
-        var items = this.products.querySelectorAll('.cart__item');
-        var hasNonSampleProduct = false;
-        var sampleProductKey = null;
-  
-        items.forEach(function(item) {
-          console.log('Item key:', item.dataset.key, 'Sample item:', item.hasAttribute('data-sample-item'));
-          if (!item.hasAttribute('data-sample-item')) {
-            hasNonSampleProduct = true;
-          } else {
-            sampleProductKey = item.dataset.key;
-          }
-        });
-  
-        console.log('Has non-sample product:', hasNonSampleProduct, 'Sample product key:', sampleProductKey);
-  
-        if (!hasNonSampleProduct && sampleProductKey) {
-          // Remove the sample product
-          console.log('Removing sample product:', sampleProductKey);
-          theme.cart.changeItem(sampleProductKey, 0).then(() => {
-            this.buildCart();
-          });
-        } else {
-          // Update progress bar if there are non-sample products
-          const cartTotal = parseInt(this.subtotal.dataset.cartSubtotal, 10);
-          const itemCount = items.length;
-          updateProgressBar(cartTotal, itemCount);
+      
 
-          // Disable checkout button if only sample products
-            if (!hasNonSampleProduct) {
-              this.submitBtn.setAttribute('disabled', 'disabled');
-            } else {
-              this.submitBtn.removeAttribute('disabled');
-            }
-          
-        }
-      },
-  
+      checkForOnlySampleProducts: function() {
+  var items = this.products.querySelectorAll('.cart__item');
+  var hasNonSampleProduct = false;
+  var sampleProducts = [];
+  var totalSampleCount = 0;
+
+  // Iterate through all cart items
+  items.forEach(function(item) {
+    var quantity = parseInt(item.querySelector('.js-qty__num').value, 10) || 0;
+
+    if (!item.hasAttribute('data-sample-item')) {
+      hasNonSampleProduct = true;
+    } else {
+      sampleProducts.push({
+        key: item.dataset.key,
+        quantity: quantity
+      });
+      totalSampleCount += quantity;
+    }
+  });
+
+  // If there are no non-sample products and there are sample products, remove all samples
+  if (!hasNonSampleProduct && totalSampleCount > 0) {
+    sampleProducts.forEach(function(product) {
+      theme.cart.changeItem(product.key, 0).then(function() {
+        this.buildCart(); // Rebuild the cart after removal
+      }.bind(this));
+    }.bind(this));
+    return; // Exit the function early since we've cleared the cart
+  }
+
+  // Automatically remove any sample products that exceed the total limit of 3
+  if (totalSampleCount > 3) {
+    var currentSampleCount = 0;
+    sampleProducts.forEach(function(product) {
+      if (currentSampleCount + product.quantity > 3) {
+        var quantityToRemove = (currentSampleCount + product.quantity) - 3;
+        theme.cart.changeItem(product.key, product.quantity - quantityToRemove).then(function() {
+          this.buildCart(); // Rebuild cart after adjusting quantity
+        }.bind(this));
+        return false; // Stop further processing
+      } else {
+        currentSampleCount += product.quantity;
+      }
+    }.bind(this));
+  }
+
+  // Hide or show the "SELECT 3 FREE SAMPLES" button
+  if (totalSampleCount >= 3) {
+    $(selectors.sampleProductBtn).hide();
+  } else {
+    $(selectors.sampleProductBtn).show();
+  }
+
+  // Disable checkout button if only sample products are in the cart
+  if (!hasNonSampleProduct && totalSampleCount > 0) {
+    this.submitBtn.setAttribute('disabled', 'disabled');
+  } else {
+    this.submitBtn.removeAttribute('disabled');
+  }
+},
+
+
+
       updateCartDiscounts: function(markup) {
         if (!this.discounts) {
           return;

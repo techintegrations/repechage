@@ -1,6 +1,94 @@
+/* .cart__item[data-sample-item="true"] .cart__remove {
+    display: block;
+} */
 #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline {
     display: block;
     text-align: center;
+}
+
+.product_list-block .grid-product__content .grid-product__info #prod-info-yot {
+    display: none;
+}
+
+.rc-template__radio .rc-radio:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+.rc-template__radio .rc-radio.rc-radio--active:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #000;
+    position: absolute;
+    top: 16px;
+    left: 18px;
+}
+
+.rc-widget .rc-template__radio .rc-radio {
+    position: relative;
+    padding: 12px;
+    border: 1px solid #000;
+}
+
+.rc-radio .rc-radio__input {
+    opacity: 0;
+}
+
+.rc-template__radio .rc-radio.rc-radio--active~.rc-selling-plans {
+    padding: 0 !important;
+}
+
+.rc-template__radio .rc-radio__label {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-left: 0px;
+}
+
+.rc-subscription-details {
+    font-size: 10px;
+}
+
+.rc-subscription-details .rc-subscription-details__button .reload-icon[data-v-e69cc34d] {
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.rc-widget .rc-template__radio .rc-radio.rc-radio--active {
+    background: transparent;
+}
+
+.rc-widget .rc-template__radio .rc-selling-plans-dropdown {
+    background: transparent;
+}
+
+.rc-widget .rc-template__radio .rc-radio.onetime-radio {
+    margin-bottom: 10px;
+}
+
+.rc-subscription-details .rc-subscription-details__button .reload-icon[data-v-e69cc34d] {
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.rc-widget .rc-template__radio .rc-selling-plans-dropdown {
+    background-color: transparent !important;
+}
+
+.rc-widget .rc-template__radio .rc-selling-plans-dropdown select {
+    border-top: 0px;
+}
+
+.rc-widget .rc-template__radio .rc-radio.rc-radio--active.subscription-radio {
+    border-bottom: 0px;
 }
 
 #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline span.yotpo-stars {
@@ -1410,11 +1498,10 @@ body.template-cart #cart-progress-wrapper {
       flex: 0 0 100px;
       margin-right: 12px;
   }
-  
-}
-
-
-@media only screen and (max-width: 480px) {
+  .sample-product-row .sample-product {
+    flex: 0 0 100%;
+      width: 100%;
+  }
   
 }
 
