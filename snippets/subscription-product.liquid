@@ -54,7 +54,6 @@
 		{% assign discount_percentage = discount_floor %}
 	{% endif %}
 	{% comment %}Widget translation{% endcomment %}
-	{% assign label_onetime = widget_settings.onetime_message | default: "One-time purchase" %}
 	{% assign label_autodeliver = widget_settings.subscribe_message | default: "Subscribe &amp; save" %}
 	{% assign label_deliver_every = widget_settings.widget_deliver_every | default: "Deliver every" %}
 	{% assign label_unit_type_legacy = subscription_product.label_unit_type | default: shipping_interval_unit_type %}
