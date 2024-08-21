@@ -97,10 +97,9 @@
     });
 
   });
-
 jQuery(document).ready(function($) {
-    // Maximum allowed products
-    var maxAllowedProducts = 3;
+    // Maximum allowed sample products
+    var maxAllowedSamples = 3;
 
     // Attach event listener to all buttons with the class 'add-to-cart-btn'
     $('.add-to-cart-btn').on('click', function() {
@@ -115,19 +114,21 @@ jQuery(document).ready(function($) {
         var id = variantId;
         var q = qty;
 
-        // Fetch the current cart data to count products
+        // Fetch the current cart data to count sample products
         fetch('/cart.js')
         .then(response => response.json())
         .then(cartData => {
-            var itemCount = cartData.item_count;
+            // Filter to get only the sample items from the cart
+            var sampleCount = cartData.items.filter(item => item.properties && item.properties['data-sample-item'] === 'true').length;
 
-            if (itemCount >= maxAllowedProducts) {
+            if (sampleCount >= maxAllowedSamples) {
+                // Show the max samples message
+                $('.max-samples-message').show();
+
                 // Close the cart drawer since the max limit is reached
                 var cart = new theme.CartDrawer();
                 cart.init();
                 cart.close();
-
-                alert('You have reached the maximum number of allowed sample products.');
 
                 return; // Prevent adding more products
             }
@@ -143,8 +144,8 @@ jQuery(document).ready(function($) {
                     cart.init();
                     cart.open();
 
-                    // Close the cart drawer if max products are now in the cart
-                    if (itemCount + 1 >= maxAllowedProducts) {
+                    // Close the cart drawer if max sample products are now in the cart
+                    if (sampleCount + 1 >= maxAllowedSamples) {
                         setTimeout(function() {
                             cart.close();
                         }, 1000);
