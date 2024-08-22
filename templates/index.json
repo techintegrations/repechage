@@ -410,7 +410,7 @@
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 75,
-        "padding_top_m": 10,
+        "padding_top_m": 0,
         "padding_bottom_m": 50
       }
     },
