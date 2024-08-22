@@ -314,7 +314,7 @@
         "enable_gutter": true,
         "bg_color": "",
         "padding_top": 70,
-        "padding_bottom": 0,
+        "padding_bottom": 48,
         "padding_top_m": 0,
         "padding_bottom_m": 40
       }
