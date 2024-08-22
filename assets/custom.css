@@ -1539,6 +1539,10 @@ body.template-cart #cart-progress-wrapper {
   .image-slider-with-text .slider-info .block-text.rte {
       margin-bottom: 15px;
   }
+
+  .text-columns-with-images-section .grid__item h3 {
+      font-size: 18px;
+  }
   
 }
 
