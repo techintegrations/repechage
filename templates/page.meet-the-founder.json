@@ -121,8 +121,8 @@
         "narrow_column": true,
         "padding_top": 70,
         "padding_bottom": 70,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "bg_color": "#000000",
         "divider": false
       }
@@ -173,8 +173,8 @@
         "narrow_column": true,
         "padding_top": 70,
         "padding_bottom": 70,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "bg_color": "#000000",
         "divider": false
       }
