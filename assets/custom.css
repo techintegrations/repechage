@@ -1357,7 +1357,7 @@ body.template-cart #cart-progress-wrapper {
     display: none;
 }
 
-.yotpo-reviews-pagination-container {
+.yotpo-widget-clear .yotpo-reviews-pagination-container {
     margin-bottom: 0px;
 }
 
