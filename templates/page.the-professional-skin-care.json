@@ -111,10 +111,10 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
         "bg_color": "#ffffff",
         "divider": false
       }
