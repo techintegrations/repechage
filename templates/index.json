@@ -796,8 +796,8 @@
         "color_text": "#1c1d1d",
         "padding_top": 60,
         "padding_bottom": 100,
-        "padding_top_m": 0,
-        "padding_bottom_m": 60
+        "padding_top_m": 40,
+        "padding_bottom_m": 55
       }
     }
   },
