@@ -1578,6 +1578,10 @@ body.template-cart #cart-progress-wrapper {
       margin-bottom: 20px;
   }
 
+  .newsletter-section__content .theme-block:last-child {
+      margin-bottom: 0px;
+  }
+
   
 }
 
