@@ -410,8 +410,8 @@
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 75,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20
+        "padding_top_m": 10,
+        "padding_bottom_m": 50
       }
     },
     "promo_grid_q7xmp6": {
