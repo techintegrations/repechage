@@ -61,9 +61,9 @@
         "align_text": "center",
         "narrow_column": true,
         "padding_top": 70,
-        "padding_bottom": 70,
+        "padding_bottom": 0,
         "padding_top_m": 50,
-        "padding_bottom_m": 50,
+        "padding_bottom_m": 0,
         "bg_color": "",
         "divider": false
       }
