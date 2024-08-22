@@ -569,7 +569,7 @@
         "narrow_column": true,
         "padding_top": 40,
         "padding_bottom": 20,
-        "padding_top_m": 0,
+        "padding_top_m": 25,
         "padding_bottom_m": 0,
         "bg_color": "#f9f9f9",
         "divider": false
