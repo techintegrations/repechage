@@ -247,9 +247,9 @@
         "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 70,
-        "padding_bottom": 70,
+        "padding_bottom": 10,
         "padding_top_m": 50,
-        "padding_bottom_m": 50,
+        "padding_bottom_m": 0,
         "divider": false
       }
     },
