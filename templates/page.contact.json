@@ -54,7 +54,7 @@
           "type": "heading",
           "settings": {
             "title": "CONTACT US",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_zRc7n9": {
@@ -62,7 +62,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p>Got questions about our products or need assistance perfecting your skincare routine? Our customer care team is ready to assist you!<br\/><br\/><strong>Chat with us<br\/><\/strong>Monday - Thursday  9:00 to 5:30pm EST, Friday  9:00 to 5:00pm EST<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -73,10 +73,10 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
         "bg_color": "",
         "divider": false
       }
@@ -164,7 +164,7 @@
           "type": "heading",
           "settings": {
             "title": "HOW CAN WE HELP?",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_TNKgay": {
@@ -172,7 +172,7 @@
           "settings": {
             "enlarge_text": false,
             "text": "<p>View our <strong>FAQs<\/strong> with answers to commonly asked questions, including returns & exchanges, shipping info & more<\/p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "button_NUWap9": {
@@ -218,6 +218,7 @@
         "form_BDLhUG": {
           "type": "form",
           "settings": {
+            "success_msg": ""
           }
         }
       },
