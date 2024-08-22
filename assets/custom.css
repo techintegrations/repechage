@@ -1469,6 +1469,7 @@ body.template-cart #cart-progress-wrapper {
 
   .site-footer > .page-width {
       padding-top: 30px;
+      padding-bottom: 30px;
   }
 
   .text-with-icons .text-with-icons__blocks {
