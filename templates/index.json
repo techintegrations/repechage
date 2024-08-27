@@ -12,6 +12,26 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_3jWjtT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "<p>LABOR DAY WEEKEND<\/p>",
+            "title": "<p>SALE<\/p>",
+            "title_size": 100,
+            "subheading": "<p>10% OFF + FREE SHIPPING*<\/p>",
+            "link": "shopify:\/\/collections\/our-retail-collection",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Labor_Day_sale_2024_-_Website_banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Labor_Day_sale_2024_-_Mobile_website_banner.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_iCkPT9": {
           "type": "image",
           "settings": {
@@ -68,33 +88,13 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_3jWjtT": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>LABOR DAY WEEKEND<\/p>",
-            "title": "<p>SALE<\/p>",
-            "title_size": 80,
-            "subheading": "<p>10% OFF + FREE SHIPPING*<\/p>",
-            "link": "shopify:\/\/collections\/our-retail-collection",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Labor_Day_sale_2024_-_Website_banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Labor_Day_sale_2024_-_Mobile_website_banner.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
+        "image_3jWjtT",
         "image_iCkPT9",
         "image_QYiDV7",
-        "image_Rx9W9J",
-        "image_3jWjtT"
+        "image_Rx9W9J"
       ],
       "settings": {
         "show_container": false,
