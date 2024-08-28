@@ -15,10 +15,10 @@
         "image_3jWjtT": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>LABOR DAY WEEKEND<\/p>",
+            "top_subheading": "<p><strong>LABOR DAY WEEKEND<\/strong><\/p>",
             "title": "<p>SALE<\/p>",
             "title_size": 100,
-            "subheading": "<p>10% OFF + FREE SHIPPING*<\/p>",
+            "subheading": "<p><strong>10% OFF + FREE SHIPPING*<\/strong><\/p>",
             "link": "shopify:\/\/collections\/our-retail-collection",
             "link_text": "SHOP NOW",
             "link_2": "",
