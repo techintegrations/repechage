@@ -170,6 +170,7 @@
         },
         "class_aFDFKN": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "AUGUST",
             "date": "26-27",
