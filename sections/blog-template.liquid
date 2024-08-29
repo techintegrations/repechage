@@ -3,6 +3,13 @@
 <div data-section-id="{{ section.id }}" data-section-type="blog">
   <div class="page-width page-content blog-template-wrap">
 
+
+  <form method="get" action="/search">
+    <input type="hidden" name="type" value="article" />
+    <input type="text" name="q" />
+    <input  type="submit" value="Search" />
+</form>
+
     {%- render 'breadcrumbs' -%}
 
     <header class="section-header{% if section.settings.blog_show_tag_filter and blog.tags.size > 0 %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
