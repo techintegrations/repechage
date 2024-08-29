@@ -41,7 +41,7 @@
           </div>
           {%- endif -%}
 
-          <div class="grid__item medium-up--four-fifths grid__item--content {%- unless search.results[0].object_type != 'article' -%}full-width{%- endunless -%}">
+          <div class="grid__item medium-up--four-fifths grid__item--content {% unless search.results[0].object_type != 'article' %}full-width{% endunless %}">
             {% render 'collection-grid',
               collection: search,
               items: search.results,
