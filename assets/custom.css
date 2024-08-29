@@ -1388,6 +1388,9 @@ body.template-cart #cart-progress-wrapper {
 .yotpo-widget-clear .yotpo-reviews-pagination-container {
     margin-bottom: 0px;
 }
+#CollectionAjaxContent .grid__item.grid__item--content.full-width {
+    width: 100%;
+}
 
 @media only screen and (max-width: 1200px) {
   .product_list-block .grid-product {
@@ -1407,6 +1410,7 @@ body.template-cart #cart-progress-wrapper {
       min-width: auto;
       padding: 0 30px;
   }
+  
     
 }
 
