@@ -709,6 +709,26 @@
     text-align: right;
 }
 
+.blog-search-filter .search-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blog-search-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blog-search-filter > div {
+    flex: 1 0 0;
+}
+
+.search-submit input.btn {
+    margin: 0px;
+}
+
 .blog-template-wrap .section-header {
     margin-bottom: 24px;
 }
