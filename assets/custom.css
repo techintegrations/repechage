@@ -722,6 +722,14 @@
     margin-bottom: 40px;
 }
 
+.blog-search .search-text {
+    flex: 0 0 280px;
+}
+
+.blog-search .search-text input[type="text"] {
+    width: 100%;
+}
+
 .blog-search-filter > div {
     flex: 1 0 0;
 }
