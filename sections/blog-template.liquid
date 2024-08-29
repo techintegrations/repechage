@@ -18,7 +18,7 @@
       </h1>
 
     </header>
-
+<div class="blog-search">
 <div class="blog-search">
   <form method="get" action="/search">
     <input type="hidden" name="type" value="article" />
@@ -38,6 +38,7 @@
         </select>
     </div>
       {%- endif -%}
+  </div>
               
     <div class="grid grid--uniform">
       {%- for article in blog.articles -%}
