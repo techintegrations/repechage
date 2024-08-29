@@ -736,7 +736,6 @@
 
 .search-submit input.btn {
     margin: 0px;
-    height: 39px;
 }
 
 .blog-template-wrap .section-header {
@@ -1619,6 +1618,21 @@ body.template-cart #cart-progress-wrapper {
       margin-bottom: 0px;
   }
 
+  .blog-search-filter #BlogTagFilter {
+      width: 100%;
+  }
+  
+  .blog-search-filter {
+      display: block;
+  }
+  
+  .blog-search .search-text {
+      flex: 1 0 0;
+  }
+  
+  .blog-search-filter .blog-search {
+      margin-bottom: 30px;
+  }
   
 }
 
