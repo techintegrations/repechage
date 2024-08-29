@@ -1572,6 +1572,22 @@ body.template-cart #cart-progress-wrapper {
   .text-columns-with-images-section .grid__item h3 {
       font-size: 18px;
   }
+
+  .blog-search-filter #BlogTagFilter {
+      width: 100%;
+  }
+  
+  .blog-search-filter {
+      display: block;
+  }
+  
+  .blog-search .search-text {
+      flex: 1 0 0;
+  }
+  
+  .blog-search-filter .blog-search {
+      margin-bottom: 30px;
+  }
   
 }
 
@@ -1616,22 +1632,6 @@ body.template-cart #cart-progress-wrapper {
 
   .newsletter-section__content .theme-block:last-child {
       margin-bottom: 0px;
-  }
-
-  .blog-search-filter #BlogTagFilter {
-      width: 100%;
-  }
-  
-  .blog-search-filter {
-      display: block;
-  }
-  
-  .blog-search .search-text {
-      flex: 1 0 0;
-  }
-  
-  .blog-search-filter .blog-search {
-      margin-bottom: 30px;
   }
   
 }
