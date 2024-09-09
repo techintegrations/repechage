@@ -183,6 +183,7 @@
         },
         "class_xJLqft": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "SEPTEMBER",
             "date": "9",
