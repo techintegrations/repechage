@@ -635,18 +635,6 @@
             "link": ""
           }
         },
-        "text_block_PbmhNc": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "",
-            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)<\/p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
         "text_block_f9MtBD": {
           "type": "text_block",
           "settings": {
@@ -665,7 +653,6 @@
         "text_block_gLLAGX",
         "text_block_3DUCnQ",
         "text_block_Cai9em",
-        "text_block_PbmhNc",
         "text_block_f9MtBD"
       ],
       "settings": {
