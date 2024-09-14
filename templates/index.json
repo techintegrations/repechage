@@ -163,6 +163,13 @@
             "tab_title": "Dryness & Dehydrations",
             "home_featured_products": "dry-skin"
           }
+        },
+        "collection_XTBUNN": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Skin Kits",
+            "home_featured_products": "travel-kits"
+          }
         }
       },
       "block_order": [
@@ -170,7 +177,8 @@
         "collection_md9zKm",
         "collection_VFYzP3",
         "collection_hRgkKb",
-        "collection_LCHdgT"
+        "collection_LCHdgT",
+        "collection_XTBUNN"
       ],
       "settings": {
         "title": "AWARD WINNERS",
