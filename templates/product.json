@@ -352,23 +352,58 @@
     "sticky_add_to_cart_HFVLVX": {
       "type": "sticky-add-to-cart",
       "settings": {
-        "width": "standard",
         "padding_top": 0,
         "padding_bottom": 0,
-        "padding_left": 0,
-        "padding_right": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "custom_image_with_info_JKLE4Q": {
+      "type": "custom__image-with-info",
+      "blocks": {
+        "text_block_7iFPmc": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_BjgnLa": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_RWk8x8": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7iFPmc",
+        "text_block_BjgnLa",
+        "text_block_RWk8x8"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "padding_top_m": 0,
         "padding_bottom_m": 0,
-        "padding_left_m": 0,
-        "padding_right_m": 0,
-        "margin_top_m": 0,
-        "margin_bottom_m": 0,
-        "section_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
+        "divider": false
       }
     }
   },
@@ -382,6 +417,7 @@
     "testimonials",
     "recently-viewed",
     "collection-return",
-    "sticky_add_to_cart_HFVLVX"
+    "sticky_add_to_cart_HFVLVX",
+    "custom_image_with_info_JKLE4Q"
   ]
 }
