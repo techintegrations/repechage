@@ -1396,10 +1396,22 @@ body.template-cart #cart-progress-wrapper {
 .sticky-add-to-cart .product-price-form .caption-product-price {
     flex: 0 0 auto;
     margin-right: 24px;
+    margin-bottom: 0;
 }
 
 .sticky-add-to-cart .product-price-form .atc-btn {
     flex: 0 0 183px;
+}
+
+.sticky-add-to-cart .caption-product-title h6 {
+    font-size: 22px;
+    margin-bottom: 0;
+    letter-spacing: normal!important;
+}
+
+.sticky-add-to-cart .product-price-form h6.caption-product-price {
+    letter-spacing: normal;
+    font-size: 22px;
 }
 
 
