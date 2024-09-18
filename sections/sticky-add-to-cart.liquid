@@ -77,31 +77,26 @@
         {{ product.price | money_with_currency }}
       </h6>
 
-      {% liquid
-        assign selected_variant = product.selected_variant
-        if product.variants.size == 1 or settings.select_first_available_variant
-          assign selected_variant = product.selected_or_first_available_variant
-        endif
-      %}
-
-      {% if product.variants.size == 1 %}
-        <div class="product-form-container custom-atc-btn">
-          {% comment %} Notify form {% endcomment %}
-          {% render 'product__notify-me-form', product: product %}
-
-          {% comment %} Product form {% endcomment %}
-          {% render 'custom-product__form',
-            context: 'product',
-            product: product,
-            sold_out_options: settings.sold_out_options,
-            selected_variant: selected_variant
-          %}
+       {%- assign current_variant = product.selected_or_first_available_variant -%}
+        <div class="atc-btn">
+          <button
+            type="button"
+            {% unless current_variant.available %}
+              disabled="disabled"
+            {% endunless %}
+            onclick="add_to_cart_grid({{current_variant.id}},1)"
+            class="btn"
+          >
+            {% if current_variant.available %}
+              <span class="text">{{ 'products.product.add_to_cart' | t }}</span>
+              <span class="icon-svg">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path style="stroke-miterlimit:10" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+              </span>
+            {% else %}
+              {{ 'products.product.sold_out' | t }}
+            {% endif %}
+          </button>
         </div>
-      {% else %}
-        <div class="banner-quick-view">
-          {% render 'product-thumbnail__quick-shop-button', product: product %}
-        </div>
-      {% endif %}
     </div>
   </div>
 </section>
