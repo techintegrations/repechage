@@ -348,6 +348,28 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "sticky_add_to_cart_HFVLVX": {
+      "type": "sticky-add-to-cart",
+      "settings": {
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
@@ -359,6 +381,7 @@
     "171672294625f99393",
     "testimonials",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "sticky_add_to_cart_HFVLVX"
   ]
 }

@@ -109,10 +109,6 @@
       "t-zone-balance-moisture-complex-sample-1",
       "t-zone-balance-hydrating-serum-sample"
     ],
-    "premium_products": [
-      "algo-mist-hydrating-seaweed-facial-spray-2"
-    ],
-    "amount": 250,
     "max_product_message": "Max [number] Samples are allowed",
     "sample_products_trigger": "SELECT 3 FREE SAMPLES",
     "social_facebook_link": "https:\/\/www.facebook.com\/RepechageSkinCare",
@@ -125,6 +121,10 @@
     "search_enable": true,
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
+    "premium_products": [
+      "algo-mist-hydrating-seaweed-facial-spray-2"
+    ],
+    "amount": 250,
     "checkout_logo_image": "shopify:\/\/shop_images\/Repechage-logo-2019-black-340px.jpg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
