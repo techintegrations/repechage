@@ -1585,6 +1585,31 @@ body.template-cart #cart-progress-wrapper {
       margin-top: 24px;
   }
 
+  .sticky-add-to-cart .caption-product-title h6 {
+      font-size: 16px;
+  }
+  
+  .sticky-add-to-cart .product-price-form h6.caption-product-price {
+      font-size: 16px;
+      padding-bottom: 10px;
+      margin-right: 0;
+  }
+  
+  .sticky-add-to-cart .product-price-form {
+      flex: 0 0 145px;
+      justify-content: center;
+  }
+  
+  .sticky-add-to-cart {
+      justify-content: space-between;
+  }
+  
+  .sticky-add-to-cart .caption-product-title {
+      flex: 1 0 0;
+      margin-right: 10px;
+  }
+
+
   
 }
 
