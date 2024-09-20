@@ -1697,6 +1697,22 @@ body.template-cart #cart-progress-wrapper {
   .newsletter-section__content .theme-block:last-child {
       margin-bottom: 0px;
   }
+
+  .sticky-add-to-cart .caption-product-title h6 {
+      font-size: 18px;
+      text-align: center;
+  }
+  
+  .sticky-add-to-cart .product-price-form {
+      flex: 0 0 100%;
+      justify-content: center;
+      margin-top: 7px;
+  }
+  
+  .sticky-add-to-cart .product-price-form h6.caption-product-price {
+      font-size: 18px;
+  }
+
   
 }
 
