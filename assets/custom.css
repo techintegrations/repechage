@@ -1416,6 +1416,7 @@ body.template-cart #cart-progress-wrapper {
 
 .sticky-add-to-cart .caption-product-title {
     flex: 1 0 0;
+    padding-right: 16px;
 }
 
 .sticky-add-to-cart .product-price-form {
