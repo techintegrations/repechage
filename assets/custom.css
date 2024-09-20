@@ -1440,7 +1440,8 @@ body.template-cart #cart-progress-wrapper {
 .sticky-add-to-cart .caption-product-title h6 {
     font-size: 22px;
     margin-bottom: 0;
-    letter-spacing: normal!important;
+    letter-spacing: normal !important;
+    max-width: 890px;
 }
 
 .sticky-add-to-cart .product-price-form h6.caption-product-price {
