@@ -1434,7 +1434,7 @@ body.template-cart #cart-progress-wrapper {
 }
 
 .sticky-add-to-cart .product-price-form .atc-btn {
-    flex: 0 0 145px;
+    flex: 0 0 auto;
 }
 
 .sticky-add-to-cart .caption-product-title h6 {
