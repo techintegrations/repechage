@@ -111,7 +111,7 @@ $(document).ready(function () {
 
 
   var $stickyAddToCart = $(".sticky-add-to-cart-section");
-  var scrollThreshold = 600; // Adjust this value to determine "two to three steps"
+  var scrollThreshold = 500; // Adjust this value to determine "two to three steps"
 
   $(window).on("scroll", function() {
       var scrollPosition = $(this).scrollTop();
