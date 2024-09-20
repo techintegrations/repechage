@@ -1699,7 +1699,7 @@ body.template-cart #cart-progress-wrapper {
   }
 
   .sticky-add-to-cart .caption-product-title h6 {
-      font-size: 18px;
+      font-size: 16px;
       text-align: center;
   }
   
@@ -1710,7 +1710,7 @@ body.template-cart #cart-progress-wrapper {
   }
   
   .sticky-add-to-cart .product-price-form h6.caption-product-price {
-      font-size: 18px;
+      font-size: 16px;
   }
 
   
