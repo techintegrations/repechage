@@ -6,16 +6,16 @@
   }
 
   #shopify-section-{{section.id}} .sticky-add-to-cart .caption-product-title h6 {
-      color: #fff;
+      color: {{section.settings.title_color}};
   }
 
   #shopify-section-{{section.id}} .product-price-form .caption-product-price {
-      color: #fff;
+      color: {{section.settings.price_color}};
   }
 
   #shopify-section-{{section.id}} .atc-btn button.btn {
-      color: #fff;
-      background-color: #fff;
+      color: {{section.settings.button_text_color}};
+      background-color: {{section.settings.button_bg_color}};
   }
   
   @media screen and (max-width:768px){
