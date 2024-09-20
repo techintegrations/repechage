@@ -1,6 +1,101 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %} 
+  #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      background-color: {{section.settings.bg_color}};
   }
+
+  @media screen and (max-width:768px){
+    #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+    }
+  }
+{% endstyle %}
+
+<section class="section page-width">
+  <div class="caption-product__info sticky-add-to-cart">
+    <div class="caption-product-title">
+      <h6>{{ product.title }}</h6>
+    </div>
+    <div class="product-price-form">
+      <h6 class="caption-product-price">
+        {{ product.price | money_with_currency }}
+      </h6>
+
+       {%- assign current_variant = product.selected_or_first_available_variant -%}
+        <div class="atc-btn">
+          <button
+            type="button"
+            {% unless current_variant.available %}
+              disabled="disabled"
+            {% endunless %}
+            onclick="add_to_cart_grid({{current_variant.id}},1)"
+            class="btn"
+          >
+            {% if current_variant.available %}
+              <span class="text">{{ 'products.product.add_to_cart' | t }}</span>
+              <span class="icon-svg">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path style="stroke-miterlimit:10" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+              </span>
+            {% else %}
+              {{ 'products.product.sold_out' | t }}
+            {% endif %}
+          </button>
+        </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Stikcy add to cart",
+  "class": "sticky-add-to-cart-section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "header",
+      "content": "Spacing Desktop"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing Mobile"
+    },
+    {
+      "type": "number",
+      "id": "padding_top_m",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom_m",
+      "label": "Bottom spacing",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stikcy add to cart",
+      "category": "Layout",
+      "settings": {}
+    }
+  ]
+}
 {% endschema %}
