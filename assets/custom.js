@@ -109,6 +109,20 @@ $(document).ready(function () {
     ]
   });
 
+
+  var $stickyAddToCart = $(".sticky-add-to-cart-section");
+  var scrollThreshold = 1000; // Adjust this value to determine "two to three steps"
+
+  $(window).on("scroll", function() {
+      var scrollPosition = $(this).scrollTop();
+
+      if (scrollPosition >= scrollThreshold) {
+          $stickyAddToCart.addClass("show-sticky-bar");
+      } else {
+          $stickyAddToCart.removeClass("show-sticky-bar");
+      }
+  });
+
   if (window.outerWidth < 769) {
     $('.text-with-icons__blocks-slider').slick({
       arrows: false, // Common setting for all breakpoints
