@@ -32,7 +32,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Our_Bestsellers-26.jpg",
+            "image": "shopify://shop_images/Our_Bestsellers-26.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -67,7 +67,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>The most important investment in your esthetics career is advanced education to enhance skills to develop professionally. These educational webinars provide immersive sessions in the latest innovations, techniques, protocols and ingredients in esthetics as well as proven methods to increase business.<br\/><br\/>The 2024 Webinars will provide 90 minutes of intense educational content, and provide all the features that have drawn over 12,000 people to participate in the past year, including live demonstration and an interactive Q&A.<\/p>",
+            "text": "<p>The most important investment in your esthetics career is advanced education to enhance skills to develop professionally. These educational webinars provide immersive sessions in the latest innovations, techniques, protocols and ingredients in esthetics as well as proven methods to increase business.<br/><br/>The 2024 Webinars will provide 90 minutes of intense educational content, and provide all the features that have drawn over 12,000 people to participate in the past year, including live demonstration and an interactive Q&A.</p>",
             "text_color": "#000000"
           }
         }
@@ -98,9 +98,9 @@
             "date": "22-24",
             "class": "TRADESHOW",
             "title": "IECSC LAS VEGAS",
-            "text": "<p><strong>Las Vegas, NV<\/strong><\/p><p>Booth: 501<\/p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "text": "<p><strong>Las Vegas, NV</strong></p><p>Booth: 501</p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.iecsclasvegas.com\/"
+            "button_link": "https://www.iecsclasvegas.com/"
           }
         },
         "class_kDCUFb": {
@@ -111,9 +111,9 @@
             "date": "24",
             "class": "CLASS",
             "title": "TREAT 80% OF YOUR SKINCARE CLIENTELE WITH T-ZONE BALANCE CLASSIC FACIAL FOR COMBINATION SKIN: CIDESCO ENDORSED TREATMENT PROTOCOL",
-            "text": "<p><strong>At IECSC, Las Vegas<\/strong><\/p><p>Time: 10:00am to 11:00am PDT<\/p><p>Location: W227<\/p><p>Proven in-spa solutions for oily and dry \/ dehydrated skin types. Help your clients restore balance to their skin with the new Repêchage T-Zone Balance Classic Facial: A CIDESCO Endorsed Treatment Protocol using clinically proven ingredients and dermatologist tested products.<br\/>In this class you will learn:<br\/>- Live Demonstration of step-by-step CIDESCO endorsed treatment protocol<br\/>- Proven Ingredients specifically for addressing Combination Skin<br\/>- Ultrasonic Skin Spatula and LED + RF + EMS for best results in the treatment room<\/p>",
+            "text": "<p><strong>At IECSC, Las Vegas</strong></p><p>Time: 10:00am to 11:00am PDT</p><p>Location: W227</p><p>Proven in-spa solutions for oily and dry / dehydrated skin types. Help your clients restore balance to their skin with the new Repêchage T-Zone Balance Classic Facial: A CIDESCO Endorsed Treatment Protocol using clinically proven ingredients and dermatologist tested products.<br/>In this class you will learn:<br/>- Live Demonstration of step-by-step CIDESCO endorsed treatment protocol<br/>- Proven Ingredients specifically for addressing Combination Skin<br/>- Ultrasonic Skin Spatula and LED + RF + EMS for best results in the treatment room</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/iecsclasvegas2024.sched.com\/event\/1bOg4\/repechage-presents-the-new-clinical-facial-treatment-with-proven-results?iframe=no"
+            "button_link": "https://iecsclasvegas2024.sched.com/event/1bOg4/repechage-presents-the-new-clinical-facial-treatment-with-proven-results?iframe=no"
           }
         },
         "class_BCQ4cd": {
@@ -124,9 +124,9 @@
             "date": "24",
             "class": "WEBINAR",
             "title": "EXPERIENCIA DE HIDRATACIÓN PROFUNDA DEL MAR: EL REPÊCHAGE FOUR-LAYER FACIAL",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Descubre un cutis radiante y juvenil con el lujoso Repêchage Four-Layer Facial. Este favorito de spa está diseñado para hidratar intensamente, rejuvenecer y reafirmar visiblemente tu piel. Sumérgete en una experiencia transformadora:<br\/>- Capa tras capa de hidratación: Disfruta de la nutrición profunda del mar con algas europeas frescas. Cada capa aporta vitaminas esenciales, minerales y antioxidantes para saciar la sed de tu piel y promover un brillo saludable.<br\/>- Exfoliación y limpieza profunda: Despídete del aspecto apagado y las impurezas. Este facial incorpora una limpieza y exfoliación profunda europea para refinar tus poros y revelar un rostro más suave y claro.<br\/>- Resultados visibles y efectos duraderos: Observa una apariencia revitalizada con mejor tono, elasticidad y un aumento de hidratación. El Repêchage Four-Layer Facial está diseñado para ofrecer resultados duraderos, dejándote con un aspecto fresco y juvenil.<br\/>- Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<br\/>Regálate un viaje sin igual de indulgencia y experimenta el poder transformador del mar.<\/p>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>Descubre un cutis radiante y juvenil con el lujoso Repêchage Four-Layer Facial. Este favorito de spa está diseñado para hidratar intensamente, rejuvenecer y reafirmar visiblemente tu piel. Sumérgete en una experiencia transformadora:<br/>- Capa tras capa de hidratación: Disfruta de la nutrición profunda del mar con algas europeas frescas. Cada capa aporta vitaminas esenciales, minerales y antioxidantes para saciar la sed de tu piel y promover un brillo saludable.<br/>- Exfoliación y limpieza profunda: Despídete del aspecto apagado y las impurezas. Este facial incorpora una limpieza y exfoliación profunda europea para refinar tus poros y revelar un rostro más suave y claro.<br/>- Resultados visibles y efectos duraderos: Observa una apariencia revitalizada con mejor tono, elasticidad y un aumento de hidratación. El Repêchage Four-Layer Facial está diseñado para ofrecer resultados duraderos, dejándote con un aspecto fresco y juvenil.<br/>- Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<br/>Regálate un viaje sin igual de indulgencia y experimenta el poder transformador del mar.</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-06-24-experiencia-de-hidratacion-profunda-del-mar-el-repechage-four-layer-facial.php"
+            "button_link": "https://www.lydiasarfati.com/2024-06-24-experiencia-de-hidratacion-profunda-del-mar-el-repechage-four-layer-facial.php"
           }
         },
         "class_ztpVVN": {
@@ -137,9 +137,9 @@
             "date": "1",
             "class": "WEBINAR",
             "title": "THE EYES HAVE IT",
-            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Everyone wishes their wrinkles, dark circles, and puffy eyes would disappear. Learn how to create and perform an eye contour lifting procedure, massage, and mask so that men’s and women’s crow’s feet are gone. Join Repêchage® CEO and Founder Lydia Sarfati to learn how to restore and revitalize the eye zone area with sustainably-harvested seaweed-based skin care treatments that can help reduce the appearance of fine lines, wrinkles, puffiness and dark circles fast. In this webinar, you will learn:<br\/>– How to perform step-by-step eye contour protocols to help reduce signs of fatigue and aging<br\/>– In depth information and analysis of the effectiveness of cutting edge ingredients such as advanced Peptides to help restore youthful appearance to the eye area.<br\/>– Renowned massage methods to augment treatments for a full relaxation effect<br\/>– Upon completion of 10 question test, registrants will receive a certificate of participation<\/p>",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati</strong></p><p>12pm – 1:30pm EST</p><p>Everyone wishes their wrinkles, dark circles, and puffy eyes would disappear. Learn how to create and perform an eye contour lifting procedure, massage, and mask so that men’s and women’s crow’s feet are gone. Join Repêchage® CEO and Founder Lydia Sarfati to learn how to restore and revitalize the eye zone area with sustainably-harvested seaweed-based skin care treatments that can help reduce the appearance of fine lines, wrinkles, puffiness and dark circles fast. In this webinar, you will learn:<br/>– How to perform step-by-step eye contour protocols to help reduce signs of fatigue and aging<br/>– In depth information and analysis of the effectiveness of cutting edge ingredients such as advanced Peptides to help restore youthful appearance to the eye area.<br/>– Renowned massage methods to augment treatments for a full relaxation effect<br/>– Upon completion of 10 question test, registrants will receive a certificate of participation</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-01-the-eyes-have-it.php"
+            "button_link": "https://www.lydiasarfati.com/2024-07-01-the-eyes-have-it.php"
           }
         },
         "class_zffzRt": {
@@ -150,9 +150,9 @@
             "date": "29",
             "class": "WEBINAR",
             "title": "LO QUE TUS OJOS NECESITAN",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Todo el mundo desearía que sus arrugas, ojeras y ojos hinchados desaparecieran. Aprenda a crear y realizar un procedimiento de lifting, masaje y mascarilla para el contorno de ojos para que las patas de gallo de hombres y mujeres desaparezcan. Únase a la directora ejecutiva y fundadora de Repêchage®, Lydia Sarfati, para aprender cómo restaurar y revitalizar el área de los ojos con tratamientos para el cuidado de la piel a base de algas marinas recolectadas de manera sostenible que pueden ayudar a reducir rápidamente la apariencia de líneas finas, arrugas, hinchazón y ojeras. En este seminario web, aprenderá:<br\/>– Cómo realizar protocolos de contorno de ojos paso a paso para ayudar a reducir los signos de fatiga y envejecimiento<br\/>– Información detallada y análisis de la eficacia de ingredientes de vanguardia, como péptidos avanzados, para ayudar a restaurar la apariencia juvenil del área de los ojos.<br\/>– Métodos de masaje reconocidos para complementar los tratamientos y lograr un efecto de relajación total.<br\/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/p>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>Todo el mundo desearía que sus arrugas, ojeras y ojos hinchados desaparecieran. Aprenda a crear y realizar un procedimiento de lifting, masaje y mascarilla para el contorno de ojos para que las patas de gallo de hombres y mujeres desaparezcan. Únase a la directora ejecutiva y fundadora de Repêchage®, Lydia Sarfati, para aprender cómo restaurar y revitalizar el área de los ojos con tratamientos para el cuidado de la piel a base de algas marinas recolectadas de manera sostenible que pueden ayudar a reducir rápidamente la apariencia de líneas finas, arrugas, hinchazón y ojeras. En este seminario web, aprenderá:<br/>– Cómo realizar protocolos de contorno de ojos paso a paso para ayudar a reducir los signos de fatiga y envejecimiento<br/>– Información detallada y análisis de la eficacia de ingredientes de vanguardia, como péptidos avanzados, para ayudar a restaurar la apariencia juvenil del área de los ojos.<br/>– Métodos de masaje reconocidos para complementar los tratamientos y lograr un efecto de relajación total.<br/>– Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-07-29-lo-que-tus-ojos-necesitan.php"
+            "button_link": "https://www.lydiasarfati.com/2024-07-29-lo-que-tus-ojos-necesitan.php"
           }
         },
         "class_jpdCBF": {
@@ -163,9 +163,9 @@
             "date": "5",
             "class": "LS ACADEMY",
             "title": "MASTER CLASS WITH LYDIA SARFATI: INTRODUCING THE REPECHAGE T-ZONE CLASSIC FACIAL",
-            "text": "<p><strong>Endorsed by CIDESCO INTERNATIONAL<\/strong><\/p><p>Lydia Sarfati Post-Graduate Skin Care Academy<br\/>9:30am – 5:30pm EST<br\/>300 Castle Road, Secaucus, NJ 07094<\/p><p>Join us for an extraordinary skincare experience as we demonstrate the latest addition to our exclusive treatment lineup – the Repêchage T-Zone Classic Facial, a CIDESCO International endorsed procedure. This innovative facial is specially crafted to target and transform the most problematic areas of your skin, leaving you with a flawless, radiant complexion. This full day program will include:<br\/>- Ingredients and treatments to truly address combination skin to help eliminate oiliness in the T-Zone while maintaining the skin’s essential moisture barrier<br\/>- How to perform proper consultation and diagnosis of the skin<br\/>- Demonstrations to master massage techniques<br\/>- The definitive method for extractions without pain<br\/>- How to incorporate upgrades and the Art of Retail to increase your business by 50%<br\/>- Advanced education on using modalities such as LED and the Ultrasonic Spatula to enhance product performance<br\/>- Repêchage\/CIDESCO Certificate Awarded with score of 70% or higher MCQ 35 questions with successful completion of test<br\/>Lunch and refreshments provided<br\/>Price $289.00 includes Workshop T-Zone Balance Clinical Facial Kit (kit contains 6 facials), LED and Ultrasonic Spatula<br\/><br\/>Each certification master class has a class capacity of 30 people.<\/p>",
+            "text": "<p><strong>Endorsed by CIDESCO INTERNATIONAL</strong></p><p>Lydia Sarfati Post-Graduate Skin Care Academy<br/>9:30am – 5:30pm EST<br/>300 Castle Road, Secaucus, NJ 07094</p><p>Join us for an extraordinary skincare experience as we demonstrate the latest addition to our exclusive treatment lineup – the Repêchage T-Zone Classic Facial, a CIDESCO International endorsed procedure. This innovative facial is specially crafted to target and transform the most problematic areas of your skin, leaving you with a flawless, radiant complexion. This full day program will include:<br/>- Ingredients and treatments to truly address combination skin to help eliminate oiliness in the T-Zone while maintaining the skin’s essential moisture barrier<br/>- How to perform proper consultation and diagnosis of the skin<br/>- Demonstrations to master massage techniques<br/>- The definitive method for extractions without pain<br/>- How to incorporate upgrades and the Art of Retail to increase your business by 50%<br/>- Advanced education on using modalities such as LED and the Ultrasonic Spatula to enhance product performance<br/>- Repêchage/CIDESCO Certificate Awarded with score of 70% or higher MCQ 35 questions with successful completion of test<br/>Lunch and refreshments provided<br/>Price $289.00 includes Workshop T-Zone Balance Clinical Facial Kit (kit contains 6 facials), LED and Ultrasonic Spatula<br/><br/>Each certification master class has a class capacity of 30 people.</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.repechage.com\/products\/the-perfect-facial-for-the-most-common-skin-type-combination-skin-the-new-t-zone-balance-facial-workshop-august-5-2024"
+            "button_link": "https://www.repechage.com/products/the-perfect-facial-for-the-most-common-skin-type-combination-skin-the-new-t-zone-balance-facial-workshop-august-5-2024"
           }
         },
         "class_aFDFKN": {
@@ -176,9 +176,9 @@
             "date": "26-27",
             "class": "TRADESHOW",
             "title": "LIVE LOVE SPA",
-            "text": "<p><strong>Loews Miami Beach Hotel, Miami, FL<\/strong><\/p><p>Live Love Spa is the premier community for spa professionals to connect, discover and learn about new trends, products, experiences and emerging insights in the wellness space.<\/p>",
+            "text": "<p><strong>Loews Miami Beach Hotel, Miami, FL</strong></p><p>Live Love Spa is the premier community for spa professionals to connect, discover and learn about new trends, products, experiences and emerging insights in the wellness space.</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/livelovespa.regfox.com\/live-love-spa-miami-2024"
+            "button_link": "https://livelovespa.regfox.com/live-love-spa-miami-2024"
           }
         },
         "class_xJLqft": {
@@ -189,9 +189,9 @@
             "date": "9",
             "class": "WEBINAR",
             "title": "ALL ABOUT PEELS AND SKIN REJUVENATION",
-            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Learn how to safely rejuvenate skin AHA BHA and enzymatic peels to create lasting results. Join Repêchage Founder and CEO Lydia Sarfati to learn how mild glycolic peels and exfoliating masks can create beautiful skin instantly. In this webinar, you will learn:<\/p><ul><li>How to integrate groundbreaking peels such as the hybrid Biolight® Luminex Mask and Glyco-Sea® Glycolic Peel, the Vita Cura® Enzymatic Micropeel and the Rapidex® Marine Exfoliator with Phyto Marine Actives into your treatment menu for transformative results<\/li><li>How the proper formulations of ingredients to maintain pH and moisture barrier can create a non-irritating experience<\/li><li>How to upgrade facials with bioadvanced peels for dramatic results<\/li><li>Upon completion of 10 question test, registrants will receive a certificate of participation<\/li><\/ul>",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati</strong></p><p>12pm – 1:30pm EST</p><p>Learn how to safely rejuvenate skin AHA BHA and enzymatic peels to create lasting results. Join Repêchage Founder and CEO Lydia Sarfati to learn how mild glycolic peels and exfoliating masks can create beautiful skin instantly. In this webinar, you will learn:</p><ul><li>How to integrate groundbreaking peels such as the hybrid Biolight® Luminex Mask and Glyco-Sea® Glycolic Peel, the Vita Cura® Enzymatic Micropeel and the Rapidex® Marine Exfoliator with Phyto Marine Actives into your treatment menu for transformative results</li><li>How the proper formulations of ingredients to maintain pH and moisture barrier can create a non-irritating experience</li><li>How to upgrade facials with bioadvanced peels for dramatic results</li><li>Upon completion of 10 question test, registrants will receive a certificate of participation</li></ul>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-09-09-all-about-peels-and-skin-rejuvenation.php"
+            "button_link": "https://www.lydiasarfati.com/2024-09-09-all-about-peels-and-skin-rejuvenation.php"
           }
         },
         "class_8BYREV": {
@@ -201,9 +201,9 @@
             "date": "29-30",
             "class": "TRADESHOW",
             "title": "PRO BEAUTY NORTH",
-            "text": "<p><strong>Manchester Central Convention Centre, Manchester, UK<\/strong><\/p><p>Stand C65<\/p><p>Looking to expand, sharpen your client offering or just save money? Then this is your show! From skincare to advanced treatments, specialist equipment to wellness, nails to tanning, Professional Beauty has it all.<\/p>",
+            "text": "<p><strong>Manchester Central Convention Centre, Manchester, UK</strong></p><p>Stand C65</p><p>Looking to expand, sharpen your client offering or just save money? Then this is your show! From skincare to advanced treatments, specialist equipment to wellness, nails to tanning, Professional Beauty has it all.</p>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/professionalbeauty.co.uk\/professional-beauty-north"
+            "button_link": "https://professionalbeauty.co.uk/professional-beauty-north"
           }
         },
         "class_tttkLC": {
@@ -213,9 +213,9 @@
             "date": "30",
             "class": "WEBINAR",
             "title": "TODO SOBRE LOS PEELINGS Y EL REJUVENECIMIENTO DE LA PIEL",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Aprenda cómo rejuvenecer la piel de forma segura con AHA’s BHA’s y Exfoliaciones Enzimáticas para crear resultados duraderos. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo las exfoliaciones suaves con ácido glicólico y las mascarillas exfoliantes pueden crear una piel hermosa al instante. En este seminario web, aprenderá:<\/p><ul><li>Cómo integrar exfoliaciones innovadoras como la mascarilla híbrida Biolight® Luminex y la exfoliación glicólica Glyco-Sea®, el Micropeel Enzimático Vita Cura® y el Exfoliante Marino Rapidex® con activos Fito-Marinos en su menú de tratamientos para obtener resultados transformadores<\/li><li>Cómo las formulaciones adecuadas de ingredientes para mantener el pH y la humedad de la barrera cutánea pueden crear una experiencia no irritante<\/li><li>Cómo mejorar los tratamientos faciales con exfoliaciones bioavanzadas para obtener resultados espectaculares<\/li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/li><\/ul>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>Aprenda cómo rejuvenecer la piel de forma segura con AHA’s BHA’s y Exfoliaciones Enzimáticas para crear resultados duraderos. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo las exfoliaciones suaves con ácido glicólico y las mascarillas exfoliantes pueden crear una piel hermosa al instante. En este seminario web, aprenderá:</p><ul><li>Cómo integrar exfoliaciones innovadoras como la mascarilla híbrida Biolight® Luminex y la exfoliación glicólica Glyco-Sea®, el Micropeel Enzimático Vita Cura® y el Exfoliante Marino Rapidex® con activos Fito-Marinos en su menú de tratamientos para obtener resultados transformadores</li><li>Cómo las formulaciones adecuadas de ingredientes para mantener el pH y la humedad de la barrera cutánea pueden crear una experiencia no irritante</li><li>Cómo mejorar los tratamientos faciales con exfoliaciones bioavanzadas para obtener resultados espectaculares</li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.</li></ul>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-09-30-todo-sobre-los-peelings-y-el-rejuvenecimiento-de-la-piel.php"
+            "button_link": "https://www.lydiasarfati.com/2024-09-30-todo-sobre-los-peelings-y-el-rejuvenecimiento-de-la-piel.php"
           }
         },
         "class_6h3WzJ": {
@@ -225,9 +225,9 @@
             "date": "7",
             "class": "WEBINAR",
             "title": "COMPROMISED SKIN NEEDS WELLNESS",
-            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Does your clients' skin need an intervention? Let them know their skin is saying “stop and help me.” Whether from sun exposures, over-aggressive treatments or even radiation and chemotherapy, many people have dry, compromised skin that needs help. Join Repêchage Founder and CEO Lydia Sarfati to learn how to rebuild a compromised skin barrier while you calm, and protect. In this webinar, you will learn:<\/p><ul><li>Information on how to deal with anxiety, stress, and physical changes taking place in the client<\/li><li>How adding ‘rituals’ to every spa service helps lower stress by affecting the sympathetic and para-sympathetic nervous systems.<\/li><li>How to perform proper facial treatments such as the Hydra Dew Pure™ Moisturizing Lift Facial to restore and maintain the body’s essential first line of defense, the skin<\/li><li>Essential information on utilizing proper ingredients for the sensitized client<\/li><li>Proper massage techniques for stress reduction and relaxation<\/li><li>Upon completion of 10 question test, registrants will receive a certificate of participation<\/li><\/ul>",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati</strong></p><p>12pm – 1:30pm EST</p><p>Does your clients' skin need an intervention? Let them know their skin is saying “stop and help me.” Whether from sun exposures, over-aggressive treatments or even radiation and chemotherapy, many people have dry, compromised skin that needs help. Join Repêchage Founder and CEO Lydia Sarfati to learn how to rebuild a compromised skin barrier while you calm, and protect. In this webinar, you will learn:</p><ul><li>Information on how to deal with anxiety, stress, and physical changes taking place in the client</li><li>How adding ‘rituals’ to every spa service helps lower stress by affecting the sympathetic and para-sympathetic nervous systems.</li><li>How to perform proper facial treatments such as the Hydra Dew Pure™ Moisturizing Lift Facial to restore and maintain the body’s essential first line of defense, the skin</li><li>Essential information on utilizing proper ingredients for the sensitized client</li><li>Proper massage techniques for stress reduction and relaxation</li><li>Upon completion of 10 question test, registrants will receive a certificate of participation</li></ul>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-10-07-compromised-skin-needs-wellness.php"
+            "button_link": "https://www.lydiasarfati.com/2024-10-07-compromised-skin-needs-wellness.php"
           }
         },
         "class_eTk6PY": {
@@ -237,9 +237,9 @@
             "date": "13-14",
             "class": "TRADESHOW",
             "title": "IECSC FLORIDA",
-            "text": "<p><strong>West Palm Beach, FL<\/strong><\/p><p>Booth# 207<\/p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "text": "<p><strong>West Palm Beach, FL</strong></p><p>Booth# 207</p><p>Meet the Repêchage Team in Person at IECSC! Discover the Future of Skincare Innovation at Our Booth!</p>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.iecscflorida.com\/"
+            "button_link": "https://www.iecscflorida.com/"
           }
         },
         "class_M4rGmV": {
@@ -249,9 +249,9 @@
             "date": "13",
             "class": "TRADESHOW CLASS",
             "title": "THE DO'S AND DON'TS OF ONCOLOGY ESTHETICS",
-            "text": "<p><strong>IECSC Florida<\/strong><\/p><p>12:00PM to 1:00PM | Room 1C<\/p><p>This class will cover Do’s and Don’ts to ensure safe and effective care when treating clients with compromised skin from the effects of radiation and chemotherapy. Our live class will guide you through the best practices in oncology skincare. Learn how to apply a Kansa Wand facial massage, tailored for compromised skin and win exclusive prizes! Attend for a chance to win the book, ONCOLOGY ESTHETICS by Morag Currin in collaboration with Repêchage® anda box of the Hydra Dew Pure™ Facial.<\/p><ul><li>Interactive Learning: Participate in live demonstrations and Q&A sessions to deepen your understanding and skills.<\/li><\/ul>",
+            "text": "<p><strong>IECSC Florida</strong></p><p>12:00PM to 1:00PM | Room 1C</p><p>This class will cover Do’s and Don’ts to ensure safe and effective care when treating clients with compromised skin from the effects of radiation and chemotherapy. Our live class will guide you through the best practices in oncology skincare. Learn how to apply a Kansa Wand facial massage, tailored for compromised skin and win exclusive prizes! Attend for a chance to win the book, ONCOLOGY ESTHETICS by Morag Currin in collaboration with Repêchage® anda box of the Hydra Dew Pure™ Facial.</p><ul><li>Interactive Learning: Participate in live demonstrations and Q&A sessions to deepen your understanding and skills.</li></ul>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/iecscflorida2024.sched.com\/event\/1iCqh\/repechager-presents-the-dos-donts-of-oncology-esthetics"
+            "button_link": "https://iecscflorida2024.sched.com/event/1iCqh/repechager-presents-the-dos-donts-of-oncology-esthetics"
           }
         },
         "class_zQXkbf": {
@@ -261,9 +261,9 @@
             "date": "14",
             "class": "TRADESHOW CLASS",
             "title": "THE SIGNATURE FOUR-LAYER FACIAL® - BALANCING THE FOUR ELEMENTS: WATER, AIR, EARTH, FIRE",
-            "text": "<p><strong>IECSC Florida<\/strong><\/p><p>10:00AM to 11:00AM | Room 1C<\/p><p>Witness the art of the Signature Four-Layer Facial® in a live demonstration! This world-renowned treatment harmonizes the four elements of Earth to achieve balance, deephydration, and anti-agingbenefits. Discover how this holistic approach delivers total wellness results that rejuvenate and enhance a youthful appearance.<\/p><ul><li>Live demonstrations and practical insights into advanced techniques.<\/li><li>***EXCLUSIVE PRIZE: ATTEND TO WIN ONE TREATMENT***<\/li><\/ul>",
+            "text": "<p><strong>IECSC Florida</strong></p><p>10:00AM to 11:00AM | Room 1C</p><p>Witness the art of the Signature Four-Layer Facial® in a live demonstration! This world-renowned treatment harmonizes the four elements of Earth to achieve balance, deephydration, and anti-agingbenefits. Discover how this holistic approach delivers total wellness results that rejuvenate and enhance a youthful appearance.</p><ul><li>Live demonstrations and practical insights into advanced techniques.</li><li>***EXCLUSIVE PRIZE: ATTEND TO WIN ONE TREATMENT***</li></ul>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/iecscflorida2024.sched.com\/event\/1iCqk\/repechager-presents-the-signature-four-layer-facialr-balancing-the-four-elements-water-air-earth-fire"
+            "button_link": "https://iecscflorida2024.sched.com/event/1iCqk/repechager-presents-the-signature-four-layer-facialr-balancing-the-four-elements-water-air-earth-fire"
           }
         },
         "class_LWJTPy": {
@@ -273,9 +273,9 @@
             "date": "28-30",
             "class": "MASTER CLASS",
             "title": "Elevate Your Skincare Expertise",
-            "text": "<p><strong>Master Class with Lydia Sarfati<\/strong><\/p><p>This masterclass will provide hands-on experience, practical insights, and advanced techniques to elevate your skincare practice. Don’t miss this opportunity to learn from a leading expert in the field and enhance your skills with cutting-edge treatments.<\/p><p><strong>Day 1: Mastering Compromised Skin<\/strong><\/p><p><strong>Lecture and Workshop:<\/strong> Explore the complexities of compromised skin, including conditions resulting from harsh chemicals, chemotherapy, sun damage, wind, cold, and more. Learn how to assess and address these conditions with a do-no-harm approach.<\/p><p><strong>Treatments:<\/strong><\/p><ul><li><strong>Hydra Dew Pure Facial:<\/strong> Understand the fundamentals of this hydrating treatment and its benefits for compromised skin.<\/li><li><strong>Red Out Facial:<\/strong> Focus on rosacea and learn effective strategies for managing and soothing sensitive skin.<\/li><li><strong>Eye Contour Treatment Add-Ons:<\/strong> Enhance your knowledge of targeted treatments for delicate eye areas.<\/li><li><strong>Skin Histology Review:<\/strong> Gain insights into skin structure and function to better understand treatment outcomes.<\/li><\/ul><p><strong>Day 2: Advanced Facial Techniques<\/strong><\/p><p><strong>Treatments:<\/strong><\/p><ul><li><strong>Vita Cura Facial:<\/strong> Discover the powerful effects of this anti-aging treatment designed to rejuvenate and revitalize the skin.<\/li><li><strong>Biolight Facial:<\/strong> Learn about this brightening treatment and its benefits for uneven skin tones.<\/li><li><strong>Biolight Express Facial:<\/strong> Get to know the express version of the Biolight treatment for those clients on the go.<\/li><\/ul><p><strong>Day 3: Comprehensive Facial and Body Therapies<\/strong><\/p><p><strong>Facials and Body Treatments:<\/strong><\/p><ul><li><strong>Four Layer Facial:<\/strong> Master this multi-layered treatment designed to deeply nourish and hydrate the skin.<\/li><li><strong>Body Therapy Treatments:<\/strong> Delve into detox and anti-cellulite techniques to complement your facial services and offer holistic skincare solutions.<\/li><\/ul>",
+            "text": "<p><strong>Master Class with Lydia Sarfati</strong></p><p>This masterclass will provide hands-on experience, practical insights, and advanced techniques to elevate your skincare practice. Don’t miss this opportunity to learn from a leading expert in the field and enhance your skills with cutting-edge treatments.</p><p><strong>Day 1: Mastering Compromised Skin</strong></p><p><strong>Lecture and Workshop:</strong> Explore the complexities of compromised skin, including conditions resulting from harsh chemicals, chemotherapy, sun damage, wind, cold, and more. Learn how to assess and address these conditions with a do-no-harm approach.</p><p><strong>Treatments:</strong></p><ul><li><strong>Hydra Dew Pure Facial:</strong> Understand the fundamentals of this hydrating treatment and its benefits for compromised skin.</li><li><strong>Red Out Facial:</strong> Focus on rosacea and learn effective strategies for managing and soothing sensitive skin.</li><li><strong>Eye Contour Treatment Add-Ons:</strong> Enhance your knowledge of targeted treatments for delicate eye areas.</li><li><strong>Skin Histology Review:</strong> Gain insights into skin structure and function to better understand treatment outcomes.</li></ul><p><strong>Day 2: Advanced Facial Techniques</strong></p><p><strong>Treatments:</strong></p><ul><li><strong>Vita Cura Facial:</strong> Discover the powerful effects of this anti-aging treatment designed to rejuvenate and revitalize the skin.</li><li><strong>Biolight Facial:</strong> Learn about this brightening treatment and its benefits for uneven skin tones.</li><li><strong>Biolight Express Facial:</strong> Get to know the express version of the Biolight treatment for those clients on the go.</li></ul><p><strong>Day 3: Comprehensive Facial and Body Therapies</strong></p><p><strong>Facials and Body Treatments:</strong></p><ul><li><strong>Four Layer Facial:</strong> Master this multi-layered treatment designed to deeply nourish and hydrate the skin.</li><li><strong>Body Therapy Treatments:</strong> Delve into detox and anti-cellulite techniques to complement your facial services and offer holistic skincare solutions.</li></ul>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/www.repechage.com\/products\/3-day-master-class-with-lydia-sarfati-elevate-your-skincare-expertise-october-28-30-2024"
+            "button_link": "https://www.repechage.com/products/3-day-master-class-with-lydia-sarfati-elevate-your-skincare-expertise-october-28-30-2024"
           }
         },
         "class_hb6MHc": {
@@ -285,9 +285,9 @@
             "date": "28",
             "class": "WEBINAR",
             "title": "LA PIEL COMPROMETIDA NECESITA BIENESTAR",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>¿La piel de sus clientes necesita una intervención? Hágales saber que su piel dice \"detente y ayúdame\". Ya sea por exposición al sol, tratamientos demasiado agresivos o incluso radiación y quimioterapia, muchas personas tienen la piel seca y comprometida la cual necesita ayuda. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo reconstruir una barrera cutánea comprometida mientras calma y protege. En este seminario web, aprenderá:<\/p><ul><li>Información sobre cómo afrontar la ansiedad, el estrés y los cambios físicos que se producen en el cliente.<\/li><li>Cómo agregar “rituales” a cada servicio de spa ayuda a reducir el estrés al afectar los sistemas nerviosos simpático y parasimpático.<\/li><li>Cómo realizar tratamientos faciales adecuados, como el tratamiento facial hidratante Hydra Dew Pure™ para restaurar y mantener la primera línea de defensa esencial del cuerpo: la piel.<\/li><li>Información esencial sobre la utilización de ingredientes adecuados para el cliente sensibilizado.<\/li><li>Técnicas de masaje adecuadas para la reducción del estrés y la relajación.<\/li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/li><\/ul>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>¿La piel de sus clientes necesita una intervención? Hágales saber que su piel dice \"detente y ayúdame\". Ya sea por exposición al sol, tratamientos demasiado agresivos o incluso radiación y quimioterapia, muchas personas tienen la piel seca y comprometida la cual necesita ayuda. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo reconstruir una barrera cutánea comprometida mientras calma y protege. En este seminario web, aprenderá:</p><ul><li>Información sobre cómo afrontar la ansiedad, el estrés y los cambios físicos que se producen en el cliente.</li><li>Cómo agregar “rituales” a cada servicio de spa ayuda a reducir el estrés al afectar los sistemas nerviosos simpático y parasimpático.</li><li>Cómo realizar tratamientos faciales adecuados, como el tratamiento facial hidratante Hydra Dew Pure™ para restaurar y mantener la primera línea de defensa esencial del cuerpo: la piel.</li><li>Información esencial sobre la utilización de ingredientes adecuados para el cliente sensibilizado.</li><li>Técnicas de masaje adecuadas para la reducción del estrés y la relajación.</li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.</li></ul>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-10-28-la-piel-comprometida-necesita-bienestar.php"
+            "button_link": "https://www.lydiasarfati.com/2024-10-28-la-piel-comprometida-necesita-bienestar.php"
           }
         },
         "class_VaqCr6": {
@@ -297,9 +297,9 @@
             "date": "4",
             "class": "WEBINAR",
             "title": "ANTI-AGING: MENOPAUSAL SKIN OVER 40",
-            "text": "<p><strong>Virtual Master Class with Lydia Sarfati<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>Perimenopause begins the skin over 40, but can start even sooner. Join Repêchage Founder and CEO Lydia Sarfati to learn how to lift and replenish skin moisture with advanced skin treatments that holistically address hormonal changes in the skin. Here, you will learn:<\/p><ul><li>The importance of hormones and how it affects all bodily functions and the skin, including hormonal changes, diet and lifestyle choices, especially during perimenopause<\/li><li>Recognize the significance of collagen and elastin, the “cellular glue” that is lost in 1% increments on an annual basis after you turn 20, that contributes to the appearance of aging in the skin<\/li><li>How the Vita Cura® 5 Phase Firming Facial and the Vita Cura® Gold Collection decrease wrinkles, even skin tone, and firm face and eye contours.<\/li><li>How Seaweed, Peptides, Sea Ferments such as Thermus Thermophillus, vitamins and phytohormones, and Spirulina help restore and recover skin from hormonal changes and signs of aging<\/li><li>Learn how to super charge your treatments with devices such as the LED Radio Frequency and EMS Skin Tightening Machine and the Ultrasonic Skin Spatula to stimulate and exfoliate the skin surface<\/li><li>Upon completion of 10 question test, registrants will receive a certificate of participation<\/li><\/ul>",
+            "text": "<p><strong>Virtual Master Class with Lydia Sarfati</strong></p><p>12pm – 1:30pm EST</p><p>Perimenopause begins the skin over 40, but can start even sooner. Join Repêchage Founder and CEO Lydia Sarfati to learn how to lift and replenish skin moisture with advanced skin treatments that holistically address hormonal changes in the skin. Here, you will learn:</p><ul><li>The importance of hormones and how it affects all bodily functions and the skin, including hormonal changes, diet and lifestyle choices, especially during perimenopause</li><li>Recognize the significance of collagen and elastin, the “cellular glue” that is lost in 1% increments on an annual basis after you turn 20, that contributes to the appearance of aging in the skin</li><li>How the Vita Cura® 5 Phase Firming Facial and the Vita Cura® Gold Collection decrease wrinkles, even skin tone, and firm face and eye contours.</li><li>How Seaweed, Peptides, Sea Ferments such as Thermus Thermophillus, vitamins and phytohormones, and Spirulina help restore and recover skin from hormonal changes and signs of aging</li><li>Learn how to super charge your treatments with devices such as the LED Radio Frequency and EMS Skin Tightening Machine and the Ultrasonic Skin Spatula to stimulate and exfoliate the skin surface</li><li>Upon completion of 10 question test, registrants will receive a certificate of participation</li></ul>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-11-04-anti-aging-menopausal-skin-over-40.php"
+            "button_link": "https://www.lydiasarfati.com/2024-11-04-anti-aging-menopausal-skin-over-40.php"
           }
         },
         "class_ULYxqg": {
@@ -309,9 +309,9 @@
             "date": "25",
             "class": "WEBINAR",
             "title": "ANTIENVEJECIMIENTO: PIELES MENOPÁUSICAS MAYORES DE 40 AÑOS",
-            "text": "<p><strong>Virtual Class with Yolanda Amador<\/strong><\/p><p>12pm – 1:30pm EST<\/p><p>La perimenopausia comienza en la piel a partir de los 40 años, pero puede comenzar incluso antes. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo levantar y reponer la humedad de la piel con tratamientos cutáneos avanzados que abordan de manera integral los cambios hormonales en la piel. Aquí aprenderá:<\/p><ul><li>La importancia de las hormonas y cómo afectan todas las funciones corporales y la piel, incluidos los cambios hormonales, la dieta y el estilo de vida, especialmente durante la perimenopausia.<\/li><li>Reconocer la importancia del colágeno y la elastina, el “pegamento celular” que se pierde en incrementos del 1% anualmente después de cumplir los 20 años y que contribuye a la aparición del envejecimiento de la piel.<\/li><li>Cómo el facial reafirmante de 5 fases Vita Cura® y la colección Vita Cura® Gold disminuyen las arrugas, igualan el tono de la piel y reafirman el contorno del rostro y los ojos.<\/li><li>Cómo las algas, péptidos, fermentos marinos como Thermus Thermophillus, vitaminas, fitohormonas y la espirulina ayudan a restaurar y recuperar la piel de los cambios hormonales y signos del envejecimiento.<\/li><li>Aprenda a potenciar sus tratamientos con dispositivos como la Máquina de Radiofrecuencia LED y EME para Estiramiento Cutáneo y la Espátula Ultrasónica para estimular y exfoliar la superficie de la piel.<\/li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<\/li><\/ul>",
+            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>La perimenopausia comienza en la piel a partir de los 40 años, pero puede comenzar incluso antes. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo levantar y reponer la humedad de la piel con tratamientos cutáneos avanzados que abordan de manera integral los cambios hormonales en la piel. Aquí aprenderá:</p><ul><li>La importancia de las hormonas y cómo afectan todas las funciones corporales y la piel, incluidos los cambios hormonales, la dieta y el estilo de vida, especialmente durante la perimenopausia.</li><li>Reconocer la importancia del colágeno y la elastina, el “pegamento celular” que se pierde en incrementos del 1% anualmente después de cumplir los 20 años y que contribuye a la aparición del envejecimiento de la piel.</li><li>Cómo el facial reafirmante de 5 fases Vita Cura® y la colección Vita Cura® Gold disminuyen las arrugas, igualan el tono de la piel y reafirman el contorno del rostro y los ojos.</li><li>Cómo las algas, péptidos, fermentos marinos como Thermus Thermophillus, vitaminas, fitohormonas y la espirulina ayudan a restaurar y recuperar la piel de los cambios hormonales y signos del envejecimiento.</li><li>Aprenda a potenciar sus tratamientos con dispositivos como la Máquina de Radiofrecuencia LED y EME para Estiramiento Cutáneo y la Espátula Ultrasónica para estimular y exfoliar la superficie de la piel.</li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.</li></ul>",
             "button_label": "Register",
-            "button_link": "https:\/\/www.lydiasarfati.com\/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
+            "button_link": "https://www.lydiasarfati.com/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
           }
         },
         "class_c9CLCt": {
@@ -321,9 +321,9 @@
             "date": "2",
             "class": "CONGRESS",
             "title": "Day of Empowerment",
-            "text": "<p><strong>Conrad Ft Lauderdale Beach Resort<\/strong><\/p><p>We are thrilled to invite you to our 2024 Day of Empowerment event, hosted by Lydia Sarfati at the luxurious Conrad Ft Lauderdale Beach Resort. Immerse yourself in inspiration and learning at our Day of Empowerment on December 2, followed by an exclusive Advanced Skincare Workshop on December 3.<\/p><p><strong>Take advantage of our special pricing by signing up for our ALL ACCESS PASS - includes Sunday Evening Welcome Cocktails and two days of learning!<\/strong> Secure your spot now for an unforgettable experience designed to empower and elevate your professional journey.<\/p><p>We are happy to offer you two exclusive room block rates for your upcoming stay. We have secured special pricing at both the Conrad Fort Lauderdale Beach and The Atlantic Hotel and Spa.<\/p><ul><li><a href=\"https:\/\/book.passkey.com\/event\/50861018\/owner\/49638874\/home\" target=\"_blank\">Conrad Fort Lauderdale Beach<\/a>: Enjoy a luxurious stay with stunning ocean views. These rates are limited and are selling out fast<br\/><a href=\"https:\/\/book.passkey.com\/event\/50861018\/owner\/49638874\/home\" target=\"_blank\" title=\"https:\/\/book.passkey.com\/event\/50861018\/owner\/49638874\/home\"><strong>[BOOK NOW]<\/strong><\/a><\/li><li><a href=\"https:\/\/be.synxis.com\/?adult=1&amp;arrive=2024-08-14&amp;chain=31425&amp;child=0%C2%A4cy=USD&amp;depart=2024-08-15&amp;hotel=27188&amp;level=hotel&amp;locale=en-US&amp;productcurrency=USD&amp;promo=Repechage&amp;rooms=1\" target=\"_blank\">The Atlantic Hotel and Spa<\/a>: Experience unparalleled comfort and relaxation next door to The Conrad Ft Lauderdale Beach<br\/><a href=\"https:\/\/be.synxis.com\/?adult=1&amp;arrive=2024-08-14&amp;chain=31425&amp;child=0%C2%A4cy=USD&amp;depart=2024-08-15&amp;hotel=27188&amp;level=hotel&amp;locale=en-US&amp;productcurrency=USD&amp;promo=Repechage&amp;rooms=1\" target=\"_blank\" title=\"https:\/\/be.synxis.com\/?adult=1&amp;arrive=2024-08-14&amp;chain=31425&amp;child=0%C2%A4cy=USD&amp;depart=2024-08-15&amp;hotel=27188&amp;level=hotel&amp;locale=en-US&amp;productcurrency=USD&amp;promo=Repechage&amp;rooms=1\"><strong>[BOOK NOW]<\/strong><\/a><\/li><\/ul>",
+            "text": "<p><strong>Conrad Ft Lauderdale Beach Resort</strong></p><p>We are thrilled to invite you to our 2024 Day of Empowerment event, hosted by Lydia Sarfati at the luxurious Conrad Ft Lauderdale Beach Resort. Immerse yourself in inspiration and learning at our Day of Empowerment on December 2, followed by an exclusive Advanced Skincare Workshop on December 3.</p><p><strong>Take advantage of our special pricing by signing up for our ALL ACCESS PASS - includes Sunday Evening Welcome Cocktails and two days of learning!</strong> Secure your spot now for an unforgettable experience designed to empower and elevate your professional journey.</p><p>We are happy to offer you an exclusive room block rate with special pricing at <a href=\"https://be.synxis.com/?adult=1&amp;arrive=2024-08-14&amp;chain=31425&amp;child=0%C2%A4cy=USD&amp;depart=2024-08-15&amp;hotel=27188&amp;level=hotel&amp;locale=en-US&amp;productcurrency=USD&amp;promo=Repechage&amp;rooms=1\" target=\"_blank\">The Atlantic Hotel and Spa</a> - Experience unparalleled comfort and relaxation next door to The Conrad Ft Lauderdale Beach<br/><a href=\"https://be.synxis.com/?adult=1&amp;arrive=2024-08-14&amp;chain=31425&amp;child=0%C2%A4cy=USD&amp;depart=2024-08-15&amp;hotel=27188&amp;level=hotel&amp;locale=en-US&amp;productcurrency=USD&amp;promo=Repechage&amp;rooms=1\" target=\"_blank\"> <strong>[BOOK NOW]</strong></a></p>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/www.repechage.com\/collections\/2024-repechage-education-calendar\/products\/day-of-empowerment-2024"
+            "button_link": "https://www.repechage.com/collections/2024-repechage-education-calendar/products/day-of-empowerment-2024"
           }
         },
         "class_WNEhey": {
@@ -333,9 +333,9 @@
             "date": "3",
             "class": "WORKSHOP",
             "title": "Advanced Skincare Workshop",
-            "text": "<p><strong>Conrad Ft Lauderdale Beach Resort<\/strong><\/p><p>Lydia Sarfati hosts an Advanced Skincare Workshop for licensed professionals at the Conrad Ft Lauderdale Beach Resort<\/p><p>Preceded by Day of Empowerment on December 2, 2024.<\/p>",
+            "text": "<p><strong>Conrad Ft Lauderdale Beach Resort</strong></p><p>Lydia Sarfati hosts an Advanced Skincare Workshop for licensed professionals at the Conrad Ft Lauderdale Beach Resort</p><p>Preceded by Day of Empowerment on December 2, 2024.</p>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/www.repechage.com\/products\/advanced-skincare-workshop-december-3-2024"
+            "button_link": "https://www.repechage.com/products/advanced-skincare-workshop-december-3-2024"
           }
         },
         "class_xNiYcL": {
@@ -345,9 +345,9 @@
             "date": "5-7",
             "class": "TRADESHOW",
             "title": "America's Beauty Show",
-            "text": "<p><strong>Location: Donald E. Stephens Convention Center<\/strong><\/p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!<\/p>",
+            "text": "<p><strong>Location: Donald E. Stephens Convention Center</strong></p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!</p>",
             "button_label": "REGISTER",
-            "button_link": "https:\/\/www.americasbeautyshow.com\/collections\/abs-2025-tickets"
+            "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
           }
         }
       },
