@@ -23,7 +23,7 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Our Story<\/p>",
+            "title": "<p>Our Story</p>",
             "title_size": 80,
             "subheading": "",
             "link": "",
@@ -32,7 +32,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/65_rdo1580-a.jpg",
+            "image": "shopify://shop_images/65_rdo1580-a.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -56,13 +56,13 @@
     "text_and_image_tqyiVN": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/02.png",
+        "image": "shopify://shop_images/02.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "REPÊCHAGE PURE SEAWEED FILTRATE",
-        "text": "<p>At the heart of all the Repêchage® products is our rich pure, exclusive seaweed filtrate. The Repêchage Pure Filtrate of Seaweed complex is derived by a proprietary extraction method that creates a fluid containing all the rich seaweed phyto-nutrients in their most potent form.<\/p>",
+        "text": "<p>At the heart of all the Repêchage® products is our rich pure, exclusive seaweed filtrate. The Repêchage Pure Filtrate of Seaweed complex is derived by a proprietary extraction method that creates a fluid containing all the rich seaweed phyto-nutrients in their most potent form.</p>",
         "enlarge_text": false,
         "button_label": "",
         "button_link": "",
@@ -82,13 +82,13 @@
     "text_and_image_ECmbbp": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1977-Lydia-at-her-first-salon-Klisar-Skin-Care-NYC.png",
+        "image": "shopify://shop_images/1977-Lydia-at-her-first-salon-Klisar-Skin-Care-NYC.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "WHY SEAWEED?",
-        "text": "<p>At Repêchage, we are always conducting ongoing research for new applications of our seaweed as well as investigating the newest ingredients to help address problems relating to the skin.<\/p><h4>What is the Magic of Seaweed and Repêchage?<\/h4><p>It is used as plant nutrient in the deserts of Israel. And if it can hydrate the desert, imagine what it can do for your skin!<\/p><p>Want your skin to look <strong>glowing<\/strong>? You can credit the use of seaweed with <strong>increased hydration<\/strong> and <strong>improves the complexion<\/strong>. Scientists believe that seaweed produces over 70% of the the earth's oxygen.<\/p><p>Seaweed feeds itself through osmosis by absorbing minerals and vitamins from the seawater. By an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids.<\/p><p>Researchers point out the almost uncanny similarity between seawater and human plasma, our intercellular fluid.  The sea covers over two-thirds of our planet, and, perhaps as no coincidence, the human body is made of two-thirds water as well.<\/p>",
+        "text": "<p>At Repêchage, we are always conducting ongoing research for new applications of our seaweed as well as investigating the newest ingredients to help address problems relating to the skin.</p><h4>What is the Magic of Seaweed and Repêchage?</h4><p>It is used as plant nutrient in the deserts of Israel. And if it can hydrate the desert, imagine what it can do for your skin!</p><p>Want your skin to look <strong>glowing</strong>? You can credit the use of seaweed with <strong>increased hydration</strong> and <strong>improves the complexion</strong>. Scientists believe that seaweed produces over 70% of the the earth's oxygen.</p><p>Seaweed feeds itself through osmosis by absorbing minerals and vitamins from the seawater. By an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids.</p><p>Researchers point out the almost uncanny similarity between seawater and human plasma, our intercellular fluid.  The sea covers over two-thirds of our planet, and, perhaps as no coincidence, the human body is made of two-thirds water as well.</p>",
         "enlarge_text": false,
         "button_label": "",
         "button_link": "",
@@ -112,7 +112,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Lydia Sarfati is known for her professional facial treatments, developing the <strong>world-famous Four-Layer Facial®<\/strong>, deemed <strong>“facial of the century”<\/strong>by <strong>Cosmopolitan UK<\/strong>,but if you can’t get to one of her many spa resorts, the <strong>C-Serum® Seaweed Filtrate Face Serum<\/strong> is a way to achieve professional skin care results!<\/p>",
+            "text": "<p>Lydia Sarfati is known for her professional facial treatments, developing the <strong>world-famous Four-Layer Facial®</strong>, deemed <strong>“facial of the century”</strong>by <strong>Cosmopolitan UK</strong>,but if you can’t get to one of her many spa resorts, the <strong>C-Serum® Seaweed Filtrate Face Serum</strong> is a way to achieve professional skin care results!</p>",
             "text_color": "#ffffff"
           }
         }
@@ -134,13 +134,13 @@
     "text_and_image_GyhYWx": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/20211004_Repechage-2_2000x_a4f6d52e-e346-4d7f-a725-1afb73a5b208.png",
+        "image": "shopify://shop_images/20211004_Repechage-2_2000x_a4f6d52e-e346-4d7f-a725-1afb73a5b208.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "C-SERUM, THE ORIGINAL SEAWEED SERUM",
-        "text": "<p>It was from this research that I created my first professional treatment, the Four-Layer Facial®. Named the Facial of the Century by Cosmopolitan UK, this ground-breaking facial incorporated layer upon layer of seaweed and minerals from both the earth and the sea.<\/p><p>Top editors and clients found that nothing made skin more luminous and hydrated. One of my first at-home products was C-Serum Seaweed Filtrate. C-Serum®, short for cytoserum, is our special seaweed Laminaria Digitata filtrate, the first layer of the Four-Layer Facial, and it has been my secret for perfect skin since 1980.<\/p>",
+        "text": "<p>It was from this research that I created my first professional treatment, the Four-Layer Facial®. Named the Facial of the Century by Cosmopolitan UK, this ground-breaking facial incorporated layer upon layer of seaweed and minerals from both the earth and the sea.</p><p>Top editors and clients found that nothing made skin more luminous and hydrated. One of my first at-home products was C-Serum Seaweed Filtrate. C-Serum®, short for cytoserum, is our special seaweed Laminaria Digitata filtrate, the first layer of the Four-Layer Facial, and it has been my secret for perfect skin since 1980.</p>",
         "enlarge_text": false,
         "button_label": "",
         "button_link": "",
@@ -160,13 +160,13 @@
     "text_and_image_HgdtGa": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Algo-Mist-with-Box-12-2022.png",
+        "image": "shopify://shop_images/Algo-Mist-with-Box-12-2022.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "REPÊCHAGE ALGO MIST",
-        "text": "<p>10 years later, in 1990, we created Algo Mist®, a unique combination of seaweed filtrate extract, Vitamin C, Gingko Biloba, Aloe and Orange Water. Unlike other products that are pure water in a bottle, this spray hydrator helps keep skin feeling smooth and soft through-out the day.<\/p><p>We now have scientific research on several different species of sea plants, all with unique properties influenced by the oceanic regions where they grow and formulated into over 100 different award-winning professional and consumer products.<\/p><h3>WHY REPÊCHAGE?<\/h3><p>Repêchage means second chance, a second chance for all of us to have beautiful skin. What inspired me to call my company Repêchage were the reactions of those who first experienced the Four-Layer Facial®. The results were amazing. Everyone said \"Wow! My skin has never felt so wonderful! It's like being reborn!\" But its original meaning came from fishermen trying once more to make a catch by casting out their nets again, to literally \"re-fish\" or \"re-pesce,\" so the connection to seaweed and the sea was perfect. To me, it means that anyone that has struggled to have great skin can have a Repêchage, a second chance.<\/p>",
+        "text": "<p>10 years later, in 1990, we created Algo Mist®, a unique combination of seaweed filtrate extract, Vitamin C, Gingko Biloba, Aloe and Orange Water. Unlike other products that are pure water in a bottle, this spray hydrator helps keep skin feeling smooth and soft through-out the day.</p><p>We now have scientific research on several different species of sea plants, all with unique properties influenced by the oceanic regions where they grow and formulated into over 100 different award-winning professional and consumer products.</p><h3>WHY REPÊCHAGE?</h3><p>Repêchage means second chance, a second chance for all of us to have beautiful skin. What inspired me to call my company Repêchage were the reactions of those who first experienced the Four-Layer Facial®. The results were amazing. Everyone said \"Wow! My skin has never felt so wonderful! It's like being reborn!\" But its original meaning came from fishermen trying once more to make a catch by casting out their nets again, to literally \"re-fish\" or \"re-pesce,\" so the connection to seaweed and the sea was perfect. To me, it means that anyone that has struggled to have great skin can have a Repêchage, a second chance.</p>",
         "enlarge_text": false,
         "button_label": "",
         "button_link": "",
@@ -186,13 +186,13 @@
     "text_and_image_qMccT3": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/seaweed-drying.png",
+        "image": "shopify://shop_images/seaweed-drying.png",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "SUSTAINABLY HARVESTED",
-        "text": "<p>In the US, off the coast of Maine, Repêchage has worked with leading scientists and aquaculturists to sustainably harvest several species of nutrient-rich seaweed. It is key to source seaweed from the most pristine environments, such as off the coast of Down East Maine.<\/p><p>Seaweed can be wild harvested, or grown through aquaculture. For wild harvesting the harvest takes place early in the morning, during the lowest tides of the spring and summer months that accompany the new and full moons.<\/p><p>Or, seaweed can be grown on ropes suspended in seawater, harvested by boat along floating lines and gathered into nets or large storage bins on harvesting boats. Crops are harvested over a period of a month or two until temperature conditions limit the growth of the crop. The seaweed is initially stored in wet chambers then dried at temperatures that minimize degradation of bioreactive compounds<\/p>",
+        "text": "<p>In the US, off the coast of Maine, Repêchage has worked with leading scientists and aquaculturists to sustainably harvest several species of nutrient-rich seaweed. It is key to source seaweed from the most pristine environments, such as off the coast of Down East Maine.</p><p>Seaweed can be wild harvested, or grown through aquaculture. For wild harvesting the harvest takes place early in the morning, during the lowest tides of the spring and summer months that accompany the new and full moons.</p><p>Or, seaweed can be grown on ropes suspended in seawater, harvested by boat along floating lines and gathered into nets or large storage bins on harvesting boats. Crops are harvested over a period of a month or two until temperature conditions limit the growth of the crop. The seaweed is initially stored in wet chambers then dried at temperatures that minimize degradation of bioreactive compounds</p>",
         "enlarge_text": false,
         "button_label": "",
         "button_link": "",
@@ -212,14 +212,14 @@
     "text_and_image_DBrcgg": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/repechage-difference-machine.png",
+        "image": "shopify://shop_images/repechage-difference-machine.png",
         "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/dr-yarish-seaweed.png",
+        "image2": "shopify://shop_images/dr-yarish-seaweed.png",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "THE REPÊCHAGE DIFFERENCE",
-        "text": "<p>Most manufacturers of seaweed-based products use the oven drying method of processing. This method yields a product, which contains trace elements but may be deficient in vitamins and amino acids that are heat sensitive. This is where Repêchage makes all the difference. Once dried, the seaweed is packed and sent to our ISO 9001 certified manufacturing facility. There, by an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids, processed into the pure filtrate in small artisanal batches. You know when it’s a filtrate day --- the whole facility smells like a day at the beach!<\/p><p>This filtrate is then properly refrigerated and stored for six months to allow the liquid to reach its full potency. Then, it is incorporated into the Repêchage products until the next harvest arrives. Nothing is purer or more effective at helping skin look and feel smoother and softer.<\/p>",
+        "text": "<p>Most manufacturers of seaweed-based products use the oven drying method of processing. This method yields a product, which contains trace elements but may be deficient in vitamins and amino acids that are heat sensitive. This is where Repêchage makes all the difference. Once dried, the seaweed is packed and sent to our ISO 9001 certified manufacturing facility. There, by an exclusive proprietary method, Repêchage chemists expel the intercellular fluid from the fibrous seaweed tissue while retaining the activity of the vitamins, minerals, trace elements, and amino acids, processed into the pure filtrate in small artisanal batches. You know when it’s a filtrate day --- the whole facility smells like a day at the beach!</p><p>This filtrate is then properly refrigerated and stored for six months to allow the liquid to reach its full potency. Then, it is incorporated into the Repêchage products until the next harvest arrives. Nothing is purer or more effective at helping skin look and feel smoother and softer.</p>",
         "enlarge_text": false,
         "button_label": "",
         "button_link": "",
@@ -243,15 +243,15 @@
           "type": "heading",
           "settings": {
             "title": "GOING FORWARD",
-            "title_color": "#000000"
+            "title_color": "#ffffff"
           }
         },
         "text_X44Pgz": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>In 2015, Charles Yarish, Ph.D., Professor, Department of Ecology & Evolutionary Biology and Department of Marine Sciences, University of Connecticut, Stamford, became a consultant to the Repêchage Board of Directors, working with David and I to create harvesting possibilities right in here the USA. As a leading environmentalist and aquaculturist, Dr. Yarish is sharing his research with us to help create sustainable, organic seaweed harvests that can benefit both us and the ocean.<\/p><p>It is like coming full circle: the sea has provided us with so much, and we need to give back in return. We invite everyone to enjoy our seaweed-based products. Welcome to Repêchage! Welcome to Beauty From the Sea!<\/p>",
-            "text_color": "#000000"
+            "text": "<p>In 2015, Charles Yarish, Ph.D., Professor, Department of Ecology & Evolutionary Biology and Department of Marine Sciences, University of Connecticut, Stamford, became a consultant to the Repêchage Board of Directors, working with David and I to create harvesting possibilities right in here the USA. As a leading environmentalist and aquaculturist, Dr. Yarish is sharing his research with us to help create sustainable, organic seaweed harvests that can benefit both us and the ocean.</p><p>It is like coming full circle: the sea has provided us with so much, and we need to give back in return. We invite everyone to enjoy our seaweed-based products. Welcome to Repêchage! Welcome to Beauty From the Sea!</p>",
+            "text_color": "#ffffff"
           }
         }
       },
