@@ -1,6 +1,7 @@
-/* .cart__item[data-sample-item="true"] .cart__remove {
-    display: block;
-} */
+.flickity-page-dots {
+    align-items: center;
+}
+
 #prod-info-yot .yotpo-display-wrapper .yotpo-bottomline {
     display: block;
     text-align: center;
