@@ -13,8 +13,8 @@
         </div>
       </div>
       {% for block in section.settings %}
-        {% assign product = block.settings.suggested-product %}
         <div class="suggested-product">
+          {% assign product = block.settings.suggested-product %}
           <div class="product-img-F-B">
             <img src="{{ product.featured_image | product_img_url:'master' }}">
           </div>
