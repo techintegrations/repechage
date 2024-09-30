@@ -20,9 +20,10 @@
 }
 
 .main-product .product-img-F-B {
-    width: 100%;
-    max-width: 100px;
+    flex: 0 0 calc(14% - 10px);
     line-height: 0;
+    display: flex;
+    align-items: center;
 }
 
 h3.product-heading {
@@ -38,12 +39,11 @@ h3.product-heading {
 }
 
 .main-product-info {
+    flex: 0 0 calc(86% - 10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-/* Suggested  */
-
 .suggested-product {
     display: flex;
     flex-wrap: wrap;
