@@ -51,6 +51,7 @@ h3.product-heading {
     flex-wrap: wrap;
     gap: 20px;
     padding: 0 50px 50px 50px;
+    background-color: #dddddd57;
 }
 
 .suggested-product .product-img-F-B {
