@@ -12,26 +12,23 @@
           <p>{{ product.price | money }}</p>
         </div>
       </div>
-
       {% for block in section.blocks %}
-        {% assign product = block.settings.suggested-product %}
-        <div class="suggested-product">
-          <div class="product-img-F-B">
-            <img src="{{ product.featured_image | product_img_url:'master' }}">
+          <div class="suggested-product">
+            {% assign product = block.settings.suggested-product %}
+            <div class="product-img-F-B">
+              <img src="{{ product.featured_image | product_img_url:'master' }}">
+            </div>
+            <div class="main-product-info">
+              <p class="Product-tag">Suggested Product</p>
+              <h3 class="product-heading">{{ product.title }}</h3>
+              <p>{{ product.price | money }}</p>
+            </div>
           </div>
-          <div class="main-product-info">
-            <p class="Product-tag">Suggested Product</p>
-            <h3 class="product-heading">{{ product.title }}</h3>
-            <p>{{ product.price | money }}</p>
-          </div>
-        </div>
       {% endfor %}
-
     </div>
     <div class="F-B-info"></div>
   </div>
 </div>
-
 {% schema %}
 {
   "name": "frequently-boughts",
