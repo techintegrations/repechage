@@ -15,7 +15,7 @@
       
       {% for suggested_product in section.settings.suggested-product %}
       {% if suggested_product != blank %}
-         <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
             <div class="product-img-F-B">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </div>
@@ -32,11 +32,12 @@
     <div class="F-B-info">
       <div class="F-B-info-wrapper">
         <h3><span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span></h3>
-        <button class="add-to-cart-F-B ">Add To Cart</button>
+        <button class="add-to-cart-F-B">Add To Cart</button>
       </div>
     </div>
   </div>
 </div>
+
 <script>
  document.addEventListener('DOMContentLoaded', function() {
   const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
