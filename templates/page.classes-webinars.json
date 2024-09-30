@@ -208,6 +208,7 @@
         },
         "class_tttkLC": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "SEPTEMBER",
             "date": "30",
@@ -249,7 +250,7 @@
             "date": "13",
             "class": "TRADESHOW CLASS",
             "title": "THE DO'S AND DON'TS OF ONCOLOGY ESTHETICS",
-            "text": "<p><strong>IECSC Florida</strong></p><p>12:00PM to 1:00PM | Room 1C</p><p>This class will cover Do’s and Don’ts to ensure safe and effective care when treating clients with compromised skin from the effects of radiation and chemotherapy. Our live class will guide you through the best practices in oncology skincare. Learn how to apply a Kansa Wand facial massage, tailored for compromised skin and win exclusive prizes! Attend for a chance to win the book, ONCOLOGY ESTHETICS by Morag Currin in collaboration with Repêchage® anda box of the Hydra Dew Pure™ Facial.</p><ul><li>Interactive Learning: Participate in live demonstrations and Q&A sessions to deepen your understanding and skills.</li></ul>",
+            "text": "<p><strong>IECSC Florida</strong></p><p>12:00PM to 1:00PM | Room 1C</p><p>This class will cover Do’s and Don’ts to ensure safe and effective care when treating clients with compromised skin from the effects of radiation and chemotherapy. Our live class will guide you through the best practices in oncology skincare.</p>",
             "button_label": "REGISTER",
             "button_link": "https://iecscflorida2024.sched.com/event/1iCqh/repechager-presents-the-dos-donts-of-oncology-esthetics"
           }
