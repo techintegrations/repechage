@@ -1,4 +1,75 @@
-document.addEventListener('DOMContentLoaded', () => {
+<div class="mian-F-B-wrapper page-width">
+  <div class="main-F-B-heading">{{ section.settings['main-F-B-headings'] }}</div>
+  <div class="main-F-B">
+    <div class="products-wrapper-F-B">
+      <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
+        <div class="product-img-F-B">
+          <img src="{{ product.featured_image | product_img_url: 'master' }}">
+        </div>
+        <div class="main-product-info">
+          <p class="Product-tag">This Product</p>
+          <h3 class="product-heading">{{ product.title }}</h3>
+          <p class="main-product-price">{{ product.price | money }}</p>
+        </div>
+      </div>
+
+      {% for suggested_product in section.settings['suggested-product'] %}
+        {% if suggested_product != blank %}
+          <div class="devider-F-b" >
+            <div
+              class="rounded-full "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="w-[20px] h-[20px]"
+                height="20"
+                width="20"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+            <div class="product-img-F-B">
+              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
+            </div>
+            <div class="suggested-product-info">
+              <p class="Product-tag">Suggested Product</p>
+              <h3 class="product-heading">{{ suggested_product.title }}</h3>
+              <p class="suggested-product-price">{{ suggested_product.price | money }}</p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="F-B-info">
+      <div class="F-B-info-wrapper">
+        <p>
+          <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
+        </p>
+        <div class="atc-btn">
+          <button type="button" class ="add-to-cart-F-B btn" >
+            
+              <span class="text">Add to cart</span>
+              <span class="icon-svg">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path style="stroke-miterlimit:10" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"></path><circle cx="27" cy="53" r="2"></circle><circle cx="47" cy="53" r="2"></circle></svg>
+              </span>
+            
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
     const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
     let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
 
@@ -50,3 +121,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add to Cart button click event
     document.querySelector('.add-to-cart-F-B').addEventListener('click', addProductsToCart);
 });
+
+</script>
+{% schema %}
+{
+  "name": "frequently-boughts",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "main-F-B-headings",
+      "label": "Heading"
+    },
+    {
+      "type": "product_list",
+      "id": "suggested-product",
+      "label": "Suggested Product",
+      "limit": 10
+    }
+  ],
+  "presets": [
+    {
+      "name": "Frequently Boughts"
+    }
+  ]
+}
+{% endschema %}
