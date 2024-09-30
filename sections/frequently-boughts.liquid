@@ -68,7 +68,6 @@
 </div>
 
 <script>
-   document.addEventListener('DOMContentLoaded', function() {
     const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
     let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
 
@@ -107,7 +106,6 @@
     document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
         addProductsToCart(productVariantIds);
     });
-});
 
 </script>
 {% schema %}
