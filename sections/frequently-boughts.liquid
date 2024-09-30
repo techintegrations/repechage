@@ -15,6 +15,25 @@
 
       {% for suggested_product in section.settings['suggested-product'] %}
         {% if suggested_product != blank %}
+          <div class="devider-F-b" >
+            <div
+              class="rounded-full "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="w-[20px] h-[20px]"
+                height="20"
+                width="20"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+              </svg>
+            </div>
+          </div>
           <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
             <div class="product-img-F-B">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
