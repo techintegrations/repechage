@@ -362,7 +362,7 @@
     "frequently_boughts_6ExgPp": {
       "type": "frequently-boughts",
       "settings": {
-        "main-F-B-headings": ""
+        "main-F-B-headings": "<h3>Frequently Bought Together</h3>"
       }
     }
   },
