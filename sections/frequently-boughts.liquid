@@ -53,16 +53,11 @@
         <p>
           <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
         </p>
-        <div class="atc-btn">
-          <button type="button" onclick="add_to_cart_grid(37922645049517,1)" class="btn">
-            
-              <span class="text">Add to cart</span>
-              <span class="icon-svg">
-                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path style="stroke-miterlimit:10" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"></path><circle cx="27" cy="53" r="2"></circle><circle cx="47" cy="53" r="2"></circle></svg>
-              </span>
-            
-          </button>
-        </div>
+        <button type="submit" name="add" data-add-to-cart="" class="btn btn--full add-to-cart" style="visibility: visible;">
+      <span data-add-to-cart-text="" data-default-text="Add to cart">
+        Add to cart
+      </span>
+    </button>
       </div>
     </div>
   </div>
