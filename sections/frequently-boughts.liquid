@@ -76,45 +76,50 @@
     let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
     document.querySelectorAll('.suggested-product').forEach(function(productEl) {
-      const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-      const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+        const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
 
-      totalPrice += suggestedProductPrice; // Add suggested product prices to total
-      productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
+        totalPrice += suggestedProductPrice; // Add suggested product prices to total
+        productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
     });
 
     // Update total price in the DOM
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
-    // Add to Cart functionality
+    // Function to add products to the cart one by one
+    async function addProductsToCart(productVariantIds) {
+        for (const variantId of productVariantIds) {
+            try {
+                let response = await fetch('/cart/add.js', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        id: variantId, // Use variant ID here
+                        quantity: 1
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                let data = await response.json();
+                console.log('Product added to cart:', data);
+
+            } catch (error) {
+                console.error('Error adding product to cart:', error);
+            }
+        }
+    }
+
+    // Add to Cart button click event
     document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-      productVariantIds.forEach(function(variantId) {
-        fetch('/cart/add.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            id: variantId, // Use variant ID here
-            quantity: 1
-          })
-        })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(data => {
-          console.log('Product added to cart:', data);
-          // Optionally update the mini cart UI here
-        })
-        .catch(error => {
-          console.error('Error adding product to cart:', error);
-        });
-      });
+        addProductsToCart(productVariantIds);
     });
-  });
+});
+
 </script>
 {% schema %}
 {
