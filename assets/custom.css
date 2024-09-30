@@ -12,8 +12,6 @@
 .F-B-info {
     flex: 0 0 40%;
 }
-
-
 .main-product {
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +20,38 @@
 }
 
 .main-product .product-img-F-B {
+    width: 100%;
+    max-width: 100px;
+    line-height: 0;
+}
+
+h3.product-heading {
+    font-size: 16px;
+}
+
+.main-product-info .product-heading {
+    margin: 4px 0;
+}
+
+.main-product-info .Product-tag {
+    margin: 10px 0 0 0;
+}
+
+.main-product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Suggested  */
+
+.suggested-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 50px 0 50px;
+}
+
+.suggested-product .product-img-F-B {
     width: 100%;
     max-width: 100px;
     line-height: 0;
