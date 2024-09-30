@@ -2,112 +2,36 @@
   <div class="main-F-B-heading">{{ section.settings['main-F-B-headings'] }}</div>
   <div class="main-F-B">
     <div class="products-wrapper-F-B">
-      <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
+      <div class="main-product">
         <div class="product-img-F-B">
-          <img src="{{ product.featured_image | product_img_url: 'master' }}">
+          <img src="{{ product.featured_image | product_img_url:'master' }}">
         </div>
         <div class="main-product-info">
           <p class="Product-tag">This Product</p>
           <h3 class="product-heading">{{ product.title }}</h3>
-          <p class="main-product-price">{{ product.price | money }}</p>
+          <p>{{ product.price | money }}</p>
         </div>
       </div>
-
-      {% for suggested_product in section.settings['suggested-product'] %}
-        {% if suggested_product != blank %}
-          <div class="devider-F-b" >
-            <div
-              class="rounded-full "
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                class="w-[20px] h-[20px]"
-                height="20"
-                width="20"
-                aria-hidden="true"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+      {% for product in section.settings.suggested-product  %}
+      {% if section.settings['suggested-product'] != blank %}
+          <div class="suggested-product">
             <div class="product-img-F-B">
-              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
+              <img src="{{ product.featured_image | product_img_url:'master' }}">
             </div>
-            <div class="suggested-product-info">
+            <div class="main-product-info">
               <p class="Product-tag">Suggested Product</p>
-              <h3 class="product-heading">{{ suggested_product.title }}</h3>
-              <p class="suggested-product-price">{{ suggested_product.price | money }}</p>
+              <h3 class="product-heading">{{ product.title }}</h3>
+              <p>{{ product.price | money }}</p>
             </div>
           </div>
         {% endif %}
       {% endfor %}
     </div>
-
     <div class="F-B-info">
-      <div class="F-B-info-wrapper">
-        <p>
-          <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
-        </p>
-        <button
-          type="submit"
-          name="add"
-          data-add-to-cart=""
-          class="btn add-to-cart-F-B add-to-cart"
-          style="visibility: visible;"
-        >
-          <span data-add-to-cart-text="" data-default-text="Add to cart"> Add to cart </span>
-        </button>
-      </div>
+      <h1>Product info here</h1>
     </div>
   </div>
 </div>
-
-<script>
-    const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-    let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
-
-    // Calculate total price including suggested products
-    let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
-
-    document.querySelectorAll('.suggested-product').forEach(function(productEl) {
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-        const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-
-        totalPrice += suggestedProductPrice; // Add suggested product prices to total
-        productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
-    });
-
-    // Update total price in the DOM
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-
-    // Function to add products to the cart one by one
-    async function addProductsToCart(productVariantIds) {
-        for (const variantId of productVariantIds) {
-                let response = await fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        id: variantId, // Use variant ID here
-                        quantity: 1
-                    })
-                });
-                let data = await response.json();
-        }
-    }
-
-    // Add to Cart button click event
-    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-        addProductsToCart(productVariantIds);
-    });
-
-</script>
 {% schema %}
 {
   "name": "frequently-boughts",
