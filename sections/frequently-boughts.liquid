@@ -2,36 +2,89 @@
   <div class="main-F-B-heading">{{ section.settings['main-F-B-headings'] }}</div>
   <div class="main-F-B">
     <div class="products-wrapper-F-B">
-      <div class="main-product">
+      <div class="main-product" data-product-id="{{ product.id }}">
         <div class="product-img-F-B">
-          <img src="{{ product.featured_image | product_img_url:'master' }}">
+          <img src="{{ product.featured_image | product_img_url: 'master' }}">
         </div>
         <div class="main-product-info">
           <p class="Product-tag">This Product</p>
           <h3 class="product-heading">{{ product.title }}</h3>
-          <p>{{ product.price | money }}</p>
+          <p class="main-product-price">{{ product.price | money }}</p>
         </div>
       </div>
-      {% for product in section.settings.suggested-product  %}
-      {% if section.settings['suggested-product'] != blank %}
-          <div class="suggested-product">
+      
+      {% for suggested_product in section.settings.suggested-product %}
+      {% if suggested_product != blank %}
+          <div class="suggested-product" data-product-id="{{ suggested_product.id }}">
             <div class="product-img-F-B">
-              <img src="{{ product.featured_image | product_img_url:'master' }}">
+              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </div>
             <div class="suggested-product-info">
               <p class="Product-tag">Suggested Product</p>
-              <h3 class="product-heading">{{ product.title }}</h3>
-              <p>{{ product.price | money }}</p>
+              <h3 class="product-heading">{{ suggested_product.title }}</h3>
+              <p class="suggested-product-price">{{ suggested_product.price | money }}</p>
             </div>
           </div>
-        {% endif %}
+      {% endif %}
       {% endfor %}
     </div>
+
     <div class="F-B-info">
-      <h1>Product info here</h1>
+      <div class="F-B-info-wrapper">
+        <h3><span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span></h3>
+        <button class="add-to-cart-F-B">Add To Cart</button>
+      </div>
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const mainProductPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+  let totalPrice = mainProductPrice;
+
+  // Calculate total price including suggested products
+  document.querySelectorAll('.suggested-product-price').forEach(function(productPriceEl) {
+    const suggestedProductPrice = parseFloat(productPriceEl.textContent.replace('$', '').trim());
+    totalPrice += suggestedProductPrice;
+  });
+
+  // Update total price in the DOM
+  document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+
+  // Add to Cart functionality
+  document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+    const mainProductId = document.querySelector('.main-product').getAttribute('data-product-id');
+    const productIds = [mainProductId];
+
+    // Get all suggested product IDs
+    document.querySelectorAll('.suggested-product').forEach(function(productEl) {
+      const suggestedProductId = productEl.getAttribute('data-product-id');
+      productIds.push(suggestedProductId);
+    });
+
+    // Add all products to the cart via AJAX
+    productIds.forEach(function(productId) {
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id: productId,
+          quantity: 1
+        })
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Product added to cart:', data);
+        // Optionally update mini cart UI here
+      })
+      .catch(error => console.error('Error:', error));
+    });
+  });
+});
+
+</script>
 {% schema %}
 {
   "name": "frequently-boughts",
