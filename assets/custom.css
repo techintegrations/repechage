@@ -1,3 +1,20 @@
+.products-wrapper-F-B {flex: 0 0 60%;display: flex;flex-direction: column;}
+
+.main-F-B {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.F-B-info {
+    flex: 0 0 40%;
+}
+
+
+
+
+
+
+
 /* .cart__item[data-sample-item="true"] .cart__remove {
     display: block;
 } */
