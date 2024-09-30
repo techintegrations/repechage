@@ -15,7 +15,8 @@
 
       {% for suggested_product in section.settings['suggested-product'] %}
         {% if suggested_product != blank %}
-          <div class="devider-F-b" >
+          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+            <div class="devider-F-b" >
             <div
               class="rounded-full "
             >
@@ -34,7 +35,6 @@
               </svg>
             </div>
           </div>
-          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
             <div class="product-img-F-B">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </div>
