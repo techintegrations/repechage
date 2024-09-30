@@ -12,7 +12,7 @@
           <p>{{ product.price | money }}</p>
         </div>
       </div>
-      {% for block in section.settings %}
+      {% for block in section.blocks %}
           <div class="suggested-product">
             {% assign product = block.settings['suggested-product'] %}
             <div class="product-img-F-B">
