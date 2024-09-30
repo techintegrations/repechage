@@ -10,10 +10,6 @@
     border:1px solid #0000003d;
   margin-bottom:50px;
 }
-
-.F-B-info {
-    flex: 0 0 40%;
-}
 .main-product {
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +75,25 @@ h3.product-heading {
     flex-direction: column;
     justify-content: center;
 }
+.F-B-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.F-B-info {
+    flex:0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.F-B-info-wrapper p {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
 
 
 
