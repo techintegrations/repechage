@@ -12,9 +12,8 @@
           <p>{{ product.price | money }}</p>
         </div>
       </div>
-      {% for block in section.blocks %}
-        {% assign product = block.settings['suggested-product'] %}
-      {% if block.settings['suggested-product'] != blank %}
+      {% for product in section.settings.product_list limit: product_limit %}
+      {% if section.settings['suggested-product'] != blank %}
           <div class="suggested-product">
             <div class="product-img-F-B">
               <img src="{{ product.featured_image | product_img_url:'master' }}">
@@ -49,7 +48,8 @@
     {
       "type": "product_list",
       "id": "suggested-product",
-      "label": "Suggested Product"
+      "label": "Suggested Product",
+      "limit": 10
     }
   ],
  },
