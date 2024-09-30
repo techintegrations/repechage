@@ -2,7 +2,7 @@
   <div class="main-F-B-heading">{{ section.settings['main-F-B-headings'] }}</div>
   <div class="main-F-B">
     <div class="products-wrapper-F-B">
-      <div class="main-product" data-product-id="{{ product.id }}">
+      <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
         <div class="product-img-F-B">
           <img src="{{ product.featured_image | product_img_url: 'master' }}">
         </div>
@@ -15,7 +15,7 @@
       
       {% for suggested_product in section.settings.suggested-product %}
       {% if suggested_product != blank %}
-          <div class="suggested-product" data-product-id="{{ suggested_product.id }}">
+         <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
             <div class="product-img-F-B">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </div>
@@ -38,14 +38,19 @@
   </div>
 </div>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-  const mainProductPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
-  let totalPrice = mainProductPrice;
+ document.addEventListener('DOMContentLoaded', function() {
+  const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+  let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
 
   // Calculate total price including suggested products
-  document.querySelectorAll('.suggested-product-price').forEach(function(productPriceEl) {
-    const suggestedProductPrice = parseFloat(productPriceEl.textContent.replace('$', '').trim());
-    totalPrice += suggestedProductPrice;
+  let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+
+  document.querySelectorAll('.suggested-product').forEach(function(productEl) {
+    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+    const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+    
+    totalPrice += suggestedProductPrice; // Add suggested product prices to total
+    productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
   });
 
   // Update total price in the DOM
@@ -53,33 +58,30 @@
 
   // Add to Cart functionality
   document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-    const mainProductId = document.querySelector('.main-product').getAttribute('data-product-id');
-    const productIds = [mainProductId];
-
-    // Get all suggested product IDs
-    document.querySelectorAll('.suggested-product').forEach(function(productEl) {
-      const suggestedProductId = productEl.getAttribute('data-product-id');
-      productIds.push(suggestedProductId);
-    });
-
-    // Add all products to the cart via AJAX
-    productIds.forEach(function(productId) {
+    productVariantIds.forEach(function(variantId) {
       fetch('/cart/add.js', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          id: productId,
+          id: variantId, // Use variant ID here
           quantity: 1
         })
       })
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
       .then(data => {
         console.log('Product added to cart:', data);
-        // Optionally update mini cart UI here
+        // Optionally update the mini cart UI here
       })
-      .catch(error => console.error('Error:', error));
+      .catch(error => {
+        console.error('Error adding product to cart:', error);
+      });
     });
   });
 });
