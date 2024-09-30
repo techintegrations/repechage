@@ -69,45 +69,60 @@
 </div>
 
 <script>
-    const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-    let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
+const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
 
-    // Calculate total price including suggested products
-    let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+// Calculate total price including suggested products
+let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
-    document.querySelectorAll('.suggested-product').forEach(function(productEl) {
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-        const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+document.querySelectorAll('.suggested-product').forEach(function(productEl) {
+    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+    const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
 
-        totalPrice += suggestedProductPrice; // Add suggested product prices to total
-        productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
-    });
+    totalPrice += suggestedProductPrice; // Add suggested product prices to total
+    productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
+});
 
-    // Update total price in the DOM
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+// Update total price in the DOM
+document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
-    // Function to add products to the cart one by one
-    async function addProductsToCart(productVariantIds) {
-        for (const variantId of productVariantIds) {
-                let response = await fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        id: variantId, // Use variant ID here
-                        quantity: 1
-                    })
-                });
-                let data = await response.json();
+// Function to add products to the cart one by one
+async function addProductsToCart(productVariantIds) {
+    for (const variantId of productVariantIds) {
+        let response = await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                id: variantId, // Use variant ID here
+                quantity: 1
+            })
+        });
+        
+        // Check if response is okay
+        if (!response.ok) {
+            console.error('Error adding product to cart:', await response.text());
         }
     }
+    // Call the function to open the cart after adding products
+    openCart();
+}
 
-    // Add to Cart button click event
-    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-        addProductsToCart(productVariantIds);
-    });
-  
+// Function to open the cart (modify as per your cart's implementation)
+function openCart() {
+    // Assuming you have a function to open the drawer, e.g. theme.Drawers.open()
+    const cartDrawer = document.querySelector('#cart-drawer'); // Replace with your cart drawer ID or selector
+    if (cartDrawer) {
+        cartDrawer.classList.add('drawer--is-open'); // Modify this as per your drawer logic
+    }
+}
+
+// Add to Cart button click event
+document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+    addProductsToCart(productVariantIds);
+});
+
 
 </script>
 {% schema %}
