@@ -54,7 +54,7 @@
           <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
         </p>
         <div class="atc-btn">
-          <button type="button" class ="add-to-cart-F-B btn" >
+          <button type="button" class ="add-to-cart-F-B btn">
             
               <span class="text">Add to cart</span>
               <span class="icon-svg">
@@ -69,58 +69,44 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
     const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
     let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
 
     // Calculate total price including suggested products
     let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
+    document.querySelectorAll('.suggested-product').forEach(function(productEl) {
         const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
         const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
 
-        if (suggestedProductVariantId) { // Check if the suggested product has a valid variant ID
-            totalPrice += suggestedProductPrice; // Add suggested product prices to total
-            productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
-        }
+        totalPrice += suggestedProductPrice; // Add suggested product prices to total
+        productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
     });
 
     // Update total price in the DOM
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
-    // Function to add products to the cart
-    async function addProductsToCart() {
-        const button = document.querySelector('.add-to-cart-F-B');
-        button.disabled = true; // Disable button to prevent multiple clicks
-
+    // Function to add products to the cart one by one
+    async function addProductsToCart(productVariantIds) {
         for (const variantId of productVariantIds) {
-            try {
                 let response = await fetch('/cart/add.js', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ id: variantId, quantity: 1 })
+                    body: JSON.stringify({
+                        id: variantId, // Use variant ID here
+                        quantity: 1
+                    })
                 });
-
-                if (!response.ok) {
-                    throw new Error(`Error adding product with ID ${variantId}: ${response.statusText}`);
-                }
-
                 let data = await response.json();
-                console.log('Product added to cart:', data);
-            } catch (error) {
-                console.error('Error adding product to cart:', error);
-            }
         }
-
-        button.disabled = false; // Re-enable the button after processing
     }
 
     // Add to Cart button click event
-    document.querySelector('.add-to-cart-F-B').addEventListener('click', addProductsToCart);
-});
+    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+        addProductsToCart(productVariantIds);
+    });
 
 </script>
 {% schema %}
