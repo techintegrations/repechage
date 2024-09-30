@@ -13,7 +13,6 @@
         </div>
       </div>
       {% for block in section.settings %}
-        {% if block.settings['suggested-product'] != blank %}
           <div class="suggested-product">
             {% assign product = block.settings['suggested-product'] %}
             <div class="product-img-F-B">
@@ -25,7 +24,6 @@
               <p>{{ product.price | money }}</p>
             </div>
           </div>
-        {% endif %}
       {% endfor %}
     </div>
     <div class="F-B-info"></div>
