@@ -61,15 +61,15 @@ h3.product-heading {
     font-size: 16px;
 }
 
-.main-product-info .product-heading {
+.suggested-product-info .product-heading {
     margin: 4px 0;
 }
 
-.main-product-info .Product-tag {
+.suggested-product-info .Product-tag {
     margin: 10px 0 0 0;
 }
 
-.main-product-info {
+.suggested-product-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
