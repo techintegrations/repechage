@@ -362,7 +362,7 @@
     "frequently_boughts_6ExgPp": {
       "type": "frequently-boughts",
       "blocks": {
-        "product_dNCdbe": {
+        "product_XkHHLf": {
           "type": "product",
           "settings": {
             "suggested-product": "2019-power-lunch-and-hands-on-workshop"
@@ -370,7 +370,7 @@
         }
       },
       "block_order": [
-        "product_dNCdbe"
+        "product_XkHHLf"
       ],
       "settings": {
         "main-F-B-headings": "<h3>Frequently Bought Together</h3>"
