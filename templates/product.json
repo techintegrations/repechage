@@ -13,7 +13,7 @@
       "type": "main-product",
       "blocks": {
         "yotpo_product_reviews_ugc_star_rating_pBPBWG": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -51,7 +51,7 @@
           }
         },
         "recharge_subscriptions_subscription_widget_H67F3t": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "{{product}}"
           }
@@ -79,11 +79,11 @@
           "type": "logo",
           "disabled": true,
           "settings": {
-            "logo_1": "shopify:\/\/shop_images\/DaySpa-2020-Winner-Logo-324_3fa837f4-0e6d-41b3-85a2-07ce5062fd68.png",
-            "logo_2": "shopify:\/\/shop_images\/RCA_2017_logo_5b16396e-93ef-4a0a-a7e3-c4e577e82a8e.png",
-            "logo_3": "shopify:\/\/shop_images\/Launchpad-Award-2016-Reduced.png",
-            "logo_4": "shopify:\/\/shop_images\/lne-spa-best-2015.png",
-            "logo_5": "shopify:\/\/shop_images\/lne-spa-best-2016.png"
+            "logo_1": "shopify://shop_images/DaySpa-2020-Winner-Logo-324_3fa837f4-0e6d-41b3-85a2-07ce5062fd68.png",
+            "logo_2": "shopify://shop_images/RCA_2017_logo_5b16396e-93ef-4a0a-a7e3-c4e577e82a8e.png",
+            "logo_3": "shopify://shop_images/Launchpad-Award-2016-Reduced.png",
+            "logo_4": "shopify://shop_images/lne-spa-best-2015.png",
+            "logo_5": "shopify://shop_images/lne-spa-best-2016.png"
           }
         },
         "product_list_QNBe7e": {
@@ -144,7 +144,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "Directions",
-            "text": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.direction | metafield_tag }}</p>",
             "image": "{{ product.metafields.custom.direction_media.value }}",
             "video_html": "{{ product.metafields.custom.direction_video_youtube_vmeo_embed_link_only_.value }}",
             "video_url": "{{ product.metafields.custom.direction_video_self_hosted_video_url_.value }}"
@@ -198,44 +198,44 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Laminaria-200.png",
+            "logo": "shopify://shop_images/Laminaria-200.png",
             "title": "Laminaria digitata - Exclusive Seaweed Extract",
             "short_name": "",
             "button_label": "Read More",
-            "text": "<p>Natural source of 12 vitamins including B12, C, E, K and Beta Carotene, 18 amino acids, and 42 trace elements.<\/p>"
+            "text": "<p>Natural source of 12 vitamins including B12, C, E, K and Beta Carotene, 18 amino acids, and 42 trace elements.</p>"
           }
         },
         "text_block_dQyHjF": {
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
+            "logo": "shopify://shop_images/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
             "short_name": "",
             "button_label": "Read More",
-            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
+            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.</p>"
           }
         },
         "text_block_x7z9Mq": {
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
+            "logo": "shopify://shop_images/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
             "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
             "short_name": "",
             "button_label": "Read More",
-            "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.<\/p>"
+            "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.</p>"
           }
         },
         "text_block_QkhXYy": {
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
+            "logo": "shopify://shop_images/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
             "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
             "short_name": "",
             "button_label": "Read More",
-            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.<\/p>"
+            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.</p>"
           }
         }
       },
@@ -273,7 +273,7 @@
       "type": "apps",
       "blocks": {
         "yotpo_product_reviews_ugc_reviews_RLFgbC": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -294,7 +294,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -303,7 +303,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -312,7 +312,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -321,7 +321,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -358,6 +358,12 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "frequently_boughts_6ExgPp": {
+      "type": "frequently-boughts",
+      "settings": {
+        "main-F-B-headings": ""
+      }
     }
   },
   "order": [
@@ -370,6 +376,7 @@
     "171672294625f99393",
     "testimonials",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "frequently_boughts_6ExgPp"
   ]
 }
