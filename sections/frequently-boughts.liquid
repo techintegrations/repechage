@@ -105,16 +105,19 @@ async function addProductsToCart(productVariantIds) {
             console.error('Error adding product to cart:', await response.text());
         }
     }
-    // Call the function to open the cart after adding products
+    
+    // Open the cart after adding products
     openCart();
 }
 
 // Function to open the cart (modify as per your cart's implementation)
 function openCart() {
-    // Assuming you have a function to open the drawer, e.g. theme.Drawers.open()
-    const cartDrawer = document.querySelector('#cart-drawer'); // Replace with your cart drawer ID or selector
+    // Update the selector to match your cart drawer
+    const cartDrawer = document.querySelector('#cart-drawer'); // Replace this with your actual cart drawer selector
     if (cartDrawer) {
-        cartDrawer.classList.add('drawer--is-open'); // Modify this as per your drawer logic
+        cartDrawer.classList.add('drawer--is-open'); // Ensure this class matches your CSS for opening the cart
+    } else {
+        console.error('Cart drawer not found');
     }
 }
 
@@ -122,7 +125,6 @@ function openCart() {
 document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
     addProductsToCart(productVariantIds);
 });
-
 
 </script>
 {% schema %}
