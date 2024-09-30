@@ -361,19 +361,11 @@
     },
     "frequently_boughts_6ExgPp": {
       "type": "frequently-boughts",
-      "blocks": {
-        "product_XkHHLf": {
-          "type": "product",
-          "settings": {
-            "suggested-product": "2019-power-lunch-and-hands-on-workshop"
-          }
-        }
-      },
-      "block_order": [
-        "product_XkHHLf"
-      ],
       "settings": {
-        "main-F-B-headings": "<h3>Frequently Bought Together</h3>"
+        "main-F-B-headings": "<h3>Frequently Bought Together</h3>",
+        "suggested-product": [
+          "3-day-master-class-with-lydia-sarfati-elevate-your-skincare-expertise-october-28-30-2024"
+        ]
       }
     }
   },
