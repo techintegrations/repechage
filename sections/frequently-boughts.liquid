@@ -102,11 +102,13 @@
         }
     }
 
-    // Add to Cart button click event
+    const myDrawer = new theme.Drawers('drawerId', 'drawerName'); 
+    
     document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
         addProductsToCart(productVariantIds);
-        document.querySelector(".drawer.drawer--right").classList.add("drawer--is-open");
+        myDrawer.open();
     });
+
 
 </script>
 {% schema %}
