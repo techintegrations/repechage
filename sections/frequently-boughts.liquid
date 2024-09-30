@@ -32,6 +32,7 @@
     <div class="F-B-info">
       <div class="F-B-info-wrapper">
         <h3><span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span></h3>
+       <h3><span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span></h3>
         <button type="submit" name="add" data-add-to-cart="" class="btn add-to-cart" style="visibility: visible;">
       <span data-add-to-cart-text="" data-default-text="Add to cart">
         Add to cart
@@ -61,7 +62,7 @@
   document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
   // Add to Cart functionality
-  document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+  document.querySelector('.add-to-cart').addEventListener('click', function() {
     productVariantIds.forEach(function(variantId) {
       fetch('/cart/add.js', {
         method: 'POST',
