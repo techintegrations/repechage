@@ -68,6 +68,7 @@
 </div>
 
 <script>
+    // Get the main product variant ID
     const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
     let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
 
@@ -88,26 +89,32 @@
     // Function to add products to the cart one by one
     async function addProductsToCart(productVariantIds) {
         for (const variantId of productVariantIds) {
-                let response = await fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        id: variantId, // Use variant ID here
-                        quantity: 1
-                    })
-                });
-                let data = await response.json();
+            let response = await fetch('/cart/add.js', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    id: variantId, // Use variant ID here
+                    quantity: 1
+                })
+            });
+            let data = await response.json();
         }
     }
 
+    // Create an instance of the Drawers function for the cart drawer
+    const myDrawer = new theme.Drawers('drawerId', 'drawerName'); // Replace with your actual drawer ID and name
+
     // Add to Cart button click event
-    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-        addProductsToCart(productVariantIds);
+    document.querySelector('.add-to-cart-F-B').addEventListener('click', async function(evt) {
+        evt.preventDefault(); // Prevent default button behavior if necessary
+        await addProductsToCart(productVariantIds); // Wait for products to be added to the cart
+        myDrawer.open(); // Open the drawer after adding products
     });
 
 </script>
+
 {% schema %}
 {
   "name": "frequently-boughts",
