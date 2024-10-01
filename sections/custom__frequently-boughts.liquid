@@ -34,10 +34,8 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-          <div class="devider-F-b">
-            <div
-              class="rounded-full "
-            >
+          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+             <div class="devider">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -51,9 +49,7 @@
               >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
               </svg>
-            </div>
           </div>
-          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
             <div class="suggested-product_image">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </div>
