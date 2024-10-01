@@ -359,18 +359,17 @@
       "settings": {
       }
     },
-    "frequently_boughts_6ExgPp": {
-      "type": "frequently-boughts",
+    "custom_frequently_boughts_ReEHJM": {
+      "type": "custom__frequently-boughts",
       "settings": {
-        "main-F-B-headings": "<p>Frequently Bought Together</p>",
-        "suggested-product": [
-          "3-day-master-class-with-lydia-sarfati-elevate-your-skincare-expertise-october-28-30-2024",
+        "top_heading": "",
+        "product_list": [
           "algo-mist-hydrating-seaweed-facial-spray-2",
-          "algo-mist-hydrating-seaweed-facial-spray-travel-size",
-          "biolight-brightening-cleanser"
+          "biolight-brightening-cleanser",
+          "biolight-brightening-serum"
         ],
         "padding_bottom-heading": 20,
-        "font-size-heading": 40,
+        "font-size-heading": 20,
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_top_m": 0,
@@ -389,6 +388,6 @@
     "testimonials",
     "recently-viewed",
     "collection-return",
-    "frequently_boughts_6ExgPp"
+    "custom_frequently_boughts_ReEHJM"
   ]
 }
