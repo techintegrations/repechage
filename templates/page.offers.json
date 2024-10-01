@@ -56,6 +56,48 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
+        "text_block_cLNKFk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Hydra-Dew-Bundle_b7eedcab-ae67-4879-8671-e7f2a6405624.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Hydra Dew Pure Bundle",
+            "text": "<p>Save over 30% when you purchase our special Hydra Dew Pure Bundle.</p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/hydra-dew-pure-retail-special-rr03-rr04-rr08-rr06"
+          }
+        },
+        "text_block_cYDAJY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/HIGH_RES_-_BIOLIGHT_BRIGHTENING_SERUM.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "FREE GIFT WITH PURCHASE",
+            "text": "<p>FREE Biolight Brightening Serum (1 oz.) With Purchase of Biolight Brightening Sheet Mask<br/></p><p></p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/free-biolight-brightening-serum-w-purchase-of-biolight-brightening-sheet-mask"
+          }
+        },
+        "text_block_F738Ad": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Screenshot_2024-10-01_102505_df9bf70c-3277-4ee0-b69a-89a726a51af8.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "HYDRA DEW PURE SPECIAL",
+            "text": "<p>Get the Hydra Dew Pure Starter Collection, the ultimate way to \"try before you buy.\"<br/></p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/hydra-dew-pure-starter-collection"
+          }
+        },
         "text_block_kUyQWJ": {
           "type": "text_block",
           "settings": {
@@ -140,60 +182,18 @@
             "button_label": "LEARN MORE",
             "button_link": "https://www.repechage.com/pages/after-pay"
           }
-        },
-        "text_block_cLNKFk": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Hydra-Dew-Bundle_b7eedcab-ae67-4879-8671-e7f2a6405624.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Hydra Dew Pure Bundle",
-            "text": "<p>Save over 30% when you purchase our special Hydra Dew Pure Bundle.</p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/hydra-dew-pure-retail-special-rr03-rr04-rr08-rr06"
-          }
-        },
-        "text_block_cYDAJY": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/HIGH_RES_-_BIOLIGHT_BRIGHTENING_SERUM.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "FREE GIFT WITH PURCHASE",
-            "text": "<p>FREE Biolight Brightening Serum (1 oz.) With Purchase of Biolight Brightening Sheet Mask<br/></p><p></p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/free-biolight-brightening-serum-w-purchase-of-biolight-brightening-sheet-mask"
-          }
-        },
-        "text_block_F738Ad": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Screenshot_2024-10-01_102505_df9bf70c-3277-4ee0-b69a-89a726a51af8.png",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "HYDRA DEW PURE SPECIAL",
-            "text": "<p>Get the Hydra Dew Pure Starter Collection, the ultimate way to \"try before you buy.\"<br/></p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/hydra-dew-pure-starter-collection"
-          }
         }
       },
       "block_order": [
+        "text_block_cLNKFk",
+        "text_block_cYDAJY",
+        "text_block_F738Ad",
         "text_block_kUyQWJ",
         "text_block_8QWQtF",
         "text_block_pMhKPb",
         "text_block_eQPFAi",
         "text_block_MD9Uya",
-        "text_block_zQipqQ",
-        "text_block_cLNKFk",
-        "text_block_cYDAJY",
-        "text_block_F738Ad"
+        "text_block_zQipqQ"
       ],
       "settings": {
         "title": "Shop exclusive and limited-time offers",
