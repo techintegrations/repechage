@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      {% for suggested_product in section.settings['suggested-product'] %}
+      {% for suggested_product in section.settings.product_list %}
         {% if suggested_product != blank %}
           <div class="devider-F-b">
             <div
@@ -92,7 +92,7 @@
     },
     {
       "type": "product_list",
-      "id": "suggested-product",
+      "id": "product_list",
       "label": "Suggested Product",
       "limit": 10
     },
