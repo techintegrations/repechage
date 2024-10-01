@@ -60,44 +60,33 @@
 </div>
 
 <script>
-    const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-    let productVariantIds = [mainProductVariantId]; // Array to store the variant IDs
-
-    // Calculate total price including suggested products
-    let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
-
-    document.querySelectorAll('.suggested-product').forEach(function(productEl) {
+      const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+      let productVariantIds = [mainProductVariantId];
+      let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+      
+      document.querySelectorAll('.suggested-product').forEach(productEl => {
         const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
         const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-
-        totalPrice += suggestedProductPrice; // Add suggested product prices to total
-        productVariantIds.push(suggestedProductVariantId); // Add variant ID to the array
-    });
-
-    // Update total price in the DOM
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-
-    // Function to add products to the cart one by one
-    async function addProductsToCart(productVariantIds) {
+        totalPrice += suggestedProductPrice;
+        productVariantIds.push(suggestedProductVariantId);
+      });
+      
+      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+      
+      async function addProductsToCart(productVariantIds) {
         for (const variantId of productVariantIds) {
-                let response = await fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        id: variantId, // Use variant ID here
-                        quantity: 1
-                    })
-                });
-                let data = await response.json();
+          await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: variantId, quantity: 1 })
+          });
         }
-    }
- // Add to Cart button click event
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async ()=> {
-    await addProductsToCart(productVariantIds);
-    document.dispatchEvent(new CustomEvent('cart:open'));
-});
+      }
+      
+      document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+        await addProductsToCart(productVariantIds);
+        document.dispatchEvent(new CustomEvent('cart:open'));
+      });
 </script>
 {% schema %}
 {
