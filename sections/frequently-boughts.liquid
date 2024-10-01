@@ -60,35 +60,22 @@
 </div>
 
 <script>
-  const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-let productVariantIds = [mainProductVariantId];
-let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
-
-document.querySelectorAll('.suggested-product').forEach(productEl => {
-  const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-  const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-  totalPrice += suggestedProductPrice;
-  productVariantIds.push(suggestedProductVariantId);
-});
-
-document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-
-async function addProductsToCart(productVariantIds) {
-  for (const variantId of productVariantIds) {
-    await fetch('/cart/add.js', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: variantId, quantity: 1 })
-    });
-  }
-}
-
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
   await addProductsToCart(productVariantIds);
-   document.dispatchEvent(new CustomEvent('cart:open'));
-  theme.cart.getCartProductMarkup().then(cartMarkup => {
+  theme.cart.getCart().then(cart => {
     const cartForm = document.querySelector('.cart-form');
-    cartForm.innerHTML = cartMarkup;
+    cartForm.innerHTML = '';
+    cart.items.forEach(item => {
+      const itemHTML = `
+        <div class="cart-item">
+          <img src="${item.image}" alt="${item.title}">
+          <h2>${item.title}</h2>
+          <p>Quantity: ${item.quantity}</p>
+          <p>Price: ${item.price}</p>
+        </div>
+      `;
+      cartForm.innerHTML += itemHTML;
+    });
     theme.reinitProductGridItem();
   });
 });
