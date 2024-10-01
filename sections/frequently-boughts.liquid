@@ -54,14 +54,17 @@
           <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
         </p>
         <!-- <button class ="add-to-cart-F-B" type="submit" >Add to cart</button> -->
-        <button
+        <!-- <button
           type="submit"
           name="add"
           data-add-to-cart
           class="btn btn--full add-to-cart add-to-cart-F-B"
         >
           <span> Add To Cart </span>
-        </button>
+        </button> -->
+        <button class="quick-product__btn add-to-cart-F-B quick-product__btn--not-ready js-modal-open-quick-modal-{{ product.id }} small--hide">
+            Add to Cart
+          </button>
       </div>
     </div>
   </div>
