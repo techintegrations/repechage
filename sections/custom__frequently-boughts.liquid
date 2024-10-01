@@ -20,7 +20,7 @@
 {% endstyle %}
 
 <div class="mian-F-B-wrapper page-width">
-  <div class="main-F-B-heading">{{ section.settings['main-F-B-headings'] }}</div>
+  <div class="main-F-B-heading">{{ section.settings.top_heading }}</div>
   <div class="main-F-B">
     <div class="products-wrapper-F-B">
       <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
@@ -86,8 +86,8 @@
   "class": "frequently-boughts-section",
   "settings": [
     {
-      "type": "richtext",
-      "id": "main-F-B-headings",
+      "type": "text",
+      "id": "top_heading",
       "label": "Heading"
     },
     {
