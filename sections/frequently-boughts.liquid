@@ -85,12 +85,9 @@
 
                // Event listener for the 'Frequently Bought Together' add-to-cart button
         document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+        theme.cart.buildCart();
           // Add the products to the cart first
           await addProductsToCart(productVariantIds);
-        
-          // Trigger the existing jQuery function for updating the cart
-          theme.cart.buildCart();
-        
           // Open the cart drawer after the cart is updated
           document.dispatchEvent(new CustomEvent('cart:open'));
         });
