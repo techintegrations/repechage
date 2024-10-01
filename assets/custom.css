@@ -1482,7 +1482,7 @@ body.template-cart #cart-progress-wrapper {
     bottom: 0;
     z-index: 99;
     display: none;
-    z-index: 99;
+    z-index: 9;
     width: 100%;
 }
 
