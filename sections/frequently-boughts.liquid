@@ -60,7 +60,7 @@
 </div>
 
 <script>
-    const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
 let productVariantIds = [mainProductVariantId];
 let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
@@ -81,38 +81,17 @@ async function addProductsToCart(productVariantIds) {
       body: JSON.stringify({ id: variantId, quantity: 1 })
     });
   }
-  fetch('/cart.js')
-    .then(response => response.json())
-    .then(data => {
-      const cartHtml = `
-        <div class="cart__items">
-          ${data.items.map(item => `
-            <div class="cart__item">
-              <div class="cart__image">
-                <img src="${item.image}" alt="${item.title}">
-              </div>
-              <div class="cart__info">
-                <h3 class="cart__title">${item.title}</h3>
-                <p class="cart__price">${item.price}</p>
-                <div class="cart__quantity">
-                  <button class="cart__quantity-btn cart__quantity-btn--minus" type="button">-</button>
-                  <input class="cart__quantity-input" type="number" value="${item.quantity}" min="1">
-                  <button class="cart__quantity-btn cart__quantity-btn--plus" type="button">+</button>
-                </div>
-              </div>
-            </div>
-          `).join('')}
-        </div>
-      `;
-      document.querySelector('.cart__items').innerHTML = cartHtml;
-    });
+  theme.cart.getCartProductMarkup().then(markup => {
+    document.querySelector('.cart__items').innerHTML = markup;
+  });
 }
 
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
   await addProductsToCart(productVariantIds);
   document.dispatchEvent(new CustomEvent('cart:open'));
-});
+});  
 </script>
+
 {% schema %}
 {
   "name": "frequently-boughts",
