@@ -59,77 +59,82 @@
     </div>
   </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-  const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-  let productVariantIds = [mainProductVariantId];
-  let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+  $(document).ready(function() {
+    const mainProductVariantId = $('.main-product').data('product-variant-id');
+    let productVariantIds = [mainProductVariantId];
+    let totalPrice = parseFloat($('.main-product-price').text().replace('$', '').trim());
 
-  // Calculate total price and collect variant IDs for suggested products
-  document.querySelectorAll('.suggested-product').forEach(productEl => {
-    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-    const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-    totalPrice += suggestedProductPrice;
-    productVariantIds.push(suggestedProductVariantId);
-  });
+    // Collect suggested product variant IDs and calculate total price
+    $('.suggested-product').each(function() {
+      const suggestedProductPrice = parseFloat($(this).find('.suggested-product-price').text().replace('$', '').trim());
+      const suggestedProductVariantId = $(this).data('product-variant-id');
+      totalPrice += suggestedProductPrice;
+      productVariantIds.push(suggestedProductVariantId);
+    });
 
-  document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+    $('#total-price').text('$' + totalPrice.toFixed(2));
 
-  async function addProductsToCart(productVariantIds) {
-    const promises = productVariantIds.map(variantId =>
-      fetch('/cart/add.js', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: variantId, quantity: 1 })
-      })
-    );
+    function addProductsToCart(productVariantIds) {
+      const promises = productVariantIds.map(variantId =>
+        $.ajax({
+          type: 'POST',
+          url: '/cart/add.js',
+          contentType: 'application/json',
+          data: JSON.stringify({ id: variantId, quantity: 1 })
+        })
+      );
 
-    return Promise.all(promises);
-  }
-
-  async function updateCart() {
-    try {
-      const response = await fetch('/cart.js');
-      const cartData = await response.json();
-      yourInstance.cartMarkup(cartData); // Update cart display with the latest data
-    } catch (error) {
-      console.error('Failed to fetch cart data:', error);
+      return $.when(...promises); // Wait for all promises to resolve
     }
-  }
 
-  const yourInstance = {
-    buildCart: function() {
-      theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
-    },
-    cartMarkup: function(cartData) {
-      const items = cartData.items;
-      const cartContainer = document.querySelector('.cart-container'); // Adjust to your actual cart container selector
+    function updateCart() {
+      return $.getJSON('/cart.js')
+        .done(function(cartData) {
+          console.log('Cart data fetched:', cartData); // Debugging log
+          yourInstance.cartMarkup(cartData);
+        })
+        .fail(function() {
+          console.error('Failed to fetch cart data');
+        });
+    }
 
-      cartContainer.innerHTML = ''; // Clear existing items
+    const yourInstance = {
+      buildCart: function() {
+        theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
+      },
+      cartMarkup: function(cartData) {
+        const cartContainer = $('.cart-container'); // Adjust to your actual cart container selector
+        cartContainer.empty(); // Clear existing items
 
-      items.forEach(item => {
-        const itemHtml = `<div class="cart-item">${item.product.title} - ${theme.Currency.formatMoney(item.price, theme.settings.moneyFormat)}</div>`;
-        cartContainer.innerHTML += itemHtml; // Append new item
-      });
+        $.each(cartData.items, function(index, item) {
+          const itemHtml = `<div class="cart-item">${item.product.title} - ${theme.Currency.formatMoney(item.price, theme.settings.moneyFormat)}</div>`;
+          cartContainer.append(itemHtml); // Append new item
+        });
 
-      // Update total price
-      document.getElementById('total-price').textContent = theme.Currency.formatMoney(cartData.total_price, theme.settings.moneyFormat);
-    },
-  };
+        // Update total price
+        $('#total-price').text(theme.Currency.formatMoney(cartData.total_price, theme.settings.moneyFormat));
+      },
+    };
 
-  document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
-    const button = event.currentTarget;
-    button.disabled = true; // Disable the button
-    button.textContent = 'Adding...'; // Change button text
+    $('.add-to-cart-F-B').on('click', async function(event) {
+      const button = $(this);
+      button.prop('disabled', true).text('Adding...'); // Disable the button
 
-    await addProductsToCart(productVariantIds);
-    await updateCart(); // Ensure the cart is updated with new items
-
-    document.dispatchEvent(new CustomEvent('cart:open'));
-
-    button.disabled = false; // Re-enable the button
-    button.textContent = 'Add to cart'; // Reset button text
+      try {
+        await addProductsToCart(productVariantIds);
+        await updateCart(); // Ensure the cart is updated with new items
+        $(document).trigger('cart:open');
+      } catch (error) {
+        console.error('Error adding products to cart:', error);
+      } finally {
+        button.prop('disabled', false).text('Add to cart'); // Reset button text
+      }
+    });
   });
 </script>
+
 
 {% schema %}
 {
