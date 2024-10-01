@@ -168,6 +168,20 @@
             "button_label": "BUY NOW",
             "button_link": "https://www.repechage.com/collections/best-sellers/products/free-algo-mist-w-purchase-of-c-serum-hydro-complex-pfs-for-oily-to-combination-skin"
           }
+        },
+        "text_block_cYDAJY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/HIGH_RES_-_BIOLIGHT_BRIGHTENING_SERUM.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "FREE GIFT WITH PURCHASE",
+            "text": "<p>FREE Biolight Brightening Serum (1 oz.) With Purchase of Biolight Brightening Sheet Mask<br/></p><p></p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/free-biolight-brightening-serum-w-purchase-of-biolight-brightening-sheet-mask"
+          }
         }
       },
       "block_order": [
@@ -178,7 +192,8 @@
         "text_block_MD9Uya",
         "text_block_zQipqQ",
         "text_block_MATjYY",
-        "text_block_Kpd9iB"
+        "text_block_Kpd9iB",
+        "text_block_cYDAJY"
       ],
       "settings": {
         "title": "Shop exclusive and limited-time offers",
