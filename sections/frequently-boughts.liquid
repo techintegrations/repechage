@@ -15,7 +15,7 @@
 
       {% for suggested_product in section.settings['suggested-product'] %}
         {% if suggested_product != blank %}
-          <div class="devider-F-b" >
+          <div class="devider-F-b">
             <div
               class="rounded-full "
             >
@@ -55,47 +55,46 @@
         </p>
         <!-- <button class ="add-to-cart-F-B" type="submit" >Add to cart</button> -->
         <button
-     type="submit"
-      name="add"
-      data-add-to-cart
-      class="btn btn--full add-to-cart add-to-cart-F-B">
-      <span >
-       Add To Cart
-      </span>
-    </button>
+          type="submit"
+          name="add"
+          data-add-to-cart
+          class="btn btn--full add-to-cart add-to-cart-F-B"
+        >
+          <span> Add To Cart </span>
+        </button>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-      let productVariantIds = [mainProductVariantId];
-      let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
-      
-      document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-        const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-        totalPrice += suggestedProductPrice;
-        productVariantIds.push(suggestedProductVariantId);
-      });
-      
-      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-      
-      async function addProductsToCart(productVariantIds) {
-        for (const variantId of productVariantIds) {
-          await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 })
-          });
+  const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+        let productVariantIds = [mainProductVariantId];
+        let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+
+        document.querySelectorAll('.suggested-product').forEach(productEl => {
+          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+          const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+          totalPrice += suggestedProductPrice;
+          productVariantIds.push(suggestedProductVariantId);
+        });
+
+        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+
+        async function addProductsToCart(productVariantIds) {
+          for (const variantId of productVariantIds) {
+            await fetch('/cart/add.js', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ id: variantId, quantity: 1 })
+            });
+          }
         }
-      }
-      
-      document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-        await addProductsToCart(productVariantIds);
-        document.dispatchEvent(new CustomEvent('cart:open'));
-      });
+
+        document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+          await addProductsToCart(productVariantIds);
+          document.dispatchEvent(new CustomEvent('cart:open'));
+        });
 </script>
 
 {% schema %}
