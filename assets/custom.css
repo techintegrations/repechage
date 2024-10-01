@@ -39,6 +39,7 @@
     justify-content: center;
 }
 .suggested-product {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -86,7 +87,13 @@
     flex-direction: column;
     font-weight: 600;
 }
-
+.suggested-product .devider {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    top: -20px;
+    border-radius: 100%;
+}
 
 
 
