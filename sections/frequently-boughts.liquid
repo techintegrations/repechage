@@ -81,8 +81,8 @@ async function addProductsToCart(productVariantIds) {
       body: JSON.stringify({ id: variantId, quantity: 1 })
     });
   }
-  theme.cart.getCartProductMarkup().then(markup => {
-    document.querySelector('.cart__items').innerHTML = markup;
+  theme.cart.getCart().then(cart => {
+    theme.cart.update(cart);
   });
 }
 
