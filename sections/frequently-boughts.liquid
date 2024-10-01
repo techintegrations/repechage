@@ -83,14 +83,14 @@
           }
         }
 
- document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-  await addProductsToCart(productVariantIds);
-  theme.cart.getCartProductMarkup().then(cartMarkup => {
-    const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-    cartForm.cartMarkup(cartMarkup);
-  });
-  document.dispatchEvent(new CustomEvent('cart:open'));
-});
+       document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+        await addProductsToCart(productVariantIds);
+        theme.cart.getCartProductMarkup().then(cartMarkup => {
+          const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+          cartForm.cartMarkup(cartMarkup);
+        });
+        document.dispatchEvent(new CustomEvent('cart:open'));
+      });
 </script>
 
 {% schema %}
