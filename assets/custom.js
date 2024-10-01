@@ -181,7 +181,7 @@ $(document).ready(function () {
           }
         }
 
-       document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+       document.querySelector('.frequently_boughts-info .add-to-cart').addEventListener('click', async () => {
         await addProductsToCart(productVariantIds);
         theme.cart.getCartProductMarkup().then(cartMarkup => {
           const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
