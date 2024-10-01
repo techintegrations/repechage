@@ -83,14 +83,22 @@
           }
         }
 
-               // Event listener for the 'Frequently Bought Together' add-to-cart button
-        document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-        theme.cart.buildCart();
-          // Add the products to the cart first
-          await addProductsToCart(productVariantIds);
-          // Open the cart drawer after the cart is updated
-          document.dispatchEvent(new CustomEvent('cart:open'));
-        });
+            // Event listener for the 'Frequently Bought Together' add-to-cart button
+document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+  // Add the products to the cart first
+  await addProductsToCart(productVariantIds);
+
+  // After products are added, call the buildCart function to update the cart
+  if (typeof theme.cart.buildCart === 'function') {
+    theme.cart.buildCart(); // This will trigger the jQuery/cart update
+  } else {
+    console.error('buildCart function is not defined.');
+  }
+
+  // Open the cart drawer after the cart is updated
+  document.dispatchEvent(new CustomEvent('cart:open'));
+});
+
 
 </script>
 
