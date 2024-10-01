@@ -86,17 +86,6 @@
     flex-direction: column;
     font-weight: 600;
 }
-.devider-F-b {
-    background: linear-gradient(#fff 50%,#f2f2f2 50%);!i;!ip;!ipo;!ip;!i;!;
-    padding: 2rem 50px;
-}
-
-.rounded-full {
-    padding: 10px 10px 5px 10px;
-    width: fit-content;
-    border-radius: 100%;
-    background-color: #fefefe;
-}
 
 
 
