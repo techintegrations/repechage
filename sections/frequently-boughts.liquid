@@ -16,20 +16,8 @@
       {% for suggested_product in section.settings['suggested-product'] %}
         {% if suggested_product != blank %}
           <div class="devider-F-b">
-            <div
-              class="rounded-full "
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                class="w-[20px] h-[20px]"
-                height="20"
-                width="20"
-                aria-hidden="true"
-              >
+            <div class="rounded-full ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-[20px] h-[20px]" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
               </svg>
             </div>
@@ -53,40 +41,53 @@
         <p>
           <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
         </p>
-        <button class ="add-to-cart-F-B" type="submit" >Add to cart</button> 
+        <button class="add-to-cart-F-B" type="button">Add to cart</button>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  // Get the main product variant ID
   const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-        let productVariantIds = [mainProductVariantId];
-        let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+  let productVariantIds = [mainProductVariantId]; // Array to store all product variant IDs
+  let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
-        document.querySelectorAll('.suggested-product').forEach(productEl => {
-          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-          const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-          totalPrice += suggestedProductPrice;
-          productVariantIds.push(suggestedProductVariantId);
+  // Iterate over suggested products and calculate total price
+  document.querySelectorAll('.suggested-product').forEach(productEl => {
+    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+    const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+    totalPrice += suggestedProductPrice;
+    productVariantIds.push(suggestedProductVariantId);
+  });
+
+  // Update the total price display
+  document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+
+  // Function to add multiple products to the cart
+  async function addProductsToCart(productVariantIds) {
+    for (const variantId of productVariantIds) {
+      try {
+        const response = await fetch('/cart/add.js', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: variantId, quantity: 1 }),
         });
 
-        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-
-        async function addProductsToCart(productVariantIds) {
-          for (const variantId of productVariantIds) {
-            await fetch('/cart/add.js', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ id: variantId, quantity: 1 })
-            });
-          }
+        if (!response.ok) {
+          throw new Error(`Error adding product ID ${variantId}: ${response.statusText}`);
         }
+      } catch (error) {
+        console.error('Error adding product to cart:', error);
+      }
+    }
+  }
 
-        document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-          await addProductsToCart(productVariantIds);
-          document.dispatchEvent(new CustomEvent('cart:open'));
-        });
+  // Event listener for the "Add to cart" button
+  document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+    await addProductsToCart(productVariantIds); // Add all products to cart
+    document.dispatchEvent(new CustomEvent('cart:open')); // Open the cart drawer
+  });
 </script>
 
 {% schema %}
