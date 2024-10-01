@@ -16,18 +16,18 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "top_subheading": "<p><strong>LABOR DAY WEEKEND<\/strong><\/p>",
-            "title": "<p>SALE<\/p>",
+            "top_subheading": "<p><strong>LABOR DAY WEEKEND</strong></p>",
+            "title": "<p>SALE</p>",
             "title_size": 100,
-            "subheading": "<p><strong>10% OFF + FREE SHIPPING*<\/strong><\/p>",
-            "link": "shopify:\/\/collections\/our-retail-collection",
+            "subheading": "<p><strong>10% OFF + FREE SHIPPING*</strong></p>",
+            "link": "shopify://collections/our-retail-collection",
             "link_text": "SHOP NOW",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Labor_Day_sale_2024_-_Website_banner-2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Labor_Day_sale_2024_-_Mobile_website_banner_1.jpg",
+            "image": "shopify://shop_images/Labor_Day_sale_2024_-_Website_banner-2.jpg",
+            "image_mobile": "shopify://shop_images/Labor_Day_sale_2024_-_Mobile_website_banner_1.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -35,18 +35,18 @@
         "image_iCkPT9": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>EXPERIENCE<\/p>",
-            "title": "<p>VITA CURA GOLD<\/p>",
+            "top_subheading": "<p>EXPERIENCE</p>",
+            "title": "<p>VITA CURA GOLD</p>",
             "title_size": 71,
-            "subheading": "<p>A Breakthrough in Transformative Skincare<\/p>",
-            "link": "shopify:\/\/collections\/vita-cura-gold-collection",
+            "subheading": "<p>A Breakthrough in Transformative Skincare</p>",
+            "link": "shopify://collections/vita-cura-gold-collection",
             "link_text": "SHOP THE COLLECTION",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/dfsdf.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_001.jpg",
+            "image": "shopify://shop_images/dfsdf.jpg",
+            "image_mobile": "shopify://shop_images/Banner_001.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -54,18 +54,18 @@
         "image_QYiDV7": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>New<\/p>",
-            "title": "<p>VITA CURA BODY<\/p>",
+            "top_subheading": "<p>New</p>",
+            "title": "<p>VITA CURA BODY</p>",
             "title_size": 71,
-            "subheading": "<p>This rich cream helps to visibly smooth and tighten the appearance of skin with power-packed ingredients.<\/p>",
-            "link": "shopify:\/\/products\/vita-cura-cellusea-lift-body-contour-cream",
+            "subheading": "<p>This rich cream helps to visibly smooth and tighten the appearance of skin with power-packed ingredients.</p>",
+            "link": "shopify://products/vita-cura-cellusea-lift-body-contour-cream",
             "link_text": "SHOP NOW",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/AFG2.gif",
-            "image_mobile": "shopify:\/\/shop_images\/BODY.jpg",
+            "image": "shopify://shop_images/AFG2.gif",
+            "image_mobile": "shopify://shop_images/BODY.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -73,18 +73,18 @@
         "image_Rx9W9J": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>Try<\/p>",
-            "title": "<p>THE ORIGINAL SEAWEED SERUM<\/p>",
+            "top_subheading": "<p>Try</p>",
+            "title": "<p>THE ORIGINAL SEAWEED SERUM</p>",
             "title_size": 69,
-            "subheading": "<p>Seaweed Filtrate Rich in 12 vitamins, 18 amino acids and 42 trace elements and minerals.<\/p>",
-            "link": "shopify:\/\/products\/c-serum-seaweed-filtrate-face-serum-new-size",
+            "subheading": "<p>Rich in 12 vitamins, 18 amino acids and 42 trace elements and minerals.</p>",
+            "link": "shopify://products/c-serum-seaweed-filtrate-face-serum-new-size",
             "link_text": "SHOP NOW",
-            "link_2": "shopify:\/\/products\/c-serum-seaweed-filtrate-face-serum-new-size",
+            "link_2": "shopify://products/c-serum-seaweed-filtrate-face-serum-new-size",
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/wewew.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_003.jpg",
+            "image": "shopify://shop_images/Banner_Q4_-_1.jpg",
+            "image_mobile": "shopify://shop_images/Banner_003.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -111,7 +111,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "BEST SELLERS",
-        "featured_image": "shopify:\/\/shop_images\/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
+        "featured_image": "shopify://shop_images/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
         "home_featured_products": "our-best-sellers",
         "per_row": 3,
         "rows": 1,
@@ -200,7 +200,7 @@
         "text_block_EdJXpk": {
           "type": "text_block",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/cosmo-logo-2.png",
+            "logo": "shopify://shop_images/cosmo-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -208,7 +208,7 @@
         "text_block_frN9HT": {
           "type": "text_block",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/glamour-logo-2.png",
+            "logo": "shopify://shop_images/glamour-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -216,7 +216,7 @@
         "text_block_wDJdWR": {
           "type": "text_block",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/marie-logo.png",
+            "logo": "shopify://shop_images/marie-logo.png",
             "title": "",
             "text": ""
           }
@@ -224,7 +224,7 @@
         "text_block_33LTrN": {
           "type": "text_block",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/vogue-logo.png",
+            "logo": "shopify://shop_images/vogue-logo.png",
             "title": "",
             "text": ""
           }
@@ -232,7 +232,7 @@
         "text_block_UFc3fT": {
           "type": "text_block",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -241,7 +241,7 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -250,7 +250,7 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -259,7 +259,7 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -268,7 +268,7 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/allure-logo-2.png",
+            "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
             "text": ""
           }
@@ -307,7 +307,7 @@
           "type": "collection",
           "settings": {
             "collection": "hydra-4-for-sensitive-skin",
-            "custom_collection_image": "shopify:\/\/shop_images\/ScreenShot2021-03-25at11.47.55AM_2000x_a106afe0-9e98-4252-beac-b73026a12916.png",
+            "custom_collection_image": "shopify://shop_images/ScreenShot2021-03-25at11.47.55AM_2000x_a106afe0-9e98-4252-beac-b73026a12916.png",
             "title": "",
             "focal_point": "center center"
           }
@@ -316,7 +316,7 @@
           "type": "collection",
           "settings": {
             "collection": "cell-renewal-for-all-skin-types",
-            "custom_collection_image": "shopify:\/\/shop_images\/IMG_0856square.jpg",
+            "custom_collection_image": "shopify://shop_images/IMG_0856square.jpg",
             "title": "",
             "focal_point": "center center"
           }
@@ -325,7 +325,7 @@
           "type": "collection",
           "settings": {
             "collection": "t-zone-for-combination-oily-skin",
-            "custom_collection_image": "shopify:\/\/shop_images\/Astringent_Pads.png",
+            "custom_collection_image": "shopify://shop_images/Astringent_Pads.png",
             "title": "",
             "focal_point": "center center"
           }
@@ -352,16 +352,16 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+        "image": "shopify://shop_images/Repechage4381-Edit-LowRes-JPEG-3.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "\"Powerful skin care ingredients for the body with real results.\"",
-        "text": "<p>-<strong>Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER, REPECHAGE<\/p>",
+        "text": "<p>-<strong>Lydia Sarfati,</strong><br/>CEO AND FOUNDER, REPECHAGE</p>",
         "enlarge_text": false,
         "button_label": "DISCOVER THE COLLECTION",
-        "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura-cellusea-body-care-collection",
+        "button_link": "https://www.repechage.com/collections/vita-cura-cellusea-body-care-collection",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "66",
@@ -381,48 +381,48 @@
         "image_slider_block_EgJ8hb": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+            "image": "shopify://shop_images/Repechage4381-Edit-LowRes-JPEG-3.jpg",
             "title": "\"Powerful skin care ingredients for the body with real results.\"",
-            "text": "<p><strong>-Lydia Sarfati,<\/strong><br\/>CEO AND FOUNDER,<br\/>REPÊCHAGE®<\/p>",
+            "text": "<p><strong>-Lydia Sarfati,</strong><br/>CEO AND FOUNDER,<br/>REPÊCHAGE®</p>",
             "enlarge_text": false,
             "button_label": "DISCOVER THE COLLECTION",
-            "button_link": "\/collections\/vita-cura-cellusea-body-care-collection",
+            "button_link": "/collections/vita-cura-cellusea-body-care-collection",
             "button_style": "primary"
           }
         },
         "image_slider_block_RtbnDd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Repechage-T-Zone-Complex.jpg",
+            "image": "shopify://shop_images/Repechage-T-Zone-Complex.jpg",
             "title": "Achieve Balanced Skin with Repêchage® T-Zone Balance: Soothing Botanicals and Antioxidants",
-            "text": "<p>Experience the benefits of Repêchage® T-Zone Balance products, specially crafted for combination skin. Infused with St. John's Wort for its soothing botanical properties and powerful antioxidants from Green and White Teas, these products help balance the skin and refine its texture. Try them daily to achieve a healthier, more even complexion.<\/p>",
+            "text": "<p>Experience the benefits of Repêchage® T-Zone Balance products, specially crafted for combination skin. Infused with St. John's Wort for its soothing botanical properties and powerful antioxidants from Green and White Teas, these products help balance the skin and refine its texture. Try them daily to achieve a healthier, more even complexion.</p>",
             "enlarge_text": false,
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/t-zone-for-combination-oily-skin",
+            "button_link": "shopify://collections/t-zone-for-combination-oily-skin",
             "button_style": "primary"
           }
         },
         "image_slider_block_epmVdd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VC_Eau_Fraiche_Candle-Side.jpg",
+            "image": "shopify://shop_images/VC_Eau_Fraiche_Candle-Side.jpg",
             "title": "Vita Cura® Eau Fraîche Candle",
-            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.<\/p>",
+            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.</p>",
             "enlarge_text": false,
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/products\/vita-cura-eau-fraiche-candle",
+            "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
             "button_style": "primary"
           }
         },
         "image_slider_block_6PFhpD": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Repechage-Concealer-Stick-Makeup.jpg",
+            "image": "shopify://shop_images/Repechage-Concealer-Stick-Makeup.jpg",
             "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick.",
-            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!<\/p>",
+            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!</p>",
             "enlarge_text": false,
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/perfecting-concealer-light",
+            "button_link": "shopify://products/perfecting-concealer-light",
             "button_style": "primary"
           }
         }
@@ -453,10 +453,10 @@
             "heading": "Get Rewarded",
             "textarea": "Sign Up for our loyalty program to get rewarded.",
             "cta_text1": "Sign Up",
-            "cta_link1": "\/pages\/repechage-rewards",
+            "cta_link1": "/pages/repechage-rewards",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/3-img-section-1.jpg",
+            "image": "shopify://shop_images/3-img-section-1.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -474,10 +474,10 @@
             "heading": "Get 10% Off Your First Order",
             "textarea": "When you sign up to our newsletter.",
             "cta_text1": "Sign Up",
-            "cta_link1": "\/pages\/newsletter-sign-up",
+            "cta_link1": "/pages/newsletter-sign-up",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/3-img-section-2.jpg",
+            "image": "shopify://shop_images/3-img-section-2.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -493,9 +493,9 @@
           "settings": {
             "heading": "Buy Now. Pay Later.",
             "text": "We teamed up with Afterpay to offer interest-free installments on purchases so you can stock up on all your favorites, worry-free.",
-            "link": "\/pages\/after-pay",
+            "link": "/pages/after-pay",
             "label": "SHOP NOW. PAY LATER.",
-            "image": "shopify:\/\/shop_images\/afterpay-logo.png",
+            "image": "shopify://shop_images/afterpay-logo.png",
             "color_tint": "#000000",
             "color_tint_opacity": 12,
             "framed": true
@@ -520,13 +520,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/alternating-banner-1.jpg",
+        "image": "shopify://shop_images/alternating-banner-1.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "The Science of Seaweed",
-        "text": "<p>Bringing together the remarkable health and beauty benefits of seaweed and the finest natural ingredients the Earth has to offer.<\/p>",
+        "text": "<p>Bringing together the remarkable health and beauty benefits of seaweed and the finest natural ingredients the Earth has to offer.</p>",
         "enlarge_text": false,
         "button_label": "Discover the Difference",
         "button_link": "",
@@ -547,16 +547,16 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/alternating-banner-2.jpg",
+        "image": "shopify://shop_images/alternating-banner-2.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "Beauty SEAcrets Blog",
-        "text": "<p>Get experts tips and inspiration from our team of skincare veterans.<\/p>",
+        "text": "<p>Get experts tips and inspiration from our team of skincare veterans.</p>",
         "enlarge_text": false,
         "button_label": "READ MORE",
-        "button_link": "shopify:\/\/blogs\/news",
+        "button_link": "shopify://blogs/news",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -584,7 +584,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h3>The Repêchage® Experience<\/h3>",
+            "text": "<h3>The Repêchage® Experience</h3>",
             "text_color": "#000000"
           }
         }
@@ -614,7 +614,7 @@
             "custom_icon": "",
             "icon": "gift",
             "title": "",
-            "text": "<p>3 Complimentary<br\/>Samples with Every Order<\/p>",
+            "text": "<p>3 Complimentary<br/>Samples with Every Order</p>",
             "link_text": "",
             "link": ""
           }
@@ -626,7 +626,7 @@
             "custom_icon": "",
             "icon": "truck",
             "title": "",
-            "text": "<p>Free Shipping <br\/>with Orders Over $99<\/p>",
+            "text": "<p>Free Shipping <br/>with Orders Over $99</p>",
             "link_text": "",
             "link": ""
           }
@@ -638,7 +638,7 @@
             "custom_icon": "",
             "icon": "bills",
             "title": "",
-            "text": "<p>Hassle-Free Returns<\/p>",
+            "text": "<p>Hassle-Free Returns</p>",
             "link_text": "",
             "link": ""
           }
@@ -647,11 +647,11 @@
           "type": "text_block",
           "settings": {
             "select_icon": "custom_image",
-            "custom_image": "shopify:\/\/shop_images\/Afterpay_Logo_Black-364x70-66065f7.png",
-            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"><\/use>\n                        <\/svg>",
+            "custom_image": "shopify://shop_images/Afterpay_Logo_Black-364x70-66065f7.png",
+            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"></use>\n                        </svg>",
             "icon": "package",
             "title": "",
-            "text": "<p>Flexible Payment<br\/>(via Afterpay)<\/p>",
+            "text": "<p>Flexible Payment<br/>(via Afterpay)</p>",
             "link_text": "",
             "link": ""
           }
@@ -712,13 +712,13 @@
         "text_wiiHG4": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up to our mailing list and get access to exclusive offers.<\/p>"
+            "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>"
           }
         },
         "form_rTbMBQ": {
           "type": "form",
           "settings": {
-            "success_msg": "<p>Thank you for subscribing, Please use this code <strong>Welcome10<\/strong> at checkout.<\/p>"
+            "success_msg": "<p>Thank you for subscribing, Please use this code <strong>Welcome10</strong> at checkout.</p>"
           }
         }
       },
@@ -745,7 +745,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Opti-Firm® Eye Contour Cream<\/strong><\/p><p>Undereye feels\/looks smooth and moist all day. Perfect eye cream in every way<\/p>",
+            "testimonial": "<p><strong>Opti-Firm® Eye Contour Cream</strong></p><p>Undereye feels/looks smooth and moist all day. Perfect eye cream in every way</p>",
             "author": "Debra",
             "author_info": ""
           }
@@ -754,7 +754,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Amazing Bath Salt!<\/strong><\/p><p>This is the best bath salt I’ve used. Smells great and makes the skin so soft. Highly recommend.<\/p>",
+            "testimonial": "<p><strong>Amazing Bath Salt!</strong></p><p>This is the best bath salt I’ve used. Smells great and makes the skin so soft. Highly recommend.</p>",
             "author": "Katherine",
             "author_info": ""
           }
@@ -763,7 +763,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Helps with saggy neck!<\/strong><\/p><p>I do believe my neckline looks improved by using this product.<\/p>",
+            "testimonial": "<p><strong>Helps with saggy neck!</strong></p><p>I do believe my neckline looks improved by using this product.</p>",
             "author": "Dianne S.",
             "author_info": ""
           }
@@ -772,7 +772,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Unbelievable Texture and Visible Difference.<\/strong><\/p><p>Magical Serum in a bottle. I started using only a few days now and can feel the difference<\/p>",
+            "testimonial": "<p><strong>Unbelievable Texture and Visible Difference.</strong></p><p>Magical Serum in a bottle. I started using only a few days now and can feel the difference</p>",
             "author": "Ryan R.",
             "author_info": ""
           }
@@ -781,7 +781,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>A must have!<\/strong><\/p><p>Best ever! After using this, and then applying my nighttime routine, skin never felt so soft and refreshed! Ev3n the next morning.<\/p>",
+            "testimonial": "<p><strong>A must have!</strong></p><p>Best ever! After using this, and then applying my nighttime routine, skin never felt so soft and refreshed! Ev3n the next morning.</p>",
             "author": "Brenda K.",
             "author_info": ""
           }
@@ -790,7 +790,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p><strong>Lifesaver! <\/strong>This serum was the greatest in helping me cope with a late life outbreak of rosacea. I saw immediate results and couldn’t be happier!<\/p>",
+            "testimonial": "<p><strong>Lifesaver! </strong>This serum was the greatest in helping me cope with a late life outbreak of rosacea. I saw immediate results and couldn’t be happier!</p>",
             "author": "Margaret",
             "author_info": ""
           }
