@@ -102,7 +102,7 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', function() 
   addProductsToCart(productVariantIds)
     .then(() => {
       theme.cart.getCart().then((cart) => {
-        const cartHtml = '';
+        let cartHtml = '';
         cart.items.forEach((item) => {
           cartHtml += `
             <div class="cart__item">
