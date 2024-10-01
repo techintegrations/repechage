@@ -83,60 +83,17 @@
           }
         }
 
-       // Event listener for the 'Frequently Bought Together' add-to-cart button
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-  // Add the products to the cart
-  await addProductsToCart(productVariantIds);
-
-  // Dispatch event to open the cart drawer
-  document.dispatchEvent(new CustomEvent('cart:open'));
-
-  // After adding the products, update the cart markup
-  theme.cart.getCartProductMarkup().then(function(text) {
-    var markup = theme.cart._parseProductHTML(text); // Parse the returned cart HTML
-
-    var items = markup.items;
-    var count = parseInt(items.dataset.count);
-    var subtotal = items.dataset.cartSubtotal;
-    var savings = items.dataset.cartSavings;
-
-    theme.cart.updateCartDiscounts(markup.discounts);
-    theme.cart.updateSavings(savings);
-
-    if (count > 0) {
-      theme.cart.wrapper.classList.remove('is-empty');
-    } else {
-      theme.cart.wrapper.classList.add('is-empty');
-    }
-
-    theme.cart.updateCount(count);
-
-    // Update the cart products
-    theme.cart.products.innerHTML = '';
-    theme.cart.products.append(items);
-
-    // Update the subtotal in the cart
-    theme.cart.subtotal.innerHTML = theme.Currency.formatMoney(subtotal, theme.settings.moneyFormat);
-
-    theme.cart.reInit();
-
-    // Refresh animations if AOS is enabled
-    if (window.AOS) { AOS.refreshHard(); }
-
-    // Initialize Shopify's express checkout buttons, if available
-    if (Shopify && Shopify.StorefrontExpressButtons) {
-      Shopify.StorefrontExpressButtons.initialize();
-    }
-
-    // Check for sample products and update free shipping progress bar
-    theme.cart.checkForOnlySampleProducts();
-    fetchCartData().then(cartData => {
-      if (cartData) {
-        updateProgressBar(cartData.total_price, cartData.item_count);
-      }
-    });
-  });
-});
+               // Event listener for the 'Frequently Bought Together' add-to-cart button
+        document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+          // Add the products to the cart first
+          await addProductsToCart(productVariantIds);
+        
+          // Trigger the existing jQuery function for updating the cart
+          theme.cart.buildCart();
+        
+          // Open the cart drawer after the cart is updated
+          document.dispatchEvent(new CustomEvent('cart:open'));
+        });
 
 </script>
 
