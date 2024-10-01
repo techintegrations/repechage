@@ -101,8 +101,8 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', function() 
 
   addProductsToCart(productVariantIds)
     .then(() => {
-      theme.cartForm.buildCart(); // Update the cart
-      theme.cartDrawer.open(); // Open the cart drawer
+      theme.cart.getCartProductMarkup().then(theme.cart.buildCart);
+      document.dispatchEvent(new CustomEvent('cart:open'));
       addToCartButton.disabled = false;
       addToCartButton.textContent = 'Add to cart';
       alert('Products added to cart successfully!');
