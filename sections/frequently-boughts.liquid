@@ -62,48 +62,57 @@
 
 <script>
   const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-        let productVariantIds = [mainProductVariantId];
-        let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+  let productVariantIds = [mainProductVariantId];
+  let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
-        document.querySelectorAll('.suggested-product').forEach(productEl => {
-          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-          const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-          totalPrice += suggestedProductPrice;
-          productVariantIds.push(suggestedProductVariantId);
+  document.querySelectorAll('.suggested-product').forEach(productEl => {
+    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+    const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+    totalPrice += suggestedProductPrice;
+    productVariantIds.push(suggestedProductVariantId);
+  });
+
+  document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+
+  async function addProductsToCart(productVariantIds) {
+    for (const variantId of productVariantIds) {
+      try {
+        await fetch('/cart/add.js', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: variantId, quantity: 1 })
         });
+      } catch (error) {
+        console.error('Failed to add product to cart:', error);
+      }
+    }
+  }
 
-        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-
-        async function addProductsToCart(productVariantIds) {
-          for (const variantId of productVariantIds) {
-            await fetch('/cart/add.js', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ id: variantId, quantity: 1 })
-            });
-          }
-        }
-//calling functions
-        const yourInstance = {  // Replace this with your actual instance
+  const yourInstance = {
     buildCart: function() {
-        theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
+      theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
     },
     cartMarkup: function(text) {
-        // Your existing cartMarkup code
+      // Your existing cartMarkup code
     },
     // Other methods...
-};
+  };
 
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+  document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+    const button = event.currentTarget; // Reference to the button
+    button.disabled = true; // Disable the button
+    button.textContent = 'Adding...'; // Change button text
+
     await addProductsToCart(productVariantIds);
-    
-    // Call the buildCart function here
+
     yourInstance.buildCart();
-
     document.dispatchEvent(new CustomEvent('cart:open'));
-});
 
+    button.disabled = false; // Re-enable the button
+    button.textContent = 'Add to cart'; // Reset button text
+  });
 </script>
+
 
 {% schema %}
 {
