@@ -7,6 +7,8 @@
   .main-F-B-heading {
     padding-bottom:{{section.settings.padding_bottom-heading}}px;
     font-size: {{section.settings.font-size-heading}}px;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   @media screen and (max-width:768px){
@@ -136,7 +138,8 @@
      {
       "type": "number",
       "id": "padding_bottom-heading",
-      "label": "Bottom spacing"
+      "label": "Bottom spacing",
+      "default": 20
     },
     {
       "type": "number",
