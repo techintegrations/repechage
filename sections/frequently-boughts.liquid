@@ -83,11 +83,26 @@
             });
           }
         }
+//calling functions
+        const yourInstance = {  // Replace this with your actual instance
+    buildCart: function() {
+        theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
+    },
+    cartMarkup: function(text) {
+        // Your existing cartMarkup code
+    },
+    // Other methods...
+};
 
-        document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-          await addProductsToCart(productVariantIds);
-          document.dispatchEvent(new CustomEvent('cart:open'));
-        });
+document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+    await addProductsToCart(productVariantIds);
+    
+    // Call the buildCart function here
+    yourInstance.buildCart();
+
+    document.dispatchEvent(new CustomEvent('cart:open'));
+});
+
 </script>
 
 {% schema %}
