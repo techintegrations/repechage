@@ -141,6 +141,20 @@
             "button_link": "https://www.repechage.com/pages/after-pay"
           }
         },
+        "text_block_F738Ad": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Screenshot_2024-10-01_102505.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "HYDRA DEW PURE SPECIAL",
+            "text": "<p>Get the Hydra Dew Pure Starter Collection, the ultimate way to \"try before you buy.\"<br/></p>",
+            "button_label": "LEARN MORE",
+            "button_link": "https://www.repechage.com/pages/after-pay"
+          }
+        },
         "text_block_cLNKFk": {
           "type": "text_block",
           "settings": {
@@ -177,6 +191,7 @@
         "text_block_eQPFAi",
         "text_block_MD9Uya",
         "text_block_zQipqQ",
+        "text_block_F738Ad",
         "text_block_cLNKFk",
         "text_block_cYDAJY"
       ],
