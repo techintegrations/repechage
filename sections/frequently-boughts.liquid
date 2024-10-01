@@ -83,10 +83,15 @@
           }
         }
 
-        document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-          await addProductsToCart(productVariantIds);
-          document.dispatchEvent(new CustomEvent('cart:open'));
-        });
+       document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+  await addProductsToCart(productVariantIds);
+  document.dispatchEvent(new CustomEvent('cart:updated', {
+    detail: {
+      cart: await theme.cart.getCart()
+    }
+  }));
+  document.dispatchEvent(new CustomEvent('cart:open'));
+});
 </script>
 
 {% schema %}
