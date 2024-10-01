@@ -14,13 +14,12 @@
 {% endstyle %}
 
 <div class="mian-F-B-wrapper page-width">
-
   {% if section.settings.top_heading != blank %}
     <h2 class="top-heading">
       {{ section.settings.top_heading }}
     </h2>
   {% endif %}
-  
+
   <div class="main-F-B">
     <div class="products-wrapper-F-B">
       <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
@@ -35,7 +34,6 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        {% if suggested_product != blank %}
           <div class="devider-F-b">
             <div
               class="rounded-full "
@@ -65,7 +63,6 @@
               <p class="suggested-product-price">{{ suggested_product.price | money }}</p>
             </div>
           </div>
-        {% endif %}
       {% endfor %}
     </div>
 
