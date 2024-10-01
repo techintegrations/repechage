@@ -101,12 +101,11 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', function() 
 
   addProductsToCart(productVariantIds)
     .then(() => {
-      theme.cart.getCart().then((cart) => {
-        document.dispatchEvent(new CustomEvent('cart:updated', {
-          detail: {
-            cart: cart
-          }
-        }));
+      theme.cart.getCartProductMarkup().then((markup) => {
+        const cartHtml = document.createElement('div');
+        cartHtml.innerHTML = markup;
+        const cartItems = cartHtml.querySelector('.cart__items');
+        document.querySelector('.cart__items').innerHTML = cartItems.innerHTML;
         document.dispatchEvent(new CustomEvent('cart:open'));
         addToCartButton.disabled = false;
         addToCartButton.textContent = 'Add to cart';
