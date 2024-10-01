@@ -169,6 +169,20 @@
             "button_link": "https://www.repechage.com/collections/best-sellers/products/free-algo-mist-w-purchase-of-c-serum-hydro-complex-pfs-for-oily-to-combination-skin"
           }
         },
+        "text_block_cLNKFk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Hydra-Dew-Bundle.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Hydra Dew Pure Bundle",
+            "text": "<p>Save over 30% when you purchase our special Hydra Dew Pure Bundle.</p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/hydra-dew-pure-retail-special-rr03-rr04-rr08-rr06"
+          }
+        },
         "text_block_cYDAJY": {
           "type": "text_block",
           "settings": {
@@ -193,6 +207,7 @@
         "text_block_zQipqQ",
         "text_block_MATjYY",
         "text_block_Kpd9iB",
+        "text_block_cLNKFk",
         "text_block_cYDAJY"
       ],
       "settings": {
