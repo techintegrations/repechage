@@ -85,6 +85,7 @@ async function addProductsToCart(productVariantIds) {
 
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
   await addProductsToCart(productVariantIds);
+   document.dispatchEvent(new CustomEvent('cart:open'));
   theme.cart.getCartProductMarkup().then(cartMarkup => {
     const cartForm = document.querySelector('.cart-form');
     cartForm.innerHTML = cartMarkup;
