@@ -94,10 +94,11 @@
         }
     }
  // Add to Cart button click event
-    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-        addProductsToCart(productVariantIds);
-      document.dispatchEvent(new CustomEvent('cart:open'));
-    });
+document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+  addProductsToCart(productVariantIds).then(() => {
+    document.dispatchEvent(new CustomEvent('cart:open'));
+  });
+});
 </script>
 {% schema %}
 {
