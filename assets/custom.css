@@ -4,7 +4,7 @@
     flex-direction: column;
     border-right: 1px solid #0000003d;
 }
-.main-F-B {
+.main-frequently_boughts {
     display: flex;
     flex-wrap: wrap;
     border:1px solid #0000003d;
@@ -17,26 +17,22 @@
     padding: 50px 50px 0 50px;
 }
 
-.main-product .product-img-F-B {
+.main-product .product-img {
     flex: 0 0 calc(14% - 10px);
     line-height: 0;
     display: flex;
     align-items: center;
 }
 
-h3.product-heading {
+.main-product .product-info .title {
     font-size: 16px;
-}
-
-.main-product-info .product-heading {
     margin: 4px 0;
 }
-
-.main-product-info .Product-tag {
+.main-product .product-info .tag{
     margin: 10px 0 0 0;
 }
 
-.main-product-info {
+.main-product .product-info {
     flex: 0 0 calc(86% - 10px);
     display: flex;
     flex-direction: column;
