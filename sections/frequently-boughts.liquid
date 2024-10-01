@@ -60,44 +60,44 @@
 </div>
 
 <script>
-  const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-        let productVariantIds = [mainProductVariantId];
-        let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+//   const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+//         let productVariantIds = [mainProductVariantId];
+//         let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
 
-        document.querySelectorAll('.suggested-product').forEach(productEl => {
-          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
-          const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-          totalPrice += suggestedProductPrice;
-          productVariantIds.push(suggestedProductVariantId);
-        });
+//         document.querySelectorAll('.suggested-product').forEach(productEl => {
+//           const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+//           const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+//           totalPrice += suggestedProductPrice;
+//           productVariantIds.push(suggestedProductVariantId);
+//         });
 
-        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+//         document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
-        async function addProductsToCart(productVariantIds) {
-          for (const variantId of productVariantIds) {
-            await fetch('/cart/add.js', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ id: variantId, quantity: 1 })
-            });
-          }
-        }
+//         async function addProductsToCart(productVariantIds) {
+//           for (const variantId of productVariantIds) {
+//             await fetch('/cart/add.js', {
+//               method: 'POST',
+//               headers: { 'Content-Type': 'application/json' },
+//               body: JSON.stringify({ id: variantId, quantity: 1 })
+//             });
+//           }
+//         }
 
-            // Event listener for the 'Frequently Bought Together' add-to-cart button
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-  // Add the products to the cart first
-  await addProductsToCart(productVariantIds);
+//             // Event listener for the 'Frequently Bought Together' add-to-cart button
+// document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+//   // Add the products to the cart first
+//   await addProductsToCart(productVariantIds);
 
-  // After products are added, call the buildCart function to update the cart
-  if (typeof theme.cart.buildCart === 'function') {
-    theme.cart.buildCart(); // This will trigger the jQuery/cart update
-  } else {
-    console.error('buildCart function is not defined.');
-  }
+//   // After products are added, call the buildCart function to update the cart
+//   if (typeof theme.cart.buildCart === 'function') {
+//     theme.cart.buildCart(); // This will trigger the jQuery/cart update
+//   } else {
+//     console.error('buildCart function is not defined.');
+//   }
 
-  // Open the cart drawer after the cart is updated
-  document.dispatchEvent(new CustomEvent('cart:open'));
-});
+//   // Open the cart drawer after the cart is updated
+//   document.dispatchEvent(new CustomEvent('cart:open'));
+// });
 
 
 </script>
