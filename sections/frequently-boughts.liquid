@@ -59,7 +59,6 @@
     </div>
   </div>
 </div>
-
 <script>
   const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
   let productVariantIds = [mainProductVariantId];
@@ -88,30 +87,55 @@
     }
   }
 
+  async function updateCart() {
+    try {
+      const response = await fetch('/cart.js');
+      const cartData = await response.json();
+      yourInstance.cartMarkup(cartData); // Update cart display with the latest data
+    } catch (error) {
+      console.error('Failed to fetch cart data:', error);
+    }
+  }
+
   const yourInstance = {
     buildCart: function() {
       theme.cart.getCartProductMarkup().then(this.cartMarkup.bind(this));
     },
-    cartMarkup: function(text) {
-      // Your existing cartMarkup code
+    cartMarkup: function(cartData) {
+      const items = cartData.items;
+      const cartContainer = document.querySelector('.cart-container'); // Adjust to your actual cart container selector
+
+      cartContainer.innerHTML = ''; // Clear existing items
+
+      items.forEach(item => {
+        // Create new cart item HTML
+        const itemHtml = `<div class="cart-item">${item.product.title} - ${theme.Currency.formatMoney(item.price, theme.settings.moneyFormat)}</div>`;
+        cartContainer.innerHTML += itemHtml; // Append new item
+      });
+
+      // Update total price
+      document.getElementById('total-price').textContent = theme.Currency.formatMoney(cartData.total_price, theme.settings.moneyFormat);
     },
     // Other methods...
   };
 
-  document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-    const button = event.currentTarget; // Reference to the button
+  document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
+    const button = event.currentTarget;
     button.disabled = true; // Disable the button
     button.textContent = 'Adding...'; // Change button text
 
     await addProductsToCart(productVariantIds);
 
-    yourInstance.buildCart();
+    // Update the cart display
+    await updateCart();
+
     document.dispatchEvent(new CustomEvent('cart:open'));
 
     button.disabled = false; // Re-enable the button
     button.textContent = 'Add to cart'; // Reset button text
   });
 </script>
+
 
 
 {% schema %}
