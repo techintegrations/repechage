@@ -93,50 +93,11 @@
                 let data = await response.json();
         }
     }
-// Add to Cart button click event
-document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-  const addToCartButton = this;
-  addToCartButton.disabled = true;
-  addToCartButton.textContent = 'Adding to cart...';
-
-  addProductsToCart(productVariantIds)
-    .then(() => {
-      fetch('/cart.js')
-        .then((response) => response.json())
-        .then((data) => {
-          document.querySelector('.cart__items').innerHTML = data.items.map((item) => {
-            return `
-              <div class="cart__item">
-                <div class="cart__image">
-                  <img src="${item.image}" alt="${item.title}">
-                </div>
-                <div class="cart__info">
-                  <h3 class="cart__title">${item.title}</h3>
-                  <p class="cart__price">${item.price}</p>
-                  <p class="cart__quantity">Quantity: ${item.quantity}</p>
-                </div>
-              </div>
-            `;
-          }).join('');
-          document.dispatchEvent(new CustomEvent('cart:open'));
-          addToCartButton.disabled = false;
-          addToCartButton.textContent = 'Add to cart';
-          alert('Products added to cart successfully!');
-        })
-        .catch((error) => {
-          console.error(error);
-          addToCartButton.disabled = false;
-          addToCartButton.textContent = 'Add to cart';
-          alert('Error adding products to cart. Please try again.');
-        });
-    })
-    .catch((error) => {
-      console.error(error);
-      addToCartButton.disabled = false;
-      addToCartButton.textContent = 'Add to cart';
-      alert('Error adding products to cart. Please try again.');
+ // Add to Cart button click event
+    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+        addProductsToCart(productVariantIds);
+      document.dispatchEvent(new CustomEvent('cart:open'));
     });
-});
 </script>
 {% schema %}
 {
