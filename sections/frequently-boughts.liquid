@@ -95,9 +95,11 @@
     }
 
     // Add to Cart button click event
-    document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-        addProductsToCart(productVariantIds);
-    });
+document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
+  addProductsToCart(productVariantIds);
+  theme.cartForm.buildCart(); // Update the cart
+  theme.cartDrawer.open(); // Open the cart drawer
+});
 </script>
 {% schema %}
 {
