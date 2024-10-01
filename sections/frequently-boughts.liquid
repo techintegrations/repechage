@@ -85,7 +85,8 @@
 
         document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
           await addProductsToCart(productVariantIds);
-          document.dispatchEvent(new CustomEvent('cart:open'));
+          this.open();
+          this.cartForm.buildCart();
         });
 </script>
 
