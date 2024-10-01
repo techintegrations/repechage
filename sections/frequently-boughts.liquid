@@ -94,10 +94,9 @@
         }
     }
  // Add to Cart button click event
-document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
-  addProductsToCart(productVariantIds).then(() => {
+document.querySelector('.add-to-cart-F-B').addEventListener('click', async ()=> {
+    await addProductsToCart(productVariantIds);
     document.dispatchEvent(new CustomEvent('cart:open'));
-  });
 });
 </script>
 {% schema %}
