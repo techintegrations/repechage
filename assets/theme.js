@@ -2951,7 +2951,7 @@ theme.recentlyViewed = {
       this.form = form;
       this.args = args;
   
-      var submitSelector = submit ? submit : '.add-to-cart,.add-to-cart-F-B';
+      var submitSelector = submit ? submit : '.add-to-cart';
   
       if (this.form) {
         this.addToCart = form.querySelector(submitSelector);
