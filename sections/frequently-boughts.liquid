@@ -101,11 +101,28 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', function() 
 
   addProductsToCart(productVariantIds)
     .then(() => {
-      theme.cart.getCartProductMarkup().then(theme.cart.buildCart);
-      document.dispatchEvent(new CustomEvent('cart:open'));
-      addToCartButton.disabled = false;
-      addToCartButton.textContent = 'Add to cart';
-      alert('Products added to cart successfully!');
+      theme.cart.getCart().then((cart) => {
+        const cartHtml = cart.items.map((item) => {
+          return `
+            <div class="cart__item">
+              <div class="cart__image">
+                <img src="${item.image}" alt="${item.title}">
+              </div>
+              <div class="cart__info">
+                <h3 class="cart__title">${item.title}</h3>
+                <p class="cart__price">${item.price}</p>
+                <p class="cart__quantity">Quantity: ${item.quantity}</p>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        document.querySelector('.cart__items').innerHTML = cartHtml;
+        document.dispatchEvent(new CustomEvent('cart:open'));
+        addToCartButton.disabled = false;
+        addToCartButton.textContent = 'Add to cart';
+        alert('Products added to cart successfully!');
+      });
     })
     .catch((error) => {
       console.error(error);
