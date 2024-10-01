@@ -52,13 +52,9 @@
     display: flex;
     align-items: center;
 }
-
-h3.product-heading {
-    font-size: 16px;
-}
-
 .suggested-product .suggested-product-info .title {
     margin: 4px 0;
+  font-size: 16px;
 }
 
 .suggested-product .suggested-product-info .tag {
