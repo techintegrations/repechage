@@ -105,20 +105,8 @@
     // Add to Cart button click event
     document.querySelector('.add-to-cart-F-B').addEventListener('click', function() {
         addProductsToCart(productVariantIds);
-      document.querySelector(".drawer.drawer--right").classList.add("drawer--is-open");
-      updateCartDrawer();
+      fetchCartData();
     });
-//update cart drawer / fetching the cart drawer again
-async function updateCartDrawer() {
-  let newCart = await fetch("/?section_id=cart-drawer");
-  let cartData = await newCart.text();
-  let tempDiv = document.createElement("div");
-  tempDiv.innerHTML = cartData;
-  let newBox = tempDiv.querySelector(".drawer").innerHTML;
-  document.querySelector(".drawer").innerHTML = newBox;
-  console.log(newBox);
-}
-  
 </script>
 {% schema %}
 {
