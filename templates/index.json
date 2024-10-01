@@ -32,6 +32,24 @@
             "overlay_opacity": 0
           }
         },
+        "image_4p3pwP": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>GLOW-WORTHY GIFTS</p>",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://pages/offers",
+            "link_text": "NOW ON SPECIAL",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/retail-us-q4.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_iCkPT9": {
           "type": "image",
           "settings": {
@@ -92,6 +110,7 @@
       },
       "block_order": [
         "image_3jWjtT",
+        "image_4p3pwP",
         "image_iCkPT9",
         "image_QYiDV7",
         "image_Rx9W9J"
