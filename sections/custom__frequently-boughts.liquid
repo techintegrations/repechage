@@ -24,11 +24,15 @@
     <div class="main-products-wrapper">
       <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
         <div class="product-img">
-          <img src="{{ product.featured_image | product_img_url: 'master' }}">
+          <a>
+            <img src="{{ product.featured_image | product_img_url: 'master' }}">
+          </a>
         </div>
         <div class="product-info">
           <p class="tag">This Product</p>
-          <h3 class="title">{{ product.title }}</h3>
+          <h3 class="title">
+            <a>{{ product.title }}</a>
+          </h3>
           <p class="price">{{ product.price | money }}</p>
         </div>
         {% if product.variants.size > 1 %}
@@ -67,11 +71,15 @@
             </svg>
           </div>
           <div class="suggested-product_image">
-            <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
+            <a>
+              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
+            </a>
           </div>
           <div class="suggested-product-info">
             <p class="tag">Suggested Product</p>
-            <h3 class="title">{{ suggested_product.title }}</h3>
+            <h3 class="title">
+              <a>{{ suggested_product.title }}</a>
+            </h3>
             <p class="price">{{ suggested_product.price | money }}</p>
           </div>
           {% if suggested_product.variants.size > 1 %}
