@@ -138,13 +138,22 @@
     </div>
   </div>
 </div>
-
-<script>
 <script>
 // For Frequently Bought Products section
 
 let productVariantIds = [];
 let totalPrice = 0;
+
+// Replace with your actual product data
+const product = {
+    // Example options (should be populated with your actual product data)
+    options: ["Color", "Size"], // Replace with your product options
+    options_with_values: [
+        { name: "Color", values: ["Black", "Grey", "White"] },
+        { name: "Size", values: ["Small", "Medium", "Large"] }
+    ],
+    variants: [] // Fill with your actual variants
+};
 
 async function fetchVariantPrice(variantId) {
     try {
@@ -166,37 +175,59 @@ async function fetchVariantPrice(variantId) {
     }
 }
 
+function getSelectedOptionValues() {
+    let selectedValues = [];
+    product.options.forEach(option => {
+        const selectElement = document.getElementById(`product-${option.toLowerCase().replace(/\s/g, "-")}`);
+        if (selectElement) {
+            selectedValues.push(selectElement.value);
+        }
+    });
+    return selectedValues;
+}
+
+function findMatchingVariant() {
+    const selectedValues = getSelectedOptionValues();
+    
+    return product.variants.find(variant => {
+        return selectedValues.every((value, index) => value === variant[`option${index + 1}`]);
+    });
+}
+
 async function updateProductVariants() {
     productVariantIds = [];
     totalPrice = 0;
 
-    // Handle main product
-    const mainProductEl = document.querySelector('.main-product');
-    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
+    const matchingVariant = findMatchingVariant();
     
-    const mainProductPrice = await fetchVariantPrice(mainProductVariantId); // Fetch main product price
-    productVariantIds.push(mainProductVariantId);
-    totalPrice += mainProductPrice;
-
-    // Handle suggested products
-    document.querySelectorAll('.suggested-product').forEach(async productEl => {
-        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = await fetchVariantPrice(suggestedProductVariantId); // Fetch suggested product price
+    if (matchingVariant) {
+        const variantId = matchingVariant.id;
+        const mainProductPrice = await fetchVariantPrice(variantId);
         
-        productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;
-    });
+        productVariantIds.push(variantId);
+        totalPrice += mainProductPrice;
 
-    // Update total price display
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+        // Update total price display
+        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+    }
 }
 
-// Initial update
-updateProductVariants();
+// Create dropdowns for each option dynamically
+product.options.forEach(option => {
+    const optionContainer = document.createElement('div');
+    optionContainer.innerHTML = `
+        <label for="product-${option.toLowerCase().replace(/\s/g, "-")}">Select ${option}:</label>
+        <select name="${option.toLowerCase().replace(/\s/g, "-")}" id="product-${option.toLowerCase().replace(/\s/g, "-")}">
+            ${product.options_with_values.find(o => o.name === option).values.map(value => `<option value="${value}">${value}</option>`).join('')}
+        </select>
+    `;
+    document.getElementById('product-options').appendChild(optionContainer);
+});
 
-// Update variant IDs on selection change
-document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', updateProductVariants);
+// Add event listeners to all select elements
+const selectElements = document.querySelectorAll("select");
+selectElements.forEach(selectElement => {
+    selectElement.addEventListener("change", updateProductVariants);
 });
 
 // Add to cart functionality
@@ -218,9 +249,11 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
     });
     document.dispatchEvent(new CustomEvent('cart:open'));
 });
+
+// Initial update
+updateProductVariants();
 </script>
 
-</script>
 
 {% schema %}
 {
