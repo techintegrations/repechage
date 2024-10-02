@@ -42,11 +42,6 @@
   align-items: center;
 }
 
-.main-product .product-info .title {
-  font-size: 16px;
-  margin: 4px 0;
-}
-
 .main-product .product-info {
   flex: 0 0 calc(86% - 10px);
   display: flex;
