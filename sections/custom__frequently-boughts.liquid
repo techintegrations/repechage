@@ -31,8 +31,21 @@
         <div class="product-info">
           <p class="tag">This Product</p>
           <h3 class="title">
-            <a href="{{ product.url }}" >{{ product.title }}</a>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="20" height="20" class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]" data-astro-cid-urh7ycih=""> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            <a href="{{ product.url }}">
+              {{- product.title }}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+                width="20"
+                height="20"
+                class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
+                data-astro-cid-urh7ycih=""
+              >
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
           </h3>
           <p class="price">{{ product.price | money }}</p>
         </div>
@@ -72,14 +85,28 @@
             </svg>
           </div>
           <div class="suggested-product_image">
-            <a href="{{ suggested_product.url }}" >
+            <a href="{{ suggested_product.url }}">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </a>
           </div>
           <div class="suggested-product-info">
             <p class="tag">Suggested Product</p>
             <h3 class="title">
-              <a href="{{ suggested_product.url }}" >{{ suggested_product.title }}</a> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="20" height="20" class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]" data-astro-cid-urh7ycih=""> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              <a href="{{ suggested_product.url }}">
+                {{- suggested_product.title }}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                  class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
+                  data-astro-cid-urh7ycih=""
+                >
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
             </h3>
             <p class="price">{{ suggested_product.price | money }}</p>
           </div>
