@@ -47,10 +47,6 @@
 }
 .suggested-product {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 50px;
   background-color: #dddddd57;
   border-top: 1px solid #0000004a;
   align-items: flex-start;
