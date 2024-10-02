@@ -1747,6 +1747,10 @@ body.template-cart #cart-progress-wrapper {
   .blog-search-filter .blog-search {
       margin-bottom: 30px;
   }
+
+  .main-products-wrapper .f-product-row {
+      padding: 24px 20px;
+  }
   
 }
 
