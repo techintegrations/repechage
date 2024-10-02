@@ -3,11 +3,8 @@
 .suggested-product:nth-child(2) {
   border-top:0;
 }
-.main-product .product-info .title svg {
-  rotate: -90deg;
-  margin-top: 3px;
-}
-.suggested-product .suggested-product-info .title svg {
+
+.f-product-row .title svg {
   rotate: -90deg;
 }
 
