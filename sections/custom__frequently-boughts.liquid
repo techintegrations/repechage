@@ -76,20 +76,22 @@
             </h3>
             <p class="price">{{ suggested_product.price | money }}</p>
           </div>
-          <div class="variant-selector">
-            <select class="variant-dropdown">
-              {% for variant in suggested_product.variants %}
-                <option
-                  value="{{ variant.id }}"
-                  {% if variant == suggested_product.variants.first %}
-                    selected
-                  {% endif %}
-                >
-                  {{ variant.title }} - {{ variant.price | money }}
-                </option>
-              {% endfor %}
-            </select>
-          </div>
+          {% if suggested_product.variants != 0 %}
+            <div class="variant-selector">
+              <select class="variant-dropdown">
+                {% for variant in suggested_product.variants %}
+                  <option
+                    value="{{ variant.id }}"
+                    {% if variant == suggested_product.variants.first %}
+                      selected
+                    {% endif %}
+                  >
+                    {{ variant.title }} - {{ variant.price | money }}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
