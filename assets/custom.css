@@ -1,3 +1,5 @@
+/* Suggested Products Section */
+
 .suggested-product:nth-child(2) {
   border-top:0;
 }
@@ -110,6 +112,7 @@
   border-radius: 100%;
   display: flex;
 }
+/* End Suggested Products Section */
 
 /* .cart__item[data-sample-item="true"] .cart__remove {
     display: block;
