@@ -191,10 +191,7 @@ updateProductVariants();
 
 // Update variant IDs on selection change
 document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', ()=>{
-      updateProductVariants();
-      sectionUpdate();
-    });
+    dropdown.addEventListener('change', updateProductVariants);
 });
 
 // Add to cart functionality
