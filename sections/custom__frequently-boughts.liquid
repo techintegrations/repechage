@@ -130,65 +130,56 @@
 </div>
 
 <script>
-// For Frequently Bought Products section
-
 let productVariantIds = [];
 let totalPrice = 0;
 
 function updateMainProductPrice() {
     const mainProductEl = document.querySelector('.main-product');
     const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
-
     const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
     mainProductPriceEl.textContent = selectedVariant.dataset.price;
-
-    updateProductVariants(); // Recalculate total price
+    updateProductVariants();
 }
 
 function updateSuggestedProductPrice(dropdown) {
     const suggestedProductEl = dropdown.closest('.suggested-product');
     const selectedVariant = dropdown.selectedOptions[0];
-
     const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
     suggestedProductPriceEl.textContent = selectedVariant.dataset.price;
-
-    updateProductVariants(); // Recalculate total price
+    updateProductVariants();
 }
 
 function updateProductVariants() {
     productVariantIds = [];
     totalPrice = 0;
 
-    // Handle main product
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim().replace(',', ''));
-
+    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+    
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
-    // Handle suggested products
     document.querySelectorAll('.suggested-product').forEach(productEl => {
         const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim().replace(',', ''));
-
+        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+        
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
     });
 
-    // Update total price display
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
-// Initial update
 updateProductVariants();
 
-// Update variant IDs on selection change
 document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', updateProductVariants);
+    dropdown.addEventListener('change', () => {
+        updateSuggestedProductPrice(dropdown);
+        updateProductVariants();
+    });
 });
 
-// Add to cart functionality
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
         const response = await fetch('/cart/add.js', {
@@ -196,15 +187,11 @@ async function addProductsToCart() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ id: variantId, quantity: 1 })
         });
-
-        if (!response.ok) {
-            console.error('Failed to add product:', variantId);
-        }
     }
-    // Optionally, you could redirect or update the mini cart after adding items
 }
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-  event.preventDefault();
+
+document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
+    event.preventDefault();
     await addProductsToCart();
     theme.cart.getCartProductMarkup().then(cartMarkup => {
         const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
@@ -212,8 +199,8 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
     });
     document.dispatchEvent(new CustomEvent('cart:open'));
 });
-  
 </script>
+
 {% schema %}
 {
   "name": "Frequently Boughts",
