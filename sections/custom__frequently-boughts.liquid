@@ -106,7 +106,7 @@
                 </svg>
               </a>
             </h3>
-            <p class="price">{{ suggested_product.price | money }}</p>
+            <p class="price">{{ variant.price | money }}</p>
             {% if suggested_product.variants.size > 1 %}
               <div class="variant-selector">
                 <select class="variant-dropdown">
@@ -117,7 +117,7 @@
                         selected
                       {% endif %}
                     >
-                      {{ variant.title }} - {{ variant.price | money }}
+                      {{ variant.title }}
                     </option>
                   {% endfor %}
                 </select>
