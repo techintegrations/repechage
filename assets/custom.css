@@ -85,12 +85,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.frequently_boughts-info .info-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .frequently_boughts-info {
   flex: 0 0 40%;
