@@ -1,6 +1,186 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %}
+  #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      background-color: {{section.settings.bg_color}};
   }
+
+  @media screen and (max-width:768px){
+    #shopify-section-{{section.id}} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="main-wrapper-frequently_boughts page-width">
+  {% if section.settings.top_heading != blank %}
+    <h2 class="top-heading">
+      {{ section.settings.top_heading }}
+    </h2>
+  {% endif %}
+
+  <div class="main-frequently_boughts">
+    <div class="main-products-wrapper">
+      <div class="main-product f-product-row" data-product-variant-id="{{ product.variants.first.id }}">
+        <div class="product-img image-wrap">
+          <a href="{{ product.url }}">
+            <img src="{{ product.featured_image | product_img_url: 'master' }}">
+          </a>
+        </div>
+        <div class="product-info info-wrap">
+          <p class="tag">This Product</p>
+          <h3 class="title">
+            <a href="{{ product.url }}">
+              {{- product.title }}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+                width="20"
+                height="20"
+                class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
+              >
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </h3>
+          <p class="price" id="main-product-price">{{ product.variants.first.price | money }}</p>
+          {% if product.variants.size > 1 %}
+            <div class="variant-selector">
+              <select class="variant-dropdown" onchange="updateMainProductPrice()">
+                {% for variant in product.variants %}
+                  <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == product.variants.first %} selected {% endif %}>
+                    {{ variant.title }}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      {% for suggested_product in section.settings.product_list %}
+        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+          <div class="devider">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="w-[20px] h-[20px]"
+              height="20"
+              width="20"
+              aria-hidden="true"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+            </svg>
+          </div>
+          <div class="suggested-product_image image-wrap">
+            <a href="{{ suggested_product.url }}">
+              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
+            </a>
+          </div>
+          <div class="suggested-product-info info-wrap">
+            <p class="tag">Suggested Product</p>
+            <h3 class="title">
+              <a href="{{ suggested_product.url }}">
+                {{- suggested_product.title }}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                  class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
+                >
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </h3>
+            <p class="price suggested-price">{{ suggested_product.variants.first.price | money }}</p>
+            {% if suggested_product.variants.size > 1 %}
+              <div class="variant-selector">
+                <select class="variant-dropdown" onchange="updateSuggestedProductPrice(this)">
+                  {% for variant in suggested_product.variants %}
+                    <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == suggested_product.variants.first %} selected {% endif %}>
+                      {{ variant.title }}
+                    </option>
+                  {% endfor %}
+                </select>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="frequently_boughts-info">
+      <div class="info-wrapper">
+        <p class="price">
+          <span>Total Price:</span> <span id="total-price">{{ product.variants.first.price | money }}</span>
+        </p>
+        <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Frequently Boughts",
+  "class": "frequently-boughts-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "top_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Suggested Product",
+      "limit": 10
+    },
+    {
+      "type": "header",
+      "content": "Spacing Desktop"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing Mobile"
+    },
+    {
+      "type": "number",
+      "id": "padding_top_m",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom_m",
+      "label": "Bottom spacing",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Frequently Boughts"
+    }
+  ]
+}
 {% endschema %}
