@@ -215,18 +215,30 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
 });
 
 // Ajax Update for Price
+async function sectionUpdate() {
+  try {
+    // Fetch the section with the updated variant prices
+    let newCart = await fetch("/?section_id=custom__frequently-boughts");
+    let cartData = await newCart.text();
 
-  async function sectionUpdate() {
-  let newCart = await fetch("/?section_id=custom__frequently-boughts");
-  let cartData = await newCart.text();
-  let tempDiv = document.createElement("div");
-  tempDiv.innerHTML = cartData;
-  let newPrice = tempDiv.querySelectorAll(".main-products-wrapper .price").innerHTML;
-  document.querySelectorAll(".main-products-wrapper .price").innerHTML = newPrice;
+    // Create a temporary div to hold the fetched HTML content
+    let tempDiv = document.createElement("div");
+    tempDiv.innerHTML = cartData;
+
+    // Select the updated prices from the fetched HTML
+    let newPrices = tempDiv.querySelectorAll(".main-products-wrapper .price");
+    let currentPrices = document.querySelectorAll(".main-products-wrapper .price");
+
+    // Update the current prices with the fetched prices
+    newPrices.forEach((newPrice, index) => {
+      currentPrices[index].innerHTML = newPrice.innerHTML;
+    });
+  } catch (error) {
+    console.error("Error updating prices:", error);
+  }
 }
+
 // Update variant IDs on selection change
 document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change',()=>{
-      sectionUpdate();
-    });
+  dropdown.addEventListener('change', sectionUpdate);
 });
