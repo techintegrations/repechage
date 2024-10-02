@@ -32,13 +32,6 @@
   padding: 50px;
 }
 
-.main-product .product-img {
-  flex: 0 0 calc(14% - 10px);
-  line-height: 0;
-  display: flex;
-  align-items: center;
-}
-
 .main-product .product-info {
   flex: 0 0 calc(86% - 10px);
   display: flex;
