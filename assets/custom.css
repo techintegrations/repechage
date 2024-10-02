@@ -96,6 +96,15 @@
 .frequently_boughts-info .info-wrapper .price {
   font-weight: 600;
 }
+
+.frequently_boughts-info .info-wrapper .price span {
+    display: block;
+}
+
+.frequently_boughts-info .add-to-cart-F-B.btn {
+    margin: 0px;
+}
+
 .suggested-product .devider {
   position: absolute;
   background-color: #fff;
