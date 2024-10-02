@@ -362,7 +362,7 @@
     "custom_frequently_boughts_ReEHJM": {
       "type": "custom__frequently-boughts",
       "settings": {
-        "top_heading": "",
+        "top_heading": "Frequently Bought Togather",
         "product_list": [
           "algo-mist-hydrating-seaweed-facial-spray-2",
           "biolight-brightening-cleanser",
