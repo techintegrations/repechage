@@ -72,7 +72,42 @@
     </div>
   </div>
 </div>
+<script>
+  //For Frequently Bought Products section
 
+ const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
+        let productVariantIds = [mainProductVariantId];
+        let totalPrice = parseFloat(document.querySelector('.main-product .product-info .price').textContent.replace('$', '').trim());
+
+        document.querySelectorAll('.suggested-product').forEach(productEl => {
+          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product .suggested-product-info .price').textContent.replace('$', '').trim());
+          const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
+          totalPrice += suggestedProductPrice;
+          productVariantIds.push(suggestedProductVariantId);
+        });
+
+        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+
+        async function addProductsToCart(productVariantIds) {
+          for (const variantId of productVariantIds) {
+            await fetch('/cart/add.js', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ id: variantId, quantity: 1 })
+            });
+          }
+        }
+
+       document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+        await addProductsToCart(productVariantIds);
+        theme.cart.getCartProductMarkup().then(cartMarkup => {
+          const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+          cartForm.cartMarkup(cartMarkup);
+        });
+        document.dispatchEvent(new CustomEvent('cart:open'));
+      });
+
+</script>
 {% schema %}
 {
   "name": "Frequently Boughts",
