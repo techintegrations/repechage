@@ -44,9 +44,6 @@
   font-size: 16px;
   margin: 4px 0;
 }
-.main-product .product-info .tag {
-  margin: 10px 0 0 0;
-}
 
 .main-product .product-info {
   flex: 0 0 calc(86% - 10px);
