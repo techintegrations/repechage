@@ -5,6 +5,10 @@
 .suggested-product .suggested-product-info .title svg {
   rotate: -90deg;
 }
+.main-product .product-info .title a , .suggested-product .suggested-product-info .title a {
+  display: flex;
+  justify-content: space-between;
+}
 .main-products-wrapper {
   flex: 0 0 60%;
   display: flex;
@@ -34,8 +38,6 @@
 .main-product .product-info .title {
   font-size: 16px;
   margin: 4px 0;
-  display: flex;
-  justify-content: space-between;
 }
 .main-product .product-info .tag {
   margin: 10px 0 0 0;
@@ -66,8 +68,6 @@
 .suggested-product .suggested-product-info .title {
   margin: 4px 0;
   font-size: 16px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .suggested-product .suggested-product-info .tag {
