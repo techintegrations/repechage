@@ -1750,6 +1750,7 @@ body.template-cart #cart-progress-wrapper {
 
   .main-products-wrapper .f-product-row {
       padding: 24px 20px;
+      gap: 10px;
   }
   
 }
