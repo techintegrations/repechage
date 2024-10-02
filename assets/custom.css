@@ -71,8 +71,8 @@
   align-items: center;
 }
 .f-product-row .title {
-  margin: 4px 0;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .main-products-wrapper .tag {
