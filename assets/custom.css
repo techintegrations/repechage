@@ -58,7 +58,7 @@
 }
 
 .frequently_boughts-info {
-  flex: 0 0 40%;
+  flex: 1 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
