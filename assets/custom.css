@@ -10,10 +10,12 @@
 .suggested-product .suggested-product-info .title svg {
   rotate: -90deg;
 }
-.main-product .product-info .title a , .suggested-product .suggested-product-info .title a {
+
+.f-product-row .title a {
   display: flex;
   justify-content: space-between;
 }
+
 .main-products-wrapper {
   flex: 0 0 60%;
   display: flex;
