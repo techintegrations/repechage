@@ -91,6 +91,14 @@
     margin-bottom: 32px;
 }
 
+.suggested-product-info.info-wrap .variant-selector {
+    margin-top: 10px;
+}
+
+.suggested-product-info.info-wrap .price.suggested-price {
+    margin-bottom: 0px;
+}
+
 /* End Suggested Products Section */
 
 .flickity-page-dots {
