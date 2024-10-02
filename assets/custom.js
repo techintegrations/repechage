@@ -160,10 +160,10 @@ $(document).ready(function () {
 
  const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
         let productVariantIds = [mainProductVariantId];
-        let totalPrice = parseFloat(document.querySelector('.main-product-price').textContent.replace('$', '').trim());
+        let totalPrice = parseFloat(document.querySelector('.main-product .product-info .price').textContent.replace('$', '').trim());
 
         document.querySelectorAll('.suggested-product').forEach(productEl => {
-          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-price').textContent.replace('$', '').trim());
+          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product .suggested-product-info .price').textContent.replace('$', '').trim());
           const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
           totalPrice += suggestedProductPrice;
           productVariantIds.push(suggestedProductVariantId);
