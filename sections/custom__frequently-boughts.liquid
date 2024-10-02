@@ -23,12 +23,12 @@
   <div class="main-frequently_boughts">
     <div class="main-products-wrapper">
       <div class="main-product f-product-row" data-product-variant-id="{{ product.variants.first.id }}">
-        <div class="product-img">
+        <div class="product-img image-wrap">
           <a href="{{ product.url }}">
             <img src="{{ product.featured_image | product_img_url: 'master' }}">
           </a>
         </div>
-        <div class="product-info">
+        <div class="product-info info-wrap">
           <p class="tag">This Product</p>
           <h3 class="title">
             <a href="{{ product.url }}">
@@ -84,12 +84,12 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
             </svg>
           </div>
-          <div class="suggested-product_image">
+          <div class="suggested-product_image image-wrap">
             <a href="{{ suggested_product.url }}">
               <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
             </a>
           </div>
-          <div class="suggested-product-info">
+          <div class="suggested-product-info info-wrap">
             <p class="tag">Suggested Product</p>
             <h3 class="title">
               <a href="{{ suggested_product.url }}">
