@@ -1769,6 +1769,10 @@ body.template-cart #cart-progress-wrapper {
   .main-products-wrapper {
       flex: 0 0 65%;
   }
+
+  .suggested-product.f-product-row {
+      padding-top: 35px;
+  }
   
 }
 
