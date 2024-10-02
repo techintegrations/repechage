@@ -1,8 +1,10 @@
-.main-product .product-info .title svg,.suggested-product .suggested-product-info .title svg {
+.main-product .product-info .title svg {
   rotate: -90deg;
   margin-top: 3px;
 }
-
+.suggested-product .suggested-product-info .title svg {
+  rotate: -90deg;
+}
 .main-products-wrapper {
   flex: 0 0 60%;
   display: flex;
