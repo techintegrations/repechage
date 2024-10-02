@@ -31,76 +31,48 @@
           <h3 class="title">{{ product.title }}</h3>
           <p class="price">{{ product.price | money }}</p>
         </div>
-        {% if product.variants.size > 1 %}
-          <div class="variant-selector">
-            <select class="variant-dropdown">
-              {% for variant in product.variants %}
-                <option
-                  value="{{ variant.id }}"
-                  {% if variant == product.variants.first %}
-                    selected
-                  {% endif %}
-                >
-                  {{ variant.title }} - {{ variant.price | money }}
-                </option>
-              {% endfor %}
-            </select>
-          </div>
-        {% endif %}
+        <div class="variant-selector">
+          <select class="variant-dropdown">
+            {% for variant in product.variants %}
+              <option value="{{ variant.id }}" {% if variant == product.variants.first %}selected{% endif %}>
+                {{ variant.title }} - {{ variant.price | money }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
       </div>
 
       {% for suggested_product in section.settings.product_list %}
         <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
           <div class="devider">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              class="w-[20px] h-[20px]"
-              height="20"
-              width="20"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-[20px] h-[20px]" height="20" width="20" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
             </svg>
           </div>
           <div class="suggested-product_image">
-            <a href="{{ suggested_product.url }}">
-              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
-            </a>
+            <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
           </div>
           <div class="suggested-product-info">
             <p class="tag">Suggested Product</p>
-            <h3 class="title">
-              <a href="{{ suggested_product.url }}">{{ suggested_product.title }}</a>
-            </h3>
+            <h3 class="title">{{ suggested_product.title }}</h3>
             <p class="price">{{ suggested_product.price | money }}</p>
           </div>
-          {% if suggested_product.variants.size > 1 %}
-            <div class="variant-selector">
-              <select class="variant-dropdown">
-                {% for variant in suggested_product.variants %}
-                  <option
-                    value="{{ variant.id }}"
-                    {% if variant == suggested_product.variants.first %}
-                      selected
-                    {% endif %}
-                  >
-                    {{ variant.title }} - {{ variant.price | money }}
-                  </option>
-                {% endfor %}
-              </select>
-            </div>
-          {% endif %}
+          <div class="variant-selector">
+            <select class="variant-dropdown">
+              {% for variant in suggested_product.variants %}
+                <option value="{{ variant.id }}" {% if variant == suggested_product.variants.first %}selected{% endif %}>
+                  {{ variant.title }} - {{ variant.price | money }}
+                </option>
+              {% endfor %}
+            </select>
+          </div>
         </div>
       {% endfor %}
     </div>
 
     <div class="frequently_boughts-info">
       <div class="info-wrapper">
-        <p class="price">
+        <p class ="price" >
           <span>Total Price:</span> <span id="total-price">{{ product.price | money }}</span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
