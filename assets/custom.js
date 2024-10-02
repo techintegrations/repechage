@@ -191,7 +191,10 @@ updateProductVariants();
 
 // Update variant IDs on selection change
 document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', updateProductVariants);
+    dropdown.addEventListener('change', ()=>{
+      updateProductVariants();
+      sectionUpdate();
+    });
 });
 
 // Add to cart functionality
@@ -213,3 +216,14 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
     });
     document.dispatchEvent(new CustomEvent('cart:open'));
 });
+
+// Ajax Update for Price
+
+  async function sectionUpdate() {
+  let newCart = await fetch("/?section_id=custom__frequently-boughts");
+  let cartData = await newCart.text();
+  let tempDiv = document.createElement("div");
+  tempDiv.innerHTML = cartData;
+  let newPrice = tempDiv.querySelector(".main-products-wrapper .price").innerHTML;
+  document.querySelector(".main-products-wrapper .price").innerHTML = newPrice;
+}
