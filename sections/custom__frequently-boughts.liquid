@@ -140,16 +140,30 @@
 </div>
 
 <script>
+<script>
 // For Frequently Bought Products section
 
 let productVariantIds = [];
 let totalPrice = 0;
 
-// Get price based on variant selection
 async function fetchVariantPrice(variantId) {
-    const response = await fetch(`/variants/${variantId}.json`);
-    const variantData = await response.json();
-    return variantData.variant.price / 100; // Shopify prices are in cents
+    try {
+        console.log(`Fetching price for variant ID: ${variantId}`); // Log the variant ID
+        const response = await fetch(`/variants/${variantId}.json`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const variantData = await response.json();
+        
+        if (!variantData.variant) {
+            throw new Error(`Variant not found for ID: ${variantId}`);
+        }
+        
+        return variantData.variant.price / 100; // Shopify prices are in cents
+    } catch (error) {
+        console.error(`Error fetching variant price for ID ${variantId}:`, error);
+        return 0; // Default value or handle as needed
+    }
 }
 
 async function updateProductVariants() {
@@ -160,21 +174,18 @@ async function updateProductVariants() {
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
     
-    const mainProductPrice = await fetchVariantPrice(mainProductVariantId);
-    
+    const mainProductPrice = await fetchVariantPrice(mainProductVariantId); // Fetch main product price
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
     // Handle suggested products
-    const suggestedProducts = document.querySelectorAll('.suggested-product');
-    for (const productEl of suggestedProducts) {
+    document.querySelectorAll('.suggested-product').forEach(async productEl => {
         const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        
-        const suggestedProductPrice = await fetchVariantPrice(suggestedProductVariantId);
+        const suggestedProductPrice = await fetchVariantPrice(suggestedProductVariantId); // Fetch suggested product price
         
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
-    }
+    });
 
     // Update total price display
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
@@ -207,6 +218,7 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
     });
     document.dispatchEvent(new CustomEvent('cart:open'));
 });
+</script>
 
 </script>
 
