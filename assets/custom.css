@@ -85,6 +85,10 @@
   display: flex;
 }
 
+.main-wrapper-frequently_boughts .top-heading {
+    margin-bottom: 32px;
+}
+
 /* End Suggested Products Section */
 
 .flickity-page-dots {
