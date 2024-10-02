@@ -51,13 +51,8 @@
             <div class="variant-selector">
               <select class="variant-dropdown" onchange="updateMainProductPrice()">
                 {% for variant in product.variants %}
-                  <option
-                    value="{{ variant.id }}"
-                    {% if variant == product.variants.first %}
-                      selected
-                    {% endif %}
-                  >
-                    {{ variant.title }} - {{ variant.price | money }}
+                  <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == product.variants.first %} selected {% endif %}>
+                    {{ variant.title }}
                   </option>
                 {% endfor %}
               </select>
@@ -111,13 +106,8 @@
               <div class="variant-selector">
                 <select class="variant-dropdown" onchange="updateSuggestedProductPrice(this)">
                   {% for variant in suggested_product.variants %}
-                    <option
-                      value="{{ variant.id }}"
-                      {% if variant == suggested_product.variants.first %}
-                        selected
-                      {% endif %}
-                    >
-                      {{ variant.title }} - {{ variant.price | money }}
+                    <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == suggested_product.variants.first %} selected {% endif %}>
+                      {{ variant.title }}
                     </option>
                   {% endfor %}
                 </select>
@@ -147,24 +137,20 @@ let totalPrice = 0;
 
 function updateMainProductPrice() {
     const mainProductEl = document.querySelector('.main-product');
-    const selectedVariantId = mainProductEl.querySelector('.variant-dropdown').value;
+    const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
 
-    // Find the selected variant
-    const selectedVariant = {{ product.variants | json }}.find(variant => variant.id == selectedVariantId);
     const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
-    mainProductPriceEl.textContent = selectedVariant.price | money;
-    
+    mainProductPriceEl.textContent = selectedVariant.dataset.price;
+
     updateProductVariants(); // Recalculate total price
 }
 
 function updateSuggestedProductPrice(dropdown) {
     const suggestedProductEl = dropdown.closest('.suggested-product');
-    const selectedVariantId = dropdown.value;
+    const selectedVariant = dropdown.selectedOptions[0];
 
-    // Find the selected variant
-    const selectedVariant = {{ suggested_product.variants | json }}.find(variant => variant.id == selectedVariantId);
     const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
-    suggestedProductPriceEl.textContent = selectedVariant.price | money;
+    suggestedProductPriceEl.textContent = selectedVariant.dataset.price;
 
     updateProductVariants(); // Recalculate total price
 }
@@ -176,15 +162,15 @@ function updateProductVariants() {
     // Handle main product
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
-    
+    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim().replace(',', ''));
+
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
     // Handle suggested products
     document.querySelectorAll('.suggested-product').forEach(productEl => {
         const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim().replace(',', ''));
 
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
@@ -214,7 +200,6 @@ async function addProductsToCart() {
     // Optionally, you could redirect or update the mini cart after adding items
 }
 </script>
-
 {% schema %}
 {
   "name": "Frequently Boughts",
