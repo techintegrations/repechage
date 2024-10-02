@@ -31,34 +31,42 @@
           <h3 class="title">{{ product.title }}</h3>
           <p class="price">{{ product.price | money }}</p>
         </div>
+        <div class="variant-selector">
+          <select class="variant-dropdown">
+            {% for variant in product.variants %}
+              <option value="{{ variant.id }}" {% if variant == product.variants.first %}selected{% endif %}>
+                {{ variant.title }} - {{ variant.price | money }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-          <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
-             <div class="devider">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                class="w-[20px] h-[20px]"
-                height="20"
-                width="20"
-                aria-hidden="true"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
-              </svg>
+        <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+          <div class="devider">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-[20px] h-[20px]" height="20" width="20" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+            </svg>
           </div>
-            <div class="suggested-product_image">
-              <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
-            </div>
-            <div class="suggested-product-info">
-              <p class="tag">Suggested Product</p>
-              <h3 class="title">{{ suggested_product.title }}</h3>
-              <p class="price">{{ suggested_product.price | money }}</p>
-            </div>
+          <div class="suggested-product_image">
+            <img src="{{ suggested_product.featured_image | product_img_url:'master' }}">
           </div>
+          <div class="suggested-product-info">
+            <p class="tag">Suggested Product</p>
+            <h3 class="title">{{ suggested_product.title }}</h3>
+            <p class="price">{{ suggested_product.price | money }}</p>
+          </div>
+          <div class="variant-selector">
+            <select class="variant-dropdown">
+              {% for variant in suggested_product.variants %}
+                <option value="{{ variant.id }}" {% if variant == suggested_product.variants.first %}selected{% endif %}>
+                  {{ variant.title }} - {{ variant.price | money }}
+                </option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
       {% endfor %}
     </div>
 
@@ -72,42 +80,77 @@
     </div>
   </div>
 </div>
+
 <script>
   //For Frequently Bought Products section
 
- const mainProductVariantId = document.querySelector('.main-product').getAttribute('data-product-variant-id');
-        let productVariantIds = [mainProductVariantId];
-        let totalPrice = parseFloat(document.querySelector('.main-product .product-info .price').textContent.replace('$', '').trim());
+  let productVariantIds = [];
+  let totalPrice = 0;
 
-        document.querySelectorAll('.suggested-product').forEach(productEl => {
-          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product .suggested-product-info .price').textContent.replace('$', '').trim());
-          const suggestedProductVariantId = productEl.getAttribute('data-product-variant-id');
-          totalPrice += suggestedProductPrice;
-          productVariantIds.push(suggestedProductVariantId);
-        });
+  // Handle main product
+  const mainProductEl = document.querySelector('.main-product');
+  const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown').value;
+  const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
+  productVariantIds.push(mainProductVariantId);
+  totalPrice += mainProductPrice;
 
-        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+  // Handle suggested products
+  document.querySelectorAll('.suggested-product').forEach(productEl => {
+    const suggestedProductVariantId = productEl.querySelector('.variant-dropdown').value;
+    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+    totalPrice += suggestedProductPrice;
+    productVariantIds.push(suggestedProductVariantId);
+  });
 
-        async function addProductsToCart(productVariantIds) {
-          for (const variantId of productVariantIds) {
-            await fetch('/cart/add.js', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ id: variantId, quantity: 1 })
-            });
-          }
-        }
+  // Update total price display
+  document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
-       document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-        await addProductsToCart(productVariantIds);
-        theme.cart.getCartProductMarkup().then(cartMarkup => {
-          const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-          cartForm.cartMarkup(cartMarkup);
-        });
-        document.dispatchEvent(new CustomEvent('cart:open'));
+  // Update variant IDs on selection change
+  document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
+    dropdown.addEventListener('change', () => {
+      productVariantIds = [];
+      totalPrice = 0;
+
+      // Recalculate for the main product
+      const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown').value;
+      const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
+      productVariantIds.push(mainProductVariantId);
+      totalPrice += mainProductPrice;
+
+      // Recalculate for suggested products
+      document.querySelectorAll('.suggested-product').forEach(productEl => {
+        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown').value;
+        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+        totalPrice += suggestedProductPrice;
+        productVariantIds.push(suggestedProductVariantId);
       });
 
+      // Update total price display
+      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+    });
+  });
+
+  // Add to cart functionality
+  async function addProductsToCart(productVariantIds) {
+    for (const variantId of productVariantIds) {
+      await fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: variantId, quantity: 1 })
+      });
+    }
+  }
+
+  document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+    await addProductsToCart(productVariantIds);
+    theme.cart.getCartProductMarkup().then(cartMarkup => {
+      const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+      cartForm.cartMarkup(cartMarkup);
+    });
+    document.dispatchEvent(new CustomEvent('cart:open'));
+  });
 </script>
+
 {% schema %}
 {
   "name": "Frequently Boughts",
@@ -124,7 +167,7 @@
       "label": "Suggested Product",
       "limit": 10
     },
-     {
+    {
       "type": "header",
       "content": "Spacing Desktop"
     },
