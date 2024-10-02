@@ -141,90 +141,66 @@
   </div>
 </div>
 <script>
-// Function to update prices dynamically when variant changes
-function updateProductVariants() {
-    let totalPrice = 0;
+ //For Frequently Bought Products section
 
-    // Handle main product
-    const mainProductEl = document.querySelector('.main-product');
-    const mainProductDropdown = mainProductEl.querySelector('.variant-dropdown');
-    const mainProductPriceEl = mainProductEl.querySelector('.price');
+let productVariantIds = [];
+let totalPrice = 0;
 
-    if (mainProductDropdown) {
-        const selectedOption = mainProductDropdown.options[mainProductDropdown.selectedIndex];
-        const selectedVariantPrice = selectedOption.textContent.match(/\$[0-9.,]+/)[0]; // Fetch price from dropdown option
-        mainProductPriceEl.textContent = selectedVariantPrice; // Update the product's price element
-        totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim()); // Add to total price
-    } else {
-        const mainProductPrice = parseFloat(mainProductPriceEl.textContent.replace('$', '').trim());
-        totalPrice += mainProductPrice; // Use current price if no variant dropdown
-    }
+// Handle main product
+const mainProductEl = document.querySelector('.main-product');
 
-    // Handle suggested products
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const productDropdown = productEl.querySelector('.variant-dropdown');
-        const productPriceEl = productEl.querySelector('.suggested-product-info .price');
+// Check if variant dropdown exists or not
+let mainProductVariantId = mainProductEl.querySelector('.variant-dropdown') ? 
+                           mainProductEl.querySelector('.variant-dropdown').value : 
+                           mainProductEl.getAttribute('data-product-variant-id');
 
-        if (productDropdown) {
-            const selectedOption = productDropdown.options[productDropdown.selectedIndex];
-            const selectedVariantPrice = selectedOption.textContent.match(/\$[0-9.,]+/)[0]; // Fetch price from dropdown option
-            productPriceEl.textContent = selectedVariantPrice; // Update the product's price element
-            totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim()); // Add to total price
-        } else {
-            const productPrice = parseFloat(productPriceEl.textContent.replace('$', '').trim());
-            totalPrice += productPrice; // Use current price if no variant dropdown
-        }
-    });
+// Get the main product price
+const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
+productVariantIds.push(mainProductVariantId);
+totalPrice += mainProductPrice;
 
-    // Update the total price display in the info-wrapper
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-}
+// Handle suggested products
+document.querySelectorAll('.suggested-product').forEach(productEl => {
+    // Check if variant dropdown exists or not
+    const suggestedProductVariantId = productEl.querySelector('.variant-dropdown') ? 
+                                      productEl.querySelector('.variant-dropdown').value : 
+                                      productEl.getAttribute('data-product-variant-id');
 
-// Initial update when the page loads
-updateProductVariants();
-
-// Update price on variant change for both main and suggested products
-document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', updateProductVariants);
+    const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+    totalPrice += suggestedProductPrice;
+    productVariantIds.push(suggestedProductVariantId);
 });
 
-// Add to cart functionality
-async function addProductsToCart() {
-    let productVariantIds = [];
+// Update total price display
+document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
-    // Handle main product
-    const mainProductEl = document.querySelector('.main-product');
-    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    productVariantIds.push(mainProductVariantId);
+// Update variant IDs on selection change
+document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
+    dropdown.addEventListener('change', () => {
+        productVariantIds = [];
+        totalPrice = 0;
 
-    // Handle suggested products
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        productVariantIds.push(suggestedProductVariantId);
+        // Recalculate for the main product
+        let mainProductVariantId = mainProductEl.querySelector('.variant-dropdown') ? 
+                                   mainProductEl.querySelector('.variant-dropdown').value : 
+                                   mainProductEl.getAttribute('data-product-variant-id');
+        const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
+        productVariantIds.push(mainProductVariantId);
+        totalPrice += mainProductPrice;
+
+        // Recalculate for suggested products
+        document.querySelectorAll('.suggested-product').forEach(productEl => {
+            const suggestedProductVariantId = productEl.querySelector('.variant-dropdown') ? 
+                                              productEl.querySelector('.variant-dropdown').value : 
+                                              productEl.getAttribute('data-product-variant-id');
+            const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+            totalPrice += suggestedProductPrice;
+            productVariantIds.push(suggestedProductVariantId);
+        });
+
+        // Update total price display
+        document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
     });
-
-    // Add each product to the cart using Shopify's AJAX API
-    for (const variantId of productVariantIds) {
-        try {
-            await fetch('/cart/add.js', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ id: variantId, quantity: 1 })
-            });
-        } catch (error) {
-            console.error("Error adding product to cart:", error);
-        }
-    }
-}
-
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-    await addProductsToCart();
-    // Update cart drawer if your theme uses it
-    theme.cart.getCartProductMarkup().then(cartMarkup => {
-        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-        cartForm.cartMarkup(cartMarkup);
-    });
-    document.dispatchEvent(new CustomEvent('cart:open')); // Open the cart drawer
 });
 
 </script>
