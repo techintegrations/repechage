@@ -224,3 +224,9 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
   let newPrice = tempDiv.querySelector(".main-products-wrapper .price").innerHTML;
   document.querySelector(".main-products-wrapper .price").innerHTML = newPrice;
 }
+// Update variant IDs on selection change
+document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
+    dropdown.addEventListener('change',()=>{
+      sectionUpdate();
+    });
+});
