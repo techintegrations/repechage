@@ -32,12 +32,6 @@
   padding: 50px;
 }
 
-.main-product .product-info {
-  flex: 0 0 calc(86% - 10px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .suggested-product {
   position: relative;
   background-color: #dddddd57;
@@ -50,6 +44,10 @@
     line-height: 0;
 }
 
+.main-products-wrapper .f-product-row .info-wrap {
+    flex: 1 0 0;
+}
+
 .f-product-row .title {
   font-size: 16px;
   margin-bottom: 10px;
@@ -57,13 +55,6 @@
 
 .main-products-wrapper .tag {
   margin: 0 0 10px;
-}
-
-.suggested-product .suggested-product-info {
-  flex: 0 0 calc(86% - 10px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .frequently_boughts-info {
