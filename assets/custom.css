@@ -1758,6 +1758,10 @@ body.template-cart #cart-progress-wrapper {
 
 @media only screen and (max-width: 480px) {
 
+  .main-frequently_boughts {
+      display: block;
+  }
+
   .image-with-info-title h2 {
       font-size: 24px;
       line-height: normal;
