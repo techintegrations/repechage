@@ -1,3 +1,92 @@
+/* Suggested Products Section */
+
+.suggested-product:nth-child(2) {
+  border-top:0;
+}
+
+.f-product-row .title svg {
+  rotate: -90deg;
+}
+
+.f-product-row .title a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-products-wrapper {
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #0000003d;
+}
+.main-frequently_boughts {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #0000003d;
+  margin-bottom: 50px;
+}
+.main-products-wrapper .f-product-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px;
+}
+
+.suggested-product {
+  position: relative;
+  background-color: #dddddd57;
+  border-top: 1px solid #0000004a;
+  align-items: flex-start;
+}
+
+.main-products-wrapper .f-product-row .image-wrap {
+    flex: 0 0 15%;
+    line-height: 0;
+}
+
+.main-products-wrapper .f-product-row .info-wrap {
+    flex: 1 0 0;
+}
+
+.f-product-row .title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main-products-wrapper .tag {
+  margin: 0 0 10px;
+}
+
+.frequently_boughts-info {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frequently_boughts-info .info-wrapper .price {
+  font-weight: 600;
+}
+
+.frequently_boughts-info .info-wrapper .price span {
+    display: block;
+}
+
+.frequently_boughts-info .add-to-cart-F-B.btn {
+    margin: 0px;
+}
+
+.suggested-product .devider {
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  top: -20px;
+  border-radius: 100%;
+  display: flex;
+}
+
+/* End Suggested Products Section */
+
 .flickity-page-dots {
     align-items: center;
 }
