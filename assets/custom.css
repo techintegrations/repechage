@@ -1765,6 +1765,10 @@ body.template-cart #cart-progress-wrapper {
   .frequently_boughts-info {
       padding: 24px 15px;
   }
+
+  .main-products-wrapper {
+      flex: 0 0 65%;
+  }
   
 }
 
