@@ -67,7 +67,10 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+        <div
+          class="suggested-product f-product-row"
+          data-product-variant-id="{{ suggested_product.variants.first.id }}"
+        >
           <div class="devider">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -106,11 +109,11 @@
                 </svg>
               </a>
             </h3>
-            <p class="price">{{ variant.price | money }}</p>
-            {% if suggested_product.variants.size > 1 %}
-              <div class="variant-selector">
-                <select class="variant-dropdown">
-                  {% for variant in suggested_product.variants %}
+            {% for variant in suggested_product.variants %}
+              <p class="price">{{ variant.price | money }}</p>
+              {% if suggested_product.variants.size > 1 %}
+                <div class="variant-selector">
+                  <select class="variant-dropdown">
                     <option
                       value="{{ variant.id }}"
                       {% if variant == suggested_product.variants.first %}
@@ -119,10 +122,10 @@
                     >
                       {{ variant.title }}
                     </option>
-                  {% endfor %}
-                </select>
-              </div>
-            {% endif %}
+                  </select>
+                </div>
+              {% endif %}
+            {% endfor %}
           </div>
         </div>
       {% endfor %}
@@ -139,64 +142,63 @@
   </div>
 </div>
 <script>
-// For Frequently Bought Products section
+  // For Frequently Bought Products section
 
-let productVariantIds = [];
-let totalPrice = 0;
+  let productVariantIds = [];
+  let totalPrice = 0;
 
-function updateProductVariants() {
-    productVariantIds = [];
-    totalPrice = 0;
+  function updateProductVariants() {
+      productVariantIds = [];
+      totalPrice = 0;
 
-    // Handle main product
-    const mainProductEl = document.querySelector('.main-product');
-    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
-    
-    productVariantIds.push(mainProductVariantId);
-    totalPrice += mainProductPrice;
+      // Handle main product
+      const mainProductEl = document.querySelector('.main-product');
+      const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
+      const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
 
-    // Handle suggested products
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+      productVariantIds.push(mainProductVariantId);
+      totalPrice += mainProductPrice;
 
-        productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;
-    });
+      // Handle suggested products
+      document.querySelectorAll('.suggested-product').forEach(productEl => {
+          const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
+          const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
 
-    // Update total price display
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-}
+          productVariantIds.push(suggestedProductVariantId);
+          totalPrice += suggestedProductPrice;
+      });
 
-// Initial update
-updateProductVariants();
+      // Update total price display
+      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+  }
 
-// Update variant IDs on selection change
-document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', updateProductVariants);
-});
+  // Initial update
+  updateProductVariants();
 
-// Add to cart functionality
-async function addProductsToCart() {
-    for (const variantId of productVariantIds) {
-        await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 })
-        });
-    }
-}
+  // Update variant IDs on selection change
+  document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
+      dropdown.addEventListener('change', updateProductVariants);
+  });
 
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-    await addProductsToCart();
-    theme.cart.getCartProductMarkup().then(cartMarkup => {
-        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-        cartForm.cartMarkup(cartMarkup);
-    });
-    document.dispatchEvent(new CustomEvent('cart:open'));
-});
+  // Add to cart functionality
+  async function addProductsToCart() {
+      for (const variantId of productVariantIds) {
+          await fetch('/cart/add.js', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ id: variantId, quantity: 1 })
+          });
+      }
+  }
 
+  document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+      await addProductsToCart();
+      theme.cart.getCartProductMarkup().then(cartMarkup => {
+          const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+          cartForm.cartMarkup(cartMarkup);
+      });
+      document.dispatchEvent(new CustomEvent('cart:open'));
+  });
 </script>
 
 {% schema %}
