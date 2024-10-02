@@ -221,8 +221,8 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
   let cartData = await newCart.text();
   let tempDiv = document.createElement("div");
   tempDiv.innerHTML = cartData;
-  let newPrice = tempDiv.querySelector(".main-products-wrapper .price").innerHTML;
-  document.querySelector(".main-products-wrapper .price").innerHTML = newPrice;
+  let newPrice = tempDiv.querySelectorAll(".main-products-wrapper .price").innerHTML;
+  document.querySelectorAll(".main-products-wrapper .price").innerHTML = newPrice;
 }
 // Update variant IDs on selection change
 document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
