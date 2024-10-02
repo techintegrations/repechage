@@ -106,7 +106,7 @@
 </div>
 
 <script>
-  //For Frequently Bought Products section
+ //For Frequently Bought Products section
 
 let productVariantIds = [];
 let totalPrice = 0;
@@ -166,6 +166,26 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
         // Update total price display
         document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
     });
+});
+
+// Add to cart functionality
+async function addProductsToCart(productVariantIds) {
+    for (const variantId of productVariantIds) {
+        await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: variantId, quantity: 1 })
+        });
+    }
+}
+
+document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
+    await addProductsToCart(productVariantIds);
+    theme.cart.getCartProductMarkup().then(cartMarkup => {
+        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+        cartForm.cartMarkup(cartMarkup);
+    });
+    document.dispatchEvent(new CustomEvent('cart:open'));
 });
 
 </script>
