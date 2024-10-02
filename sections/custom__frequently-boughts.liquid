@@ -41,7 +41,6 @@
                 width="20"
                 height="20"
                 class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
-                data-astro-cid-urh7ycih=""
               >
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
               </svg>
@@ -102,7 +101,6 @@
                   width="20"
                   height="20"
                   class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
-                  data-astro-cid-urh7ycih=""
                 >
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                 </svg>
@@ -140,32 +138,43 @@
     </div>
   </div>
 </div>
+
 <script>
 // For Frequently Bought Products section
 
 let productVariantIds = [];
 let totalPrice = 0;
 
-function updateProductVariants() {
+// Get price based on variant selection
+async function fetchVariantPrice(variantId) {
+    const response = await fetch(`/variants/${variantId}.json`);
+    const variantData = await response.json();
+    return variantData.variant.price / 100; // Shopify prices are in cents
+}
+
+async function updateProductVariants() {
     productVariantIds = [];
     totalPrice = 0;
 
     // Handle main product
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
+    
+    const mainProductPrice = await fetchVariantPrice(mainProductVariantId);
     
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
     // Handle suggested products
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
+    const suggestedProducts = document.querySelectorAll('.suggested-product');
+    for (const productEl of suggestedProducts) {
         const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
-
+        
+        const suggestedProductPrice = await fetchVariantPrice(suggestedProductVariantId);
+        
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
-    });
+    }
 
     // Update total price display
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
@@ -200,6 +209,7 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
 });
 
 </script>
+
 {% schema %}
 {
   "name": "Frequently Boughts",
