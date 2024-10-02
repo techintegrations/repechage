@@ -8,12 +8,12 @@
     justify-content: space-between;
 }
 
-.suggested-product .product-info .title svg {
+.suggested-product .suggested-product-info .title svg {
     rotate: -90deg;
     margin-top: 3px;
 }
 
-.suggested-product .product-info .title {
+.suggested-product .suggested-product-info .title {
     display: flex;
     justify-content: space-between;
 }
