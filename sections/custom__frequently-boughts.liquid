@@ -105,66 +105,6 @@
   </div>
 </div>
 
-<script>
- // For Frequently Bought Products section
-
-let productVariantIds = [];
-let totalPrice = 0;
-
-function updateProductVariants() {
-    productVariantIds = [];
-    totalPrice = 0;
-
-    // Handle main product
-    const mainProductEl = document.querySelector('.main-product');
-    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
-    
-    productVariantIds.push(mainProductVariantId);
-    totalPrice += mainProductPrice;
-
-    // Handle suggested products
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
-
-        productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;
-    });
-
-    // Update total price display
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-}
-
-// Initial update
-updateProductVariants();
-
-// Update variant IDs on selection change
-document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', updateProductVariants);
-});
-
-// Add to cart functionality
-async function addProductsToCart() {
-    for (const variantId of productVariantIds) {
-        await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 })
-        });
-    }
-}
-
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
-    await addProductsToCart();
-    theme.cart.getCartProductMarkup().then(cartMarkup => {
-        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-        cartForm.cartMarkup(cartMarkup);
-    });
-    document.dispatchEvent(new CustomEvent('cart:open'));
-});
-</script>
-
 {% schema %}
 {
   "name": "Frequently Boughts",
