@@ -191,14 +191,25 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
 // Add to cart functionality
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
-        await fetch('/cart/add.js', {
+        const response = await fetch('/cart/add.js', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ id: variantId, quantity: 1 })
         });
+
+        if (!response.ok) {
+            console.error('Failed to add product:', variantId);
+        }
     }
     // Optionally, you could redirect or update the mini cart after adding items
 }
+
+// Add event listener to the button
+document.querySelector('.add-to-cart-F-B.btn').addEventListener('click', (event) => {
+    event.preventDefault(); // Prevent default form submission
+    addProductsToCart();
+});
+
 </script>
 {% schema %}
 {
