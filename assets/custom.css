@@ -6,6 +6,8 @@
 
 .f-product-row .title svg {
   rotate: -90deg;
+  height: 22px;
+  width: 22px
 }
 
 .f-product-row .title a {
