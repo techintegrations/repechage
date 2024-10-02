@@ -156,3 +156,74 @@ $(document).ready(function () {
   }
 });
 
+// Frequently Boughts section
+
+let productVariantIds = [];
+let totalPrice = 0;
+
+function updateMainProductPrice() {
+    const mainProductEl = document.querySelector('.main-product');
+    const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
+    const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
+    mainProductPriceEl.textContent = selectedVariant.dataset.price;
+    updateProductVariants();
+}
+
+function updateSuggestedProductPrice(dropdown) {
+    const suggestedProductEl = dropdown.closest('.suggested-product');
+    const selectedVariant = dropdown.selectedOptions[0];
+    const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
+    suggestedProductPriceEl.textContent = selectedVariant.dataset.price;
+    updateProductVariants();
+}
+
+function updateProductVariants() {
+    productVariantIds = [];
+    totalPrice = 0;
+
+    const mainProductEl = document.querySelector('.main-product');
+    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
+    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+    
+    productVariantIds.push(mainProductVariantId);
+    totalPrice += mainProductPrice;
+
+    document.querySelectorAll('.suggested-product').forEach(productEl => {
+        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
+        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+        
+        productVariantIds.push(suggestedProductVariantId);
+        totalPrice += suggestedProductPrice;
+    });
+
+    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+}
+
+updateProductVariants();
+
+document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
+    dropdown.addEventListener('change', () => {
+        updateSuggestedProductPrice(dropdown);
+        updateProductVariants();
+    });
+});
+
+async function addProductsToCart() {
+    for (const variantId of productVariantIds) {
+        const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: variantId, quantity: 1 })
+        });
+    }
+}
+
+document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
+    event.preventDefault();
+    await addProductsToCart();
+    theme.cart.getCartProductMarkup().then(cartMarkup => {
+        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+        cartForm.cartMarkup(cartMarkup);
+    });
+    document.dispatchEvent(new CustomEvent('cart:open'));
+});
