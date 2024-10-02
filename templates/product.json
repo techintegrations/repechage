@@ -145,6 +145,19 @@
         "padding_bottom_m": 16
       }
     },
+    "custom_frequently_boughts_AH6EGQ": {
+      "type": "custom__frequently-boughts",
+      "settings": {
+        "top_heading": "Frequently Bought Together",
+        "product_list": [
+          "day-of-empowerment-2024"
+        ],
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
     "custom_product_tabs_aAdT9e": {
       "type": "custom__product-tabs",
       "blocks": {
@@ -362,32 +375,19 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "custom_frequently_boughts_AH6EGQ": {
-      "type": "custom__frequently-boughts",
-      "settings": {
-        "top_heading": "Frequently Bought Together",
-        "product_list": [
-          "day-of-empowerment-2024"
-        ],
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0
-      }
     }
   },
   "order": [
     "main",
     "sub",
     "custom_sticky_add_to_cart_7PXy64",
+    "custom_frequently_boughts_AH6EGQ",
     "custom_product_tabs_aAdT9e",
     "custom_product_ingredients_kWkECi",
     "product-recommendations",
     "171672294625f99393",
     "testimonials",
     "recently-viewed",
-    "collection-return",
-    "custom_frequently_boughts_AH6EGQ"
+    "collection-return"
   ]
 }
