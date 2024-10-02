@@ -76,7 +76,7 @@
             </h3>
             <p class="price">{{ suggested_product.price | money }}</p>
           </div>
-          {% if suggested_product.variants != 0 %}
+          {% if suggested_product.variants.size > 1 %}
             <div class="variant-selector">
               <select class="variant-dropdown">
                 {% for variant in suggested_product.variants %}
