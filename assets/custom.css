@@ -85,6 +85,7 @@
   top: -20px;
   border-radius: 100%;
   display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .main-wrapper-frequently_boughts .top-heading {
