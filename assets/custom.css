@@ -94,8 +94,6 @@
 }
 
 .frequently_boughts-info .info-wrapper .price {
-  display: flex;
-  flex-direction: column;
   font-weight: 600;
 }
 .suggested-product .devider {
