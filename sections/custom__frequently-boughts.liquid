@@ -141,46 +141,67 @@
   </div>
 </div>
 <script>
-// For Frequently Bought Products section
-
-let productVariantIds = [];
-let totalPrice = 0;
-
+// Function to update prices dynamically when variant changes
 function updateProductVariants() {
-    productVariantIds = [];
-    totalPrice = 0;
+    let totalPrice = 0;
 
     // Handle main product
     const mainProductEl = document.querySelector('.main-product');
-    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace('$', '').trim());
-    
-    productVariantIds.push(mainProductVariantId);
-    totalPrice += mainProductPrice;
+    const mainProductDropdown = mainProductEl.querySelector('.variant-dropdown');
+    const mainProductPriceEl = mainProductEl.querySelector('.price');
+
+    if (mainProductDropdown) {
+        const selectedVariantPrice = mainProductDropdown.options[mainProductDropdown.selectedIndex].textContent.match(/\$[0-9.,]+/)[0];
+        mainProductPriceEl.textContent = selectedVariantPrice;
+        totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim());
+    } else {
+        const mainProductPrice = parseFloat(mainProductPriceEl.textContent.replace('$', '').trim());
+        totalPrice += mainProductPrice;
+    }
 
     // Handle suggested products
     document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace('$', '').trim());
+        const productDropdown = productEl.querySelector('.variant-dropdown');
+        const productPriceEl = productEl.querySelector('.suggested-product-info .price');
 
-        productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;
+        if (productDropdown) {
+            const selectedVariantPrice = productDropdown.options[productDropdown.selectedIndex].textContent.match(/\$[0-9.,]+/)[0];
+            productPriceEl.textContent = selectedVariantPrice;
+            totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim());
+        } else {
+            const productPrice = parseFloat(productPriceEl.textContent.replace('$', '').trim());
+            totalPrice += productPrice;
+        }
     });
 
-    // Update total price display
+    // Update the total price display
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
-// Initial update
+// Initial update when page loads
 updateProductVariants();
 
-// Update variant IDs on selection change
+// Update price on variant change for both main and suggested products
 document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
     dropdown.addEventListener('change', updateProductVariants);
 });
 
 // Add to cart functionality
 async function addProductsToCart() {
+    let productVariantIds = [];
+
+    // Handle main product
+    const mainProductEl = document.querySelector('.main-product');
+    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
+    productVariantIds.push(mainProductVariantId);
+
+    // Handle suggested products
+    document.querySelectorAll('.suggested-product').forEach(productEl => {
+        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
+        productVariantIds.push(suggestedProductVariantId);
+    });
+
+    // Add each product to the cart
     for (const variantId of productVariantIds) {
         await fetch('/cart/add.js', {
             method: 'POST',
@@ -197,35 +218,6 @@ document.querySelector('.add-to-cart-F-B').addEventListener('click', async () =>
         cartForm.cartMarkup(cartMarkup);
     });
     document.dispatchEvent(new CustomEvent('cart:open'));
-});
-
-// Ajax Update for Price
-async function sectionUpdate() {
-  try {
-    // Fetch the section with the updated variant prices
-    let newCart = await fetch("/?section_id=custom__frequently-boughts");
-    let cartData = await newCart.text();
-
-    // Create a temporary div to hold the fetched HTML content
-    let tempDiv = document.createElement("div");
-    tempDiv.innerHTML = cartData;
-
-    // Select the updated prices from the fetched HTML
-    let newPrices = tempDiv.querySelectorAll(".main-products-wrapper .price");
-    let currentPrices = document.querySelectorAll(".main-products-wrapper .price");
-
-    // Update the current prices with the fetched prices
-    newPrices.forEach((newPrice, index) => {
-      currentPrices[index].innerHTML = newPrice.innerHTML;
-    });
-  } catch (error) {
-    console.error("Error updating prices:", error);
-  }
-}
-
-// Update variant prices on selection change
-document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-  dropdown.addEventListener('change', sectionUpdate);
 });
 
 </script>
