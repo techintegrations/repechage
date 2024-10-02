@@ -22,7 +22,7 @@
 
   <div class="main-frequently_boughts">
     <div class="main-products-wrapper">
-      <div class="main-product" data-product-variant-id="{{ product.variants.first.id }}">
+      <div class="main-product f-product-row" data-product-variant-id="{{ product.variants.first.id }}">
         <div class="product-img">
           <a href="{{ product.url }}">
             <img src="{{ product.featured_image | product_img_url: 'master' }}">
@@ -68,7 +68,7 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        <div class="suggested-product" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
           <div class="devider">
             <svg
               xmlns="http://www.w3.org/2000/svg"
