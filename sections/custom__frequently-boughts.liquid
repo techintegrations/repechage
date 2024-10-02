@@ -151,12 +151,13 @@ function updateProductVariants() {
     const mainProductPriceEl = mainProductEl.querySelector('.price');
 
     if (mainProductDropdown) {
-        const selectedVariantPrice = mainProductDropdown.options[mainProductDropdown.selectedIndex].textContent.match(/\$[0-9.,]+/)[0];
-        mainProductPriceEl.textContent = selectedVariantPrice;
-        totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim());
+        const selectedOption = mainProductDropdown.options[mainProductDropdown.selectedIndex];
+        const selectedVariantPrice = selectedOption.textContent.match(/\$[0-9.,]+/)[0]; // Fetch price from dropdown option
+        mainProductPriceEl.textContent = selectedVariantPrice; // Update the product's price element
+        totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim()); // Add to total price
     } else {
         const mainProductPrice = parseFloat(mainProductPriceEl.textContent.replace('$', '').trim());
-        totalPrice += mainProductPrice;
+        totalPrice += mainProductPrice; // Use current price if no variant dropdown
     }
 
     // Handle suggested products
@@ -165,20 +166,21 @@ function updateProductVariants() {
         const productPriceEl = productEl.querySelector('.suggested-product-info .price');
 
         if (productDropdown) {
-            const selectedVariantPrice = productDropdown.options[productDropdown.selectedIndex].textContent.match(/\$[0-9.,]+/)[0];
-            productPriceEl.textContent = selectedVariantPrice;
-            totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim());
+            const selectedOption = productDropdown.options[productDropdown.selectedIndex];
+            const selectedVariantPrice = selectedOption.textContent.match(/\$[0-9.,]+/)[0]; // Fetch price from dropdown option
+            productPriceEl.textContent = selectedVariantPrice; // Update the product's price element
+            totalPrice += parseFloat(selectedVariantPrice.replace('$', '').trim()); // Add to total price
         } else {
             const productPrice = parseFloat(productPriceEl.textContent.replace('$', '').trim());
-            totalPrice += productPrice;
+            totalPrice += productPrice; // Use current price if no variant dropdown
         }
     });
 
-    // Update the total price display
+    // Update the total price display in the info-wrapper
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
-// Initial update when page loads
+// Initial update when the page loads
 updateProductVariants();
 
 // Update price on variant change for both main and suggested products
@@ -201,23 +203,28 @@ async function addProductsToCart() {
         productVariantIds.push(suggestedProductVariantId);
     });
 
-    // Add each product to the cart
+    // Add each product to the cart using Shopify's AJAX API
     for (const variantId of productVariantIds) {
-        await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 })
-        });
+        try {
+            await fetch('/cart/add.js', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id: variantId, quantity: 1 })
+            });
+        } catch (error) {
+            console.error("Error adding product to cart:", error);
+        }
     }
 }
 
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async () => {
     await addProductsToCart();
+    // Update cart drawer if your theme uses it
     theme.cart.getCartProductMarkup().then(cartMarkup => {
         const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
         cartForm.cartMarkup(cartMarkup);
     });
-    document.dispatchEvent(new CustomEvent('cart:open'));
+    document.dispatchEvent(new CustomEvent('cart:open')); // Open the cart drawer
 });
 
 </script>
