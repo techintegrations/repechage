@@ -3,7 +3,7 @@
 .discounts {
     position: absolute;
     top: 0;
-    right: -1;
+    right: -1px;
     background-color: #000;
     padding: 10px 20px;
     color: #fff;
