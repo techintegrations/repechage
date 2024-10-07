@@ -219,24 +219,30 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
 
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
-        // Get the original price from the variant element
         const variantElement = document.querySelector(`[data-product-variant-id="${variantId}"]`);
         const originalPrice = parseFloat(variantElement.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-        
-        // Assuming you have a metafield for discount. Replace 'example.metafield' with your actual metafield.
-        const discount = parseFloat(variantElement.dataset.discount || 10); // Use the discount from the element or default to 0
-        
-        // Calculate discounted price
+        const discount = parseFloat(variantElement.dataset.discount || 0);
         const discountedPrice = originalPrice - discount;
 
-        await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 }) // Send original price
-            // Note: Shopify cart API does not support price adjustment on add. It only adds the item and calculates price at checkout.
-        });
+        try {
+            const response = await fetch('/cart/add.js', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id: variantId, quantity: 1 })
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                console.error('Failed to add product to cart:', errorData);
+            } else {
+                console.log(`Added variant ${variantId} to the cart.`);
+            }
+        } catch (error) {
+            console.error('Error adding product to cart:', error);
+        }
     }
 }
+
 
 
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
