@@ -184,7 +184,7 @@ function updateProductVariants() {
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
     const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-
+    
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
@@ -194,14 +194,16 @@ function updateProductVariants() {
         
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
+      
     });
-
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-    
+      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+      // Calculate the discounted price
+  
     const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
     const discountAmount = (discountPercentage / 100) * totalPrice;
     const discountedPrice = totalPrice - discountAmount;
     document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
+    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
 updateProductVariants();
@@ -215,34 +217,32 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
 
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
-        const mainProductPrice = parseFloat(document.querySelector('.main-product .product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-        const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
-        const discountedPrice = mainProductPrice - (mainProductPrice * discountPercentage / 100);
+        // Get the original price from the variant element
+        const variantElement = document.querySelector(`[data-product-variant-id="${variantId}"]`);
+        const originalPrice = parseFloat(variantElement.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+        
+        // Assuming you have a metafield for discount. Replace 'example.metafield' with your actual metafield.
+        const discount = parseFloat(variantElement.dataset.discount || 0); // Use the discount from the element or default to 0
+        
+        // Calculate discounted price
+        const discountedPrice = originalPrice - discount;
 
-        const response = await fetch('/cart/add.js', {
+        await fetch('/cart/add.js', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 }) // Ensure the variant ID is correct
+            body: JSON.stringify({ id: variantId, quantity: 1,price: variantPrice - discountedPrice }) // Send original price
+            // Note: Shopify cart API does not support price adjustment on add. It only adds the item and calculates price at checkout.
         });
-
-        if (!response.ok) {
-            const errorData = await response.json();
-            console.error('Error adding product to cart:', errorData);
-            throw new Error('Failed to add product to cart: ' + errorData.message);
-        }
     }
 }
 
+
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
     event.preventDefault();
-    try {
-        await addProductsToCart();
-        theme.cart.getCartProductMarkup().then(cartMarkup => {
-            const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-            cartForm.cartMarkup(cartMarkup);
-        });
-        document.dispatchEvent(new CustomEvent('cart:open'));
-    } catch (error) {
-        console.error('Failed to add products to cart:', error);
-    }
+    await addProductsToCart();
+    theme.cart.getCartProductMarkup().then(cartMarkup => {
+        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+        cartForm.cartMarkup(cartMarkup);
+    });
+    document.dispatchEvent(new CustomEvent('cart:open'));
 });
