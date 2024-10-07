@@ -46,22 +46,16 @@
               </svg>
             </a>
           </h3>
-          {% assign discounted_price = product.variants.first.price | minus: product.metafields.custom.fbt_discount %}
+          {% assign main_discounted_price = product.variants.first.price | minus: product.metafields.custom.fbt_discount %}
           <p class="price" id="main-product-price">
-            {{ product.variants.first.price | money -}}
-            <span>{{ discounted_price | money }}</span>
+            Original Price: {{ product.variants.first.price | money }}
+            <span>Discounted Price: {{ main_discounted_price | money }}</span>
           </p>
           {% if product.variants.size > 1 %}
             <div class="variant-selector">
               <select class="variant-dropdown" onchange="updateMainProductPrice()">
                 {% for variant in product.variants %}
-                  <option
-                    value="{{ variant.id }}"
-                    data-price="{{ variant.price | money }}"
-                    {% if variant == product.variants.first %}
-                      selected
-                    {% endif %}
-                  >
+                  <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == product.variants.first %} selected {% endif %}>
                     {{ variant.title }}
                   </option>
                 {% endfor %}
@@ -72,10 +66,7 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        <div
-          class="suggested-product f-product-row"
-          data-product-variant-id="{{ suggested_product.variants.first.id }}"
-        >
+        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
           <div class="devider">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -110,22 +101,22 @@
                   height="20"
                   class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
                 >
-                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a 1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                 </svg>
               </a>
             </h3>
-            <p class="price suggested-price">{{ suggested_product.variants.first.price | money }}</p>
+            {% assign suggested_discounted_price = suggested_product.variants.first.price | minus: product.metafields.custom.fbt_discount %}
+            <p class="price suggested-price">
+              Original Price: {{ suggested_product.variants.first.price | money }}
+              <span>Discounted Price: {{ suggested_discounted_price | money }}</span>
+            </p>
             {% if suggested_product.variants.size > 1 %}
               <div class="variant-selector">
                 <select class="variant-dropdown" onchange="updateSuggestedProductPrice(this)">
-                  {% for suggested_product in section.settings.product_list %}
-                    {% assign suggested_discounted_price = suggested_product.variants.first.price
-                      | minus: product.metafields.custom.fbt_discount
-                    %}
-                    <p class="price suggested-price">
-                      Original Price: {{ suggested_product.variants.first.price | money }}
-                      <span>Discounted Price: {{ suggested_discounted_price | money }}</span>
-                    </p>
+                  {% for variant in suggested_product.variants %}
+                    <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == suggested_product.variants.first %} selected {% endif %}>
+                      {{ variant.title }}
+                    </option>
                   {% endfor %}
                 </select>
               </div>
@@ -136,19 +127,17 @@
     </div>
 
     <div class="frequently_boughts-info">
-      <div class="discounts">
-        <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
-      </div>
+      <div class="discounts" ><span class ="value" >{{ product.metafields.custom.fbt_discount }}</span>% Saving</div>
       <div class="info-wrapper">
         <p class="price">
-          <span>Total Price:</span><span class="discounted-Price"></span>
-          <span id="total-price">{{ product.variants.first.price | money }}</span>
+          <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
       </div>
     </div>
   </div>
 </div>
+
 {% schema %}
 {
   "name": "Frequently Boughts",
