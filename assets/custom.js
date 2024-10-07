@@ -214,8 +214,9 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
         updateProductVariants();
     });
 });
-
 async function addProductsToCart() {
+    const productsToAdd = [];
+
     for (const variantId of productVariantIds) {
         // Get the original price from the variant element
         const variantElement = document.querySelector(`[data-product-variant-id="${variantId}"]`);
@@ -230,19 +231,32 @@ async function addProductsToCart() {
         // Assuming you have a metafield for discount. Replace 'example.metafield' with your actual metafield.
         const discount = parseFloat(variantElement.dataset.discount || 0); // Use the discount from the element or default to 0
         
-        // Calculate discounted price (this is for display only, not sent to cart)
+        // Calculate discounted price (for your display only)
         const discountedPrice = originalPrice - discount;
 
         // Log the variant ID and prices for debugging
         console.log(`Adding Variant ID: ${variantId}, Original Price: ${originalPrice}, Discounted Price: ${discountedPrice}`);
 
+        // Store the product info with discounted price for display purposes
+        productsToAdd.push({
+            id: variantId,
+            quantity: 1,
+            discountedPrice // Store the discounted price for later use (e.g., display)
+        });
+    }
+
+    // Add products to cart
+    for (const product of productsToAdd) {
         await fetch('/cart/add.js', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 }) // Send only the variant ID and quantity to the cart
+            body: JSON.stringify({ id: product.id, quantity: product.quantity }) // Send only the variant ID and quantity to the cart
         });
     }
+
+    // You can now update the total price display or any other relevant UI elements with the discounted prices if needed
 }
+
 
 
 
