@@ -47,12 +47,21 @@
             </a>
           </h3>
           {% assign discounted_price = product.variants.first.price | minus: product.metafields.custom.fbt_discount %}
-            <p class="price" id="main-product-price">{{ product.variants.first.price | money  }}<span>{{ discounted_price | money }}</span></p>
+          <p class="price" id="main-product-price">
+            {{ product.variants.first.price | money -}}
+            <span>{{ discounted_price | money }}</span>
+          </p>
           {% if product.variants.size > 1 %}
             <div class="variant-selector">
               <select class="variant-dropdown" onchange="updateMainProductPrice()">
                 {% for variant in product.variants %}
-                  <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == product.variants.first %} selected {% endif %}>
+                  <option
+                    value="{{ variant.id }}"
+                    data-price="{{ variant.price | money }}"
+                    {% if variant == product.variants.first %}
+                      selected
+                    {% endif %}
+                  >
                     {{ variant.title }}
                   </option>
                 {% endfor %}
@@ -63,7 +72,10 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+        <div
+          class="suggested-product f-product-row"
+          data-product-variant-id="{{ suggested_product.variants.first.id }}"
+        >
           <div class="devider">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -106,10 +118,14 @@
             {% if suggested_product.variants.size > 1 %}
               <div class="variant-selector">
                 <select class="variant-dropdown" onchange="updateSuggestedProductPrice(this)">
-                  {% for variant in suggested_product.variants %}
-                    <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == suggested_product.variants.first %} selected {% endif %}>
-                      {{ variant.title }}
-                    </option>
+                  {% for suggested_product in section.settings.product_list %}
+                    {% assign suggested_discounted_price = suggested_product.variants.first.price
+                      | minus: product.metafields.custom.fbt_discount
+                    %}
+                    <p class="price suggested-price">
+                      Original Price: {{ suggested_product.variants.first.price | money }}
+                      <span>Discounted Price: {{ suggested_discounted_price | money }}</span>
+                    </p>
                   {% endfor %}
                 </select>
               </div>
@@ -120,10 +136,13 @@
     </div>
 
     <div class="frequently_boughts-info">
-      <div class="discounts" ><span class ="value" >{{ product.metafields.custom.fbt_discount }}</span>% Saving</div>
+      <div class="discounts">
+        <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
+      </div>
       <div class="info-wrapper">
         <p class="price">
-          <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
+          <span>Total Price:</span><span class="discounted-Price"></span>
+          <span id="total-price">{{ product.variants.first.price | money }}</span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
       </div>
