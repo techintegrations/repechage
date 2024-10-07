@@ -6,11 +6,11 @@
 
 .frequently_boughts-info .info-wrapper .price .discounted-Price {
     margin-left: 10px;
-  text-decoration:line-through;
 }
 
 .frequently_boughts-info .info-wrapper .price #total-price {
     margin-left: 10px;
+  text-decoration:line-through;
 }
 
 .main-frequently_boughts .discounts {
