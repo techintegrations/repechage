@@ -193,7 +193,10 @@ function updateProductVariants() {
         const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
         
         productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice - document.querySelector(".frequently_boughts-info .discounts .value").innerHTML;
+        totalPrice += suggestedProductPrice;
+       let discountedPrice = totalPrice - document.querySelector(".frequently_boughts-info .discounts .value").innerHTML;
+       document.querySelector(".discounted-Price").innerHTML = discountedPrice;
+      
     });
 
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
