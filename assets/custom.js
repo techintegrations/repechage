@@ -165,7 +165,7 @@ function updateMainProductPrice() {
     const mainProductEl = document.querySelector('.main-product');
     const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
     const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
-    mainProductPriceEl.textContent = selectedVariant.dataset.price;
+    mainProductPriceEl.textContent = selectedVariant.dataset.discountedPrice; // Updated to use discounted price
     updateProductVariants();
 }
 
@@ -173,7 +173,7 @@ function updateSuggestedProductPrice(dropdown) {
     const suggestedProductEl = dropdown.closest('.suggested-product');
     const selectedVariant = dropdown.selectedOptions[0];
     const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
-    suggestedProductPriceEl.textContent = selectedVariant.dataset.price;
+    suggestedProductPriceEl.textContent = selectedVariant.dataset.discountedPrice; // Updated to use discounted price
     updateProductVariants();
 }
 
@@ -196,12 +196,14 @@ function updateProductVariants() {
         totalPrice += suggestedProductPrice;
       
     });
-      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-      // Calculate the discounted price
+    
+    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
   
+    // Calculate the discounted price
     const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
     const discountAmount = (discountPercentage / 100) * totalPrice;
     const discountedPrice = totalPrice - discountAmount;
+    
     document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
@@ -217,7 +219,7 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
 
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
-        const response = await fetch('/cart/add.js', {
+        await fetch('/cart/add.js', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ id: variantId, quantity: 1 })
