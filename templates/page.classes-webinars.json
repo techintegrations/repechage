@@ -209,6 +209,7 @@
         },
         "class_6h3WzJ": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "OCTOBER",
             "date": "7",
