@@ -181,34 +181,28 @@ function updateProductVariants() {
     productVariantIds = [];
     totalPrice = 0;
 
-    // Get the discount value (assumed to be in percentage form, e.g., 10 for 10%)
-    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
-
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    let mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-
-    // Apply discount to the main product price
-    mainProductPrice -= (mainProductPrice * discountPercentage) / 100;
+    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
     
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
     document.querySelectorAll('.suggested-product').forEach(productEl => {
         const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        let suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-
-        // Apply discount to the suggested product price
-        suggestedProductPrice -= (suggestedProductPrice * discountPercentage) / 100;
-
+        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+        
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
+      
     });
-
-    // Update the discounted total price in the DOM
-    document.querySelector(".discounted-Price").textContent = '$' + totalPrice.toFixed(2);
-
-    // Update the total price display
+      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+      // Calculate the discounted price
+  
+    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+    const discountAmount = (discountPercentage / 100) * totalPrice;
+    const discountedPrice = totalPrice - discountAmount;
+    document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
@@ -223,7 +217,6 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
 
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
-        // Here you can send the discounted price to the cart if you have custom API handling
         const response = await fetch('/cart/add.js', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
