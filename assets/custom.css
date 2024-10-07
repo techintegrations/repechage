@@ -67,7 +67,6 @@
 }
 
 .frequently_boughts-info {
-  position:relative;
   flex: 0 0 40%;
   display: flex;
   justify-content: center;
