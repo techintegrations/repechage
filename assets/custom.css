@@ -8,7 +8,7 @@
     margin-left: 10px;
 }
 
-.frequently_boughts-info .info-wrapper .price #total-price {
+.frequently_boughts-info .info-wrapper .price #total-price.crossed-price {
     margin-left: 10px;
   text-decoration:line-through;
 }
