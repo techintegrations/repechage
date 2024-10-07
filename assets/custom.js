@@ -194,7 +194,7 @@ function updateProductVariants() {
         
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
-       let discountedPrice = totalPrice - document.querySelector(".frequently_boughts-info .discounts .value").innerHTML;
+       let discountedPrice = totalPrice - document.querySelector(".frequently_boughts-info .discounts .value")%.innerHTML;
        document.querySelector(".discounted-Price").innerHTML = discountedPrice;
       
     });
