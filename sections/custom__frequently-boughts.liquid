@@ -119,11 +119,10 @@
     </div>
 
     <div class="frequently_boughts-info">
+      <div class="discounts" ><span class ="value" >20</span>% Saving</div>
       <div class="info-wrapper">
-        <p class ="discounted-Price" ></p>
-        <div class="discounts" ><span class ="value" >20</span>% Saving</div>
         <p class="price">
-          <span>Total Price:</span> <span id="total-price">{{ product.variants.first.price | money }}</span>
+          <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
       </div>
