@@ -155,17 +155,27 @@ $(document).ready(function () {
     });    
   }
 });
-
-// Frequently Boughts section
-
 let productVariantIds = [];
 let totalPrice = 0;
+
+function applyDiscount(price, discountPercent) {
+    return price - (price * (discountPercent / 100));
+}
 
 function updateMainProductPrice() {
     const mainProductEl = document.querySelector('.main-product');
     const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
     const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
-    mainProductPriceEl.textContent = selectedVariant.dataset.price;
+    const discountPercent = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+
+    let originalPrice = parseFloat(selectedVariant.dataset.price.replace(/[^0-9.-]+/g, ""));
+    let discountedPrice = applyDiscount(originalPrice, discountPercent);
+
+    mainProductPriceEl.innerHTML = `
+      Original Price: $${originalPrice.toFixed(2)}
+      <span>Discounted Price: $${discountedPrice.toFixed(2)}</span>
+    `;
+
     updateProductVariants();
 }
 
@@ -173,36 +183,45 @@ function updateSuggestedProductPrice(dropdown) {
     const suggestedProductEl = dropdown.closest('.suggested-product');
     const selectedVariant = dropdown.selectedOptions[0];
     const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
-    suggestedProductPriceEl.textContent = selectedVariant.dataset.price;
+    const discountPercent = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+
+    let originalPrice = parseFloat(selectedVariant.dataset.price.replace(/[^0-9.-]+/g, ""));
+    let discountedPrice = applyDiscount(originalPrice, discountPercent);
+
+    suggestedProductPriceEl.innerHTML = `
+      Original Price: $${originalPrice.toFixed(2)}
+      <span>Discounted Price: $${discountedPrice.toFixed(2)}</span>
+    `;
+
     updateProductVariants();
 }
 
 function updateProductVariants() {
     productVariantIds = [];
     totalPrice = 0;
+    const discountPercent = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
 
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+    let mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
     
+    // Apply discount to main product
+    mainProductPrice = applyDiscount(mainProductPrice, discountPercent);
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
     document.querySelectorAll('.suggested-product').forEach(productEl => {
         const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-        
+        let suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+
+        // Apply discount to suggested products
+        suggestedProductPrice = applyDiscount(suggestedProductPrice, discountPercent);
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
-      
     });
-      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-      // Calculate the discounted price
-  
-    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
-    const discountAmount = (discountPercentage / 100) * totalPrice;
-    const discountedPrice = totalPrice - discountAmount;
-    document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
+
+    // Update the total price with the discounted value
+    document.querySelector(".discounted-Price").textContent = '$' + totalPrice.toFixed(2);
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
@@ -213,24 +232,4 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
         updateSuggestedProductPrice(dropdown);
         updateProductVariants();
     });
-});
-
-async function addProductsToCart() {
-    for (const variantId of productVariantIds) {
-        const response = await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 })
-        });
-    }
-}
-
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
-    event.preventDefault();
-    await addProductsToCart();
-    theme.cart.getCartProductMarkup().then(cartMarkup => {
-        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-        cartForm.cartMarkup(cartMarkup);
-    });
-    document.dispatchEvent(new CustomEvent('cart:open'));
 });
