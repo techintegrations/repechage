@@ -3,9 +3,6 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
       background-color: {{section.settings.bg_color}};
-      {% unless section.settings.product_list != blank %}
-        display: none;
-      {% endunless %}
   }
 
   @media screen and (max-width:768px){
@@ -18,7 +15,7 @@
 
 <div class="main-wrapper-frequently_boughts page-width">
   {% if section.settings.top_heading != blank %}
-    <h2 class="top-heading text-center">
+    <h2 class="top-heading">
       {{ section.settings.top_heading }}
     </h2>
   {% endif %}
@@ -36,20 +33,17 @@
           <h3 class="title">
             <a href="{{ product.url }}">
               {{- product.title }}
-
-              <span class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                  width="20"
-                  height="20"
-                  class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
-                >
-                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-              </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+                width="20"
+                height="20"
+                class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
+              >
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
             </a>
           </h3>
           <p class="price" id="main-product-price">{{ product.variants.first.price | money }}</p>
@@ -57,13 +51,7 @@
             <div class="variant-selector">
               <select class="variant-dropdown" onchange="updateMainProductPrice()">
                 {% for variant in product.variants %}
-                  <option
-                    value="{{ variant.id }}"
-                    data-price="{{ variant.price | money }}"
-                    {% if variant == product.variants.first %}
-                      selected
-                    {% endif %}
-                  >
+                  <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == product.variants.first %} selected {% endif %}>
                     {{ variant.title }}
                   </option>
                 {% endfor %}
@@ -74,10 +62,7 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        <div
-          class="suggested-product f-product-row"
-          data-product-variant-id="{{ suggested_product.variants.first.id }}"
-        >
+        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
           <div class="devider">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,19 +88,17 @@
             <h3 class="title">
               <a href="{{ suggested_product.url }}">
                 {{- suggested_product.title }}
-                <span class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    width="20"
-                    height="20"
-                    class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
-                  >
-                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                  </svg>
-                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                  class="-rotate-90 absolute right-[-24px] lg:right-0 top-[50%] translate-y-[-50%]"
+                >
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
               </a>
             </h3>
             <p class="price suggested-price">{{ suggested_product.variants.first.price | money }}</p>
@@ -123,13 +106,7 @@
               <div class="variant-selector">
                 <select class="variant-dropdown" onchange="updateSuggestedProductPrice(this)">
                   {% for variant in suggested_product.variants %}
-                    <option
-                      value="{{ variant.id }}"
-                      data-price="{{ variant.price | money }}"
-                      {% if variant == suggested_product.variants.first %}
-                        selected
-                      {% endif %}
-                    >
+                    <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == suggested_product.variants.first %} selected {% endif %}>
                       {{ variant.title }}
                     </option>
                   {% endfor %}
@@ -142,16 +119,16 @@
     </div>
 
     <div class="frequently_boughts-info">
+      <div class="discounts" ><span class ="value" >20</span>% Saving</div>
       <div class="info-wrapper">
         <p class="price">
-          <span>Total Price:</span> <span id="total-price">{{ product.variants.first.price | money }}</span>
+          <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
       </div>
     </div>
   </div>
 </div>
-
 {% schema %}
 {
   "name": "Frequently Boughts",
