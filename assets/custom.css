@@ -107,6 +107,9 @@
   border-radius: 100%;
   display: flex;
 }
+.frequently_boughts-info .info-wrapper {
+    text-align: center;
+}
 /* End Suggested Products Section */
 
 .flickity-page-dots {
