@@ -46,7 +46,8 @@
               </svg>
             </a>
           </h3>
-          <p class="price" id="main-product-price">{{ product.variants.first.price | money }}</p>
+          {% assign discounted_price = product.variants.first.price | minus: product.metafields.custom.fbt_discount %}
+            <p class="price" id="main-product-price">{{ product.variants.first.price | money  }}<span>{{ discounted_price | money }}</span></p>
           {% if product.variants.size > 1 %}
             <div class="variant-selector">
               <select class="variant-dropdown" onchange="updateMainProductPrice()">
@@ -119,7 +120,7 @@
     </div>
 
     <div class="frequently_boughts-info">
-      <div class="discounts" ><span class ="value" >20</span>% Saving</div>
+      <div class="discounts" ><span class ="value" >{{ product.metafields.custom.fbt_discount }}</span>% Saving</div>
       <div class="info-wrapper">
         <p class="price">
           <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
