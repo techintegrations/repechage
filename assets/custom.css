@@ -1,10 +1,32 @@
 /* Suggested Products Section */
 
+.frequently_boughts-info .info-wrapper .price {
+    display: flex;
+}
+
+.frequently_boughts-info .info-wrapper .price .discounted-Price {
+    margin-left: 10px;
+}
+
+.frequently_boughts-info .info-wrapper .price #total-price {
+    margin-left: 10px;
+  text-decoration:line-through;
+}
+
+.main-frequently_boughts .discounts {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+}
+
 .suggested-product:nth-child(2) {
   border-top:0;
 }
 
-.f-product-row .title span.icon {
+.f-product-row .title svg {
   rotate: -90deg;
 }
 
@@ -24,6 +46,7 @@
   flex-wrap: wrap;
   border: 1px solid #0000003d;
   margin-bottom: 50px;
+  position:relative;
 }
 .main-products-wrapper .f-product-row {
   display: flex;
@@ -40,7 +63,7 @@
 }
 
 .main-products-wrapper .f-product-row .image-wrap {
-    flex: 0 0 120px;
+    flex: 0 0 15%;
     line-height: 0;
 }
 
@@ -58,7 +81,7 @@
 }
 
 .frequently_boughts-info {
-  flex: 1 0 0;
+  flex: 0 0 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,21 +106,7 @@
   top: -20px;
   border-radius: 100%;
   display: flex;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
-.main-wrapper-frequently_boughts .top-heading {
-    margin-bottom: 32px;
-}
-
-.suggested-product-info.info-wrap .variant-selector {
-    margin-top: 10px;
-}
-
-.suggested-product-info.info-wrap .price.suggested-price {
-    margin-bottom: 0px;
-}
-
 /* End Suggested Products Section */
 
 .flickity-page-dots {
