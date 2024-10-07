@@ -1,6 +1,18 @@
 /* Suggested Products Section */
 
-.discounts {
+.frequently_boughts-info .info-wrapper .price {
+    display: flex;
+}
+
+.frequently_boughts-info .info-wrapper .price .discounted-Price {
+    margin-left: 10px;
+}
+
+.frequently_boughts-info .info-wrapper .price #total-price {
+    margin-left: 10px;
+}
+
+.main-frequently_boughts .discounts {
     position: absolute;
     top: 0;
     right: -1px;
@@ -33,6 +45,7 @@
   flex-wrap: wrap;
   border: 1px solid #0000003d;
   margin-bottom: 50px;
+  position:relative;
 }
 .main-products-wrapper .f-product-row {
   display: flex;
