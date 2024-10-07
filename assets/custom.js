@@ -184,7 +184,7 @@ function updateProductVariants() {
     const mainProductEl = document.querySelector('.main-product');
     const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
     const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-    
+
     productVariantIds.push(mainProductVariantId);
     totalPrice += mainProductPrice;
 
@@ -193,18 +193,15 @@ function updateProductVariants() {
         const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
         
         productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;      
+        totalPrice += suggestedProductPrice;
     });
 
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-
-    // Calculate the discounted price
+    
     const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
     const discountAmount = (discountPercentage / 100) * totalPrice;
     const discountedPrice = totalPrice - discountAmount;
-    
     document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
 updateProductVariants();
@@ -218,46 +215,34 @@ document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
 
 async function addProductsToCart() {
     for (const variantId of productVariantIds) {
-        const variantElement = document.querySelector(`[data-product-variant-id="${variantId}"]`);
-        console.log('Variant Element:', variantElement); // Check if this logs null
+        const mainProductPrice = parseFloat(document.querySelector('.main-product .product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
+        const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+        const discountedPrice = mainProductPrice - (mainProductPrice * discountPercentage / 100);
 
-        if (variantElement) {
-            const originalPriceText = variantElement.querySelector('.suggested-product-info .price');
-            const originalPrice = parseFloat(originalPriceText.textContent.replace(/[^0-9.-]+/g, ""));
-            const discount = parseFloat(variantElement.dataset.discount || 0);
-            const discountedPrice = originalPrice - discount;
+        const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: variantId, quantity: 1 }) // Ensure the variant ID is correct
+        });
 
-            try {
-                const response = await fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ id: variantId, quantity: 1 }) // Send the discounted price
-                });
-
-                if (!response.ok) {
-                    const errorData = await response.json();
-                    console.error('Failed to add product to cart:', errorData);
-                } else {
-                    console.log(`Added variant ${variantId} to the cart.`);
-                }
-            } catch (error) {
-                console.error('Error adding product to cart:', error);
-            }
-        } else {
-            console.error(`Variant element not found for variant ID: ${variantId}`);
+        if (!response.ok) {
+            const errorData = await response.json();
+            console.error('Error adding product to cart:', errorData);
+            throw new Error('Failed to add product to cart: ' + errorData.message);
         }
     }
 }
 
 document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
     event.preventDefault();
-    await addProductsToCart();
-    theme.cart.getCartProductMarkup().then(cartMarkup => {
-        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-        cartForm.cartMarkup(cartMarkup);
-    });
-    document.dispatchEvent(new CustomEvent('cart:open'));
+    try {
+        await addProductsToCart();
+        theme.cart.getCartProductMarkup().then(cartMarkup => {
+            const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
+            cartForm.cartMarkup(cartMarkup);
+        });
+        document.dispatchEvent(new CustomEvent('cart:open'));
+    } catch (error) {
+        console.error('Failed to add products to cart:', error);
+    }
 });
-
-// Initialize the product variants on page load
-updateProductVariants();
