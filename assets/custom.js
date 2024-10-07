@@ -194,11 +194,22 @@ function updateProductVariants() {
         
         productVariantIds.push(suggestedProductVariantId);
         totalPrice += suggestedProductPrice;
-       let discountedPrice = totalPrice - document.querySelector(".frequently_boughts-info .discounts .value").innerHTML;
-       document.querySelector(".discounted-Price").innerHTML = discountedPrice;
       
     });
+document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 
+
+  // Get the discount value (assumed to be in percentage form, e.g., 10 for 10%)
+    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+
+    // Calculate the discounted price
+    const discountAmount = (discountPercentage / 100) * totalPrice;
+    const discountedPrice = totalPrice - discountAmount;
+
+    // Update the discounted price in the DOM
+    document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
+
+    // Update total price display
     document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
