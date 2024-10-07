@@ -155,85 +155,81 @@ $(document).ready(function () {
     });    
   }
 });
+let productVariantIds = [];
+let totalPrice = 0;
 
-// Frequently Boughts
+function applyDiscount(price, discountPercent) {
+    return price - (price * (discountPercent / 100));
+}
 
-document.addEventListener('DOMContentLoaded', function () {
-  // Get discount value from the metafield
-  const discountPercentage = parseFloat(document.querySelector('.discounts .value').textContent);
+function updateMainProductPrice() {
+    const mainProductEl = document.querySelector('.main-product');
+    const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
+    const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
+    const discountPercent = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
 
-  // Function to calculate discounted price
-  function calculateDiscountedPrice(originalPrice) {
-    return originalPrice - (originalPrice * (discountPercentage / 100));
-  }
+    let originalPrice = parseFloat(selectedVariant.dataset.price.replace(/[^0-9.-]+/g, ""));
+    let discountedPrice = applyDiscount(originalPrice, discountPercent);
 
-  // Function to update the main product price when the variant is changed
-  function updateMainProductPrice() {
-    const variantDropdown = document.querySelector('.main-product .variant-dropdown');
-    const selectedVariant = variantDropdown.options[variantDropdown.selectedIndex];
-    const originalPrice = parseFloat(selectedVariant.getAttribute('data-price').replace(/[^0-9.-]+/g,""));
+    mainProductPriceEl.innerHTML = `
+      Original Price: $${originalPrice.toFixed(2)}
+      <span>Discounted Price: $${discountedPrice.toFixed(2)}</span>
+    `;
+
+    updateProductVariants();
+}
+
+function updateSuggestedProductPrice(dropdown) {
+    const suggestedProductEl = dropdown.closest('.suggested-product');
+    const selectedVariant = dropdown.selectedOptions[0];
+    const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
+    const discountPercent = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+
+    let originalPrice = parseFloat(selectedVariant.dataset.price.replace(/[^0-9.-]+/g, ""));
+    let discountedPrice = applyDiscount(originalPrice, discountPercent);
+
+    suggestedProductPriceEl.innerHTML = `
+      Original Price: $${originalPrice.toFixed(2)}
+      <span>Discounted Price: $${discountedPrice.toFixed(2)}</span>
+    `;
+
+    updateProductVariants();
+}
+
+function updateProductVariants() {
+    productVariantIds = [];
+    totalPrice = 0;
+    const discountPercent = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
+
+    const mainProductEl = document.querySelector('.main-product');
+    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
+    let mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
     
-    const discountedPrice = calculateDiscountedPrice(originalPrice);
+    // Apply discount to main product
+    mainProductPrice = applyDiscount(mainProductPrice, discountPercent);
+    productVariantIds.push(mainProductVariantId);
+    totalPrice += mainProductPrice;
 
-    // Update price on the page
-    const mainProductPriceElement = document.querySelector('#main-product-price');
-    mainProductPriceElement.innerHTML = `Original Price: ${formatPrice(originalPrice)} <span>Discounted Price: ${formatPrice(discountedPrice)}</span>`;
-    
-    // Update total price
-    updateTotalPrice();
-  }
+    document.querySelectorAll('.suggested-product').forEach(productEl => {
+        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
+        let suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
 
-  // Function to update the suggested product price when the variant is changed
-  function updateSuggestedProductPrice(element) {
-    const selectedVariant = element.options[element.selectedIndex];
-    const originalPrice = parseFloat(selectedVariant.getAttribute('data-price').replace(/[^0-9.-]+/g,""));
-    
-    const discountedPrice = calculateDiscountedPrice(originalPrice);
-
-    // Update price on the page
-    const suggestedProductPriceElement = element.closest('.suggested-product').querySelector('.suggested-price');
-    suggestedProductPriceElement.innerHTML = `Original Price: ${formatPrice(originalPrice)} <span>Discounted Price: ${formatPrice(discountedPrice)}</span>`;
-    
-    // Update total price
-    updateTotalPrice();
-  }
-
-  // Function to update the total price in the frequently bought together section
-  function updateTotalPrice() {
-    const mainProductPrice = parseFloat(document.querySelector('.main-product .variant-dropdown').options[document.querySelector('.main-product .variant-dropdown').selectedIndex].getAttribute('data-price').replace(/[^0-9.-]+/g,""));
-    
-    let totalPrice = calculateDiscountedPrice(mainProductPrice);
-
-    // Loop through suggested products and add their discounted prices
-    document.querySelectorAll('.suggested-product .variant-dropdown').forEach(function (dropdown) {
-      const selectedVariantPrice = parseFloat(dropdown.options[dropdown.selectedIndex].getAttribute('data-price').replace(/[^0-9.-]+/g,""));
-      totalPrice += calculateDiscountedPrice(selectedVariantPrice);
+        // Apply discount to suggested products
+        suggestedProductPrice = applyDiscount(suggestedProductPrice, discountPercent);
+        productVariantIds.push(suggestedProductVariantId);
+        totalPrice += suggestedProductPrice;
     });
 
-    // Update total price in the DOM
-    document.querySelector('#total-price').textContent = formatPrice(totalPrice);
-  }
+    // Update the total price with the discounted value
+    document.querySelector(".discounted-Price").textContent = '$' + totalPrice.toFixed(2);
+    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+}
 
-  // Utility function to format the price as currency
-  function formatPrice(price) {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD'
-    }).format(price);
-  }
+updateProductVariants();
 
-  // Attach event listeners to variant dropdowns
-  document.querySelectorAll('.variant-dropdown').forEach(function (dropdown) {
-    dropdown.addEventListener('change', function () {
-      if (this.closest('.main-product')) {
-        updateMainProductPrice();
-      } else {
-        updateSuggestedProductPrice(this);
-      }
+document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
+    dropdown.addEventListener('change', () => {
+        updateSuggestedProductPrice(dropdown);
+        updateProductVariants();
     });
-  });
-
-  // Initial call to set up the prices on page load
-  updateMainProductPrice();
-  updateTotalPrice();
 });
