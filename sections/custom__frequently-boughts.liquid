@@ -120,11 +120,11 @@
 
     <div class="frequently_boughts-info">
       {% if product.metafields.custom.fbt_discount != blank %}
-        <div class="discounts" ><span class ="value" >{{ product.metafields.custom.fbt_discount }}</span>% Saving</div>
+      <div class="discounts" ><span class ="value" >{{ product.metafields.custom.fbt_discount }}</span>% Saving</div>
       {% endif %}
       <div class="info-wrapper">
         <p class="price">
-          <span>Total Price:</span><span class ="discounted-Price" ></span> <span {% if product.metafields.custom.fbt_discount != blank %}class="crossed-price"{% endif %}id="total-price">{{ product.variants.first.price | money }}</span>
+          <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
       </div>
