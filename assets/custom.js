@@ -157,6 +157,7 @@ $(document).ready(function () {
 });
 
 // Frequently Boughts section
+// Frequently Boughts section
 
 let productVariantIds = [];
 let totalPrice = 0;
@@ -165,7 +166,7 @@ function updateMainProductPrice() {
     const mainProductEl = document.querySelector('.main-product');
     const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
     const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
-    mainProductPriceEl.textContent = selectedVariant.dataset.discountedPrice; // Updated to use discounted price
+    mainProductPriceEl.textContent = selectedVariant.dataset.price; // Keep original price
     updateProductVariants();
 }
 
@@ -173,7 +174,7 @@ function updateSuggestedProductPrice(dropdown) {
     const suggestedProductEl = dropdown.closest('.suggested-product');
     const selectedVariant = dropdown.selectedOptions[0];
     const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
-    suggestedProductPriceEl.textContent = selectedVariant.dataset.discountedPrice; // Updated to use discounted price
+    suggestedProductPriceEl.textContent = selectedVariant.dataset.price; // Keep original price
     updateProductVariants();
 }
 
@@ -193,7 +194,7 @@ function updateProductVariants() {
         const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
         
         productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;
+        totalPrice += suggestedProductPrice; // Keep original price
       
     });
     
@@ -205,7 +206,6 @@ function updateProductVariants() {
     const discountedPrice = totalPrice - discountAmount;
     
     document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
 }
 
 updateProductVariants();
@@ -222,7 +222,7 @@ async function addProductsToCart() {
         await fetch('/cart/add.js', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 })
+            body: JSON.stringify({ id: variantId, quantity: 1 }) // Add original prices to cart
         });
     }
 }
