@@ -46,6 +46,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify://shop_images/retail-us-q4.jpg",
+            "image_mobile": "shopify://shop_images/5_52cddc86-9abe-4dac-8600-0ef5f6ab4b53.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -102,7 +103,7 @@
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/Banner_Q4_-_1.jpg",
-            "image_mobile": "shopify://shop_images/Banner_003.jpg",
+            "image_mobile": "shopify://shop_images/1_9270436c-b7c8-4d48-8781-78e232047ebf.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
