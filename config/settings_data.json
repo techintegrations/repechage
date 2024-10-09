@@ -74,7 +74,7 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "cart_progress_threshold": "99",
-    "cart_post_goal_message": "<p>🎉 Congrats! You've unlocked <strong>FREE SHIPPING<\/strong><\/p>",
+    "cart_post_goal_message": "<p>🎉 Congrats! You've unlocked <strong>FREE SHIPPING</strong></p>",
     "cart_progress_bar_color": "#000000",
     "cart_progress_bar_full_color": "#000000",
     "show_sample_product": true,
@@ -111,13 +111,13 @@
     ],
     "max_product_message": "Max [number] Samples are allowed",
     "sample_products_trigger": "SELECT 3 FREE SAMPLES",
-    "social_facebook_link": "https:\/\/www.facebook.com\/RepechageSkinCare",
-    "social_twitter_link": "https:\/\/twitter.com\/Repechage",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/repechage\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/repechage\/",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@repechage",
-    "social_youtube_link": "https:\/\/www.youtube.com\/user\/SarkliRepechage",
-    "favicon": "shopify:\/\/shop_images\/favicon.jpg",
+    "social_facebook_link": "https://www.facebook.com/RepechageSkinCare",
+    "social_twitter_link": "https://twitter.com/Repechage",
+    "social_pinterest_link": "https://www.pinterest.com/repechage/",
+    "social_instagram_link": "https://www.instagram.com/repechage/",
+    "social_tiktok_link": "https://www.tiktok.com/@repechage",
+    "social_youtube_link": "https://www.youtube.com/user/SarkliRepechage",
+    "favicon": "shopify://shop_images/favicon.jpg",
     "search_enable": true,
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
@@ -125,7 +125,7 @@
       "algo-mist-hydrating-seaweed-facial-spray-2"
     ],
     "amount": 250,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Repechage-logo-2019-black-340px.jpg",
+    "checkout_logo_image": "shopify://shop_images/Repechage-logo-2019-black-340px.jpg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
@@ -228,20 +228,20 @@
     ],
     "blocks": {
       "7570552984445421165": {
-        "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
         "settings": {
         }
       },
       "14339172867238703359": {
-        "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews_tab\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews_tab/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
         "settings": {
           "product": ""
         }
       },
       "17151115064775110295": {
-        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": false,
         "settings": {
           "color_brand": "#467C99",
@@ -257,24 +257,30 @@
         }
       },
       "1232542678405107163": {
-        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "4291333794791649201": {
-        "type": "shopify:\/\/apps\/loyalty-rewards-and-referrals\/blocks\/embed-sdk\/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "type": "shopify://apps/loyalty-rewards-and-referrals/blocks/embed-sdk/6f172e67-4106-4ac0-89c5-b32a069b3101",
         "disabled": false,
         "settings": {
           "disableBundledCSS": false,
           "disableBundledFonts": false,
           "useClassIsolator": false
+        }
+      },
+      "12543949710164844351": {
+        "type": "shopify://apps/gwa-hreflang-manager/blocks/gwa-hreflang/35dc0b05-d599-4c8e-8584-8cd17768854a",
+        "disabled": false,
+        "settings": {
         }
       }
     }
@@ -470,7 +476,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -503,7 +509,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "popup_image": "",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -527,7 +533,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -538,7 +544,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -549,7 +555,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
