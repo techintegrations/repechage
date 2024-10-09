@@ -222,6 +222,7 @@
         },
         "class_eTk6PY": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "OCTOBER",
             "date": "13-14",
@@ -234,6 +235,7 @@
         },
         "class_M4rGmV": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "OCTOBER",
             "date": "13",
@@ -246,6 +248,7 @@
         },
         "class_zQXkbf": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "OCTOBER",
             "date": "14",
