@@ -137,7 +137,7 @@
       {% endfor %}
     </div>
 
-    <div class="frequently_boughts-info {% if product.metafields.custom.fbt_discount != blank %}hide-discount{% endif %}">
+    <div class="frequently_boughts-info {% unless product.metafields.custom.fbt_discount != blank %}hide-discount{% endunless %}">
         <div class="discounts">
       {% if product.metafields.custom.fbt_discount != blank %}
           <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
