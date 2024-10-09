@@ -1,3 +1,7 @@
+.frequently_boughts-info.hide-discount {
+    opacity: 0;
+}
+
 /* Suggested Products Section */
 
 .frequently_boughts-info .info-wrapper .price {
