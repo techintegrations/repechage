@@ -1793,15 +1793,15 @@ body.template-cart #cart-progress-wrapper {
   .suggested-product.f-product-row {
       padding-top: 35px;
   }
+
+   .main-frequently_boughts {
+      display: block;
+    }
   
 }
 
 
 @media only screen and (max-width: 480px) {
-
-  .main-frequently_boughts {
-      display: block;
-  }
 
   .image-with-info-title h2 {
       font-size: 24px;
