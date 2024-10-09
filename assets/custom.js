@@ -207,7 +207,7 @@ function updateProductVariants() {
       document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
       // Calculate the discounted price
   
-    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").innerHTML);
+    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
     const discountAmount = (discountPercentage / 100) * totalPrice;
     const discountedPrice = totalPrice - discountAmount;
     document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
