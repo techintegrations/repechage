@@ -2,6 +2,10 @@
     opacity: 0;
 }
 
+.frequently_boughts-info.hide-discount .discounted-Price {
+    display: none !important;
+}
+
 /* Suggested Products Section */
 
 .frequently_boughts-info .info-wrapper .price {
