@@ -51,7 +51,13 @@
             <div class="variant-selector">
               <select class="variant-dropdown" onchange="updateMainProductPrice()">
                 {% for variant in product.variants %}
-                  <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == product.variants.first %} selected {% endif %}>
+                  <option
+                    value="{{ variant.id }}"
+                    data-price="{{ variant.price | money }}"
+                    {% if variant == product.variants.first %}
+                      selected
+                    {% endif %}
+                  >
                     {{ variant.title }}
                   </option>
                 {% endfor %}
@@ -62,7 +68,10 @@
       </div>
 
       {% for suggested_product in section.settings.product_list %}
-        <div class="suggested-product f-product-row" data-product-variant-id="{{ suggested_product.variants.first.id }}">
+        <div
+          class="suggested-product f-product-row"
+          data-product-variant-id="{{ suggested_product.variants.first.id }}"
+        >
           <div class="devider">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +115,13 @@
               <div class="variant-selector">
                 <select class="variant-dropdown" onchange="updateSuggestedProductPrice(this)">
                   {% for variant in suggested_product.variants %}
-                    <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% if variant == suggested_product.variants.first %} selected {% endif %}>
+                    <option
+                      value="{{ variant.id }}"
+                      data-price="{{ variant.price | money }}"
+                      {% if variant == suggested_product.variants.first %}
+                        selected
+                      {% endif %}
+                    >
                       {{ variant.title }}
                     </option>
                   {% endfor %}
@@ -120,11 +135,21 @@
 
     <div class="frequently_boughts-info">
       {% if product.metafields.custom.fbt_discount != blank %}
-      <div class="discounts" ><span class ="value" >{{ product.metafields.custom.fbt_discount }}</span>% Saving</div>
+        <div class="discounts">
+          <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
+        </div>
       {% endif %}
       <div class="info-wrapper">
         <p class="price">
-          <span>Total Price:</span><span class ="discounted-Price" ></span> <span id="total-price">{{ product.variants.first.price | money }}</span>
+          <span>Total Price:</span><span class="discounted-Price"></span>
+          <span
+            {% if product.metafields.custom.fbt_discount != blank %}
+              class="crossed-price"
+            {% endif -%}
+            id="total-price"
+          >
+            {{- product.variants.first.price | money -}}
+          </span>
         </p>
         <button class="add-to-cart-F-B btn" type="submit">Add to cart</button>
       </div>
