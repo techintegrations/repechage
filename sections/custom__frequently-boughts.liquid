@@ -132,21 +132,20 @@
         </div>
       {% endfor %}
     </div>
- {% assign is_metafeild = false %}
-   
-   {% if product.metafields.custom.fbt_discount != blank %}
-     {% assign is_metafeild = true %}
-    {% endif %}
+
     <div class="frequently_boughts-info">
-      {% if is_metafeild %}
-        <div class="discounts">
-      {% if product.metafields.custom.fbt_discount != blank %}
-        <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
-        {% else %}
+
+       {% if product.metafields.custom.fbt_discount != blank %}
+         <div class="discounts">
         <span class="value">0</span>% Saving
-      {% endif %}
+        {% else %}
+          <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
+        </div>
+      {% else %}
+        <div class="discounts">
         </div>
       {% endif %}
+        </div>
       <div class="info-wrapper">
         <p class="price">
           <span>Total Price:</span><span class="discounted-Price"></span>
