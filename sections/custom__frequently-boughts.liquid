@@ -98,7 +98,7 @@
           </div>
           <div class="suggested-product-info info-wrap">
             <p class="tag">Suggested Product</p>
-            <h3 class="title">
+            <h3 class="title"> 
               <a href="{{ suggested_product.url }}">
                 {{- suggested_product.title }}
                 <svg
@@ -137,7 +137,7 @@
       {% endfor %}
     </div>
 
-    <div class="frequently_boughts-info">
+    <div class="frequently_boughts-info {% if product.metafields.custom.fbt_discount != blank %}hide-discount{% endif %}">
         <div class="discounts">
       {% if product.metafields.custom.fbt_discount != blank %}
         <span class="value">0</span>% Saving
