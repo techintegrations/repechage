@@ -134,11 +134,13 @@
     </div>
 
     <div class="frequently_boughts-info">
-      {% if product.metafields.custom.fbt_discount != blank %}
         <div class="discounts">
-          <span class="value">10</span>% Saving
-        </div>
+      {% if product.metafields.custom.fbt_discount != blank %}
+        <span class="value">0</span>% Saving
+        {% else %}
+          <span class="value">{{ product.metafields.custom.fbt_discount }}</span>% Saving
       {% endif %}
+        </div>
       <div class="info-wrapper">
         <p class="price">
           <span>Total Price:</span><span class="discounted-Price"></span>
