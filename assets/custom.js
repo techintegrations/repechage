@@ -1,248 +1,66 @@
-$(document).ready(function () {
-  $(".featured-collection-tabs .tab").on("click", function (evt) {
-    evt.preventDefault();
-    $(this).toggleClass("active");
-    $(this).siblings().removeClass("active");
-    var sel = this.getAttribute("data-toggle-target");
-    $(".featured-collection-tabs .tab-content")
-      .removeClass("active")
-      .filter(sel)
-      .addClass("active");
-  });
+// Function to add selected products to the cart
+function undelCartadd() {
+  const productSelectors = document.querySelectorAll('.addon-products');
+  let selectedProducts = [];
 
-  $(".product-tabs .tab").on("click", function (evt) {
-    evt.preventDefault();
-    $(this).toggleClass("active");
-    $(this).siblings().removeClass("active");
-    var sel = this.getAttribute("data-toggle-target");
-    $(".product-tabs .tab-content")
-      .removeClass("active")
-      .filter(sel)
-      .addClass("active");
-  });
+  // Loop through each selector to collect the selected product
+  productSelectors.forEach(function(selector) {
+    const selectedOption = selector.options[selector.selectedIndex];
+    const productId = selectedOption.value;
 
-  const flickitySlider1 = new Flickity(".text-with-logos-slider", {
-      cellAlign: "center",
-      contain: true,
-      prevNextButtons: true,
-      pageDots: true,
-      freeScroll: false,
-      avoidReflow: true,
-      wrapAround: true,
-  });
-  
-  const flickitySlider2 = new Flickity(".product-ingredients-slider", {
-      cellAlign: "left",
-      contain: true,
-      prevNextButtons: false,
-      pageDots: true,
-      freeScroll: false,
-      avoidReflow: true,
-      wrapAround: true,
-  });
-
-  const flickitySlider3 = new Flickity(".product-list-block_slider", {
-      cellAlign: "left",
-      contain: true,
-      prevNextButtons: true,
-      pageDots: true,
-      freeScroll: false,
-      avoidReflow: true,
-      wrapAround: true,
-  });
-
-    $('.site-nav__item').hover(
-      function() { // Mouse enter
-        var itemClass = $(this).attr('class').split(' ')[0]; // Get the first class of the <li>
-        $(this).find('.custom-grid.grid__item.' + itemClass).addClass('open');
-      },
-      function() { // Mouse leave
-        var itemClass = $(this).attr('class').split(' ')[0];
-        $(this).find('.custom-grid.grid__item.' + itemClass).removeClass('open');
-      }
-    );
-    
-  $(".image-slider-with-text .slider-for").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    dots: true,
-    fade: true,
-    asNavFor: ".slider-nav",
-    prevArrow: '.custom-arrows .left-arrow',
-    nextArrow: '.custom-arrows .right-arrow'
-  });
-
-  $(".image-slider-with-text .slider-nav").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    vertical: false,
-    asNavFor: ".image-slider-with-text .slider-for",
-    dots: false,
-    arrows: false,
-    focusOnSelect: true,
-    verticalSwiping: false,
-  });
-
-  
-  $('.custom-announcement-slider').slick({
-      vertical: true,
-      slidesToShow: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: true,
-      dots: false,
-      prevArrow: "<button type='button' class='slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
-      nextArrow: "<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
-      responsive: [
-      {
-          breakpoint: 992, // Adjust this value based on your mobile breakpoint
-          settings: {
-            slidesToShow: 1,
-            vertical: false,
-            arrows: true,
-            dots: false,
-            fade: false,
-            fade: true
-        }
+    // Only add if a valid product is selected
+    if (productId) {
+      selectedProducts.push({
+        id: productId,
+        quantity: 1 // Adjust quantity as needed
+      });
     }
-    ]
   });
 
-  var $stickyAddToCart = $(".sticky-add-to-cart-section");
-    var scrollThreshold = 1000; // Adjust this value to determine "two to three steps"
-
-    $(window).on("scroll", function() {
-        var scrollPosition = $(this).scrollTop();
-
-        if (scrollPosition >= scrollThreshold) {
-            $stickyAddToCart.addClass("show-sticky-bar");
-        } else {
-            $stickyAddToCart.removeClass("show-sticky-bar");
-        }
-    });
-
-  if (window.outerWidth < 769) {
-    $('.text-with-icons__blocks-slider').slick({
-      arrows: false, // Common setting for all breakpoints
-      dots: true, // Common setting for all breakpoints
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            centerMode: true,
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            centerMode: true,
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-  
-    const flickitySlider5 = new Flickity(".text-with-logos-mb-slider", {
-        cellAlign: "center",
-        contain: true,
-        prevNextButtons: false,
-        pageDots: true,
-        freeScroll: false,
-        avoidReflow: true,
-        wrapAround: true,
-    });    
+  // Check if there are selected products
+  if (selectedProducts.length > 0) {
+    addMultipleToCart(selectedProducts);
+  } else {
+    console.log("No products selected.");
   }
-});
-
-// Frequently Boughts section
-
-let productVariantIds = [];
-let totalPrice = 0;
-
-function updateMainProductPrice() {
-    const mainProductEl = document.querySelector('.main-product');
-    const selectedVariant = mainProductEl.querySelector('.variant-dropdown').selectedOptions[0];
-    const mainProductPriceEl = mainProductEl.querySelector('.product-info .price');
-    mainProductPriceEl.textContent = selectedVariant.dataset.price;
-    updateProductVariants();
 }
 
-function updateSuggestedProductPrice(dropdown) {
-    const suggestedProductEl = dropdown.closest('.suggested-product');
-    const selectedVariant = dropdown.selectedOptions[0];
-    const suggestedProductPriceEl = suggestedProductEl.querySelector('.suggested-product-info .price');
-    suggestedProductPriceEl.textContent = selectedVariant.dataset.price;
-    updateProductVariants();
-}
-
-function updateProductVariants() {
-    productVariantIds = [];
-    totalPrice = 0;
-
-    const mainProductEl = document.querySelector('.main-product');
-    const mainProductVariantId = mainProductEl.querySelector('.variant-dropdown')?.value || mainProductEl.getAttribute('data-product-variant-id');
-    const mainProductPrice = parseFloat(mainProductEl.querySelector('.product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-    
-    productVariantIds.push(mainProductVariantId);
-    totalPrice += mainProductPrice;
-
-    document.querySelectorAll('.suggested-product').forEach(productEl => {
-        const suggestedProductVariantId = productEl.querySelector('.variant-dropdown')?.value || productEl.getAttribute('data-product-variant-id');
-        const suggestedProductPrice = parseFloat(productEl.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-        
-        productVariantIds.push(suggestedProductVariantId);
-        totalPrice += suggestedProductPrice;
-      
-    });
-      document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
-      // Calculate the discounted price
+// Function to add multiple products to the Shopify cart via AJAX
+async function addMultipleToCart(products) {
+  const response = await fetch('/cart/add.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Requested-With': 'XMLHttpRequest'
+    },
+    body: JSON.stringify({
+      items: products // Pass all selected products at once
+    })
+  });
   
-    const discountPercentage = parseFloat(document.querySelector(".frequently_boughts-info .discounts .value").textContent);
-    const discountAmount = (discountPercentage / 100) * totalPrice;
-    const discountedPrice = totalPrice - discountAmount;
-    document.querySelector(".discounted-Price").textContent = '$' + discountedPrice.toFixed(2);
-    document.getElementById('total-price').textContent = '$' + totalPrice.toFixed(2);
+  const data = await response.json();
+  console.log('Products successfully added:', data);
 }
 
-updateProductVariants();
-
-document.querySelectorAll('.variant-dropdown').forEach(dropdown => {
-    dropdown.addEventListener('change', () => {
-        updateSuggestedProductPrice(dropdown);
-        updateProductVariants();
-    });
+// Attach event listeners to the Add to Cart buttons
+document.querySelectorAll(".product-form--atc-button").forEach((addBTN) => {
+  addBTN.addEventListener("click", () => {
+    undelCartadd();
+  });
 });
 
-async function addProductsToCart() {
-    for (const variantId of productVariantIds) {
-        // Get the original price from the variant element
-        const variantElement = document.querySelector(`[data-product-variant-id="${variantId}"]`);
-        const originalPrice = parseFloat(variantElement.querySelector('.suggested-product-info .price').textContent.replace(/[^0-9.-]+/g, ""));
-        
-        // Assuming you have a metafield for discount. Replace 'example.metafield' with your actual metafield.
-        const discount = parseFloat(variantElement.dataset.discount || 0); // Use the discount from the element or default to 0
-        
-        // Calculate discounted price
-        const discountedPrice = originalPrice - discount;
 
-        await fetch('/cart/add.js', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: variantId, quantity: 1 }) // Send original price
-            // Note: Shopify cart API does not support price adjustment on add. It only adds the item and calculates price at checkout.
-        });
-    }
+//update price 
+async function updatePriceAddon() {
+  let newCart = await fetch("/?section_id=product-form");
+  let cartData = await newCart.text();
+  let tempDiv = document.createElement("div");
+  tempDiv.innerHTML = cartData;
+  let newprice = tempDiv.querySelector(".product-details .product-title-wrap .product--price .price--main .exl_vat span").innerHTML;
+  document.querySelector(".product-details .product-title-wrap .product--price .price--main .exl_vat span").innerHTML = newprice;
 }
-
-
-document.querySelector('.add-to-cart-F-B').addEventListener('click', async (event) => {
-    event.preventDefault();
-    await addProductsToCart();
-    theme.cart.getCartProductMarkup().then(cartMarkup => {
-        const cartForm = new theme.CartForm(document.getElementById('CartDrawerForm'));
-        cartForm.cartMarkup(cartMarkup);
-    });
-    document.dispatchEvent(new CustomEvent('cart:open'));
+productSelectors.forEach((selector)=>{
+  selector.addEventListner("change",()=>{
+     updatePriceAddon();
+  });
 });
