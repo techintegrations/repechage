@@ -394,6 +394,40 @@
         "divider": false
       }
     },
+    "rich_text_cXPNKn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dtgkMQ": {
+          "type": "heading",
+          "settings": {
+            "title": "YOUR Exclusive Special Offer",
+            "title_color": "#000"
+          }
+        },
+        "text_DdLMCY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Sign up for our ALL ACCESS ($399) and redeem it in equal value for new launch product exclusively at the Day of Empowerment Event!!***</p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dtgkMQ",
+        "text_DdLMCY"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "background_image_text_UnDfb3": {
       "type": "background-image-text",
       "settings": {
@@ -974,6 +1008,7 @@
     "text_and_image_LYFiFT",
     "text_columns_3AEykF",
     "text_with_icons_tekcKL",
+    "rich_text_cXPNKn",
     "background_image_text_UnDfb3",
     "text_columns_gfPkyU",
     "text_with_icons_fnV4cg",
