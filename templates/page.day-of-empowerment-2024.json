@@ -874,58 +874,6 @@
         "margin_bottom_m": 0,
         "bg_color": "#000000"
       }
-    },
-    "featured_product_Gxr6RX": {
-      "type": "featured-product",
-      "blocks": {
-        "price_acKPrg": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "description_YYpJYw": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
-        "variant_picker_baid7p": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "product_dynamic_variants_enable": true,
-            "color_swatches": false
-          }
-        },
-        "buy_buttons_TU8mpQ": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true,
-            "show_gift_card_recipient": false
-          }
-        }
-      },
-      "block_order": [
-        "price_acKPrg",
-        "description_YYpJYw",
-        "variant_picker_baid7p",
-        "buy_buttons_TU8mpQ"
-      ],
-      "settings": {
-        "featured_product": "day-of-empowerment-2024",
-        "divider": false,
-        "sku_enable": false,
-        "image_position": "left",
-        "image_size": "small",
-        "product_zoom_enable": false,
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "mobile_layout": "partial",
-        "enable_video_looping": false,
-        "product_video_style": "unmuted"
-      }
     }
   },
   "order": [
@@ -947,7 +895,6 @@
     "rich_text_iX7ygA",
     "faq",
     "custom_image_with_info_Dyej7Q",
-    "featured_video_FUFxzG",
-    "featured_product_Gxr6RX"
+    "featured_video_FUFxzG"
   ]
 }
