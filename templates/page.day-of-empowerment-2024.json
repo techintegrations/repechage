@@ -456,10 +456,10 @@
         "round_images": true,
         "color_background": "#ffffff",
         "color_text": "#1c1d1d",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50
       }
     },
     "text_with_icons_Nh8z6U": {
@@ -508,7 +508,7 @@
         "text_block_R77CWd"
       ],
       "settings": {
-        "title": "",
+        "title": "A Must-Attend Experience: Connect, Learn, and Grow at Day of Empowerment!",
         "align_text": "center",
         "desktop_columns_per_row": 3,
         "icon_color": "#000000",
@@ -516,10 +516,10 @@
         "button_label": "",
         "button_link": "",
         "bg_color": "#ebebeb",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
         "divider": false
       }
     },
