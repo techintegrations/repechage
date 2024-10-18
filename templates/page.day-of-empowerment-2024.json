@@ -127,11 +127,19 @@
             "text": "<p>Join Repechage at the <strong>2024 Day of Empowerment</strong>, where you will immerse yourself in the world of spa wellness and skincare like never before! </p><p>Discover exciting <strong>new product launches</strong> that will elevate your business and take your offerings to the next level. </p><p>At this transformative event, you'll gain invaluable insights from <strong>real-life expert panelists</strong>, connect with industry leaders, and accelerate your growth through powerful <strong>networking opportunities</strong>. Plus, don’t miss the <strong>advanced skincare workshop</strong>, a hands-on experience that will empower you with cutting-edge techniques to enhance your skills. </p><p>This event is designed to <strong>change your life</strong> and give you the tools you need to succeed in the competitive wellness industry. </p><p><strong>Don’t miss out on this opportunity to learn, grow, and thrive with Repechage!</strong></p>",
             "text_color": "#000000"
           }
+        },
+        "button_GiydYm": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/day-of-empowerment-2024",
+            "link_text": "Connect, Learn, and Grow at Day of Empowerment!"
+          }
         }
       },
       "block_order": [
         "heading_giR4Bg",
-        "text_NRzxnM"
+        "text_NRzxnM",
+        "button_GiydYm"
       ],
       "settings": {
         "align_text": "left",
