@@ -83,10 +83,36 @@
     class="video-div"
     data-type="vimeo"
     data-video-id="{{ video_id }}"></div>
-        <script>
-        console.log("Video ID: " + "{{ video_id }}");
-        </script>
+    
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var videoId = "{{ video_id }}";
+      var vimeoDiv = document.getElementById("Vimeo-{{ section.id }}");
+      
+      if (videoId && vimeoDiv) {
+        var options = {
+          id: videoId,
+          width: 640, // Set the desired width here
+          loop: false // Set to true if you want the video to loop
+        };
+        
+        var player = new Vimeo.Player(vimeoDiv, options);
+        
+        player.on('play', function() {
+          console.log('The video is now playing.');
+        });
+
+        player.on('error', function(error) {
+          console.error('Error occurred: ', error.name);
+        });
+      } else {
+        console.warn('Video ID or Vimeo div not found.');
+      }
+    });
+  </script>
 {%- endif -%}
+
 
 
       {%- if section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' -%}
