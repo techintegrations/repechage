@@ -612,11 +612,21 @@
             "author": "Regina",
             "author_info": "Spa Adagio"
           }
+        },
+        "testimonial_wwiWkd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This was an amazing to be part of this experience!!! I learned so much!!! The guest speakers were so knowledgeable and amazing when it came to all of my question!</p>",
+            "author": "Andrea R.",
+            "author_info": ""
+          }
         }
       },
       "block_order": [
         "testimonial_yV3KWE",
-        "testimonial_GE4jeX"
+        "testimonial_GE4jeX",
+        "testimonial_wwiWkd"
       ],
       "settings": {
         "title": "Here’s What Previous Attendees Say…",
