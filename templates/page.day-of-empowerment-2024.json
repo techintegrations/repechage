@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "title": "YOU ARE INVITED",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_NRzxnM": {
@@ -24,7 +24,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -84,9 +84,9 @@
       "settings": {
         "layout": "banner",
         "full_width": false,
-        "text_color": "#000",
-        "background_color": "#FFF",
-        "overlay_color": "#000",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
@@ -195,7 +195,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/01.jpg",
-            "image_mask": "none",
+            "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
             "title": "Danelly Benavides",
@@ -209,7 +209,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/2_83a187f8-9d00-47ef-9274-5e91a00904cd.png",
-            "image_mask": "none",
+            "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
             "title": "Example title",
@@ -247,10 +247,10 @@
         "mobile_columns_per_row": 2,
         "block_align_text": "center",
         "button_style": "solid",
-        "preheading_color": "#000",
-        "heading_color": "#000",
-        "text_color": "#000",
-        "button_link_color": "#000",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 20,
         "padding_bottom": 20,
@@ -376,7 +376,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "block_bg_color": "",
         "button_label": "",
         "button_link": "",
