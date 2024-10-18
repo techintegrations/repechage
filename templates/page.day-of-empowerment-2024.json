@@ -674,6 +674,13 @@
             "title": "What is the registration fee?",
             "text": "<p>Pricing details will be provided on the <strong>Repechage event website</strong>. Early registration may offer discounted rates.</p>"
           }
+        },
+        "question_GkgM7L": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a special room rate at the Conrad Hotel for attendees?",
+            "text": "<p>Yes, a special room rate is available for attendees. Please check the <strong>Repechage event page</strong> for booking information.</p>"
+          }
         }
       },
       "block_order": [
@@ -686,7 +693,8 @@
         "question_McaanT",
         "question_kpFBN3",
         "question_trVzJR",
-        "question_hTnk3p"
+        "question_hTnk3p",
+        "question_GkgM7L"
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
