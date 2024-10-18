@@ -3801,7 +3801,7 @@ theme.recentlyViewed = {
     var videoHolderId = 'VideoHolder';
     var selectors = {
       youtube: 'a[href*="youtube.com/watch"], a[href*="youtu.be/"]',
-      vimeo: 'a[href*="player.vimeo.com/player/"], a[href*="vimeo.com/"]',
+      vimeo: 'a[href*="player.vimeo.com/video/"], a[href*="vimeo.com/"]',
       mp4Trigger: '.product-video-trigger--mp4',
       mp4Player: '.product-video-mp4-sound'
     };
