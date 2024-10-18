@@ -176,6 +176,40 @@
         "lazyload_images": true
       }
     },
+    "rich_text_MALjjD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QcJ7ax": {
+          "type": "heading",
+          "settings": {
+            "title": "MEET THE SPEAKERS",
+            "title_color": "#000"
+          }
+        },
+        "text_KaVd6R": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We've carefully curated a premium group of speakers and panelists for the 2024 Day of Empowerment, selecting industry leaders and experts who bring unmatched knowledge and experience. These thought leaders were chosen for their ability to inspire, educate, and provide actionable insights, ensuring you walk away empowered and ready to elevate your business. Expect engaging discussions, valuable advice, and cutting-edge trends from the best in the industry.</p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QcJ7ax",
+        "text_KaVd6R"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "text_and_image_LYFiFT": {
       "type": "text-and-image",
       "settings": {
@@ -788,6 +822,7 @@
     "rich_text_BCxMKt",
     "main",
     "text_and_image_HAeHag",
+    "rich_text_MALjjD",
     "text_and_image_LYFiFT",
     "text_columns_3AEykF",
     "background_image_text_UnDfb3",
