@@ -252,10 +252,10 @@
         "mobile_columns_per_row": 2,
         "block_align_text": "center",
         "button_style": "solid",
-        "preheading_color": "#000",
-        "heading_color": "#000",
-        "text_color": "#000",
-        "button_link_color": "#000",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 20,
         "padding_bottom": 20,
@@ -291,7 +291,7 @@
             "custom_image": "shopify://shop_images/Afterpay-Icons-Calendar_db197040-b160-46ac-b9da-a6f956bd57f7.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "ALL ACESS",
+            "title": "SUNDAY",
             "text": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
             "link_text": "",
             "link": ""
@@ -330,7 +330,7 @@
         "text_block_3hDEBn"
       ],
       "settings": {
-        "title": "RUNNING AGENDA",
+        "title": "THE AGENDA",
         "align_text": "center",
         "desktop_columns_per_row": 3,
         "icon_color": "#000000",
