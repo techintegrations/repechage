@@ -730,6 +730,13 @@
             "title": "Will the event be recorded or live-streamed?",
             "text": "<p>While the event is primarily in-person, there may be <strong>recorded sessions</strong> available post-event. Check the website for updates on virtual content availability.</p>"
           }
+        },
+        "question_YYTafd": {
+          "type": "question",
+          "settings": {
+            "title": "How do I register for the event?",
+            "text": "<p>Visit the official <strong>Repechage website</strong> to register for the 2024 Day of Empowerment. Early registration is encouraged due to limited seating.</p>"
+          }
         }
       },
       "block_order": [
@@ -750,7 +757,8 @@
         "question_YCqCq7",
         "question_zykzWK",
         "question_gaMUjw",
-        "question_mAXrep"
+        "question_mAXrep",
+        "question_YYTafd"
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
