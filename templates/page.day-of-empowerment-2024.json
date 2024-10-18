@@ -9,6 +9,54 @@
  */
 {
   "sections": {
+    "countdown_jzfUiY": {
+      "type": "countdown",
+      "blocks": {
+        "content_7h9ka8": {
+          "type": "content",
+          "settings": {
+            "heading": "Countdown",
+            "heading_size": "h2",
+            "text": "<p>Use this timer to create urgency and boost sales.</p>",
+            "content_alignment": "left"
+          }
+        },
+        "timer_qAbcaH": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "12",
+            "day": "2",
+            "hour": "09",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button_G3BGeF": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "SIGN UP TODAY!",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_7h9ka8",
+        "timer_qAbcaH",
+        "button_G3BGeF"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000",
+        "background_color": "#FFF",
+        "overlay_color": "#000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -273,7 +321,7 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https://player.vimeo.com/video/985100858?h=8dc90a9cdf&badge=0&autopause=0&player_id=0&app_id=58479",
+        "video_url": "",
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "auto"
@@ -281,6 +329,7 @@
     }
   },
   "order": [
+    "countdown_jzfUiY",
     "main",
     "text_and_image_HAeHag",
     "text_with_icons_fnV4cg",
