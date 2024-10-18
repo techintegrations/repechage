@@ -988,7 +988,7 @@
     "featured_video_FUFxzG": {
       "type": "featured-video",
       "settings": {
-        "title": "",
+        "title": "Relive the Experience: Watch the Highlights from Last Year’s Day of Empowerment",
         "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/9a61a056a07044a4b9c460a4e9dcad9c.mp4",
         "video_url": "",
         "show_full_width": false,
@@ -1001,7 +1001,7 @@
         "padding_bottom_m": 0,
         "margin_top_m": 0,
         "margin_bottom_m": 0,
-        "bg_color": "#000000"
+        "bg_color": "#ffffff"
       }
     }
   },
