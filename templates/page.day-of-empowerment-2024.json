@@ -702,6 +702,34 @@
             "title": "Can I purchase Repechage products at the event?",
             "text": "<p>Yes, the latest <strong>Repechage products</strong> will be available for purchase, including the new launches introduced during the event.</p>"
           }
+        },
+        "question_YCqCq7": {
+          "type": "question",
+          "settings": {
+            "title": "What’s the attire for the event?",
+            "text": "<p>We recommend <strong>business casual attire</strong> for all sessions, with more formal options for evening networking receptions.</p>"
+          }
+        },
+        "question_zykzWK": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_gaMUjw": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_mAXrep": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
         }
       },
       "block_order": [
@@ -718,7 +746,11 @@
         "question_GkgM7L",
         "question_aj4L6T",
         "question_aQXDeN",
-        "question_McDzVJ"
+        "question_McDzVJ",
+        "question_YCqCq7",
+        "question_zykzWK",
+        "question_gaMUjw",
+        "question_mAXrep"
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
