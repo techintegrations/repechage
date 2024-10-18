@@ -9,6 +9,76 @@
  */
 {
   "sections": {
+    "slideshow_LczzJ3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Y9W6Fw": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Day_Of_Empowerment_2023_widescreen.gif",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Y9W6Fw"
+      ],
+      "settings": {
+        "show_container": false,
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_X3baem": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f3F3md": {
+          "type": "heading",
+          "settings": {
+            "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
+            "title_color": "#000"
+          }
+        },
+        "text_VqEUwY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>CONRAD BEACH HOTEL<br/>FT. LAUDERDALE, FL (December 01- 3, 2024</p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f3F3md",
+        "text_VqEUwY"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "countdown_jzfUiY": {
       "type": "countdown",
       "blocks": {
@@ -512,6 +582,8 @@
     }
   },
   "order": [
+    "slideshow_LczzJ3",
+    "rich_text_X3baem",
     "countdown_jzfUiY",
     "rich_text_BCxMKt",
     "main",
