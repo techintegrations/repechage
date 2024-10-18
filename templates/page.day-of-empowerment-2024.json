@@ -600,7 +600,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>8:30am-9:30am<br/>- \"Miami in Ft. Lauderdale\" - Light Bites and Coffee & Tea<br/>Registration</p><p>9:30am -<br/>Shiri – Welcome</p><p>9:45am -<br/>Girlie Joseph Keynote</p><p>10:15am - 11:45am 90min Panel - Intro (15 min ech panelist) + Open Forum Questions</p><p> 11:45am-12:00pm<br/>- 15min Break </p><p> 12:00pm-1:00pm<br/>- Lydia - NEW launch, Product Treatments and Wellness </p><p> 1:00pm-3:00pm<br/>- Solano Lunch and Wellness Activation - Treatment Demos and NEW treatment<br/>Presentation </p><p> 3:00pm-3:45pm<br/>- Ronit Enos </p><p> 3:45pm-4:00pm<br/>- Q&A</p><p> 4:00-4:45pm<br/>- Edyta Satchell (includes Q&A)</p><p> 4:45pm-5pm<br/>- Closing Remarks</p>",
+            "text": "<ul><li>8:30am-9:30am - \"Miami in Ft. Lauderdale\" - Light Bites and Coffee & Tea<br/>Registration</li><li>9:30am - Shiri – Welcome</li><li>9:45am - Girlie Joseph Keynote</li><li>10:15am - 11:45am 90min Panel - Intro (15 min ech panelist) + Open Forum Questions</li><li> 11:45am-12:00pm - 15min Break </li><li> 12:00pm-1:00pm - Lydia - NEW launch, Product Treatments and Wellness </li><li> 1:00pm-3:00pm<br/>- Solano Lunch and Wellness Activation - Treatment Demos and NEW treatment<br/>Presentation </li><li> 3:00pm-3:45pm<br/>- Ronit Enos </li><li> 3:45pm-4:00pm<br/>- Q&A</li><li> 4:00-4:45pm<br/>- Edyta Satchell (includes Q&A)</li><li> 4:45pm-5pm<br/>- Closing Remarks</li></ul>",
             "text_color": "#000"
           }
         }
