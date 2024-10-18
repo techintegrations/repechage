@@ -727,8 +727,8 @@
         "question_mAXrep": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "Will the event be recorded or live-streamed?",
+            "text": "<p>While the event is primarily in-person, there may be <strong>recorded sessions</strong> available post-event. Check the website for updates on virtual content availability.</p>"
           }
         }
       },
