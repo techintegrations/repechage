@@ -695,6 +695,13 @@
             "title": "Will meals be provided?",
             "text": "<p>The event includes <strong>lunch and refreshments</strong> during each day, with additional networking opportunities at the receptions.</p>"
           }
+        },
+        "question_McDzVJ": {
+          "type": "question",
+          "settings": {
+            "title": "Can I purchase Repechage products at the event?",
+            "text": "<p>Yes, the latest <strong>Repechage products</strong> will be available for purchase, including the new launches introduced during the event.</p>"
+          }
         }
       },
       "block_order": [
@@ -710,7 +717,8 @@
         "question_hTnk3p",
         "question_GkgM7L",
         "question_aj4L6T",
-        "question_aQXDeN"
+        "question_aQXDeN",
+        "question_McDzVJ"
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
