@@ -16,8 +16,8 @@
           "type": "content",
           "settings": {
             "heading": "Countdown",
-            "heading_size": "h2",
-            "text": "<p><strong>Discover & connect to the best in spa & wellness</strong></p>",
+            "heading_size": "h1",
+            "text": "<p>Discover & connect to the best in spa & wellness</p>",
             "content_alignment": "left"
           }
         },
