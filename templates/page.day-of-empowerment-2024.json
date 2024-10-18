@@ -890,12 +890,20 @@
             "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.20.42_PM.png",
             "image_caption": ""
           }
+        },
+        "image_nMfKBP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.21.24_PM.png",
+            "image_caption": ""
+          }
         }
       },
       "block_order": [
         "image_FHinik",
         "image_f3fkX7",
-        "image_iJKmzF"
+        "image_iJKmzF",
+        "image_nMfKBP"
       ],
       "settings": {
         "title": "IMAGE GALLERY",
