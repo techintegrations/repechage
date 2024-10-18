@@ -17,7 +17,7 @@
           "settings": {
             "heading": "Countdown",
             "heading_size": "h2",
-            "text": "<p>Use this timer to create urgency and boost sales.</p>",
+            "text": "<p><strong>Discover & connect to the best in spa & wellness</strong></p>",
             "content_alignment": "left"
           }
         },
@@ -80,7 +80,7 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
-        "bg_color": "",
+        "bg_color": "#ebebeb",
         "padding_top": 60,
         "padding_bottom": 60,
         "padding_top_m": 40,
