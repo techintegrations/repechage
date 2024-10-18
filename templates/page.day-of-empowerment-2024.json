@@ -242,7 +242,7 @@
         "title": "Success at every level",
         "text": "<p>Meet The Panelists</p>",
         "align_text": "center",
-        "button_label": "JOIN ME!",
+        "button_label": "",
         "button_link": "",
         "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 2,
