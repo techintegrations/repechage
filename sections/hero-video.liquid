@@ -76,17 +76,19 @@
       {%- endif -%}
 
       {%- if section.settings.video_url contains 'player.vimeo.com/video/' -%}
-        <div class="video-div">
-          <iframe
-            src="{{ section.settings.video_url }}"
-            width="640"
-            height="360"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen>
-          </iframe>
-        </div>
-      {%- endif -%}
+  {%- assign video_url = section.settings.video_url | split: '?' | first -%}
+  <div class="video-div">
+    <iframe
+      src="{{ video_url }}?autoplay=1&loop=1&badge=0&autopause=0&player_id=0&app_id=58479"
+      width="640"
+      height="360"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+{%- endif -%}
+
 
       {%- if section.settings.video_url contains 'vimeo.com' -%}
         {%- assign video_id = section.settings.video_url | split: '.com/' -%}
