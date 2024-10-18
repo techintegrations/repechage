@@ -645,9 +645,9 @@
       "settings": {
         "title": "",
         "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/9bd7693999e648168949da5d7e925969.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "",
         "show_full_width": false,
-        "divider": true,
+        "divider": false,
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
