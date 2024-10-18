@@ -883,11 +883,19 @@
             "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.19.44_PM.png",
             "image_caption": ""
           }
+        },
+        "image_iJKmzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.20.42_PM.png",
+            "image_caption": ""
+          }
         }
       },
       "block_order": [
         "image_FHinik",
-        "image_f3fkX7"
+        "image_f3fkX7",
+        "image_iJKmzF"
       ],
       "settings": {
         "title": "IMAGE GALLERY",
