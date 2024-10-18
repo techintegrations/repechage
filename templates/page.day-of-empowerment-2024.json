@@ -876,10 +876,18 @@
             "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.18.37_PM.png",
             "image_caption": ""
           }
+        },
+        "image_f3fkX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.19.44_PM.png",
+            "image_caption": ""
+          }
         }
       },
       "block_order": [
-        "image_FHinik"
+        "image_FHinik",
+        "image_f3fkX7"
       ],
       "settings": {
         "title": "IMAGE GALLERY",
