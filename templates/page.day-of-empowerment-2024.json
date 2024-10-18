@@ -715,23 +715,20 @@
         "divider": false
       }
     },
-    "featured_video_JPaqqU": {
-      "type": "featured-video",
+    "hero_video_ENXrJd": {
+      "type": "hero-video",
       "settings": {
-        "title": "",
-        "self_hosted_video": "",
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "show_full_width": false,
-        "divider": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "margin_top_m": 0,
-        "margin_bottom_m": 0,
-        "bg_color": ""
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
       }
     }
   },
@@ -751,6 +748,6 @@
     "rich_text_iX7ygA",
     "faq",
     "custom_image_with_info_Dyej7Q",
-    "featured_video_JPaqqU"
+    "hero_video_ENXrJd"
   ]
 }
