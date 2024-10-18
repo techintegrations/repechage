@@ -685,8 +685,8 @@
         "question_aj4L6T": {
           "type": "question",
           "settings": {
-            "title": "Can I attend just one day of the event?",
-            "text": "<p>While we encourage attending all three days to get the full experience, single-day tickets may be available depending on availability.</p>"
+            "title": "What should I bring to the event?",
+            "text": "<p>Bring an open mind, business cards for networking, and any questions or topics you'd like to explore during the <strong>workshops</strong> and panel discussions.</p>"
           }
         }
       },
