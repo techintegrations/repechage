@@ -325,6 +325,67 @@
         "divider": false
       }
     },
+    "text_with_icons_tekcKL": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_YtFcQ6": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "MONDAY",
+            "text": "<p>December 2, 2024<br/>Day of Empowerment + \u0003Wellness Activation </p><p><strong>$195</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_TY6iGC": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "TUESDAY",
+            "text": "<p>December 3, 2024<br/>Advanced Skincare\u0003Workshop<br/></p><p><strong>$285</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_i34j9i": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "ALL ACCESS",
+            "text": "<p>3-DAY PASS<br/>Bundle & Save<br/><br/><strong>$399</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_YtFcQ6",
+        "text_block_TY6iGC",
+        "text_block_i34j9i"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
     "background_image_text_UnDfb3": {
       "type": "background-image-text",
       "settings": {
@@ -825,6 +886,7 @@
     "rich_text_MALjjD",
     "text_and_image_LYFiFT",
     "text_columns_3AEykF",
+    "text_with_icons_tekcKL",
     "background_image_text_UnDfb3",
     "text_columns_gfPkyU",
     "text_with_icons_fnV4cg",
