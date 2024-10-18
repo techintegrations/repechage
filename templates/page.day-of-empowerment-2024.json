@@ -343,7 +343,7 @@
             "custom_icon": "",
             "icon": "chat",
             "title": "MONDAY",
-            "text": "<p>December 2, 2024<br/>Day of Empowerment + \u0003Wellness Activation </p><p><strong>$195</strong></p>",
+            "text": "<p>December 2, 2024<br/>Day of Empowerment + \u0003Wellness Activation </p><h2><strong>$195</strong></h2>",
             "link_text": "",
             "link": ""
           }
@@ -355,7 +355,7 @@
             "custom_icon": "",
             "icon": "chat",
             "title": "TUESDAY",
-            "text": "<p>December 3, 2024<br/>Advanced Skincare\u0003Workshop<br/></p><p><strong>$285</strong></p>",
+            "text": "<p>December 3, 2024<br/>Advanced Skincare\u0003Workshop<br/></p><h2><strong>$285</strong></h2>",
             "link_text": "",
             "link": ""
           }
@@ -367,7 +367,7 @@
             "custom_icon": "",
             "icon": "sales-tag",
             "title": "ALL ACCESS",
-            "text": "<p>3-DAY PASS<br/>Bundle & Save<br/><br/><strong>$399</strong></p>",
+            "text": "<p>3-DAY PASS<br/>Bundle & Save<br/></p><h2><strong>$399</strong></h2>",
             "link_text": "",
             "link": ""
           }
@@ -383,10 +383,10 @@
         "align_text": "center",
         "desktop_columns_per_row": 3,
         "icon_color": "#000",
-        "block_bg_color": "#ebebeb",
+        "block_bg_color": "#ffffff",
         "button_label": "Act now and reserve your spot today—spaces are filling fast!",
         "button_link": "shopify://products/day-of-empowerment-2024",
-        "bg_color": "#ebebeb",
+        "bg_color": "#ffffff",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_m": 50,
