@@ -603,10 +603,20 @@
             "author": "Juan SIlva",
             "author_info": "Los Angeles, CA"
           }
+        },
+        "testimonial_GE4jeX": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The Repechage Day of Empowerment is a must-attend event hosted by Lydia and David Sarfati. You’ll gain industry insights, meet like-minded people, and feel truly supported.</p>",
+            "author": "Regina",
+            "author_info": "Spa Adagio"
+          }
         }
       },
       "block_order": [
-        "testimonial_yV3KWE"
+        "testimonial_yV3KWE",
+        "testimonial_GE4jeX"
       ],
       "settings": {
         "title": "Here’s What Previous Attendees Say…",
