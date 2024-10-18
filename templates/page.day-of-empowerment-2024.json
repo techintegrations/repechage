@@ -849,6 +849,9 @@
         "question_mAXrep",
         "question_YYTafd"
       ],
+      "custom_css": [
+        "body {background-color: lightgrey;}"
+      ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
       }
