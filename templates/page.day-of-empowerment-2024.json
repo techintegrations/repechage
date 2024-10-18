@@ -191,7 +191,7 @@
           "type": "heading",
           "settings": {
             "title": "MEET THE SPEAKERS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_KaVd6R": {
@@ -199,7 +199,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>We've carefully curated a premium group of speakers and panelists for the 2024 Day of Empowerment, selecting industry leaders and experts who bring unmatched knowledge and experience. These thought leaders were chosen for their ability to inspire, educate, and provide actionable insights, ensuring you walk away empowered and ready to elevate your business. Expect engaging discussions, valuable advice, and cutting-edge trends from the best in the industry.</p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
@@ -382,7 +382,7 @@
         "title": "Claim your spot before it’s too late!",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "block_bg_color": "#ffffff",
         "button_label": "",
         "button_link": "shopify://products/day-of-empowerment-2024",
@@ -401,7 +401,7 @@
           "type": "heading",
           "settings": {
             "title": "YOUR Exclusive Special Offer",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_DdLMCY": {
@@ -409,7 +409,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Sign up for our ALL ACCESS ($399) and redeem it in equal value for new launch product exclusively at the Day of Empowerment Event!!***</p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "button_nhrD4R": {
@@ -638,6 +638,25 @@
         "padding_bottom": 50,
         "padding_top_m": 50,
         "padding_bottom_m": 50
+      }
+    },
+    "featured_video_KA6kRq": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/9bd7693999e648168949da5d7e925969.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "show_full_width": false,
+        "divider": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "bg_color": ""
       }
     },
     "text_with_icons_Nh8z6U": {
@@ -1041,6 +1060,7 @@
     "text_columns_gfPkyU",
     "text_with_icons_fnV4cg",
     "testimonials_jFqUh6",
+    "featured_video_KA6kRq",
     "text_with_icons_Nh8z6U",
     "rich_text_iX7ygA",
     "custom_gallery_gDA7Q9",
