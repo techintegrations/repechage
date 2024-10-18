@@ -210,7 +210,7 @@
         "testimonial_yV3KWE"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "Here’s What Previous Attendees Say…",
         "align_text": "center",
         "round_images": true,
         "color_background": "#ffffff",
@@ -308,7 +308,7 @@
         "question_hTnk3p"
       ],
       "settings": {
-        "title": "AGENDA"
+        "title": "FAQ"
       }
     },
     "hero_video_xBiQid": {
