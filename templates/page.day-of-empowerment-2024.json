@@ -314,52 +314,38 @@
         "text_block_neP9kM": {
           "type": "text_block",
           "settings": {
-            "select_icon": "custom_svg_icon",
-            "custom_image": "shopify://shop_images/Afterpay-Icons-Calendar_db197040-b160-46ac-b9da-a6f956bd57f7.png",
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/NS-B-20-e1643721753812.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "ABOUT LYDIA",
-            "text": "<p><strong>Lydia Sarfati</strong> is a renowned skincare expert, esthetician, and CEO of Repechage, a global leader in seaweed-based skincare. With over four decades of experience, Lydia pioneered treatments like the Four-Layer Facial and is a passionate advocate for professional skincare education. She is also a published author and international speaker, dedicated to advancing the beauty industry through innovation and education.</p>",
-            "link_text": "",
+            "title": "Workshop Focus",
+            "text": "<p>Repechage Face Massage Program Endorsed by <strong>CIDESCO International.</strong></p>",
+            "link_text": "tuesday  december 3, 2024",
             "link": ""
           }
         },
         "text_block_KLftgf": {
           "type": "text_block",
           "settings": {
-            "select_icon": "custom_svg_icon",
+            "select_icon": "icon",
             "custom_image": "shopify://shop_images/Afterpay-Icons-Hand_f07446ee-b02c-4979-a4e1-ec22cb98c679.png",
             "custom_icon": "",
-            "icon": "chat",
-            "title": "MONDAY",
-            "text": "<p>\"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour,</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_3hDEBn": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "custom_svg_icon",
-            "custom_image": "shopify://shop_images/Afterpay-Icons-Phone_34639b04-ddc6-4874-a57f-a793445a2d2c.png",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "TUESDAY",
-            "text": "<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>",
-            "link_text": "",
-            "link": ""
+            "icon": "package",
+            "title": "workshop focus",
+            "text": "<p>Followed by a Retail Workshop with Lydia and Ronit Enos</p>",
+            "link_text": "tuesday  december 3, 2024",
+            "link": "shopify://products/day-of-empowerment-2024"
           }
         }
       },
       "block_order": [
         "text_block_neP9kM",
-        "text_block_KLftgf",
-        "text_block_3hDEBn"
+        "text_block_KLftgf"
       ],
       "settings": {
-        "title": "LYDIA SARFATI",
+        "title": "ADVANCED SKINCARE WORKSHOP -  hands-on training",
         "align_text": "center",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 2,
         "icon_color": "#000000",
         "block_bg_color": "#f9f9f9",
         "button_label": "",
