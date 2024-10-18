@@ -719,7 +719,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "self_hosted_video": "https://admin.shopify.com/store/repechage/content/files/28111802073261",
+        "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/9a61a056a07044a4b9c460a4e9dcad9c.mp4",
         "video_url": "",
         "show_full_width": false,
         "divider": false,
@@ -732,23 +732,6 @@
         "margin_top_m": 0,
         "margin_bottom_m": 0,
         "bg_color": "#000000"
-      }
-    },
-    "hero_video_heWgay": {
-      "type": "hero-video",
-      "disabled": true,
-      "settings": {
-        "title": "Bring your\nbrand to life.",
-        "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https://vimeo.com/1015747942",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
       }
     }
   },
@@ -768,7 +751,6 @@
     "rich_text_iX7ygA",
     "faq",
     "custom_image_with_info_Dyej7Q",
-    "featured_video_FUFxzG",
-    "hero_video_heWgay"
+    "featured_video_FUFxzG"
   ]
 }
