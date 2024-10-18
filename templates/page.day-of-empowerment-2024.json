@@ -291,7 +291,7 @@
             "custom_image": "shopify://shop_images/Afterpay-Icons-Calendar_db197040-b160-46ac-b9da-a6f956bd57f7.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "SUNDAY",
+            "title": "MONDAY",
             "text": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
             "link_text": "",
             "link": ""
@@ -562,6 +562,67 @@
         "divider": false
       }
     },
+    "rich_text_iX7ygA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BqadNe": {
+          "type": "heading",
+          "settings": {
+            "title": "AGENDA",
+            "title_color": "#000"
+          }
+        },
+        "text_7q9VX6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><span style=\"text-decoration:underline\"><strong>Sunday, December 1, 2024 – Welcome Reception</strong></span></p>",
+            "text_color": "#000"
+          }
+        },
+        "text_q3zUY3": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>5:30pm-7:30pm<br/>– deluxe brand bar plus signature cocktail</p>",
+            "text_color": "#000"
+          }
+        },
+        "text_y73nyR": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><span style=\"text-decoration:underline\"><strong>Monday<br/>December 2, 2024 – Day of Empowerment</strong></span></p>",
+            "text_color": "#000"
+          }
+        },
+        "text_cgFtBJ": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>8:30am-9:30am<br/>- \"Miami in Ft. Lauderdale\" - Light Bites and Coffee & Tea<br/>Registration</p><p>9:30am -<br/>Shiri – Welcome</p><p>9:45am -<br/>Girlie Joseph Keynote</p><p>10:15am - 11:45am 90min Panel - Intro (15 min ech panelist) + Open Forum Questions</p><p> 11:45am-12:00pm<br/>- 15min Break </p><p> 12:00pm-1:00pm<br/>- Lydia - NEW launch, Product Treatments and Wellness </p><p> 1:00pm-3:00pm<br/>- Solano Lunch and Wellness Activation - Treatment Demos and NEW treatment<br/>Presentation </p><p> 3:00pm-3:45pm<br/>- Ronit Enos </p><p> 3:45pm-4:00pm<br/>- Q&A</p><p> 4:00-4:45pm<br/>- Edyta Satchell (includes Q&A)</p><p> 4:45pm-5pm<br/>- Closing Remarks</p>",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BqadNe",
+        "text_7q9VX6",
+        "text_q3zUY3",
+        "text_y73nyR",
+        "text_cgFtBJ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "bg_color": "",
+        "divider": false
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -677,6 +738,7 @@
     "text_columns_gfPkyU",
     "testimonials_jFqUh6",
     "text_with_icons_Nh8z6U",
+    "rich_text_iX7ygA",
     "faq",
     "custom_image_with_info_Dyej7Q"
   ]
