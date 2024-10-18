@@ -720,8 +720,8 @@
         "question_gaMUjw": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "Are there sponsorship or exhibitor opportunities?",
+            "text": "<p>Yes, if you're interested in sponsoring or exhibiting at the event, please contact the Repechage event team for more details.</p>"
           }
         },
         "question_mAXrep": {
