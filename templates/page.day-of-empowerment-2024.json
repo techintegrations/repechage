@@ -15,7 +15,7 @@
         "image_Y9W6Fw": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
+            "top_subheading": "<p>2024 REPECAHGE DAY OF EMPOWERMENT</p>",
             "title": "",
             "title_size": 80,
             "subheading": "",
@@ -52,7 +52,7 @@
           "type": "heading",
           "settings": {
             "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_VqEUwY": {
@@ -60,7 +60,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>CONRAD BEACH HOTEL<br/>FT. LAUDERDALE, FL (December 01- 3, 2024</p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
