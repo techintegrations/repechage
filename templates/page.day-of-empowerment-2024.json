@@ -129,7 +129,7 @@
         "text_block_neP9kM": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_svg_icon",
             "custom_image": "shopify://shop_images/Afterpay-Icons-Calendar_db197040-b160-46ac-b9da-a6f956bd57f7.png",
             "custom_icon": "",
             "icon": "chat",
@@ -142,7 +142,7 @@
         "text_block_KLftgf": {
           "type": "text_block",
           "settings": {
-            "select_icon": "custom_image",
+            "select_icon": "custom_svg_icon",
             "custom_image": "shopify://shop_images/Afterpay-Icons-Hand_f07446ee-b02c-4979-a4e1-ec22cb98c679.png",
             "custom_icon": "",
             "icon": "chat",
@@ -155,7 +155,7 @@
         "text_block_3hDEBn": {
           "type": "text_block",
           "settings": {
-            "select_icon": "custom_image",
+            "select_icon": "custom_svg_icon",
             "custom_image": "shopify://shop_images/Afterpay-Icons-Phone_34639b04-ddc6-4874-a57f-a793445a2d2c.png",
             "custom_icon": "",
             "icon": "chat",
@@ -222,11 +222,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_mask": "none",
+            "image": "shopify://shop_images/3_ca304d85-51e4-4a11-a23e-30892a12869b.jpg",
+            "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "title": "Ronit Enos",
+            "text": "<p>Bestselling Author, Dynamic Speaker, Serial Entrepreneur, and Founder of Salon Cadence.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
