@@ -509,8 +509,8 @@
           "settings": {
             "select_icon": "icon",
             "custom_icon": "",
-            "icon": "chat",
-            "title": "Example title",
+            "icon": "globe",
+            "title": "GLOBAL EVENT",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
             "link_text": "",
             "link": ""
@@ -610,7 +610,7 @@
         "padding_bottom": 50,
         "padding_top_m": 50,
         "padding_bottom_m": 50,
-        "bg_color": "",
+        "bg_color": "#ebebeb",
         "divider": false
       }
     },
