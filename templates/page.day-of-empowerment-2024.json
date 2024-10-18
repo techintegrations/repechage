@@ -222,13 +222,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/3_ca304d85-51e4-4a11-a23e-30892a12869b.jpg",
+            "image": "shopify://shop_images/4_fb3af75e-ac1b-49b5-bc55-465e7ab4f04d.jpg",
             "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
-            "title": "Ronit Enos",
-            "text": "<p>Bestselling Author, Dynamic Speaker, Serial Entrepreneur, and Founder of Salon Cadence.</p>",
-            "button_label": "Optional button",
+            "title": "Julie Mahoney",
+            "text": "<p>Founder and CEO of Oasis Day Spa in Weymouth, MA. Esthetician for over 40 years. Oasis is a three-time recipient of the Best of Boston Award for Best Day Spa South by Boston Magazine.</p>",
+            "button_label": "JOIN ME!",
             "button_link": ""
           }
         }
@@ -239,10 +239,10 @@
         "text_block_FXpjh7"
       ],
       "settings": {
-        "title": "",
-        "text": "",
+        "title": "Success at every level",
+        "text": "<p>Meet The Panelists</p>",
         "align_text": "center",
-        "button_label": "",
+        "button_label": "JOIN ME!",
         "button_link": "",
         "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 2,
