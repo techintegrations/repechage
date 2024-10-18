@@ -87,7 +87,7 @@
         "padding_bottom": 20,
         "padding_top_m": 10,
         "padding_bottom_m": 10,
-        "bg_color": "",
+        "bg_color": "#ebebeb",
         "divider": false
       }
     },
@@ -114,7 +114,7 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
-        "bg_color": "#ebebeb",
+        "bg_color": "#ffffff",
         "padding_top": 60,
         "padding_bottom": 60,
         "padding_top_m": 40,
@@ -179,7 +179,7 @@
         "block_bg_color": "#f9f9f9",
         "button_label": "",
         "button_link": "",
-        "bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#ebebeb",
         "padding_top": 20,
         "padding_bottom": 20,
         "padding_top_m": 20,
