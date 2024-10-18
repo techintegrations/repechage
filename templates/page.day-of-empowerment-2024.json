@@ -9,6 +9,54 @@
  */
 {
   "sections": {
+    "countdown_jzfUiY": {
+      "type": "countdown",
+      "blocks": {
+        "content_7h9ka8": {
+          "type": "content",
+          "settings": {
+            "heading": "Countdown",
+            "heading_size": "h1",
+            "text": "<p>Discover & connect to the best in spa & wellness</p>",
+            "content_alignment": "left"
+          }
+        },
+        "timer_qAbcaH": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "12",
+            "day": "2",
+            "hour": "09",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button_G3BGeF": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "REGISTER TODAY!",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_7h9ka8",
+        "timer_qAbcaH",
+        "button_G3BGeF"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "text_color": "#000000",
+        "background_color": "#b1e4e3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
     "slideshow_LczzJ3": {
       "type": "slideshow",
       "blocks": {
@@ -77,54 +125,6 @@
         "padding_bottom_m": 20,
         "bg_color": "",
         "divider": false
-      }
-    },
-    "countdown_jzfUiY": {
-      "type": "countdown",
-      "blocks": {
-        "content_7h9ka8": {
-          "type": "content",
-          "settings": {
-            "heading": "Countdown",
-            "heading_size": "h1",
-            "text": "<p>Discover & connect to the best in spa & wellness</p>",
-            "content_alignment": "left"
-          }
-        },
-        "timer_qAbcaH": {
-          "type": "timer",
-          "settings": {
-            "year": "2024",
-            "month": "12",
-            "day": "2",
-            "hour": "09",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "button_G3BGeF": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button": "REGISTER TODAY!",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "content_7h9ka8",
-        "timer_qAbcaH",
-        "button_G3BGeF"
-      ],
-      "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "text_color": "#000000",
-        "background_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "lazyload_images": true
       }
     },
     "rich_text_BCxMKt": {
@@ -582,9 +582,9 @@
     }
   },
   "order": [
+    "countdown_jzfUiY",
     "slideshow_LczzJ3",
     "rich_text_X3baem",
-    "countdown_jzfUiY",
     "rich_text_BCxMKt",
     "main",
     "text_and_image_HAeHag",
