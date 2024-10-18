@@ -688,6 +688,13 @@
             "title": "What should I bring to the event?",
             "text": "<p>Bring an open mind, business cards for networking, and any questions or topics you'd like to explore during the <strong>workshops</strong> and panel discussions.</p>"
           }
+        },
+        "question_aQXDeN": {
+          "type": "question",
+          "settings": {
+            "title": "Will meals be provided?",
+            "text": "<p>The event includes <strong>lunch and refreshments</strong> during each day, with additional networking opportunities at the receptions.</p>"
+          }
         }
       },
       "block_order": [
@@ -702,7 +709,8 @@
         "question_trVzJR",
         "question_hTnk3p",
         "question_GkgM7L",
-        "question_aj4L6T"
+        "question_aj4L6T",
+        "question_aQXDeN"
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
