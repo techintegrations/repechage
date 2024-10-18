@@ -78,12 +78,14 @@
       {%- if section.settings.video_url contains 'vimeo.com' -%}
     {%- assign video_id = section.settings.video_url | split: 'vimeo.com/' -%}
     {%- assign video_id = video_id[1] | split: '?h=' -%}
-    {%- assign video_id = video_id[0] -%}
+    {%- assign video_id = video_id[0] | split: '/' -%}
+    {%- assign video_id = video_id[1] -%}
     <div id="Vimeo-{{ section.id }}" class="video-div" data-type="vimeo" data-video-id="{{ video_id }}"></div>
     <script>
         console.log("Video ID: " + "{{ video_id }}");
     </script>
 {%- endif -%}
+
 
       {%- if section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' -%}
         <video
