@@ -850,7 +850,7 @@
         "question_YYTafd"
       ],
       "custom_css": [
-        "body {background-color: lightgrey;}"
+
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
@@ -865,6 +865,26 @@
         "padding_top_m": 0,
         "padding_bottom_m": 0,
         "divider": false
+      }
+    },
+    "custom_gallery_gDA7Q9": {
+      "type": "custom-gallery",
+      "blocks": {
+        "image_FHinik": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.18.37_PM.png",
+            "image_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FHinik"
+      ],
+      "settings": {
+        "title": "IMAGE GALLERY",
+        "image_per_row": 4,
+        "mb_image_per_row": 2
       }
     },
     "featured_video_FUFxzG": {
@@ -906,6 +926,7 @@
     "rich_text_iX7ygA",
     "faq",
     "custom_image_with_info_Dyej7Q",
+    "custom_gallery_gDA7Q9",
     "featured_video_FUFxzG"
   ]
 }
