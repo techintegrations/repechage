@@ -19,7 +19,7 @@
         "link": "https://www.repechage.com/products/day-of-empowerment-2024",
         "color_accent": "#b1e4e3",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https://www.youtube.com/watch?v=zBW6WPL6xe0",
+        "video_url": "https://player.vimeo.com/video/985100858?h=8dc90a9cdf&badge=0&autopause=0&player_id=0&app_id=58479",
         "overlay_opacity": 58,
         "section_height": "750px",
         "mobile_height": "auto"
@@ -593,7 +593,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<h3><span style=\"text-decoration:underline\"><strong>Tuesday December 3, 2024 Advanced Workshops</strong></span></h3><ul><li><strong>9am-10am </strong>- Pastries, Coffee & Tea + Registration</li><li> <strong>10am-1pm </strong>- Advanced Retail Workshop with Lydia and Ronit </li><li> <strong>10am-11am </strong>- Art of Recommendation by Lydia Sarfati </li><li><strong> 11am-1pm </strong>- Workshop with Ronit and Lydia</li><li><strong> 1:00pm-2:00pm </strong>– Lunch</li><li> <strong>2:00pm-5:00pm </strong>- 3 hour Facial Massage Workshop endorsed by <strong>CIDESCO</strong></li></ul>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
