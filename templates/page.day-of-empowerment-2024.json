@@ -231,12 +231,26 @@
             "button_label": "JOIN ME!",
             "button_link": ""
           }
+        },
+        "text_block_ayQjTw": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_z33rUW",
         "text_block_6Ci4Ld",
-        "text_block_FXpjh7"
+        "text_block_FXpjh7",
+        "text_block_ayQjTw"
       ],
       "settings": {
         "title": "Success at every level",
@@ -244,8 +258,8 @@
         "align_text": "center",
         "button_label": "",
         "button_link": "",
-        "desktop_columns_per_row": 3,
-        "mobile_columns_per_row": 2,
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 3,
         "block_align_text": "center",
         "button_style": "solid",
         "preheading_color": "#000000",
