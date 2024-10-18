@@ -522,8 +522,8 @@
             "select_icon": "icon",
             "custom_icon": "",
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "title": "Boost Your Business",
+            "text": "<p>Learn strategies, network, and gain expert insights to grow your spa or salon.</p>",
             "link_text": "",
             "link": ""
           }
@@ -534,8 +534,8 @@
             "select_icon": "icon",
             "custom_icon": "",
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "title": "Transform Your Spa with Expert Advice & Hands-On Training!",
+            "text": "<p>Gain practical skills and insights to accelerate your business and elevate your offerings.</p>",
             "link_text": "",
             "link": ""
           }
