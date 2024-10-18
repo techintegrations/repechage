@@ -57,6 +57,22 @@
         "lazyload_images": true
       }
     },
+    "hero_video_xBiQid": {
+      "type": "hero-video",
+      "settings": {
+        "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
+        "title_size": 73,
+        "subheading": "",
+        "link_text": "GET YOUR TICKETS NOW",
+        "link": "https://www.repechage.com/products/day-of-empowerment-2024",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://www.youtube.com/watch?v=lMZDCMuFROA",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
     "slideshow_LczzJ3": {
       "type": "slideshow",
       "blocks": {
@@ -82,6 +98,7 @@
       "block_order": [
         "image_Y9W6Fw"
       ],
+      "disabled": true,
       "settings": {
         "show_container": false,
         "section_height": "650px",
@@ -480,71 +497,71 @@
         "faq-1": {
           "type": "question",
           "settings": {
-            "title": "What are the dates for the event?",
-            "text": "<p>The 2024 Repechage Day of Empowerment will take place from <strong>December 1-3, 2024</strong>.</p>"
+            "title": "What is Afterpay?",
+            "text": "<p>Afterpay is a service that allows you to make purchases now and pay for them in four equal payments made every 2 weeks without any interest.</p>"
           }
         },
         "faq-2": {
           "type": "question",
           "settings": {
-            "title": "Where is the event being held?",
-            "text": "<p>The event will be hosted at the <strong>Conrad Hotel</strong> in <strong>Ft. Lauderdale, FL</strong>.</p>"
+            "title": "How do I use Installments by Afterpay?",
+            "text": "<p>Simply shop online and add items to your shopping bag and checkout as normal. At checkout choose Installments by Afterpay as your payment method. First time customers will need to register with Afterpay and provide payment details as usual, returning customers simply log in to make their purchase. It’s that easy!<br/>Please note that all items in your shopping bag must be eligible for Installments by Afterpay. A minimum purchase amount may apply and you must meet additional eligibility requirements to qualify.</p>"
           }
         },
         "faq-4": {
           "type": "question",
           "settings": {
-            "title": "What is the focus of the event?",
-            "text": "<p>The event will focus on <strong>spa wellness</strong>, <strong>new product launches</strong>, <strong>business acceleration</strong>, and <strong>networking opportunities</strong> for spa and salon professionals.</p>"
+            "title": "Can I use Installments by Afterpay if I’m an international customer?",
+            "text": "<p>Installments by Afterpay is only available to customers with a US billing address within the US and a US mobile phone number. Customers with international billing addresses will not be able to set up an account with Afterpay.</p>"
           }
         },
         "question_eKC9XD": {
           "type": "question",
           "settings": {
-            "title": "Who should attend this event?",
-            "text": "<p>The event is perfect for <strong>spa owners, estheticians, salon managers, beauty professionals</strong>, and anyone looking to grow their business in the wellness industry.</p>"
+            "title": "How does the payment schedule work?",
+            "text": "<p>All customers are required to make their first payment at the time of purchase, with the remaining three payments deducted automatically every two weeks from your chosen payment method. If you choose to make additional payments before your scheduled pay dates, you may do so through your Afterpay account.<br/>You can log in to your Afterpay account to view your payment schedule and make a payment before the due date if you choose to do so.</p>"
           }
         },
         "question_A7gN4A": {
           "type": "question",
           "settings": {
-            "title": "What can I expect to learn from the expert panelists?",
-            "text": "<p>You'll hear from <strong>industry leaders</strong> who will share insights on the latest trends, best practices in spa management, and strategies to <strong>accelerate your business</strong>.</p>"
+            "title": "What if I can’t pay an Afterpay installment?",
+            "text": "<p>If you fail to make a payment, you will be charged an $8 late payment fee, and an additional $8 fee if the missed payment is not made within 7 days. Late fees will not exceed 25% of the total order amount.<br/>For more details, please see terms and conditions: <a href=\"https://www.afterpay.com/purchase-payment-agreement\" title=\"https://www.afterpay.com/purchase-payment-agreement\">https://www.afterpay.com/purchase-payment-agreement</a></p>"
           }
         },
         "question_KW6k4C": {
           "type": "question",
           "settings": {
-            "title": "What new launches will be introduced?",
-            "text": "<p>Repechage will unveil <strong>exciting new product lines</strong> and innovations in advanced skincare technology during the event.</p>"
+            "title": "When will my items be delivered if I use Installments by Afterpay?",
+            "text": "<p>Afterpay orders are delivered as per our standard shipping timeframe after you complete your order online.<br/>Visit our shipping page for more information by clicking here.</p>"
           }
         },
         "question_McaanT": {
           "type": "question",
           "settings": {
-            "title": "Will there be hands-on workshops?",
-            "text": "<p>Yes! A key highlight of the event is the <strong>advanced skincare workshop</strong>, where attendees will gain hands-on experience with cutting-edge products and techniques.</p>"
+            "title": "Is there a limit to how much I can spend on a single transaction?",
+            "text": "<p>Yes, transaction value limits apply to purchases made on Repechage.com using Installments by Afterpay are between $30 - $1,000.</p>"
           }
         },
         "question_kpFBN3": {
           "type": "question",
           "settings": {
-            "title": "How will this event help me grow my business?",
-            "text": "<p>The event offers tools, strategies, and expert advice on how to <strong>accelerate growth</strong> in your <strong>spa or salon business</strong>, from increasing client retention to improving operational efficiency.</p>"
+            "title": "What products are not eligible for purchase using Installments by Afterpay?",
+            "text": "<p>Afterpay is not available on purchases of gift cards. If you are purchasing gift cards along with Afterpay eligible products, you will need to place two separate orders.</p>"
           }
         },
         "question_trVzJR": {
           "type": "question",
           "settings": {
-            "title": "Are there opportunities for networking?",
-            "text": "<p>Absolutely! There will be multiple <strong>networking opportunities</strong> to connect with peers, industry leaders, and potential business partners.</p>"
+            "title": "How do I return or exchange an item purchased using Installments by Afterpay?",
+            "text": "<p>If you have changed your mind, you can return your Afterpay purchase in store or by mail. All refunds must be obtained from Afterpay. Refunds are not processed by Repechage.com. Afterpay will be notified of your return and will process the appropriate refunds. Please do not return your purchase to Afterpay.<br/>If you believe there is fault or concern with your Afterpay purchase payment, please contact Afterpay customer support at <a href=\"mailto:info@afterpay.com\" title=\"mailto:info@afterpay.com\">info@afterpay.com</a></p>"
           }
         },
         "question_hTnk3p": {
           "type": "question",
           "settings": {
-            "title": "What is the registration fee?",
-            "text": "<p>Pricing details will be provided on the <strong>Repechage event website</strong>. Early registration may offer discounted rates.</p>"
+            "title": "Where can I find out more about Afterpay?",
+            "text": "<p>If you would like to know more about Afterpay, visit the Afterpay website www.afterpay.com for a comprehensive list of FAQs, terms as well as Afterpay’s Privacy Policy which can be found at <a href=\"https://www.afterpay.com/privacy-policy\" title=\"https://www.afterpay.com/privacy-policy\">https://www.afterpay.com/privacy-policy</a> If you have any questions about your Afterpay account, please contact Afterpay directly via web form at https://help.afterpay.com/hc/en-us</p>"
           }
         }
       },
@@ -561,28 +578,13 @@
         "question_hTnk3p"
       ],
       "settings": {
-        "title": "2024 Repechage Day of Empowerment Event: FAQ"
-      }
-    },
-    "hero_video_xBiQid": {
-      "type": "hero-video",
-      "settings": {
-        "title": "Bring your\nbrand to life.",
-        "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https://player.vimeo.com/video/985100858?h=8dc90a9cdf&badge=0&autopause=0&player_id=0&app_id=58479",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
+        "title": "FAQ"
       }
     }
   },
   "order": [
     "countdown_jzfUiY",
+    "hero_video_xBiQid",
     "slideshow_LczzJ3",
     "rich_text_X3baem",
     "rich_text_BCxMKt",
@@ -592,7 +594,6 @@
     "text_columns_gfPkyU",
     "testimonials_jFqUh6",
     "text_with_icons_Nh8z6U",
-    "faq",
-    "hero_video_xBiQid"
+    "faq"
   ]
 }
