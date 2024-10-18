@@ -197,7 +197,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_mask": "none",
+            "image": "shopify://shop_images/7_4906342e-fa5f-4063-8997-937bc794b6cf.jpg",
+            "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
             "title": "Example title",
@@ -210,11 +211,26 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_mask": "none",
+            "image": "shopify://shop_images/3_ca304d85-51e4-4a11-a23e-30892a12869b.jpg",
+            "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "title": "Ronit Enos",
+            "text": "<p>Bestselling Author, Dynamic Speaker, Serial Entrepreneur, and Founder of Salon Cadence.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_XMnedY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/8_7fb7e239-51b0-4d8d-9a1d-f439d48a4bc6.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Shiri Sarfati",
+            "text": "<p>Executive VP and \u0003Chief of Marketing, \u0003Repêchage®.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -223,15 +239,16 @@
       "block_order": [
         "text_block_c6zrqj",
         "text_block_iy3xgG",
-        "text_block_xB3z3m"
+        "text_block_xB3z3m",
+        "text_block_XMnedY"
       ],
       "settings": {
-        "title": "",
+        "title": "Meet THe Speakers",
         "text": "",
         "align_text": "center",
         "button_label": "",
         "button_link": "",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 4,
         "mobile_columns_per_row": 2,
         "block_align_text": "center",
         "button_style": "solid",
