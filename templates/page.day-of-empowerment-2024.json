@@ -275,7 +275,7 @@
         "image": "shopify://shop_images/conrad_2_2.jpg",
         "layout": "left",
         "height": 550,
-        "framed": false,
+        "framed": true,
         "parallax": true,
         "parallax_direction": "top",
         "lazyload_images": true
