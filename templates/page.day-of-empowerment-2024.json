@@ -264,6 +264,23 @@
         "divider": false
       }
     },
+    "background_image_text_UnDfb3": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "HOSTED AT",
+        "title": "Conrad Fort Lauderdale Beach Hotel ",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/conrad_2_2.jpg",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
     "text_with_icons_fnV4cg": {
       "type": "text-with-icons",
       "blocks": {
@@ -634,6 +651,17 @@
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
       }
+    },
+    "custom_image_with_info_Dyej7Q": {
+      "type": "custom__image-with-info",
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -644,10 +672,12 @@
     "main",
     "text_and_image_HAeHag",
     "text_columns_3AEykF",
+    "background_image_text_UnDfb3",
     "text_with_icons_fnV4cg",
     "text_columns_gfPkyU",
     "testimonials_jFqUh6",
     "text_with_icons_Nh8z6U",
-    "faq"
+    "faq",
+    "custom_image_with_info_Dyej7Q"
   ]
 }
