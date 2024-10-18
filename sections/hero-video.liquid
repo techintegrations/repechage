@@ -83,6 +83,9 @@
           class="video-div"
           data-type="vimeo"
           data-video-id="{{ video_id }}"></div>
+        <script>
+        console.log("Video ID: " + "{{ video_id }}");
+    </script>
       {%- endif -%}
 
       {%- if section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' -%}
