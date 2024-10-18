@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "slideshow_LczzJ3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Y9W6Fw": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Day_Of_Empowerment_2023_widescreen.gif",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Y9W6Fw"
+      ],
+      "settings": {
+        "show_container": false,
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "rich_text_X3baem": {
       "type": "rich-text",
       "blocks": {
@@ -546,6 +582,7 @@
     }
   },
   "order": [
+    "slideshow_LczzJ3",
     "rich_text_X3baem",
     "countdown_jzfUiY",
     "rich_text_BCxMKt",
