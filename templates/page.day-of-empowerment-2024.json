@@ -403,7 +403,7 @@
         "button_label": "",
         "button_link": "",
         "image": "shopify://shop_images/conrad_2_2.jpg",
-        "layout": "left",
+        "layout": "right",
         "height": 550,
         "framed": true,
         "parallax": true,
