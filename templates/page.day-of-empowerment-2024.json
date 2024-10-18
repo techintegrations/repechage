@@ -584,7 +584,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>5:30pm-7:30pm<br/>– deluxe brand bar plus signature cocktail</p>",
+            "text": "<p><strong>5:30pm-7:30pm</strong> – deluxe brand bar plus signature cocktail</p>",
             "text_color": "#000"
           }
         },
@@ -592,7 +592,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><span style=\"text-decoration:underline\"><strong>Monday<br/>December 2, 2024 – Day of Empowerment</strong></span></p>",
+            "text": "<p><span style=\"text-decoration:underline\"><strong>Monday December 2, 2024 – Day of Empowerment</strong></span></p>",
             "text_color": "#000"
           }
         },
