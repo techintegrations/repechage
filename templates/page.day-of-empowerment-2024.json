@@ -179,8 +179,9 @@
     "text_and_image_LYFiFT": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/lydia-tall-3.jpg",
+        "image": "shopify://shop_images/Lydia-with-lamp-web_large_487c6740-dfb6-474d-9147-b5fb419d44cd.jpg",
         "image_mask": "rounded",
+        "image2": "shopify://shop_images/lydia-led_2.png",
         "image2_mask": "rounded",
         "show_sticky_text": false,
         "subtitle": "Lydia Sarfati",
@@ -191,7 +192,7 @@
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
-        "image_width": "33",
+        "image_width": "50",
         "layout": "left",
         "bg_color": "",
         "padding_top": 50,
