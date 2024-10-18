@@ -75,15 +75,19 @@
           data-video-id="{{ video_id }}"></div>
       {%- endif -%}
 
-      {%- if section.settings.video_url contains 'vimeo.com' -%}
-        {%- assign video_id = section.settings.video_url | split: '.com/' -%}
-        {%- assign video_id = video_id[1] | split: '/' | first -%}
-        <div
-          id="Vimeo-{{ section.id }}"
-          class="video-div"
-          data-type="vimeo"
-          data-video-id="{{ video_id }}"></div>
-      {%- endif -%}
+      {%- if section.settings.video_url contains 'player.vimeo.com/video/' -%}
+  <div class="video-div">
+    <iframe
+      src="{{ section.settings.video_url }}"
+      width="640"
+      height="360"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+{%- endif -%}
+
 
       {%- if section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' -%}
         <video
