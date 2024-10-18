@@ -181,10 +181,10 @@
       "settings": {
         "image": "shopify://shop_images/lydia-tall-3.jpg",
         "image_mask": "rounded",
-        "image2_mask": "none",
+        "image2_mask": "rounded",
         "show_sticky_text": false,
         "subtitle": "Lydia Sarfati",
-        "title": "Image with text",
+        "title": "The Queen Of Seaweed",
         "text": "<p><strong>Lydia Sarfati</strong> is a renowned skincare expert, esthetician, and CEO of Repechage, a global leader in seaweed-based skincare. With over four decades of experience, Lydia pioneered treatments like the Four-Layer Facial and is a passionate advocate for professional skincare education. She is also a published author and international speaker, dedicated to advancing the beauty industry through innovation and education.</p>",
         "enlarge_text": false,
         "button_label": "",
