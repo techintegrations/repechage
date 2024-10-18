@@ -76,7 +76,8 @@
       {%- endif -%}
 
       {%- if section.settings.video_url contains 'player.vimeo.com/video/' -%}
-        <div class="video-div">
+        <div class="video-div"
+          id="Vimeo-{{ section.id }}">
           <iframe
             src="{{ section.settings.video_url }}"
             width="640"
