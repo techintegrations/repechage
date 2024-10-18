@@ -511,7 +511,7 @@
             "custom_icon": "",
             "icon": "globe",
             "title": "Discover New Skincare Trends",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "text": "<p>Explore the latest launches and techniques to enhance your services and attract more clients.</p>",
             "link_text": "",
             "link": ""
           }
@@ -533,7 +533,7 @@
           "settings": {
             "select_icon": "icon",
             "custom_icon": "",
-            "icon": "chat",
+            "icon": "ribbon",
             "title": "Transform Your Spa",
             "text": "<p>Gain practical skills and insights to accelerate your business and elevate your offerings.</p>",
             "link_text": "",
