@@ -344,8 +344,8 @@
             "icon": "chat",
             "title": "MONDAY",
             "text": "<p>December 2, 2024<br/>Day of Empowerment + \u0003Wellness Activation </p><h2><strong>$195</strong></h2>",
-            "link_text": "",
-            "link": ""
+            "link_text": "REGISTER",
+            "link": "shopify://products/day-of-empowerment-2024"
           }
         },
         "text_block_TY6iGC": {
@@ -356,8 +356,8 @@
             "icon": "chat",
             "title": "TUESDAY",
             "text": "<p>December 3, 2024<br/>Advanced Skincare\u0003Workshop<br/></p><h2><strong>$285</strong></h2>",
-            "link_text": "",
-            "link": ""
+            "link_text": "REGISTER!",
+            "link": "shopify://products/day-of-empowerment-2024"
           }
         },
         "text_block_i34j9i": {
@@ -384,7 +384,7 @@
         "desktop_columns_per_row": 3,
         "icon_color": "#000",
         "block_bg_color": "#ffffff",
-        "button_label": "Act now and reserve your spot today—spaces are filling fast!",
+        "button_label": "",
         "button_link": "shopify://products/day-of-empowerment-2024",
         "bg_color": "#ffffff",
         "padding_top": 50,
