@@ -187,7 +187,7 @@
     "text_and_image_HAeHag": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2024-07-29_at_2.30.10_PM.png",
+        "image": "shopify://shop_images/33.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
