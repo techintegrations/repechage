@@ -37,8 +37,8 @@
         "narrow_column": true,
         "padding_top": 20,
         "padding_bottom": 20,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
+        "padding_top_m": 10,
+        "padding_bottom_m": 10,
         "bg_color": "",
         "divider": false
       }
@@ -247,12 +247,73 @@
         "title": "Here’s What Previous Attendees Say…",
         "align_text": "center",
         "round_images": true,
-        "color_background": "#ffffff",
+        "color_background": "#ebebeb",
         "color_text": "#1c1d1d",
         "padding_top": 20,
         "padding_bottom": 20,
         "padding_top_m": 0,
         "padding_bottom_m": 0
+      }
+    },
+    "text_with_icons_Nh8z6U": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_AtKBCF": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_EGB4kn": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_R77CWd": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_AtKBCF",
+        "text_block_EGB4kn",
+        "text_block_R77CWd"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
       }
     },
     "faq": {
@@ -355,7 +416,7 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "",
+        "video_url": "https://player.vimeo.com/video/985100858?h=8dc90a9cdf&badge=0&autopause=0&player_id=0&app_id=58479",
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "auto"
@@ -369,6 +430,7 @@
     "text_and_image_HAeHag",
     "text_with_icons_fnV4cg",
     "testimonials_jFqUh6",
+    "text_with_icons_Nh8z6U",
     "faq",
     "hero_video_xBiQid"
   ]
