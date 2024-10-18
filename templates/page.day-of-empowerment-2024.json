@@ -258,7 +258,7 @@
             "preheading": "KEYNOTE SPEAKER",
             "title": "Girlie Joseph",
             "text": "<p>Director of Spa and Wellness<br/>at the Waldorf Astoria Atlanta Buckhead, 5-star rated hotel <br/>in Atlanta, Georgia.</p>",
-            "button_label": "RESERVE YOUR SEAT NOW",
+            "button_label": "",
             "button_link": "shopify://products/day-of-empowerment-2024"
           }
         },
@@ -272,7 +272,7 @@
             "preheading": "",
             "title": "Edyta Satchell",
             "text": "<p>Founder and CEO of Finelle, \u0003a renowned global speaker, coach, consultant and wellness practitioner. </p>",
-            "button_label": "RESERVE YOUR SEAT NOW",
+            "button_label": "",
             "button_link": "shopify://products/day-of-empowerment-2024"
           }
         },
@@ -286,7 +286,7 @@
             "preheading": "",
             "title": "Ronit Enos",
             "text": "<p>Bestselling Author, Dynamic Speaker, Serial Entrepreneur, and Founder of Salon Cadence.</p>",
-            "button_label": "RESERVE YOUR SEAT NOW",
+            "button_label": "",
             "button_link": "shopify://products/day-of-empowerment-2024"
           }
         },
@@ -300,7 +300,7 @@
             "preheading": "",
             "title": "Shiri Sarfati",
             "text": "<p>Executive VP and \u0003Chief of Marketing, \u0003Repêchage®.</p>",
-            "button_label": "RESERVE YOUR SEAT NOW",
+            "button_label": "",
             "button_link": "shopify://products/day-of-empowerment-2024"
           }
         }
@@ -315,8 +315,8 @@
         "title": "OUR LINEUP",
         "text": "",
         "align_text": "center",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Act now and reserve your spot today—spaces are filling fast!",
+        "button_link": "shopify://products/day-of-empowerment-2024",
         "desktop_columns_per_row": 4,
         "mobile_columns_per_row": 2,
         "block_align_text": "center",
