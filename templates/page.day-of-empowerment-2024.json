@@ -436,57 +436,18 @@
     "testimonials_jFqUh6": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_kwYa6a": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_3PrB3G": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_EqBQrq": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_wyiCcC": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
         "testimonial_yV3KWE": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
+            "testimonial": "<p>\"The Day of Empowerment is a must-attend event! Connect with the esthetician community and enjoy Florida’s ocean vibes. Don’t miss it!” </p>",
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_1.27.34_PM.png",
+            "author": "Juan SIlva",
             "author_info": "Los Angeles, CA"
           }
         }
       },
       "block_order": [
-        "testimonial_kwYa6a",
-        "testimonial_3PrB3G",
-        "testimonial_EqBQrq",
-        "testimonial_wyiCcC",
         "testimonial_yV3KWE"
       ],
       "settings": {
