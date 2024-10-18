@@ -715,8 +715,8 @@
         "bg_color": "#ebebeb",
         "padding_top": 50,
         "padding_bottom": 50,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
+        "padding_top_m": 10,
+        "padding_bottom_m": 10,
         "divider": false
       }
     },
