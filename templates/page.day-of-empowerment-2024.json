@@ -375,7 +375,7 @@
         "align_text": "left",
         "desktop_columns_per_row": 3,
         "icon_color": "#000",
-        "block_bg_color": "",
+        "block_bg_color": "#ebebeb",
         "button_label": "",
         "button_link": "",
         "bg_color": "",
