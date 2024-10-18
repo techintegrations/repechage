@@ -176,6 +176,32 @@
         "lazyload_images": true
       }
     },
+    "text_and_image_LYFiFT": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/lydia-tall-3.jpg",
+        "image_mask": "rounded",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "Lydia Sarfati",
+        "title": "Image with text",
+        "text": "<p><strong>Lydia Sarfati</strong> is a renowned skincare expert, esthetician, and CEO of Repechage, a global leader in seaweed-based skincare. With over four decades of experience, Lydia pioneered treatments like the Four-Layer Facial and is a passionate advocate for professional skincare education. She is also a published author and international speaker, dedicated to advancing the beauty industry through innovation and education.</p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "left",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
     "text_columns_3AEykF": {
       "type": "text-columns",
       "blocks": {
@@ -291,8 +317,8 @@
             "custom_image": "shopify://shop_images/Afterpay-Icons-Calendar_db197040-b160-46ac-b9da-a6f956bd57f7.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "MONDAY",
-            "text": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+            "title": "ABOUT LYDIA",
+            "text": "<p><strong>Lydia Sarfati</strong> is a renowned skincare expert, esthetician, and CEO of Repechage, a global leader in seaweed-based skincare. With over four decades of experience, Lydia pioneered treatments like the Four-Layer Facial and is a passionate advocate for professional skincare education. She is also a published author and international speaker, dedicated to advancing the beauty industry through innovation and education.</p>",
             "link_text": "",
             "link": ""
           }
@@ -330,7 +356,7 @@
         "text_block_3hDEBn"
       ],
       "settings": {
-        "title": "THE AGENDA",
+        "title": "LYDIA SARFATI",
         "align_text": "center",
         "desktop_columns_per_row": 3,
         "icon_color": "#000000",
@@ -703,6 +729,7 @@
     "rich_text_BCxMKt",
     "main",
     "text_and_image_HAeHag",
+    "text_and_image_LYFiFT",
     "text_columns_3AEykF",
     "background_image_text_UnDfb3",
     "text_with_icons_fnV4cg",
