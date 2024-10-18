@@ -110,47 +110,13 @@
         "lazyload_images": true
       }
     },
-    "rich_text_X3baem": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_f3F3md": {
-          "type": "heading",
-          "settings": {
-            "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
-            "title_color": "#000000"
-          }
-        },
-        "text_VqEUwY": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>CONRAD BEACH HOTEL<br/>FT. LAUDERDALE, FL (December 01- 3, 2024</p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_f3F3md",
-        "text_VqEUwY"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
-        "bg_color": "",
-        "divider": false
-      }
-    },
     "rich_text_BCxMKt": {
       "type": "rich-text",
       "blocks": {
         "heading_giR4Bg": {
           "type": "heading",
           "settings": {
-            "title": "YOU ARE  CORDIALLY INVITED",
+            "title": "ABOUT CONFERENCE",
             "title_color": "#000000"
           }
         },
@@ -208,6 +174,77 @@
         "padding_bottom_m": 40,
         "divider": false,
         "lazyload_images": true
+      }
+    },
+    "text_columns_3AEykF": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_c6zrqj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/06.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Girlie Joseph",
+            "text": "<p>Director of Spa and Wellness<br/>at the Waldorf Astoria Atlanta Buckhead, 5-star rated hotel <br/>in Atlanta, Georgia.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_iy3xgG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_xB3z3m": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_c6zrqj",
+        "text_block_iy3xgG",
+        "text_block_xB3z3m"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
       }
     },
     "text_with_icons_fnV4cg": {
@@ -586,10 +623,10 @@
     "countdown_jzfUiY",
     "hero_video_xBiQid",
     "slideshow_LczzJ3",
-    "rich_text_X3baem",
     "rich_text_BCxMKt",
     "main",
     "text_and_image_HAeHag",
+    "text_columns_3AEykF",
     "text_with_icons_fnV4cg",
     "text_columns_gfPkyU",
     "testimonials_jFqUh6",
