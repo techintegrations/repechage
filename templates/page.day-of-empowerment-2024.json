@@ -386,11 +386,11 @@
         "block_bg_color": "#ebebeb",
         "button_label": "Act now and reserve your spot today—spaces are filling fast!",
         "button_link": "shopify://products/day-of-empowerment-2024",
-        "bg_color": "",
+        "bg_color": "#ebebeb",
         "padding_top": 50,
         "padding_bottom": 50,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_top_m": 50,
+        "padding_bottom_m": 58,
         "divider": false
       }
     },
