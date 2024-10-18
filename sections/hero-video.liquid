@@ -76,14 +76,14 @@
       {%- endif -%}
 
       {%- if section.settings.video_url contains 'vimeo.com' -%}
-  {%- assign video_id = section.settings.video_url | split: '/video/' -%}
-  {%- assign video_id = video_id[1] | split: '?' | first -%}
-  <div
-    id="Vimeo-{{ section.id }}"
-    class="video-div"
-    data-type="vimeo"
-    data-video-id="{{ video_id }}"></div>
-{%- endif -%}
+        {%- assign video_id = section.settings.video_url | split: '.com/' -%}
+        {%- assign video_id = video_id[1] | split: '/' | first -%}
+        <div
+          id="Vimeo-{{ section.id }}"
+          class="video-div"
+          data-type="vimeo"
+          data-video-id="{{ video_id }}"></div>
+      {%- endif -%}
 
       {%- if section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' -%}
         <video
