@@ -67,7 +67,7 @@
         "link": "https://www.repechage.com/products/day-of-empowerment-2024",
         "color_accent": "#b1e4e3",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https://www.youtube.com/watch?v=zBW6WPL6xe0",
+        "video_url": "https://player.vimeo.com/video/985100858?h=8dc90a9cdf&badge=0&autopause=0&player_id=0&app_id=58479",
         "overlay_opacity": 58,
         "section_height": "750px",
         "mobile_height": "auto"
@@ -569,7 +569,7 @@
           "type": "heading",
           "settings": {
             "title": "THE AGENDA",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_7q9VX6": {
@@ -577,7 +577,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<h3><span style=\"text-decoration:underline\"><strong>Sunday, December 1, 2024 – Welcome Reception</strong></span></h3><p><strong>5:30pm-7:30pm</strong> – deluxe brand bar plus signature cocktail</p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "text_y73nyR": {
@@ -585,7 +585,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<h3><span style=\"text-decoration:underline\"><strong>Monday December 2, 2024 – Day of Empowerment</strong></span></h3><ul><li><strong>8:30am-9:30am</strong> - <strong>\"Miami in Ft. Lauderdale\"</strong> - Light Bites and Coffee/Tea Registration</li><li><strong>9:30am</strong> - Shiri – Welcome</li><li><strong>9:45am</strong> - Girlie Joseph Keynote</li><li><strong>10:15am - 11:45am</strong> 90min Panel - Intro (15 min ech panelist) + Open Forum Questions</li><li> <strong>11:45am-12:00pm</strong> - 15min Break </li><li> <strong>12:00pm-1:00pm</strong> - Lydia - NEW launch, Product Treatments and Wellness </li><li> <strong>1:00pm-3:00pm </strong>- Solano Lunch and Wellness Activation - Treatment Demos and NEW treatment Presentation </li><li><strong> 3:00pm-3:45pm </strong>- Ronit Enos </li><li> <strong>3:45pm-4:00pm </strong>- Q&A</li><li> 4<strong>:00-4:45pm </strong>- Edyta Satchell (includes Q&A)</li><li> <strong>4:45pm-5pm </strong>- Closing Remarks</li></ul>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
