@@ -1,18 +1,34 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
+      }
+    },
+    "hero_video_t6xMYq": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "#0b0b0b",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://player.vimeo.com/video/985100858?autoplay=1&loop=1&muted=1&h=8dc90a9cdf&badge=0&autopause=0&player_id=0&app_id=58479",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
       }
     },
     "rich_text_V9qig6": {
@@ -22,7 +38,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h1>SUSTAINABLE SEAWEED SKINCARE INNOVATORS<\/h1>",
+            "text": "<h1>SUSTAINABLE SEAWEED SKINCARE INNOVATORS</h1>",
             "text_color": "#000000"
           }
         },
@@ -30,7 +46,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Repêchage® is committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.<\/p>",
+            "text": "<p>Repêchage® is committed to professional-grade skincare and prioritize quality without compromise. We're not just skincare enthusiasts; we pride ourselves on pioneering cutting-edge, seaweed-based formulas and provide in-depth education and training.</p>",
             "text_color": "#2b2a27"
           }
         }
@@ -53,13 +69,13 @@
     "text_and_image_JmjzCR": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Lydia-with-lamp-web_large_487c6740-dfb6-474d-9147-b5fb419d44cd.jpg",
+        "image": "shopify://shop_images/Lydia-with-lamp-web_large_487c6740-dfb6-474d-9147-b5fb419d44cd.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": true,
         "subtitle": "Made in the USA",
         "title": "SINCE 1980",
-        "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"<\/p><p>— Lydia Sarfati<\/p>",
+        "text": "<p>\"Since the launch of Repêchage in 1980, I’ve been committed to creating the most innovative and effective skincare products. This dedication stems from my esthetics background and my experience of the sea. Let’s dive in and ride the waves of radiant skin together.\"</p><p>— Lydia Sarfati</p>",
         "enlarge_text": true,
         "button_label": "",
         "button_link": "",
@@ -90,7 +106,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h3><em>It’s your skin. Don’t compromise it.<\/em><\/h3>",
+            "text": "<h3><em>It’s your skin. Don’t compromise it.</em></h3>",
             "text_color": "#2b2a27"
           }
         },
@@ -98,7 +114,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer<\/p>",
+            "text": "<p>We like keeping things close to home. That’s why every Repêchage product is developed and manufactured at our 50,000-square-foot manufacturing, research and development, and training facility in Secaucus, New Jersey. We believe in quality control and can name every ingredient in our products, which are rigorously dermatologist-tested and feature clinically proven ingredients. It's a perfect fusion of Lydia's vision and passion, shared seamlessly with her husband, David, our chief operating officer, and their daughter, Shiri Sarfati, the executive vice president and chief marketing officer</p>",
             "text_color": "#000000"
           }
         }
@@ -125,9 +141,9 @@
         "image_slider_block_fmkzwz": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/map_852ed184-26e9-4494-bd5a-2d26053d3d1c.jpg",
+            "image": "shopify://shop_images/map_852ed184-26e9-4494-bd5a-2d26053d3d1c.jpg",
             "title": "1. COMMITMENT TO PROFESSIONAL ESTHETICS",
-            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.<\/p>",
+            "text": "<p>Repêchage® is proud to be available through professional skin care centers, spas, medical centers, salons, and wellness centers.</p>",
             "enlarge_text": true,
             "button_label": "",
             "button_link": "",
@@ -137,9 +153,9 @@
         "image_slider_block_cQXLDU": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/clas2024.png",
+            "image": "shopify://shop_images/clas2024.png",
             "title": "2. COMMITMENT TO EDUCATION",
-            "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.<\/p>",
+            "text": "<p>Our advanced esthetic training programs are available globally and online through webinars, LydiaSarfati.com, and our library of educational videos and textbooks.</p>",
             "enlarge_text": true,
             "button_label": "",
             "button_link": "",
@@ -149,9 +165,9 @@
         "image_slider_block_pNE4qP": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/success_2371fae8-64ac-43f2-9a81-bdb2ffa4facb.png",
+            "image": "shopify://shop_images/success_2371fae8-64ac-43f2-9a81-bdb2ffa4facb.png",
             "title": "3. COMMITMENT TO SPA SUCCESS",
-            "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!<\/p>",
+            "text": "<p>Our extensive business support programs empower salons and spas to prioritize what matters most: delivering exceptional treatments and services to you!</p>",
             "enlarge_text": true,
             "button_label": "",
             "button_link": "",
@@ -161,9 +177,9 @@
         "image_slider_block_hUxKXG": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/machine.png",
+            "image": "shopify://shop_images/machine.png",
             "title": "4. COMMITMENT TO EXCELLENCE",
-            "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.<\/p>",
+            "text": "<p>Proudly crafted in the United States, Repêchage® blends premium ingredients sourced globally and proudly holds the ISO 9001:2015 Quality Management and GMP certifications.</p>",
             "enlarge_text": true,
             "button_label": "",
             "button_link": "",
@@ -173,9 +189,9 @@
         "image_slider_block_bBLtaq": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hydro.png",
+            "image": "shopify://shop_images/hydro.png",
             "title": "5. COMMITMENT TO THE BEST PRODUCTS",
-            "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.<\/p>",
+            "text": "<p>Our research and development team is committed to creating only the best and safest products that undergo rigorous testing for safety and compliance.</p>",
             "enlarge_text": true,
             "button_label": "",
             "button_link": "",
@@ -204,7 +220,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "self_hosted_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/04d8877d1a3446fda3ba77d04b0c2b2e.mp4",
+        "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/04d8877d1a3446fda3ba77d04b0c2b2e.mp4",
         "video_url": "",
         "show_full_width": false,
         "divider": false,
@@ -222,6 +238,7 @@
   },
   "order": [
     "main",
+    "hero_video_t6xMYq",
     "rich_text_V9qig6",
     "text_and_image_JmjzCR",
     "rich_text_X66Ge8",
