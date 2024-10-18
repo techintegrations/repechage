@@ -681,6 +681,13 @@
             "title": "Is there a special room rate at the Conrad Hotel for attendees?",
             "text": "<p>Yes, a special room rate is available for attendees. Please check the <strong>Repechage event page</strong> for booking information.</p>"
           }
+        },
+        "question_aj4L6T": {
+          "type": "question",
+          "settings": {
+            "title": "Can I attend just one day of the event?",
+            "text": "<p>While we encourage attending all three days to get the full experience, single-day tickets may be available depending on availability.</p>"
+          }
         }
       },
       "block_order": [
@@ -694,7 +701,8 @@
         "question_kpFBN3",
         "question_trVzJR",
         "question_hTnk3p",
-        "question_GkgM7L"
+        "question_GkgM7L",
+        "question_aj4L6T"
       ],
       "settings": {
         "title": "2024 Repechage Day of Empowerment Event: FAQ"
