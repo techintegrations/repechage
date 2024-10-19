@@ -432,7 +432,7 @@
         "padding_bottom": 40,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
-        "bg_color": "",
+        "bg_color": "#ebebeb",
         "divider": false
       }
     },
