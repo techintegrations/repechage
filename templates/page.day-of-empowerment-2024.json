@@ -1062,6 +1062,48 @@
         "margin_bottom_m": 10,
         "bg_color": "#ffffff"
       }
+    },
+    "rich_text_crV9FM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YW9M6y": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready to take your salon and spa business to the next level?",
+            "title_color": "#000"
+          }
+        },
+        "text_ynqUkE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Unleash its full potential with us at our 2024 Day of Empowerment.</p><p></p>",
+            "text_color": "#000"
+          }
+        },
+        "button_FVftCN": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/day-of-empowerment-2024",
+            "link_text": "START TODAY!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YW9M6y",
+        "text_ynqUkE",
+        "button_FVftCN"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "bg_color": "",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -1086,6 +1128,7 @@
     "custom_gallery_gDA7Q9",
     "faq",
     "custom_image_with_info_Dyej7Q",
-    "featured_video_FUFxzG"
+    "featured_video_FUFxzG",
+    "rich_text_crV9FM"
   ]
 }
