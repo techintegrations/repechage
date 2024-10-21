@@ -706,18 +706,6 @@
             "link": ""
           }
         },
-        "text_block_VzGCUE": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
         "text_block_R77CWd": {
           "type": "text_block",
           "settings": {
@@ -734,7 +722,6 @@
       "block_order": [
         "text_block_AtKBCF",
         "text_block_EGB4kn",
-        "text_block_VzGCUE",
         "text_block_R77CWd"
       ],
       "settings": {
