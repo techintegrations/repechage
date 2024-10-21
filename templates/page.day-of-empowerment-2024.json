@@ -14,7 +14,7 @@
       "settings": {
         "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
         "title_size": 73,
-        "subheading": "Conrad Fort Lauderdale Beach Hotel (December 2-3, 2024)",
+        "subheading": "Conrad Fort Lauderdale Beach Hotel (December 1-3, 2024)",
         "link_text": "GET YOUR TICKET NOW!",
         "link": "https://www.repechage.com/products/day-of-empowerment-2024",
         "color_accent": "#b1e4e3",
@@ -1070,7 +1070,7 @@
           "type": "heading",
           "settings": {
             "title": "Ready to take your salon and spa business to the next level?",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_ynqUkE": {
@@ -1078,7 +1078,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Unleash its full potential with us at our 2024 Day of Empowerment.</p><p></p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "button_FVftCN": {
