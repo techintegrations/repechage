@@ -613,6 +613,15 @@
             "author_info": "Spa Adagio"
           }
         },
+        "testimonial_4VCL9C": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
         "testimonial_wwiWkd": {
           "type": "testimonial",
           "settings": {
@@ -621,12 +630,23 @@
             "author": "Andrea R.",
             "author_info": ""
           }
+        },
+        "testimonial_nJr8zd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Meeting new people, marketing, networking and getting to meet the people that created Repechage!</p>",
+            "author": "Carine Jemia, Mustard Seed Massage",
+            "author_info": "Washington DC"
+          }
         }
       },
       "block_order": [
         "testimonial_yV3KWE",
         "testimonial_GE4jeX",
-        "testimonial_wwiWkd"
+        "testimonial_4VCL9C",
+        "testimonial_wwiWkd",
+        "testimonial_nJr8zd"
       ],
       "settings": {
         "title": "Here’s What Previous Attendees Say…",
@@ -686,6 +706,18 @@
             "link": ""
           }
         },
+        "text_block_VzGCUE": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
         "text_block_R77CWd": {
           "type": "text_block",
           "settings": {
@@ -702,6 +734,7 @@
       "block_order": [
         "text_block_AtKBCF",
         "text_block_EGB4kn",
+        "text_block_VzGCUE",
         "text_block_R77CWd"
       ],
       "settings": {
