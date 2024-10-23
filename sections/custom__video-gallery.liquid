@@ -69,8 +69,8 @@
               <a href="{{ block.settings.button_link }}">
             {%- endif -%}
             {%- if block.settings.image != blank -%}
-              <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-                <video controls autoplay muted loop class="video-with-text">
+              <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style=" padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                <video controls autoplay muted loop class="video-with-text" style="width: 100%;">
                   <source src="{{ block.settings.image }}" type="video/mp4">
                 </video>
               </div>
