@@ -52,7 +52,7 @@ $(document).ready(function () {
   });
 
    const flickitySlider4 = new Flickity(".custom-video-gallery-slider", {
-    cellAlign: "left",
+    cellAlign: "center",
     contain: true,
     prevNextButtons: true,
     pageDots: true,
