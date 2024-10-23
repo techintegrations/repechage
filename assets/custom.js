@@ -51,6 +51,16 @@ $(document).ready(function () {
     wrapAround: true,
   });
 
+   const flickitySlider4 = new Flickity(".custom-announcement-slider", {
+    cellAlign: "left",
+    contain: true,
+    prevNextButtons: true,
+    pageDots: true,
+    freeScroll: false,
+    avoidReflow: true,
+    wrapAround: true,
+  });
+
   $(".site-nav__item").hover(
     function () {
       // Mouse enter
@@ -89,33 +99,6 @@ $(document).ready(function () {
     focusOnSelect: true,
     verticalSwiping: false,
   });
-
-  $(".custom-announcement-slider").slick({
-    vertical: true,
-    slidesToShow: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: true,
-    dots: false,
-    prevArrow:
-      "<button type='button' class='slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
-    nextArrow:
-      "<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
-    responsive: [
-      {
-        breakpoint: 992, // Adjust this value based on your mobile breakpoint
-        settings: {
-          slidesToShow: 1,
-          vertical: false,
-          arrows: true,
-          dots: false,
-          fade: false,
-          fade: true,
-        },
-      },
-    ],
-  });
-
 
   $(".custom-video-gallery-slider").slick({
     slidesToShow: 3,
