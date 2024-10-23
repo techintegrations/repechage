@@ -100,8 +100,9 @@ $(document).ready(function () {
     verticalSwiping: false,
   });
 
-  $(".custom-video-gallery-slider").slick({
-    slidesToShow: 3,
+  $(".custom-announcement-slider").slick({
+    vertical: true,
+    slidesToShow: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
@@ -124,6 +125,7 @@ $(document).ready(function () {
       },
     ],
   });
+
 
   var $stickyAddToCart = $(".sticky-add-to-cart-section");
   var scrollThreshold = 500; // Adjust this value to determine "two to three steps"
