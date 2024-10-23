@@ -116,6 +116,32 @@ $(document).ready(function () {
     ],
   });
 
+
+  $(".custom-video-gallery-slider").slick({
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+    dots: false,
+    prevArrow:
+      "<button type='button' class='slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
+    nextArrow:
+      "<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0834/3901/files/right-arrow.png?v=1722628806'></button>",
+    responsive: [
+      {
+        breakpoint: 992, // Adjust this value based on your mobile breakpoint
+        settings: {
+          slidesToShow: 1,
+          vertical: false,
+          arrows: true,
+          dots: false,
+          fade: false,
+          fade: true,
+        },
+      },
+    ],
+  });
+
   var $stickyAddToCart = $(".sticky-add-to-cart-section");
   var scrollThreshold = 500; // Adjust this value to determine "two to three steps"
 
