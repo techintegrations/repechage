@@ -61,45 +61,46 @@
 
   <div class="grid{% unless section.blocks.size == 5 %} grid--uniform{% endunless %} grid--flush-bottom {% if section.blocks.size > 3 %}custom-video-gallery-slider{% endif %}">
     {%- for block in section.blocks -%}
-
-      <div class="grid__item text-{{ section.settings.block_align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
-        {%- if block.settings.enable_image -%}
-          <div style="{% if section.settings.block_align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
-            {%- if block.settings.button_link != blank -%}
-              <a href="{{ block.settings.button_link }}">
-            {%- endif -%}
-            {%- if block.settings.image != blank -%}
-              <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style=" padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+    <div class="grid__item text-{{ section.settings.block_align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
+      {%- if block.settings.enable_image -%}
+        <div style="{% if section.settings.block_align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
+          {%- if block.settings.button_link != blank -%}
+            <a href="{{ block.settings.button_link }}">
+          {%- endif -%}
+          {%- if block.settings.image != blank -%}
+            <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style=" padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+              <a data-fancybox="gallery" href="{{ block.settings.image }}" class="fancybox-video" data-fancybox="video-gallery">
                 <video controls autoplay muted loop class="video-with-text" style="width: 100%;">
                   <source src="{{ block.settings.image }}" type="video/mp4">
                 </video>
-              </div>
-            {%- else -%}
-              <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-            {%- endif -%}
-            {%- if block.settings.button_link != blank -%}
               </a>
-            {%- endif -%}
-          </div>
-        {%- endif -%}
-        {%- if block.settings.preheading != blank -%}
-          <p class="preheading">{{ block.settings.preheading }}</p>
-        {%- endif -%}
-        {%- if block.settings.title != blank -%}
-          <h3>{{ block.settings.title }}</h3>
-        {%- endif -%}
-        {%- if block.settings.text != blank -%}
-          <div class="info rte-setting text-spacing">{{ block.settings.text }}</div>
-        {%- endif -%}
-        {%- if block.settings.button_label != blank -%}
-          <div class="grid__item-button {% if section.settings.button_style == 'link' %}rte{% endif %}">
-            <a href="{{ block.settings.button_link }}" class="{% if section.settings.button_style == 'solid' %}btn btn--medium {% else %}link{% endif %}">
-              {{ block.settings.button_label }}
+            </div>
+          {%- else -%}
+            <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+          {%- endif -%}
+          {%- if block.settings.button_link != blank -%}
             </a>
-          </div>
-        {%- endif -%}
-      </div>
-    {%- endfor -%}
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+      {%- if block.settings.preheading != blank -%}
+        <p class="preheading">{{ block.settings.preheading }}</p>
+      {%- endif -%}
+      {%- if block.settings.title != blank -%}
+        <h3>{{ block.settings.title }}</h3>
+      {%- endif -%}
+      {%- if block.settings.text != blank -%}
+        <div class="info rte-setting text-spacing">{{ block.settings.text }}</div>
+      {%- endif -%}
+      {%- if block.settings.button_label != blank -%}
+        <div class="grid__item-button {% if section.settings.button_style == 'link' %}rte{% endif %}">
+          <a href="{{ block.settings.button_link }}" class="{% if section.settings.button_style == 'solid' %}btn btn--medium {% else %}link{% endif %}">
+            {{ block.settings.button_label }}
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
   </div>
 
 
@@ -422,3 +423,18 @@
   }
 }
 {% endschema %}
+
+
+<script>
+  // Initialize Fancybox for video gallery
+  Fancybox.bind("[data-fancybox='video-gallery']", {
+    contentClick: "toggleCover",
+    Images: {
+      Panzoom: {
+        panMode: "mousemove",
+        mouseMoveFactor: 1.1,
+        mouseMoveFriction: 0.12,
+      },
+    },
+  });
+</script>
