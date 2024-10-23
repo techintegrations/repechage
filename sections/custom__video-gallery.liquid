@@ -70,11 +70,9 @@
             {%- endif -%}
             {%- if block.settings.image != blank -%}
               <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-                {%- render 'image-element',
-                  img: block.settings.image,
-                  sizeVariable: column_width,
-                  widths: '180, 360, 540, 720, 900, 1080',
-                -%}
+                <video controls autoplay muted loop class="video-with-text">
+                  <source src="{{ block.settings.image }}" type="video/mp4">
+                </video>
               </div>
             {%- else -%}
               <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
@@ -117,8 +115,8 @@
 
 {% schema %}
 {
-  "name": "t:sections.text-columns.name",
-  "class": "text-columns-with-images",
+  "name": "Video gallery",
+  "class": "custom_video_gallery",
   "settings": [
     {
       "type": "text",
@@ -298,13 +296,13 @@
         {
           "type": "checkbox",
           "id": "enable_image",
-          "label": "t:sections.text-columns.blocks.column.settings.enable_image.label",
+          "label": "Show Video",
           "default": true
         },
         {
-          "type": "image_picker",
+          "type": "text",
           "id": "image",
-          "label": "t:sections.text-columns.blocks.column.settings.image.label"
+          "label": "Enter Video URL"
         },
         {
           "type": "select",
@@ -405,7 +403,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "name": "Custom Video gallery",
       "blocks": [
         {
           "type": "text_block"
