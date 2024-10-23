@@ -71,7 +71,7 @@
             <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style=" padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
               <a data-fancybox="gallery" href="{{ block.settings.image }}" class="fancybox-video" data-fancybox="video-gallery">
                 <video controls {% if block.settings.autoplay != blank %}autoplay muted{% endif %} loop class="video-with-text" style="width: 100%;">
-                  <source src="{{ block.settings.image }}" type="video/mp4">
+                  <source src="{{ block.settings.image }}">
                 </video>
               </a>
             </div>
