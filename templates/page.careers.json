@@ -307,7 +307,34 @@
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/fb43e5e4f08c4e1fb6ce6d0de889bebb.mp4",
             "image_mask": "none",
-            "image_width": 650,
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_adGxBW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/fb43e5e4f08c4e1fb6ce6d0de889bebb.mp4",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_YnURLD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/fb43e5e4f08c4e1fb6ce6d0de889bebb.mp4",
+            "image_mask": "none",
             "autoplay": false,
             "preheading": "",
             "title": "",
@@ -318,11 +345,11 @@
         },
         "text_block_PHzMGg": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/7b881831ce93473ba6c26e9ed9043d75.mov",
             "image_mask": "none",
-            "image_width": 650,
             "autoplay": false,
             "preheading": "",
             "title": "",
@@ -333,11 +360,11 @@
         },
         "text_block_66rFMp": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/b482096f710244018efb6325455b075e.mov",
             "image_mask": "none",
-            "image_width": 650,
             "autoplay": false,
             "preheading": "",
             "title": "",
@@ -349,6 +376,8 @@
       },
       "block_order": [
         "text_block_XN4qV7",
+        "text_block_adGxBW",
+        "text_block_YnURLD",
         "text_block_PHzMGg",
         "text_block_66rFMp"
       ],
