@@ -3,6 +3,18 @@
     overflow: hidden;
 }
 
+.custom-video-gallery-section .grid__item {
+    padding: 0 10px;
+}
+
+.custom-video-gallery-section .flickity-previous {
+    left: 0;
+}
+
+.custom-video-gallery-section .flickity-next {
+    right: 0;
+}
+
 .frequently_boughts-info.hide-discount .discounts {
     opacity: 0;
 }
