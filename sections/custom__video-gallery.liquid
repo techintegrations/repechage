@@ -114,6 +114,24 @@
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
+
+
+<script>
+  // Initialize Fancybox for video gallery
+  Fancybox.bind("[data-fancybox='video-gallery']", {
+    contentClick: "toggleCover",
+    Images: {
+      Panzoom: {
+        panMode: "mousemove",
+        mouseMoveFactor: 1.1,
+        mouseMoveFriction: 0.12,
+      },
+    },
+  });
+</script>
+
+
+
 {% schema %}
 {
   "name": "Video gallery",
@@ -419,18 +437,3 @@
   }
 }
 {% endschema %}
-
-
-<script>
-  // Initialize Fancybox for video gallery
-  Fancybox.bind("[data-fancybox='video-gallery']", {
-    contentClick: "toggleCover",
-    Images: {
-      Panzoom: {
-        panMode: "mousemove",
-        mouseMoveFactor: 1.1,
-        mouseMoveFriction: 0.12,
-      },
-    },
-  });
-</script>
