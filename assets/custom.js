@@ -118,7 +118,7 @@ $(document).ready(function () {
 
 
   $(".custom-video-gallery-slider").slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
