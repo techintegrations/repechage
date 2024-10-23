@@ -51,7 +51,7 @@ $(document).ready(function () {
     wrapAround: true,
   });
 
-   const flickitySlider4 = new Flickity(".custom-announcement-slider", {
+   const flickitySlider4 = new Flickity(".custom-video-gallery-slider", {
     cellAlign: "left",
     contain: true,
     prevNextButtons: true,
