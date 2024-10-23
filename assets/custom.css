@@ -1,3 +1,8 @@
+.custom-video-gallery-section .grid--flush-bottom {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
 .frequently_boughts-info.hide-discount .discounts {
     opacity: 0;
 }
