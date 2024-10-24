@@ -787,10 +787,10 @@
         "button_label": "",
         "button_link": "shopify://products/day-of-empowerment-2024",
         "bg_color": "#ebebeb",
-        "padding_top": 80,
-        "padding_bottom": 50,
-        "padding_top_m": 10,
-        "padding_bottom_m": 10,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
         "divider": false
       }
     },
