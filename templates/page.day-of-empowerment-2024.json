@@ -654,10 +654,10 @@
         "round_images": true,
         "color_background": "#ffffff",
         "color_text": "#1c1d1d",
-        "padding_top": 80,
-        "padding_bottom": 50,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50
+        "padding_top": 60,
+        "padding_bottom": 85,
+        "padding_top_m": 40,
+        "padding_bottom_m": 60
       }
     },
     "custom_video_gallery_KRxTTh": {
