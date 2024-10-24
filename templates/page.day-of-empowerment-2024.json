@@ -431,7 +431,7 @@
         "padding_top": 40,
         "padding_bottom": 60,
         "padding_top_m": 40,
-        "padding_bottom_m": 40,
+        "padding_bottom_m": 50,
         "bg_color": "#ebebeb",
         "divider": false
       }
