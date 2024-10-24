@@ -1811,9 +1811,18 @@ body.template-cart #cart-progress-wrapper {
       padding-top: 35px;
   }
 
-   .main-frequently_boughts {
+ .main-frequently_boughts {
       display: block;
-    }
+  }
+
+  .custom-video-gallery-section .grid {
+      margin: 0px;
+  }
+  
+  .custom-video-gallery-section .grid__item {
+      padding: 0px;
+  }
+
   
 }
 
