@@ -171,6 +171,20 @@ $(document).ready(function () {
       avoidReflow: true,
       wrapAround: true,
     });
+
+
+    const flickitySlider6 = new Flickity(".custom-video-gallery", {
+      cellAlign: "center",
+      contain: true,
+      prevNextButtons: true,
+      pageDots: true,
+      freeScroll: false,
+      avoidReflow: true,
+      wrapAround: true,
+    });
+
+
+    
   }
 });
 
