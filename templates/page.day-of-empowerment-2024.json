@@ -388,9 +388,9 @@
         "button_link": "shopify://products/day-of-empowerment-2024",
         "bg_color": "#ebebeb",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_m": 10,
-        "padding_bottom_m": 10,
+        "padding_bottom": 20,
+        "padding_top_m": 40,
+        "padding_bottom_m": 20,
         "divider": false
       }
     },
@@ -429,7 +429,7 @@
         "align_text": "center",
         "narrow_column": true,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 60,
         "padding_top_m": 40,
         "padding_bottom_m": 40,
         "bg_color": "#ebebeb",
