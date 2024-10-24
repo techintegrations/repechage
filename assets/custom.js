@@ -131,7 +131,6 @@ $(document).ready(function () {
   var scrollThreshold = 500; // Adjust this value to determine "two to three steps"
 
   $(window).on("scroll", function () {
-    setTimeout(initializeFlickity, 100);
     var scrollPosition = $(this).scrollTop();
 
     if (scrollPosition >= scrollThreshold) {
