@@ -172,7 +172,7 @@ $(document).ready(function () {
       wrapAround: true,
     });
 
-$(document).ready(function () {
+
     const flickitySlider6 = new Flickity(".custom-video-gallery", {
       cellAlign: "center",
       contain: true,
@@ -183,11 +183,9 @@ $(document).ready(function () {
       wrapAround: true,
     });
 
-
     
   }
 });
-    });
 
 
 // Frequently Boughts section
