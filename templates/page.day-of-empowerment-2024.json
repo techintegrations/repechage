@@ -727,9 +727,9 @@
         "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 30,
         "padding_top_m": 0,
-        "padding_bottom_m": 0,
+        "padding_bottom_m": 30,
         "divider": false
       }
     },
