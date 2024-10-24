@@ -182,6 +182,12 @@ $(document).ready(function () {
       avoidReflow: true,
       wrapAround: true,
     });
+    
+    // Trigger a resize after the page fully loads
+    window.addEventListener('load', function() {
+      flickitySlider6.resize();
+    });
+
 
     
   }
