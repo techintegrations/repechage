@@ -59,7 +59,7 @@
     </div>
   {%- endif -%}
 
-  <div class="grid{% unless section.blocks.size == 5 %} grid--uniform{% endunless %} grid--flush-bottom {% if section.blocks.size > 3 %}custom-video-gallery-slider{% endif %}">
+  <div class="grid custom-video-gallery {% unless section.blocks.size == 5 %} grid--uniform{% endunless %} grid--flush-bottom {% if section.blocks.size > 3 %}custom-video-gallery-slider{% endif %}">
     {%- for block in section.blocks -%}
     <div class="grid__item text-{{ section.settings.block_align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
       {%- if block.settings.enable_image -%}
