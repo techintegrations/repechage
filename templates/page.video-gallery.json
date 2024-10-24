@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -32,10 +33,354 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_bKFybp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VEJGrk": {
+          "type": "heading",
+          "settings": {
+            "title": "CAREERS",
+            "title_color": "#000000"
+          }
+        },
+        "text_aJ6m6x": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Join Repêchage®, a renowned professional skincare company, and advance your career while working with thousands of estheticians worldwide. At Repêchage®, you'll have the opportunity to be part of a supportive and innovative community dedicated to excellence in skincare. Enhance your skills, collaborate with industry experts, and contribute to the global beauty industry.</p>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VEJGrk",
+        "text_aJ6m6x"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 70,
+        "padding_bottom": 0,
+        "padding_top_m": 50,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "advanced_content_grBjpD": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_Wk4MkD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Manufacturing-Team-Members.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_4xemKc": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>CURRENT OPPORTUNITIES</h2><p>Find your dream career and become part of Repechage!</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Wk4MkD",
+        "liquid_4xemKc"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_meEifd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qpdJfj": {
+          "type": "heading",
+          "settings": {
+            "title": "Pro Beauty Sales (Secaucus, NJ)",
+            "title_color": "#000000"
+          }
+        },
+        "text_DLL84j": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Position:</strong></p><p>We are seeking a qualified candidate with great communication skills and experience in the professional beauty industry.</p><p><strong>Responsibilities:</strong></p><ul><li>Develop new business in direct sales of professional skin care products</li><li>Manage and maintain accurate records of sales and prospecting activities, including sales and follow-up calls on a weekly basis</li><li>Prospect and develop new business and growing existing accounts in the high-end skin care market</li><li>Meet sales quota and facilitate future sales / communicate all marketing developments</li><li>Enter and update customer information in our database</li><li>Process orders and manage client accounts</li><li>Work closely with the sales manager to set-up marketing calendar on a monthly basis</li></ul><p><strong>Must have skills:</strong></p><ul><li>Esthetic License and beauty industry experience a must</li><li>Excellent communication skills</li><li>Ability to build and maintain professional relationships</li><li>High energy level</li><li>Proven sales/customer service experience</li><li>Strong administrative and data/order entry skills</li><li>Must have working knowledge of Microsoft Word, Excel, Office</li><li>Minimum 2 years of experience</li><li>Participate in 4 to 6 tradeshows per year.</li></ul>",
+            "text_color": "#000000"
+          }
+        },
+        "button_pi6gy6": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "APPLY HERE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qpdJfj",
+        "text_DLL84j",
+        "button_pi6gy6"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_m": 0,
+        "padding_bottom_m": 50,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "rich_text_9h9N6m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AVMBNP": {
+          "type": "heading",
+          "settings": {
+            "title": "Brand Educator",
+            "title_color": "#000000"
+          }
+        },
+        "text_KfWN4Y": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Responsibilities:</strong></p><ul><li>Coordinates on location and in house education for qualifying clients</li><li>Prepares customized extensive educational agenda for on location and in house training</li><li>Creates a list of educational materials for training and trade shows</li><li>Sets up Academy training facility with materials for workshop, classroom set up and agenda for training</li><li>Creates presentations for in-house educational events and on location education</li><li>Conducts full training on product knowledge, sales, marketing, merchandising and treatment techniques for international and domestic clients.</li><li>Conducts customized webinars and virtual training</li><li>Advises and supports sales staff with product and treatment related questions</li><li>Assists in creation of scripts for educational videos</li><li>Prepare educational videos for consumer education.</li><li>Submits extensive reports on all educational events to CEO</li><li>Trains the in-house sales staff on product knowledge and sales</li><li>Tests the new formulas of products and treatments</li><li>Assists in set up of the domestic and international tradeshow floor and product displays</li><li>Performs educational presentations during domestic and international tradeshows</li><li>Performs treatments on clients during domestic and international tradeshows</li><li>Hosts on site special events at client locations domestically and internationally</li><li>Performs treatments and skin analysis on spa/salon clients during special events.</li><li>Analyze competitor brands and industry trends on regular basis</li></ul><p><strong>Must have skills:</strong></p><ul><li>Excellent communication and presentation skills in front of a group.</li><li>Knowledge of Microsoft Power Point and Microsoft Word</li><li>Exceptional organizational skills</li><li>Organized and well informed of international etiquette</li><li>Available to travel domestically and internationally</li><li>Valid US Passport</li></ul><p><strong>Qualifications:</strong></p><ul><li>NJ and NY licensed esthetician, behind the chair experience of 3 years</li><li>Experience in the beauty industry minimum of 5 years</li><li>Bilingual skills a plus</li><li>CIDESCO Diploma / ITEC a plus</li></ul>",
+            "text_color": "#000000"
+          }
+        },
+        "button_yt8xVe": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact-us",
+            "link_text": "APPLY HERE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AVMBNP",
+        "text_KfWN4Y",
+        "button_yt8xVe"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_m": 0,
+        "padding_bottom_m": 50,
+        "bg_color": "",
+        "divider": true
+      }
+    },
+    "rich_text_BzaUbe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PrmbVy": {
+          "type": "heading",
+          "settings": {
+            "title": "Skin Care Sales Specialist (Nationwide)",
+            "title_color": "#000000"
+          }
+        },
+        "text_EWepHU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Responsibilities:</strong></p><ul><li>Must be able to penetrate our targeted market and substantially increase sales activity</li><li>Prospect and open new accounts among top salon and spas in the territory</li><li>Develop long-term business relationships with existing accounts</li><li>Keep client profile records updated on a regular basis to ensure accuracy</li><li>Strong negotiation and selling skills are critical</li><li>Follow up to all inquiries, purchase orders and education requests</li><li>Weekly, monthly and quarterly reporting to management on sales activity</li></ul><p><strong>Must have skills:</strong></p><ul><li>Excellent Verbal, Communication and Presentation Skills</li><li>Energetic and positive attitude</li><li>Willing to do overnight travel and have access to reliable transportation for driving to appointments and meetings</li><li>Training and Sales Experience</li><li>Esthetics license and spa sales experience preferred</li><li>Working knowledge of Microsoft Word, Excel, PowerPoint and Outlook</li></ul>",
+            "text_color": "#000000"
+          }
+        },
+        "button_fgjLta": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact-us",
+            "link_text": "APPLY HERE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PrmbVy",
+        "text_EWepHU",
+        "button_fgjLta"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_m": 0,
+        "padding_bottom_m": 50,
+        "bg_color": "",
+        "divider": true
+      }
+    },
+    "text_columns_wmj7eC": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_qdhqi4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Screenshot_2024-08-02_at_11.17.41_AM.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Corporate events",
+            "text": "<p>Repêchage® hosts an annual International Skincare Congress, a three-day event where clients from around the globe gather to learn and share the latest in skincare innovations. This congress features expert-led sessions, hands-on workshops, and networking opportunities, fostering a global community dedicated to excellence in skincare.</p>",
+            "button_label": "LEARN MORE",
+            "button_link": "https://www.lydiasarfati.com/global-beauty-industry-leaders-day-of-empowerment.php"
+          }
+        },
+        "text_block_WVFjiM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Repechage-Events.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "In PERson Events",
+            "text": "<p>Repêchage®, pioneers in seaweed-based skincare, unveiled their newest facial treatment and at-home collection at exclusive events across the East Coast. These events showcased the rejuvenating benefits of their latest products, reinforcing Repêchage®'s reputation as a leader in innovative skincare.</p>",
+            "button_label": "LEARN MORE",
+            "button_link": "https://www.repechage.com/blogs/news/repechage-hosts-luxury-spa-event-in-nyc-miami-and-atlanta-for-launch-of-new-professional-hydra-dew-pure-facial-and-at-home-collection-for-dry-compromised-skin?_pos=1&_sid=683cdac1a&_ss=r"
+          }
+        },
+        "text_block_RKYRP8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/consultation-683x1024_fd04f691-3edb-4d45-83ec-45461fea94b5.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "PESONAL DEVELOPMENT",
+            "text": "<p>Repêchage® emphasizes training for employees interested in skincare. Their programs cover seaweed-based skincare advancements, techniques, and customer service, ensuring staff provide top-notch care and uphold the brand's high standards in the industry.</p>",
+            "button_label": "LEARN MORE",
+            "button_link": "https://www.lydiasarfati.com/make-your-career-in-esthetics-the-best-it-can-be-skincare-spa-business-tips.php"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_qdhqi4",
+        "text_block_WVFjiM",
+        "text_block_RKYRP8"
+      ],
+      "settings": {
+        "title": "OUR CULTURE",
+        "text": "<p>At Repêchage®, our culture is rooted in a commitment to excellence, innovation, and community. We believe in fostering a collaborative and supportive environment where every team member feels valued and empowered. Our dedication to quality and continuous improvement drives us to stay at the forefront of the skincare industry, while our strong sense of community ensures that we support each other in achieving both personal and professional growth. At Repêchage®, we celebrate diversity, encourage creativity, and strive to make a positive impact in the lives of our clients and colleagues worldwide.</p>",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 1,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_m": 0,
+        "padding_bottom_m": 30,
+        "divider": false
+      }
+    },
+    "custom_video_gallery_CW7MmT": {
+      "type": "custom__video-gallery",
+      "blocks": {
+        "text_block_XN4qV7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/fb43e5e4f08c4e1fb6ce6d0de889bebb.mp4",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_PHzMGg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/c3449cacdb334ab48f1e573148c4f40c.mp4",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_66rFMp": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/2d91fe00abe54d3aa61112e37880614e.mp4",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_XN4qV7",
+        "text_block_PHzMGg",
+        "text_block_66rFMp"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "1719330332db78ebfd"
+    "1719330332db78ebfd",
+    "rich_text_bKFybp",
+    "advanced_content_grBjpD",
+    "rich_text_meEifd",
+    "rich_text_9h9N6m",
+    "rich_text_BzaUbe",
+    "text_columns_wmj7eC",
+    "custom_video_gallery_CW7MmT"
   ]
 }
