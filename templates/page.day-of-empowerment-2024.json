@@ -552,7 +552,7 @@
             "custom_icon": "",
             "icon": "chat",
             "title": "workshop",
-            "text": "<p>Repechage Face Massage Program Endorsed by <strong>CIDESCO International.</strong></p>",
+            "text": "<p>Repechage Face Massage Program<br/>Endorsed by <strong>CIDESCO International</strong></p>",
             "link_text": "tuesday  december 3, 2024",
             "link": "shopify://products/day-of-empowerment-2024"
           }
@@ -565,7 +565,7 @@
             "custom_icon": "",
             "icon": "package",
             "title": "workshop",
-            "text": "<p>Followed by a Retail Workshop with Lydia and Ronit Enos</p>",
+            "text": "<p>Followed by a Retail Workshop<br/>with Lydia and Ronit Enos</p>",
             "link_text": "tuesday  december 3, 2024",
             "link": "shopify://products/day-of-empowerment-2024"
           }
