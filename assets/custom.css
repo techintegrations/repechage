@@ -1615,6 +1615,7 @@ body.template-cart #cart-progress-wrapper {
   .grid.custom-video-gallery.grid--uniform {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
   }
   
     
