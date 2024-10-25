@@ -692,27 +692,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "text_block_XNBrcC": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/2d91fe00abe54d3aa61112e37880614e.mp4",
-            "thumbnail_image": "shopify://shop_images/video_3_image.png",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "text_block_8wzAjU",
-        "text_block_RGqXNN",
-        "text_block_XNBrcC"
+        "text_block_RGqXNN"
       ],
       "settings": {
         "title": "",
