@@ -668,6 +668,7 @@
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/fb43e5e4f08c4e1fb6ce6d0de889bebb.mp4",
+            "thumbnail_image": "shopify://shop_images/AigCmUVvRoyHGsjQtRek.jpg",
             "image_mask": "none",
             "autoplay": false,
             "preheading": "",
@@ -682,6 +683,7 @@
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/c3449cacdb334ab48f1e573148c4f40c.mp4",
+            "thumbnail_image": "shopify://shop_images/AigCmUVvRoyHGsjQtRek.jpg",
             "image_mask": "none",
             "autoplay": false,
             "preheading": "",
@@ -696,6 +698,7 @@
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/2d91fe00abe54d3aa61112e37880614e.mp4",
+            "thumbnail_image": "shopify://shop_images/AigCmUVvRoyHGsjQtRek.jpg",
             "image_mask": "none",
             "autoplay": false,
             "preheading": "",
