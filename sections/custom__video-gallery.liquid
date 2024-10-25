@@ -154,17 +154,29 @@
     });
   }
 
-  // Pause previous video when a new video is played
+  // Pause previous video when a new video is played (for both popup and inline videos)
+  function pauseOtherVideos(currentVideo) {
+    document.querySelectorAll(".fancybox-video video").forEach(video => {
+      if (video !== currentVideo) {
+        video.pause();
+      }
+    });
+  }
+
+  // Event listeners for videos
   document.querySelectorAll(".fancybox-video video").forEach(video => {
-    video.addEventListener("play", () => {
-      document.querySelectorAll(".fancybox-video video").forEach(v => {
-        if (v !== video) {
-          v.pause();
-        }
-      });
+    // When playing inline
+    video.addEventListener("play", function() {
+      pauseOtherVideos(video);
+    });
+
+    // When playing in Fancybox popup
+    video.closest("[data-fancybox='video-gallery']").addEventListener("click", function() {
+      pauseOtherVideos(video);
     });
   });
 </script>
+
 
 
 {% schema %}
