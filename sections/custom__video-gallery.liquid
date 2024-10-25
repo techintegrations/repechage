@@ -140,6 +140,23 @@
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
 <script>
+  // Function to pause all other videos
+  function pauseOtherVideos(currentVideo) {
+    document.querySelectorAll(".fancybox-video video").forEach(video => {
+      if (video !== currentVideo && !video.paused) {
+        video.pause();
+      }
+    });
+  }
+
+  // Add event listeners for each video in the gallery
+  document.querySelectorAll(".fancybox-video video").forEach(video => {
+    // Pause other videos when this video is played
+    video.addEventListener("play", function() {
+      pauseOtherVideos(video);
+    });
+  });
+  
   // Initialize Fancybox for video gallery if screen width is greater than 768px
   if (window.innerWidth > 768) {
     Fancybox.bind("[data-fancybox='video-gallery']", {
@@ -153,29 +170,8 @@
       },
     });
   }
-
-  // Pause previous video when a new video is played (for both popup and inline videos)
-  function pauseOtherVideos(currentVideo) {
-    document.querySelectorAll(".fancybox-video video").forEach(video => {
-      if (video !== currentVideo) {
-        video.pause();
-      }
-    });
-  }
-
-  // Event listeners for videos
-  document.querySelectorAll(".fancybox-video video").forEach(video => {
-    // When playing inline
-    video.addEventListener("play", function() {
-      pauseOtherVideos(video);
-    });
-
-    // When playing in Fancybox popup
-    video.closest("[data-fancybox='video-gallery']").addEventListener("click", function() {
-      pauseOtherVideos(video);
-    });
-  });
 </script>
+
 
 
 
