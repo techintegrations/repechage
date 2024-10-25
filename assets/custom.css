@@ -1611,6 +1611,11 @@ body.template-cart #cart-progress-wrapper {
       min-width: auto;
       padding: 0 30px;
   }
+
+  .grid.custom-video-gallery.grid--uniform {
+      display: flex;
+      flex-wrap: wrap;
+  }
   
     
 }
