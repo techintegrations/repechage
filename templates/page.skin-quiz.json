@@ -9,43 +9,6 @@
  */
 {
   "sections": {
-    "slideshow_LczzJ3": {
-      "type": "slideshow",
-      "blocks": {
-        "image_Y9W6Fw": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "<h1><strong>2024 REPECHAGE DAY OF EMPOWERMENT</strong></h1>",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "GET YOUR TICKETS NOW!",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Day_Of_Empowerment_2023_widescreen.gif",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_Y9W6Fw"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_container": false,
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -118,7 +81,6 @@
     }
   },
   "order": [
-    "slideshow_LczzJ3",
     "main",
     "text_and_image_HAeHag",
     "custom_image_with_info_Dyej7Q",
