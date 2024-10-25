@@ -63,8 +63,8 @@
         "title": "Ready to find a new routine?",
         "text": "<p>Answer a few questions to receive personalized product picks.</p>",
         "enlarge_text": false,
-        "button_label": "TAKE THE QUIZ",
-        "button_link": "shopify://products/day-of-empowerment-2024",
+        "button_label": "",
+        "button_link": "shopify://pages/skin-quiz",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -88,12 +88,40 @@
         "padding_bottom_m": 0,
         "divider": false
       }
+    },
+    "17298878224ed6e17c": {
+      "type": "apps",
+      "blocks": {
+        "quiz_kit_smart_product_finder_button_wnFiJE": {
+          "type": "shopify://apps/quiz-kit-smart-product-finder/blocks/button/0b04f315-849a-4507-8339-7be41cc01813",
+          "settings": {
+            "key": "NyavQoojAX",
+            "button_label": "Start Quiz",
+            "button_style": "solid",
+            "button_alignment": "center",
+            "button_width": "full",
+            "color_button": "#000000",
+            "color_label_button": "#ffffff",
+            "button_font_size": 16,
+            "button_border_radius": 0,
+            "button_border_width": 1
+          }
+        }
+      },
+      "block_order": [
+        "quiz_kit_smart_product_finder_button_wnFiJE"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "slideshow_LczzJ3",
     "main",
     "text_and_image_HAeHag",
-    "custom_image_with_info_Dyej7Q"
+    "custom_image_with_info_Dyej7Q",
+    "17298878224ed6e17c"
   ]
 }
