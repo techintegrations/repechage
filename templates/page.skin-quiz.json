@@ -1,0 +1,1191 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_video_xBiQid": {
+      "type": "hero-video",
+      "settings": {
+        "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
+        "title_size": 63,
+        "subheading": "Conrad Fort Lauderdale Beach Hotel (December 1-3, 2024)",
+        "link_text": "GET YOUR TICKET NOW!",
+        "link": "https://www.repechage.com/products/day-of-empowerment-2024",
+        "color_accent": "#b1e4e3",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://www.youtube.com/watch?v=zBW6WPL6xe0",
+        "overlay_opacity": 58,
+        "section_height": "750px",
+        "mobile_height": "auto"
+      }
+    },
+    "slideshow_LczzJ3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Y9W6Fw": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<h1><strong>2024 REPECHAGE DAY OF EMPOWERMENT</strong></h1>",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "GET YOUR TICKETS NOW!",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Day_Of_Empowerment_2023_widescreen.gif",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Y9W6Fw"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_container": false,
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "countdown_jzfUiY": {
+      "type": "countdown",
+      "blocks": {
+        "content_7h9ka8": {
+          "type": "content",
+          "settings": {
+            "heading": "Countdown",
+            "heading_size": "h1",
+            "text": "<p>DISCOVER & CONNECT TO THE BEST IN SPA & WELLNESS</p>",
+            "content_alignment": "center"
+          }
+        },
+        "timer_qAbcaH": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "12",
+            "day": "2",
+            "hour": "09",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button_G3BGeF": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://products/day-of-empowerment-2024",
+            "button": "REGISTER TODAY!",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_7h9ka8",
+        "timer_qAbcaH",
+        "button_G3BGeF"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "text_color": "#000000",
+        "background_color": "#b1e4e3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_BCxMKt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_giR4Bg": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT CONFERENCE",
+            "title_color": "#000000"
+          }
+        },
+        "text_NRzxnM": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Join Repechage at the <strong>2024 Day of Empowerment</strong>, where you will immerse yourself in the world of spa wellness and skincare like never before! </p><p>Discover exciting <strong>new product launches</strong> that will elevate your business and take your offerings to the next level. </p><p>At this transformative event, you'll gain invaluable insights from <strong>real-life expert panelists</strong>, connect with industry leaders, and accelerate your growth through powerful <strong>networking opportunities</strong>. Plus, don’t miss the <strong>advanced skincare workshop</strong>, a hands-on experience that will empower you with cutting-edge techniques to enhance your skills. </p><p>This event is designed to <strong>change your life</strong> and give you the tools you need to succeed in the competitive wellness industry. </p><p><strong>Don’t miss out on this opportunity to learn, grow, and thrive with Repechage!</strong></p>",
+            "text_color": "#000000"
+          }
+        },
+        "button_GiydYm": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/day-of-empowerment-2024",
+            "link_text": "Connect, Learn, and Grow at Day of Empowerment!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_giR4Bg",
+        "text_NRzxnM",
+        "button_GiydYm"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "bg_color": "#ffffff",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "text_and_image_HAeHag": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/33.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "show_sticky_text": false,
+        "subtitle": "We Welcome you to our",
+        "title": "Day of Empowerment",
+        "text": "<p>As we begin approaching the end of the year, we also begin approaching the biggest Repêchage® wellness event of the year!</p><p>Join us in celebrating the shared successes of our wonderful worldwide community of <strong>over 50 countries</strong> at the annual <strong>Repêchage® Day of Empowerment</strong>! The event info is as follows:</p><ul><li><strong>Sunday, December 1, 2024 - Arrival / Welcome Reception</strong></li><li><strong>Monday, December 2, 2024 - Day of Empowerment</strong></li><li><strong>Tuesday, December 3, 2024 - Advanced Skincare Workshop</strong></li></ul><p><strong>HOSTED AT THE: CONRAD BEACH HOTEL - FT. LAUDERDALE, FL</strong></p>",
+        "enlarge_text": false,
+        "button_label": "Don’t miss out—join us and elevate your business today!",
+        "button_link": "shopify://products/day-of-empowerment-2024",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "bg_color": "#ebebeb",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_MALjjD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QcJ7ax": {
+          "type": "heading",
+          "settings": {
+            "title": "MEET THE SPEAKERS",
+            "title_color": "#000000"
+          }
+        },
+        "text_KaVd6R": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We've carefully curated a premium group of speakers and panelists for the 2024 Day of Empowerment, selecting industry leaders and experts who bring unmatched knowledge and experience. These thought leaders were chosen for their ability to inspire, educate, and provide actionable insights, ensuring you walk away empowered and ready to elevate your business. Expect engaging discussions, valuable advice, and cutting-edge trends from the best in the industry.</p>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QcJ7ax",
+        "text_KaVd6R"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_top_m": 50,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "text_and_image_LYFiFT": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Lydia-with-lamp-web_large_487c6740-dfb6-474d-9147-b5fb419d44cd.jpg",
+        "image_mask": "rounded",
+        "image2": "shopify://shop_images/lydia-led_2.png",
+        "image2_mask": "rounded",
+        "show_sticky_text": false,
+        "subtitle": "Lydia Sarfati",
+        "title": "The Queen Of Seaweed",
+        "text": "<p><strong>Lydia Sarfati</strong> is a renowned skincare expert, esthetician, and CEO of Repechage, a global leader in seaweed-based skincare. With over four decades of experience, Lydia pioneered treatments like the Four-Layer Facial and is a passionate advocate for professional skincare education. She is also a published author and international speaker, dedicated to advancing the beauty industry through innovation and education.</p><p>Lydia Sarfati, Founder and CEO Repechage</p>",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "divider": false,
+        "lazyload_images": true
+      }
+    },
+    "text_columns_3AEykF": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_c6zrqj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/06.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "KEYNOTE SPEAKER",
+            "title": "Girlie Joseph",
+            "text": "<p>Director of Spa and Wellness<br/>at the Waldorf Astoria Atlanta Buckhead, 5-star rated hotel in Atlanta, Georgia.</p>",
+            "button_label": "",
+            "button_link": "shopify://products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_iy3xgG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/7_4906342e-fa5f-4063-8997-937bc794b6cf.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Edyta Satchell",
+            "text": "<p>Founder and CEO of Finelle, \u0003a renowned global speaker, coach, consultant and wellness practitioner. </p>",
+            "button_label": "",
+            "button_link": "shopify://products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_xB3z3m": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_ca304d85-51e4-4a11-a23e-30892a12869b.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Ronit Enos",
+            "text": "<p>Bestselling Author, Dynamic Speaker, Serial Entrepreneur, and Founder of Salon Cadence.</p>",
+            "button_label": "",
+            "button_link": "shopify://products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_XMnedY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/8_7fb7e239-51b0-4d8d-9a1d-f439d48a4bc6.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Shiri Sarfati",
+            "text": "<p>Executive VP and \u0003Chief of Marketing, \u0003Repêchage®.</p>",
+            "button_label": "",
+            "button_link": "shopify://products/day-of-empowerment-2024"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_c6zrqj",
+        "text_block_iy3xgG",
+        "text_block_xB3z3m",
+        "text_block_XMnedY"
+      ],
+      "settings": {
+        "title": "OUR LINEUP",
+        "text": "",
+        "align_text": "center",
+        "button_label": "Act now and reserve your spot today—spaces are filling fast!",
+        "button_link": "shopify://products/day-of-empowerment-2024",
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
+        "bg_color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 60,
+        "padding_top_m": 50,
+        "padding_bottom_m": 60,
+        "divider": false
+      }
+    },
+    "text_with_icons_tekcKL": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_YtFcQ6": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "MONDAY",
+            "text": "<p>December 2, 2024<br/>Day of Empowerment + \u0003Wellness Activation </p><h2><strong>$195</strong></h2>",
+            "link_text": "REGISTER",
+            "link": "https://www.repechage.com/products/day-of-empowerment-2024?variant=43515018543277"
+          }
+        },
+        "text_block_TY6iGC": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "TUESDAY",
+            "text": "<p>December 3, 2024<br/>Advanced Skincare\u0003Workshop<br/></p><h2><strong>$285</strong></h2>",
+            "link_text": "REGISTER!",
+            "link": "https://www.repechage.com/products/day-of-empowerment-2024?variant=43603133235373"
+          }
+        },
+        "text_block_i34j9i": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "sales-tag",
+            "title": "ALL ACCESS",
+            "text": "<p>3-DAY PASS<br/>Bundle & Save<br/></p><h2><strong>$399</strong></h2>",
+            "link_text": "REGISTER!",
+            "link": "shopify://products/day-of-empowerment-2024"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_YtFcQ6",
+        "text_block_TY6iGC",
+        "text_block_i34j9i"
+      ],
+      "settings": {
+        "title": "Claim your spot before it’s too late!",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "block_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "shopify://products/day-of-empowerment-2024",
+        "bg_color": "#ebebeb",
+        "padding_top": 50,
+        "padding_bottom": 20,
+        "padding_top_m": 40,
+        "padding_bottom_m": 20,
+        "divider": false
+      }
+    },
+    "rich_text_cXPNKn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dtgkMQ": {
+          "type": "heading",
+          "settings": {
+            "title": "YOUR Exclusive Special Offer",
+            "title_color": "#000000"
+          }
+        },
+        "text_DdLMCY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Sign up for our ALL ACCESS ($399) and redeem it in equal value for new launch product exclusively at the Day of Empowerment Event!!***</p>",
+            "text_color": "#000000"
+          }
+        },
+        "button_nhrD4R": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/day-of-empowerment-2024",
+            "link_text": "JOIN US TODAY!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dtgkMQ",
+        "text_DdLMCY",
+        "button_nhrD4R"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 60,
+        "padding_top_m": 40,
+        "padding_bottom_m": 50,
+        "bg_color": "#ebebeb",
+        "divider": false
+      }
+    },
+    "background_image_text_UnDfb3": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "HOSTED AT",
+        "title": "Conrad Fort Lauderdale Beach Hotel ",
+        "text": "<p>The Conrad Fort Lauderdale Beach Hotel offers an unforgettable blend of luxury and sophistication for the 2024 Repechage Day of Empowerment. With stunning ocean views, chic modern design, and world-class amenities, it sets the perfect scene for a truly glamorous event!</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/conrad_2_2.jpg",
+        "layout": "right",
+        "height": 550,
+        "framed": true,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "text_columns_gfPkyU": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_z33rUW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/01.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Danelly Benavides",
+            "text": "<p>Founder and CEO of Sumptuous Beauty Bar in Alpharetta, GA. Professional Esthetician, Massage Therapist, Makeup Artist, and more, with over 16 years of experience in beauty and wellness.</p>",
+            "button_label": "JOIN ME!",
+            "button_link": "https://www.repechage.com/collections/2024-repechage-education-calendar/products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_6Ci4Ld": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2_83a187f8-9d00-47ef-9274-5e91a00904cd.png",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Sharon D'Errico",
+            "text": "<p>Founder and CEO of Sharon Rose Cosmetics in Nashua, NH. Passionately helping clients discover their true beauty through professional esthetics for over 30 years.</p>",
+            "button_label": "JOIN ME!",
+            "button_link": "https://www.repechage.com/products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_FXpjh7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/4_fb3af75e-ac1b-49b5-bc55-465e7ab4f04d.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Julie Mahoney",
+            "text": "<p>Founder and CEO of Oasis Day Spa in Weymouth, MA. Esthetician for over 40 years. Oasis is a three-time recipient of the Best of Boston Award for Best Day Spa South by Boston Magazine.</p>",
+            "button_label": "JOIN ME!",
+            "button_link": "https://www.repechage.com/products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_ayQjTw": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/5_b3c80f81-e9cd-4bb8-be1d-1c86c01806af.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Kyriacos Parpas",
+            "text": "<p>Founder and CEO of SpaTrade International Ltd., consulting designs for over 100 spa centers internationally. Operating company of The Marina Spa by Repêchage®, Ayia Napa, Cyprus.</p>",
+            "button_label": "JOIN ME!",
+            "button_link": "https://www.repechage.com/products/day-of-empowerment-2024"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_z33rUW",
+        "text_block_6Ci4Ld",
+        "text_block_FXpjh7",
+        "text_block_ayQjTw"
+      ],
+      "settings": {
+        "title": "Success at every level",
+        "text": "<p>Meet The Panelists</p>",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 2,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
+        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 24,
+        "padding_top_m": 50,
+        "padding_bottom_m": 20,
+        "divider": false
+      }
+    },
+    "text_with_icons_fnV4cg": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_neP9kM": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/NS-B-20-e1643721753812.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "workshop",
+            "text": "<p>Repechage Face Massage Program<br/>Endorsed by <strong>CIDESCO International</strong></p>",
+            "link_text": "tuesday  december 3, 2024",
+            "link": "shopify://products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_KLftgf": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_image": "shopify://shop_images/Afterpay-Icons-Hand_f07446ee-b02c-4979-a4e1-ec22cb98c679.png",
+            "custom_icon": "",
+            "icon": "package",
+            "title": "workshop",
+            "text": "<p>Followed by a Retail Workshop<br/>with Lydia and Ronit Enos</p>",
+            "link_text": "tuesday  december 3, 2024",
+            "link": "shopify://products/day-of-empowerment-2024"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_neP9kM",
+        "text_block_KLftgf"
+      ],
+      "settings": {
+        "title": "ADVANCED SKINCARE WORKSHOP + hands-on training",
+        "align_text": "center",
+        "desktop_columns_per_row": 2,
+        "icon_color": "#000000",
+        "block_bg_color": "#f9f9f9",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "#ebebeb",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "divider": false
+      }
+    },
+    "testimonials_jFqUh6": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_yV3KWE": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>\"The Day of Empowerment is a must-attend event! Connect with the esthetician community and enjoy Florida’s ocean vibes. Don’t miss it!” </p>",
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_1.27.34_PM.png",
+            "author": "Juan SIlva",
+            "author_info": "Orlando, FL"
+          }
+        },
+        "testimonial_GE4jeX": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The Repechage Day of Empowerment is a must-attend event hosted by Lydia and David Sarfati. You’ll gain industry insights, meet like-minded people, and feel truly supported.</p>",
+            "author": "Regina",
+            "author_info": "Spa Adagio"
+          }
+        },
+        "testimonial_4VCL9C": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_wwiWkd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This was an amazing to be part of this experience!!! I learned so much!!! The guest speakers were so knowledgeable and amazing when it came to all of my question!</p>",
+            "author": "Andrea R.",
+            "author_info": ""
+          }
+        },
+        "testimonial_nJr8zd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Meeting new people, marketing, networking and getting to meet the people that created Repechage!</p>",
+            "author": "Carine Jemia, Mustard Seed Massage",
+            "author_info": "Washington DC"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_yV3KWE",
+        "testimonial_GE4jeX",
+        "testimonial_4VCL9C",
+        "testimonial_wwiWkd",
+        "testimonial_nJr8zd"
+      ],
+      "settings": {
+        "title": "Here’s What Previous Attendees Say…",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d",
+        "padding_top": 60,
+        "padding_bottom": 85,
+        "padding_top_m": 40,
+        "padding_bottom_m": 60
+      }
+    },
+    "custom_video_gallery_KRxTTh": {
+      "type": "custom__video-gallery",
+      "blocks": {
+        "text_block_8wzAjU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/fb43e5e4f08c4e1fb6ce6d0de889bebb.mp4",
+            "thumbnail_image": "shopify://shop_images/video_1_image.png",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_RGqXNN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/c3449cacdb334ab48f1e573148c4f40c.mp4",
+            "thumbnail_image": "shopify://shop_images/video_2_image.png",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_XNBrcC": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/2d91fe00abe54d3aa61112e37880614e.mp4",
+            "thumbnail_image": "shopify://shop_images/video_3_image.png",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8wzAjU",
+        "text_block_RGqXNN",
+        "text_block_XNBrcC"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 3,
+        "mobile_columns_per_row": 1,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_top_m": 0,
+        "padding_bottom_m": 30,
+        "divider": false
+      }
+    },
+    "text_with_icons_Nh8z6U": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_AtKBCF": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "globe",
+            "title": "Discover New Skincare Trends",
+            "text": "<p>Explore the latest launches and techniques to enhance your services and attract more clients.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_EGB4kn": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Boost Your Business",
+            "text": "<p>Learn strategies, network, and gain expert insights to grow your spa or salon.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_R77CWd": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "ribbon",
+            "title": "Transform Your Spa",
+            "text": "<p>Gain practical skills and insights to accelerate your business and elevate your offerings.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_AtKBCF",
+        "text_block_EGB4kn",
+        "text_block_R77CWd"
+      ],
+      "settings": {
+        "title": "Unlock Insights and Connections at the Repechage Day of Empowerment!",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "block_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "shopify://products/day-of-empowerment-2024",
+        "bg_color": "#ebebeb",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "divider": false
+      }
+    },
+    "rich_text_iX7ygA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BqadNe": {
+          "type": "heading",
+          "settings": {
+            "title": "THE AGENDA",
+            "title_color": "#000000"
+          }
+        },
+        "text_7q9VX6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><span style=\"text-decoration:underline\"><strong>Sunday, December 1, 2024 – Welcome Reception</strong></span></h3><p><strong>5:30pm-7:30pm</strong> – Join us for welcome cocktails and networking at the hotel skydeck overlooking the atlantic ocean 6th Floor Conrad Ft Lauderdale Beach</p>",
+            "text_color": "#000000"
+          }
+        },
+        "text_y73nyR": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><span style=\"text-decoration:underline\"><strong>Monday December 2, 2024 – Day of Empowerment</strong></span></h3><ul><li><strong>8:30 - 9:30am:</strong> Conference Registration and enjoy Morning Light Bites and Coffee / Tea</li><li><strong>9:30am</strong>: Welcome To Day of Empowerment</li><li><strong>9:45am</strong>: Keynote Address by Girlie Joseph</li><li><strong>10:15 - 11:45am:</strong> Success at Every Level Panel Discussion</li><li><strong>11:45am - 12pm:</strong> 15min Break</li><li><strong>12 - 1pm:</strong> Presentation by Lydia Sarfati</li><li><strong>1 - 3pm:</strong> Lunch and Wellness Activation</li><li><strong>3 - 4pm: </strong>- Ronit Enos \"Profit First For Salons\"</li><li><strong>4 - 4:45pm:</strong> Edyta Satchell Presentation on Travel Wellness</li><li><strong>4:45 - 5pm:</strong> Closing Remarks</li></ul>",
+            "text_color": "#000000"
+          }
+        },
+        "text_iT3tr4": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><span style=\"text-decoration:underline\"><strong>Tuesday December 3, 2024 Advanced Workshops</strong></span></h3><ul><li><strong>9 - 10am:</strong> Conference Registration and enjoy Light Bites and Coffee / Tea</li><li><strong>10am - 1pm:</strong> Advanced Retail Workshop with Lydia Sarfati and Ronit Enos</li><li><strong>1 - 2pm:</strong> Lunch and Networking</li><li><strong>2 - 5pm:</strong> Advanced Skincare Facial Massage Workshop endorsed by <strong>CIDESCO</strong></li></ul>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BqadNe",
+        "text_7q9VX6",
+        "text_y73nyR",
+        "text_iT3tr4"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "padding_top": 70,
+        "padding_bottom": 20,
+        "padding_top_m": 50,
+        "padding_bottom_m": 20,
+        "bg_color": "#ffffff",
+        "divider": false
+      }
+    },
+    "custom_gallery_gDA7Q9": {
+      "type": "custom-gallery",
+      "blocks": {
+        "image_FHinik": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.18.37_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_f3fkX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.19.44_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_iJKmzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.20.42_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_nMfKBP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.21.24_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_HwqbiE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.22.04_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_8ktjqd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.26.22_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_3KAV6n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.28.20_PM.png",
+            "image_caption": ""
+          }
+        },
+        "image_NWkjDV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-18_at_3.27.39_PM.png",
+            "image_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FHinik",
+        "image_f3fkX7",
+        "image_iJKmzF",
+        "image_nMfKBP",
+        "image_HwqbiE",
+        "image_8ktjqd",
+        "image_3KAV6n",
+        "image_NWkjDV"
+      ],
+      "settings": {
+        "title": "IMAGE GALLERY",
+        "image_per_row": 4,
+        "mb_image_per_row": 3
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "What are the dates for the event?",
+            "text": "<p>The 2024 Repechage Day of Empowerment will take place from <strong>December 1-3, 2024</strong>.</p><p></p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "Where is the event being held?",
+            "text": "<p>The event will be hosted at the <strong>Conrad Hotel</strong> in <strong>Ft. Lauderdale, FL</strong>.</p>"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "What is the focus of the event?",
+            "text": "<p>The event will focus on <strong>spa wellness</strong>, <strong>new product launches</strong>, <strong>business acceleration</strong>, and <strong>networking opportunities</strong> for spa and salon professionals.</p>"
+          }
+        },
+        "question_eKC9XD": {
+          "type": "question",
+          "settings": {
+            "title": "Who should attend this event?",
+            "text": "<p>The event is perfect for <strong>spa owners, estheticians, salon managers, beauty professionals</strong>, and anyone looking to grow their business in the wellness industry.</p>"
+          }
+        },
+        "question_A7gN4A": {
+          "type": "question",
+          "settings": {
+            "title": "What can I expect to learn from the expert panelists?",
+            "text": "<p>You'll hear from <strong>industry leaders</strong> who will share insights on the latest trends, best practices in spa management, and strategies to <strong>accelerate your business</strong>.</p>"
+          }
+        },
+        "question_KW6k4C": {
+          "type": "question",
+          "settings": {
+            "title": "What new launches will be introduced?",
+            "text": "<p>Repechage will unveil <strong>exciting new product lines</strong> and innovations in advanced skincare technology during the event.</p>"
+          }
+        },
+        "question_McaanT": {
+          "type": "question",
+          "settings": {
+            "title": "Will there be hands-on workshops?",
+            "text": "<p>Yes! A key highlight of the event is the <strong>advanced skincare workshop</strong>, where attendees will gain hands-on experience with cutting-edge products and techniques.</p>"
+          }
+        },
+        "question_kpFBN3": {
+          "type": "question",
+          "settings": {
+            "title": "How will this event help me grow my business?",
+            "text": "<p>The event offers tools, strategies, and expert advice on how to <strong>accelerate growth</strong> in your <strong>spa or salon business</strong>, from increasing client retention to improving operational efficiency.</p>"
+          }
+        },
+        "question_trVzJR": {
+          "type": "question",
+          "settings": {
+            "title": "Are there opportunities for networking?",
+            "text": "<p>Absolutely! There will be multiple <strong>networking opportunities</strong> to connect with peers, industry leaders, and potential business partners.</p>"
+          }
+        },
+        "question_hTnk3p": {
+          "type": "question",
+          "settings": {
+            "title": "What is the registration fee?",
+            "text": "<p>Pricing details will be provided on the <strong>Repechage event website</strong>. Early registration may offer discounted rates.</p>"
+          }
+        },
+        "question_GkgM7L": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a special room rate at the Conrad Hotel for attendees?",
+            "text": "<p>Yes, a special room rate is available for attendees. Please check the <strong>Repechage event page</strong> for booking information.</p>"
+          }
+        },
+        "question_aj4L6T": {
+          "type": "question",
+          "settings": {
+            "title": "What should I bring to the event?",
+            "text": "<p>Bring an open mind, business cards for networking, and any questions or topics you'd like to explore during the <strong>workshops</strong> and panel discussions.</p>"
+          }
+        },
+        "question_aQXDeN": {
+          "type": "question",
+          "settings": {
+            "title": "Will meals be provided?",
+            "text": "<p>The event includes lunch and continental breakfast.</p>"
+          }
+        },
+        "question_McDzVJ": {
+          "type": "question",
+          "settings": {
+            "title": "Can I purchase Repechage products at the event?",
+            "text": "<p>Yes, the latest <strong>Repechage products</strong> will be available for purchase, including the new launches introduced during the event.</p>"
+          }
+        },
+        "question_YCqCq7": {
+          "type": "question",
+          "settings": {
+            "title": "What’s the attire for the event?",
+            "text": "<p>We recommend <strong>business casual attire</strong> for all sessions, with more formal options for evening networking receptions.</p>"
+          }
+        },
+        "question_zykzWK": {
+          "type": "question",
+          "settings": {
+            "title": "Can I meet the Repechage team in person?",
+            "text": "<p>Yes, the <strong>Repechage team</strong>, including key representatives and product experts, will be available throughout the event to answer questions and provide guidance.</p>"
+          }
+        },
+        "question_gaMUjw": {
+          "type": "question",
+          "settings": {
+            "title": "Are there sponsorship or exhibitor opportunities?",
+            "text": "<p>Yes, if you're interested in sponsoring or exhibiting at the event, please contact the Repechage event team for more details.</p>"
+          }
+        },
+        "question_mAXrep": {
+          "type": "question",
+          "settings": {
+            "title": "Will the event be recorded or live-streamed?",
+            "text": "<p>While the event is primarily in-person, there may be <strong>recorded sessions</strong> available post-event. Check the website for updates on virtual content availability.</p>"
+          }
+        },
+        "question_YYTafd": {
+          "type": "question",
+          "settings": {
+            "title": "How do I register for the event?",
+            "text": "<p>Visit the official <strong>Repechage website</strong> to register for the 2024 Day of Empowerment. Early registration is encouraged due to limited seating.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-4",
+        "question_eKC9XD",
+        "question_A7gN4A",
+        "question_KW6k4C",
+        "question_McaanT",
+        "question_kpFBN3",
+        "question_trVzJR",
+        "question_hTnk3p",
+        "question_GkgM7L",
+        "question_aj4L6T",
+        "question_aQXDeN",
+        "question_McDzVJ",
+        "question_YCqCq7",
+        "question_zykzWK",
+        "question_gaMUjw",
+        "question_mAXrep",
+        "question_YYTafd"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "custom_image_with_info_Dyej7Q": {
+      "type": "custom__image-with-info",
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
+    "featured_video_FUFxzG": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Relive the Experience: Watch the Highlights from Last Year’s Day of Empowerment",
+        "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/9a61a056a07044a4b9c460a4e9dcad9c.mp4",
+        "video_url": "",
+        "show_full_width": false,
+        "divider": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 20,
+        "padding_top_m": 30,
+        "padding_bottom_m": 30,
+        "margin_top_m": 10,
+        "margin_bottom_m": 10,
+        "bg_color": "#ffffff"
+      }
+    },
+    "rich_text_crV9FM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YW9M6y": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready to take your salon and spa business to the next level?",
+            "title_color": "#000000"
+          }
+        },
+        "text_ynqUkE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Unleash its full potential with us at our 2024 Day of Empowerment.</p><p></p>",
+            "text_color": "#000000"
+          }
+        },
+        "button_FVftCN": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/day-of-empowerment-2024",
+            "link_text": "START TODAY!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YW9M6y",
+        "text_ynqUkE",
+        "button_FVftCN"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_m": 0,
+        "padding_bottom_m": 50,
+        "bg_color": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "hero_video_xBiQid",
+    "slideshow_LczzJ3",
+    "countdown_jzfUiY",
+    "rich_text_BCxMKt",
+    "main",
+    "text_and_image_HAeHag",
+    "rich_text_MALjjD",
+    "text_and_image_LYFiFT",
+    "text_columns_3AEykF",
+    "text_with_icons_tekcKL",
+    "rich_text_cXPNKn",
+    "background_image_text_UnDfb3",
+    "text_columns_gfPkyU",
+    "text_with_icons_fnV4cg",
+    "testimonials_jFqUh6",
+    "custom_video_gallery_KRxTTh",
+    "text_with_icons_Nh8z6U",
+    "rich_text_iX7ygA",
+    "custom_gallery_gDA7Q9",
+    "faq",
+    "custom_image_with_info_Dyej7Q",
+    "featured_video_FUFxzG",
+    "rich_text_crV9FM"
+  ]
+}
