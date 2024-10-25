@@ -140,18 +140,32 @@
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
 <script>
-  // Initialize Fancybox for video gallery
-  Fancybox.bind("[data-fancybox='video-gallery']", {
-    contentClick: "toggleCover",
-    Images: {
-      Panzoom: {
-        panMode: "mousemove",
-        mouseMoveFactor: 1.1,
-        mouseMoveFriction: 0.12,
+  // Initialize Fancybox for video gallery if screen width is greater than 768px
+  if (window.innerWidth > 768) {
+    Fancybox.bind("[data-fancybox='video-gallery']", {
+      contentClick: "toggleCover",
+      Images: {
+        Panzoom: {
+          panMode: "mousemove",
+          mouseMoveFactor: 1.1,
+          mouseMoveFriction: 0.12,
+        },
       },
-    },
+    });
+  }
+
+  // Pause previous video when a new video is played
+  document.querySelectorAll(".fancybox-video video").forEach(video => {
+    video.addEventListener("play", () => {
+      document.querySelectorAll(".fancybox-video video").forEach(v => {
+        if (v !== video) {
+          v.pause();
+        }
+      });
+    });
   });
 </script>
+
 
 {% schema %}
 {
