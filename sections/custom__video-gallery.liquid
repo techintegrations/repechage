@@ -70,7 +70,7 @@
           {%- if block.settings.image != blank -%}
             <div class="image-wrap text-spacing {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}" style=" padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
               <a data-fancybox="gallery" href="{{ block.settings.image }}" class="fancybox-video" data-fancybox="video-gallery">
-                <video controls {% if block.settings.autoplay != blank %}autoplay muted{% endif %} loop class="video-with-text" style="width: 100%;">
+                <video controls {% if block.settings.autoplay != blank %}autoplay muted{% endif %} loop class="video-with-text" style="width: 100%;" poster="{{ block.settings.thumbnail_image | img_url: 'master' }}">
                   <source src="{{ block.settings.image }}" type="video/mp4">
                 </video>
               </a>
