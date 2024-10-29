@@ -46,6 +46,24 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "173021486738114879": {
+      "type": "apps",
+      "blocks": {
+        "quiz_kit_smart_product_finder_quiz_agC7Qa": {
+          "type": "shopify://apps/quiz-kit-smart-product-finder/blocks/quiz/0b04f315-849a-4507-8339-7be41cc01813",
+          "settings": {
+            "key": "NyavQoojAX"
+          }
+        }
+      },
+      "block_order": [
+        "quiz_kit_smart_product_finder_quiz_agC7Qa"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -53,6 +71,7 @@
     "custom_image_with_info_Dyej7Q",
     "17298878224ed6e17c",
     "173013528900da0cb3",
-    "1730213160afc9b794"
+    "1730213160afc9b794",
+    "173021486738114879"
   ]
 }
