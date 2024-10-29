@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_ybDcnc": {
@@ -835,6 +835,13 @@
         "padding_top_m": 40,
         "padding_bottom_m": 55
       }
+    },
+    "17302148459172f4c3": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -852,6 +859,7 @@
     "text_with_icons_dTrr3R",
     "blog_posts_AkwbrY",
     "newsletter_kJLxhd",
-    "testimonials_WQarYp"
+    "testimonials_WQarYp",
+    "17302148459172f4c3"
   ]
 }
