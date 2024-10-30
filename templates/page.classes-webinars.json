@@ -261,6 +261,7 @@
         },
         "class_LWJTPy": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "October",
             "date": "28-30",
