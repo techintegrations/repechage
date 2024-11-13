@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -162,8 +162,7 @@
         "blocks": {
           "1524768779513": {
             "type": "logo",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -183,8 +182,7 @@
         "blocks": {
           "1494292487693": {
             "type": "newsletter",
-            "settings": {
-            }
+            "settings": {}
           },
           "1526406521795": {
             "type": "menu",
@@ -211,8 +209,7 @@
       },
       "newsletter-popup": {
         "type": "newsletter-popup",
-        "settings": {
-        }
+        "settings": {}
       },
       "collection-header": {
         "type": "collection-header",
@@ -223,15 +220,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "7570552984445421165": {
         "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14339172867238703359": {
         "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews_tab/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
@@ -259,28 +253,25 @@
       "1232542678405107163": {
         "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "4291333794791649201": {
-        "type": "shopify://apps/loyalty-rewards-and-referrals/blocks/embed-sdk/6f172e67-4106-4ac0-89c5-b32a069b3101",
-        "disabled": false,
-        "settings": {
-          "disableBundledCSS": false,
-          "disableBundledFonts": false,
-          "useClassIsolator": false
-        }
+        "settings": {}
       },
       "12543949710164844351": {
         "type": "shopify://apps/gwa-hreflang-manager/blocks/gwa-hreflang/35dc0b05-d599-4c8e-8584-8cd17768854a",
         "disabled": false,
+        "settings": {}
+      },
+      "4291333794791649201": {
+        "type": "shopify://apps/loyalty-rewards-and-referrals/blocks/embed-sdk/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "disabled": true,
         "settings": {
+          "disableBundledCSS": false,
+          "disableBundledFonts": false,
+          "useClassIsolator": false
         }
       }
     }
@@ -439,8 +430,7 @@
           "blocks": {
             "1520882467782": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -668,8 +658,7 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -689,8 +678,7 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "1526406521795": {
               "type": "menu",
@@ -717,8 +705,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
