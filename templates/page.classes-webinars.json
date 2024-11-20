@@ -393,18 +393,6 @@
             "button_link": ""
           }
         },
-        "class_xNiYcL": {
-          "type": "class",
-          "settings": {
-            "month": "APRIL",
-            "date": "5-7",
-            "class": "TRADESHOW",
-            "title": "America's Beauty Show",
-            "text": "<p><strong>Location: Donald E. Stephens Convention Center</strong></p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!</p>",
-            "button_label": "REGISTER",
-            "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
-          }
-        },
         "class_fTwW9P": {
           "type": "class",
           "settings": {
@@ -427,6 +415,18 @@
             "text": "<p><strong>Registration: $20</strong></p><p>Retail the other half of your business, creating a valuable and wonderful client experience.      </p>",
             "button_label": "SAVE THE DATE",
             "button_link": ""
+          }
+        },
+        "class_xNiYcL": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "5-7",
+            "class": "TRADESHOW",
+            "title": "America's Beauty Show",
+            "text": "<p><strong>Location: Donald E. Stephens Convention Center</strong></p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!</p>",
+            "button_label": "REGISTER",
+            "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
           }
         }
       },
@@ -455,9 +455,9 @@
         "class_GTdkfA",
         "class_3PPnBj",
         "class_Ge8FRz",
-        "class_xNiYcL",
         "class_fTwW9P",
-        "class_3p4xC8"
+        "class_3p4xC8",
+        "class_xNiYcL"
       ],
       "settings": {
         "bg_color": "",
