@@ -350,9 +350,21 @@
           "settings": {
             "month": "JANUARY",
             "date": "13",
-            "class": "WORKSHOP",
+            "class": "MASTER CLASS",
             "title": "3-DAY MASTER CLASS",
             "text": "<p><strong>9:30 am – 5 pm</strong></p><p><strong>Class Fee $599</strong> </p><p><em>to attend the workshop, participants must complete a virtual class and pass the<br/>assessment test with a minimum score of 70%.</em> </p><p>The workshop includes a continental breakfast, lunch, a workshop kit, The Book of Skincare Science & Protocols, Hands-On Training, and practicing on mannequin heads, followed by a demonstration on a fellow participant.</p><p><em>*An optional dinner for $125 per person at The Chart House includes a three-course meal and two glasses of wine.</em></p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_GTdkfA": {
+          "type": "class",
+          "settings": {
+            "month": "FEBRUARY",
+            "date": "3",
+            "class": "WORKSHOP",
+            "title": "Luminous Skin for Valentine's Day",
+            "text": "<p><strong>Registration fee $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p>Fusion Facials is a collection of treatments designed to give your skin a glowing, radiant look for the festive season. Repechage is known for its seaweed-based products, which are hydrating and nourishing. This holiday-focused line may include products that brighten, moisturize, and enhance the skin’s natural luminosity, helping you achieve a refreshed, dewy complexion for holiday events and celebrations.</p>",
             "button_label": "SAVE THE DATE",
             "button_link": ""
           }
@@ -369,14 +381,14 @@
             "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
           }
         },
-        "class_GTdkfA": {
+        "class_3PPnBj": {
           "type": "class",
           "settings": {
-            "month": "FEBRUARY",
-            "date": "3",
-            "class": "WORKSHOP",
-            "title": "Luminous Skin for Valentine's Day",
-            "text": "<p><strong>Registration fee $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p>Fusion Facials is a collection of treatments designed to give your skin a glowing, radiant look for the festive season. Repechage is known for its seaweed-based products, which are hydrating and nourishing. This holiday-focused line may include products that brighten, moisturize, and enhance the skin’s natural luminosity, helping you achieve a refreshed, dewy complexion for holiday events and celebrations.</p>",
+            "month": "MARCH",
+            "date": "2 - 3",
+            "class": "TRADESHOW",
+            "title": "Professional Beauty Show",
+            "text": "<p><strong>Location: Excel, London</strong></p><p>CIDESCO 2-day Massage Workshop WEST MEETS EAST.</p><p>Registration fee required. A master class by Lydia Sarfati in London on March 4th, 2025 </p>",
             "button_label": "SAVE THE DATE",
             "button_link": ""
           }
@@ -404,8 +416,9 @@
         "class_WNEhey",
         "class_Yb9Ddw",
         "class_r3Ejp4",
+        "class_GTdkfA",
         "class_xNiYcL",
-        "class_GTdkfA"
+        "class_3PPnBj"
       ],
       "settings": {
         "bg_color": "",
