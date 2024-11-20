@@ -12,8 +12,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "slideshow_aAwwLJ": {
       "type": "slideshow",
@@ -345,6 +344,18 @@
             "button_label": "REGISTER",
             "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
           }
+        },
+        "class_Yb9Ddw": {
+          "type": "class",
+          "settings": {
+            "month": "January",
+            "date": "6",
+            "class": "WORKSHOP",
+            "title": "Oncology Esthetics 2 Day Class including Hands-on",
+            "text": "<p><strong>This workshop and prep course will help to guide you on how to provide wellness treatments for your<br/>clients. </strong></p><p><strong>Registration fee $199. </strong><em>Registration includes online access<br/>to the prep course.</em></p><p><strong>The kit fee $325.</strong> The k<em>it has everything the Oncology<br/>Esthetics student needs in a convenient cooler zip bag. It includes Oncology<br/>Esthetics® by Morag Currin, Repêchage® LED Radio Frequency and EMS Skin<br/>Tightening Machine, Kansa Wand massage tool, Hydra Dew Pure™ Starter Kit,<br/>Elixir Balm and Oil plus a box of 5 Lamina Lift™ Hydrating Seaweed Masks.</em></p><p><em>To attend the workshop, participants must complete a virtual<br/>class and pass the associated test with a minimum score of 70%.</em> </p><p>The workshop includes Lunch, Facial products, Hands-On<br/>Training, and practicing on a mannequin followed by a demonstration on a fellow<br/>participant. </p><p>Key features of the product include: </p><ul><li>Hydrating: Uses moisture-rich ingredients to replenish and balance skin. </li><li>Soothing: Helps calm irritated or inflamed skin, making it ideal for sensitive skin types. </li><li>Gentle: Designed to be non-irritating, it is often recommended for use in treatments for redness, dryness, or inflammation. </li></ul>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -367,7 +378,8 @@
         "class_ULYxqg",
         "class_c9CLCt",
         "class_WNEhey",
-        "class_xNiYcL"
+        "class_xNiYcL",
+        "class_Yb9Ddw"
       ],
       "settings": {
         "bg_color": "",
