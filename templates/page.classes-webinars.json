@@ -369,18 +369,6 @@
             "button_link": ""
           }
         },
-        "class_xNiYcL": {
-          "type": "class",
-          "settings": {
-            "month": "APRIL",
-            "date": "5-7",
-            "class": "TRADESHOW",
-            "title": "America's Beauty Show",
-            "text": "<p><strong>Location: Donald E. Stephens Convention Center</strong></p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!</p>",
-            "button_label": "REGISTER",
-            "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
-          }
-        },
         "class_3PPnBj": {
           "type": "class",
           "settings": {
@@ -391,6 +379,18 @@
             "text": "<p><strong>Location: Excel, London</strong></p><p>CIDESCO 2-day Massage Workshop WEST MEETS EAST.</p><p>Registration fee required.</p><p>A master class by Lydia Sarfati in London on March 4th, 2025 </p>",
             "button_label": "SAVE THE DATE",
             "button_link": ""
+          }
+        },
+        "class_xNiYcL": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "5-7",
+            "class": "TRADESHOW",
+            "title": "America's Beauty Show",
+            "text": "<p><strong>Location: Donald E. Stephens Convention Center</strong></p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!</p>",
+            "button_label": "REGISTER",
+            "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
           }
         }
       },
@@ -417,8 +417,8 @@
         "class_Yb9Ddw",
         "class_r3Ejp4",
         "class_GTdkfA",
-        "class_xNiYcL",
-        "class_3PPnBj"
+        "class_3PPnBj",
+        "class_xNiYcL"
       ],
       "settings": {
         "bg_color": "",
