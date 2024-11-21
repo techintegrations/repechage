@@ -419,6 +419,7 @@
         },
         "class_xNiYcL": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "APRIL",
             "date": "5-7",
@@ -427,6 +428,30 @@
             "text": "<p><strong>Location: Donald E. Stephens Convention Center</strong></p><p>Meet the Repêchage Team in Person! Discover the Future of Skincare Innovation at Our Booth!</p>",
             "button_label": "REGISTER",
             "button_link": "https://www.americasbeautyshow.com/collections/abs-2025-tickets"
+          }
+        },
+        "class_MAGQCE": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "5-7",
+            "class": "TRADESHOW",
+            "title": "AMERICAN BEAUTY SHOW",
+            "text": "<p><strong>Location: The Rosemont Convention Center, Chicago</strong></p><p>Cidesco workshop classes presented by CIDESCO SECTION USA<strong> </strong></p>",
+            "button_label": "REGISTER",
+            "button_link": ""
+          }
+        },
+        "class_79Fp7E": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "28",
+            "class": "WORKSHOP",
+            "title": "The Eyes Have It, Vita Cura, & Leg Detox Treatment",
+            "text": "<p><strong>Registration fee $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p><strong>The Opti Firm Eye Treatment</strong>: A skincare procedure focused on improving the appearance and health of the delicate skin around the eyes. It’s part of the Repechage line of products, which are known for their use of marine-based ingredients. This specific treatment typically targets issues like puffiness, dark circles, fine lines, and dryness. </p><p><strong>Vita Cura 5 Phase Firming Facial with Micropeel</strong>: A comprehensive skincare treatment designed to<br/>rejuvenate and renew the skin. It combines advanced exfoliation techniques with<br/>nourishing treatments for a more youthful, radiant complexion.</p><p><strong>The Repechage Leg Detox Treatment</strong>: Designed to help improve circulation, reduce swelling, and detoxify the legs.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
           }
         }
       },
@@ -457,7 +482,9 @@
         "class_Ge8FRz",
         "class_fTwW9P",
         "class_3p4xC8",
-        "class_xNiYcL"
+        "class_xNiYcL",
+        "class_MAGQCE",
+        "class_79Fp7E"
       ],
       "settings": {
         "bg_color": "",
