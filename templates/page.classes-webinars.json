@@ -537,6 +537,18 @@
             "button_label": "REGISTER",
             "button_link": "https://livelovespa.regfox.com/live-love-spa-dallas-2025REGISTER"
           }
+        },
+        "class_x9pFqN": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "18",
+            "class": "WORKSHOP",
+            "title": "The Ultimate Lifting Seaweed Mask with Leg Detox",
+            "text": "<p><strong>Registration fee $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p><strong>Repechage The Ultimate Lifting Seaweed Mask</strong> is a luxurious skincare treatment designed to rejuvenate and firm the skin. It features a unique blend of seaweed extracts, marine peptides, and other nourishing ingredients to deeply hydrate and tone the skin. This mask helps to improve elasticity, reduce the appearance of fine lines and wrinkles, and restore a youthful, radiant complexion. Ideal for aging or stressed skin, it provides a soothing, tightening effect while promoting overall skin health. The formula is designed to lift and contour, leaving the skin feeling refreshed and revitalized.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -575,7 +587,8 @@
         "class_6WU98i",
         "class_LmBjV3",
         "class_D3zE4e",
-        "class_nEQ7C7"
+        "class_nEQ7C7",
+        "class_x9pFqN"
       ],
       "settings": {
         "bg_color": "",
