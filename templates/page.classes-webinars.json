@@ -501,6 +501,42 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "class_LmBjV3": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "9",
+            "class": "VIRTUAL MASTER CLASS",
+            "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI",
+            "text": "<p>Put the best face forward. Your look and your professionalism are the ticket to success. LYDIA SARFATI</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_D3zE4e": {
+          "type": "class",
+          "settings": {
+            "month": "JULY",
+            "date": "14",
+            "class": "WORKSHOP",
+            "title": "All about Hyperpigmentation addressed withour Biolight Facial",
+            "text": "<p><strong>9:30 -5 pm</strong></p><p><strong>Registration fee $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p>Hyperpigmentation is a common skin condition characterized by the darkening of certain areas of the<br/>skin due to excess production of melanin, the pigment responsible for skin color. It can occur in various forms, such as age spots, melasma, or post-inflammatory hyperpigmentation (PIH) due to acne or injury.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_nEQ7C7": {
+          "type": "class",
+          "settings": {
+            "month": "JULY",
+            "date": "21-22",
+            "class": "TRADESHOW",
+            "title": "Live Love Spa",
+            "text": "<p><strong>Location: Dallas, TX</strong></p><p>Live Love Spa welcomes spa directors, spa business owners, spa managers, or purchasing decision makers seeking unique ways to positively impact revenue, profitability and their guests' lives.</p>",
+            "button_label": "REGISTER",
+            "button_link": "https://livelovespa.regfox.com/live-love-spa-dallas-2025REGISTER"
+          }
         }
       },
       "block_order": [
@@ -536,7 +572,10 @@
         "class_4MmVPC",
         "class_htbrbW",
         "class_VNEkEA",
-        "class_6WU98i"
+        "class_6WU98i",
+        "class_LmBjV3",
+        "class_D3zE4e",
+        "class_nEQ7C7"
       ],
       "settings": {
         "bg_color": "",
