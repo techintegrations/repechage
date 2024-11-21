@@ -341,8 +341,8 @@
             "class": "WORKSHOP",
             "title": "Oncology Esthetics 2-Day Class including Hands-on",
             "text": "<p><strong>9:30 am – 5:00 pm </strong></p><p><strong>This workshop and prep course will help to guide you on how to provide wellness treatments for your<br/>clients.</strong></p><p><strong>Registration fee: $199</strong><em><br/>Registration includes online access to the prep course.</em></p><p><strong>Kit fee: $325</strong><br/><em>The </em>k<em>it has everything the Oncology Esthetics student needs in a convenient cooler zip bag. It includes Oncology Esthetics® by Morag Currin, Repêchage® LED Radio Frequency and EMS Skin Tightening Machine, Kansa Wand massage tool, Hydra Dew Pure™ Starter Kit, Elixir Balm and Oil plus a box of 5 Lamina Lift™ Hydrating Seaweed Masks.</em></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em> </p><p>The workshop includes Lunch, Facial products, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant. </p><p>Key features of the product include: </p><ul><li>Hydrating: Uses moisture-rich ingredients to replenish and balance skin. </li><li>Soothing: Helps calm irritated or inflamed skin, making it ideal for sensitive skin types. </li><li>Gentle: Designed to be non-irritating, it is often recommended for use in treatments for redness, dryness, or inflammation. </li></ul>",
-            "button_label": "REGISTER",
-            "button_link": "https://www.repechage.com/products/3-day-master-class-january-13-15"
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
           }
         },
         "class_r3Ejp4": {
@@ -353,8 +353,8 @@
             "class": "MASTER CLASS",
             "title": "3-DAY MASTER CLASS",
             "text": "<p><strong>9:30 am – 5 pm</strong></p><p><strong>Class Fee $599</strong> </p><p><em>To attend the workshop, participants must complete a virtual class and pass the assessment test with a minimum score of 70%.</em> </p><p>The workshop includes a continental breakfast, lunch, a workshop kit, The Book of Skincare Science & Protocols, Hands-On Training, and practicing on mannequin heads, followed by a demonstration on a fellow participant.</p><p><em>*An optional dinner for $125 per person at The Chart House includes a three-course meal and two glasses of wine.</em></p>",
-            "button_label": "REGISTER",
-            "button_link": "https://www.repechage.com/products/3-day-master-class-january-13-15"
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
           }
         },
         "class_GTdkfA": {
@@ -585,6 +585,30 @@
             "button_label": "SAVE THE DATE",
             "button_link": "https://www.iecscflorida.com/"
           }
+        },
+        "class_tzJd7k": {
+          "type": "class",
+          "settings": {
+            "month": "OCTOBER",
+            "date": "20-22",
+            "class": "MASTER CLASS",
+            "title": "Hydra Dew Pure Moisturizing Lift Facial",
+            "text": "<p><strong>Registration fee: $599</strong></p><p><em>To attend the workshop, participants are required to complete a virtual class and pass the associated test with a minimum score of 70%.</em> </p><p>The workshop includes Continental breakfast, lunch, Work Shop Kit, The Book of Skincare Science & Protocols, Hands-On Training, and practicing on a dummy followed by a demonstration on a fellow participant. </p><p>An optional dinner for $125 per person at The Chart House includes a three-course meal and two glasses of wine.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_R4xbL4": {
+          "type": "class",
+          "settings": {
+            "month": "NOVEMBER",
+            "date": "18",
+            "class": "WORKSHOP",
+            "title": "Waxing Is Relaxing  ",
+            "text": "<p><strong>9:30 – 5pm</strong></p><p><strong>Registration fee: $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p><strong>Repechage Body & Facial Waxing</strong> refers to a professional waxing service offered by Repechage, a brand known for its skincare products and treatments. They provide a variety of waxing options for both the body and face, using high-quality waxes designed to be gentle on the skin while effectively removing unwanted hair. Repechage waxing treatments typically aim to minimize irritation and provide smooth, long-lasting results.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -627,7 +651,9 @@
         "class_x9pFqN",
         "class_dUNqX4",
         "class_NReC3t",
-        "class_BLq3PU"
+        "class_BLq3PU",
+        "class_tzJd7k",
+        "class_R4xbL4"
       ],
       "settings": {
         "bg_color": "",
