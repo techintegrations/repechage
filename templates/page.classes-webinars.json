@@ -463,7 +463,7 @@
             "title": "Live Love Spa",
             "text": "<p><strong>Location: TWA Hotel, NYC</strong></p><p>Live Love Spa welcomes spa directors, spa business owners, spa managers, or purchasing decision makers seeking unique ways to positively impact revenue, profitability and their guests' lives.</p>",
             "button_label": "Register",
-            "button_link": ""
+            "button_link": "https://livelovespa.regfox.com/live-love-spa-new-york-2025"
           }
         },
         "class_htbrbW": {
@@ -475,6 +475,30 @@
             "title": "Anti-Aging Menopausal Skin, Vita Cura Gold Facial",
             "text": "<p><strong>Registration fee $599</strong></p><p><em>To attend the workshop, participants are required to complete a virtual class and pass the associated test with a minimum score of 70%.</em> </p><p>The workshop includes continental breakfast, lunch, Work Shop Kit, The Book of Skincare Science & Protocols, Hands-On Training, and practicing on mannequin head followed by a demonstration on a fellow participant. </p><p>An optional dinner for $125 per person at The Chart House includes a three-course meal and two glasses of wine.</p><p>Repechage is a skincare brand known for its natural-based, high-performance products. Repechage offers a range of treatments designed to address common skin concerns such as dryness, thinning skin, loss of elasticity, and hormonal imbalances that can lead to increased sensitivity or redness. </p>",
             "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_VNEkEA": {
+          "type": "class",
+          "settings": {
+            "month": "MAY",
+            "date": "19-20",
+            "class": "TRADESHOW",
+            "title": "Live Love Spa",
+            "text": "<p><strong>Location: Scottsdale, AZ</strong></p><p>Live Love Spa welcomes spa directors, spa business owners, spa managers, or purchasing decision makers seeking unique ways to positively impact revenue, profitability and their guests' lives.</p>",
+            "button_label": "REGISTER",
+            "button_link": "https://livelovespa.regfox.com/live-love-spa-scottsdale-2025"
+          }
+        },
+        "class_6WU98i": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "2",
+            "class": "WORKSHOP",
+            "title": "T- Zone Facial Treatment with Enhancements",
+            "text": "<p><strong>9:30 – 5 pm </strong></p><p><strong>Registration fee $129</strong></p><p><em>To attend the workshop, participants must complete a virtual class and pass the associated test with a minimum score of 70%.</em></p><p>The workshop includes Lunch, Hands-On Training, and practicing on a mannequin followed by a demonstration on a fellow participant.</p><p><strong>The Repechage T-Zone Facial with Enhancements</strong> is a targeted skincare treatment designed to address specific concerns, particularly for oily or combination skin types. It focuses on balancing the skin in the T-zone area (forehead, nose, and chin), where oil production is typically more concentrated.</p><p><strong>Steps in the facial:</strong></p><ol><li>Cleansing: The facial starts with a deep cleanse to remove dirt, oil, and impurities.</li><li>Exfoliation: A gentle exfoliation helps to slough off dead skin cells, promoting smoother skin and unclogging pores.</li><li>T-Zone Treatment: The focus is on treating the T-zone area with specialized products that regulate oil production, minimize shine, and reduce the appearance of pores.</li><li>Extraction: If necessary, extractions are performed to clear clogged pores and blackheads, especially in the T-zone.</li><li>Hydration and Mask: A hydrating mask is applied to soothe and nourish the skin, ensuring it stays balanced and not over-dried from the oil-controlling treatments.</li></ol><p><strong>Enhancements may include:</strong></p><ul><li>LED Light Therapy: Helps with acne or skin rejuvenation.</li><li>Collagen Mask: For added hydration and anti-aging benefits.</li><li>High-Frequency Treatment: Targets acne or blemishes for clearer skin.</li><li>Lymphatic Drainage: To reduce puffiness and improve circulation.</li></ul>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -510,7 +534,9 @@
         "class_MAGQCE",
         "class_79Fp7E",
         "class_4MmVPC",
-        "class_htbrbW"
+        "class_htbrbW",
+        "class_VNEkEA",
+        "class_6WU98i"
       ],
       "settings": {
         "bg_color": "",
