@@ -549,6 +549,18 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "class_dUNqX4": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "25-26",
+            "class": "TRADESHOW",
+            "title": "Live Love Spa",
+            "text": "<p><strong>Location: Miami, FL</strong></p><p>Live Love Spa welcomes spa directors, spa business owners, spa managers, or purchasing decision makers seeking unique ways to positively impact revenue, profitability and their guests' lives.</p>",
+            "button_label": "REGISTER",
+            "button_link": "https://livelovespa.regfox.com/live-love-spa-miami-2025"
+          }
         }
       },
       "block_order": [
@@ -588,7 +600,8 @@
         "class_LmBjV3",
         "class_D3zE4e",
         "class_nEQ7C7",
-        "class_x9pFqN"
+        "class_x9pFqN",
+        "class_dUNqX4"
       ],
       "settings": {
         "bg_color": "",
