@@ -509,7 +509,7 @@
             "date": "9",
             "class": "VIRTUAL MASTER CLASS",
             "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI",
-            "text": "<p>Put the best face forward. Your look and your professionalism are the ticket to success. LYDIA SARFATI</p>",
+            "text": "<p><strong>Registration: $20</strong></p><p>Put the best face forward. Your look and your professionalism are the ticket to success.</p>",
             "button_label": "SAVE THE DATE",
             "button_link": ""
           }
@@ -561,6 +561,30 @@
             "button_label": "REGISTER",
             "button_link": "https://livelovespa.regfox.com/live-love-spa-miami-2025"
           }
+        },
+        "class_NReC3t": {
+          "type": "class",
+          "settings": {
+            "month": "SEPTEMBER",
+            "date": "15",
+            "class": "VIRTUAL MASTER CLASS",
+            "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI",
+            "text": "<p><strong>Registration: $20</strong></p><p>This class is for Esthetic Students. Client Consultation and Skin Analysis – Skills for assessing and customizing treatments for clients. Ethics and Professionalism – Building strong interpersonal and ethical standards. Sanitation and Infection Control – Best practices for hygiene, sterilization, and safety.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_BLq3PU": {
+          "type": "class",
+          "settings": {
+            "month": "SEPTEMBER",
+            "date": "28-29",
+            "class": "TRADESHOW",
+            "title": "IECSC",
+            "text": "<p><strong>Location: West Palm Beach Convention Center</strong></p><p>IECSC is the established leader in offering spa and wellness education to the South Florida market - for 26 years!</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": "https://www.iecscflorida.com/"
+          }
         }
       },
       "block_order": [
@@ -601,7 +625,9 @@
         "class_D3zE4e",
         "class_nEQ7C7",
         "class_x9pFqN",
-        "class_dUNqX4"
+        "class_dUNqX4",
+        "class_NReC3t",
+        "class_BLq3PU"
       ],
       "settings": {
         "bg_color": "",
