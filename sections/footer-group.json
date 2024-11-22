@@ -1,16 +1,38 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer-group.name",
   "sections": {
+    "advanced_content_deNN6w": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_p4dfHF": {
+          "type": "liquid",
+          "settings": {
+            "code": "* Black Friday Weekend Sales valid from November 25, 2024 10:00AM EST through December 3, 2024 10:00AM EST for online consumer retail purchases only. Free shipping UPS Standard Ground for the contiguous U.S. only. Not valid on sale items and may not be combined with any other coupons, codes, offers, discounts and/or promotions. May not be redeemed for cash or cash equivalent or used for prior purchases. Discount not valid towards expedited shipping and handling or tax. Other terms, restrictions and conditions may apply. Void where prohibited by law.",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_p4dfHF"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "footer-promotions": {
       "type": "footer-promotions",
       "blocks": {
@@ -20,7 +42,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -31,7 +53,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -42,7 +64,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -64,12 +86,12 @@
         "custom_WN4wpP": {
           "type": "custom",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/logo-white.png",
+            "logo": "shopify://shop_images/logo-white.png",
             "desktop_logo_height": 70,
             "show_footer_title": true,
             "show_social_icons": true,
             "title": "Reach Out",
-            "text": "<p><a href=\"tel:800-248-7546\" title=\"tel:800-248-7546\">1-800-248-SKIN (7546)<\/a><\/p><p><a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact Us<\/a><\/p><p>---<\/p><p>*Free Shipping on orders of $99+ Contiguous USA Only<\/p>",
+            "text": "<p><a href=\"tel:800-248-7546\" title=\"tel:800-248-7546\">1-800-248-SKIN (7546)</a></p><p><a href=\"mailto:info@repechage.com\" title=\"mailto:info@repechage.com\">info@repechage.com</a></p><p><a href=\"/pages/contact-us\" title=\"Contact Us\">Contact Us</a></p><p>---</p><p>*Free Shipping on orders of $99+ Contiguous USA Only</p>",
             "container_width": 30
           }
         },
@@ -101,7 +123,7 @@
           "type": "logo_social",
           "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/repechage-logo-black_png.jpg",
+            "logo": "shopify://shop_images/repechage-logo-black_png.jpg",
             "desktop_logo_height": 50,
             "container_width": 20
           }
@@ -125,6 +147,7 @@
     }
   },
   "order": [
+    "advanced_content_deNN6w",
     "footer-promotions",
     "footer"
   ]
