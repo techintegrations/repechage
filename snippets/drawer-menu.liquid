@@ -132,6 +132,7 @@
           </li>
         {%- endfor -%}
 
+        {% for link in linklists[section.settings.left_menu].links %}
               <li>
                 <a href="{{ link.url }}">
                   {{ link.title }}
@@ -149,6 +150,7 @@
                   </ul>
                 {% endif %}
               </li>
+            {% endfor %}
         
         {%- assign have_secondary_list = false -%}
         {%- if section.settings.toolbar_menu != blank or shop.customer_accounts_enabled -%}
