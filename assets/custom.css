@@ -26,6 +26,11 @@
     width: 50%;
 }
 
+.righr-menu.announcement-menu ul {
+    justify-content: flex-end;
+}
+
+
 
 .custom-video-gallery-section .grid--flush-bottom {
     margin-bottom: 0;
