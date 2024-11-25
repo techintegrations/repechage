@@ -37,6 +37,36 @@
           </div>
         {%- endfor -%}
       </div>
+
+
+      {% if section.settings.right_menu %}
+      <nav class="left-menu">
+        <ul>
+          {% for link in linklists[section.settings.right_menu].links %}
+            <li>
+              <a href="{{ link.url }}">
+                {{ link.title }}
+              </a>
+              
+              {% if link.links.size > 0 %}
+                <ul class="submenu">
+                  {% for sublink in link.links %}
+                    <li>
+                      <a href="{{ sublink.url }}">
+                        {{ sublink.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+
+
+      
     </div>
   </div>
 </div>
