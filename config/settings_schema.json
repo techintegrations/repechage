@@ -8,6 +8,25 @@
     "theme_support_url": "https://archetypethemes.co/pages/support#impulse"
   },
   {
+    "name": "Annoucement bar menu",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.colors.settings.header_general"
+      },
+      {
+        "type": "link_list",
+        "id": "left_menu",
+        "label": "Left menu"
+      },
+      {
+        "type": "link_list",
+        "id": "right_menu",
+        "label": "Right menu"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
