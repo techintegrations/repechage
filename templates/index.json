@@ -26,7 +26,7 @@
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify://shop_images/Black_Friday_Banner_2024.jpg",
-            "image_mobile": "shopify://shop_images/BF_mobile-2.jpg",
+            "image_mobile": "shopify://shop_images/BF_mobile.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 24
           }
