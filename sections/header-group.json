@@ -25,18 +25,11 @@
           "settings": {
             "text": "<p><strong>AUTOMATIC COUPON CODE ON CHECKOUT</strong></p>"
           }
-        },
-        "announcement_fxtMLh": {
-          "type": "announcement",
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
         "announcement-0",
-        "announcement_Aqcjfd",
-        "announcement_fxtMLh"
+        "announcement_Aqcjfd"
       ],
       "settings": {
         "show_slider": true
