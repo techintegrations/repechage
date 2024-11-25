@@ -19,12 +19,12 @@
 .announcement-bar .slideshow-wrapper-wrap {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .announcement-bar .slideshow-wrapper {
     flex: 0 0 50%;
     width: 50%;
-    display: flex;
 }
 
 .right-menu.announcement-menu ul {
