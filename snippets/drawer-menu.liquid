@@ -132,6 +132,8 @@
           </li>
         {%- endfor -%}
 
+
+        {% if left_menu != blank %}
         {%- for link in left_menu.links -%}
               <li class="mobile-nav__item appear-animation appear-delay-{{ animation_row }}">
                 <a href="{{ link.url }}" class="mobile-nav__link mobile-nav__link--top-level"{% if link.active %} data-active="true"{% endif %}>
@@ -151,8 +153,10 @@
                 {% endif %}
               </li>
             {% endfor %}
+                {% endif %}
 
 
+        {% if right_menu != blank %}
         {% for link in right_menu.links %}
               <li class="mobile-nav__item appear-animation appear-delay-{{ animation_row }}">
                 <a href="{{ link.url }}" class="mobile-nav__link mobile-nav__link--top-level"{% if link.active %} data-active="true"{% endif %}>
@@ -172,6 +176,7 @@
                 {% endif %}
               </li>
             {% endfor %}
+                {% endif %}
 
         
         
