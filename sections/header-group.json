@@ -32,8 +32,8 @@
         "announcement_Aqcjfd"
       ],
       "settings": {
-        "left_menu": "",
-        "right_menu": "",
+        "left_menu": "announcement-left-menu",
+        "right_menu": "announcement-right-menu",
         "show_slider": true
       }
     },

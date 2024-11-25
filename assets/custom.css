@@ -1,3 +1,31 @@
+.announcement-menu {
+    flex: 0 0 auto;
+}
+
+.announcement-menu ul {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.announcement-menu ul a {
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.announcement-bar .slideshow-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#AnnouncementSlider-wrap {
+    flex: 1 0 0;
+}
+
+
 .custom-video-gallery-section .grid--flush-bottom {
     margin-bottom: 0;
     overflow: hidden;
