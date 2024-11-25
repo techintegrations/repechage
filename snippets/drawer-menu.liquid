@@ -181,7 +181,7 @@
         
         
         {%- assign have_secondary_list = false -%}
-        {%- if section.settings.toolbar_menu != blank or shop.customer_accounts_enabled -%}
+        {%- if section.settings.toolbar_menu != blank or show_login_link -%}
           {%- assign have_secondary_list = true -%}
         {%- endif -%}
 
