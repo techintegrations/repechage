@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:sections.header-group.name",
@@ -17,13 +17,13 @@
         "announcement-0": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>TOP PROFESSIONAL SKINCARE BRAND RECOMMENDED BY ESTHETICIANS WORLDWIDE<\/strong><\/p>"
+            "text": "<p><strong>BFCM WEEK SALE! 20% OFF & FREE SHIPPING! </strong></p>"
           }
         },
         "announcement_Aqcjfd": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>FREE SHIPPING ON US ORDERS OF $99+ PLUS 3 COMPLIMENTARY SAMPLES WITH EVERY ORDER!*<\/strong><\/p>"
+            "text": ""
           }
         }
       },
@@ -47,9 +47,9 @@
             "link_list_3": "by-ingredients",
             "link_list_4": "",
             "image_1_top_heading": "Skin Kits & Sets",
-            "image_1": "shopify:\/\/shop_images\/T-Zone_Starter_Kit_-_Lifestyle1.2_55c1724d-0f07-4042-80b7-d311ac008af9.jpg",
+            "image_1": "shopify://shop_images/T-Zone_Starter_Kit_-_Lifestyle1.2_55c1724d-0f07-4042-80b7-d311ac008af9.jpg",
             "image_1_title": "Complete Skin Kits: Everything Your Skin Needs",
-            "image_1_link": "shopify:\/\/collections\/skin-kits-and-gifts",
+            "image_1_link": "shopify://collections/skin-kits-and-gifts",
             "image_2_top_heading": "",
             "image_2_title": "",
             "image_2_link": "",
@@ -70,17 +70,17 @@
             "link_list_3": "",
             "link_list_4": "",
             "image_1_top_heading": "",
-            "image_1": "shopify:\/\/shop_images\/oilhmpg.jpg",
+            "image_1": "shopify://shop_images/oilhmpg.jpg",
             "image_1_title": "Dry Compromised",
-            "image_1_link": "shopify:\/\/collections\/dry-skin",
+            "image_1_link": "shopify://collections/dry-skin",
             "image_2_top_heading": "",
-            "image_2": "shopify:\/\/shop_images\/Repechage-T-Zone-Complex.jpg",
+            "image_2": "shopify://shop_images/Repechage-T-Zone-Complex.jpg",
             "image_2_title": "Oily Combination",
-            "image_2_link": "shopify:\/\/collections\/oilness-dehydration",
+            "image_2_link": "shopify://collections/oilness-dehydration",
             "image_3_top_heading": "",
-            "image_3": "shopify:\/\/shop_images\/eye_2000x_151cb24f-c86a-470a-9988-86786bf52c51.png",
+            "image_3": "shopify://shop_images/eye_2000x_151cb24f-c86a-470a-9988-86786bf52c51.png",
             "image_3_title": "Fine Lines & Wrinkles",
-            "image_3_link": "shopify:\/\/collections\/deep-lines-wrinkles",
+            "image_3_link": "shopify://collections/deep-lines-wrinkles",
             "image_4_top_heading": "",
             "image_4_title": "",
             "image_4_link": ""
@@ -95,13 +95,13 @@
             "link_list_3": "",
             "link_list_4": "",
             "image_1_top_heading": "Read The Blog",
-            "image_1": "shopify:\/\/shop_images\/Smiling_Woman_in_Shower_Mid-Size.jpg",
+            "image_1": "shopify://shop_images/Smiling_Woman_in_Shower_Mid-Size.jpg",
             "image_1_title": "Blog: Take Your Everything Shower To The Next Level",
-            "image_1_link": "shopify:\/\/blogs\/news\/take-your-everything-shower-to-the-next-level-with-our-vita-cura-sea-spa-body-gift-set",
+            "image_1_link": "shopify://blogs/news/take-your-everything-shower-to-the-next-level-with-our-vita-cura-sea-spa-body-gift-set",
             "image_2_top_heading": "In Spa Experience",
-            "image_2": "shopify:\/\/shop_images\/facial.jpg",
+            "image_2": "shopify://shop_images/facial.jpg",
             "image_2_title": "Learn More About Our Treatments",
-            "image_2_link": "shopify:\/\/pages\/skin-treatments",
+            "image_2_link": "shopify://pages/skin-treatments",
             "image_3_top_heading": "",
             "image_3_title": "",
             "image_3_link": "",
@@ -119,17 +119,17 @@
             "link_list_3": "",
             "link_list_4": "",
             "image_1_top_heading": "",
-            "image_1": "shopify:\/\/shop_images\/seaweed_ec87148c-44b8-49e6-a02b-85e4a57ccfdc.jpg",
+            "image_1": "shopify://shop_images/seaweed_ec87148c-44b8-49e6-a02b-85e4a57ccfdc.jpg",
             "image_1_title": "Science of Seaweed",
-            "image_1_link": "shopify:\/\/pages\/science-of-seaweed-1",
+            "image_1_link": "shopify://pages/science-of-seaweed-1",
             "image_2_top_heading": "",
-            "image_2": "shopify:\/\/shop_images\/IMG_9184.jpg",
+            "image_2": "shopify://shop_images/IMG_9184.jpg",
             "image_2_title": "Why Repechage",
-            "image_2_link": "shopify:\/\/pages\/professional-skin-care-line-difference",
+            "image_2_link": "shopify://pages/professional-skin-care-line-difference",
             "image_3_top_heading": "",
-            "image_3": "shopify:\/\/shop_images\/65_rdo1580.jpg",
+            "image_3": "shopify://shop_images/65_rdo1580.jpg",
             "image_3_title": "Featured Spas",
-            "image_3_link": "shopify:\/\/pages\/featured-spas",
+            "image_3_link": "shopify://pages/featured-spas",
             "image_4_top_heading": "",
             "image_4_title": "",
             "image_4_link": ""
@@ -150,8 +150,8 @@
         "header_style": "sticky",
         "sticky_index": false,
         "sticky_collection": false,
-        "logo": "shopify:\/\/shop_images\/logo-white.png",
-        "logo-inverted": "shopify:\/\/shop_images\/logo-white.png",
+        "logo": "shopify://shop_images/logo-white.png",
+        "logo-inverted": "shopify://shop_images/logo-white.png",
         "desktop_logo_width": 300,
         "mobile_logo_width": 140,
         "toolbar_menu": "",
