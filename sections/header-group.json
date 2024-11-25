@@ -17,19 +17,27 @@
         "announcement-0": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>BFCM WEEK SALE! 20% OFF & FREE SHIPPING!*</strong></p>"
+            "text": "<p><strong>20% OFF & FREE SHIPPING! - COUPON CODE BFCM24</strong></p>"
           }
         },
         "announcement_Aqcjfd": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>20% OFF SALE PRICE SHOWN ON CART</strong></p>"
+            "text": "<p><strong>20% OFF & FREE SHIPPING!</strong></p>"
+          }
+        },
+        "announcement_fxtMLh": {
+          "type": "announcement",
+          "settings": {
+            "text": ""
           }
         }
       },
       "block_order": [
         "announcement-0",
-        "announcement_Aqcjfd"
+        "announcement_Aqcjfd",
+        "announcement_fxtMLh"
       ],
       "settings": {
         "show_slider": true
