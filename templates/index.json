@@ -100,7 +100,7 @@
             "link_2": "shopify://products/c-serum-seaweed-filtrate-face-serum-new-size",
             "link_text_2": "",
             "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-right",
+            "text_align": "vertical-bottom horizontal-center",
             "image": "shopify://shop_images/Banner_Q4_-_1.jpg",
             "image_mobile": "shopify://shop_images/1_9270436c-b7c8-4d48-8781-78e232047ebf.jpg",
             "parallax_direction": "top",
