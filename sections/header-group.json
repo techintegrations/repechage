@@ -23,7 +23,7 @@
         "announcement_Aqcjfd": {
           "type": "announcement",
           "settings": {
-            "text": "<p>SALE PRICE SHOWN ON CART</p>"
+            "text": "<p><strong>SALE PRICE SHOWN ON CART</strong></p>"
           }
         }
       },
