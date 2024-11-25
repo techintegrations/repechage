@@ -25,6 +25,7 @@
 .announcement-bar .slideshow-wrapper {
     flex: 0 0 50%;
     width: 50%;
+    margin: 0 auto;
 }
 
 .right-menu.announcement-menu ul {
