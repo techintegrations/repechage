@@ -1,6 +1,35 @@
 <div class="announcement-bar"> 
   <div class="page-width"> 
     <div class="slideshow-wrapper">
+
+    {% if section.settings.left_menu %}
+      <nav class="left-menu">
+        <ul>
+          {% for link in linklists[section.settings.left_menu].links %}
+            <li>
+              <a href="{{ link.url }}">
+                {{ link.title }}
+              </a>
+              
+              {% if link.links.size > 0 %}
+                <ul class="submenu">
+                  {% for sublink in link.links %}
+                    <li>
+                      <a href="{{ sublink.url }}">
+                        {{ sublink.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+
+
+      
       <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
         {%- for block in section.blocks -%}
           <div class="announcement-slider__slide">
