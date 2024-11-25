@@ -299,6 +299,7 @@
         },
         "class_ULYxqg": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "NOVEMBER",
             "date": "25",
