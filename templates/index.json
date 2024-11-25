@@ -24,7 +24,7 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
+            "text_align": "vertical-bottom horizontal-center",
             "image": "shopify://shop_images/Black_Friday_Banner_2024.jpg",
             "image_mobile": "shopify://shop_images/BF_mobile.jpg",
             "parallax_direction": "top",
