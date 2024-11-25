@@ -151,6 +151,29 @@
                 {% endif %}
               </li>
             {% endfor %}
+
+
+        {% for link in left_menu.links %}
+              <li>
+                <a href="{{ link.url }}">
+                  {{ link.title }}
+                </a>
+
+                {% if link.links.size > 0 %}
+                  <ul class="submenu">
+                    {% for sublink in link.links %}
+                      <li>
+                        <a href="{{ sublink.url }}">
+                          {{ sublink.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+
+        
         
         {%- assign have_secondary_list = false -%}
         {%- if section.settings.toolbar_menu != blank or shop.customer_accounts_enabled -%}
