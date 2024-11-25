@@ -1,5 +1,5 @@
 .announcement-menu {
-    flex: 0 0 auto;
+    flex: 1 0 0;
 }
 
 .announcement-menu ul {
@@ -21,8 +21,9 @@
     flex-wrap: wrap;
 }
 
-#AnnouncementSlider-wrap {
-    flex: 1 0 0;
+.announcement-bar .slideshow-wrapper {
+    flex: 0 0 50%;
+    width: 50%;
 }
 
 
