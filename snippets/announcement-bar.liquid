@@ -1,10 +1,10 @@
 <div class="announcement-bar">
   <div class="page-width-wrap">
     <div class="slideshow-wrapper-wrap">
-      {% if section.settings.left_menu %}
+      {% if settings.left_menu %}
         <div class="left-menu announcement-menu">
-          <ul class="submenu">
-            {% for link in linklists[section.settings.left_menu].links %}
+          <ul class="menu">
+            {% for link in linklists[settings.left_menu].links %}
               <li>
                 <a href="{{ link.url }}">
                   {{ link.title }}
@@ -40,10 +40,10 @@
         </div>
       </div>
 
-      {% if section.settings.right_menu %}
+      {% if settings.right_menu %}
         <div class="right-menu announcement-menu">
-          <ul class="submenu">
-            {% for link in linklists[section.settings.right_menu].links %}
+          <ul class="menu">
+            {% for link in linklists[settings.right_menu].links %}
               <li>
                 <a href="{{ link.url }}">
                   {{ link.title }}
