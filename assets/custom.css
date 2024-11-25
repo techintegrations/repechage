@@ -1689,6 +1689,11 @@ body.template-cart #cart-progress-wrapper {
       display: none;
   }
 
+  .announcement-bar .slideshow-wrapper {
+      flex: 0 0 100%;
+      width: 100%;
+  }
+  
   .hero[data-arrows=true] .flickity-prev-next-button {
       display: none;
   }
