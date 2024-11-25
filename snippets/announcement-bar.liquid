@@ -3,7 +3,7 @@
     <div class="slideshow-wrapper-wrap">
       {% if section.settings.left_menu %}
         <div class="left-menu announcement-menu">
-          <ul>
+          <ul class="submenu">
             {% for link in linklists[section.settings.left_menu].links %}
               <li>
                 <a href="{{ link.url }}">
@@ -42,7 +42,7 @@
 
       {% if section.settings.right_menu %}
         <div class="right-menu announcement-menu">
-          <ul>
+          <ul class="submenu">
             {% for link in linklists[section.settings.right_menu].links %}
               <li>
                 <a href="{{ link.url }}">
