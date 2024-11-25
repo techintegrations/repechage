@@ -1,73 +1,70 @@
-<div class="announcement-bar"> 
-  <div class="page-width"> 
+<div class="announcement-bar">
+  <div class="page-width">
     <div class="slideshow-wrapper-wrap">
+      {% if section.settings.left_menu %}
+        <div class="left-menu announcement-menu">
+          <ul>
+            {% for link in linklists[section.settings.left_menu].links %}
+              <li>
+                <a href="{{ link.url }}">
+                  {{ link.title }}
+                </a>
 
-    {% if section.settings.left_menu %}
-      <div class="left-menu announcement-menu">
-        <ul>
-          {% for link in linklists[section.settings.left_menu].links %}
-            <li>
-              <a href="{{ link.url }}">
-                {{ link.title }}
-              </a>
-              
-              {% if link.links.size > 0 %}
-                <ul class="submenu">
-                  {% for sublink in link.links %}
-                    <li>
-                      <a href="{{ sublink.url }}">
-                        {{ sublink.title }}
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
+                {% if link.links.size > 0 %}
+                  <ul class="submenu">
+                    {% for sublink in link.links %}
+                      <li>
+                        <a href="{{ sublink.url }}">
+                          {{ sublink.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
 
-<div class="slideshow-wrapper">
-      
-      <div id="AnnouncementSlider-wrap" class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row">
-        {%- for block in section.blocks -%}
-          <div class="announcement-slider__slide">
-            {{ block.settings.text }}
-          </div>
-        {%- endfor -%}
+      <div class="slideshow-wrapper">
+        <div
+          id="AnnouncementSlider-wrap"
+          class="{% if section.settings.show_slider %}custom-announcement-slider{% endif %} announcement-row"
+        >
+          {%- for block in section.blocks -%}
+            <div class="announcement-slider__slide">
+              {{ block.settings.text }}
+            </div>
+          {%- endfor -%}
+        </div>
       </div>
-      </div>
-
 
       {% if section.settings.right_menu %}
-      <div class="right-menu announcement-menu">
-        <ul>
-          {% for link in linklists[section.settings.right_menu].links %}
-            <li>
-              <a href="{{ link.url }}">
-                {{ link.title }}
-              </a>
-              
-              {% if link.links.size > 0 %}
-                <ul class="submenu">
-                  {% for sublink in link.links %}
-                    <li>
-                      <a href="{{ sublink.url }}">
-                        {{ sublink.title }}
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
+        <div class="right-menu announcement-menu">
+          <ul>
+            {% for link in linklists[section.settings.right_menu].links %}
+              <li>
+                <a href="{{ link.url }}">
+                  {{ link.title }}
+                </a>
 
-
-      
+                {% if link.links.size > 0 %}
+                  <ul class="submenu">
+                    {% for sublink in link.links %}
+                      <li>
+                        <a href="{{ sublink.url }}">
+                          {{ sublink.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
