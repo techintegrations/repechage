@@ -1697,6 +1697,10 @@ body.template-cart #cart-progress-wrapper {
       flex: 0 0 100%;
       width: 100%;
   }
+
+  .mobile-nav {
+      margin-bottom: 30px;
+  }
   
   .hero[data-arrows=true] .flickity-prev-next-button {
       display: none;
