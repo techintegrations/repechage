@@ -30,6 +30,29 @@
     justify-content: flex-end;
 }
 
+.announcement-menu .menu > li {
+    position: relative;
+}
+
+.right-menu.announcement-menu .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: #fff;
+    z-index: 99;
+    padding: 10px 5px;
+    min-width: 230px;
+    border-top: 1px solid #000;
+    justify-content: flex-start;
+    transition: .2s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.announcement-menu .menu > li:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+}
 
 
 .custom-video-gallery-section .grid--flush-bottom {
