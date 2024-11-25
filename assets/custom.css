@@ -16,7 +16,7 @@
     text-transform: uppercase;
 }
 
-.announcement-bar .slideshow-wrapper {
+.announcement-bar .slideshow-wrapper-wrap {
     display: flex;
     flex-wrap: wrap;
 }
