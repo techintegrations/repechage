@@ -22,7 +22,6 @@
         },
         "announcement_Aqcjfd": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<p><strong>AUTOMATIC COUPON CODE ON CHECKOUT</strong></p>"
           }
