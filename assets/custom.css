@@ -1685,6 +1685,10 @@ body.template-cart #cart-progress-wrapper {
 
 @media only screen and (max-width: 768px) {
 
+  .announcement-menu {
+      display: none;
+  }
+
   .hero[data-arrows=true] .flickity-prev-next-button {
       display: none;
   }
