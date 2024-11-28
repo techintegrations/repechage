@@ -83,6 +83,20 @@
             "button_link": "https://www.repechage.com/products/free-biolight-brightening-serum-w-purchase-of-biolight-brightening-sheet-mask"
           }
         },
+        "text_block_rJMXUQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Red-Out-Serum-BOGO.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "BUY ONE GET ONE FREE!",
+            "text": "<p>Imagine a more luminous complexion! Buy One Red-Out® Serum Get One Red-Out® Serum FREE!</p>",
+            "button_label": "SHOP NOW",
+            "button_link": "https://www.repechage.com/products/buy-red-out-serum-get-one-red-out-serum-free"
+          }
+        },
         "text_block_F738Ad": {
           "type": "text_block",
           "settings": {
@@ -181,33 +195,19 @@
             "button_label": "LEARN MORE",
             "button_link": "https://www.repechage.com/pages/after-pay"
           }
-        },
-        "text_block_rJMXUQ": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Red-Out-Serum-BOGO.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "BUY ONE GET ONE FREE!",
-            "text": "<p>Imagine a more luminous complexion! Buy One Red-Out® Serum Get One Red-Out® Serum FREE!</p>",
-            "button_label": "SHOP NOW",
-            "button_link": "https://www.repechage.com/products/buy-red-out-serum-get-one-red-out-serum-free"
-          }
         }
       },
       "block_order": [
         "text_block_cLNKFk",
         "text_block_cYDAJY",
+        "text_block_rJMXUQ",
         "text_block_F738Ad",
         "text_block_kUyQWJ",
         "text_block_8QWQtF",
         "text_block_pMhKPb",
         "text_block_eQPFAi",
         "text_block_MD9Uya",
-        "text_block_zQipqQ",
-        "text_block_rJMXUQ"
+        "text_block_zQipqQ"
       ],
       "settings": {
         "title": "Shop exclusive and limited-time offers",
