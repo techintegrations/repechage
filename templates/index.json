@@ -14,6 +14,7 @@
       "blocks": {
         "image_3jWjtT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<h1>BLACK FRIDAY</h1>",
             "title": "<p>SALE</p>",
@@ -33,7 +34,6 @@
         },
         "image_4p3pwP": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>GLOW-WORTHY GIFTS</p>",
@@ -53,7 +53,6 @@
         },
         "image_iCkPT9": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "<p>EXPERIENCE</p>",
             "title": "<p>VITA CURA GOLD</p>",
@@ -73,7 +72,6 @@
         },
         "image_QYiDV7": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "<p>New</p>",
             "title": "<p>VITA CURA BODY</p>",

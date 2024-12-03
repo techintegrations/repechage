@@ -16,25 +16,27 @@
       "blocks": {
         "announcement_mUex9i": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>CYBER MONDAY SALE - ENDS TODAY AT 10AM EST</strong></p>"
           }
         },
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>20% OFF & FREE SHIPPING! - COUPON CODE BFCM24</strong></p>"
           }
         },
         "announcement_Aqcjfd": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>AUTOMATIC COUPON CODE ON CHECKOUT</strong></p>"
           }
         },
         "announcement_i9xJmQ": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<p>FREE SHIPPING ON US ORDERS OF $99+ PLUS 3 COMPLIMENTARY SAMPLES WITH EVERY ORDER!*</p>"
           }
