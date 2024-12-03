@@ -325,6 +325,7 @@
         },
         "class_WNEhey": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "DECEMBER",
             "date": "3",
