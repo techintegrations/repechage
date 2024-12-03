@@ -14,6 +14,12 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement_mUex9i": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>CYBER MONDAY SALE - ENDS TODAY AT 10AM EST</p>"
+          }
+        },
         "announcement-0": {
           "type": "announcement",
           "settings": {
@@ -42,6 +48,7 @@
         }
       },
       "block_order": [
+        "announcement_mUex9i",
         "announcement-0",
         "announcement_Aqcjfd",
         "announcement_i9xJmQ",
