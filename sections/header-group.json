@@ -35,6 +35,7 @@
         },
         "announcement_7ciPbx": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>TOP PROFESSIONAL SKINCARE BRAND RECOMMENDED BY ESTHETICIANS WORLDWIDE</p>"
           }
