@@ -438,10 +438,10 @@
             "month": "MARCH",
             "date": "31",
             "class": "VIRTUAL MASTER CLASS",
-            "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI",
+            "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI: Retail The Other Half of Your Business",
             "text": "<p><strong>Registration: $20</strong></p><p>Retail the other half of your business, creating a valuable and wonderful client experience.      </p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
+            "button_label": "REGISTER",
+            "button_link": "https://www.lydiasarfati.com/2025-03-31-retail-the-other-half-of-your-business.php"
           }
         },
         "class_xNiYcL": {
@@ -529,16 +529,28 @@
             "button_link": "https://www.repechage.com/products/t-zone-facial-treatment-with-enhancements"
           }
         },
+        "class_hM9Hej": {
+          "type": "class",
+          "settings": {
+            "month": "",
+            "date": "",
+            "class": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "class_LmBjV3": {
           "type": "class",
           "settings": {
             "month": "JUNE",
             "date": "9",
             "class": "VIRTUAL MASTER CLASS",
-            "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI",
+            "title": "VIRTUAL MASTER CLASS: Put the Best Face Forward",
             "text": "<p><strong>12 - 1:30pm EST<br/>Registration: $20</strong></p><p>Put the best face forward. Your look and your professionalism are the ticket to success.</p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
+            "button_label": "REGISTER",
+            "button_link": "https://www.lydiasarfati.com/2025-06-09-virtual-master-class-put-the-best-face-forward.php"
           }
         },
         "class_D3zE4e": {
@@ -595,10 +607,10 @@
             "month": "SEPTEMBER",
             "date": "15",
             "class": "VIRTUAL MASTER CLASS",
-            "title": "VIRTUAL MASTER CLASS WITH LYDIA SARFATI",
+            "title": "VIRTUAL MASTER CLASS: Client Consultation and Skin Analysis",
             "text": "<p><strong>12 - 1:30pm EST<br/>Registration fee: $20</strong></p><p>This class is for Esthetic Students. Client Consultation and Skin Analysis – Skills for assessing and customizing treatments for clients. Ethics and Professionalism – Building strong interpersonal and ethical standards. Sanitation and Infection Control – Best practices for hygiene, sterilization, and safety.</p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
+            "button_label": "REGISTER",
+            "button_link": "https://www.lydiasarfati.com/2025-09-15-virtual-master-class-client-consultation-and-skin-analysis.php"
           }
         },
         "class_BLq3PU": {
@@ -674,6 +686,7 @@
         "class_htbrbW",
         "class_VNEkEA",
         "class_6WU98i",
+        "class_hM9Hej",
         "class_LmBjV3",
         "class_D3zE4e",
         "class_nEQ7C7",
