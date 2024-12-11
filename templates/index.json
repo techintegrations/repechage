@@ -46,6 +46,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify://shop_images/1_2.jpg",
+            "image_mobile": "shopify://shop_images/candle-2.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 18
           }
