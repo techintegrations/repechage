@@ -32,6 +32,24 @@
             "overlay_opacity": 24
           }
         },
+        "image_dcrq4U": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>NEW FROM REPECHAGE</p>",
+            "title": "<p>SEASIDE SERENITY</p>",
+            "title_size": 80,
+            "subheading": "<p>Soy-based candle with notes of Lemon, Jasmine, Iris and Golden Amber</p>",
+            "link": "",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/1_2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 18
+          }
+        },
         "image_4p3pwP": {
           "type": "image",
           "settings": {
@@ -70,25 +88,6 @@
             "overlay_opacity": 0
           }
         },
-        "image_QYiDV7": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "<p>New</p>",
-            "title": "<p>VITA CURA BODY</p>",
-            "title_size": 71,
-            "subheading": "<p>This rich cream helps to visibly smooth and tighten the appearance of skin with power-packed ingredients.</p>",
-            "link": "shopify://products/vita-cura-cellusea-lift-body-contour-cream",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/AFG2b.gif",
-            "image_mobile": "shopify://shop_images/BODY.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "image_Rx9W9J": {
           "type": "image",
           "settings": {
@@ -111,9 +110,9 @@
       },
       "block_order": [
         "image_3jWjtT",
+        "image_dcrq4U",
         "image_4p3pwP",
         "image_iCkPT9",
-        "image_QYiDV7",
         "image_Rx9W9J"
       ],
       "settings": {
