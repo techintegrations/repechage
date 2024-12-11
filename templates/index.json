@@ -130,9 +130,9 @@
     "featured_collection_U6DUhq": {
       "type": "featured-collection",
       "settings": {
-        "title": "BEST SELLERS",
-        "featured_image": "shopify://shop_images/Untitled-1_4c081063-7ab2-4b3a-a40e-b82afe9e6101.jpg",
-        "home_featured_products": "our-best-sellers",
+        "title": "HOLIDAY GIFTS",
+        "featured_image": "shopify://shop_images/Untitled-1_314c4468-7ad1-4359-bf01-1efc0f6fb8e8.jpg",
+        "home_featured_products": "holiday-gifts",
         "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
