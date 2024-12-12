@@ -52,6 +52,12 @@
           "settings": {
             "text": "<p>TOP PROFESSIONAL SKINCARE BRAND RECOMMENDED BY ESTHETICIANS WORLDWIDE</p>"
           }
+        },
+        "announcement_Wb4NMm": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Unlock 2 FREE Gifts at Checkout – See If You Qualify!</p>"
+          }
         }
       },
       "block_order": [
@@ -60,7 +66,8 @@
         "announcement_Aqcjfd",
         "announcement_i9xJmQ",
         "announcement_7qeMKP",
-        "announcement_7ciPbx"
+        "announcement_7ciPbx",
+        "announcement_Wb4NMm"
       ],
       "settings": {
         "show_slider": true
