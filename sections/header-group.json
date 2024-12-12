@@ -38,7 +38,13 @@
         "announcement_i9xJmQ": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>SPECIAL HOLIDAY OFFER FREE SHIPPING ON US ORDERS*</strong></p>"
+            "text": "<p>SPECIAL HOLIDAY OFFER <strong>FREE SHIPPING </strong>ON US ORDERS*</p>"
+          }
+        },
+        "announcement_7qeMKP": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>3 COMPLIMENTARY SAMPLES WITH EVERY ORDER*</p>"
           }
         },
         "announcement_7ciPbx": {
@@ -53,6 +59,7 @@
         "announcement-0",
         "announcement_Aqcjfd",
         "announcement_i9xJmQ",
+        "announcement_7qeMKP",
         "announcement_7ciPbx"
       ],
       "settings": {
