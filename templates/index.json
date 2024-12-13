@@ -220,7 +220,7 @@
       ],
       "settings": {
         "show_container": false,
-        "section_height": "550px",
+        "section_height": "450px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
