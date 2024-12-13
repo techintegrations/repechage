@@ -210,8 +210,9 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/Free-Red-Out--Promo.jpg",
+            "image_mobile": "shopify://shop_images/Red-out_mobile_banner.jpg",
             "parallax_direction": "left",
-            "overlay_opacity": 2
+            "overlay_opacity": 10
           }
         }
       },
