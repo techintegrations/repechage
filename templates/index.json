@@ -211,7 +211,7 @@
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/Free-Red-Out--Promo.jpg",
             "parallax_direction": "left",
-            "overlay_opacity": 14
+            "overlay_opacity": 8
           }
         }
       },
