@@ -879,10 +879,10 @@
         "round_images": false,
         "color_background": "#ffffff",
         "color_text": "#1c1d1d",
-        "padding_top": 60,
-        "padding_bottom": 100,
-        "padding_top_m": 40,
-        "padding_bottom_m": 55
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_top_m": 10,
+        "padding_bottom_m": 10
       }
     },
     "17302148459172f4c3": {
