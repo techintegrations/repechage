@@ -12,6 +12,24 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_EgqTrV": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p><strong>Glow Pure This Holiday Season</strong></p>",
+            "title_size": 80,
+            "subheading": "<p>Discover the Power of Hydra Dew Pure – For Skin That Feels Calm, Soft, and Luminous</p>",
+            "link": "shopify://collections/hydra-dew-pure",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/HDP-glow-banner2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_dcrq4U": {
           "type": "image",
           "settings": {
@@ -52,6 +70,7 @@
         },
         "image_iCkPT9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>EXPERIENCE</p>",
             "title": "<p>VITA CURA GOLD</p>",
@@ -71,6 +90,7 @@
         },
         "image_Rx9W9J": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>Try</p>",
             "title": "<p>THE ORIGINAL SEAWEED SERUM</p>",
@@ -90,6 +110,7 @@
         }
       },
       "block_order": [
+        "image_EgqTrV",
         "image_dcrq4U",
         "image_4p3pwP",
         "image_iCkPT9",
@@ -781,7 +802,7 @@
           "type": "heading",
           "settings": {
             "title": "TESTIMONIALS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_KKaHCh": {
@@ -789,7 +810,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
