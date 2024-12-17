@@ -13,15 +13,14 @@
       "type": "main-product",
       "blocks": {
         "yotpo_product_reviews_ugc_star_rating_pBPBWG": {
-          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "richtext_EpXmjL": {
           "type": "richtext",
@@ -31,8 +30,7 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -58,8 +56,7 @@
         },
         "quantity_selector_HQMt8q": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -72,8 +69,7 @@
         "share": {
           "type": "share",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "logo_H8FzFf": {
           "type": "logo",
@@ -142,7 +138,7 @@
         "padding_top": 30,
         "padding_bottom": 30,
         "padding_top_m": 16,
-        "padding_bottom_m": 16
+        "padding_bottom_m": 36
       }
     },
     "custom_product_tabs_aAdT9e": {
@@ -288,7 +284,7 @@
       "type": "apps",
       "blocks": {
         "yotpo_product_reviews_ugc_reviews_RLFgbC": {
-          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -371,8 +367,7 @@
     "collection-return": {
       "type": "collection-return",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
