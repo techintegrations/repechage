@@ -1,3 +1,7 @@
+#customer_register_link {
+  display: none !important;
+}
+
 .announcement-menu {
     flex: 1 0 0;
 }
