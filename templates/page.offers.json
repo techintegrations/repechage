@@ -85,6 +85,7 @@
         },
         "text_block_rJMXUQ": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/Red-Out-Serum-BOGO.jpg",
