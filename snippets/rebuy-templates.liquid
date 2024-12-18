@@ -1,0 +1,5 @@
+       getCustomFreeProductImage(product) {
+         if (product.id === 'firstProductId') return 'url-to-first-image';
+         if (product.id === 'secondProductId') return 'url-to-second-image';
+         return product.image; // Default image
+       }
