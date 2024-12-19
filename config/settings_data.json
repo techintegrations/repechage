@@ -288,7 +288,7 @@
       },
       "7885500093077574326": {
         "type": "shopify://apps/videowise-video-commerce/blocks/script_embed/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     }
