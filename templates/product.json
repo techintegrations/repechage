@@ -69,7 +69,7 @@
         "videowise_video_commerce_videowise_page_widgets_qnyzeY": {
           "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
           "settings": {
-            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
+            "videowise_embed": "<div class=\"reeview-app-widget has-margin-bottom\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
           }
         },
         "share": {
