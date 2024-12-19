@@ -736,6 +736,58 @@
         "divider": false
       }
     },
+    "rich_text_np8xVN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fWU3J7": {
+          "type": "heading",
+          "settings": {
+            "title": "Most Adored by You",
+            "title_color": "#000"
+          }
+        },
+        "text_XP96GR": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "",
+            "text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fWU3J7",
+        "text_XP96GR"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "1734571454f904211f": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_KKDJxG": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637477696abd0029765520\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_KKDJxG"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "blog_posts_AkwbrY": {
       "type": "blog-posts",
       "settings": {
@@ -928,63 +980,11 @@
         "space_around": true
       }
     },
-    "1734571454f904211f": {
-      "type": "apps",
-      "blocks": {
-        "videowise_video_commerce_videowise_page_widgets_KKDJxG": {
-          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
-          "settings": {
-            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637477696abd0029765520\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "videowise_video_commerce_videowise_page_widgets_KKDJxG"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "1734571480fd12e4b3": {
       "type": "apps",
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "rich_text_np8xVN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fWU3J7": {
-          "type": "heading",
-          "settings": {
-            "title": "Most Adored by You",
-            "title_color": "#000"
-          }
-        },
-        "text_XP96GR": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "",
-            "text_color": "#000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fWU3J7",
-        "text_XP96GR"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": false
       }
     }
   },
@@ -1002,6 +1002,8 @@
     "text_and_image_cMGVy7",
     "rich_text_8EWUMC",
     "text_with_icons_dTrr3R",
+    "rich_text_np8xVN",
+    "1734571454f904211f",
     "blog_posts_AkwbrY",
     "newsletter_kJLxhd",
     "rich_text_AWf7CB",
@@ -1009,8 +1011,6 @@
     "17302148459172f4c3",
     "1734568966273b9004",
     "1734571429dc37d243",
-    "rich_text_np8xVN",
-    "1734571454f904211f",
     "1734571480fd12e4b3"
   ]
 }
