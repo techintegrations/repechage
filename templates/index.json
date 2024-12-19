@@ -742,8 +742,8 @@
         "heading_fWU3J7": {
           "type": "heading",
           "settings": {
-            "title": "Most Adored by You",
-            "title_color": "#000"
+            "title": "SHOP BY VIDEO",
+            "title_color": "#000000"
           }
         },
         "text_XP96GR": {
@@ -751,7 +751,7 @@
           "settings": {
             "enlarge_text": true,
             "text": "",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         }
       },
