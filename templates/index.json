@@ -916,8 +916,22 @@
     },
     "1734568966273b9004": {
       "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1734571429dc37d243": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1734571454f904211f": {
+      "type": "apps",
       "blocks": {
-        "videowise_video_commerce_videowise_page_widgets_KyEpep": {
+        "videowise_video_commerce_videowise_page_widgets_KKDJxG": {
           "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
           "settings": {
             "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637477696abd0029765520\"></div>"
@@ -925,8 +939,15 @@
         }
       },
       "block_order": [
-        "videowise_video_commerce_videowise_page_widgets_KyEpep"
+        "videowise_video_commerce_videowise_page_widgets_KKDJxG"
       ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1734571480fd12e4b3": {
+      "type": "apps",
       "settings": {
         "full_width": false,
         "space_around": true
@@ -952,6 +973,9 @@
     "rich_text_AWf7CB",
     "testimonials_WQarYp",
     "17302148459172f4c3",
-    "1734568966273b9004"
+    "1734568966273b9004",
+    "1734571429dc37d243",
+    "1734571454f904211f",
+    "1734571480fd12e4b3"
   ]
 }
