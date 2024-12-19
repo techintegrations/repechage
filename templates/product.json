@@ -66,6 +66,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "videowise_video_commerce_videowise_page_widgets_qnyzeY": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
+          }
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -102,6 +108,7 @@
         "recharge_subscriptions_subscription_widget_H67F3t",
         "quantity_selector_HQMt8q",
         "buy_buttons",
+        "videowise_video_commerce_videowise_page_widgets_qnyzeY",
         "share",
         "logo_H8FzFf",
         "product_list_QNBe7e"
