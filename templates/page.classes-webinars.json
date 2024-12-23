@@ -408,6 +408,18 @@
             "button_link": "https://professionalbeauty.co.uk/pb-london-2025-register-your-interest"
           }
         },
+        "class_qALGTx": {
+          "type": "class",
+          "settings": {
+            "month": "MARCH",
+            "date": "4",
+            "class": "WORKSHOP",
+            "title": "Day of Empowerment (London, 2025)",
+            "text": "<p>Tuesday, March 4, 2025<br/>9AM – 5PM<br/><br/>Lincoln Plaza London Curio Collection by HILTON</p>",
+            "button_label": "register",
+            "button_link": "https://www.repechage.com/products/day-of-empowerment-london-2025"
+          }
+        },
         "class_Ge8FRz": {
           "type": "class",
           "settings": {
@@ -664,6 +676,7 @@
         "class_GTdkfA",
         "class_bQEJHn",
         "class_3PPnBj",
+        "class_qALGTx",
         "class_Ge8FRz",
         "class_fTwW9P",
         "class_3p4xC8",
