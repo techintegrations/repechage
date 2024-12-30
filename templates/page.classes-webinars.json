@@ -529,6 +529,18 @@
             "button_link": ""
           }
         },
+        "class_6AHj44": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "7",
+            "class": "ABS CLASS",
+            "title": "Mastering facial treatments for compromised skin and rosacea: Look and learn with Lydia Sarfati",
+            "text": "<p>Dermatologists tested and approved facial treatments that address the needs associated with skin hypersensitivity. Chemistry at your fingertips learn about the best ingredients, such as seaweeds, quercetin, rutin, and silver, to help reduce sensitivity and redness.</p><p>Demonstration of proper massage technique with silver ball to calm the skin and visibly reduce the appearance of redness and irritation. Participants will receive a certificate of attendance upon completion of a 10-question assessment. </p><p>Please have a device available (smartphone, iPad, or tablet) to take the assessment.</p><p><strong>Class includes:</strong></p><ul><li>Presentation and demonstration </li><li>Digital certificate sent via e-mail</li></ul><p><strong>Price: $89</strong></p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
         "class_79Fp7E": {
           "type": "class",
           "settings": {
@@ -696,18 +708,6 @@
             "button_label": "REGISTER",
             "button_link": "https://www.repechage.com/products/waxing-is-relaxing-nov-18"
           }
-        },
-        "class_6AHj44": {
-          "type": "class",
-          "settings": {
-            "month": "APRIL",
-            "date": "7",
-            "class": "IECSC CLASS",
-            "title": "Mastering facial treatments for compromised skin and rosacea: Look and learn with Lydia Sarfati",
-            "text": "<p>Dermatologists tested and approved facial treatments that address the needs associated with skin hypersensitivity. Chemistry at your fingertips learn about the best ingredients, such as seaweeds, quercetin, rutin, and silver, to help reduce sensitivity and redness.</p><p>Demonstration of proper massage technique with silver ball to calm the skin and visibly reduce the appearance of redness and irritation. Participants will receive a certificate of attendance upon completion of a 10-question assessment. </p><p>Please have a device available (smartphone, iPad, or tablet) to take the assessment.</p><p><strong>Class includes:</strong></p><ul><li>Presentation and demonstration </li><li>Digital certificate sent via e-mail</li></ul><p><strong>Price: $89</strong></p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
@@ -746,6 +746,7 @@
         "class_xNiYcL",
         "class_MAGQCE",
         "class_nRYxXK",
+        "class_6AHj44",
         "class_79Fp7E",
         "class_4MmVPC",
         "class_htbrbW",
@@ -759,8 +760,7 @@
         "class_NReC3t",
         "class_BLq3PU",
         "class_tzJd7k",
-        "class_R4xbL4",
-        "class_6AHj44"
+        "class_R4xbL4"
       ],
       "settings": {
         "bg_color": "",
