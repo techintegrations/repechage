@@ -492,18 +492,6 @@
             "button_link": "https://www.lydiasarfati.com/2025-03-31-retail-the-other-half-of-your-business.php"
           }
         },
-        "class_nRYxXK": {
-          "type": "class",
-          "settings": {
-            "month": "APRIL",
-            "date": "6",
-            "class": "ABS CLASS",
-            "title": "Repêchage® International Facial Massage with Lydia Sarfati",
-            "text": "<p><strong>10 am - 1 pmEndorsed by CIDESCO International</strong></p><p>Advance your knowledge and skills by completing this 3-hour comprehensive course, which includes, a presentation, demonstration, and workshop.</p><p>It will focus on an in-depth Understanding of skin structure, including the layers of the skin, muscles, bones, and lymphatic system.</p><p>Proper massage techniques for different skin types from antiaging to activating collagen production to a soothing massage for skin conditions such as acne and skin hypersensitivity.</p><p>Receive CIDESCO / Repechage Certificate upon completion and passing a 30-question digital assessment. (passing score is 70)</p><p>Please have an electronic device available (smartphone, iPad, or tablet) to take the assessment.</p><p><strong>Class includes:</strong></p><p>3-hour course - presentation, demonstration, and workshop on mannequin heads, digital certificate sent via e-mail (if a passing score is achieved)</p><p><strong>Early Bird $175<br/>Regular Price: $189</strong></p>",
-            "button_label": "save the date",
-            "button_link": ""
-          }
-        },
         "class_xNiYcL": {
           "type": "class",
           "disabled": true,
@@ -526,6 +514,18 @@
             "title": "AMERICAN BEAUTY SHOW",
             "text": "<p><strong>Location: The Rosemont Convention Center, Chicago</strong></p><p><strong>Come Visit Repechage at<br/>BOOTH: 4400</strong></p><p>Cidesco workshop classes presented by CIDESCO SECTION USA<strong> </strong></p>",
             "button_label": "REGISTER",
+            "button_link": ""
+          }
+        },
+        "class_nRYxXK": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "6",
+            "class": "ABS CLASS",
+            "title": "Repêchage® International Facial Massage with Lydia Sarfati",
+            "text": "<p><strong>10 am - 1 pmEndorsed by CIDESCO International</strong></p><p>Advance your knowledge and skills by completing this 3-hour comprehensive course, which includes, a presentation, demonstration, and workshop.</p><p>It will focus on an in-depth Understanding of skin structure, including the layers of the skin, muscles, bones, and lymphatic system.</p><p>Proper massage techniques for different skin types from antiaging to activating collagen production to a soothing massage for skin conditions such as acne and skin hypersensitivity.</p><p>Receive CIDESCO / Repechage Certificate upon completion and passing a 30-question digital assessment. (passing score is 70)</p><p>Please have an electronic device available (smartphone, iPad, or tablet) to take the assessment.</p><p><strong>Class includes:</strong></p><p>3-hour course - presentation, demonstration, and workshop on mannequin heads, digital certificate sent via e-mail (if a passing score is achieved)</p><p><strong>Early Bird $175<br/>Regular Price: $189</strong></p>",
+            "button_label": "save the date",
             "button_link": ""
           }
         },
@@ -696,6 +696,18 @@
             "button_label": "REGISTER",
             "button_link": "https://www.repechage.com/products/waxing-is-relaxing-nov-18"
           }
+        },
+        "class_6AHj44": {
+          "type": "class",
+          "settings": {
+            "month": "APRIL",
+            "date": "7",
+            "class": "IECSC CLASS",
+            "title": "Mastering facial treatments for compromised skin and rosacea: Look and learn with Lydia Sarfati",
+            "text": "<p>Dermatologists tested and approved facial treatments that address the needs associated with skin hypersensitivity. Chemistry at your fingertips learn about the best ingredients, such as seaweeds, quercetin, rutin, and silver, to help reduce sensitivity and redness.</p><p>Demonstration of proper massage technique with silver ball to calm the skin and visibly reduce the appearance of redness and irritation. Participants will receive a certificate of attendance upon completion of a 10-question assessment. </p><p>Please have a device available (smartphone, iPad, or tablet) to take the assessment.</p><p><strong>Class includes:</strong></p><ul><li>Presentation and demonstration </li><li>Digital certificate sent via e-mail</li></ul><p><strong>Price: $89</strong></p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -731,9 +743,9 @@
         "class_yYbmUy",
         "class_xnfrpH",
         "class_3p4xC8",
-        "class_nRYxXK",
         "class_xNiYcL",
         "class_MAGQCE",
+        "class_nRYxXK",
         "class_79Fp7E",
         "class_4MmVPC",
         "class_htbrbW",
@@ -747,7 +759,8 @@
         "class_NReC3t",
         "class_BLq3PU",
         "class_tzJd7k",
-        "class_R4xbL4"
+        "class_R4xbL4",
+        "class_6AHj44"
       ],
       "settings": {
         "bg_color": "",
