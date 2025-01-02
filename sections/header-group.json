@@ -37,6 +37,7 @@
         },
         "announcement_i9xJmQ": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>SPECIAL HOLIDAY OFFER <strong>FREE SHIPPING </strong>ON US ORDERS*</p>"
           }
@@ -55,6 +56,7 @@
         },
         "announcement_Wb4NMm": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>UNLOCK 2 FREE GIFTS BEFORE CHECKOUT – SEE IF YOU QUALIFY!</p>"
           }
