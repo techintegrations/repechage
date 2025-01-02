@@ -14,13 +14,6 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement_mUex9i": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>CYBER MONDAY SALE - ENDS TODAY AT 10AM EST</strong></p>"
-          }
-        },
         "announcement-0": {
           "type": "announcement",
           "disabled": true,
@@ -54,6 +47,12 @@
             "text": "<p>TOP PROFESSIONAL SKINCARE BRAND RECOMMENDED BY ESTHETICIANS WORLDWIDE</p>"
           }
         },
+        "announcement_PEPgMR": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>FREE SHIPPING ON ORDERS $99 & UP*</p>"
+          }
+        },
         "announcement_Wb4NMm": {
           "type": "announcement",
           "disabled": true,
@@ -63,12 +62,12 @@
         }
       },
       "block_order": [
-        "announcement_mUex9i",
         "announcement-0",
         "announcement_Aqcjfd",
         "announcement_i9xJmQ",
         "announcement_7qeMKP",
         "announcement_7ciPbx",
+        "announcement_PEPgMR",
         "announcement_Wb4NMm"
       ],
       "settings": {
