@@ -55,34 +55,6 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
-        "text_block_cLNKFk": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/HDP_Cover_for_Holiday_Glow-Up_Q4_Promo_Group_Image_Flattened_1000x1000px.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Hydra Dew Pure Bundle",
-            "text": "<p>Save over 30% when you purchase our special Hydra Dew Pure Bundle.</p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/hydra-dew-pure-retail-special-rr03-rr04-rr08-rr06"
-          }
-        },
-        "text_block_cYDAJY": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/HIGH_RES_-_BIOLIGHT_BRIGHTENING_SERUM.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "FREE GIFT WITH PURCHASE",
-            "text": "<p>FREE Biolight Brightening Serum (1 oz.) With Purchase of Biolight Brightening Sheet Mask<br/></p><p></p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/free-biolight-brightening-serum-w-purchase-of-biolight-brightening-sheet-mask"
-          }
-        },
         "text_block_rJMXUQ": {
           "type": "text_block",
           "disabled": true,
@@ -100,6 +72,7 @@
         },
         "text_block_F738Ad": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/HDP_Starter_Collection_Holiday_Layout_Low-Res_RGB_4.jpg",
@@ -199,8 +172,6 @@
         }
       },
       "block_order": [
-        "text_block_cLNKFk",
-        "text_block_cYDAJY",
         "text_block_rJMXUQ",
         "text_block_F738Ad",
         "text_block_kUyQWJ",
