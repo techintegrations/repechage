@@ -72,17 +72,16 @@
         },
         "text_block_F738Ad": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/HDP_Starter_Collection_Holiday_Layout_Low-Res_RGB_4.jpg",
+            "image": "shopify://shop_images/SP127.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "HYDRA DEW PURE SPECIAL",
-            "text": "<p>Get the Hydra Dew Pure Starter Collection, the ultimate way to \"try before you buy.\"<br/></p>",
+            "title": "FREE Vita Cura Sea Spa Glow",
+            "text": "<p>with purchase of Vita Cura Sea Spa Cleanser and Vita Cura Sea Spa Body Moisturizer</p>",
             "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/hydra-dew-pure-starter-collection"
+            "button_link": "shopify://products/free-vita-cura-sea-spa-glow-w-vita-cura-sea-spa-cleanser"
           }
         },
         "text_block_kUyQWJ": {
