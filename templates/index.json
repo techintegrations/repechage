@@ -14,6 +14,7 @@
       "blocks": {
         "image_EgqTrV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>DISCOVER HYDRA DEW PURE</p>",
             "title": "<p>Hydrate. Glow. Repeat.</p>",
@@ -51,6 +52,7 @@
         },
         "image_4p3pwP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>GLOW-WORTHY GIFTS</p>",
@@ -90,7 +92,6 @@
         },
         "image_Rx9W9J": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "<p>Try</p>",
             "title": "<p>THE ORIGINAL SEAWEED SERUM</p>",
@@ -129,8 +130,9 @@
     },
     "featured_collection_U6DUhq": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "HOLIDAY GIFTS",
+        "title": "GIFTS",
         "featured_image": "shopify://shop_images/Untitled-1_314c4468-7ad1-4359-bf01-1efc0f6fb8e8.jpg",
         "home_featured_products": "holiday-gifts",
         "per_row": 3,
