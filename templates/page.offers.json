@@ -112,6 +112,20 @@
             "button_link": "shopify://products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-oily-and-combination-skin"
           }
         },
+        "text_block_RXFzp4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/20230327_Repechage-2.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Hydra Blue® Starter Collection (ON SALE)",
+            "text": "<p> with Seaweed Extracts for All Skin Types</p>",
+            "button_label": "Optional button",
+            "button_link": "shopify://products/the-hydra-blue-starter-collection-with-seaweed-extracts-for-all-skin-types"
+          }
+        },
         "text_block_kUyQWJ": {
           "type": "text_block",
           "settings": {
@@ -203,6 +217,7 @@
         "text_block_F738Ad",
         "text_block_wetMUa",
         "text_block_HKiW4G",
+        "text_block_RXFzp4",
         "text_block_kUyQWJ",
         "text_block_8QWQtF",
         "text_block_pMhKPb",
