@@ -84,6 +84,34 @@
             "button_link": "shopify://products/free-vita-cura-sea-spa-glow-w-vita-cura-sea-spa-cleanser"
           }
         },
+        "text_block_wetMUa": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/SP_125.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "FREE One Minute-Exfoliating Mask",
+            "text": "<p>with purchase of C-Serum® & Hydro-Complex® PFS for normal to dry skin</p>",
+            "button_label": "buy now",
+            "button_link": "shopify://products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin"
+          }
+        },
+        "text_block_HKiW4G": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/SP_126.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "FREE One Minute-Exfoliating Mask",
+            "text": "<p>with purchase of C-Serum® & Hydro-Complex® PFS for oily and combination skin</p>",
+            "button_label": "buy now",
+            "button_link": "shopify://products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-oily-and-combination-skin"
+          }
+        },
         "text_block_kUyQWJ": {
           "type": "text_block",
           "settings": {
@@ -173,6 +201,8 @@
       "block_order": [
         "text_block_rJMXUQ",
         "text_block_F738Ad",
+        "text_block_wetMUa",
+        "text_block_HKiW4G",
         "text_block_kUyQWJ",
         "text_block_8QWQtF",
         "text_block_pMhKPb",
