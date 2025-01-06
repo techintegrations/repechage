@@ -362,6 +362,74 @@
         "divider": false
       }
     },
+    "custom_image_slider_with_text_gBLLcE": {
+      "type": "custom__image-slider-with-text",
+      "blocks": {
+        "image_slider_block_6PFhpD": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/Hair-being-combed.jpg",
+            "title": "NOURISH. RESTORE. SHINE. NEW VITA CURA® HAIR AND SCALP SERUM",
+            "text": "<p>Introducing a multitasking serum that revitalizes the scalp while restoring vibrancy and shine to every strand of hair. Enriched with 18 essential amino acids, vitamins, and minerals from nutrient-dense seaweed, this powerhouse formula delivers deep hydration and nourishment from root to tip. Pro-Vitamin B5, Aloe, and Saccharide Isomerate lock in moisture, enhancing elasticity and luster, while Rosemary, Sage, and Chamomile extracts tone and soothe the scalp.</p>",
+            "enlarge_text": false,
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/vita-cura-hair-and-scalp-serum",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_RtbnDd": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/T-Zone_PGA_Retail_Serum_-_No_PGA_Logo_-_1x1_Square_8e0b2b7d-a766-4e6e-9aab-62602682b47e.jpg",
+            "title": " MOISTURE BOOST FOR BALANCED SKIN",
+            "text": "<p>Introducing NEW dermatologist-tested T-Zone Balance Hydrating Serum, with Seaweed, Niacinamide, stabilized Vitamin C and two forms of Hyaluronic Acid to properly hydrate combination skin while refining pores.</p>",
+            "enlarge_text": false,
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_epmVdd": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/VC_Eau_Fraiche_Candle-Side.jpg",
+            "title": "Vita Cura® Eau Fraîche Candle",
+            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.</p>",
+            "enlarge_text": false,
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_EgJ8hb": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+            "title": "\"Powerful skin care ingredients for the body with real results.\"",
+            "text": "<p><strong>-Lydia Sarfati,</strong><br/>CEO AND FOUNDER,<br/>REPÊCHAGE®</p>",
+            "enlarge_text": false,
+            "button_label": "DISCOVER THE COLLECTION",
+            "button_link": "/collections/vita-cura-cellusea-body-care-collection",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_block_6PFhpD",
+        "image_slider_block_RtbnDd",
+        "image_slider_block_epmVdd",
+        "image_slider_block_EgJ8hb"
+      ],
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "align_text": "center",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 75,
+        "padding_top_m": 0,
+        "padding_bottom_m": 50
+      }
+    },
     "featured_collections_xaap9R": {
       "type": "featured-collections",
       "blocks": {
@@ -435,74 +503,6 @@
         "padding_bottom_m": 50,
         "divider": false,
         "lazyload_images": true
-      }
-    },
-    "custom_image_slider_with_text_gBLLcE": {
-      "type": "custom__image-slider-with-text",
-      "blocks": {
-        "image_slider_block_6PFhpD": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/Hair-being-combed.jpg",
-            "title": "NOURISH. RESTORE. SHINE. NEW VITA CURA® HAIR AND SCALP SERUM",
-            "text": "<p>Introducing a multitasking serum that revitalizes the scalp while restoring vibrancy and shine to every strand of hair. Enriched with 18 essential amino acids, vitamins, and minerals from nutrient-dense seaweed, this powerhouse formula delivers deep hydration and nourishment from root to tip. Pro-Vitamin B5, Aloe, and Saccharide Isomerate lock in moisture, enhancing elasticity and luster, while Rosemary, Sage, and Chamomile extracts tone and soothe the scalp.</p>",
-            "enlarge_text": false,
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://products/vita-cura-hair-and-scalp-serum",
-            "button_style": "primary"
-          }
-        },
-        "image_slider_block_RtbnDd": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/T-Zone_PGA_Retail_Serum_-_No_PGA_Logo_-_1x1_Square_8e0b2b7d-a766-4e6e-9aab-62602682b47e.jpg",
-            "title": " MOISTURE BOOST FOR BALANCED SKIN",
-            "text": "<p>Introducing NEW dermatologist-tested T-Zone Balance Hydrating Serum, with Seaweed, Niacinamide, stabilized Vitamin C and two forms of Hyaluronic Acid to properly hydrate combination skin while refining pores.</p>",
-            "enlarge_text": false,
-            "button_label": "Shop Now",
-            "button_link": "shopify://products/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c",
-            "button_style": "primary"
-          }
-        },
-        "image_slider_block_epmVdd": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/VC_Eau_Fraiche_Candle-Side.jpg",
-            "title": "Vita Cura® Eau Fraîche Candle",
-            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.</p>",
-            "enlarge_text": false,
-            "button_label": "Shop Now",
-            "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
-            "button_style": "primary"
-          }
-        },
-        "image_slider_block_EgJ8hb": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/Repechage4381-Edit-LowRes-JPEG-3.jpg",
-            "title": "\"Powerful skin care ingredients for the body with real results.\"",
-            "text": "<p><strong>-Lydia Sarfati,</strong><br/>CEO AND FOUNDER,<br/>REPÊCHAGE®</p>",
-            "enlarge_text": false,
-            "button_label": "DISCOVER THE COLLECTION",
-            "button_link": "/collections/vita-cura-cellusea-body-care-collection",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "image_slider_block_6PFhpD",
-        "image_slider_block_RtbnDd",
-        "image_slider_block_epmVdd",
-        "image_slider_block_EgJ8hb"
-      ],
-      "settings": {
-        "title": "NEW ARRIVALS",
-        "align_text": "center",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 75,
-        "padding_top_m": 0,
-        "padding_bottom_m": 50
       }
     },
     "promo_grid_q7xmp6": {
@@ -999,9 +999,9 @@
     "custom_featured_collection_tabs_PaGxFn",
     "slideshow_NgxpwR",
     "custom_text_with_logos_VBrHLU",
+    "custom_image_slider_with_text_gBLLcE",
     "featured_collections_xaap9R",
     "text_and_image_hPkL8i",
-    "custom_image_slider_with_text_gBLLcE",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
