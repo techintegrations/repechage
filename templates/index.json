@@ -455,12 +455,12 @@
         "image_slider_block_6PFhpD": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify://shop_images/Repechage-Concealer-Stick-Makeup.jpg",
-            "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick.",
-            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!</p>",
+            "image": "shopify://shop_images/Hair-being-combed.jpg",
+            "title": "NOURISH. RESTORE. SHINE.NEW VITA CURA® HAIR AND SCALP SERUM",
+            "text": "<p>Introducing a multitasking serum that revitalizes the scalp while restoring vibrancy and shine to every strand of hair. Enriched with 18 essential amino acids, vitamins, and minerals from nutrient-dense seaweed, this powerhouse formula delivers deep hydration and nourishment from root to tip. Pro-Vitamin B5, Aloe, and Saccharide Isomerate lock in moisture, enhancing elasticity and luster, while Rosemary, Sage, and Chamomile extracts tone and soothe the scalp.</p>",
             "enlarge_text": false,
             "button_label": "SHOP NOW",
-            "button_link": "shopify://products/perfecting-concealer-light",
+            "button_link": "shopify://products/vita-cura-hair-and-scalp-serum",
             "button_style": "primary"
           }
         },
