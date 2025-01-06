@@ -440,6 +440,18 @@
     "custom_image_slider_with_text_gBLLcE": {
       "type": "custom__image-slider-with-text",
       "blocks": {
+        "image_slider_block_6PFhpD": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/Hair-being-combed.jpg",
+            "title": "NOURISH. RESTORE. SHINE. NEW VITA CURA® HAIR AND SCALP SERUM",
+            "text": "<p>Introducing a multitasking serum that revitalizes the scalp while restoring vibrancy and shine to every strand of hair. Enriched with 18 essential amino acids, vitamins, and minerals from nutrient-dense seaweed, this powerhouse formula delivers deep hydration and nourishment from root to tip. Pro-Vitamin B5, Aloe, and Saccharide Isomerate lock in moisture, enhancing elasticity and luster, while Rosemary, Sage, and Chamomile extracts tone and soothe the scalp.</p>",
+            "enlarge_text": false,
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/vita-cura-hair-and-scalp-serum",
+            "button_style": "primary"
+          }
+        },
         "image_slider_block_epmVdd": {
           "type": "image_slider_block",
           "settings": {
@@ -449,18 +461,6 @@
             "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
-            "button_style": "primary"
-          }
-        },
-        "image_slider_block_6PFhpD": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/Hair-being-combed.jpg",
-            "title": "NOURISH. RESTORE. SHINE.NEW VITA CURA® HAIR AND SCALP SERUM",
-            "text": "<p>Introducing a multitasking serum that revitalizes the scalp while restoring vibrancy and shine to every strand of hair. Enriched with 18 essential amino acids, vitamins, and minerals from nutrient-dense seaweed, this powerhouse formula delivers deep hydration and nourishment from root to tip. Pro-Vitamin B5, Aloe, and Saccharide Isomerate lock in moisture, enhancing elasticity and luster, while Rosemary, Sage, and Chamomile extracts tone and soothe the scalp.</p>",
-            "enlarge_text": false,
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://products/vita-cura-hair-and-scalp-serum",
             "button_style": "primary"
           }
         },
@@ -490,8 +490,8 @@
         }
       },
       "block_order": [
-        "image_slider_block_epmVdd",
         "image_slider_block_6PFhpD",
+        "image_slider_block_epmVdd",
         "image_slider_block_RtbnDd",
         "image_slider_block_EgJ8hb"
       ],
