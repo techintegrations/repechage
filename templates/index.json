@@ -133,9 +133,9 @@
     "featured_collection_U6DUhq": {
       "type": "featured-collection",
       "settings": {
-        "title": "GIFTS",
-        "featured_image": "shopify://shop_images/Untitled-1_314c4468-7ad1-4359-bf01-1efc0f6fb8e8.jpg",
-        "home_featured_products": "holiday-gifts",
+        "title": "AWARD WINNERS",
+        "featured_image": "shopify://shop_images/Untitled-1_5af75fba-af55-47dc-97aa-511775723269.jpg",
+        "home_featured_products": "whats-new-2",
         "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
