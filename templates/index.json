@@ -440,27 +440,15 @@
     "custom_image_slider_with_text_gBLLcE": {
       "type": "custom__image-slider-with-text",
       "blocks": {
-        "image_slider_block_EgJ8hb": {
+        "image_slider_block_6PFhpD": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify://shop_images/Repechage4381-Edit-LowRes-JPEG-3.jpg",
-            "title": "\"Powerful skin care ingredients for the body with real results.\"",
-            "text": "<p><strong>-Lydia Sarfati,</strong><br/>CEO AND FOUNDER,<br/>REPÊCHAGE®</p>",
+            "image": "shopify://shop_images/Repechage-Concealer-Stick-Makeup.jpg",
+            "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick.",
+            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!</p>",
             "enlarge_text": false,
-            "button_label": "DISCOVER THE COLLECTION",
-            "button_link": "/collections/vita-cura-cellusea-body-care-collection",
-            "button_style": "primary"
-          }
-        },
-        "image_slider_block_RtbnDd": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/Repechage-T-Zone-Complex.jpg",
-            "title": "Achieve Balanced Skin with Repêchage® T-Zone Balance: Soothing Botanicals and Antioxidants",
-            "text": "<p>Experience the benefits of Repêchage® T-Zone Balance products, specially crafted for combination skin. Infused with St. John's Wort for its soothing botanical properties and powerful antioxidants from Green and White Teas, these products help balance the skin and refine its texture. Try them daily to achieve a healthier, more even complexion.</p>",
-            "enlarge_text": false,
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/t-zone-for-combination-oily-skin",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/perfecting-concealer-light",
             "button_style": "primary"
           }
         },
@@ -476,24 +464,36 @@
             "button_style": "primary"
           }
         },
-        "image_slider_block_6PFhpD": {
+        "image_slider_block_RtbnDd": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify://shop_images/Repechage-Concealer-Stick-Makeup.jpg",
-            "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick.",
-            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!</p>",
+            "image": "shopify://shop_images/Repechage-T-Zone-Complex.jpg",
+            "title": "Achieve Balanced Skin with Repêchage® T-Zone Balance: Soothing Botanicals and Antioxidants",
+            "text": "<p>Experience the benefits of Repêchage® T-Zone Balance products, specially crafted for combination skin. Infused with St. John's Wort for its soothing botanical properties and powerful antioxidants from Green and White Teas, these products help balance the skin and refine its texture. Try them daily to achieve a healthier, more even complexion.</p>",
             "enlarge_text": false,
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://products/perfecting-concealer-light",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/t-zone-for-combination-oily-skin",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_EgJ8hb": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/Repechage4381-Edit-LowRes-JPEG-3.jpg",
+            "title": "\"Powerful skin care ingredients for the body with real results.\"",
+            "text": "<p><strong>-Lydia Sarfati,</strong><br/>CEO AND FOUNDER,<br/>REPÊCHAGE®</p>",
+            "enlarge_text": false,
+            "button_label": "DISCOVER THE COLLECTION",
+            "button_link": "/collections/vita-cura-cellusea-body-care-collection",
             "button_style": "primary"
           }
         }
       },
       "block_order": [
-        "image_slider_block_EgJ8hb",
-        "image_slider_block_RtbnDd",
+        "image_slider_block_6PFhpD",
         "image_slider_block_epmVdd",
-        "image_slider_block_6PFhpD"
+        "image_slider_block_RtbnDd",
+        "image_slider_block_EgJ8hb"
       ],
       "settings": {
         "title": "NEW ARRIVALS",
