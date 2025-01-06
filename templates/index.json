@@ -440,18 +440,6 @@
     "custom_image_slider_with_text_gBLLcE": {
       "type": "custom__image-slider-with-text",
       "blocks": {
-        "image_slider_block_6PFhpD": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/Repechage-Concealer-Stick-Makeup.jpg",
-            "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick.",
-            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!</p>",
-            "enlarge_text": false,
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://products/perfecting-concealer-light",
-            "button_style": "primary"
-          }
-        },
         "image_slider_block_epmVdd": {
           "type": "image_slider_block",
           "settings": {
@@ -461,6 +449,18 @@
             "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_6PFhpD": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/Repechage-Concealer-Stick-Makeup.jpg",
+            "title": "Achieve Flawless Coverage with Repêchage® Concealer Stick.",
+            "text": "<p>Experience the Repêchage® Concealer Stick, a rich, creamy formula in a convenient stick that glides on smoothly and blends effortlessly. Conceal imperfections, diminish blemishes, dark under-eye circles, and spots, and achieve a flawless complexion. Try it today for perfect coverage!</p>",
+            "enlarge_text": false,
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/perfecting-concealer-light",
             "button_style": "primary"
           }
         },
@@ -490,8 +490,8 @@
         }
       },
       "block_order": [
-        "image_slider_block_6PFhpD",
         "image_slider_block_epmVdd",
+        "image_slider_block_6PFhpD",
         "image_slider_block_RtbnDd",
         "image_slider_block_EgJ8hb"
       ],
