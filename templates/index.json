@@ -173,18 +173,18 @@
             "home_featured_products": "serums"
           }
         },
+        "collection_pJGAUr": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "MASKS",
+            "home_featured_products": "exfoliators-masks"
+          }
+        },
         "collection_hRgkKb": {
           "type": "collection",
           "settings": {
             "tab_title": "Eye Care",
             "home_featured_products": "eye-treatments"
-          }
-        },
-        "collection_LCHdgT": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Dryness & Dehydrations",
-            "home_featured_products": "dry-skin"
           }
         },
         "collection_XTBUNN": {
@@ -199,8 +199,8 @@
         "collection_MVEY8h",
         "collection_md9zKm",
         "collection_VFYzP3",
+        "collection_pJGAUr",
         "collection_hRgkKb",
-        "collection_LCHdgT",
         "collection_XTBUNN"
       ],
       "settings": {
