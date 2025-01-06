@@ -452,18 +452,6 @@
             "button_style": "primary"
           }
         },
-        "image_slider_block_epmVdd": {
-          "type": "image_slider_block",
-          "settings": {
-            "image": "shopify://shop_images/VC_Eau_Fraiche_Candle-Side.jpg",
-            "title": "Vita Cura® Eau Fraîche Candle",
-            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.</p>",
-            "enlarge_text": false,
-            "button_label": "Shop Now",
-            "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
-            "button_style": "primary"
-          }
-        },
         "image_slider_block_RtbnDd": {
           "type": "image_slider_block",
           "settings": {
@@ -473,6 +461,18 @@
             "enlarge_text": false,
             "button_label": "Shop Now",
             "button_link": "shopify://products/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c",
+            "button_style": "primary"
+          }
+        },
+        "image_slider_block_epmVdd": {
+          "type": "image_slider_block",
+          "settings": {
+            "image": "shopify://shop_images/VC_Eau_Fraiche_Candle-Side.jpg",
+            "title": "Vita Cura® Eau Fraîche Candle",
+            "text": "<p>Illuminate your bathing experience with this luxurious, aromatic candle. Infused with a blend of Lemon, Jasmine, Iris, and Golden Amber, this soy-based candle will awaken your senses.</p>",
+            "enlarge_text": false,
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/vita-cura-eau-fraiche-candle",
             "button_style": "primary"
           }
         },
@@ -491,8 +491,8 @@
       },
       "block_order": [
         "image_slider_block_6PFhpD",
-        "image_slider_block_epmVdd",
         "image_slider_block_RtbnDd",
+        "image_slider_block_epmVdd",
         "image_slider_block_EgJ8hb"
       ],
       "settings": {
