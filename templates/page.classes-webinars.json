@@ -284,32 +284,6 @@
             "button_link": "https://www.lydiasarfati.com/2024-10-28-la-piel-comprometida-necesita-bienestar.php"
           }
         },
-        "class_VaqCr6": {
-          "type": "class",
-          "disabled": true,
-          "settings": {
-            "month": "NOVEMBER",
-            "date": "4",
-            "class": "WEBINAR",
-            "title": "ANTI-AGING: MENOPAUSAL SKIN OVER 40",
-            "text": "<p><strong>Virtual Master Class with Lydia Sarfati</strong></p><p>12pm – 1:30pm EST</p><p>Perimenopause begins the skin over 40, but can start even sooner. Join Repêchage Founder and CEO Lydia Sarfati to learn how to lift and replenish skin moisture with advanced skin treatments that holistically address hormonal changes in the skin. Here, you will learn:</p><ul><li>The importance of hormones and how it affects all bodily functions and the skin, including hormonal changes, diet and lifestyle choices, especially during perimenopause</li><li>Recognize the significance of collagen and elastin, the “cellular glue” that is lost in 1% increments on an annual basis after you turn 20, that contributes to the appearance of aging in the skin</li><li>How the Vita Cura® 5 Phase Firming Facial and the Vita Cura® Gold Collection decrease wrinkles, even skin tone, and firm face and eye contours.</li><li>How Seaweed, Peptides, Sea Ferments such as Thermus Thermophillus, vitamins and phytohormones, and Spirulina help restore and recover skin from hormonal changes and signs of aging</li><li>Learn how to super charge your treatments with devices such as the LED Radio Frequency and EMS Skin Tightening Machine and the Ultrasonic Skin Spatula to stimulate and exfoliate the skin surface</li><li>Upon completion of 10 question test, registrants will receive a certificate of participation</li></ul>",
-            "button_label": "Register",
-            "button_link": "https://www.lydiasarfati.com/2024-11-04-anti-aging-menopausal-skin-over-40.php"
-          }
-        },
-        "class_ULYxqg": {
-          "type": "class",
-          "disabled": true,
-          "settings": {
-            "month": "NOVEMBER",
-            "date": "25",
-            "class": "WEBINAR",
-            "title": "ANTIENVEJECIMIENTO: PIELES MENOPÁUSICAS MAYORES DE 40 AÑOS",
-            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>La perimenopausia comienza en la piel a partir de los 40 años, pero puede comenzar incluso antes. Únase a la fundadora y directora ejecutiva de Repêchage, Lydia Sarfati, para aprender cómo levantar y reponer la humedad de la piel con tratamientos cutáneos avanzados que abordan de manera integral los cambios hormonales en la piel. Aquí aprenderá:</p><ul><li>La importancia de las hormonas y cómo afectan todas las funciones corporales y la piel, incluidos los cambios hormonales, la dieta y el estilo de vida, especialmente durante la perimenopausia.</li><li>Reconocer la importancia del colágeno y la elastina, el “pegamento celular” que se pierde en incrementos del 1% anualmente después de cumplir los 20 años y que contribuye a la aparición del envejecimiento de la piel.</li><li>Cómo el facial reafirmante de 5 fases Vita Cura® y la colección Vita Cura® Gold disminuyen las arrugas, igualan el tono de la piel y reafirman el contorno del rostro y los ojos.</li><li>Cómo las algas, péptidos, fermentos marinos como Thermus Thermophillus, vitaminas, fitohormonas y la espirulina ayudan a restaurar y recuperar la piel de los cambios hormonales y signos del envejecimiento.</li><li>Aprenda a potenciar sus tratamientos con dispositivos como la Máquina de Radiofrecuencia LED y EME para Estiramiento Cutáneo y la Espátula Ultrasónica para estimular y exfoliar la superficie de la piel.</li><li>Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.</li></ul>",
-            "button_label": "Register",
-            "button_link": "https://www.lydiasarfati.com/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
-          }
-        },
         "class_c9CLCt": {
           "type": "class",
           "disabled": true,
@@ -338,6 +312,7 @@
         },
         "class_Yb9Ddw": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "January",
             "date": "6-7",
@@ -637,6 +612,18 @@
             "button_link": "https://livelovespa.regfox.com/live-love-spa-dallas-2025REGISTER"
           }
         },
+        "class_n7KmBt": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "11-12",
+            "class": "TRADESHOW",
+            "title": "Live Love Spa",
+            "text": "<p><strong>Location: Toronto, ON<br/>Come Visit Repechage</strong></p><p>Stay Tuned—Repêchage® Education is Headed to Toronto, ON – Don’t forget to check back for the updated schedule of workshops.</p><p>Live Love Spa welcomes spa directors, spa business owners, spa managers, or purchasing decision makers seeking unique ways to positively impact revenue, profitability and their guests' lives. </p>",
+            "button_label": "REGISTER",
+            "button_link": "https://livelovespa.regfox.com/2025-toronto-brands"
+          }
+        },
         "class_x9pFqN": {
           "type": "class",
           "settings": {
@@ -726,8 +713,6 @@
         "class_zQXkbf",
         "class_LWJTPy",
         "class_hb6MHc",
-        "class_VaqCr6",
-        "class_ULYxqg",
         "class_c9CLCt",
         "class_WNEhey",
         "class_Yb9Ddw",
@@ -755,6 +740,7 @@
         "class_LmBjV3",
         "class_D3zE4e",
         "class_nEQ7C7",
+        "class_n7KmBt",
         "class_x9pFqN",
         "class_dUNqX4",
         "class_NReC3t",
