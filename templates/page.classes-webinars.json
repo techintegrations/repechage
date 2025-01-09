@@ -419,6 +419,18 @@
             "button_link": "https://www.repechage.com/products/waxing-is-relaxing-with-enhancements-treatment-march-10"
           }
         },
+        "class_h7GUxA": {
+          "type": "class",
+          "settings": {
+            "month": "March",
+            "date": "10-12",
+            "class": "TRADESHOW",
+            "title": "CIBE Guangzhou Beauty Expo",
+            "text": "",
+            "button_label": "REGISTER",
+            "button_link": "https://en.chinainternationalbeauty.com/"
+          }
+        },
         "class_fTwW9P": {
           "type": "class",
           "settings": {
@@ -724,6 +736,7 @@
         "class_zMniJT",
         "class_qALGTx",
         "class_Ge8FRz",
+        "class_h7GUxA",
         "class_fTwW9P",
         "class_yYbmUy",
         "class_xnfrpH",
