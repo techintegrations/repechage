@@ -55,20 +55,6 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
-        "text_block_ge8EfL": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Hydra_Medic_Corrective_Concealer_BUY_2.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Hydra Medic® Corrective Concealer",
-            "text": "<p>BUY 1, GET TWO FREE</p>",
-            "button_label": "shop now",
-            "button_link": "https://pro.repechage.com/products/hydra-medic-corrective-concealer"
-          }
-        },
         "text_block_rJMXUQ": {
           "type": "text_block",
           "settings": {
@@ -226,7 +212,6 @@
         }
       },
       "block_order": [
-        "text_block_ge8EfL",
         "text_block_rJMXUQ",
         "text_block_F738Ad",
         "text_block_wetMUa",
