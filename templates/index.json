@@ -34,7 +34,6 @@
         },
         "image_dcrq4U": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "<p>NEW FROM REPÊCHAGE</p>",
             "title": "<p>SEASIDE SERENITY</p>",
@@ -146,6 +145,40 @@
         "padding_bottom": 50,
         "padding_top_m": 50,
         "padding_bottom_m": 60
+      }
+    },
+    "rich_text_np8xVN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fWU3J7": {
+          "type": "heading",
+          "settings": {
+            "title": "SHOP BY VIDEO",
+            "title_color": "#000000"
+          }
+        },
+        "text_XP96GR": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Discover How Our Best-Loved Products Shine in Real Life Through Genuine Testimonials from People Who Truly Use and Love Them</p>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fWU3J7",
+        "text_XP96GR"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
+        "divider": false
       }
     },
     "1736795386f07fe033": {
@@ -650,74 +683,6 @@
         "lazyload_images": true
       }
     },
-    "rich_text_8EWUMC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YPnTqd": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "title_color": "#000000"
-          }
-        },
-        "text_kWTcE6": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<h3>The Repêchage® Experience</h3>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YPnTqd",
-        "text_kWTcE6"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 40,
-        "padding_bottom": 20,
-        "padding_top_m": 25,
-        "padding_bottom_m": 0,
-        "bg_color": "#f9f9f9",
-        "divider": false
-      }
-    },
-    "rich_text_np8xVN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fWU3J7": {
-          "type": "heading",
-          "settings": {
-            "title": "SHOP BY VIDEO",
-            "title_color": "#000000"
-          }
-        },
-        "text_XP96GR": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Discover How Our Best-Loved Products Shine in Real Life Through Genuine Testimonials from People Who Truly Use and Love Them</p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fWU3J7",
-        "text_XP96GR"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": false
-      }
-    },
     "1734571454f904211f": {
       "type": "apps",
       "blocks": {
@@ -934,6 +899,40 @@
       "settings": {
         "full_width": false,
         "space_around": true
+      }
+    },
+    "rich_text_8EWUMC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YPnTqd": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "title_color": "#000000"
+          }
+        },
+        "text_kWTcE6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3>The Repêchage® Experience</h3>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YPnTqd",
+        "text_kWTcE6"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "padding_top_m": 25,
+        "padding_bottom_m": 0,
+        "bg_color": "#f9f9f9",
+        "divider": false
       }
     },
     "text_with_icons_dTrr3R": {
