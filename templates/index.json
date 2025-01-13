@@ -148,6 +148,24 @@
         "padding_bottom_m": 60
       }
     },
+    "1736795386f07fe033": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_46x8kr"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "custom_featured_collection_tabs_PaGxFn": {
       "type": "custom__featured-collection-tabs",
       "blocks": {
@@ -666,81 +684,6 @@
         "divider": false
       }
     },
-    "text_with_icons_dTrr3R": {
-      "type": "text-with-icons",
-      "blocks": {
-        "text_block_gLLAGX": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "gift",
-            "title": "",
-            "text": "<p>3 Complimentary<br/>Samples with Every Order</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_3DUCnQ": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "truck",
-            "title": "",
-            "text": "<p>SPECIAL HOLIDAY OFFER <strong>FREE SHIPPING </strong>ON US ORDERS*</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_Cai9em": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "bills",
-            "title": "",
-            "text": "<p>Hassle-Free Returns</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_f9MtBD": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "custom_image",
-            "custom_image": "shopify://shop_images/Afterpay_Logo_Black-364x70-66065f7.png",
-            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"></use>\n                        </svg>",
-            "icon": "package",
-            "title": "",
-            "text": "<p>Flexible Payment<br/>(via Afterpay)</p>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_gLLAGX",
-        "text_block_3DUCnQ",
-        "text_block_Cai9em",
-        "text_block_f9MtBD"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 5,
-        "icon_color": "#000000",
-        "block_bg_color": "rgba(0,0,0,0)",
-        "button_label": "",
-        "button_link": "",
-        "bg_color": "#f9f9f9",
-        "padding_top": 10,
-        "padding_bottom": 30,
-        "padding_top_m": 10,
-        "padding_bottom_m": 50,
-        "divider": false
-      }
-    },
     "rich_text_np8xVN": {
       "type": "rich-text",
       "blocks": {
@@ -788,6 +731,7 @@
       "block_order": [
         "videowise_video_commerce_videowise_page_widgets_KKDJxG"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
@@ -991,11 +935,88 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "text_with_icons_dTrr3R": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_gLLAGX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "gift",
+            "title": "",
+            "text": "<p>3 Complimentary<br/>Samples with Every Order</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_3DUCnQ": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "truck",
+            "title": "",
+            "text": "<p>SPECIAL HOLIDAY OFFER <strong>FREE SHIPPING </strong>ON US ORDERS*</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_Cai9em": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "bills",
+            "title": "",
+            "text": "<p>Hassle-Free Returns</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_f9MtBD": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/Afterpay_Logo_Black-364x70-66065f7.png",
+            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"></use>\n                        </svg>",
+            "icon": "package",
+            "title": "",
+            "text": "<p>Flexible Payment<br/>(via Afterpay)</p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gLLAGX",
+        "text_block_3DUCnQ",
+        "text_block_Cai9em",
+        "text_block_f9MtBD"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "block_bg_color": "rgba(0,0,0,0)",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 10,
+        "padding_bottom": 30,
+        "padding_top_m": 10,
+        "padding_bottom_m": 50,
+        "divider": false
+      }
     }
   },
   "order": [
     "slideshow_ybDcnc",
     "featured_collection_U6DUhq",
+    "rich_text_np8xVN",
+    "1736795386f07fe033",
     "custom_featured_collection_tabs_PaGxFn",
     "slideshow_NgxpwR",
     "custom_text_with_logos_VBrHLU",
@@ -1005,9 +1026,6 @@
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
     "text_and_image_cMGVy7",
-    "rich_text_8EWUMC",
-    "text_with_icons_dTrr3R",
-    "rich_text_np8xVN",
     "1734571454f904211f",
     "blog_posts_AkwbrY",
     "newsletter_kJLxhd",
@@ -1016,6 +1034,8 @@
     "17302148459172f4c3",
     "1734568966273b9004",
     "1734571429dc37d243",
-    "1734571480fd12e4b3"
+    "1734571480fd12e4b3",
+    "rich_text_8EWUMC",
+    "text_with_icons_dTrr3R"
   ]
 }
