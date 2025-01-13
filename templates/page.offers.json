@@ -182,20 +182,6 @@
             "button_link": "shopify://products/vita-cura-cellusea-renewal-dead-sea-bath-salts"
           }
         },
-        "text_block_MD9Uya": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/VC_Sea_Spa_Body_Collection_Gift_Set.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Sea Spa Body Collection",
-            "text": "<p>Discover luxury with our NEW Sea Spa Body Collection: Cleanser, Exfoliator, Moisturizer in a chic drawstring bag.</p>",
-            "button_label": "SHOP NOW",
-            "button_link": "https://www.repechage.com/products/vita-cura-sea-spa-body-collection-gift-set-with-free-dry-body-brush"
-          }
-        },
         "text_block_zQipqQ": {
           "type": "text_block",
           "settings": {
@@ -221,7 +207,6 @@
         "text_block_8QWQtF",
         "text_block_pMhKPb",
         "text_block_eQPFAi",
-        "text_block_MD9Uya",
         "text_block_zQipqQ"
       ],
       "settings": {
