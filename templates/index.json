@@ -33,7 +33,6 @@
         },
         "image_dcrq4U": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "<p>NEW FROM REPÊCHAGE</p>",
             "title": "<p>SEASIDE SERENITY</p>",
@@ -45,8 +44,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/1_2.jpg",
-            "image_mobile": "shopify://shop_images/candle-2.jpg",
+            "image": "shopify://shop_images/candle-banner-new.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 18
           }
