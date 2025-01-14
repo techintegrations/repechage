@@ -33,6 +33,7 @@
         },
         "image_dcrq4U": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>NEW FROM REPÊCHAGE</p>",
             "title": "<p>SEASIDE SERENITY</p>",
