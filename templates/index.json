@@ -12,26 +12,6 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
-        "image_EgqTrV": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>The Hydra Blue® Starter Collection with Seaweed Extracts for All Skin Types</p>",
-            "title": "<p>ON SALE</p>",
-            "title_size": 80,
-            "subheading": "<p>Contains the absolute essentials of our premier, award-winning Hydra Blue® Skin Care Collection for All Skin Types.</p>",
-            "link": "shopify://products/the-hydra-blue-starter-collection-with-seaweed-extracts-for-all-skin-types",
-            "link_text": "BUNDLE AND SAVE",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/1_2_0cf8ad9f-4414-4069-8694-1a0267efe311.jpg",
-            "image_mobile": "shopify://shop_images/2_3.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "image_Rx9W9J": {
           "type": "image",
           "settings": {
@@ -53,6 +33,7 @@
         },
         "image_dcrq4U": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>NEW FROM REPÊCHAGE</p>",
             "title": "<p>SEASIDE SERENITY</p>",
@@ -109,14 +90,32 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "image_nLHT7y": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://products/vita-cura-eau-fraiche-candle",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/EauFraicheCandle_-_Web_Banner2.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "image_EgqTrV",
         "image_Rx9W9J",
         "image_dcrq4U",
         "image_4p3pwP",
-        "image_iCkPT9"
+        "image_iCkPT9",
+        "image_nLHT7y"
       ],
       "settings": {
         "show_container": false,
