@@ -32,6 +32,25 @@
             "overlay_opacity": 0
           }
         },
+        "image_Rx9W9J": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>Try</p>",
+            "title": "<p>THE ORIGINAL SEAWEED SERUM</p>",
+            "title_size": 69,
+            "subheading": "<p>Rich in 12 vitamins, 18 amino acids and 42 trace elements and minerals.</p>",
+            "link": "https://www.repechage.com/products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin",
+            "link_text": "BUNDLE AND SAVE",
+            "link_2": "https://www.repechage.com/products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/Banner_Q4_-_1.jpg",
+            "image_mobile": "shopify://shop_images/1_9270436c-b7c8-4d48-8781-78e232047ebf.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_dcrq4U": {
           "type": "image",
           "settings": {
@@ -90,33 +109,14 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_Rx9W9J": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "<p>Try</p>",
-            "title": "<p>THE ORIGINAL SEAWEED SERUM</p>",
-            "title_size": 69,
-            "subheading": "<p>Rich in 12 vitamins, 18 amino acids and 42 trace elements and minerals.</p>",
-            "link": "https://www.repechage.com/products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin",
-            "link_text": "BUNDLE AND SAVE",
-            "link_2": "https://www.repechage.com/products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/Banner_Q4_-_1.jpg",
-            "image_mobile": "shopify://shop_images/1_9270436c-b7c8-4d48-8781-78e232047ebf.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "image_EgqTrV",
+        "image_Rx9W9J",
         "image_dcrq4U",
         "image_4p3pwP",
-        "image_iCkPT9",
-        "image_Rx9W9J"
+        "image_iCkPT9"
       ],
       "settings": {
         "show_container": false,
