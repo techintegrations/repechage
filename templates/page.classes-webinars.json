@@ -325,6 +325,7 @@
         },
         "class_r3Ejp4": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JANUARY",
             "date": "13-15",
