@@ -338,6 +338,7 @@
         },
         "class_kK3WPe": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JANUARY",
             "date": "20",
