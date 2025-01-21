@@ -115,19 +115,6 @@
             "button_link": "https://iecsclasvegas2024.sched.com/event/1bOg4/repechage-presents-the-new-clinical-facial-treatment-with-proven-results?iframe=no"
           }
         },
-        "class_BCQ4cd": {
-          "type": "class",
-          "disabled": true,
-          "settings": {
-            "month": "JUNE",
-            "date": "24",
-            "class": "WEBINAR",
-            "title": "EXPERIENCIA DE HIDRATACIÓN PROFUNDA DEL MAR: EL REPÊCHAGE FOUR-LAYER FACIAL",
-            "text": "<p><strong>Virtual Class with Yolanda Amador</strong></p><p>12pm – 1:30pm EST</p><p>Descubre un cutis radiante y juvenil con el lujoso Repêchage Four-Layer Facial. Este favorito de spa está diseñado para hidratar intensamente, rejuvenecer y reafirmar visiblemente tu piel. Sumérgete en una experiencia transformadora:<br/>- Capa tras capa de hidratación: Disfruta de la nutrición profunda del mar con algas europeas frescas. Cada capa aporta vitaminas esenciales, minerales y antioxidantes para saciar la sed de tu piel y promover un brillo saludable.<br/>- Exfoliación y limpieza profunda: Despídete del aspecto apagado y las impurezas. Este facial incorpora una limpieza y exfoliación profunda europea para refinar tus poros y revelar un rostro más suave y claro.<br/>- Resultados visibles y efectos duraderos: Observa una apariencia revitalizada con mejor tono, elasticidad y un aumento de hidratación. El Repêchage Four-Layer Facial está diseñado para ofrecer resultados duraderos, dejándote con un aspecto fresco y juvenil.<br/>- Al completar la prueba de 10 preguntas, los inscritos recibirán un certificado de participación.<br/>Regálate un viaje sin igual de indulgencia y experimenta el poder transformador del mar.</p>",
-            "button_label": "Register",
-            "button_link": "https://www.lydiasarfati.com/2024-06-24-experiencia-de-hidratacion-profunda-del-mar-el-repechage-four-layer-facial.php"
-          }
-        },
         "class_ztpVVN": {
           "type": "class",
           "disabled": true,
@@ -709,12 +696,23 @@
             "button_label": "REGISTER",
             "button_link": "https://www.repechage.com/products/waxing-is-relaxing-nov-18"
           }
+        },
+        "class_VacCpF": {
+          "type": "class",
+          "settings": {
+            "month": "FEBRUARY",
+            "date": "17",
+            "class": "WORKSHOP",
+            "title": "Dermaplaning with Dr. Natalya",
+            "text": "<p><strong>Dermaplaning Techniques Presented by Dr. Natalya Fazylova:</strong><br/>Dermaplaning removes vellus hair and dead skin cells from your face using a special <br/>scalpel or a derma blade. Your skin is your largest organ, but exposure to the surrounding environment may lead to skin damage. Dermaplaning is one of the most popular facial procedures for people looking for brighter, clearer, more youthful skin.</p>",
+            "button_label": "REGISTER",
+            "button_link": "https://www.repechage.com/products/dermaplaning-with-dr-natalya"
+          }
         }
       },
       "block_order": [
         "class_TDDqCR",
         "class_kDCUFb",
-        "class_BCQ4cd",
         "class_ztpVVN",
         "class_zffzRt",
         "class_jpdCBF",
@@ -761,7 +759,8 @@
         "class_NReC3t",
         "class_BLq3PU",
         "class_tzJd7k",
-        "class_R4xbL4"
+        "class_R4xbL4",
+        "class_VacCpF"
       ],
       "settings": {
         "bg_color": "",
@@ -771,41 +770,12 @@
         "padding_bottom_m": 50,
         "divider": false
       }
-    },
-    "custom_classes_schedule_d64apT": {
-      "type": "custom__classes-schedule",
-      "blocks": {
-        "class_QqMFe9": {
-          "type": "class",
-          "settings": {
-            "month": "FEBRUARY",
-            "date": "17",
-            "class": "WORKSHOP",
-            "title": "Dermaplaning with Dr. Natalya",
-            "text": "<p><strong>Dermaplaning Techniques Presented by Dr. Natalya Fazylova:<br/></strong>Dermaplaning  removes vellus hair and dead skin cells from your face using a special <br/>scalpel or a derma blade. Your skin is your largest organ, but exposure <br/>to the surrounding environment may lead to skin damage. Dermaplaning is <br/>one of the most popular facial procedures for people looking for <br/>brighter, clearer, more youthful skin.</p>",
-            "button_label": "REGISTER",
-            "button_link": "https://www.repechage.com/products/dermaplaning-with-dr-natalya"
-          }
-        }
-      },
-      "block_order": [
-        "class_QqMFe9"
-      ],
-      "settings": {
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
     "slideshow_aAwwLJ",
     "rich_text_gg9waL",
-    "custom_classes_schedule_PX3jiM",
-    "custom_classes_schedule_d64apT"
+    "custom_classes_schedule_PX3jiM"
   ]
 }
