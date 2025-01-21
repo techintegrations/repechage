@@ -771,12 +771,41 @@
         "padding_bottom_m": 50,
         "divider": false
       }
+    },
+    "custom_classes_schedule_d64apT": {
+      "type": "custom__classes-schedule",
+      "blocks": {
+        "class_QqMFe9": {
+          "type": "class",
+          "settings": {
+            "month": "FEBRUARY",
+            "date": "17",
+            "class": "WORKSHOP",
+            "title": "Dermaplaning with Dr. Natalya",
+            "text": "",
+            "button_label": "REGISTER",
+            "button_link": "https://www.repechage.com/products/dermaplaning-with-dr-natalya"
+          }
+        }
+      },
+      "block_order": [
+        "class_QqMFe9"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow_aAwwLJ",
     "rich_text_gg9waL",
-    "custom_classes_schedule_PX3jiM"
+    "custom_classes_schedule_PX3jiM",
+    "custom_classes_schedule_d64apT"
   ]
 }
