@@ -55,6 +55,20 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
+        "text_block_BbEgTH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/hydrarefinespecial.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "50% OFF Hydra Refine Astringent Pads",
+            "text": "<p>with purchase of Hydra Refine Foaming Cleanser</p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/buy-hydra-refine-foaming-cleanser-get-hydra-refine-astringent-pads-50-off"
+          }
+        },
         "text_block_F738Ad": {
           "type": "text_block",
           "settings": {
@@ -184,6 +198,7 @@
         }
       },
       "block_order": [
+        "text_block_BbEgTH",
         "text_block_F738Ad",
         "text_block_wetMUa",
         "text_block_HKiW4G",
