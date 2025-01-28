@@ -127,6 +127,7 @@
         },
         "text_block_kUyQWJ": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/2024-01-starter-kit-bag.jpg",
