@@ -55,6 +55,20 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
+        "text_block_VJx4tM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/VC_Hair_and_Scalp_Serum_Box_and_Bottle_2025.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Vita Cura® Cellusea Firm + Lift™",
+            "text": "<p>Valentine's Day Sale<br/>Save $ 30.00</p>",
+            "button_label": "buy now",
+            "button_link": "https://www.repechage.com/products/vita-cura-cellusea-firm-lift"
+          }
+        },
         "text_block_BbEgTH": {
           "type": "text_block",
           "settings": {
@@ -199,6 +213,7 @@
         }
       },
       "block_order": [
+        "text_block_VJx4tM",
         "text_block_BbEgTH",
         "text_block_F738Ad",
         "text_block_wetMUa",
