@@ -338,6 +338,7 @@
         },
         "class_GTdkfA": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "FEBRUARY",
             "date": "3",
@@ -350,6 +351,7 @@
         },
         "class_bQEJHn": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "FEBRUARY",
             "date": "3",
