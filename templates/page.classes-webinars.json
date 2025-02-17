@@ -364,6 +364,7 @@
         },
         "class_VacCpF": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "FEBRUARY",
             "date": "17",
