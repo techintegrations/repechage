@@ -1939,6 +1939,10 @@ body.template-cart #cart-progress-wrapper {
       padding: 0px;
   }
 
+  .custom_block-wrap .icons_with_link-block {
+    justify-content: center;
+  }
+
   
 }
 
