@@ -101,41 +101,59 @@
       </p>
     {%- endif -%}
 
-    <div>
-      <ul>
-        {% for block in section.blocks %}
-          {% if block.type == 'icons_with_link' %}
-            {% for i in (1..8) %}
-              {% assign link_key = 'Link_' | append: i %}
-              {% assign image_key = 'image_' | append: i %}
-              <li>
-                <a href="{{ block.settings[link_key] }}">
-                  <img src="{{ block.settings[image_key] | image_url: 'master' }}">
-                </a>
-              </li>
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-
-
-
+      <!-- //this loop is used to set the value of this variable only (start) -->
       
-    {%- if section.settings.show_payment_icons -%}
-      {%- unless shop.enabled_payment_types == empty -%}
-        <ul class="inline-list payment-icons footer__section">
-          {%- for type in shop.enabled_payment_types -%}
-            <li class="icon--payment">
-              {{ type | payment_type_svg_tag }}
-            </li>
-          {%- endfor -%}
-        </ul>
-      {%- endunless -%}
-    {%- endif -%}
-    </div>
+      {%- assign has_icons_with_link = false -%}
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'icons_with_link' -%}
+          {%- assign has_icons_with_link = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      <!-- //this loop is used to set the value of this variable only (end) -->
+
+
+      {%- if section.settings.show_payment_icons or has_icons_with_link -%}
+        <div class="custom_block-wrap">
+          {% if has_icons_with_link %}
+            <ul class="icons_with_link-block">
+              {% for block in section.blocks %}
+                {% if block.type == 'icons_with_link' %}
+                  {% for i in (1..8) %}
+                    {% assign link_key = 'Link_' | append: i %}
+                    {% assign image_key = 'image_' | append: i %}
+                    {% if block.settings[image_key] != blank %}
+                      <li class="icons_with_link">
+                        <a class="icons_with_link-link" href="{{ block.settings[link_key] }}">
+                          <img class="icons_with_link-image" src="{{ block.settings[image_key] | image_url: 'master' }}" alt="{{ block.settings[image_key].alt | default: 'Image' }}">
+                        </a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
     
-    </div>
-    {%- endif -%}
+    
+    
+          
+        {%- if section.settings.show_payment_icons -%}
+          {%- unless shop.enabled_payment_types == empty -%}
+            <ul class="inline-list payment-icons footer__section">
+              {%- for type in shop.enabled_payment_types -%}
+                <li class="icon--payment">
+                  {{ type | payment_type_svg_tag }}
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endunless -%}
+        {%- endif -%}
+        </div>
+        {% endif %}
+        
+        </div>
+      {%- endif -%}
 
   </div>
 </footer>
