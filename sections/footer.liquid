@@ -15,16 +15,19 @@
     assign show_selectors = true
   endif
 -%}
+{% style %}
+  .custom_block-wrap .icons_with_link-block {
+    display: flex;
+    list-style: none;
+}
+{% endstyle %}
 
 {%- if settings.color_footer == settings.color_body_bg -%}
   {%- style -%}
     .site-footer {
       border-top: 1px solid {{ settings.color_borders }};
     }
-    .custom_block-wrap .icons_with_link-block {
-    display: flex;
-    list-style: none;
-}
+    
   {%- endstyle -%}
 {%- endif -%}
 
