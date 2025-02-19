@@ -125,7 +125,7 @@
                     {% assign image_key = 'image_' | append: i %}
                     {% if block.settings[image_key] != blank %}
                       <li class="icons_with_link">
-                        <a class="icons_with_link-link" href="{{ block.settings[link_key] }}">
+                        <a class="icons_with_link-link" href="{{ block.settings[link_key] }}" {% if block.settings[link_key] contains 'http' %}target="_blank" rel="noopener noreferrer nofollow"{% endif %}>
                           <img class="icons_with_link-image" src="{{ block.settings[image_key] | img_url: 'master' }}" alt="{{ block.settings[image_key].alt | default: 'Image' }}">
                         </a>
                       </li>
