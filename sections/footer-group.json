@@ -127,6 +127,25 @@
             "desktop_logo_height": 50,
             "container_width": 20
           }
+        },
+        "icons_with_link_WkgrwB": {
+          "type": "icons_with_link",
+          "settings": {
+            "image_1": "shopify://shop_images/Repechage_BBB_Business_Review_1.png",
+            "Link_1": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
+            "image_2": "shopify://shop_images/Repechage_BBB_Business_Review_2.png",
+            "Link_2": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
+            "image_3": "shopify://shop_images/Repechage_BBB_Business_Review_3.png",
+            "Link_3": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
+            "image_4": "shopify://shop_images/Repechage_BBB_Business_Review_4.png",
+            "Link_4": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
+            "image_5": "shopify://shop_images/Repechage_BBB_Business_Review_5.png",
+            "Link_5": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
+            "image_6": "shopify://shop_images/Repechage_BBB_Business_Review_6.png",
+            "Link_6": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
+            "Link_7": "",
+            "Link_8": ""
+          }
         }
       },
       "block_order": [
@@ -134,7 +153,8 @@
         "footer-1",
         "menu_HRemjf",
         "menu_qkHY6E",
-        "logo_social_pKhexr"
+        "logo_social_pKhexr",
+        "icons_with_link_WkgrwB"
       ],
       "settings": {
         "show_locale_selector": false,
