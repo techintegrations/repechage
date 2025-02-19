@@ -130,6 +130,7 @@
         },
         "icons_with_link_WkgrwB": {
           "type": "icons_with_link",
+          "disabled": true,
           "settings": {
             "image_1": "shopify://shop_images/Repechage_BBB_Business_Review_1.png",
             "Link_1": "https://www.bbb.org/us/nj/secaucus/profile/skin-care/repechage-0221-90143207/#sealclick",
