@@ -88,6 +88,24 @@
     {%- if section.settings.show_payment_icons or section.settings.show_copyright -%}
     <div class="footer__bottom-text">
 
+      <ul>
+        {% for block in section.blocks %}
+          {% if block.type == 'icons_with_link' %}
+            {% for i in (1..8) %}
+              {% assign link_key = 'Link_' | append: i %}
+              {% assign image_key = 'image_' | append: i %}
+              <li>
+                <a href="{{ block.settings[link_key] }}">
+                  <img src="{{ block.settings[image_key] | image_url: 'master' }}">
+                </a>
+              </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+
+
       {%- if section.settings.show_copyright -%}
       <p class="footer__small-text">
         &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
@@ -343,6 +361,125 @@
           "min": 20,
           "max": 95,
           "unit": "%"
+        }
+      ]
+    },
+    {
+      "type": "icons_with_link",
+      "name": "Icons with link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Icon 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_1",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_2",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_3",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_4",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_4",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_5",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_5",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_6",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_6",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 7"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_7",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_7",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Icon 8"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_8",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "Link_8",
+          "label": "Link"
         }
       ]
     }
