@@ -840,7 +840,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 48px;
+    margin-top: 24px;
     align-items: flex-end;
 }
 
@@ -1880,7 +1880,7 @@ body.template-cart #cart-progress-wrapper {
 
   .footer__bottom-text {
       display: block;
-      margin-top: 30px;
+      margin-top: 20px;
   }
   
   .footer__bottom-text .footer__small-text {
