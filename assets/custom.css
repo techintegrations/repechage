@@ -853,10 +853,12 @@
 }
 
 .footer__custom-icons .icons_with_link-block {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0 5px;
 }
 
 .icons_with_link-block .icons_with_link {
