@@ -21,13 +21,11 @@
     .site-footer {
       border-top: 1px solid {{ settings.color_borders }};
     }
-    
   {%- endstyle -%}
 {%- endif -%}
 
 <footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer-section">
   <div class="page-width">
-
     <div class="grid">
       {%- assign row_width = 0 -%}
       {%- for block in section.blocks -%}
@@ -37,7 +35,11 @@
           {%- assign row_width = row_width | minus: 100 -%}
         {%- endif -%}
 
-        <div {{ block.shopify_attributes }} class="grid__item footer__item--{{ block.id }}" data-type="{{ block.type }}">
+        <div
+          {{ block.shopify_attributes }}
+          class="grid__item footer__item--{{ block.id }}"
+          data-type="{{ block.type }}"
+        >
           {%- style -%}
             @media only screen and (min-width: 769px) and (max-width: 959px) {
               .footer__item--{{ block.id }} {
@@ -79,66 +81,63 @@
         {%- render 'multi-selectors',
           locale_selector: locale_selector,
           currency_selector: currency_selector,
-          show_currency_flags: section.settings.show_currency_flags
+          show_currency_flags: section.settings.show_currency_flags,
           location: 'footer'
         -%}
       </div>
     {%- endif -%}
 
+    {%- assign has_icons_with_link = false -%}
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'icons_with_link' -%}
+        {%- assign has_icons_with_link = true -%}
+      {%- endif -%}
+    {%- endfor -%}
 
-    {%- if section.settings.show_payment_icons or section.settings.show_copyright -%}
-    <div class="footer__bottom-text">
-
-      
-
-
-
-      {%- if section.settings.show_copyright -%}
-      <p class="footer__small-text">
-        &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
-        {%- if section.settings.copyright_text != blank -%}
-          {{ section.settings.copyright_text }}
-        {%- endif -%}
-      </p>
-    {%- endif -%}
-
-      <!-- //this loop is used to set the value of this variable only (start) -->
-      
-      {%- assign has_icons_with_link = false -%}
-      {%- for block in section.blocks -%}
-        {%- if block.type == 'icons_with_link' -%}
-          {%- assign has_icons_with_link = true -%}
-        {%- endif -%}
-      {%- endfor -%}
-
-      <!-- //this loop is used to set the value of this variable only (end) -->
-
-
-      {%- if section.settings.show_payment_icons or has_icons_with_link -%}
-        <div class="custom_block-wrap">
-          {% if has_icons_with_link %}
-            <ul class="icons_with_link-block">
-              {% for block in section.blocks %}
-                {% if block.type == 'icons_with_link' %}
-                  {% for i in (1..8) %}
-                    {% assign link_key = 'Link_' | append: i %}
-                    {% assign image_key = 'image_' | append: i %}
-                    {% if block.settings[image_key] != blank %}
-                      <li class="icons_with_link">
-                        <a class="icons_with_link-link" href="{{ block.settings[link_key] }}" {% if block.settings[link_key] contains 'http' %}target="_blank" rel="noopener noreferrer nofollow"{% endif %}>
-                          <img class="icons_with_link-image" src="{{ block.settings[image_key] | img_url: 'master' }}" alt="{{ block.settings[image_key].alt | default: 'Image' }}">
-                        </a>
-                      </li>
-                    {% endif %}
-                  {% endfor %}
+    {% if has_icons_with_link %}
+      <div class="footer__custom-icons">
+        <ul class="icons_with_link-block">
+          {% for block in section.blocks %}
+            {% if block.type == 'icons_with_link' %}
+              {% for i in (1..8) %}
+                {% assign link_key = 'Link_' | append: i %}
+                {% assign image_key = 'image_' | append: i %}
+                {% if block.settings[image_key] != blank %}
+                  <li class="icons_with_link">
+                    <a
+                      class="icons_with_link-link"
+                      href="{{ block.settings[link_key] }}"
+                      {% if block.settings[link_key] contains 'http' %}
+                        target="_blank" rel="noopener noreferrer nofollow"
+                      {% endif %}
+                    >
+                      <img
+                        class="icons_with_link-image"
+                        src="{{ block.settings[image_key] | img_url: 'master' }}"
+                        alt="{{ block.settings[image_key].alt | default: 'Image' }}"
+                      >
+                    </a>
+                  </li>
                 {% endif %}
               {% endfor %}
-            </ul>
-          {% endif %}
-    
-    
-    
-          
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {%- if section.settings.show_payment_icons or section.settings.show_copyright -%}
+      <div class="footer__bottom-text">
+        {%- if section.settings.show_copyright -%}
+          <p class="footer__small-text">
+            &copy; {{ 'now' | date: '%Y' }}
+            {{ shop.name }}
+            {%- if section.settings.copyright_text != blank -%}
+              {{ section.settings.copyright_text }}
+            {%- endif -%}
+          </p>
+        {%- endif -%}
+
         {%- if section.settings.show_payment_icons -%}
           {%- unless shop.enabled_payment_types == empty -%}
             <ul class="inline-list payment-icons footer__section">
@@ -150,12 +149,8 @@
             </ul>
           {%- endunless -%}
         {%- endif -%}
-        </div>
-        {% endif %}
-        
-        </div>
-      {%- endif -%}
-
+      </div>
+    {%- endif -%}
   </div>
 </footer>
 
