@@ -57,6 +57,7 @@
       "blocks": {
         "text_block_VJx4tM": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/20230327_Repechage-1.jpg",
