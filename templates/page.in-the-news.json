@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "slideshow_cPY6ry": {
       "type": "slideshow",
@@ -23,16 +22,16 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>IN THE NEWS<\/p>",
+            "title": "<p>IN THE NEWS</p>",
             "title_size": 60,
-            "subheading": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
+            "subheading": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.</p>",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/banner_8.png",
+            "image": "shopify://shop_images/banner_8.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -67,7 +66,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
+            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.</p>",
             "text_color": "#000000"
           }
         }
@@ -102,7 +101,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.<\/p>",
+            "text": "<p>From the New York Times to Vogue, Elle and Allure, Repêchage gets stellar reviews from all the top media.</p>",
             "text_color": "#000000"
           }
         }
@@ -125,24 +124,35 @@
     "custom_image_with_info_xL4cDE": {
       "type": "custom__image-with-info",
       "blocks": {
+        "text_block_pTaGxL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/VC_Hair_and_Scalp_Serum_as_seen_in_NEWBEAUTY.png",
+            "title": "NEW BEAUTY",
+            "date": "Winter 2025",
+            "text": "<p>Infused with seaweed-derived vitamins, this lightweight serum nourishes the scalp to boost hair vitality. </p>",
+            "button_label": "Shop Vita Cura Hair and Scalp Serum",
+            "button_link": "https://www.repechage.com/products/vita-cura-hair-and-scalp-serum"
+          }
+        },
         "text_block_9D3UEV": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Atlantan_Best_of_Beauty_2024.jpg",
+            "image": "shopify://shop_images/The_Atlantan_Best_of_Beauty_2024.jpg",
             "title": "The Atlantan",
             "date": "March, 2024",
-            "text": "<p>\"...their products are made with Pure Filtrate of Seaweed for their hydrating properties... to tackle those pesky age spots and unlock your inner beauty.\"<\/p>",
+            "text": "<p>\"...their products are made with Pure Filtrate of Seaweed for their hydrating properties... to tackle those pesky age spots and unlock your inner beauty.\"</p>",
             "button_label": "Shop Best Anti-Aging Products",
-            "button_link": "https:\/\/www.repechage.com\/collections\/vita-cura"
+            "button_link": "https://www.repechage.com/collections/vita-cura"
           }
         },
         "text_block_bMbkQr": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HORA_Summer2024_8.5x11_PressGraphic4.jpg",
+            "image": "shopify://shop_images/HORA_Summer2024_8.5x11_PressGraphic4.jpg",
             "title": "HORA MIAMI",
             "date": "Summer, 2024",
-            "text": "<p>\"There is a growing trend among women looking for natural alternatives when using their beauty items. As people become more health conscious, they are opting for alternatives that reduce their exposure to potentially harmful ingredients\"<br\/>-Shiri Sarfati<\/p>",
+            "text": "<p>\"There is a growing trend among women looking for natural alternatives when using their beauty items. As people become more health conscious, they are opting for alternatives that reduce their exposure to potentially harmful ingredients\"<br/>-Shiri Sarfati</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -162,16 +172,17 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/HORA_Summer2024_8.5x11_PressGraphic3.jpg",
+            "image": "shopify://shop_images/HORA_Summer2024_8.5x11_PressGraphic3.jpg",
             "title": "HORA MIAMI",
             "date": "Summer, 2024",
-            "text": "<p>\"There is a growing trend among women looking for natural alternatives when using their beauty items. As people become more health conscious, they are opting for alternatives that reduce their exposure to potentially harmful ingredients\"<br\/>-Shiri Sarfati<\/p>",
+            "text": "<p>\"There is a growing trend among women looking for natural alternatives when using their beauty items. As people become more health conscious, they are opting for alternatives that reduce their exposure to potentially harmful ingredients\"<br/>-Shiri Sarfati</p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
+        "text_block_pTaGxL",
         "text_block_9D3UEV",
         "text_block_bMbkQr",
         "text_block_LNnLbz",
@@ -192,175 +203,175 @@
         "text_block_8TbdaM": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-atlanta-skincareline.png",
+            "image": "shopify://shop_images/2024-atlanta-skincareline.png",
             "title": "Jezebel",
             "date": "March 27, 2024",
-            "text": "<p>Discover Repêchage's seaweed-based skincare, rich in potent nutrients, available at Three13 Salon in Marietta. Embrace the rejuvenating power of the ocean with Repêchage's commitment to top-quality, seaweed-infused products for transformative skincare results.<\/p>",
+            "text": "<p>Discover Repêchage's seaweed-based skincare, rich in potent nutrients, available at Three13 Salon in Marietta. Embrace the rejuvenating power of the ocean with Repêchage's commitment to top-quality, seaweed-infused products for transformative skincare results.</p>",
             "button_label": "Shop Repêchage Skincare",
-            "button_link": "\/collections\/all-products"
+            "button_link": "/collections/all-products"
           }
         },
         "text_block_h9zPXX": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-newbeauty-c-serum.png",
+            "image": "shopify://shop_images/2024-newbeauty-c-serum.png",
             "title": "NewBeauty",
             "date": "March 8, 2024",
-            "text": "<p>\"I love how lightweight and gentle it is. My skin feels immediately refreshed\" - Brittany Fallon<\/p>",
+            "text": "<p>\"I love how lightweight and gentle it is. My skin feels immediately refreshed\" - Brittany Fallon</p>",
             "button_label": "Shop C-Serum Seaweed Filtrate Serum",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
+            "button_link": "/collections/cell-renewal-for-all-skin-types/products/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_PFghkj": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-01-31-health.png",
+            "image": "shopify://shop_images/2024-01-31-health.png",
             "title": "health.com",
             "date": "January 31, 2024",
-            "text": "<p>After the 4-week testing period, we noticed a boost in overall skin health, more even skin texture, and increased luminosity.<\/p>",
+            "text": "<p>After the 4-week testing period, we noticed a boost in overall skin health, more even skin texture, and increased luminosity.</p>",
             "button_label": "Shop Honey and Almond Scrub",
-            "button_link": "\/products\/honey-and-almond-scrub"
+            "button_link": "/products/honey-and-almond-scrub"
           }
         },
         "text_block_CqWT8Y": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-dermascope-t-zone.png",
+            "image": "shopify://shop_images/2024-dermascope-t-zone.png",
             "title": "Dermascope",
             "date": "January, 2024",
-            "text": "<p>Ingredients that both bolster the natural moisturizing factor in skin and help restore essential nutrients and beneficial minerals.<\/p>",
+            "text": "<p>Ingredients that both bolster the natural moisturizing factor in skin and help restore essential nutrients and beneficial minerals.</p>",
             "button_label": "Shop T-Zone Balance Hydrating Serum",
-            "button_link": "\/products\/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c"
+            "button_link": "/products/t-zone-balance-hydrating-serum-with-hyaluronic-acid-and-vitamin-c"
           }
         },
         "text_block_E3ftfQ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-t-zone-spa_wellness.png",
+            "image": "shopify://shop_images/2024-t-zone-spa_wellness.png",
             "title": "Spa & Wellness",
             "date": "Winter, 2024",
-            "text": "<p>Teen skincare made easy, as seen in Spa & Wellness Mexicaribe<\/p>",
+            "text": "<p>Teen skincare made easy, as seen in Spa & Wellness Mexicaribe</p>",
             "button_label": "Shop T-Zone Balance Starter Collection",
-            "button_link": "\/collections\/t-zone-for-combination-oily-skin\/products\/t-zone-balance-starter-collection-for-combination-skin"
+            "button_link": "/collections/t-zone-for-combination-oily-skin/products/t-zone-balance-starter-collection-for-combination-skin"
           }
         },
         "text_block_eXrwEE": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-newbeauty-salt-InTheNews.png",
+            "image": "shopify://shop_images/2024-newbeauty-salt-InTheNews.png",
             "title": "New Beauty",
             "date": "2024",
-            "text": "<p>Best described as a “cure in a jar,” Repêchage Vita Cura CelluSea Renewal Dead Sea Bath Salts rely on the brand’s magical ingredient of mineral-rich sea salt for an incredibly relaxing and balancing spa-like experience in your own bath.<br\/><\/p>",
+            "text": "<p>Best described as a “cure in a jar,” Repêchage Vita Cura CelluSea Renewal Dead Sea Bath Salts rely on the brand’s magical ingredient of mineral-rich sea salt for an incredibly relaxing and balancing spa-like experience in your own bath.<br/></p>",
             "button_label": "Shop Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
-            "button_link": "\/products\/vita-cura-cellusea-renewal-dead-sea-bath-salts"
+            "button_link": "/products/vita-cura-cellusea-renewal-dead-sea-bath-salts"
           }
         },
         "text_block_Mb7Lzq": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-lydia.png",
+            "image": "shopify://shop_images/2023-lydia.png",
             "title": "American Spa",
             "date": "November 15, 2023",
-            "text": "<p>Lydia Sarfati: Most Influential Spa Leader - 2023 American Spa Professional Choice Awards Winner<\/p>",
+            "text": "<p>Lydia Sarfati: Most Influential Spa Leader - 2023 American Spa Professional Choice Awards Winner</p>",
             "button_label": "Visit lydiasarfati.com",
-            "button_link": "https:\/\/www.lydiasarfati.com\/"
+            "button_link": "https://www.lydiasarfati.com/"
           }
         },
         "text_block_QwAwPc": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-04-sass-drybrush.png",
+            "image": "shopify://shop_images/2023-04-sass-drybrush.png",
             "title": "Sass",
             "date": "April, 2023",
-            "text": "<p>\"Dry Brushing is a powerful addition to any skincare and wellness routine. Topical dry brushing has incredible skin exfoliation benefits. The dry bristles exfoliate dry, dead skin cells revealing smoother looking skin.\" - Shiri Sarfati<br\/><\/p>",
+            "text": "<p>\"Dry Brushing is a powerful addition to any skincare and wellness routine. Topical dry brushing has incredible skin exfoliation benefits. The dry bristles exfoliate dry, dead skin cells revealing smoother looking skin.\" - Shiri Sarfati<br/></p>",
             "button_label": "Shop Dry Body Brush with Exfoliating Cactus Bristle",
-            "button_link": "\/products\/dry-body-brush-with-exfoliating-cactus-bristle"
+            "button_link": "/products/dry-body-brush-with-exfoliating-cactus-bristle"
           }
         },
         "text_block_3PJCbh": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-02-23-new-beauty.png",
+            "image": "shopify://shop_images/2023-02-23-new-beauty.png",
             "title": "New Beauty",
             "date": "February 23, 2023",
-            "text": "<p>\"So many times, a person will choose based on whether a moisturizer is 'heavy' or 'light,' but it is the ingredients and delivery system that are most important when choosing a moisturizer. This is why it’s essential to consult with a skin-care professional who can accurately identify skin concerns and knows the proper formulations and ingredients to best address the individual.\" - Lydia Sarfati<\/p>",
+            "text": "<p>\"So many times, a person will choose based on whether a moisturizer is 'heavy' or 'light,' but it is the ingredients and delivery system that are most important when choosing a moisturizer. This is why it’s essential to consult with a skin-care professional who can accurately identify skin concerns and knows the proper formulations and ingredients to best address the individual.\" - Lydia Sarfati</p>",
             "button_label": "Shop Moisturizers",
-            "button_link": "\/collections\/facial-moisturizers-and-serums"
+            "button_link": "/collections/facial-moisturizers-and-serums"
           }
         },
         "text_block_Mk8RwA": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-2023-Venice.png",
+            "image": "shopify://shop_images/2022-2023-Venice.png",
             "title": "Venice",
             "date": "Winter 2022-2023",
-            "text": "<p>\"Run a warm bath and escape from daily stress. These bath salts are rich in minerals like magnesium, calcium and zinc and smell like a healing vacation.\"<\/p>",
+            "text": "<p>\"Run a warm bath and escape from daily stress. These bath salts are rich in minerals like magnesium, calcium and zinc and smell like a healing vacation.\"</p>",
             "button_label": "Featuring Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
-            "button_link": "\/products\/vita-cura-cellusea-renewal-dead-sea-bath-salts"
+            "button_link": "/products/vita-cura-cellusea-renewal-dead-sea-bath-salts"
           }
         },
         "text_block_BGY6Pc": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-12-09-NewBeauty.png",
+            "image": "shopify://shop_images/2022-12-09-NewBeauty.png",
             "title": "NewBeauty",
             "date": "Dec 9, 2022",
-            "text": "<p>\"An instant boost of hydration for dry skin, this nutrient-rich moisturizing facial spray contains the brand’s exclusive seaweed extract, as well as vitamin C, ginkgo biloba, aloe and orange water to help keep skin nourished, refreshed and glowing.\"<\/p>",
+            "text": "<p>\"An instant boost of hydration for dry skin, this nutrient-rich moisturizing facial spray contains the brand’s exclusive seaweed extract, as well as vitamin C, ginkgo biloba, aloe and orange water to help keep skin nourished, refreshed and glowing.\"</p>",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_CTJxJB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-11-01-Health.png",
+            "image": "shopify://shop_images/2022-11-01-Health.png",
             "title": "Health",
             "date": "Nov 1, 2022",
-            "text": "<p>\"Give your pores a nice, deep clean with our top pick, the Hydra Medic Sea Mud Perfecting Mask\"<\/p>",
+            "text": "<p>\"Give your pores a nice, deep clean with our top pick, the Hydra Medic Sea Mud Perfecting Mask\"</p>",
             "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
-            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
+            "button_link": "/products/hydra-medic-sea-mud-perfecting-mask"
           }
         },
         "text_block_Jg8GRP": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-10-13-NewBeauty.png",
+            "image": "shopify://shop_images/2022-10-13-NewBeauty.png",
             "title": "NewBeauty",
             "date": "Oct 13, 2022",
-            "text": "<p>\"This facial features the brand’s signature, nutrient-rich Laminaria digitata seaweed, which is sustainably harvested from the coast of Maine and is a natural source of 12 vitamins including B12, C, E, and K, as well as beta carotene, amino acids and various skin-friendly trace elements\"<\/p>",
+            "text": "<p>\"This facial features the brand’s signature, nutrient-rich Laminaria digitata seaweed, which is sustainably harvested from the coast of Maine and is a natural source of 12 vitamins including B12, C, E, and K, as well as beta carotene, amino acids and various skin-friendly trace elements\"</p>",
             "button_label": "Featuring Hydra Dew Pure™ Facial Moisturizer",
-            "button_link": "\/products\/hydra-dew-pure-facial-moisturizer"
+            "button_link": "/products/hydra-dew-pure-facial-moisturizer"
           }
         },
         "text_block_9cEVFW": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-09-07-InTheNews.png",
+            "image": "shopify://shop_images/2022-09-07-InTheNews.png",
             "title": "NewBeauty",
             "date": "Sept 7, 2022",
-            "text": "<p>\"Reveal radiant skin in 10 minutes with this peptide- and seaweed extract–drenched sheet mask. Thanks to a blend of four different peptides, you can expect a hydrated, firmer-looking complexion with every use.\"<br\/><\/p>",
+            "text": "<p>\"Reveal radiant skin in 10 minutes with this peptide- and seaweed extract–drenched sheet mask. Thanks to a blend of four different peptides, you can expect a hydrated, firmer-looking complexion with every use.\"<br/></p>",
             "button_label": "Featuring Repêchage® Triple Action Peptide Mask",
-            "button_link": "\/products\/triple-action-peptide-mask-single-sheet-mask"
+            "button_link": "/products/triple-action-peptide-mask-single-sheet-mask"
           }
         },
         "text_block_9i6gLG": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-07-27-NewBeauty.png",
+            "image": "shopify://shop_images/2022-07-27-NewBeauty.png",
             "title": "NewBeauty",
             "date": "July 27, 2022",
-            "text": "<p>\"Head-to-toe skin-fi rming and perfecting treatments to try on your arms, legs and butt at home.\"<br\/><\/p>",
+            "text": "<p>\"Head-to-toe skin-fi rming and perfecting treatments to try on your arms, legs and butt at home.\"<br/></p>",
             "button_label": "Featuring Vita Cura® CelluSea Firm™ Neck and Body Serum",
-            "button_link": "\/products\/vita-cura-cellusea-firm-neck-and-body-serum"
+            "button_link": "/products/vita-cura-cellusea-firm-neck-and-body-serum"
           }
         },
         "text_block_JxHFXK": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-06-22-TheAtlantan.png",
+            "image": "shopify://shop_images/2022-06-22-TheAtlantan.png",
             "title": "The Atlantan",
             "date": "June 22, 2022",
-            "text": "<p>\"I met her, blew her hair out, and we ended up shoe shopping at Neiman Marcus afterward,\" says Hightower of Lydia Sarfati, founder of renowned luxury skincare brand Repêchage. Sarfati and Hightower have remained close friends ever since that initial shopping trip, leading to Steve Hightower Salon & Spa becoming the first hair salon to carry Repêchage products.<\/p>",
+            "text": "<p>\"I met her, blew her hair out, and we ended up shoe shopping at Neiman Marcus afterward,\" says Hightower of Lydia Sarfati, founder of renowned luxury skincare brand Repêchage. Sarfati and Hightower have remained close friends ever since that initial shopping trip, leading to Steve Hightower Salon & Spa becoming the first hair salon to carry Repêchage products.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -368,43 +379,43 @@
         "text_block_qHT6jJ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/22-06-09-NewBeauty_df1045d2-fa80.png",
+            "image": "shopify://shop_images/22-06-09-NewBeauty_df1045d2-fa80.png",
             "title": "NewBeauty",
             "date": "June 9, 2022",
-            "text": "<p>\"Features seaweed, peptides, caffeine, vitamin C and coenzymes to help improve skin firmness. Use it on the neck and décolleté twice a day for best results.\"<\/p>",
+            "text": "<p>\"Features seaweed, peptides, caffeine, vitamin C and coenzymes to help improve skin firmness. Use it on the neck and décolleté twice a day for best results.\"</p>",
             "button_label": "Featuring Vita Cura® CelluSea Firm™ Neck and Body Serum",
-            "button_link": "\/products\/vita-cura-cellusea-firm-neck-and-body-serum"
+            "button_link": "/products/vita-cura-cellusea-firm-neck-and-body-serum"
           }
         },
         "text_block_JTDARt": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-04-29-Forbes.png",
+            "image": "shopify://shop_images/2022-04-29-Forbes.png",
             "title": "Forbes",
             "date": "April 29, 2022",
-            "text": "<p>\"This collection features five travel-friendly items, from the Hydra Dew Pure™ Gentle Foaming Cleanser to the Hydra Dew Pure™ Eye Contour Cream, to maintain soft and supple skin all day and night.\"<\/p>",
+            "text": "<p>\"This collection features five travel-friendly items, from the Hydra Dew Pure™ Gentle Foaming Cleanser to the Hydra Dew Pure™ Eye Contour Cream, to maintain soft and supple skin all day and night.\"</p>",
             "button_label": "Featuring Hydra Dew Pure™ Starter Collection",
-            "button_link": "\/products\/hydra-dew-pure-starter-collection"
+            "button_link": "/products/hydra-dew-pure-starter-collection"
           }
         },
         "text_block_bfQrBJ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-04-21-WellDefined.png",
+            "image": "shopify://shop_images/2022-04-21-WellDefined.png",
             "title": "Well Defined",
             "date": "April 21, 2022",
-            "text": "<p>\"Containing essential minerals like magnesium, calcium, sulfur, bromide, iodine, sodium, zinc, and potassium, Repêchage’s Vita Cura Cellusea Renewal Dead Sea Bath Salts are ideal for pulling toxins from the body and replacing vital minerals and nutrients.\"<\/p>",
+            "text": "<p>\"Containing essential minerals like magnesium, calcium, sulfur, bromide, iodine, sodium, zinc, and potassium, Repêchage’s Vita Cura Cellusea Renewal Dead Sea Bath Salts are ideal for pulling toxins from the body and replacing vital minerals and nutrients.\"</p>",
             "button_label": "Featuring Vita Cura® CelluSea Renewal™ Dead Sea Bath Salts",
-            "button_link": "\/products\/vita-cura-cellusea-renewal-dead-sea-bath-salts"
+            "button_link": "/products/vita-cura-cellusea-renewal-dead-sea-bath-salts"
           }
         },
         "text_block_te3Ub4": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-04-05-AmericanSpa.png",
+            "image": "shopify://shop_images/2022-04-05-AmericanSpa.png",
             "title": "American Spa",
             "date": "April 5, 2022",
-            "text": "<p>\"When used in pharmaceutical formulations for topical use, avocado oil can promote increased collagen synthesis and decreased numbers of inflammatory cells during the wound-healing process and may thus be considered a new option for treating skin wounds. Studies have also found it can be used in the treatment of psoriasis, wrinkles, and stretch marks.\" —Lydia Sarfati, CEO and founder, Repêchage<\/p>",
+            "text": "<p>\"When used in pharmaceutical formulations for topical use, avocado oil can promote increased collagen synthesis and decreased numbers of inflammatory cells during the wound-healing process and may thus be considered a new option for treating skin wounds. Studies have also found it can be used in the treatment of psoriasis, wrinkles, and stretch marks.\" —Lydia Sarfati, CEO and founder, Repêchage</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -412,186 +423,186 @@
         "text_block_hkwPfP": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-03-03-forbes.png",
+            "image": "shopify://shop_images/2022-03-03-forbes.png",
             "title": "Forbes",
             "date": "February 28, 2022",
-            "text": "<p>\"With these refreshing face masks featuring not one, but four peptides, you can firm and plump up slack skin in as little as ten minutes\"<\/p>",
+            "text": "<p>\"With these refreshing face masks featuring not one, but four peptides, you can firm and plump up slack skin in as little as ten minutes\"</p>",
             "button_label": "Featuring Repêchage® Triple Action Peptide Mask",
-            "button_link": "\/products\/triple-action-peptide-mask-single-sheet-mask"
+            "button_link": "/products/triple-action-peptide-mask-single-sheet-mask"
           }
         },
         "text_block_GqChFq": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-03-03-BuckHead.png",
+            "image": "shopify://shop_images/2022-03-03-BuckHead.png",
             "title": "Simply Buckhead",
             "date": "March 3, 2022",
-            "text": "<p>\"This new, sugar-based body scrub gently sloughs off dry skin and uses seaweed, cocoa and caffeine extracts to initiate a more toned appearance. Mint essential oils will leave you feeling invigorated. Pro tip: Use it in the morning for a delightful wake-up.\"<\/p>",
+            "text": "<p>\"This new, sugar-based body scrub gently sloughs off dry skin and uses seaweed, cocoa and caffeine extracts to initiate a more toned appearance. Mint essential oils will leave you feeling invigorated. Pro tip: Use it in the morning for a delightful wake-up.\"</p>",
             "button_label": "Featuring Vita Cura® CelluSea Smooth™ Multi-Action Body Exfoliator",
-            "button_link": "\/products\/vita-cura-cellusea-smooth-multi-action-body-exfoliator"
+            "button_link": "/products/vita-cura-cellusea-smooth-multi-action-body-exfoliator"
           }
         },
         "text_block_gpTzcY": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-02-18-MindBodyGreen.png",
+            "image": "shopify://shop_images/2022-02-18-MindBodyGreen.png",
             "title": "mindbodygreen",
             "date": "February 17, 2022",
-            "text": "<p>\"The Repêchage® Ultrasonic Skin Spatula which can aid in exfoliation and relies on ultrasonic waves\"<br\/><\/p>",
+            "text": "<p>\"The Repêchage® Ultrasonic Skin Spatula which can aid in exfoliation and relies on ultrasonic waves\"<br/></p>",
             "button_label": "Featuring Repêchage® Ultrasonic Skin Spatula",
-            "button_link": "\/products\/ultrasonic-skin-spatula"
+            "button_link": "/products/ultrasonic-skin-spatula"
           }
         },
         "text_block_gfeDxp": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-01-19-NewBeauty.png",
+            "image": "shopify://shop_images/2022-01-19-NewBeauty.png",
             "title": "NewBeauty",
             "date": "January 19, 2022",
-            "text": "<p>\"Getting the Repêchage Hydra Dew Pure Moisturizing Lift facial featuring the brand’s signature antioxidant-rich seaweed from CEO and founder Lydia Sarfati was a real treat. Laminaria digitata seaweed contains amino acids, vitamins and trace elements and minerals that work to calm and restore aging skin.\"<\/p>",
+            "text": "<p>\"Getting the Repêchage Hydra Dew Pure Moisturizing Lift facial featuring the brand’s signature antioxidant-rich seaweed from CEO and founder Lydia Sarfati was a real treat. Laminaria digitata seaweed contains amino acids, vitamins and trace elements and minerals that work to calm and restore aging skin.\"</p>",
             "button_label": "Shop Hydra Dew Pure™ Moisture Lift Serum",
-            "button_link": "\/products\/hydra-dew-pure-moisture-lift-serum"
+            "button_link": "/products/hydra-dew-pure-moisture-lift-serum"
           }
         },
         "text_block_Y8ibqL": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2022-01-17-Huffpost.png",
+            "image": "shopify://shop_images/2022-01-17-Huffpost.png",
             "title": "HuffPost",
             "date": "January 17, 2022",
-            "text": "<p>\"Toners will help to restore your skin’s pH level, which can be affected by your face wash.\"<\/p>",
+            "text": "<p>\"Toners will help to restore your skin’s pH level, which can be affected by your face wash.\"</p>",
             "button_label": "Shop Repêchage® Toners",
-            "button_link": "\/collections\/cleansers-and-toners"
+            "button_link": "/collections/cleansers-and-toners"
           }
         },
         "text_block_kTBGta": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-11-01-SpaBeauty-HDP2.png",
+            "image": "shopify://shop_images/20-11-01-SpaBeauty-HDP2.png",
             "title": "OK! Magazine",
             "date": "December 7, 2021",
-            "text": "<p>\"This gift set contains five at-home care products in convenient starter sizes to help mom start their pure skincare journey. It’s also great for on-the-go.\"<br\/><\/p>",
+            "text": "<p>\"This gift set contains five at-home care products in convenient starter sizes to help mom start their pure skincare journey. It’s also great for on-the-go.\"<br/></p>",
             "button_label": "Featuring Repêchage® Hydra Dew Pure™ Starter Collection",
-            "button_link": "\/products\/hydra-dew-pure-starter-collection"
+            "button_link": "/products/hydra-dew-pure-starter-collection"
           }
         },
         "text_block_LrXKMQ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21-12-13-bustle.png",
+            "image": "shopify://shop_images/21-12-13-bustle.png",
             "title": "Bustle",
             "date": "November 24, 2021",
-            "text": "<p>\"Sarfati recommends products from Repechage, a brand that produces a multitude of squalane-based formulas. If your skin’s on the sensitive side, try this gentle serum, which also contains moisturizing aloe vera.\"<br\/><\/p>",
+            "text": "<p>\"Sarfati recommends products from Repechage, a brand that produces a multitude of squalane-based formulas. If your skin’s on the sensitive side, try this gentle serum, which also contains moisturizing aloe vera.\"<br/></p>",
             "button_label": "Featuring Repêchage® Hydra 4 Red-Out® Serum",
-            "button_link": "\/products\/copy-of-hydra-4-red-out-serum"
+            "button_link": "/products/copy-of-hydra-4-red-out-serum"
           }
         },
         "text_block_E8JJFr": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21-03-15-NBC-News.png",
+            "image": "shopify://shop_images/21-03-15-NBC-News.png",
             "title": "NBC News",
             "date": "March, 2021",
-            "text": "<p>\"Our favorite women-owned products in 2021\"<br\/><\/p>",
+            "text": "<p>\"Our favorite women-owned products in 2021\"<br/></p>",
             "button_label": "Featuring Hydra Blue® For All Skin Types",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types"
+            "button_link": "/collections/cell-renewal-for-all-skin-types"
           }
         },
         "text_block_7e47Qk": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21-03-24-Identify-LA_164c67ef-32c4-4295-98d8-55a02a5f3c81.png",
+            "image": "shopify://shop_images/21-03-24-Identify-LA_164c67ef-32c4-4295-98d8-55a02a5f3c81.png",
             "title": "Identify LA",
             "date": "March, 2021",
-            "text": "<p>\"Our top pick is the Hydra Dew Pure Gentle Foaming Cleanser. It's a softly-foaming, gentle wash that contains three select seaweed extracts to nourish skin, while natural botanicals such as water lily and oat bran extracts help reduce the appearance of irritation.\"<br\/><\/p>",
+            "text": "<p>\"Our top pick is the Hydra Dew Pure Gentle Foaming Cleanser. It's a softly-foaming, gentle wash that contains three select seaweed extracts to nourish skin, while natural botanicals such as water lily and oat bran extracts help reduce the appearance of irritation.\"<br/></p>",
             "button_label": "Featuring Hydra Dew Pure Gentle Foaming Cleanser",
-            "button_link": "\/collections\/hydra-dew-pure\/products\/hydra-dew-pure-gentle-foaming-cleanser"
+            "button_link": "/collections/hydra-dew-pure/products/hydra-dew-pure-gentle-foaming-cleanser"
           }
         },
         "text_block_rqRH8W": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21-01-31-30Seconds-HM.png",
+            "image": "shopify://shop_images/21-01-31-30Seconds-HM.png",
             "title": "30 Seconds",
             "date": "January, 2021",
-            "text": "<p>\"This long wearing concealer does double duty by counteracting the appearance of redness while helping to conceal the appearance of breakouts.\"<br\/><\/p>",
+            "text": "<p>\"This long wearing concealer does double duty by counteracting the appearance of redness while helping to conceal the appearance of breakouts.\"<br/></p>",
             "button_label": "Featuring Hydra Medic® Corrective Concealer",
-            "button_link": "\/collections\/hydra-medic-products\/products\/hydra-medic-corrective-concealer"
+            "button_link": "/collections/hydra-medic-products/products/hydra-medic-corrective-concealer"
           }
         },
         "text_block_PwDM9X": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-11-01-SpaBeauty-HDP.png",
+            "image": "shopify://shop_images/20-11-01-SpaBeauty-HDP.png",
             "title": "Spa & Beauty",
             "date": "November, 2020",
-            "text": "<p>\"Envelop the skin in rich moisture and create instantly dewy complexion.\"<\/p>",
+            "text": "<p>\"Envelop the skin in rich moisture and create instantly dewy complexion.\"</p>",
             "button_label": "Featuring Hydra Dew Pure Collection",
-            "button_link": "\/collections\/hydra-dew-pure"
+            "button_link": "/collections/hydra-dew-pure"
           }
         },
         "text_block_BERDPT": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-11-04-Mane-Addicts.png",
+            "image": "shopify://shop_images/20-11-04-Mane-Addicts.png",
             "title": "Mane Addicts",
             "date": "November, 2020",
-            "text": "<p>\"Seaweed helps restore a youthful shine to damaged hair while protecting it from styling stress, color fading and frizz.\"<\/p>",
+            "text": "<p>\"Seaweed helps restore a youthful shine to damaged hair while protecting it from styling stress, color fading and frizz.\"</p>",
             "button_label": "Featuring Hydra Medic® Corrective Concealer",
-            "button_link": "\/collections\/hydra-medic-products\/products\/hydra-medic-corrective-concealer"
+            "button_link": "/collections/hydra-medic-products/products/hydra-medic-corrective-concealer"
           }
         },
         "text_block_BXFU3r": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-07-Social-Life.png",
+            "image": "shopify://shop_images/20-07-Social-Life.png",
             "title": "Society Life Magazine",
             "date": "July, 2020",
-            "text": "<p>\"The formula contains a unique combination of seaweed extract, gingko biloba, and aloe to give skin a healthy glow.\"<\/p>",
+            "text": "<p>\"The formula contains a unique combination of seaweed extract, gingko biloba, and aloe to give skin a healthy glow.\"</p>",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/collections/cell-renewal-for-all-skin-types/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_BUhbNF": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kansa-insta.png",
+            "image": "shopify://shop_images/kansa-insta.png",
             "title": "Stay Fit 305",
             "date": "April, 2020",
-            "text": "<p>\"An Ayurvedic skincare secret, Kansa Wands can be used on the face and body to aid in lymphatic drainage as well as toning. Repechage Kansa Wand is the perfect addition to any treatment and will improve the appearance of skin by toning, tightening and firming skin, while reducing the appearance of puffiness, fine lines, redness and irritation.\"<\/p>",
+            "text": "<p>\"An Ayurvedic skincare secret, Kansa Wands can be used on the face and body to aid in lymphatic drainage as well as toning. Repechage Kansa Wand is the perfect addition to any treatment and will improve the appearance of skin by toning, tightening and firming skin, while reducing the appearance of puffiness, fine lines, redness and irritation.\"</p>",
             "button_label": "Featuring Kansa Wand",
-            "button_link": "\/collections\/accessories\/products\/repechage-kansa-wand"
+            "button_link": "/collections/accessories/products/repechage-kansa-wand"
           }
         },
         "text_block_Yy4Uch": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-04-14A-marie-claire-stor.png",
+            "image": "shopify://shop_images/20-04-14A-marie-claire-stor.png",
             "title": "Marie Claire",
             "date": "April, 2020",
-            "text": "<p>\"The magic potion... formulated with anti-aging ingredients like niacinamide, hyaluronic acid and laminaria digitata seaweed filtrate.\"<\/p>",
+            "text": "<p>\"The magic potion... formulated with anti-aging ingredients like niacinamide, hyaluronic acid and laminaria digitata seaweed filtrate.\"</p>",
             "button_label": "Featuring Vita Cura Gold",
-            "button_link": "\/collections\/vita-cura"
+            "button_link": "/collections/vita-cura"
           }
         },
         "text_block_acCiBc": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-04-Strategist.png",
+            "image": "shopify://shop_images/20-04-Strategist.png",
             "title": "The Strategist",
             "date": "April, 2020",
-            "text": "<p>\"The antiseptic and antibacterial formula (this means it targets bacteria and deters bacteria growth) has an alcohol content of 75 percent and comes in a conveniently portable four-once size.\"<br\/><\/p>",
+            "text": "<p>\"The antiseptic and antibacterial formula (this means it targets bacteria and deters bacteria growth) has an alcohol content of 75 percent and comes in a conveniently portable four-once size.\"<br/></p>",
             "button_label": "Featuring Hand Sanitizers",
-            "button_link": "\/collections\/hand-sanitizers"
+            "button_link": "/collections/hand-sanitizers"
           }
         },
         "text_block_aGhzRJ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Life-Style-Berryfina-2020.png",
+            "image": "shopify://shop_images/Life-Style-Berryfina-2020.png",
             "title": "Life & Style",
             "date": "February, 2020",
-            "text": "<p>\"It helps brighten your complexion and reduces dull and tired skin.<\/p><p>\"Featuring FUSION™ Berryfina Brightening Mask<br\/><\/p>",
+            "text": "<p>\"It helps brighten your complexion and reduces dull and tired skin.</p><p>\"Featuring FUSION™ Berryfina Brightening Mask<br/></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -599,144 +610,144 @@
         "text_block_qrqnK4": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/New-Beauty-Hydra-4-Moisturizer3.png",
+            "image": "shopify://shop_images/New-Beauty-Hydra-4-Moisturizer3.png",
             "title": "New Beauty",
             "date": "February, 2020",
-            "text": "<p>\"...this moisturizer for sensitive skin is packed with powerful ingredients, like olive oil extract combined with four seaweed extracts.\"<br\/><\/p>",
+            "text": "<p>\"...this moisturizer for sensitive skin is packed with powerful ingredients, like olive oil extract combined with four seaweed extracts.\"<br/></p>",
             "button_label": "Featuring Hydra 4® Moisturizing Day Cream",
-            "button_link": "\/collections\/hydra-4-for-sensitive-skin\/products\/hydra-4-day-protection-cream-for-sensitive-skin"
+            "button_link": "/collections/hydra-4-for-sensitive-skin/products/hydra-4-day-protection-cream-for-sensitive-skin"
           }
         },
         "text_block_TKz3q4": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Beauty-Insider-Four-Layer.png",
+            "image": "shopify://shop_images/Beauty-Insider-Four-Layer.png",
             "title": "Insider Beauty",
             "date": "February, 2020",
-            "text": "<p>\"What It's Like To Get A Four-Layer Seaweed Facial Meant To Firm And Rejuvenate Skin\"<\/p>",
+            "text": "<p>\"What It's Like To Get A Four-Layer Seaweed Facial Meant To Firm And Rejuvenate Skin\"</p>",
             "button_label": "Featuring the Signature Repêchage® Four-Layer Facial®",
-            "button_link": "\/four-layer-facial-uses-seaweed-to-firm-skin-2020-2"
+            "button_link": "/four-layer-facial-uses-seaweed-to-firm-skin-2020-2"
           }
         },
         "text_block_MPyDhA": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Byrdie-C-Serum-2020.png",
+            "image": "shopify://shop_images/Byrdie-C-Serum-2020.png",
             "title": "Byrdie",
             "date": "February, 2020",
-            "text": "<p>\"...rich in vitamins, amino acids, and minerals that aid in reducing the appearance of fine lines and wrinkles.<br\/><\/p>",
+            "text": "<p>\"...rich in vitamins, amino acids, and minerals that aid in reducing the appearance of fine lines and wrinkles.<br/></p>",
             "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
-            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
+            "button_link": "/products/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_yACdtP": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/200103_Parade-Press-VC-Gold2.png",
+            "image": "shopify://shop_images/200103_Parade-Press-VC-Gold2.png",
             "title": "Parade Magazine",
             "date": "January, 2020",
-            "text": "<p>\"...will help restore youthfulness, tone and vibrancy to the skin.\"<\/p>",
+            "text": "<p>\"...will help restore youthfulness, tone and vibrancy to the skin.\"</p>",
             "button_label": "Featuring Vita Cura® B3 Elixir Complex",
-            "button_link": "\/collections\/vita-cura-gold-collection"
+            "button_link": "/collections/vita-cura-gold-collection"
           }
         },
         "text_block_FyfXRH": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Indulge-Magazine-Jan-2020-Update.png",
+            "image": "shopify://shop_images/Indulge-Magazine-Jan-2020-Update.png",
             "title": "Indulge Magazine",
             "date": "January, 2020",
             "text": "",
             "button_label": "Featuring Vita Cura® B3 Lifting Mask",
-            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-lifting-mask"
+            "button_link": "/collections/vita-cura-gold-collection/products/vita-cura-b3-lifting-mask"
           }
         },
         "text_block_yAbVfe": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DivaEDonna.png",
+            "image": "shopify://shop_images/DivaEDonna.png",
             "title": "Diva E Donna",
             "date": "September, 2019",
             "text": "",
             "button_label": "Featuring Vita Cura® Gold Collection",
-            "button_link": "\/collections\/vita-cura-gold-collection"
+            "button_link": "/collections/vita-cura-gold-collection"
           }
         },
         "text_block_gMctEB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GenLux-Peptide-Masks.png",
+            "image": "shopify://shop_images/GenLux-Peptide-Masks.png",
             "title": "GenLux Magazine",
             "date": "September, 2019",
-            "text": "<p>\"Your skin will be revitalized, lifted, and drenched in hydration.\"<\/p>",
+            "text": "<p>\"Your skin will be revitalized, lifted, and drenched in hydration.\"</p>",
             "button_label": "Featuring Triple Action Peptide Mask For All Skin Types",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/triple-action-peptide-mask"
+            "button_link": "/collections/cell-renewal-for-all-skin-types/products/triple-action-peptide-mask"
           }
         },
         "text_block_BPiqnM": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/191203_Shape-Press-VC-Gold.png",
+            "image": "shopify://shop_images/191203_Shape-Press-VC-Gold.png",
             "title": "Shape Magazine",
             "date": "December, 2019",
             "text": "",
             "button_label": "Featuring Vita Cura® B3 Serum Complex",
-            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-serum-complex"
+            "button_link": "/collections/vita-cura-gold-collection/products/vita-cura-b3-serum-complex"
           }
         },
         "text_block_8bzWJY": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A-List-Nation-Dec-2019.png",
+            "image": "shopify://shop_images/A-List-Nation-Dec-2019.png",
             "title": "A-List Nation",
             "date": "December, 2019",
             "text": "",
             "button_label": "Featuring Vita Cura® B3 Elixir Complex",
-            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-elixir-complex"
+            "button_link": "/collections/vita-cura-gold-collection/products/vita-cura-b3-elixir-complex"
           }
         },
         "text_block_qtcW4D": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glamour-Ottobre-VCGold-2019.png",
+            "image": "shopify://shop_images/Glamour-Ottobre-VCGold-2019.png",
             "title": "Glamour",
             "date": "October, 2019",
             "text": "",
             "button_label": "Featuring Vita Cura® Gold Collection",
-            "button_link": "\/collections\/vita-cura-gold-collection"
+            "button_link": "/collections/vita-cura-gold-collection"
           }
         },
         "text_block_7GpbCA": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marie-Claire-Sept-2019-VCGold-Co.png",
+            "image": "shopify://shop_images/Marie-Claire-Sept-2019-VCGold-Co.png",
             "title": "Marie Claire",
             "date": "September, 2019",
             "text": "",
             "button_label": "Featuring Vita Cura® Gold Collection",
-            "button_link": "\/collections\/vita-cura-gold-collection"
+            "button_link": "/collections/vita-cura-gold-collection"
           }
         },
         "text_block_pRFVdk": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elle-Italia-Weekly-19-Aug.png",
+            "image": "shopify://shop_images/Elle-Italia-Weekly-19-Aug.png",
             "title": "Elle Italia Weekly",
             "date": "September, 2019",
             "text": "",
             "button_label": "Featuring Vita Cura® B3 Serum Complex",
-            "button_link": "\/collections\/vita-cura-gold-collection\/products\/vita-cura-b3-serum-complex"
+            "button_link": "/collections/vita-cura-gold-collection/products/vita-cura-b3-serum-complex"
           }
         },
         "text_block_VyAhWC": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glamour-Lamina-Mask-Sept-2019.png",
+            "image": "shopify://shop_images/Glamour-Lamina-Mask-Sept-2019.png",
             "title": "Glamour",
             "date": "September, 2019",
             "text": "",
             "button_label": "Featuring Lamina Lift™ Hydrating Seaweed Mask For All Skin Types",
-            "button_link": "\/collections\/exfoliators-masks\/products\/repechage-lamina-lift-hydrating-seaweed-mask-for-all-skin-types"
+            "button_link": "/collections/exfoliators-masks/products/repechage-lamina-lift-hydrating-seaweed-mask-for-all-skin-types"
           }
         }
       },
@@ -807,10 +818,10 @@
         "text_block_PW4PrK": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/california_vibe-chocofina-mask-s.png",
+            "image": "shopify://shop_images/california_vibe-chocofina-mask-s.png",
             "title": "CV LUX",
             "date": "August, 2019",
-            "text": "<p>\"The best pumpkin skincare to spice up your routine now and every day of the year!\"Featuring FUSION™ Pumpkinfina Moisturizing Mask<\/p>",
+            "text": "<p>\"The best pumpkin skincare to spice up your routine now and every day of the year!\"Featuring FUSION™ Pumpkinfina Moisturizing Mask</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -818,10 +829,10 @@
         "text_block_6QRB8x": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/REPECHAGE-IO-DONNA-LUG-19.png",
+            "image": "shopify://shop_images/REPECHAGE-IO-DONNA-LUG-19.png",
             "title": "IO Donna",
             "date": "July, 2019",
-            "text": "<p>Featuring FUSION™ Matcha Lemongrass Face & Body Sugar Scrub<\/p>",
+            "text": "<p>Featuring FUSION™ Matcha Lemongrass Face & Body Sugar Scrub</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -829,65 +840,65 @@
         "text_block_VV9xcb": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Yoga-Life-C-Serum-June-19.png",
+            "image": "shopify://shop_images/Yoga-Life-C-Serum-June-19.png",
             "title": "Yoga Life",
             "date": "June, 2019",
-            "text": "<p>\"12 vitamins, 42 trace elements, like food for your skin.\"<\/p>",
+            "text": "<p>\"12 vitamins, 42 trace elements, like food for your skin.\"</p>",
             "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
-            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
+            "button_link": "/products/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_UX4BQB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cosmo-Italy-Rapidex-March-2019.png",
+            "image": "shopify://shop_images/Cosmo-Italy-Rapidex-March-2019.png",
             "title": "Cosmopolitan",
             "date": "March, 2019",
             "text": "",
             "button_label": "Featuring Rapidex® Marine Exfoliator With Phyto-Marine Actives",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+            "button_link": "/collections/cell-renewal-for-all-skin-types/products/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_FBpzpw": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/REPE-IMAGINE-FEB-19_2.png",
+            "image": "shopify://shop_images/REPE-IMAGINE-FEB-19_2.png",
             "title": "Imagine Magazine",
             "date": "February, 2019",
             "text": "",
             "button_label": "Featuring Mineral Face Shield®",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/face-shield"
+            "button_link": "/collections/cell-renewal-for-all-skin-types/products/face-shield"
           }
         },
         "text_block_6NpaRC": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/REPE-F-GEN-19.png",
+            "image": "shopify://shop_images/REPE-F-GEN-19.png",
             "title": "F Magazine",
             "date": "January, 2019",
             "text": "",
             "button_label": "Featuring Mineral Face Shield®",
-            "button_link": "\/collections\/cell-renewal-for-all-skin-types\/products\/face-shield"
+            "button_link": "/collections/cell-renewal-for-all-skin-types/products/face-shield"
           }
         },
         "text_block_8FKtMj": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2018-OK-MC.png",
+            "image": "shopify://shop_images/2018-OK-MC.png",
             "title": "Marie Claire",
             "date": "2018",
             "text": "",
             "button_label": "Featuring Hydra 4® Cleanser",
-            "button_link": "\/products\/hydra-4-cleanser-for-sensitive-skin"
+            "button_link": "/products/hydra-4-cleanser-for-sensitive-skin"
           }
         },
         "text_block_bQbzGL": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2018-Maggio-Vanity.png",
+            "image": "shopify://shop_images/2018-Maggio-Vanity.png",
             "title": "Vanity Fair",
             "date": "2018",
-            "text": "<p>Featuring Vita Cura® Triple Action Body Contour Cream<\/p>",
+            "text": "<p>Featuring Vita Cura® Triple Action Body Contour Cream</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -895,21 +906,21 @@
         "text_block_Ddbm96": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2018-04-Vanity-Fair-Italia-Pepti.png",
+            "image": "shopify://shop_images/2018-04-Vanity-Fair-Italia-Pepti.png",
             "title": "Vanity Fair",
             "date": "April 2018",
             "text": "",
             "button_label": "Featuring Triple Action Peptide Mask",
-            "button_link": "\/products\/triple-action-peptide-mask"
+            "button_link": "/products/triple-action-peptide-mask"
           }
         },
         "text_block_LQAgDN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2018-MAGGIO-COSMO.png",
+            "image": "shopify://shop_images/2018-MAGGIO-COSMO.png",
             "title": "Cosmopolitan",
             "date": "March 2018",
-            "text": "<p>Featuring FUSION™ Pumpkinfina Multivitamin Mask<\/p>",
+            "text": "<p>Featuring FUSION™ Pumpkinfina Multivitamin Mask</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -917,29 +928,29 @@
         "text_block_wy36aR": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2018-OK-ELLE.png",
+            "image": "shopify://shop_images/2018-OK-ELLE.png",
             "title": "OK ELLE",
             "date": "2018",
             "text": "",
             "button_label": "Featuring C-Serum® Seaweed Filtrate Face Serum",
-            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
+            "button_link": "/products/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_t8ibek": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-beachbag.png",
+            "image": "shopify://shop_images/2017-beachbag.png",
             "title": "Tripping",
             "date": "2017",
-            "text": "<p>\"This face mist is perfect for use anytime, anywhere.\"<\/p>",
+            "text": "<p>\"This face mist is perfect for use anytime, anywhere.\"</p>",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_69LpiX": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-04-Cosmopolitan-Marzo-small.png",
+            "image": "shopify://shop_images/2017-04-Cosmopolitan-Marzo-small.png",
             "title": "Cosmopolitan",
             "date": "April, 2017",
             "text": "",
@@ -950,32 +961,32 @@
         "text_block_NAgXCp": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-04-marie-claire-01.png",
+            "image": "shopify://shop_images/2017-04-marie-claire-01.png",
             "title": "Marie Claire",
             "date": "April, 2017",
             "text": "",
             "button_label": "Featuring BIOLIGHT™ Brightening Skin Correct Serum With Laminaria Complex",
-            "button_link": "\/products\/biolight-brightening-serum"
+            "button_link": "/products/biolight-brightening-serum"
           }
         },
         "text_block_whqKUJ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-04-ok-01.png",
+            "image": "shopify://shop_images/2017-04-ok-01.png",
             "title": "OK",
             "date": "March, 2017",
             "text": "",
             "button_label": "Featuring Sea Cleanse® Foaming Seaweed Cleanser",
-            "button_link": "\/products\/sea-cleanse-foaming-seaweed-cleanser"
+            "button_link": "/products/sea-cleanse-foaming-seaweed-cleanser"
           }
         },
         "text_block_igdVNa": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-03-parents-01.png",
+            "image": "shopify://shop_images/2017-03-parents-01.png",
             "title": "Parents",
             "date": "March, 2017",
-            "text": "<p>Featuring Vita Cura® Triple Action Nutrí Oil and Vita Cura® Triple Action Body Soufflé<\/p>",
+            "text": "<p>Featuring Vita Cura® Triple Action Nutrí Oil and Vita Cura® Triple Action Body Soufflé</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -983,18 +994,18 @@
         "text_block_iHj6qK": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-03-harpers-bazaar-01.png",
+            "image": "shopify://shop_images/2017-03-harpers-bazaar-01.png",
             "title": "Harper's Bazaar",
             "date": "March, 2017",
             "text": "",
             "button_label": "Featuring Opti-Cleanse™ Extra Gentle Non-Oily Eye Makeup Remover",
-            "button_link": "\/products\/opti-cleanse-extra-gentle-non-oily-eye-make-up-remover"
+            "button_link": "/products/opti-cleanse-extra-gentle-non-oily-eye-make-up-remover"
           }
         },
         "text_block_QK4mdf": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-03-27-Vanity-Fair-Marzo-sma.png",
+            "image": "shopify://shop_images/2017-03-27-Vanity-Fair-Marzo-sma.png",
             "title": "Vanity Fair",
             "date": "March 27, 2017",
             "text": "",
@@ -1005,76 +1016,76 @@
         "text_block_LB8q3z": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-03-ok-01.png",
+            "image": "shopify://shop_images/2017-03-ok-01.png",
             "title": "OK",
             "date": "February, 2017",
             "text": "",
             "button_label": "Featuring BIOLIGHT™ Brightening Miracle Mask With Laminaria Complex",
-            "button_link": "\/collections\/biolight-brightening-skin-care-products"
+            "button_link": "/collections/biolight-brightening-skin-care-products"
           }
         },
         "text_block_aUGNzU": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-02-10-leaves-of-yves.png",
+            "image": "shopify://shop_images/2017-02-10-leaves-of-yves.png",
             "title": "Leaves of Yves",
             "date": "February 10, 2017",
             "text": "",
             "button_label": "Featuring Eye Rescue Pads and C-Serum® Seaweed Filtrate",
-            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
+            "button_link": "/products/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_frbUTM": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-02-02-katiness.png",
+            "image": "shopify://shop_images/2017-02-02-katiness.png",
             "title": "byKatiness",
             "date": "February 2, 2017",
             "text": "",
             "button_label": "Featuring Eye Rescue Pads",
-            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
+            "button_link": "/products/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_rQexPJ": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-02-americansalon_feb2017_sk.png",
+            "image": "shopify://shop_images/2017-02-americansalon_feb2017_sk.png",
             "title": "American Salon",
             "date": "February, 2017",
             "text": "",
             "button_label": "Featuring Hydra Dew® collection",
-            "button_link": "\/collections\/hydra-dew-for-dry-skin"
+            "button_link": "/collections/hydra-dew-for-dry-skin"
           }
         },
         "text_block_LH9BBE": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/allure-eye-pads.png",
+            "image": "shopify://shop_images/allure-eye-pads.png",
             "title": "Allure",
             "date": "2017",
             "text": "",
             "button_label": "Featuring Eye Rescue Pads",
-            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
+            "button_link": "/products/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_XmkgN6": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-02-parents-1.png",
+            "image": "shopify://shop_images/2017-02-parents-1.png",
             "title": "Parents",
             "date": "February, 2017",
             "text": "",
             "button_label": "Featuring Hydra 4® Red Out Serum and Calming Cleanser",
-            "button_link": "\/collections\/hydra-4-red-out"
+            "button_link": "/collections/hydra-4-red-out"
           }
         },
         "text_block_cExhWb": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-02-elle-1.png",
+            "image": "shopify://shop_images/2017-02-elle-1.png",
             "title": "Elle",
             "date": "February, 2017",
-            "text": "<p>Featuring Perfect Skin Translucent Mineral Rich Loose Powder<\/p>",
+            "text": "<p>Featuring Perfect Skin Translucent Mineral Rich Loose Powder</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1082,10 +1093,10 @@
         "text_block_gmFUWF": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-02-ok-1.png",
+            "image": "shopify://shop_images/2017-02-ok-1.png",
             "title": "OK!",
             "date": "January, 2017",
-            "text": "<p>Featuring Vita Cura® Triple Action Nutrí Oil and Vita Cura® Triple Action Body Soufflé<\/p>",
+            "text": "<p>Featuring Vita Cura® Triple Action Nutrí Oil and Vita Cura® Triple Action Body Soufflé</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1093,76 +1104,76 @@
         "text_block_cMYADx": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-01-elle-1.png",
+            "image": "shopify://shop_images/2017-01-elle-1.png",
             "title": "Elle",
             "date": "January, 2017",
             "text": "",
             "button_label": "Featuring Sea Spa Hand Cream",
-            "button_link": "\/products\/sea-spa-hand-cream"
+            "button_link": "/products/sea-spa-hand-cream"
           }
         },
         "text_block_qKQqNw": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-01-shape-1.png",
+            "image": "shopify://shop_images/2017-01-shape-1.png",
             "title": "Shape",
             "date": "January, 2017",
             "text": "",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_7Xf6kB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017-01-ok-1.png",
+            "image": "shopify://shop_images/2017-01-ok-1.png",
             "title": "OK",
             "date": "December, 2016",
             "text": "",
             "button_label": "Featuring Hydro-Complex® PFS Daily Moisturizer",
-            "button_link": "\/products\/hydro-complex-pfs-for-dry-skin-types"
+            "button_link": "/products/hydro-complex-pfs-for-dry-skin-types"
           }
         },
         "text_block_xap4BA": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-12-Mens-Health.png",
+            "image": "shopify://shop_images/2016-12-Mens-Health.png",
             "title": "Men's Health",
             "date": "December, 2016",
             "text": "",
             "button_label": "Featuring Mineral Face Shield",
-            "button_link": "\/products\/face-shield"
+            "button_link": "/products/face-shield"
           }
         },
         "text_block_MxpW8g": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-12-12-F.png",
+            "image": "shopify://shop_images/2016-12-12-F.png",
             "title": "F",
             "date": "December 7, 2016",
             "text": "",
             "button_label": "Featuring Rapidex® Marine Exfoliator",
-            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+            "button_link": "/products/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_467yyH": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-11-16-MarieClaire.png",
+            "image": "shopify://shop_images/2016-11-16-MarieClaire.png",
             "title": "Marie Claire",
             "date": "November 16, 2016",
             "text": "",
             "button_label": "Featuring One-Minute Exfoliating Mask",
-            "button_link": "\/products\/repechage-one-minute-exfoliating-mask"
+            "button_link": "/products/repechage-one-minute-exfoliating-mask"
           }
         },
         "text_block_HAiKDP": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-11-16-Gioia.png",
+            "image": "shopify://shop_images/2016-11-16-Gioia.png",
             "title": "Gioia",
             "date": "November 16, 2016",
-            "text": "<p>Featuring Vita Cura®Triple Action Nutrí Créme<\/p>",
+            "text": "<p>Featuring Vita Cura®Triple Action Nutrí Créme</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1170,87 +1181,87 @@
         "text_block_VWJbMC": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-11-07-katiness.png",
+            "image": "shopify://shop_images/2016-11-07-katiness.png",
             "title": "byKatiness",
             "date": "November 2, 2016",
-            "text": "<p>\"Your skin will thank you plus your makeup will look better than ever!\"<\/p>",
+            "text": "<p>\"Your skin will thank you plus your makeup will look better than ever!\"</p>",
             "button_label": "One-Minute Exfoliating Mask",
-            "button_link": "\/products\/repechage-one-minute-exfoliating-mask"
+            "button_link": "/products/repechage-one-minute-exfoliating-mask"
           }
         },
         "text_block_Xc9H9N": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-10-stylecaster.png",
+            "image": "shopify://shop_images/2016-10-stylecaster.png",
             "title": "Stylecaster",
             "date": "October, 2016",
             "text": "",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_HF6nGC": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-09-new-beauty.png",
+            "image": "shopify://shop_images/2016-09-new-beauty.png",
             "title": "New You",
             "date": "Fall, 2016",
             "text": "",
             "button_label": "Featuring Hydra Medic® Astringent",
-            "button_link": "\/products\/hydra-medic-astringent"
+            "button_link": "/products/hydra-medic-astringent"
           }
         },
         "text_block_UyV8LT": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-09-14-new-you.png",
+            "image": "shopify://shop_images/2016-09-14-new-you.png",
             "title": "New You",
             "date": "September 14, 2016",
-            "text": "<p>\"A fast fix to instantly improve skintone and clarity.\"<\/p>",
+            "text": "<p>\"A fast fix to instantly improve skintone and clarity.\"</p>",
             "button_label": "Featuring One-Minute Exfoliating Mask",
-            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
+            "button_link": "/products/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_aqHRkM": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-08-12-mad-mama.png",
+            "image": "shopify://shop_images/2016-08-12-mad-mama.png",
             "title": "Mad Mama",
             "date": "August 12, 2016",
             "text": "",
             "button_label": "Featuring C-Serum® Seaweed Filtrate",
-            "button_link": "\/products\/c-serum-seaweed-filtrate-face-serum-new-size"
+            "button_link": "/products/c-serum-seaweed-filtrate-face-serum-new-size"
           }
         },
         "text_block_7f8ngW": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-08-MarieClaire-agosto-total.png",
+            "image": "shopify://shop_images/2016-08-MarieClaire-agosto-total.png",
             "title": "Marie Claire Italia",
             "date": "August, 2016",
             "text": "",
             "button_label": "Featuring Conditioning Lip Gloss Aura",
-            "button_link": "\/products\/conditioning-lip-gloss-aura"
+            "button_link": "/products/conditioning-lip-gloss-aura"
           }
         },
         "text_block_T63xHb": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2016-07-13-new-you.png",
+            "image": "shopify://shop_images/2016-07-13-new-you.png",
             "title": "New You",
             "date": "July 13, 2016",
-            "text": "<p>\"Repêchage Fusion All Natural Face Moisturizer delivers the nourishment your skin craves.\"<\/p>",
+            "text": "<p>\"Repêchage Fusion All Natural Face Moisturizer delivers the nourishment your skin craves.\"</p>",
             "button_label": "Featuring Fusion All Natural At Home Products",
-            "button_link": "\/collections\/fusion"
+            "button_link": "/collections/fusion"
           }
         },
         "text_block_mBmgUe": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/160510-InStyle.png",
+            "image": "shopify://shop_images/160510-InStyle.png",
             "title": "InStyle",
             "date": "May 10, 2016",
-            "text": "<p>\"In total, the whole thing took about 10 minutes and for the most part, only hurt slightly more than an eyebrow wax.\" --Erin Lukas, Beauty Writer<\/p>",
+            "text": "<p>\"In total, the whole thing took about 10 minutes and for the most part, only hurt slightly more than an eyebrow wax.\" --Erin Lukas, Beauty Writer</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1258,32 +1269,32 @@
         "text_block_WVe6zH": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1602-beautyinfozone.png",
+            "image": "shopify://shop_images/1602-beautyinfozone.png",
             "title": "Beauty Info Zone",
             "date": "February 2, 2016",
-            "text": "<p>\"perfect for any time of day or night. They are refreshing and eye brightening.\"<\/p>",
+            "text": "<p>\"perfect for any time of day or night. They are refreshing and eye brightening.\"</p>",
             "button_label": "Featuring Repêchage Eye Rescue Pads",
-            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
+            "button_link": "/products/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_M3XVMY": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/newsday_e213f1de-f108-49d6-b4ae.png",
+            "image": "shopify://shop_images/newsday_e213f1de-f108-49d6-b4ae.png",
             "title": "Newsday",
             "date": "February 1, 2016",
-            "text": "<p>\"No time for a spa treatment? Get that silky, smooth-skin feeling with Seaweed Body Cream.\"<\/p>",
+            "text": "<p>\"No time for a spa treatment? Get that silky, smooth-skin feeling with Seaweed Body Cream.\"</p>",
             "button_label": "Featuring Seaweed Body Cream",
-            "button_link": "\/products\/sea-spa-seaweed-body-cream"
+            "button_link": "/products/sea-spa-seaweed-body-cream"
           }
         },
         "text_block_VdGe8P": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20160209-kale.png",
+            "image": "shopify://shop_images/20160209-kale.png",
             "title": "Organic Life",
             "date": "January 26, 2016",
-            "text": "<p>\"Lydia Sarfati was one of the first to bring high-quality seaweed harvested off the coasts of France and Maine to skincare in the U.S.\"<\/p>",
+            "text": "<p>\"Lydia Sarfati was one of the first to bring high-quality seaweed harvested off the coasts of France and Maine to skincare in the U.S.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1291,10 +1302,10 @@
         "text_block_fYpYjG": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/goodness.png",
+            "image": "shopify://shop_images/goodness.png",
             "title": "Well + Good",
             "date": "January, 2016",
-            "text": "<p>\"The bioactive substances derived from seaweed provide a beneficial and functional role at the cellular level, contributing to healthy looking skin, hair, and nails.\"<\/p>",
+            "text": "<p>\"The bioactive substances derived from seaweed provide a beneficial and functional role at the cellular level, contributing to healthy looking skin, hair, and nails.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1302,56 +1313,56 @@
         "text_block_arfzYR": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2015-09-08-korean-flight.png",
+            "image": "shopify://shop_images/2015-09-08-korean-flight.png",
             "title": "Korean Flight Attendants’ Guide to K-Beauty",
             "date": "September 8, 2015",
             "text": "",
             "button_label": "Featuring Rapidex® Marine Exfoliator",
-            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+            "button_link": "/products/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_HKWLJe": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/extra_8bc74768-6cb1-4220-95c2-14.png",
+            "image": "shopify://shop_images/extra_8bc74768-6cb1-4220-95c2-14.png",
             "title": "Extra TV",
             "date": "October, 2015",
-            "text": "<p>As Seen On EXTRA TV! Featuring our Perfect Skin Gift Set. The perfect gift and stocking stuffer this holiday season.<\/p>",
+            "text": "<p>As Seen On EXTRA TV! Featuring our Perfect Skin Gift Set. The perfect gift and stocking stuffer this holiday season.</p>",
             "button_label": "Featuring The Perfect Skin Gift Set",
-            "button_link": "https:\/\/www.repechage.com\/"
+            "button_link": "https://www.repechage.com/"
           }
         },
         "text_block_dnDDFT": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Beauty-News.png",
+            "image": "shopify://shop_images/Beauty-News.png",
             "title": "Beauty News",
             "date": "October, 2015",
-            "text": "<p>\"We protect our skin from the sun, but forget that urban toxicity and pollution age it too with oxidative stress.\"<\/p>",
+            "text": "<p>\"We protect our skin from the sun, but forget that urban toxicity and pollution age it too with oxidative stress.\"</p>",
             "button_label": "Featuring Mineral Face Shield",
-            "button_link": "\/products\/face-shield"
+            "button_link": "/products/face-shield"
           }
         },
         "text_block_QFGjC3": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/150921_Press_WBeauty-Sm.png",
+            "image": "shopify://shop_images/150921_Press_WBeauty-Sm.png",
             "title": "W Beauty",
             "date": "August, 2015",
-            "text": "<p>\"W's beauty director is fighting redness and irritation with her new favorite skincare product... Red Out keeps its promise.\"<\/p>",
+            "text": "<p>\"W's beauty director is fighting redness and irritation with her new favorite skincare product... Red Out keeps its promise.\"</p>",
             "button_label": "Featuring Hydra 4 Red Out Cleanser & Serum",
-            "button_link": "\/collections\/skin-sensitivity-redness"
+            "button_link": "/collections/skin-sensitivity-redness"
           }
         },
         "text_block_TyarUA": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/150921_Press_NewYou-Sm.png",
+            "image": "shopify://shop_images/150921_Press_NewYou-Sm.png",
             "title": "New You Magazine",
             "date": "August, 2015",
-            "text": "<p>\"Repêchage's Hydra 4 Red-Out Calming Cleanser and Serum are the perfect duo to battle against hypersensitive skin and rosacea.\"<\/p>",
+            "text": "<p>\"Repêchage's Hydra 4 Red-Out Calming Cleanser and Serum are the perfect duo to battle against hypersensitive skin and rosacea.\"</p>",
             "button_label": "Featuring Hydra 4 Red Out Cleanser & Serum",
-            "button_link": "\/collections\/skin-sensitivity-redness"
+            "button_link": "/collections/skin-sensitivity-redness"
           }
         }
       },
@@ -1422,10 +1433,10 @@
         "text_block_Ti4kDn": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/150331_W-Magazine.png",
+            "image": "shopify://shop_images/150331_W-Magazine.png",
             "title": "W Magazine",
             "date": "March 31, 2015",
-            "text": "<p>\"When it comes to waxing, no pain means no gain. But Repêchage’s new treatment aims to turn a hair-raising experience into a soothing one.\"<\/p>",
+            "text": "<p>\"When it comes to waxing, no pain means no gain. But Repêchage’s new treatment aims to turn a hair-raising experience into a soothing one.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1433,10 +1444,10 @@
         "text_block_6LgPry": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/150303_ny-magazine.png",
+            "image": "shopify://shop_images/150303_ny-magazine.png",
             "title": "New York Magazine",
             "date": "March 9-22, 2015",
-            "text": "<p>\"This elusive \"artisan seaweed wax experience\" came to town in January, incorporating seaweed from the Brittany coast...\"<\/p>",
+            "text": "<p>\"This elusive \"artisan seaweed wax experience\" came to town in January, incorporating seaweed from the Brittany coast...\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1444,10 +1455,10 @@
         "text_block_bLbQ6b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/extra2_fda34136-ea2a-40e7-acb5-8.png",
+            "image": "shopify://shop_images/extra2_fda34136-ea2a-40e7-acb5-8.png",
             "title": "Extra TV",
             "date": "February, 2015",
-            "text": "<p>We are thrilled to share with you this clip from ExtraTV!<\/p>",
+            "text": "<p>We are thrilled to share with you this clip from ExtraTV!</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1455,10 +1466,10 @@
         "text_block_VGwHyN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/140919_DrOz.png",
+            "image": "shopify://shop_images/140919_DrOz.png",
             "title": "Dr. Oz The Good Life",
             "date": "October, 2014",
-            "text": "<p>\"an extraordinary moisturizer that may also have anti-inflammatory properties\" - Adam Friedman, M.D.<\/p><p>Featuring Vita Cura® Triple Action Nutrí Créme<\/p>",
+            "text": "<p>\"an extraordinary moisturizer that may also have anti-inflammatory properties\" - Adam Friedman, M.D.</p><p>Featuring Vita Cura® Triple Action Nutrí Créme</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1466,43 +1477,43 @@
         "text_block_MYRykT": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/140501_USWeekly.png",
+            "image": "shopify://shop_images/140501_USWeekly.png",
             "title": "US Weekly",
             "date": "May, 2014",
-            "text": "<p>Skin-firming seaweed extract \"dries into a thin, protective film, which smooths out indentations\"<\/p>",
+            "text": "<p>Skin-firming seaweed extract \"dries into a thin, protective film, which smooths out indentations\"</p>",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_b3tQUm": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/140501_MarieClaire.png",
+            "image": "shopify://shop_images/140501_MarieClaire.png",
             "title": "Marie Claire",
             "date": "May, 2014",
-            "text": "<p>\"I always have a travel size in my bag\"<\/p>",
+            "text": "<p>\"I always have a travel size in my bag\"</p>",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_yfzicf": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/130327_RachelRayA.png",
+            "image": "shopify://shop_images/130327_RachelRayA.png",
             "title": "EveryDay with Rachael Ray",
             "date": "April, 2013",
-            "text": "<p>\"Plunge the tube into a large mug of ice cubes and cold water, then dump in a handful of salt.\"<\/p>",
+            "text": "<p>\"Plunge the tube into a large mug of ice cubes and cold water, then dump in a handful of salt.\"</p>",
             "button_label": "Featuring One-Minute Exfoliating Mask",
-            "button_link": "\/products\/repechage-one-minute-exfoliating-mask"
+            "button_link": "/products/repechage-one-minute-exfoliating-mask"
           }
         },
         "text_block_PeLiXU": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/130327_WallStreet.png",
+            "image": "shopify://shop_images/130327_WallStreet.png",
             "title": "Wall Street Journal",
             "date": "March, 2013",
-            "text": "<p>\"This is the latest trend: businesswomen and businessmen getting facials on their lunch hour...\" - Shiri Sarfati<\/p>",
+            "text": "<p>\"This is the latest trend: businesswomen and businessmen getting facials on their lunch hour...\" - Shiri Sarfati</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1510,32 +1521,32 @@
         "text_block_MYfVUB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/120601_CosmoLatina.png",
+            "image": "shopify://shop_images/120601_CosmoLatina.png",
             "title": "Cosmopolitan Latina",
             "date": "Summer, 2012",
-            "text": "<p>\"We like Biolight Brightening Miracle Mask to combat the dreaded<em>mancha<\/em>moustache.\"<\/p>",
+            "text": "<p>\"We like Biolight Brightening Miracle Mask to combat the dreaded<em>mancha</em>moustache.\"</p>",
             "button_label": "Featuring Biolight™ Brightening Miracle Mask",
-            "button_link": "\/collections\/biolight-brightening-skin-care-products"
+            "button_link": "/collections/biolight-brightening-skin-care-products"
           }
         },
         "text_block_mj7iqh": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/120101_Pregnancy.png",
+            "image": "shopify://shop_images/120101_Pregnancy.png",
             "title": "Pregnancy & Newborn Magazine",
             "date": "January, 2012",
-            "text": "<p>\"...the Biolight Collection helps reduce the appearance of pregnancy mask, uneven skin tone..\"<\/p>",
+            "text": "<p>\"...the Biolight Collection helps reduce the appearance of pregnancy mask, uneven skin tone..\"</p>",
             "button_label": "Featuring Repêchage Biolight™",
-            "button_link": "\/collections\/biolight-brightening-skin-care-products"
+            "button_link": "/collections/biolight-brightening-skin-care-products"
           }
         },
         "text_block_7fm7QR": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/120101_Elle.png",
+            "image": "shopify://shop_images/120101_Elle.png",
             "title": "Elle.com",
             "date": "January, 2012",
-            "text": "<p>\"Repêchage Sea Spa Mineral Bath Salts are harvested from the Mediterranean sea\"<\/p>",
+            "text": "<p>\"Repêchage Sea Spa Mineral Bath Salts are harvested from the Mediterranean sea\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1543,43 +1554,43 @@
         "text_block_C3AkHf": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/120106_CosmoUK.png",
+            "image": "shopify://shop_images/120106_CosmoUK.png",
             "title": "Cosmopolitan UK",
             "date": "January, 2012",
-            "text": "<p>\"My face looked and felt so clean and soft after this...\"<\/p>",
+            "text": "<p>\"My face looked and felt so clean and soft after this...\"</p>",
             "button_label": "Featuring Hydra Medic®Sea Mud Perfecting Mask",
-            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
+            "button_link": "/products/hydra-medic-sea-mud-perfecting-mask"
           }
         },
         "text_block_PfXYxn": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/120106_RedUK.png",
+            "image": "shopify://shop_images/120106_RedUK.png",
             "title": "Red UK",
             "date": "January, 2012",
-            "text": "<p>\"an instant pick-me-up for tired skin.\"<\/p>",
+            "text": "<p>\"an instant pick-me-up for tired skin.\"</p>",
             "button_label": "Featuring Biolight™ Brightening Miracle Mask",
-            "button_link": "\/collections\/biolight-brightening-skin-care-products"
+            "button_link": "/collections/biolight-brightening-skin-care-products"
           }
         },
         "text_block_iGN6eY": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/110801_Star.png",
+            "image": "shopify://shop_images/110801_Star.png",
             "title": "Star",
             "date": "September, 2011",
-            "text": "<p>\"She left the spa with this product in tow: Repêchage Rapidex:<\/p>",
+            "text": "<p>\"She left the spa with this product in tow: Repêchage Rapidex:</p>",
             "button_label": "Featuring Rapidex® Marine Exfoliator with Phyto-Marine Actives",
-            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+            "button_link": "/products/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_9NXKjc": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/110901_Glamour.png",
+            "image": "shopify://shop_images/110901_Glamour.png",
             "title": "Glamour",
             "date": "August, 2011",
-            "text": "<p>\"Our favorite picks for your face-to-foot sensitive-skin needs\"<\/p><p>Featuring Hydra 4® Tonic Travel Size<\/p>",
+            "text": "<p>\"Our favorite picks for your face-to-foot sensitive-skin needs\"</p><p>Featuring Hydra 4® Tonic Travel Size</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1587,10 +1598,10 @@
         "text_block_P4BQP4": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/110501_Redbook.png",
+            "image": "shopify://shop_images/110501_Redbook.png",
             "title": "Redbook",
             "date": "May, 2011",
-            "text": "<p>\"The best blend of tension-quelling ingredients (mandarin, spearmint, and lavender) under one lid.\"<\/p>",
+            "text": "<p>\"The best blend of tension-quelling ingredients (mandarin, spearmint, and lavender) under one lid.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1598,10 +1609,10 @@
         "text_block_f3VJRX": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/101215_allure.png",
+            "image": "shopify://shop_images/101215_allure.png",
             "title": "Allure",
             "date": "December, 2010",
-            "text": "<p>\"A capful of these salts, infused with grapefruit and mint essential oils, makes for a rejuvenating bath.\"<\/p>",
+            "text": "<p>\"A capful of these salts, infused with grapefruit and mint essential oils, makes for a rejuvenating bath.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1609,10 +1620,10 @@
         "text_block_xE6TjY": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/100401_Glamour.png",
+            "image": "shopify://shop_images/100401_Glamour.png",
             "title": "Glamour",
             "date": "April, 2010",
-            "text": "<p>\"Products have come a long way since cold cream. Now we have peptides that produce more collagen, and molecules that can prevent deep wrinkles.\" - Lydia Sarfati<\/p>",
+            "text": "<p>\"Products have come a long way since cold cream. Now we have peptides that produce more collagen, and molecules that can prevent deep wrinkles.\" - Lydia Sarfati</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1620,76 +1631,76 @@
         "text_block_fGBLqh": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/100301_london-times.png",
+            "image": "shopify://shop_images/100301_london-times.png",
             "title": "London Times",
             "date": "February, 2010",
-            "text": "<p>\"brilliant to have on stand-by for break-outs.\"<\/p>",
+            "text": "<p>\"brilliant to have on stand-by for break-outs.\"</p>",
             "button_label": "Featuring Hydra Medic® Clear Complexion Drying Lotion",
-            "button_link": "\/products\/hydra-medic-clear-complexion-drying-lotion"
+            "button_link": "/products/hydra-medic-clear-complexion-drying-lotion"
           }
         },
         "text_block_t3fGHP": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1002_glamour.png",
+            "image": "shopify://shop_images/1002_glamour.png",
             "title": "Glamour",
             "date": "February, 2010",
-            "text": "<p>\"Work cleanser onto skin for about 15 seconds--any longer is overkill.\" - Lydia Sarfati<\/p>",
+            "text": "<p>\"Work cleanser onto skin for about 15 seconds--any longer is overkill.\" - Lydia Sarfati</p>",
             "button_label": "Featuring Sea Cleanse® Foaming Seaweed Cleanser",
-            "button_link": "\/products\/sea-cleanse-foaming-seaweed-cleanser"
+            "button_link": "/products/sea-cleanse-foaming-seaweed-cleanser"
           }
         },
         "text_block_Uzi38y": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ElleUK0907.png",
+            "image": "shopify://shop_images/ElleUK0907.png",
             "title": "Elle UK",
             "date": "July, 2009",
-            "text": "<p>\"Apply a deep-cleansing mask once a fortnight. ...soothes spots, too.\"<\/p>",
+            "text": "<p>\"Apply a deep-cleansing mask once a fortnight. ...soothes spots, too.\"</p>",
             "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
-            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
+            "button_link": "/products/hydra-medic-sea-mud-perfecting-mask"
           }
         },
         "text_block_77FTFL": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glamour0809.png",
+            "image": "shopify://shop_images/Glamour0809.png",
             "title": "Glamour",
             "date": "September, 2008",
-            "text": "<p>\"I have to put this on my face at least twice daily or it feels like something's missing\"<\/p>",
+            "text": "<p>\"I have to put this on my face at least twice daily or it feels like something's missing\"</p>",
             "button_label": "Featuring Vita Cura® Triple Firming Cream",
-            "button_link": "\/products\/vita-cura-triple-firming-cream-1oz"
+            "button_link": "/products/vita-cura-triple-firming-cream-1oz"
           }
         },
         "text_block_WxDgTz": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/redbook0806.png",
+            "image": "shopify://shop_images/redbook0806.png",
             "title": "Redbook",
             "date": "June, 2008",
-            "text": "<p>\"Pore extractions stop future breakouts, and irritation is calmed.\"<\/p>",
+            "text": "<p>\"Pore extractions stop future breakouts, and irritation is calmed.\"</p>",
             "button_label": "Featuring Hydra Medic® Sea Mud Perfecting Mask",
-            "button_link": "\/products\/hydra-medic-sea-mud-perfecting-mask"
+            "button_link": "/products/hydra-medic-sea-mud-perfecting-mask"
           }
         },
         "text_block_qbrTWX": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/USWeekly0805.png",
+            "image": "shopify://shop_images/USWeekly0805.png",
             "title": "US Weekly",
             "date": "May, 2008",
-            "text": "<p>\"Hollywood pros share the latest in-office and at-home treatments.\"<\/p>",
+            "text": "<p>\"Hollywood pros share the latest in-office and at-home treatments.\"</p>",
             "button_label": "Featuring Hydra Medic® Face Wash Foaming Gel Cleanser",
-            "button_link": "\/products\/hydra-medic-face-wash-foaming-gel-cleanser"
+            "button_link": "/products/hydra-medic-face-wash-foaming-gel-cleanser"
           }
         },
         "text_block_ieREg8": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/allure0408.png",
+            "image": "shopify://shop_images/allure0408.png",
             "title": "Allure",
             "date": "April, 2008",
-            "text": "<p>\"The Repechage Four Layer Seaweed Treatment Mask is a favorite at Beauty & Bliss Skin and Laser Center in Brookline, Massachusetts.\"<\/p>",
+            "text": "<p>\"The Repechage Four Layer Seaweed Treatment Mask is a favorite at Beauty & Bliss Skin and Laser Center in Brookline, Massachusetts.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1697,21 +1708,21 @@
         "text_block_BphnaH": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MoreDec06.png",
+            "image": "shopify://shop_images/MoreDec06.png",
             "title": "More Magazine",
             "date": "December, 2006...help firm, brighten and smooth.",
-            "text": "<p>...help firm, brighten and smooth.<\/p>",
+            "text": "<p>...help firm, brighten and smooth.</p>",
             "button_label": "Featuring Rapidex® Marine Exfoliator with Phyto-Marine Actives",
-            "button_link": "\/products\/rapidex-marine-hydroxy-acid-rapid-exfoliator"
+            "button_link": "/products/rapidex-marine-hydroxy-acid-rapid-exfoliator"
           }
         },
         "text_block_bFJVLD": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LuckyDec06.png",
+            "image": "shopify://shop_images/LuckyDec06.png",
             "title": "Lucky Magazine",
             "date": "December, 2006",
-            "text": "<p>There's an intensive pomegranate scrub before the stone massage; at the end, you get a second round of hot stones and a rubdown with rich shea butter cream...<\/p>",
+            "text": "<p>There's an intensive pomegranate scrub before the stone massage; at the end, you get a second round of hot stones and a rubdown with rich shea butter cream...</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1719,10 +1730,10 @@
         "text_block_pkzrNH": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GlamourJune06.png",
+            "image": "shopify://shop_images/GlamourJune06.png",
             "title": "Glamour",
             "date": "June, 2006",
-            "text": "<p>Sea Spa Body Wash -- \"left my skin so baby-soft that I didn't need any moisturizer after my shower.\"<\/p>",
+            "text": "<p>Sea Spa Body Wash -- \"left my skin so baby-soft that I didn't need any moisturizer after my shower.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1730,10 +1741,10 @@
         "text_block_KcCK7G": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tbeauty.png",
+            "image": "shopify://shop_images/tbeauty.png",
             "title": "NY Times",
             "date": "October, 2005",
-            "text": "<p>Deborah Turbeville , who is serious about skin care, uses only Repêchage products.\"I have very delicate skin and I take almost too good care of it\", she says.<\/p>",
+            "text": "<p>Deborah Turbeville , who is serious about skin care, uses only Repêchage products.\"I have very delicate skin and I take almost too good care of it\", she says.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1741,10 +1752,10 @@
         "text_block_bxbMdN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogueBrit.png",
+            "image": "shopify://shop_images/vogueBrit.png",
             "title": "Vogue UK",
             "date": "November, 2005",
-            "text": "<p>\"...use this double-ended facial roller to treat the face, neck and décolletage to a massage that will leave skin looking revived.\"<\/p>",
+            "text": "<p>\"...use this double-ended facial roller to treat the face, neck and décolletage to a massage that will leave skin looking revived.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1752,21 +1763,21 @@
         "text_block_mB3KhN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EssenceSept05.png",
+            "image": "shopify://shop_images/EssenceSept05.png",
             "title": "Essence",
             "date": "September, 2005",
-            "text": "<p>\"Sustain that dewy glow well beyond summer, keep hydration at your fingertips.\"<\/p>",
+            "text": "<p>\"Sustain that dewy glow well beyond summer, keep hydration at your fingertips.\"</p>",
             "button_label": "Featuring Algo Mist® Hydrating Seaweed Facial Spray",
-            "button_link": "\/products\/algo-mist-hydrating-seaweed-facial-spray-2"
+            "button_link": "/products/algo-mist-hydrating-seaweed-facial-spray-2"
           }
         },
         "text_block_Ly4Urh": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LuckyAug05.png",
+            "image": "shopify://shop_images/LuckyAug05.png",
             "title": "Lucky",
             "date": "August, 2005",
-            "text": "<p>\"This tea-infused de-stresser is literally a miracle worker on sunburns and irritated skin\"<\/p>",
+            "text": "<p>\"This tea-infused de-stresser is literally a miracle worker on sunburns and irritated skin\"</p>",
             "button_label": "Hydra Soleil® Deep Relief Tea Gel",
             "button_link": ""
           }
@@ -1774,10 +1785,10 @@
         "text_block_Qb6TtL": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/glamourcellulitemarch05.png",
+            "image": "shopify://shop_images/glamourcellulitemarch05.png",
             "title": "Glamour",
             "date": "March, 2005",
-            "text": "<p>\"Slather-em on and you'll have smoother skin in about a month.\"<\/p>",
+            "text": "<p>\"Slather-em on and you'll have smoother skin in about a month.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1785,21 +1796,21 @@
         "text_block_q6A4MU": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glamour-concealer-Jan-05.png",
+            "image": "shopify://shop_images/Glamour-concealer-Jan-05.png",
             "title": "Glamour",
             "date": "January, 2005",
-            "text": "<p>\"After a late, late night, my eyes needed help. This de-puffed 'em!\"<\/p>",
+            "text": "<p>\"After a late, late night, my eyes needed help. This de-puffed 'em!\"</p>",
             "button_label": "Featuring Repêchage Perfecting Concealer",
-            "button_link": "\/search?type=product&q=concealer"
+            "button_link": "/search?type=product&q=concealer"
           }
         },
         "text_block_DniQXM": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HarperUK_0505.png",
+            "image": "shopify://shop_images/HarperUK_0505.png",
             "title": "Harpers & Queens UK",
             "date": "May, 2005",
-            "text": "<p>\"Using natural ingredients including seaweed, Repêchage's treatment hydrates and balances the skin, leaving it super-clean and looking flawless.\"<\/p>",
+            "text": "<p>\"Using natural ingredients including seaweed, Repêchage's treatment hydrates and balances the skin, leaving it super-clean and looking flawless.\"</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -1807,10 +1818,10 @@
         "text_block_UEMgX8": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GlamourOctoberVitaCuraFirmingCre.png",
+            "image": "shopify://shop_images/GlamourOctoberVitaCuraFirmingCre.png",
             "title": "Glamour",
             "date": "October, 2004",
-            "text": "<p>\"All testers reported having less-visible fine lines after two to four weeks.\"<\/p>",
+            "text": "<p>\"All testers reported having less-visible fine lines after two to four weeks.\"</p>",
             "button_label": "Vita Cura® Triple Firming Cream",
             "button_link": ""
           }
@@ -1818,34 +1829,34 @@
         "text_block_WVJmtR": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RedBook_12_03.png",
+            "image": "shopify://shop_images/RedBook_12_03.png",
             "title": "Red Book",
             "date": "December, 2003",
-            "text": "<p>Tried and Tested: Repêchage Colour Actif Lip Gloss<\/p>",
+            "text": "<p>Tried and Tested: Repêchage Colour Actif Lip Gloss</p>",
             "button_label": "Featuring Conditioning Lip Gloss",
-            "button_link": "\/search?type=product&q=lip+gloss"
+            "button_link": "/search?type=product&q=lip+gloss"
           }
         },
         "text_block_mnNmHr": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MarieClaire_01_04.png",
+            "image": "shopify://shop_images/MarieClaire_01_04.png",
             "title": "Marie Claire",
             "date": "January, 2004",
-            "text": "<p>\"The pads soothed my skin right away...\"<\/p>",
+            "text": "<p>\"The pads soothed my skin right away...\"</p>",
             "button_label": "Featuring Eye Rescue Pads with Seaweed and Natural Tea Extracts",
-            "button_link": "\/products\/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
+            "button_link": "/products/eye-rescue-pads-with-seaweed-and-natural-tea-extracts"
           }
         },
         "text_block_NCgjKk": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lucky_01_04.png",
+            "image": "shopify://shop_images/Lucky_01_04.png",
             "title": "Lucky",
             "date": "January, 2004",
-            "text": "<p>\"It's made with seaweed and light reflectors... radiant and smooth.\"<\/p>",
+            "text": "<p>\"It's made with seaweed and light reflectors... radiant and smooth.\"</p>",
             "button_label": "About Lydia Sarfati",
-            "button_link": "\/pages\/about-lydia-sarfati"
+            "button_link": "/pages/about-lydia-sarfati"
           }
         }
       },
