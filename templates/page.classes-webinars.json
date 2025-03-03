@@ -389,6 +389,7 @@
         },
         "class_zMniJT": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "March",
             "date": "2",
