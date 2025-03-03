@@ -146,40 +146,6 @@
         "padding_bottom_m": 60
       }
     },
-    "rich_text_np8xVN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fWU3J7": {
-          "type": "heading",
-          "settings": {
-            "title": "SHOP BY VIDEO",
-            "title_color": "#000000"
-          }
-        },
-        "text_XP96GR": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Discover How Our Best-Loved Products Shine in Real Life Through Genuine Testimonials from People Who Truly Use and Love Them</p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fWU3J7",
-        "text_XP96GR"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "bg_color": "",
-        "divider": false
-      }
-    },
     "1736795386f07fe033": {
       "type": "apps",
       "blocks": {
@@ -409,6 +375,40 @@
         "padding_bottom": 30,
         "padding_top_m": 50,
         "padding_bottom_m": 80,
+        "divider": false
+      }
+    },
+    "rich_text_np8xVN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fWU3J7": {
+          "type": "heading",
+          "settings": {
+            "title": "SHOP BY VIDEO",
+            "title_color": "#000000"
+          }
+        },
+        "text_XP96GR": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Discover How Our Best-Loved Products Shine in Real Life Through Genuine Testimonials from People Who Truly Use and Love Them</p>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fWU3J7",
+        "text_XP96GR"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "bg_color": "",
         "divider": false
       }
     },
@@ -1012,12 +1012,12 @@
   },
   "order": [
     "slideshow_ybDcnc",
+    "custom_text_with_logos_VBrHLU",
     "featured_collection_U6DUhq",
-    "rich_text_np8xVN",
-    "1736795386f07fe033",
     "custom_featured_collection_tabs_PaGxFn",
     "slideshow_NgxpwR",
-    "custom_text_with_logos_VBrHLU",
+    "rich_text_np8xVN",
+    "1736795386f07fe033",
     "custom_image_slider_with_text_gBLLcE",
     "featured_collections_xaap9R",
     "text_and_image_hPkL8i",
