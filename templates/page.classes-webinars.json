@@ -377,6 +377,7 @@
         },
         "class_3PPnBj": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "2-3",
@@ -402,6 +403,7 @@
         },
         "class_qALGTx": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "4",
