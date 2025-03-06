@@ -487,6 +487,18 @@
             "button_link": "https://livelovespa.regfox.com/live-love-spa-dallas-2025REGISTER"
           }
         },
+        "class_FeL79m": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "3",
+            "class": "DAY OF EMPOWERMENT",
+            "title": "DAY OF EMPOWERMENT",
+            "text": "<p><strong>Location: New York City <br/><br/></strong>More information to follow soon.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
         "class_n7KmBt": {
           "type": "class",
           "settings": {
@@ -605,6 +617,7 @@
         "class_tzfCtV",
         "class_D3zE4e",
         "class_nEQ7C7",
+        "class_FeL79m",
         "class_n7KmBt",
         "class_x9pFqN",
         "class_dUNqX4",
