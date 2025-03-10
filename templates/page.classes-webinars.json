@@ -260,6 +260,7 @@
         },
         "class_Ge8FRz": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "10",
