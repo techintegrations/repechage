@@ -56,7 +56,7 @@
         "heading_T476Qj": {
           "type": "heading",
           "settings": {
-            "title": "CLASES MAESTRA EN ESPANOL 2025",
+            "title": "CLASES MAESTRA EN ESPANOL",
             "title_color": "#000000"
           }
         }
@@ -207,6 +207,19 @@
             "button_label": "Register",
             "button_link": "https://www.lydiasarfati.com/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
           }
+        },
+        "class_ggCBff": {
+          "type": "class",
+          "disabled": true,
+          "settings": {
+            "month": "",
+            "date": "2025",
+            "class": "WEBINAR",
+            "title": "ANTIENVEJECIMIENTO: PIELES MENOPÁUSICAS MAYORES DE 40 AÑOS",
+            "text": "",
+            "button_label": "Register",
+            "button_link": "https://www.lydiasarfati.com/courses/spanish"
+          }
         }
       },
       "block_order": [
@@ -219,7 +232,8 @@
         "class_4mLkCm",
         "class_LNmU4c",
         "class_LfFjkc",
-        "class_V4CiDj"
+        "class_V4CiDj",
+        "class_ggCBff"
       ],
       "settings": {
         "bg_color": "",
