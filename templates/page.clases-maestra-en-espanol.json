@@ -208,16 +208,28 @@
             "button_link": "https://www.lydiasarfati.com/2024-11-25-antienvejecimiento-pieles-menopausicas-mayores-de-40-anos.php"
           }
         },
-        "class_ggCBff": {
+        "class_49yLqQ": {
           "type": "class",
           "disabled": true,
           "settings": {
             "month": "",
-            "date": "2025",
-            "class": "WEBINAR",
-            "title": "ANTIENVEJECIMIENTO: PIELES MENOPÁUSICAS MAYORES DE 40 AÑOS",
+            "date": "",
+            "class": "",
+            "title": "",
             "text": "",
-            "button_label": "Register",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "class_ggCBff": {
+          "type": "class",
+          "settings": {
+            "month": "",
+            "date": "2025",
+            "class": "WEBINARS",
+            "title": "Es español",
+            "text": "<p>FREE, essential Repêchage brand education, including the comprehensive <br/>Repêchage product overview and the full library of every professional <br/>facial step by step video, all complementary!</p>",
+            "button_label": "MIRA AHORA",
             "button_link": "https://www.lydiasarfati.com/courses/spanish"
           }
         }
@@ -233,6 +245,7 @@
         "class_LNmU4c",
         "class_LfFjkc",
         "class_V4CiDj",
+        "class_49yLqQ",
         "class_ggCBff"
       ],
       "settings": {
