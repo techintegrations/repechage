@@ -12,8 +12,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "slideshow_aAwwLJ": {
       "type": "slideshow",
@@ -57,7 +56,7 @@
         "heading_T476Qj": {
           "type": "heading",
           "settings": {
-            "title": "CLASES MAESTRA EN ESPANOL 2024",
+            "title": "CLASES MAESTRA EN ESPANOL 2025",
             "title_color": "#000000"
           }
         }
@@ -198,6 +197,7 @@
         },
         "class_V4CiDj": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "NOVEMBER",
             "date": "25",
