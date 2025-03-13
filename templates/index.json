@@ -651,19 +651,10 @@
             "title": "",
             "title_color": "#000000"
           }
-        },
-        "text_kWTcE6": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<h3>The Repêchage® Experience</h3>",
-            "text_color": "#000000"
-          }
         }
       },
       "block_order": [
-        "heading_YPnTqd",
-        "text_kWTcE6"
+        "heading_YPnTqd"
       ],
       "settings": {
         "align_text": "center",
@@ -736,7 +727,7 @@
         "text_block_f9MtBD"
       ],
       "settings": {
-        "title": "",
+        "title": "The Repêchage® Experience",
         "align_text": "center",
         "desktop_columns_per_row": 5,
         "icon_color": "#000000",
