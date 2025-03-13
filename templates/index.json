@@ -128,130 +128,6 @@
         "lazyload_images": false
       }
     },
-    "custom_text_with_logos_VBrHLU": {
-      "type": "custom__text-with-logos",
-      "blocks": {
-        "text_block_EdJXpk": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify://shop_images/cosmo-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_frN9HT": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify://shop_images/glamour-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_wDJdWR": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify://shop_images/marie-logo.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_33LTrN": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify://shop_images/vogue-logo.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_UFc3fT": {
-          "type": "text_block",
-          "settings": {
-            "logo": "shopify://shop_images/allure-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_TbeYCC": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/allure-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_Xrx9PY": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/allure-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_fAUMcf": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/allure-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_block_RqAgqT": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/allure-logo-2.png",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_EdJXpk",
-        "text_block_frN9HT",
-        "text_block_wDJdWR",
-        "text_block_33LTrN",
-        "text_block_UFc3fT",
-        "text_block_TbeYCC",
-        "text_block_Xrx9PY",
-        "text_block_fAUMcf",
-        "text_block_RqAgqT"
-      ],
-      "settings": {
-        "title": "in the press",
-        "align_text": "center",
-        "title_color": "",
-        "desktop_columns_per_row": 5,
-        "block_title_color": "",
-        "block_text_color": "",
-        "bg_color": "#f9f9f9",
-        "padding_top": 70,
-        "padding_bottom": 30,
-        "padding_top_m": 50,
-        "padding_bottom_m": 80,
-        "divider": false
-      }
-    },
-    "featured_collection_U6DUhq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "AWARD WINNERS",
-        "featured_image": "shopify://shop_images/Untitled-1_5af75fba-af55-47dc-97aa-511775723269.jpg",
-        "home_featured_products": "whats-new-2",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false,
-        "bg_color": "#ffffff",
-        "padding_top": 70,
-        "padding_bottom": 50,
-        "padding_top_m": 50,
-        "padding_bottom_m": 60
-      }
-    },
     "custom_featured_collection_tabs_PaGxFn": {
       "type": "custom__featured-collection-tabs",
       "blocks": {
@@ -313,7 +189,7 @@
         "mobile_scrollable": true,
         "view_all": true,
         "bg_color": "",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_m": 0,
         "padding_bottom_m": 55,
@@ -720,45 +596,6 @@
         "padding_bottom_m": 30
       }
     },
-    "newsletter_kJLxhd": {
-      "type": "newsletter",
-      "blocks": {
-        "title_kQY4Jz": {
-          "type": "title",
-          "settings": {
-            "title": "TAKE 10% OFF YOUR FIRST ORDER",
-            "heading_size": "h2"
-          }
-        },
-        "text_wiiHG4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>"
-          }
-        },
-        "form_rTbMBQ": {
-          "type": "form",
-          "settings": {
-            "success_msg": "<p>Thank you for subscribing, Please use this code <strong>Welcome10</strong> at checkout.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "title_kQY4Jz",
-        "text_wiiHG4",
-        "form_rTbMBQ"
-      ],
-      "settings": {
-        "align_text": "center",
-        "image_width": "33",
-        "image_mask": "none",
-        "image_position": "right",
-        "color_background": "#b1e4e3",
-        "color_text": "#1c1d1d",
-        "top_padding": true,
-        "bottom_padding": true
-      }
-    },
     "rich_text_AWf7CB": {
       "type": "rich-text",
       "blocks": {
@@ -899,6 +736,24 @@
         "space_around": true
       }
     },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "AWARD WINNERS",
+        "featured_image": "shopify://shop_images/Untitled-1_5af75fba-af55-47dc-97aa-511775723269.jpg",
+        "home_featured_products": "whats-new-2",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false,
+        "bg_color": "#ffffff",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 60
+      }
+    },
     "rich_text_8EWUMC": {
       "type": "rich-text",
       "blocks": {
@@ -1007,12 +862,155 @@
         "padding_bottom_m": 50,
         "divider": false
       }
+    },
+    "newsletter_kJLxhd": {
+      "type": "newsletter",
+      "blocks": {
+        "title_kQY4Jz": {
+          "type": "title",
+          "settings": {
+            "title": "TAKE 10% OFF YOUR FIRST ORDER",
+            "heading_size": "h2"
+          }
+        },
+        "text_wiiHG4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>"
+          }
+        },
+        "form_rTbMBQ": {
+          "type": "form",
+          "settings": {
+            "success_msg": "<p>Thank you for subscribing, Please use this code <strong>Welcome10</strong> at checkout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_kQY4Jz",
+        "text_wiiHG4",
+        "form_rTbMBQ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#b1e4e3",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "custom_text_with_logos_VBrHLU": {
+      "type": "custom__text-with-logos",
+      "blocks": {
+        "text_block_EdJXpk": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify://shop_images/cosmo-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_frN9HT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify://shop_images/glamour-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_wDJdWR": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify://shop_images/marie-logo.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_33LTrN": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify://shop_images/vogue-logo.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_UFc3fT": {
+          "type": "text_block",
+          "settings": {
+            "logo": "shopify://shop_images/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_TbeYCC": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_Xrx9PY": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_fAUMcf": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_block_RqAgqT": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/allure-logo-2.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_EdJXpk",
+        "text_block_frN9HT",
+        "text_block_wDJdWR",
+        "text_block_33LTrN",
+        "text_block_UFc3fT",
+        "text_block_TbeYCC",
+        "text_block_Xrx9PY",
+        "text_block_fAUMcf",
+        "text_block_RqAgqT"
+      ],
+      "settings": {
+        "title": "FEATURED IN",
+        "align_text": "center",
+        "title_color": "",
+        "desktop_columns_per_row": 5,
+        "block_title_color": "",
+        "block_text_color": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 70,
+        "padding_bottom": 30,
+        "padding_top_m": 50,
+        "padding_bottom_m": 80,
+        "divider": false
+      }
     }
   },
   "order": [
     "slideshow_ybDcnc",
-    "custom_text_with_logos_VBrHLU",
-    "featured_collection_U6DUhq",
     "custom_featured_collection_tabs_PaGxFn",
     "slideshow_NgxpwR",
     "rich_text_np8xVN",
@@ -1025,14 +1023,16 @@
     "text_and_image_cMGVy7",
     "1734571454f904211f",
     "blog_posts_AkwbrY",
-    "newsletter_kJLxhd",
     "rich_text_AWf7CB",
     "testimonials_WQarYp",
     "17302148459172f4c3",
     "1734568966273b9004",
     "1734571429dc37d243",
     "1734571480fd12e4b3",
+    "featured_collection_U6DUhq",
     "rich_text_8EWUMC",
-    "text_with_icons_dTrr3R"
+    "text_with_icons_dTrr3R",
+    "newsletter_kJLxhd",
+    "custom_text_with_logos_VBrHLU"
   ]
 }
