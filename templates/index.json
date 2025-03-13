@@ -850,7 +850,7 @@
         "color_background": "#ffffff",
         "color_text": "#1c1d1d",
         "padding_top": 10,
-        "padding_bottom": 10,
+        "padding_bottom": 50,
         "padding_top_m": 10,
         "padding_bottom_m": 10
       }
