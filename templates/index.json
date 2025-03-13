@@ -128,150 +128,6 @@
         "lazyload_images": false
       }
     },
-    "featured_collection_U6DUhq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "AWARD WINNERS",
-        "featured_image": "shopify://shop_images/Untitled-1_5af75fba-af55-47dc-97aa-511775723269.jpg",
-        "home_featured_products": "whats-new-2",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false,
-        "bg_color": "#ffffff",
-        "padding_top": 70,
-        "padding_bottom": 50,
-        "padding_top_m": 50,
-        "padding_bottom_m": 60
-      }
-    },
-    "1736795386f07fe033": {
-      "type": "apps",
-      "blocks": {
-        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
-          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
-          "settings": {
-            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "videowise_video_commerce_videowise_page_widgets_46x8kr"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "custom_featured_collection_tabs_PaGxFn": {
-      "type": "custom__featured-collection-tabs",
-      "blocks": {
-        "collection_MVEY8h": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab_title": "Best Sellers",
-            "home_featured_products": "our-best-sellers"
-          }
-        },
-        "collection_md9zKm": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Moisturizers",
-            "home_featured_products": "moisturizers"
-          }
-        },
-        "collection_VFYzP3": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Serums",
-            "home_featured_products": "serums"
-          }
-        },
-        "collection_pJGAUr": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "MASKS",
-            "home_featured_products": "exfoliators-masks"
-          }
-        },
-        "collection_hRgkKb": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Eye Care",
-            "home_featured_products": "eye-treatments"
-          }
-        },
-        "collection_XTBUNN": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Skin Kits",
-            "home_featured_products": "travel-kits"
-          }
-        }
-      },
-      "block_order": [
-        "collection_MVEY8h",
-        "collection_md9zKm",
-        "collection_VFYzP3",
-        "collection_pJGAUr",
-        "collection_hRgkKb",
-        "collection_XTBUNN"
-      ],
-      "settings": {
-        "title": "Browse Categories",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 50,
-        "padding_top_m": 0,
-        "padding_bottom_m": 55,
-        "divider": false
-      }
-    },
-    "slideshow_NgxpwR": {
-      "type": "slideshow",
-      "blocks": {
-        "image_Cx8fJ6": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>LIMITED HOLIDAY OFFER</p>",
-            "title": "<p>Our Gift TO You</p>",
-            "title_size": 44,
-            "subheading": "<p><strong>FREE SHIPPING </strong>ON US ORDERS*</p><p><strong> Spend $95+</strong> and receive a <strong>FREE Red-Out Serum</strong> </p><p><strong>Spend $249+ </strong>and also receive a <strong>FREE </strong>Vita Cura® Sea Spa Body Moisturizer</p><p><em>*Automatically at Checkout - While Supplies Last or 12/31/24</em></p>",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/Free-Red-Out--Promo.jpg",
-            "image_mobile": "shopify://shop_images/Red-out_mobile_banner.jpg",
-            "parallax_direction": "left",
-            "overlay_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "image_Cx8fJ6"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_container": false,
-        "section_height": "450px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "custom_text_with_logos_VBrHLU": {
       "type": "custom__text-with-logos",
       "blocks": {
@@ -378,6 +234,131 @@
         "divider": false
       }
     },
+    "featured_collection_U6DUhq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "AWARD WINNERS",
+        "featured_image": "shopify://shop_images/Untitled-1_5af75fba-af55-47dc-97aa-511775723269.jpg",
+        "home_featured_products": "whats-new-2",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false,
+        "bg_color": "#ffffff",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 60
+      }
+    },
+    "custom_featured_collection_tabs_PaGxFn": {
+      "type": "custom__featured-collection-tabs",
+      "blocks": {
+        "collection_MVEY8h": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Best Sellers",
+            "home_featured_products": "our-best-sellers"
+          }
+        },
+        "collection_md9zKm": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Moisturizers",
+            "home_featured_products": "moisturizers"
+          }
+        },
+        "collection_VFYzP3": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Serums",
+            "home_featured_products": "serums"
+          }
+        },
+        "collection_pJGAUr": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "MASKS",
+            "home_featured_products": "exfoliators-masks"
+          }
+        },
+        "collection_hRgkKb": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Eye Care",
+            "home_featured_products": "eye-treatments"
+          }
+        },
+        "collection_XTBUNN": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Skin Kits",
+            "home_featured_products": "travel-kits"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MVEY8h",
+        "collection_md9zKm",
+        "collection_VFYzP3",
+        "collection_pJGAUr",
+        "collection_hRgkKb",
+        "collection_XTBUNN"
+      ],
+      "settings": {
+        "title": "Browse Categories",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_top_m": 0,
+        "padding_bottom_m": 55,
+        "divider": false
+      }
+    },
+    "slideshow_NgxpwR": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Cx8fJ6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "<p>LIMITED HOLIDAY OFFER</p>",
+            "title": "<p>Our Gift TO You</p>",
+            "title_size": 44,
+            "subheading": "<p><strong>FREE SHIPPING </strong>ON US ORDERS*</p><p><strong> Spend $95+</strong> and receive a <strong>FREE Red-Out Serum</strong> </p><p><strong>Spend $249+ </strong>and also receive a <strong>FREE </strong>Vita Cura® Sea Spa Body Moisturizer</p><p><em>*Automatically at Checkout - While Supplies Last or 12/31/24</em></p>",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/Free-Red-Out--Promo.jpg",
+            "image_mobile": "shopify://shop_images/Red-out_mobile_banner.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_Cx8fJ6"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_container": false,
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "rich_text_np8xVN": {
       "type": "rich-text",
       "blocks": {
@@ -410,6 +391,24 @@
         "padding_bottom_m": 0,
         "bg_color": "",
         "divider": false
+      }
+    },
+    "1736795386f07fe033": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_46x8kr"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "custom_image_slider_with_text_gBLLcE": {
