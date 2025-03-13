@@ -273,6 +273,7 @@
         },
         "class_h7GUxA": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "March",
             "date": "10-12",
