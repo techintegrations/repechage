@@ -235,6 +235,54 @@
         "lazyload_images": true
       }
     },
+    "featured_collections_xaap9R": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_RrDh3U": {
+          "type": "collection",
+          "settings": {
+            "collection": "hydra-4-for-sensitive-skin",
+            "custom_collection_image": "shopify://shop_images/ScreenShot2021-03-25at11.47.55AM_2000x_a106afe0-9e98-4252-beac-b73026a12916.png",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_EyFH8M": {
+          "type": "collection",
+          "settings": {
+            "collection": "cell-renewal-for-all-skin-types",
+            "custom_collection_image": "shopify://shop_images/IMG_0856square.jpg",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_UQdtM8": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-zone-for-combination-oily-skin",
+            "custom_collection_image": "shopify://shop_images/Astringent_Pads.png",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RrDh3U",
+        "collection_EyFH8M",
+        "collection_UQdtM8"
+      ],
+      "settings": {
+        "title": "FEATURED COLLECTIONS",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true,
+        "bg_color": "",
+        "padding_top": 70,
+        "padding_bottom": 48,
+        "padding_top_m": 50,
+        "padding_bottom_m": 33
+      }
+    },
     "rich_text_np8xVN": {
       "type": "rich-text",
       "blocks": {
@@ -285,54 +333,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "featured_collections_xaap9R": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_RrDh3U": {
-          "type": "collection",
-          "settings": {
-            "collection": "hydra-4-for-sensitive-skin",
-            "custom_collection_image": "shopify://shop_images/ScreenShot2021-03-25at11.47.55AM_2000x_a106afe0-9e98-4252-beac-b73026a12916.png",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "collection_EyFH8M": {
-          "type": "collection",
-          "settings": {
-            "collection": "cell-renewal-for-all-skin-types",
-            "custom_collection_image": "shopify://shop_images/IMG_0856square.jpg",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "collection_UQdtM8": {
-          "type": "collection",
-          "settings": {
-            "collection": "t-zone-for-combination-oily-skin",
-            "custom_collection_image": "shopify://shop_images/Astringent_Pads.png",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "collection_RrDh3U",
-        "collection_EyFH8M",
-        "collection_UQdtM8"
-      ],
-      "settings": {
-        "title": "FEATURED COLLECTIONS",
-        "divider": false,
-        "per_row": 3,
-        "enable_gutter": true,
-        "bg_color": "",
-        "padding_top": 70,
-        "padding_bottom": 48,
-        "padding_top_m": 50,
-        "padding_bottom_m": 33
       }
     },
     "text_and_image_hPkL8i": {
@@ -528,40 +528,6 @@
         "padding_bottom_m": 30
       }
     },
-    "rich_text_AWf7CB": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_D8JTpn": {
-          "type": "heading",
-          "settings": {
-            "title": "TESTIMONIALS",
-            "title_color": "#000000"
-          }
-        },
-        "text_KKaHCh": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_D8JTpn",
-        "text_KKaHCh"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 50,
-        "padding_bottom": 10,
-        "padding_top_m": 50,
-        "padding_bottom_m": 10,
-        "bg_color": "",
-        "divider": false
-      }
-    },
     "custom_image_slider_with_text_gBLLcE": {
       "type": "custom__image-slider-with-text",
       "blocks": {
@@ -628,84 +594,6 @@
         "padding_bottom": 75,
         "padding_top_m": 0,
         "padding_bottom_m": 50
-      }
-    },
-    "testimonials_WQarYp": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_Q8WHqt": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>Opti-Firm® Eye Contour Cream</strong></p><p>Undereye feels/looks smooth and moist all day. Perfect eye cream in every way</p>",
-            "author": "Debra",
-            "author_info": ""
-          }
-        },
-        "testimonial_ktVwkx": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>Amazing Bath Salt!</strong></p><p>This is the best bath salt I’ve used. Smells great and makes the skin so soft. Highly recommend.</p>",
-            "author": "Katherine",
-            "author_info": ""
-          }
-        },
-        "testimonial_pk9xCj": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>Helps with saggy neck!</strong></p><p>I do believe my neckline looks improved by using this product.</p>",
-            "author": "Dianne S.",
-            "author_info": ""
-          }
-        },
-        "testimonial_3PtNAt": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>Unbelievable Texture and Visible Difference.</strong></p><p>Magical Serum in a bottle. I started using only a few days now and can feel the difference</p>",
-            "author": "Ryan R.",
-            "author_info": ""
-          }
-        },
-        "testimonial_8z4WzU": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>A must have!</strong></p><p>Best ever! After using this, and then applying my nighttime routine, skin never felt so soft and refreshed! Ev3n the next morning.</p>",
-            "author": "Brenda K.",
-            "author_info": ""
-          }
-        },
-        "testimonial_3T6tJH": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p><strong>Lifesaver! </strong>This serum was the greatest in helping me cope with a late life outbreak of rosacea. I saw immediate results and couldn’t be happier!</p>",
-            "author": "Margaret",
-            "author_info": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_Q8WHqt",
-        "testimonial_ktVwkx",
-        "testimonial_pk9xCj",
-        "testimonial_3PtNAt",
-        "testimonial_8z4WzU",
-        "testimonial_3T6tJH"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "round_images": false,
-        "color_background": "#ffffff",
-        "color_text": "#1c1d1d",
-        "padding_top": 10,
-        "padding_bottom": 10,
-        "padding_top_m": 10,
-        "padding_bottom_m": 10
       }
     },
     "17302148459172f4c3": {
@@ -861,6 +749,110 @@
         "padding_top_m": 10,
         "padding_bottom_m": 50,
         "divider": false
+      }
+    },
+    "rich_text_AWf7CB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_KKaHCh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_KKaHCh"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 50,
+        "padding_bottom": 10,
+        "padding_top_m": 50,
+        "padding_bottom_m": 10,
+        "bg_color": "",
+        "divider": false
+      }
+    },
+    "testimonials_WQarYp": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Q8WHqt": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Opti-Firm® Eye Contour Cream</strong></p><p>Undereye feels/looks smooth and moist all day. Perfect eye cream in every way</p>",
+            "author": "Debra",
+            "author_info": ""
+          }
+        },
+        "testimonial_ktVwkx": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Amazing Bath Salt!</strong></p><p>This is the best bath salt I’ve used. Smells great and makes the skin so soft. Highly recommend.</p>",
+            "author": "Katherine",
+            "author_info": ""
+          }
+        },
+        "testimonial_pk9xCj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Helps with saggy neck!</strong></p><p>I do believe my neckline looks improved by using this product.</p>",
+            "author": "Dianne S.",
+            "author_info": ""
+          }
+        },
+        "testimonial_3PtNAt": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Unbelievable Texture and Visible Difference.</strong></p><p>Magical Serum in a bottle. I started using only a few days now and can feel the difference</p>",
+            "author": "Ryan R.",
+            "author_info": ""
+          }
+        },
+        "testimonial_8z4WzU": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>A must have!</strong></p><p>Best ever! After using this, and then applying my nighttime routine, skin never felt so soft and refreshed! Ev3n the next morning.</p>",
+            "author": "Brenda K.",
+            "author_info": ""
+          }
+        },
+        "testimonial_3T6tJH": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p><strong>Lifesaver! </strong>This serum was the greatest in helping me cope with a late life outbreak of rosacea. I saw immediate results and couldn’t be happier!</p>",
+            "author": "Margaret",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Q8WHqt",
+        "testimonial_ktVwkx",
+        "testimonial_pk9xCj",
+        "testimonial_3PtNAt",
+        "testimonial_8z4WzU",
+        "testimonial_3T6tJH"
+      ],
+      "settings": {
+        "title": "TESTIMONIALS",
+        "align_text": "center",
+        "round_images": false,
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_top_m": 10,
+        "padding_bottom_m": 10
       }
     },
     "newsletter_kJLxhd": {
@@ -1023,8 +1015,6 @@
     "1734571454f904211f",
     "blog_posts_AkwbrY",
     "custom_image_slider_with_text_gBLLcE",
-    "rich_text_AWf7CB",
-    "testimonials_WQarYp",
     "17302148459172f4c3",
     "1734568966273b9004",
     "1734571429dc37d243",
@@ -1032,6 +1022,8 @@
     "featured_collection_U6DUhq",
     "rich_text_8EWUMC",
     "text_with_icons_dTrr3R",
+    "rich_text_AWf7CB",
+    "testimonials_WQarYp",
     "newsletter_kJLxhd",
     "custom_text_with_logos_VBrHLU"
   ]
