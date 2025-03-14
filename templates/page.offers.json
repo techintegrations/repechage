@@ -55,20 +55,6 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
-        "text_block_9D4V9n": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/st_patricks_free_bag_promo_2025.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "SPECIAL OFFER",
-            "text": "<p><strong>Free Cosmetic Bag<br/></strong>with $50+ purchase</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "text_block_VJx4tM": {
           "type": "text_block",
           "disabled": true,
@@ -84,20 +70,6 @@
             "button_link": "https://www.repechage.com/products/vita-cura-cellusea-firm-lift"
           }
         },
-        "text_block_BbEgTH": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/hydrarefinespecial.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "50% OFF Hydra Refine Astringent Pads",
-            "text": "<p>with purchase of Hydra Refine Foaming Cleanser</p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/buy-hydra-refine-foaming-cleanser-get-hydra-refine-astringent-pads-50-off"
-          }
-        },
         "text_block_F738Ad": {
           "type": "text_block",
           "settings": {
@@ -110,6 +82,20 @@
             "text": "<p>with purchase of Vita Cura Sea Spa Cleanser and Vita Cura Sea Spa Body Moisturizer</p>",
             "button_label": "buy now",
             "button_link": "shopify://products/free-vita-cura-sea-spa-glow-w-vita-cura-sea-spa-cleanser"
+          }
+        },
+        "text_block_BbEgTH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/hydrarefinespecial.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "50% OFF Hydra Refine Astringent Pads",
+            "text": "<p>with purchase of Hydra Refine Foaming Cleanser</p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/buy-hydra-refine-foaming-cleanser-get-hydra-refine-astringent-pads-50-off"
           }
         },
         "text_block_wetMUa": {
@@ -167,6 +153,20 @@
             "text": "<p>Gift With Purchase of Starter Collections</p>",
             "button_label": "SHOP NOW",
             "button_link": "shopify://collections/travel-kits"
+          }
+        },
+        "text_block_9D4V9n": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/st_patricks_free_bag_promo_2025.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "SPECIAL OFFER",
+            "text": "<p><strong>Free Cosmetic Bag<br/></strong>with $50+ purchase</p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "text_block_8QWQtF": {
@@ -228,14 +228,14 @@
         }
       },
       "block_order": [
-        "text_block_9D4V9n",
         "text_block_VJx4tM",
-        "text_block_BbEgTH",
         "text_block_F738Ad",
+        "text_block_BbEgTH",
         "text_block_wetMUa",
         "text_block_HKiW4G",
         "text_block_RXFzp4",
         "text_block_kUyQWJ",
+        "text_block_9D4V9n",
         "text_block_8QWQtF",
         "text_block_pMhKPb",
         "text_block_eQPFAi",
