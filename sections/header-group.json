@@ -21,13 +21,6 @@
             "text": "<p><strong>20% OFF & FREE SHIPPING! - COUPON CODE BFCM24</strong></p>"
           }
         },
-        "announcement_Aqcjfd": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>AUTOMATIC COUPON CODE ON CHECKOUT</strong></p>"
-          }
-        },
         "announcement_i9xJmQ": {
           "type": "announcement",
           "disabled": true,
@@ -59,16 +52,22 @@
           "settings": {
             "text": "<p>UNLOCK 2 FREE GIFTS BEFORE CHECKOUT – SEE IF YOU QUALIFY!</p>"
           }
+        },
+        "announcement_iWtMbq": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>ST. PATERICK'S DAY SPECIAL - FREE GOLD TOP </p>"
+          }
         }
       },
       "block_order": [
         "announcement-0",
-        "announcement_Aqcjfd",
         "announcement_i9xJmQ",
         "announcement_7qeMKP",
         "announcement_7ciPbx",
         "announcement_PEPgMR",
-        "announcement_Wb4NMm"
+        "announcement_Wb4NMm",
+        "announcement_iWtMbq"
       ],
       "settings": {
         "show_slider": true
