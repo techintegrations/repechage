@@ -28,6 +28,12 @@
             "text": "<p>SPECIAL HOLIDAY OFFER <strong>FREE SHIPPING </strong>ON US ORDERS*</p>"
           }
         },
+        "announcement_iWtMbq": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>ST. PATRICK'S DAY SPECIAL - FREE GOLD TOP COSMETIC BAG W/$50+ purchase</p>"
+          }
+        },
         "announcement_7qeMKP": {
           "type": "announcement",
           "settings": {
@@ -52,22 +58,16 @@
           "settings": {
             "text": "<p>UNLOCK 2 FREE GIFTS BEFORE CHECKOUT – SEE IF YOU QUALIFY!</p>"
           }
-        },
-        "announcement_iWtMbq": {
-          "type": "announcement",
-          "settings": {
-            "text": "<p>ST. PATERICK'S DAY SPECIAL - FREE GOLD TOP </p>"
-          }
         }
       },
       "block_order": [
         "announcement-0",
         "announcement_i9xJmQ",
+        "announcement_iWtMbq",
         "announcement_7qeMKP",
         "announcement_7ciPbx",
         "announcement_PEPgMR",
-        "announcement_Wb4NMm",
-        "announcement_iWtMbq"
+        "announcement_Wb4NMm"
       ],
       "settings": {
         "show_slider": true
