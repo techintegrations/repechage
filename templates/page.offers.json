@@ -55,6 +55,20 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
+        "text_block_9D4V9n": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/st_patricks_free_bag_promo_2025.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "SPECIAL OFFER",
+            "text": "<p><strong>Free Cosmetic Bag<br/></strong>with $50+ purchase</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_VJx4tM": {
           "type": "text_block",
           "disabled": true,
@@ -214,6 +228,7 @@
         }
       },
       "block_order": [
+        "text_block_9D4V9n",
         "text_block_VJx4tM",
         "text_block_BbEgTH",
         "text_block_F738Ad",
