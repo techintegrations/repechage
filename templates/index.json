@@ -12,6 +12,24 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_nLHT7y": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>Feeling Lucky?</p>",
+            "title": "<p>Touch of Gold Cosmetic Bag</p>",
+            "title_size": 62,
+            "subheading": "<p>Free* with $50+ order. Limited Time Offer</p>",
+            "link": "shopify://collections/all-products",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#f9f9f9",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/st_patricks_day_promo_banner_2025.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_Rx9W9J": {
           "type": "image",
           "settings": {
@@ -89,33 +107,14 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_nLHT7y": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify://products/vita-cura-eau-fraiche-candle",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/EauFraicheCandle_-_Web_Banner2.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
+        "image_nLHT7y",
         "image_Rx9W9J",
         "image_dcrq4U",
         "image_4p3pwP",
-        "image_iCkPT9",
-        "image_nLHT7y"
+        "image_iCkPT9"
       ],
       "settings": {
         "show_container": false,
