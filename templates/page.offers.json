@@ -86,6 +86,7 @@
         },
         "text_block_9D4V9n": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/st_patricks_free_bag_promo_green_2025_1_5a6aa420-b01b-4717-b391-ee878617ca36.jpg",
