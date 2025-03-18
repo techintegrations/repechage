@@ -30,6 +30,7 @@
         },
         "announcement_iWtMbq": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>ST. PATRICK'S DAY SPECIAL - FREE GOLD TOP COSMETIC BAG W/$50+ purchase</p>"
           }
