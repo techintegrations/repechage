@@ -161,7 +161,7 @@
         "button_yt8xVe": {
           "type": "button",
           "settings": {
-            "link": "shopify://pages/contact-us",
+            "link": "mailto:hr@repechage.com?subject=Brand%20Educator",
             "link_text": "APPLY HERE"
           }
         }
@@ -203,7 +203,7 @@
         "button_fgjLta": {
           "type": "button",
           "settings": {
-            "link": "shopify://pages/contact-us",
+            "link": "mailto:hr@repechage.com?subject=Skincare%20Sales%20Specialist",
             "link_text": "APPLY HERE"
           }
         }
