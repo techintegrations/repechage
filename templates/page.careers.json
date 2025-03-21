@@ -12,8 +12,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "1719330332db78ebfd": {
       "type": "apps",
@@ -120,7 +119,7 @@
         "button_pi6gy6": {
           "type": "button",
           "settings": {
-            "link": "",
+            "link": "mailto:hr@repechage.com",
             "link_text": "APPLY HERE"
           }
         }
