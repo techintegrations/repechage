@@ -286,6 +286,7 @@
         },
         "class_fTwW9P": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "23 - 25",
@@ -311,6 +312,7 @@
         },
         "class_xnfrpH": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "24",
