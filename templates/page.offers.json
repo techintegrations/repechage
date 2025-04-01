@@ -113,46 +113,18 @@
             "button_link": "https://www.repechage.com/products/buy-hydra-refine-foaming-cleanser-get-hydra-refine-astringent-pads-50-off"
           }
         },
-        "text_block_wetMUa": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/SP_125.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "FREE One Minute-Exfoliating Mask",
-            "text": "<p>with purchase of C-Serum® & Hydro-Complex® PFS for normal to dry skin</p>",
-            "button_label": "buy now",
-            "button_link": "shopify://products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin"
-          }
-        },
-        "text_block_HKiW4G": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/SP_126.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "FREE One Minute-Exfoliating Mask",
-            "text": "<p>with purchase of C-Serum® & Hydro-Complex® PFS for oily and combination skin</p>",
-            "button_label": "buy now",
-            "button_link": "shopify://products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-oily-and-combination-skin"
-          }
-        },
         "text_block_RXFzp4": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/20230327_Repechage-2.jpg",
+            "image": "shopify://shop_images/20230327_Repechage-4_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "Hydra Blue® Starter Collection (ON SALE)",
-            "text": "<p> with Seaweed Extracts for All Skin Types</p>",
+            "title": "Hydra 4® Starter Collection (ON SALE)",
+            "text": "<p>helps to reduce the appearance of irritation</p>",
             "button_label": "buy now",
-            "button_link": "shopify://products/the-hydra-blue-starter-collection-with-seaweed-extracts-for-all-skin-types"
+            "button_link": "shopify://products/hydra-4-starter-kit"
           }
         },
         "text_block_kUyQWJ": {
@@ -247,8 +219,6 @@
         "text_block_F738Ad",
         "text_block_9D4V9n",
         "text_block_BbEgTH",
-        "text_block_wetMUa",
-        "text_block_HKiW4G",
         "text_block_RXFzp4",
         "text_block_kUyQWJ",
         "text_block_jkYDpy",
