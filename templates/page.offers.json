@@ -72,6 +72,7 @@
         },
         "text_block_F738Ad": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/SP132_1.jpg",
@@ -82,6 +83,20 @@
             "text": "<p>with Purchase of Red-Out Essence, Red-Out Serum & Red-Out Moisturizer<br/></p>",
             "button_label": "buy now",
             "button_link": "shopify://products/free-red-out-cleanser-w-purchase-of-red-out-essence-red-out-serum-red-out-moisturizer"
+          }
+        },
+        "text_block_RXFzp4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/20230327_Repechage-4_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Hydra 4® Starter Collection (ON SALE)",
+            "text": "<p>helps to reduce the appearance of irritation</p>",
+            "button_label": "buy now",
+            "button_link": "shopify://products/hydra-4-starter-kit"
           }
         },
         "text_block_BbEgTH": {
@@ -111,20 +126,6 @@
             "text": "<p><strong>Free Cosmetic Bag </strong>with $50+ purchase</p>",
             "button_label": "",
             "button_link": ""
-          }
-        },
-        "text_block_RXFzp4": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/20230327_Repechage-4_1.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Hydra 4® Starter Collection (ON SALE)",
-            "text": "<p>helps to reduce the appearance of irritation</p>",
-            "button_label": "buy now",
-            "button_link": "shopify://products/hydra-4-starter-kit"
           }
         },
         "text_block_kUyQWJ": {
@@ -217,9 +218,9 @@
       "block_order": [
         "text_block_VJx4tM",
         "text_block_F738Ad",
+        "text_block_RXFzp4",
         "text_block_BbEgTH",
         "text_block_9D4V9n",
-        "text_block_RXFzp4",
         "text_block_kUyQWJ",
         "text_block_jkYDpy",
         "text_block_8QWQtF",
