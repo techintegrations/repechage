@@ -74,14 +74,14 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/SP127.jpg",
+            "image": "shopify://shop_images/SP132_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
-            "title": "FREE Vita Cura Sea Spa Glow",
-            "text": "<p>with purchase of Vita Cura Sea Spa Cleanser and Vita Cura Sea Spa Body Moisturizer</p>",
+            "title": "FREE Red-Out Cleanser",
+            "text": "<p>with Purchase of Red-Out Essence, Red-Out Serum & Red-Out Moisturizer<br/></p>",
             "button_label": "buy now",
-            "button_link": "shopify://products/free-vita-cura-sea-spa-glow-w-vita-cura-sea-spa-cleanser"
+            "button_link": "shopify://products/free-red-out-cleanser-w-purchase-of-red-out-essence-red-out-serum-red-out-moisturizer"
           }
         },
         "text_block_9D4V9n": {
