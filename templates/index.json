@@ -12,6 +12,25 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_YiVpPc": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>New Red-Out® Collection</p>",
+            "title": "<p>Bye Redness, Hello to Glow</p>",
+            "title_size": 70,
+            "subheading": "<p>The Perfect Collection to Refresh, Soothe and Hydrate Sensitive Skin</p>",
+            "link": "shopify://products/free-red-out-cleanser-w-purchase-of-red-out-essence-red-out-serum-red-out-moisturizer",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/new_redout_regular_website.jpg",
+            "image_mobile": "shopify://shop_images/new_red_out_regular_website_banner_2025_m.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_nLHT7y": {
           "type": "image",
           "disabled": true,
@@ -89,33 +108,14 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_YiVpPc": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "<p>New Red-Out® Collection</p>",
-            "title": "<p>Bye Redness, Hello to Glow</p>",
-            "title_size": 70,
-            "subheading": "<p>The Perfect Collection to Refresh, Soothe and Hydrate Sensitive Skin</p>",
-            "link": "shopify://products/free-red-out-cleanser-w-purchase-of-red-out-essence-red-out-serum-red-out-moisturizer",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/new_redout_regular_website.jpg",
-            "image_mobile": "shopify://shop_images/new_red_out_regular_website_banner_2025_m.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
+        "image_YiVpPc",
         "image_nLHT7y",
         "image_Rx9W9J",
         "image_dcrq4U",
-        "image_iCkPT9",
-        "image_YiVpPc"
+        "image_iCkPT9"
       ],
       "settings": {
         "show_container": false,
