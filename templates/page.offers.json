@@ -72,7 +72,6 @@
         },
         "text_block_F738Ad": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/SP132_1.jpg",
