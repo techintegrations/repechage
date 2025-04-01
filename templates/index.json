@@ -104,6 +104,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/new_redout_regular_website.jpg",
+            "image_mobile": "shopify://shop_images/new_red_out_regular_website_banner_2025_m.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
