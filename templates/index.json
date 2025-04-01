@@ -990,10 +990,29 @@
         "padding_bottom_m": 80,
         "divider": false
       }
+    },
+    "17435315485513e9d1": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_F8CtAq": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": ""
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_F8CtAq"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "slideshow_ybDcnc",
+    "17435315485513e9d1",
     "featured_collection_U6DUhq",
     "slideshow_NgxpwR",
     "featured_collections_xaap9R",
