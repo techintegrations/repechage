@@ -325,6 +325,7 @@
         },
         "class_3p4xC8": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MARCH",
             "date": "31",
