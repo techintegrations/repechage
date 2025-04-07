@@ -890,13 +890,6 @@
     "rich_text_8AxcMx": {
       "type": "rich-text",
       "blocks": {
-        "html_UhnRPQ": {
-          "type": "html",
-          "settings": {
-            "html": "<div class=\"klaviyo-form-SrmLzX\"></div>",
-            "html_color": "#000"
-          }
-        },
         "heading_9HAcUE": {
           "type": "heading",
           "settings": {
@@ -911,12 +904,19 @@
             "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>",
             "text_color": "#000"
           }
+        },
+        "html_UhnRPQ": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"klaviyo-form-SrmLzX\"></div>",
+            "html_color": "#000"
+          }
         }
       },
       "block_order": [
-        "html_UhnRPQ",
         "heading_9HAcUE",
-        "text_jEBTaw"
+        "text_jEBTaw",
+        "html_UhnRPQ"
       ],
       "settings": {
         "align_text": "center",
