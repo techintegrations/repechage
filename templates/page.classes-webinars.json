@@ -351,6 +351,7 @@
         },
         "class_MAGQCE": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "APRIL",
             "date": "5 - 7",
@@ -363,6 +364,7 @@
         },
         "class_nRYxXK": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "APRIL",
             "date": "6",
@@ -375,6 +377,7 @@
         },
         "class_6AHj44": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "APRIL",
             "date": "7",
