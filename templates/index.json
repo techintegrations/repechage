@@ -15,7 +15,7 @@
         "image_YiVpPc": {
           "type": "image",
           "settings": {
-            "top_subheading": "<p>New Red-Out® Collection</p>",
+            "top_subheading": "",
             "title": "<p>Bye Redness, Hello to Glow</p>",
             "title_size": 70,
             "subheading": "<p>The Perfect Collection to Refresh, Soothe and Hydrate Sensitive Skin</p>",
@@ -894,7 +894,7 @@
           "type": "heading",
           "settings": {
             "title": "TAKE 10% OFF YOUR FIRST ORDER",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         },
         "text_jEBTaw": {
@@ -902,14 +902,14 @@
           "settings": {
             "enlarge_text": true,
             "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>",
-            "text_color": "#000"
+            "text_color": "#000000"
           }
         },
         "html_UhnRPQ": {
           "type": "html",
           "settings": {
             "html": "<div class=\"klaviyo-form-SrmLzX\"></div>",
-            "html_color": "#000"
+            "html_color": "#000000"
           }
         }
       },
