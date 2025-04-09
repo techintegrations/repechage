@@ -138,11 +138,12 @@
         "text_block_NjHihA": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "date": "",
-            "text": "",
+            "image": "shopify://shop_images/Repechage-1-300x300.png",
+            "title": "newbeauty",
+            "date": "2025",
+            "text": "<p><strong>Repêchage Vita Cura Sea Spa Glow Body Exfoliatorr</strong><br/>spa-worthy blend of seaweed, marine<br/> salt and aloe buffs away dryness while restoring hydration for a skin-smoothing treatment.</p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "https://www.newbeauty.com/awards/category/body/bath-shower/"
           }
         },
         "text_block_pTaGxL": {
