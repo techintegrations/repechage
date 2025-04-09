@@ -124,6 +124,27 @@
     "custom_image_with_info_xL4cDE": {
       "type": "custom__image-with-info",
       "blocks": {
+        "text_block_eWKAiR": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/shiri_lydia.jpg",
+            "title": "bright Spot",
+            "date": "Spring, 2025",
+            "text": "<p>Lydia and Shiri Sarfati were featured in the <em>Bright Spot</em>  article in the Spring 2025 issue of American Spa, highlighting their <br/>journey in professional skincare and their vision for the future of spa <br/>wellness.</p>",
+            "button_label": "read more",
+            "button_link": ""
+          }
+        },
+        "text_block_NjHihA": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "date": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_pTaGxL": {
           "type": "text_block",
           "settings": {
@@ -193,6 +214,8 @@
         }
       },
       "block_order": [
+        "text_block_eWKAiR",
+        "text_block_NjHihA",
         "text_block_pTaGxL",
         "text_block_wRBatb",
         "text_block_9D3UEV",
