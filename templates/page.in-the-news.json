@@ -124,6 +124,17 @@
     "custom_image_with_info_xL4cDE": {
       "type": "custom__image-with-info",
       "blocks": {
+        "text_block_bFazTU": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/2025-03-newbeauty.jpg",
+            "title": "professional beauty",
+            "date": "march, 2025",
+            "text": "<p>New Product Launch</p>",
+            "button_label": "Shop Red-Out Serum",
+            "button_link": "https://www.repechage.com/products/hydra-4-red-out-serum"
+          }
+        },
         "text_block_eWKAiR": {
           "type": "text_block",
           "settings": {
@@ -131,7 +142,7 @@
             "title": "bright Spot",
             "date": "Spring, 2025",
             "text": "<p>Lydia and Shiri Sarfati were featured in the <em>Bright Spot</em>  article in the Spring 2025 issue of American Spa, highlighting their <br/>journey in professional skincare and their vision for the future of spa <br/>wellness.</p>",
-            "button_label": "read more",
+            "button_label": "Read More",
             "button_link": ""
           }
         },
@@ -140,17 +151,28 @@
           "settings": {
             "image": "shopify://shop_images/Repechage-1-300x300.png",
             "title": "newbeauty",
-            "date": "2025",
-            "text": "<p><strong>Repêchage Vita Cura Sea Spa Glow Body Exfoliatorr</strong><br/>spa-worthy blend of seaweed, marine<br/> salt and aloe buffs away dryness while restoring hydration for a skin-smoothing treatment.</p>",
-            "button_label": "Shop Vita Cura® Sea Spa Glow Body Exfoliator",
+            "date": "2025 best body scrub",
+            "text": "<p>\"With its refreshing scent and gentle exfoliation, this scrub leaves my skin feeling incredibly smooth and makes my 'everything shower' feel like a true spa moment.\"<br/>-Tatiana Bido,<br/>Director of Aesthetic content</p>",
+            "button_label": "Shop Vita Cura Sea Spa Glow Body Exfoliator",
             "button_link": "https://www.repechage.com/products/vita-cura-sea-spa-glow-body-exfoliator"
+          }
+        },
+        "text_block_gYXi9m": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/red-out_3704f5ad-a7c4-40a2-8c40-f2e820950ba9.jpg",
+            "title": "NEWBEAUTY",
+            "date": "January, 2025",
+            "text": "<p>Silver particles add an extra layer of resistance to your skin barrier <br/>while seaweed extracts and hyaluronic acid help keep skin hydrated and <br/>fortified against dryness.</p>",
+            "button_label": "Shop Red-Out Serum",
+            "button_link": "https://www.repechage.com/products/hydra-4-red-out-serum"
           }
         },
         "text_block_pTaGxL": {
           "type": "text_block",
           "settings": {
             "image": "shopify://shop_images/VC_Hair_and_Scalp_Serum_as_seen_in_NEWBEAUTY.png",
-            "title": "NEW BEAUTY",
+            "title": "NEWBEAUTY",
             "date": "Winter, 2025",
             "text": "<p>Infused with seaweed-derived vitamins, this lightweight serum nourishes the scalp to boost hair vitality. </p>",
             "button_label": "Shop Vita Cura Hair and Scalp Serum",
@@ -215,8 +237,10 @@
         }
       },
       "block_order": [
+        "text_block_bFazTU",
         "text_block_eWKAiR",
         "text_block_NjHihA",
+        "text_block_gYXi9m",
         "text_block_pTaGxL",
         "text_block_wRBatb",
         "text_block_9D3UEV",
