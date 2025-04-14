@@ -1501,15 +1501,15 @@
     display: none !important;
 }
 
-.sku-weight {
+/* .sku-weight {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.sku-weight > p {
+ */
+/* .sku-weight > p {
     margin: 0px;
-}
+} */
 
 body.template-cart #cart-progress-wrapper {
     max-width: 700px;
