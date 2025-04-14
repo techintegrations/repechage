@@ -2008,4 +2008,6 @@ body.template-cart #cart-progress-wrapper {
   
 }
 
-
+.product-block .product__quantity {
+    margin-top: 25px;
+}
