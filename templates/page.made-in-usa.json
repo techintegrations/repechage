@@ -14,52 +14,18 @@
       "disabled": true,
       "settings": {}
     },
-    "rich_text_V9qig6": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Xtzyp9": {
-          "type": "heading",
-          "settings": {
-            "title": "Repêchage Aesthetic School Program",
-            "title_color": "#2b2a27"
-          }
-        },
-        "text_rdLFm7": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>At Repêchage, education is part of who we are. We invite accredited schools to partner with us, delivering dynamic education alongside exceptional professional treatments and products.</p>",
-            "text_color": "#2b2a27"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Xtzyp9",
-        "text_rdLFm7"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
-        "bg_color": "#ffffff",
-        "divider": false
-      }
-    },
     "text_and_image_JmjzCR": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/Lydia_Sarfati_Academy_CIDESCO_TZ_w_Model_c7e38cf9-e23f-4161-80b4-f807a9cd1257.jpg",
+        "image": "shopify://shop_images/IMG_0105-Medium-1-507x338.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": true,
         "subtitle": "",
-        "title": "MESSAGE FROM OUR FOUNDER",
-        "text": "<p>Dear Esteemed Educators,</p><p>As the CEO and founder of Repêchage, I am thrilled to invite you to become an accredited professional skin care school with us. By partnering with Repêchage, you will gain access to our exclusive curriculum, cutting-edge treatments, and premium products, ensuring your students receive the highest level of education and training. Together, we can elevate the standards of skincare education and empower the next generation of skincare professionals.</p><p>Warm regards,</p><p>Lydia Sarfati<br/>CEO and Founder, Repêchage</p>",
+        "title": "Made in the USA by a Family-Owned Business",
+        "text": "<p>At Repechage®, we take pride in our heritage as a family-owned business dedicated to creating professional skincare products of the highest quality — all made right here in the USA.</p><p>Founded in 1980 by skincare pioneer Lydia Sarfati, Repechage remains family-owned and operated to this day. From our headquarters and manufacturing facility in Secaucus, New Jersey, we control every step of the process — from concept to creation — ensuring the highest standards of safety, efficacy, and integrity.</p><p>As a second-generation business, we combine time-tested craftsmanship with advanced skin science. Every product is formulated and manufactured under one roof in the United States, allowing us to maintain strict quality control and support American jobs and innovation.</p><p>Being family-run means we treat our team, our clients, and our customers like family too. We are committed to personal service, long-term relationships, and delivering trusted skincare solutions backed by decades of expertise.</p><p>When you choose Repechage, you’re not only choosing award-winning, seaweed-based skincare — you're supporting a legacy built on passion, purpose, and pride in American manufacturing.</p><p><strong>Family-Owned. Professionally Loved. Proudly Made in the USA.</strong></p>",
         "enlarge_text": false,
-        "button_label": "OPEN AN ACCOUNT",
+        "button_label": "",
         "button_link": "shopify://pages/open-a-professional-account",
         "button_style": "primary",
         "align_text": "left",
@@ -72,67 +38,6 @@
         "padding_bottom_m": 50,
         "divider": false,
         "lazyload_images": true
-      }
-    },
-    "text_with_icons_tynBh6": {
-      "type": "text-with-icons",
-      "blocks": {
-        "text_block_nYpki7": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "envelope",
-            "title": "CURRICULUM",
-            "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.</li><li>Lydia Sarfati Academy overlay and resource guides designed for instructors.</li><li>Comprehensive library of online training materials and recorded webinars.</li><li>On-demand access to training materials through our online portal.</li></ul>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_ciXAt3": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "shield",
-            "title": "SUPPORT",
-            "text": "<ul><li>Exclusive pricing for school partners</li><li>Dedicated business development manager</li><li>Comprehensive onboarding training for all staff, with annual refreshers</li><li>On-demand access to training materials via our online portal</li></ul>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_yN8wyw": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "package",
-            "title": "KITS",
-            "text": "<ul><li>Curated selection of Repêchage bestsellers</li><li>Designed to meet state board requirements and essential facial protocols</li><li>Customizable to suit different skin types and conditions</li><li>Assists schools in managing inventory efficiently</li></ul>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_nYpki7",
-        "text_block_ciXAt3",
-        "text_block_yN8wyw"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000000",
-        "block_bg_color": "rgba(0,0,0,0)",
-        "button_label": "",
-        "button_link": "",
-        "bg_color": "#ffffff",
-        "padding_top": 40,
-        "padding_bottom": 25,
-        "padding_top_m": 20,
-        "padding_bottom_m": 50,
-        "divider": false
       }
     },
     "rich_text_zWkNYL": {
@@ -202,59 +107,6 @@
         "padding_bottom_m": 40,
         "bg_color": "#b1e4e3",
         "divider": false
-      }
-    },
-    "rich_text_6wRYhE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_UYDpGC": {
-          "type": "heading",
-          "settings": {
-            "title": "Deliver The BEST FOR YOUR STUDENTS",
-            "title_color": "#000000"
-          }
-        },
-        "text_hATJfw": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Join the Repêchage team and empower your students to achieve success! At Repêchage we are dedicated to providing top-tier educational resources and support to educators like you. By joining us, you'll gain access to innovative teaching tools, comprehensive training, and a collaborative community of passionate professionals. Together, we can inspire and guide students toward their academic goals and beyond.</p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UYDpGC",
-        "text_hATJfw"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
-        "bg_color": "#ebebeb",
-        "divider": false
-      }
-    },
-    "featured_video_az9zwG": {
-      "type": "featured-video",
-      "settings": {
-        "title": "",
-        "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/0093cea73e514791a1e83a003264f6a6.mp4",
-        "video_url": "",
-        "show_full_width": false,
-        "divider": false,
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
-        "margin_top_m": 0,
-        "margin_bottom_m": 0,
-        "bg_color": "#ffffff"
       }
     },
     "text_with_icons_di3kUp": {
@@ -349,12 +201,8 @@
   },
   "order": [
     "main",
-    "rich_text_V9qig6",
     "text_and_image_JmjzCR",
-    "text_with_icons_tynBh6",
     "rich_text_zWkNYL",
-    "rich_text_6wRYhE",
-    "featured_video_az9zwG",
     "text_with_icons_di3kUp"
   ]
 }
