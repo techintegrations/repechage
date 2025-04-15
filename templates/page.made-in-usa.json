@@ -52,10 +52,10 @@
         "padding_bottom": 50,
         "margin_top": 50,
         "margin_bottom": 50,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "margin_top_m": 0,
-        "margin_bottom_m": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "margin_top_m": 20,
+        "margin_bottom_m": 20,
         "bg_color": ""
       }
     }
