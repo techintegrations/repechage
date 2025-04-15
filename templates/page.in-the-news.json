@@ -124,6 +124,28 @@
     "custom_image_with_info_xL4cDE": {
       "type": "custom__image-with-info",
       "blocks": {
+        "text_block_3YPELR": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Dermascope_April_2025_Lydia_s_Article.png",
+            "title": "Dermascope",
+            "date": "April 2025",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_VTMbHw": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/VC_Scalp_Hair_Serum_Dermascope_April_2025_Shelf_Talker_1.png",
+            "title": "Dermascope",
+            "date": "April, 2025",
+            "text": "<p><br/><br/></p>",
+            "button_label": "Shop Vita Cura® Hair And Scalp Serum",
+            "button_link": "https://admin.shopify.com/store/repechage/products/7856229089453"
+          }
+        },
         "text_block_bFazTU": {
           "type": "text_block",
           "settings": {
@@ -237,6 +259,8 @@
         }
       },
       "block_order": [
+        "text_block_3YPELR",
+        "text_block_VTMbHw",
         "text_block_bFazTU",
         "text_block_eWKAiR",
         "text_block_NjHihA",
