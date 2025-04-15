@@ -40,169 +40,29 @@
         "lazyload_images": true
       }
     },
-    "rich_text_zWkNYL": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_HmKxJU": {
-          "type": "heading",
-          "settings": {
-            "title": "CURRICULUM",
-            "title_color": "#000000"
-          }
-        },
-        "text_xjTqra": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<ul><li>An advanced educational curriculum ensures an engaging and competitive student experience.</li><li>Milady and Pivot Point overlay and resource guides designed for instructors.</li><li>Comprehensive library of online training materials and recorded webinars.</li><li>On-demand access to training materials through our online portal.</li></ul>",
-            "text_color": "#000000"
-          }
-        },
-        "heading_GCpF6n": {
-          "type": "heading",
-          "settings": {
-            "title": "SUPPORT",
-            "title_color": "#000000"
-          }
-        },
-        "text_kGwLW8": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<ul><li>Exclusive pricing for school partners</li><li>Dedicated business development manager</li><li>Comprehensive onboarding training for all staff, with annual refreshers</li><li>On-demand access to training materials via our online portal</li></ul>",
-            "text_color": "#000000"
-          }
-        },
-        "heading_Fkky4y": {
-          "type": "heading",
-          "settings": {
-            "title": "KITS",
-            "title_color": "#000000"
-          }
-        },
-        "text_tUCMFq": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<ul><li>Curated selection of Repechage bestsellers</li><li>Designed to meet state board requirements and essential facial protocols</li><li>Customizable to suit different skin types and conditions</li><li>Assists schools in managing inventory efficiently</li></ul>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HmKxJU",
-        "text_xjTqra",
-        "heading_GCpF6n",
-        "text_kGwLW8",
-        "heading_Fkky4y",
-        "text_tUCMFq"
-      ],
-      "disabled": true,
+    "featured_video_r7FyXQ": {
+      "type": "featured-video",
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "bg_color": "#b1e4e3",
-        "divider": false
-      }
-    },
-    "text_with_icons_di3kUp": {
-      "type": "text-with-icons",
-      "blocks": {
-        "text_block_ppR3HM": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "gift",
-            "title": "FREE SAMPLES",
-            "text": "<p>3 Complimentary<br/>Samples with Every Order</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_JbATXK": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "truck",
-            "title": "FREE SHIPPING",
-            "text": "<p>Free Shipping + Free 2-Day<br/>with Orders Over $300</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_UNa4hy": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "bills",
-            "title": "HASSLE FREE RETURNS",
-            "text": "<p>Enjoy hassle-free returns for a worry-free shopping experience!</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_8fPjcD": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "concierge Service",
-            "text": "<p>Concierge (Chat with our Experts via Live Chat or Phone)</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_RbXgW9": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "custom_image",
-            "custom_image": "shopify://shop_images/Afterpay_Logo_Black-364x70-66065f7.png",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "",
-            "text": "<p>Shop now, pay later with Afterpay's interest-free installments!</p>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_ppR3HM",
-        "text_block_JbATXK",
-        "text_block_UNa4hy",
-        "text_block_8fPjcD",
-        "text_block_RbXgW9"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 5,
-        "icon_color": "#000000",
-        "block_bg_color": "",
-        "button_label": "",
-        "button_link": "",
-        "bg_color": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
-        "divider": false
+        "title": "Made in the USA. Made with Care.",
+        "self_hosted_video": "https://cdn.shopify.com/s/files/1/0834/3901/files/IMG_0105-Medium-1-507x338.jpg?v=1744723247",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "show_full_width": false,
+        "divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "bg_color": ""
       }
     }
   },
   "order": [
     "main",
     "text_and_image_JmjzCR",
-    "rich_text_zWkNYL",
-    "text_with_icons_di3kUp"
+    "featured_video_r7FyXQ"
   ]
 }
