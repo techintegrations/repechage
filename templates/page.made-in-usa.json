@@ -47,7 +47,7 @@
         "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/1d0b5d1732be4c888b4d776004a767a2.mp4",
         "video_url": "",
         "show_full_width": false,
-        "divider": false,
+        "divider": true,
         "padding_top": 50,
         "padding_bottom": 50,
         "margin_top": 50,
