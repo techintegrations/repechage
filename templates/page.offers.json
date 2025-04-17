@@ -98,6 +98,20 @@
             "button_link": "shopify://products/hydra-4-starter-kit"
           }
         },
+        "text_block_UzfrPm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/VC_Sea_Spa_Body_Collection_gift_Set_jpg_jpg_0b7edcdc-42ae-470a-a0f6-1e7942824e96.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Vita Cura® Sea Spa Body Collection Gift Set with FREE Dry Body Brush",
+            "text": "<p>Give the gift of glowing skin from head to toe.</p>",
+            "button_label": "BUY NOW",
+            "button_link": "shopify://products/vita-cura-sea-spa-body-collection-gift-set"
+          }
+        },
         "text_block_BbEgTH": {
           "type": "text_block",
           "settings": {
@@ -232,6 +246,7 @@
         "text_block_VJx4tM",
         "text_block_F738Ad",
         "text_block_RXFzp4",
+        "text_block_UzfrPm",
         "text_block_BbEgTH",
         "text_block_9D4V9n",
         "text_block_kUyQWJ",
