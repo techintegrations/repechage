@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_mVAyUD": {
@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Discover the luxury and effectiveness of Repêchage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Italy, Mexico, or any other destination, Repêchage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repêchage difference, no matter where you are in the world.<\/p>",
+            "text": "<p>Discover the luxury and effectiveness of Repêchage spas, available at premier locations worldwide. Each spa offers a unique sanctuary where you can experience rejuvenating treatments crafted with the finest natural and organic ingredients. Whether you're in New York, Italy, Mexico, or any other destination, Repêchage spas provide a serene escape, delivering the ultimate in skin care and relaxation. Indulge in our globally renowned treatments and experience the Repêchage difference, no matter where you are in the world.</p>",
             "text_color": "#2b2a27"
           }
         }
@@ -55,9 +55,10 @@
         },
         "text_AEzyUb": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "enlarge_text": true,
-            "text": "<p>West Palm Beach, FL USA<\/p>",
+            "text": "<p>West Palm Beach, FL USA</p>",
             "text_color": "#000000"
           }
         }
@@ -82,49 +83,50 @@
       "blocks": {
         "image_slider_block_rznPbj": {
           "type": "image_slider_block",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Spa_IMG_0023_R.webp",
+            "image": "shopify://shop_images/Spa_IMG_0023_R.webp",
             "title": "CONRAD SPA - HILTON",
-            "text": "<h4>FT LAUDERDALE, FL<\/h4><p>Experience unparalleled relaxation where luxurious treatments and serene ocean views create the perfect wellness retreat.<\/p>",
+            "text": "<h4>FT LAUDERDALE, FL</h4><p>Experience unparalleled relaxation where luxurious treatments and serene ocean views create the perfect wellness retreat.</p>",
             "enlarge_text": true,
             "button_label": "",
-            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_link": "https://www.repechage.com/pages/featured-spas",
             "button_style": "primary"
           }
         },
         "image_slider_block_c88R8k": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Spa-e.jpg",
+            "image": "shopify://shop_images/Spa-e.jpg",
             "title": "SPA E",
-            "text": "<h4>MIAMI BEACH, FL<\/h4><p>Discover ultimate relaxation, offering luxurious treatments and a serene atmosphere for a rejuvenating wellness experience.<\/p>",
+            "text": "<h4>MIAMI BEACH, FL</h4><p>Discover ultimate relaxation, offering luxurious treatments and a serene atmosphere for a rejuvenating wellness experience.</p>",
             "enlarge_text": true,
             "button_label": "Learn More",
-            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_link": "https://www.repechage.com/pages/featured-spas",
             "button_style": "primary"
           }
         },
         "image_slider_block_nQYVAf": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aquanox-spa-at-the-trump.jpg",
+            "image": "shopify://shop_images/aquanox-spa-at-the-trump.jpg",
             "title": "AQUANOX SPA",
-            "text": "<h4>SUNNY ISLES, FL<\/h4><p>Immerse yourself in tranquility, where indulgent treatments and a peaceful setting provide the ultimate relaxation experience.<\/p>",
+            "text": "<h4>SUNNY ISLES, FL</h4><p>Immerse yourself in tranquility, where indulgent treatments and a peaceful setting provide the ultimate relaxation experience.</p>",
             "enlarge_text": true,
             "button_label": "Learn More",
-            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_link": "https://www.repechage.com/pages/featured-spas",
             "button_style": "primary"
           }
         },
         "image_slider_block_HRBHkP": {
           "type": "image_slider_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-07-25_at_10.27.30_AM.png",
+            "image": "shopify://shop_images/Screenshot_2024-07-25_at_10.27.30_AM.png",
             "title": "PGA SPA",
-            "text": "<h4>WEST PALM BEACH, FL<\/h4><p>Unwind at PGA Spa, where luxurious treatments and serene surroundings offer a perfect escape for relaxation and revitalization.<\/p>",
+            "text": "<h4>WEST PALM BEACH, FL</h4><p>Unwind at PGA Spa, where luxurious treatments and serene surroundings offer a perfect escape for relaxation and revitalization.</p>",
             "enlarge_text": true,
             "button_label": "Learn More",
-            "button_link": "https:\/\/www.repechage.com\/pages\/featured-spas",
+            "button_link": "https://www.repechage.com/pages/featured-spas",
             "button_style": "primary"
           }
         }
@@ -149,8 +151,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "custom_gallery_VPRnGr": {
       "type": "custom-gallery",
@@ -158,29 +159,29 @@
         "image_nG8YEa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-2.jpg",
+            "image": "shopify://shop_images/Untitled-2.jpg",
             "image_caption": ""
           }
         },
         "image_mVKYXn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-5.jpg",
+            "image": "shopify://shop_images/Untitled-5.jpg",
             "image_caption": ""
           }
         },
         "image_J3Adae": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-4.jpg",
+            "image": "shopify://shop_images/Untitled-4.jpg",
             "image_caption": ""
           }
         },
         "video_Ab9XiV": {
           "type": "video",
           "settings": {
-            "self_hosted_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d4751aad7f6f4f3683eca2868de9f23a.mp4",
-            "video_thumbnail": "shopify:\/\/shop_images\/Screenshot_2024-07-29_at_2.30.10_PM.png"
+            "self_hosted_url": "https://cdn.shopify.com/videos/c/o/v/d4751aad7f6f4f3683eca2868de9f23a.mp4",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2024-07-29_at_2.30.10_PM.png"
           }
         }
       },
@@ -210,7 +211,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Ft. Lauderale Beach, FL USA<\/p>",
+            "text": "<p>Ft. Lauderale Beach, FL USA</p>",
             "text_color": "#000000"
           }
         }
@@ -236,28 +237,28 @@
         "image_qCMnbX": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Conrad-04.jpg",
+            "image": "shopify://shop_images/Conrad-04.jpg",
             "image_caption": ""
           }
         },
         "image_63Xmxi": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Conrad-05.jpg",
+            "image": "shopify://shop_images/Conrad-05.jpg",
             "image_caption": ""
           }
         },
         "image_FHNEMa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Conrad-01.jpg",
+            "image": "shopify://shop_images/Conrad-01.jpg",
             "image_caption": ""
           }
         },
         "image_KwM4MN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Conrad-03.jpg",
+            "image": "shopify://shop_images/Conrad-03.jpg",
             "image_caption": ""
           }
         }
@@ -288,7 +289,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>New York, NY USA<\/p>",
+            "text": "<p>New York, NY USA</p>",
             "text_color": "#000000"
           }
         }
@@ -314,28 +315,28 @@
         "image_ndjaqb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-3.jpg",
+            "image": "shopify://shop_images/Untitled-3.jpg",
             "image_caption": ""
           }
         },
         "image_Qa9gRf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/World-Spa-NYC-01.jpg",
+            "image": "shopify://shop_images/World-Spa-NYC-01.jpg",
             "image_caption": ""
           }
         },
         "image_M7qwzr": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/World-Spa-02.jpg",
+            "image": "shopify://shop_images/World-Spa-02.jpg",
             "image_caption": ""
           }
         },
         "image_CYQc7B": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/World-Spa-03.jpg",
+            "image": "shopify://shop_images/World-Spa-03.jpg",
             "image_caption": ""
           }
         }
@@ -366,7 +367,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>AYIA NAPA, CYPRUS<\/p>",
+            "text": "<p>AYIA NAPA, CYPRUS</p>",
             "text_color": "#000000"
           }
         }
@@ -392,29 +393,29 @@
         "image_kQwpGQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-01.jpg",
+            "image": "shopify://shop_images/The-Marina-Spa-Cyprus-01.jpg",
             "image_caption": ""
           }
         },
         "image_MVKL6K": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-02.jpg",
+            "image": "shopify://shop_images/The-Marina-Spa-Cyprus-02.jpg",
             "image_caption": ""
           }
         },
         "image_WUUqgf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-03.jpg",
+            "image": "shopify://shop_images/The-Marina-Spa-Cyprus-03.jpg",
             "image_caption": ""
           }
         },
         "video_diQTUA": {
           "type": "video",
           "settings": {
-            "self_hosted_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/262e6f734d2c4588bcb8c1c98027141b.mp4",
-            "video_thumbnail": "shopify:\/\/shop_images\/The-Marina-Spa-Cyprus-04.jpg"
+            "self_hosted_url": "https://cdn.shopify.com/videos/c/o/v/262e6f734d2c4588bcb8c1c98027141b.mp4",
+            "video_thumbnail": "shopify://shop_images/The-Marina-Spa-Cyprus-04.jpg"
           }
         }
       },
@@ -433,16 +434,16 @@
     "text_and_image_qTab8G": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/spa_partner.jpg",
+        "image": "shopify://shop_images/spa_partner.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "show_sticky_text": false,
         "subtitle": "",
         "title": "COLLABORATE with Repêchage",
-        "text": "<p>Accelerate your journey with an expert skin care advisor on why Repêchage is right for your business.<\/p>",
+        "text": "<p>Accelerate your journey with an expert skin care advisor on why Repêchage is right for your business.</p>",
         "enlarge_text": false,
         "button_label": "SPEAK TO AN EXPERT",
-        "button_link": "shopify:\/\/pages\/contact-us",
+        "button_link": "shopify://pages/contact-us",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
