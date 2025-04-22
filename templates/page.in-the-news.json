@@ -124,6 +124,17 @@
     "custom_image_with_info_xL4cDE": {
       "type": "custom__image-with-info",
       "blocks": {
+        "text_block_xfx8qP": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/star_magazine_march_2025_spatula.jpg",
+            "title": "Star Magazine",
+            "date": "March, 2025",
+            "text": "<p>The Ultimate Skincare Essential</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_3YPELR": {
           "type": "text_block",
           "settings": {
@@ -259,6 +270,7 @@
         }
       },
       "block_order": [
+        "text_block_xfx8qP",
         "text_block_3YPELR",
         "text_block_VTMbHw",
         "text_block_bFazTU",
