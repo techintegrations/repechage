@@ -9,74 +9,6 @@
  */
 {
   "sections": {
-    "custom_featured_collection_tabs_PaGxFn": {
-      "type": "custom__featured-collection-tabs",
-      "blocks": {
-        "collection_MVEY8h": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Best Sellers",
-            "home_featured_products": "our-best-sellers"
-          }
-        },
-        "collection_md9zKm": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Moisturizers",
-            "home_featured_products": "moisturizers"
-          }
-        },
-        "collection_VFYzP3": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Serums",
-            "home_featured_products": "serums"
-          }
-        },
-        "collection_pJGAUr": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "MASKS",
-            "home_featured_products": "exfoliators-masks"
-          }
-        },
-        "collection_hRgkKb": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Eye Care",
-            "home_featured_products": "eye-treatments"
-          }
-        },
-        "collection_XTBUNN": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Skin Kits",
-            "home_featured_products": "travel-kits"
-          }
-        }
-      },
-      "block_order": [
-        "collection_MVEY8h",
-        "collection_md9zKm",
-        "collection_VFYzP3",
-        "collection_pJGAUr",
-        "collection_hRgkKb",
-        "collection_XTBUNN"
-      ],
-      "settings": {
-        "title": "Experience True Beauty From the Sea®",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
-        "divider": false
-      }
-    },
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
@@ -194,6 +126,74 @@
         "autoplay": true,
         "autoplay_speed": 10,
         "lazyload_images": false
+      }
+    },
+    "custom_featured_collection_tabs_PaGxFn": {
+      "type": "custom__featured-collection-tabs",
+      "blocks": {
+        "collection_MVEY8h": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Best Sellers",
+            "home_featured_products": "our-best-sellers"
+          }
+        },
+        "collection_md9zKm": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Moisturizers",
+            "home_featured_products": "moisturizers"
+          }
+        },
+        "collection_VFYzP3": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Serums",
+            "home_featured_products": "serums"
+          }
+        },
+        "collection_pJGAUr": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "MASKS",
+            "home_featured_products": "exfoliators-masks"
+          }
+        },
+        "collection_hRgkKb": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Eye Care",
+            "home_featured_products": "eye-treatments"
+          }
+        },
+        "collection_XTBUNN": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Skin Kits",
+            "home_featured_products": "travel-kits"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MVEY8h",
+        "collection_md9zKm",
+        "collection_VFYzP3",
+        "collection_pJGAUr",
+        "collection_hRgkKb",
+        "collection_XTBUNN"
+      ],
+      "settings": {
+        "title": "Experience True Beauty From the Sea®",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "divider": false
       }
     },
     "featured_collection_U6DUhq": {
@@ -1036,8 +1036,8 @@
     }
   },
   "order": [
-    "custom_featured_collection_tabs_PaGxFn",
     "slideshow_ybDcnc",
+    "custom_featured_collection_tabs_PaGxFn",
     "featured_collection_U6DUhq",
     "rich_text_np8xVN",
     "slideshow_NgxpwR",
