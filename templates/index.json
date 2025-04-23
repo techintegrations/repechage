@@ -9,6 +9,74 @@
  */
 {
   "sections": {
+    "custom_featured_collection_tabs_PaGxFn": {
+      "type": "custom__featured-collection-tabs",
+      "blocks": {
+        "collection_MVEY8h": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Best Sellers",
+            "home_featured_products": "our-best-sellers"
+          }
+        },
+        "collection_md9zKm": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Moisturizers",
+            "home_featured_products": "moisturizers"
+          }
+        },
+        "collection_VFYzP3": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Serums",
+            "home_featured_products": "serums"
+          }
+        },
+        "collection_pJGAUr": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "MASKS",
+            "home_featured_products": "exfoliators-masks"
+          }
+        },
+        "collection_hRgkKb": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Eye Care",
+            "home_featured_products": "eye-treatments"
+          }
+        },
+        "collection_XTBUNN": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Skin Kits",
+            "home_featured_products": "travel-kits"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MVEY8h",
+        "collection_md9zKm",
+        "collection_VFYzP3",
+        "collection_pJGAUr",
+        "collection_hRgkKb",
+        "collection_XTBUNN"
+      ],
+      "settings": {
+        "title": "Experience True Beauty From the Sea®",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_m": 50,
+        "padding_bottom_m": 50,
+        "divider": false
+      }
+    },
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
@@ -219,6 +287,24 @@
         "lazyload_images": true
       }
     },
+    "1736795386f07fe033": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_46x8kr"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "featured_collections_xaap9R": {
       "type": "featured-collections",
       "blocks": {
@@ -265,92 +351,6 @@
         "padding_bottom": 48,
         "padding_top_m": 50,
         "padding_bottom_m": 33
-      }
-    },
-    "custom_featured_collection_tabs_PaGxFn": {
-      "type": "custom__featured-collection-tabs",
-      "blocks": {
-        "collection_MVEY8h": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Best Sellers",
-            "home_featured_products": "our-best-sellers"
-          }
-        },
-        "collection_md9zKm": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Moisturizers",
-            "home_featured_products": "moisturizers"
-          }
-        },
-        "collection_VFYzP3": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Serums",
-            "home_featured_products": "serums"
-          }
-        },
-        "collection_pJGAUr": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "MASKS",
-            "home_featured_products": "exfoliators-masks"
-          }
-        },
-        "collection_hRgkKb": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Eye Care",
-            "home_featured_products": "eye-treatments"
-          }
-        },
-        "collection_XTBUNN": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Skin Kits",
-            "home_featured_products": "travel-kits"
-          }
-        }
-      },
-      "block_order": [
-        "collection_MVEY8h",
-        "collection_md9zKm",
-        "collection_VFYzP3",
-        "collection_pJGAUr",
-        "collection_hRgkKb",
-        "collection_XTBUNN"
-      ],
-      "settings": {
-        "title": "Browse Categories",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_m": 50,
-        "padding_bottom_m": 50,
-        "divider": false
-      }
-    },
-    "1736795386f07fe033": {
-      "type": "apps",
-      "blocks": {
-        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
-          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
-          "settings": {
-            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "videowise_video_commerce_videowise_page_widgets_46x8kr"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     },
     "text_and_image_hPkL8i": {
@@ -1036,13 +1036,13 @@
     }
   },
   "order": [
+    "custom_featured_collection_tabs_PaGxFn",
     "slideshow_ybDcnc",
     "featured_collection_U6DUhq",
     "rich_text_np8xVN",
     "slideshow_NgxpwR",
     "1736795386f07fe033",
     "featured_collections_xaap9R",
-    "custom_featured_collection_tabs_PaGxFn",
     "text_and_image_hPkL8i",
     "promo_grid_q7xmp6",
     "text_and_image_T3jnem",
