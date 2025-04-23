@@ -25,8 +25,8 @@
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/mothers_day_promo_web_banner_2025_2000.gif",
-            "image_mobile": "shopify://shop_images/mothers_day_promo_pro_web_banner_m.gif",
+            "image": "shopify://shop_images/mothers_day_promo_web_banner_2025_2.gif",
+            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_sm.gif",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
