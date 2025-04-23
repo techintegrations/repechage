@@ -124,6 +124,28 @@
     "custom_image_with_info_xL4cDE": {
       "type": "custom__image-with-info",
       "blocks": {
+        "text_block_iGX6Ug": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/professional_beauty_magazine_april_2025_ask_expert_articlepress.jpg",
+            "title": "professional beauty uk",
+            "date": "april, 2025",
+            "text": "<p>\"Seaweed, Peptides, and Plant-based Actives are the secret to restoring hydration, firmness, and radiance in menopausal skin.\"<br/>-Lydia Sarfati</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_gUW3w3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/professional_beauty_magazine_april_2025_hair___scalp_serumpress.jpg",
+            "title": "Professional Beauty UK",
+            "date": "april, 2025",
+            "text": "<p>\"Infused with Hydra-Amino 18 Complex, Seaweed-derived Vitamins and nourishing oils like Jojoba, Coconut and Marula\"</p>",
+            "button_label": "Shop Hair & Scalp Serum",
+            "button_link": "https://www.repechage.com/products/vita-cura-hair-and-scalp-serum"
+          }
+        },
         "text_block_xfx8qP": {
           "type": "text_block",
           "settings": {
@@ -140,7 +162,7 @@
           "settings": {
             "image": "shopify://shop_images/Dermascope_April_2025_Lydia_s_Article_32afd1f2-8043-4855-bfa8-3841a7bebe0e.png",
             "title": "Dermascope",
-            "date": "April 2025",
+            "date": "April, 2025",
             "text": "",
             "button_label": "Read More",
             "button_link": "https://www.dermascope.com/freedigital/April2025/"
@@ -270,6 +292,8 @@
         }
       },
       "block_order": [
+        "text_block_iGX6Ug",
+        "text_block_gUW3w3",
         "text_block_xfx8qP",
         "text_block_3YPELR",
         "text_block_VTMbHw",
