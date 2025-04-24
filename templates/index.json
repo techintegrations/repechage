@@ -183,7 +183,7 @@
         "collection_XTBUNN"
       ],
       "settings": {
-        "title": "Experience True Beauty From the Sea®",
+        "title": "Experience Beauty From the Sea®",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -228,6 +228,24 @@
         "padding_bottom_m": 0,
         "bg_color": "",
         "divider": false
+      }
+    },
+    "1736795386f07fe033": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_46x8kr"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "featured_collection_U6DUhq": {
@@ -285,24 +303,6 @@
         "autoplay": false,
         "autoplay_speed": 5,
         "lazyload_images": true
-      }
-    },
-    "1736795386f07fe033": {
-      "type": "apps",
-      "blocks": {
-        "videowise_video_commerce_videowise_page_widgets_46x8kr": {
-          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
-          "settings": {
-            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_67637350d0895b0028336253\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "videowise_video_commerce_videowise_page_widgets_46x8kr"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     },
     "featured_collections_xaap9R": {
