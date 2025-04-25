@@ -594,6 +594,7 @@
         },
         "class_tzJd7k": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "OCTOBER",
             "date": "20 - 22",
@@ -606,6 +607,7 @@
         },
         "class_R4xbL4": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "NOVEMBER",
             "date": "18",
