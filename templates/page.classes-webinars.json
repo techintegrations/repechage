@@ -496,6 +496,30 @@
             "button_link": "https://livelovespa.regfox.com/live-love-spa-dallas-2025"
           }
         },
+        "class_kQXDm7": {
+          "type": "class",
+          "settings": {
+            "month": "JUNE",
+            "date": "22",
+            "class": "WORKSHOP",
+            "title": "Advanced Solutions to Target Aging and Inflammation in the Skin with Lydia Sarfati ",
+            "text": "<p><strong>12:30 pm - 1:30</strong> <strong>pm</strong></p><p><strong>Room: W209</strong> </p><p>Explore  the power of advanced bioactive ingredients designed to strengthen the  skin barrier and visibly reduce the appearance of fine lines and <br/>wrinkles.</p><p>This class focuses on combating the effects of sun damage, chemical exposure, genetic aging, and climate-related stressors.</p><p>Receive exclusive samples of our newest Repêchage innovations to elevate your treatment offerings.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "class_8HXp9F": {
+          "type": "class",
+          "settings": {
+            "month": "",
+            "date": "",
+            "class": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "class_FeL79m": {
           "type": "class",
           "settings": {
@@ -626,6 +650,8 @@
         "class_tzfCtV",
         "class_D3zE4e",
         "class_nEQ7C7",
+        "class_kQXDm7",
+        "class_8HXp9F",
         "class_FeL79m",
         "class_n7KmBt",
         "class_x9pFqN",
