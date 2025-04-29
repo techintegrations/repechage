@@ -822,7 +822,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h3><span style=\"text-decoration:underline\"><strong>Sunday, December 1, 2024 – Welcome Reception</strong></span></h3><p><strong>SUNDAY, AUGUST 3 </strong><br/>Join us for an evening of exceptional dining and wine at:<br/>LIMANI, NEW YORK | 6:30p.m. - 8:30 p.m. <br/>45 Rockefeller Plaza, New York, NY 10111</p>",
+            "text": "<h2><strong>SUNDAY, AUGUST 3</strong></h2><p>Join us for an evening of exceptional dining and wine at:<br/>LIMANI, NEW YORK | 6:30p.m. - 8:30 p.m. <br/>45 Rockefeller Plaza, New York, NY 10111</p>",
             "text_color": "#000000"
           }
         },
