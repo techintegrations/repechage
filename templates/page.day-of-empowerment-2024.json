@@ -206,6 +206,7 @@
         "heading_QcJ7ax",
         "text_KaVd6R"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -310,6 +311,7 @@
         "text_block_xB3z3m",
         "text_block_XMnedY"
       ],
+      "disabled": true,
       "settings": {
         "title": "OUR LINEUP",
         "text": "",
@@ -337,6 +339,7 @@
       "blocks": {
         "text_block_YtFcQ6": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "select_icon": "icon",
             "custom_icon": "",
@@ -349,6 +352,7 @@
         },
         "text_block_TY6iGC": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "select_icon": "icon",
             "custom_icon": "",
@@ -361,6 +365,7 @@
         },
         "text_block_i34j9i": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "select_icon": "icon",
             "custom_icon": "",
@@ -377,6 +382,7 @@
         "text_block_TY6iGC",
         "text_block_i34j9i"
       ],
+      "disabled": true,
       "settings": {
         "title": "Claim your spot before it’s too late!",
         "align_text": "center",
@@ -398,6 +404,7 @@
       "blocks": {
         "heading_dtgkMQ": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "YOUR Exclusive Special Offer",
             "title_color": "#000000"
@@ -405,9 +412,10 @@
         },
         "text_DdLMCY": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Sign up for our ALL ACCESS ($399) and redeem it in equal value for new launch product exclusively at the Day of Empowerment Event!!***</p>",
+            "text": "<p>Sign up for our ALL ACCESS ($199) and redeem it in equal value for new launch product exclusively at the Day of Empowerment Event!!***</p>",
             "text_color": "#000000"
           }
         },
@@ -424,6 +432,7 @@
         "text_DdLMCY",
         "button_nhrD4R"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -437,6 +446,7 @@
     },
     "background_image_text_UnDfb3": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "HOSTED AT",
         "title": "Conrad Fort Lauderdale Beach Hotel ",
@@ -518,6 +528,7 @@
         "text_block_FXpjh7",
         "text_block_ayQjTw"
       ],
+      "disabled": true,
       "settings": {
         "title": "Success at every level",
         "text": "<p>Meet The Panelists</p>",
@@ -574,6 +585,7 @@
         "text_block_neP9kM",
         "text_block_KLftgf"
       ],
+      "disabled": true,
       "settings": {
         "title": "ADVANCED SKINCARE WORKSHOP + hands-on training",
         "align_text": "center",
@@ -810,7 +822,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h3><span style=\"text-decoration:underline\"><strong>Sunday, December 1, 2024 – Welcome Reception</strong></span></h3><p><strong>5:30pm-7:30pm</strong> – Join us for welcome cocktails and networking at the hotel skydeck overlooking the atlantic ocean 6th Floor Conrad Ft Lauderdale Beach</p>",
+            "text": "<h3><span style=\"text-decoration:underline\"><strong>Sunday, December 1, 2024 – Welcome Reception</strong></span></h3><p><strong>SUNDAY, AUGUST 3 </strong><br/>Join us for an evening of exceptional dining and wine at:<br/>LIMANI, NEW YORK | 6:30p.m. - 8:30 p.m. <br/>45 Rockefeller Plaza, New York, NY 10111</p>",
             "text_color": "#000000"
           }
         },
@@ -837,6 +849,7 @@
         "text_y73nyR",
         "text_iT3tr4"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": false,
