@@ -118,10 +118,10 @@
       ],
       "settings": {
         "show_container": false,
-        "section_height": "550px",
+        "section_height": "natural",
         "mobile_height": "500px",
         "parallax": false,
-        "style": "bars",
+        "style": "dots",
         "autoplay": true,
         "autoplay_speed": 10,
         "lazyload_images": false
