@@ -1151,14 +1151,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Unleash its full potential with us at our 2024 Day of Empowerment.</p><p></p>",
+            "text": "<p>Unleash its full potential with us at our 2025 Day of Empowerment.</p>",
             "text_color": "#000000"
           }
         },
         "button_FVftCN": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/day-of-empowerment-2024",
+            "link": "https://www.repechage.com/products/day-of-empowerment-august-3-5-2025",
             "link_text": "START TODAY!"
           }
         }
