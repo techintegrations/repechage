@@ -16,17 +16,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "<p>give mom the ultimate glow</p>",
             "title_size": 59,
-            "subheading": "",
+            "subheading": "<p>Vita Cura Sea Spa Body Collection<br/>Gift Set With a FREE Dry Body Brush</p>",
             "link": "https://www.repechage.com/products/vita-cura-sea-spa-body-collection-gift-set",
-            "link_text": "",
+            "link_text": "Shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/TEST-mothers_day_promo_web_banner_VC_body_gift_set_2025.jpg",
-            "image_mobile": "shopify://shop_images/TEST-mothers_day_promo_web_banner_VC_body_gift_set_m_2025.jpg",
+            "image": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_2025.jpg",
+            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_m_2025.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
