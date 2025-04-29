@@ -32,7 +32,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "<h2><strong>2025 REPECHAGE DAY OF EMPOWERMENT</strong></h2>",
+            "title": "<h1>2025 REPECHAGE DAY OF EMPOWERMENT</h1>",
             "title_size": 80,
             "subheading": "",
             "link": "",
@@ -51,6 +51,9 @@
         "image_Y9W6Fw"
       ],
       "disabled": true,
+      "custom_css": [
+        ".hero__title.animation-contentsanimation-contents h1,.hero__title.animation-contentsanimation-contentsanimation-contents h2,.hero__title.animation-contentsanimation-contentsanimation-contents h3 {color: #fff !important;}"
+      ],
       "settings": {
         "show_container": false,
         "section_height": "natural",
