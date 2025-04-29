@@ -951,14 +951,14 @@
           "type": "question",
           "settings": {
             "title": "What are the dates for the event?",
-            "text": "<p>The 2024 Repechage Day of Empowerment will take place from <strong>December 1-3, 2024</strong>.</p><p></p>"
+            "text": "<p>The 2025 Repechage Day of Empowerment will take place from <strong>August 3-5, 2025</strong></p>"
           }
         },
         "faq-2": {
           "type": "question",
           "settings": {
             "title": "Where is the event being held?",
-            "text": "<p>The event will be hosted at the <strong>Conrad Hotel</strong> in <strong>Ft. Lauderdale, FL</strong>.</p>"
+            "text": "<p>The event will be hosted at 45 Rockefeller Plaza, New York, NY 10111 </p>"
           }
         },
         "faq-4": {
@@ -1020,8 +1020,8 @@
         "question_GkgM7L": {
           "type": "question",
           "settings": {
-            "title": "Is there a special room rate at the Conrad Hotel for attendees?",
-            "text": "<p>Yes, a special room rate is available for attendees. Please check the <strong>Repechage event page</strong> for booking information.</p>"
+            "title": "Is there a special room rate at the Envue, Autograph Collection Hotel?",
+            "text": "<p><a href=\"https://www.marriott.com/event-reservations/reservation-link.mi?id=1742598436031&key=GRP&guestreslink2=true&app=resvlink\" title=\"https://www.marriott.com/event-reservations/reservation-link.mi?id=1742598436031&key=GRP&guestreslink2=true&app=resvlink\">Yes, a special room rate is available for attendees.</a></p>"
           }
         },
         "question_aj4L6T": {
@@ -1077,7 +1077,7 @@
           "type": "question",
           "settings": {
             "title": "How do I register for the event?",
-            "text": "<p>Visit the official <strong>Repechage website</strong> to register for the 2024 Day of Empowerment. Early registration is encouraged due to limited seating.</p>"
+            "text": "<p>Visit the official <strong>Repechage website</strong> to register for the 2025 Day of Empowerment. Early registration is encouraged due to limited seating.</p>"
           }
         }
       },
