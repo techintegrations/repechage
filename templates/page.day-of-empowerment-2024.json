@@ -12,7 +12,7 @@
     "hero_video_xBiQid": {
       "type": "hero-video",
       "custom_css": [
-        "h1 {color: #fff !important;}"
+        ".loaded[data-aos=\"hero__animation\"] .hero__title, .animation-contents {color: #fff;}"
       ],
       "settings": {
         "title": "2025 REPECHAGE DAY OF EMPOWERMENT",
