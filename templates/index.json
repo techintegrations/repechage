@@ -12,25 +12,6 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
-        "image_aNfTce": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "<p>The Perfect Mother's Day Gift </p>",
-            "title": "<p>FREE VELVET COSMETIC BAG </p>",
-            "title_size": 80,
-            "subheading": "<p>With a Starter Collection Kit Purchase </p>",
-            "link": "shopify://collections/travel-kits",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/mothers_day_promo_web_banner_2025_2.gif",
-            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_sm_68e66a30-d4b2-4352-a582-cbee8d5e65ea.gif",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "image_Rx9W9J": {
           "type": "image",
           "settings": {
@@ -46,6 +27,25 @@
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_2025.jpg",
             "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_m_2025.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aNfTce": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>The Perfect Mother's Day Gift </p>",
+            "title": "<p>FREE VELVET COSMETIC BAG </p>",
+            "title_size": 80,
+            "subheading": "<p>With a Starter Collection Kit Purchase </p>",
+            "link": "shopify://collections/travel-kits",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/mothers_day_promo_web_banner_2025_2.gif",
+            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_sm_68e66a30-d4b2-4352-a582-cbee8d5e65ea.gif",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -110,8 +110,8 @@
         }
       },
       "block_order": [
-        "image_aNfTce",
         "image_Rx9W9J",
+        "image_aNfTce",
         "image_YiVpPc",
         "image_dcrq4U",
         "image_iCkPT9"
