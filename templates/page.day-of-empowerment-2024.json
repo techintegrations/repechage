@@ -11,8 +11,11 @@
   "sections": {
     "hero_video_xBiQid": {
       "type": "hero-video",
+      "custom_css": [
+        "h1 {color: #fff !important;}"
+      ],
       "settings": {
-        "title": "2024 REPECHAGE DAY OF EMPOWERMENT",
+        "title": "2025 REPECHAGE DAY OF EMPOWERMENT",
         "title_size": 63,
         "subheading": "LIMANI, NEW YORK (August 3-5, 2025)",
         "link_text": "GET YOUR TICKET NOW!",
