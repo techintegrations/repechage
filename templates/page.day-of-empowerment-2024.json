@@ -124,14 +124,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Join Repechage at the <strong>2024 Day of Empowerment</strong>, where you will immerse yourself in the world of spa wellness and skincare like never before! </p><p>Discover exciting <strong>new product launches</strong> that will elevate your business and take your offerings to the next level. </p><p>At this transformative event, you'll gain invaluable insights from <strong>real-life expert panelists</strong>, connect with industry leaders, and accelerate your growth through powerful <strong>networking opportunities</strong>. Plus, don’t miss the <strong>advanced skincare workshop</strong>, a hands-on experience that will empower you with cutting-edge techniques to enhance your skills. </p><p>This event is designed to <strong>change your life</strong> and give you the tools you need to succeed in the competitive wellness industry. </p><p><strong>Don’t miss out on this opportunity to learn, grow, and thrive with Repechage!</strong></p>",
+            "text": "<p>Level up your business with expert insights, powerful connections, and <br/>actionable strategies at our Empowerment Day on Monday, August 4th.</p><p>And to ready yourself for this extraordinary event, join us on August 3rd for an evening of exceptional dining and wine at Limani, NY at Rockefeller Plaza, NYC</p>",
             "text_color": "#000000"
           }
         },
         "button_GiydYm": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/day-of-empowerment-2024",
+            "link": "https://www.repechage.com/products/day-of-empowerment-august-3-5-2025",
             "link_text": "Connect, Learn, and Grow at Day of Empowerment!"
           }
         }
@@ -166,10 +166,10 @@
         "show_sticky_text": false,
         "subtitle": "We Welcome you to our",
         "title": "Day of Empowerment",
-        "text": "<p>As we begin approaching the end of the year, we also begin approaching the biggest Repêchage® wellness event of the year!</p><p>Join us in celebrating the shared successes of our wonderful worldwide community of <strong>over 50 countries</strong> at the annual <strong>Repêchage® Day of Empowerment</strong>! The event info is as follows:</p><ul><li><strong>Sunday, December 1, 2024 - Arrival / Welcome Reception</strong></li><li><strong>Monday, December 2, 2024 - Day of Empowerment</strong></li><li><strong>Tuesday, December 3, 2024 - Advanced Skincare Workshop</strong></li></ul><p><strong>HOSTED AT THE: CONRAD BEACH HOTEL - FT. LAUDERDALE, FL</strong></p>",
+        "text": "<p><strong>SUNDAY, AUGUST 3 </strong><br/>Join us for an evening of exceptional dining and wine at:<br/><br/>LIMANI, NEW YORK<br/>6:30p.m. - 8:30 p.m. <br/>45 Rockefeller Plaza<br/>New York, NY 10111 <br/><br/><strong>MONDAY, AUGUST 4 </strong><br/>Level up your business with expert insights, powerful connections, and actionable strategies at our Empowerment Day:<br/><br/>ENVUE HOTEL<br/>9:00am - 5:00pm <br/>550 Avenue at Port Imperial<br/>Weehawken, NJ 07086<br/><br/><strong>TUESDAY, AUGUST 5</strong> <br/>Enhance your experience with an Advance Esthetics Workshop.</p>",
         "enlarge_text": false,
         "button_label": "Don’t miss out—join us and elevate your business today!",
-        "button_link": "shopify://products/day-of-empowerment-2024",
+        "button_link": "https://www.repechage.com/products/day-of-empowerment-august-3-5-2025",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
