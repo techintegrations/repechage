@@ -31,6 +31,25 @@
             "overlay_opacity": 0
           }
         },
+        "image_Rx9W9J": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>give mom the ultimate glow</p>",
+            "title_size": 59,
+            "subheading": "<p>Vita Cura Sea Spa Body Collection Gift Set<br/>With a FREE Dry Body Brush</p>",
+            "link": "https://www.repechage.com/products/vita-cura-sea-spa-body-collection-gift-set",
+            "link_text": "Shop now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_2025.jpg",
+            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_m_2025.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_YiVpPc": {
           "type": "image",
           "settings": {
@@ -46,26 +65,6 @@
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/newredoutregular_website_ba.jpg",
             "image_mobile": "shopify://shop_images/new_red_out_regular_website_banner_2025_m.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Rx9W9J": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>Try</p>",
-            "title": "<p>THE ORIGINAL SEAWEED SERUM</p>",
-            "title_size": 69,
-            "subheading": "<p>Rich in 12 vitamins, 18 amino acids and 42 trace elements and minerals.</p>",
-            "link": "https://www.repechage.com/products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin",
-            "link_text": "BUNDLE AND SAVE",
-            "link_2": "https://www.repechage.com/products/free-one-minute-exfoliating-mask-w-purchase-of-c-serum-hydro-complex-pfs-for-normal-to-dry-skin",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/Banner_Q4_-_1.jpg",
-            "image_mobile": "shopify://shop_images/1_9270436c-b7c8-4d48-8781-78e232047ebf.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -112,8 +111,8 @@
       },
       "block_order": [
         "image_aNfTce",
-        "image_YiVpPc",
         "image_Rx9W9J",
+        "image_YiVpPc",
         "image_dcrq4U",
         "image_iCkPT9"
       ],
