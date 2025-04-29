@@ -118,7 +118,7 @@
       ],
       "settings": {
         "show_container": false,
-        "section_height": "natural",
+        "section_height": "550px",
         "mobile_height": "500px",
         "parallax": false,
         "style": "dots",
