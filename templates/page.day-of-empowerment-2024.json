@@ -53,7 +53,7 @@
       "disabled": true,
       "settings": {
         "show_container": false,
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
