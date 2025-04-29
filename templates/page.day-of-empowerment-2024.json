@@ -12,12 +12,12 @@
     "hero_video_xBiQid": {
       "type": "hero-video",
       "custom_css": [
-        ".loaded[data-aos=\"hero__animation\"] .hero__title, .animation-contents {color: #fff;}"
+        ".loaded[data-aos=\"hero__animation\"] .hero__title,.animation-contents {color: #fff;}"
       ],
       "settings": {
         "title": "2025 REPECHAGE DAY OF EMPOWERMENT",
         "title_size": 63,
-        "subheading": "LIMANI, NEW YORK (August 3-5, 2025)",
+        "subheading": "NEW YORK (August 3-5, 2025)",
         "link_text": "GET YOUR TICKET NOW!",
         "link": "https://www.repechage.com/products/day-of-empowerment-august-3-5-2025",
         "color_accent": "#b1e4e3",
