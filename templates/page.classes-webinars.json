@@ -390,6 +390,7 @@
         },
         "class_79Fp7E": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "APRIL",
             "date": "28 - 29",
@@ -532,6 +533,18 @@
             "button_link": "shopify://products/day-of-empowerment-august-3-5-2025"
           }
         },
+        "class_zq6Fkt": {
+          "type": "class",
+          "settings": {
+            "month": "AUGUST",
+            "date": "5",
+            "class": "DAY OF EMPOWERMENT ADVANCED CLASS",
+            "title": "DAY OF EMPOWERMENT ADVANCED CLASS",
+            "text": "<p><strong>TUESDAY, AUGUST 5</strong> <br/>Enhance your experience with an Advance Esthetics Workshop. Available for an additional Fee.<br/>Workshop details to follow.</p><p></p>",
+            "button_label": "REGISTER",
+            "button_link": "shopify://products/day-of-empowerment-advanced-education-august-5-2025"
+          }
+        },
         "class_n7KmBt": {
           "type": "class",
           "settings": {
@@ -654,6 +667,7 @@
         "class_D3zE4e",
         "class_nEQ7C7",
         "class_FeL79m",
+        "class_zq6Fkt",
         "class_n7KmBt",
         "class_x9pFqN",
         "class_dUNqX4",
