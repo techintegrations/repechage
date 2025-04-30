@@ -252,9 +252,9 @@
   {% include 'subscription-theme-footer' %}
 
   <!-- REBUY APP FREE PRODUCT CUSTOM IMAGES -->
-{% unless template.name == 'blog' or template.name == 'article' %}
+
   <script src="{{ 'rebuy-templates.js' | asset_url }}" defer="defer"></script>
-{% endunless %}
+  
 	     <script>
        getCustomFreeProductImage(product) {
          if (product.id === '7982426128557') return 'https://www.repechage.com/cdn/shop/products/Red-Out-Serum-New-Btl_63267aa8-9661-4010-96ec-b9b0c4615d4b.jpg';
@@ -263,12 +263,10 @@
        }
     </script>
 <!-- Widget : FREE Hydra Medic Corrective Concealer w/ Purchase of Hydra Medic Clear Complexion Drying Lotion -->
-  {% unless template.name == 'blog' or template.name == 'article' %}
 <div data-rebuy-id="206843"></div>
 <!-- End Widget : FREE Hydra Medic Corrective Concealer w/ Purchase of Hydra Medic Clear Complexion Drying Lotion -->  
      </script>
   <div data-rebuy-id="204372" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
    {% render 'rebuy-extensions' %}
-  {% endunless %}
 </body>
 </html>
