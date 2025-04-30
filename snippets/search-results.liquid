@@ -8,7 +8,7 @@
   <div class="predictive-search-results {% if totalCount == 0 %}predictive-search-results--none{% endif %}" id="predictive-search-results">
     {% if totalCount > 0 %}
       <div class="results__group-1" {% if columnCount == 0 %}style="display: none"{% endif %}>
-        {%- if predictive_search.resources.queries.size > 0 and request.params.type != 'article' -%}
+        {%- if predictive_search.resources.queries.size > 0 -%}
           <div class="results results--queries">
             <h3 class="h4" id="predictive-search-suggestions">
               {{ 'general.search.suggestions' | t }}
@@ -24,7 +24,7 @@
             </ul>
           </div>
         {%- endif -%}
-        {%- if predictive_search.resources.pages.size > 0 and request.params.type != 'article' -%}
+        {%- if predictive_search.resources.pages.size > 0 -%}
           <div class="results results--pages">
             <h3 class="h4" id="predictive-search-pages">
               {{ 'general.search.pages' | t }}
@@ -40,7 +40,7 @@
             </ul>
           </div>
         {%- endif -%}
-        {%- if predictive_search.resources.articles.size > 0  -%}
+        {%- if predictive_search.resources.articles.size > 0 -%}
           <div class="results results--articles">
             <h3 class="h4" id="predictive-search-articles">
               {{ 'general.search.articles' | t }}
@@ -56,7 +56,7 @@
             </ul>
           </div>
         {%- endif -%}
-        {%- if predictive_search.resources.collections.size > 0 and request.params.type != 'article' -%}
+        {%- if predictive_search.resources.collections.size > 0 -%}
           <div class="results results--collections">
             <h3 class="h4" id="predictive-search-collections">
               {{ 'general.search.collections' | t }}
@@ -75,7 +75,7 @@
       </div>
 
       <div class="results__group-2">
-        {%- if predictive_search.resources.products.size > 1 and request.params.type != 'article' -%}
+        {%- if predictive_search.resources.products.size > 1 -%}
           <div class="results results--products">
             <h3 class="h4" id="predictive-search-products">
               {{ 'general.search.products' | t }}
@@ -133,7 +133,7 @@
           </div>
         {%- endif -%}
 
-        {%- if predictive_search.resources.pages.size > 0 and request.params.type != 'article' -%}
+        {%- if predictive_search.resources.pages.size > 0 -%}
           <div class="results results--pages">
             <h3 class="h4" id="predictive-search-pages">
               {{ 'general.search.pages' | t }}
@@ -165,7 +165,7 @@
             </ul>
           </div>
         {%- endif -%}
-        {%- if predictive_search.resources.collections.size > 0 and request.params.type != 'article' -%}
+        {%- if predictive_search.resources.collections.size > 0 -%}
           <div class="results results--collections">
             <h3 class="h4" id="predictive-search-collections">
               {{ 'general.search.collections' | t }}
