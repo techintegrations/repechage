@@ -631,15 +631,6 @@
             "author_info": "Spa Adagio"
           }
         },
-        "testimonial_4VCL9C": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
         "testimonial_wwiWkd": {
           "type": "testimonial",
           "settings": {
@@ -662,7 +653,6 @@
       "block_order": [
         "testimonial_yV3KWE",
         "testimonial_GE4jeX",
-        "testimonial_4VCL9C",
         "testimonial_wwiWkd",
         "testimonial_nJr8zd"
       ],
