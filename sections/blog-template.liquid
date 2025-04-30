@@ -86,23 +86,6 @@
   </div>
 {%- endpaginate -%}
 
-                  {% comment %}
-  Replace `custom` and `my_field` with your metafield’s namespace and key.
-  Loop through all articles in the “news” blog; only render ones where that metafield is set.
-{% endcomment %}
-{% assign news_blog = blogs['news'] %}
-<ul>
-  {% for article in news_blog.articles %}
-    {% assign field = article.metafields.custom.related_products %}
-    {% if field != blank %}
-      <li>
-        <a href="{{ article.url }}">
-          {{ article.title }} — {{ field }}
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
 
 
 {% schema %}
