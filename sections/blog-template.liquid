@@ -25,7 +25,12 @@
             <input type="hidden" name="type" value="article">
             <div class="search-input">
             <div class="search-text">
-              <input placeholder="Search article" type="text" name="q">
+              <input
+                  type="text"
+                  name="q"
+                  placeholder="Search articles…"
+                  value="{{ search.terms | escape }}"
+                >
             </div>
             <div class="search-submit">
               <input type="submit" value="Search" class="btn">
