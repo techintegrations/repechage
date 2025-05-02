@@ -137,24 +137,7 @@
                     {{ 'home_page.onboarding.product_title' | t }}
                   {%- endunless -%}
                 </h1>
-              {%- endif -%}
-
-              <div class="sku-weight">
-              {%- if sku_enable -%}
-                <p data-sku class="product-single__sku">
-                  {%- if current_variant.sku -%}
-                    SKU: {{ current_variant.sku }}
-                  {%- endif -%}
-                </p>
-              {%- endif -%}
-
-              {%- if product.metafields.custom.weight != blank -%}
-              <p data-weight class="product-single__weight">
-                  Size: {{ product.metafields.custom.weight }}
-              </p>
-              {%- endif -%}
-              </div>
-  
+              {%- endif -%}  
               </div>
 
             <div data-product-blocks>
@@ -168,6 +151,23 @@
                   {%- when 'text' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.text }}
+                    </div>
+                  {%- when 'Sku_size' -%}
+                   {% assign current_variant = product.selected_or_first_available_variant %}
+                    <div class="sku-weight">
+                      {%- if block.settings.sku_enable -%}
+                        <p data-sku class="product-single__sku">
+                          {%- if current_variant.sku -%}
+                            <span class="custom_label-wrap">SKU:</span> {{ current_variant.sku }}
+                          {%- endif -%}
+                        </p>
+                      {%- endif -%}
+        
+                      {%- if block.settings.weight_enable and product.metafields.custom.weight != blank -%}
+                      <p data-weight class="product-single__weight">
+                          <span class="custom_label-wrap">Size:</span> {{ product.metafields.custom.weight }}
+                      </p>
+                      {%- endif -%}
                     </div>
                   {%- when 'tab' -%}
                     {% assign tab_id = block.id | append: product.id %}
@@ -265,14 +265,7 @@
                         </div>
                       {%- endif -%}
                     </div>
-                  {%- when 'quantity_selector' -%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
-                      <div class="product__quantity">
-                        {% assign qty_id = section_id | append: product.id %}
-                        <label for="Quantity-{{ qty_id }}">{{ 'products.product.quantity' | t }}</label>
-                        {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
-                      </div>
-                    </div>
+                  
                   {%- when 'size_chart' -%}
                     {% if connect_to_sizechart == false %}
                       {%- capture size_chart_title -%}
@@ -341,25 +334,64 @@
                     </div>
                   {%- when 'buy_buttons' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
-                      {%- unless product.empty? -%}
-                        <div class="product-block">
-                          {%- render 'product-form',
-                            form_id: form_id,
-                            product: product,
-                            show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                            current_variant: current_variant,
-                            block: block,
-                          -%}
-                        </div>
-                      {%- endunless -%}
-
-                      {%- if block.settings.surface_pickup_enable -%}
-                        <div data-store-availability-holder
-                          data-product-name="{{ product.title | escape }}"
-                          data-base-url="{{ shop.url }}{{ routes.root_url }}"
-                          ></div>
-                      {%- endif -%}
+                      <div class="custom_blocks-wrap">
+                  
+                        {%- if block.settings.quantity_selector  -%}
+                          <div class="product-block-quantity" {{ block.shopify_attributes }}>
+                            <div class="product__quantity">
+                              {% assign qty_id = section_id | append: product.id %}
+                              {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
+                            </div>
+                          </div>
+                        {% endif %}
+                    
+                        
+                          {%- unless product.empty? -%}
+                            <div class="product-block">
+                              {%- render 'product-form',
+                                form_id: form_id,
+                                product: product,
+                                show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                                current_variant: current_variant,
+                                block: block,
+                              -%}
+                            </div>
+                          {%- endunless -%}
+                  
+                      </div>
+                  
+                          {%- if block.settings.surface_pickup_enable -%}
+                            <div data-store-availability-holder
+                              data-product-name="{{ product.title | escape }}"
+                              data-base-url="{{ shop.url }}{{ routes.root_url }}"
+                              ></div>
+                          {%- endif -%}
+                        
                     </div>
+
+                  {%- when 'product_services' -%}
+
+                  <div class="product-block product-block--product_services" {{ block.shopify_attributes }}>
+                    {% if  block.settings.heading_1 != blank %}
+                      <div class="product__services-item">
+                        <span class="product__services-icon">
+                          <img src="{{ block.settings.icon_1 | image_url }}">
+                        </span>
+                        <span class="product__services-text">{{ block.settings.heading_1 }}</span>
+                      </div>
+                    {% endif %}
+                  
+                    {% if  block.settings.heading_1 != blank %}
+                      <div class="product__services-item">
+                        <span class="product__services-icon">
+                          <img src="{{ block.settings.icon_2 | image_url }}">
+                        </span>
+                        <span class="product__services-text">{{ block.settings.heading_2 }}</span>
+                      </div>
+                    {% endif %}
+                  </div>
+
+                          
                   {%- when 'sales_point' -%}
                     {%- unless block.settings.text == blank -%}
                       <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
@@ -441,38 +473,45 @@
                       {{ block.settings.text }}
                     </div>
                   {%- when 'logo' -%}
-                      <ul class="product-logo product-block" {{ block.shopify_attributes }}>
-                        {%- if block.settings.logo_1 != blank -%}
-                          <li class="logo">
-                            <img src="{{ block.settings.logo_1 | img_url: '200x' }}" alt="{{ block.settings.logo_1 }}">
-                          </li>
-                        {%- endif -%}
-                        {% if block.settings.logo_2 != blank %}
-                          <li class="logo">
-                            <img src="{{ block.settings.logo_2 | img_url: '200x' }}" alt="{{ block.settings.logo_2 }}">
-                          </li>
+                      <div class="product-logo__wrap product-logo__wrap-mobile">
+                        {% if block.settings.heading != blank %}
+                          <span class="product-logo__heading">
+                            {{ block.settings.heading }}
+                          </span>
                         {% endif %}
-                        {% if block.settings.logo_3 != blank %}
-                          <li class="logo">
-                            <img src="{{ block.settings.logo_3 | img_url: '200x' }}" alt="{{ block.settings.logo_3 }}">
-                          </li>
-                        {% endif %}
-                        {% if block.settings.logo_4 != blank %}
-                          <li class="logo">
-                            <img src="{{ block.settings.logo_4 | img_url: '200x' }}" alt="{{ block.settings.logo_4 }}">
-                          </li>
-                        {% endif %}
-                        {% if block.settings.logo_5 != blank %}
-                          <li class="logo">
-                            <img src="{{ block.settings.logo_5 | img_url: '200x' }}" alt="{{ block.settings.logo_5 }}">
-                          </li>
-                        {% endif %}
-                        {% if block.settings.logo_6 != blank %}
-                          <li class="logo">
-                            <img src="{{ block.settings.logo_6 | img_url: '200x' }}" alt="{{ block.settings.logo_6 }}">
-                          </li>
-                        {% endif %}
-                      </ul>
+                          <ul class="product-logo product-block" {{ block.shopify_attributes }}>
+                              {%- if block.settings.logo_1 != blank -%}
+                                <li class="logo">
+                                  <img src="{{ block.settings.logo_1 | image_url }}" alt="{{ block.settings.logo_1 }}">
+                                </li>
+                              {%- endif -%}
+                              {% if block.settings.logo_2 != blank %}
+                                <li class="logo">
+                                  <img src="{{ block.settings.logo_2 | image_url }}" alt="{{ block.settings.logo_2 }}">
+                                </li>
+                              {% endif %}
+                              {% if block.settings.logo_3 != blank %}
+                                <li class="logo">
+                                  <img src="{{ block.settings.logo_3 | image_url }}" alt="{{ block.settings.logo_3 }}">
+                                </li>
+                              {% endif %}
+                              {% if block.settings.logo_4 != blank %}
+                                <li class="logo">
+                                  <img src="{{ block.settings.logo_4 | image_url }}" alt="{{ block.settings.logo_4 }}">
+                                </li>
+                              {% endif %}
+                              {% if block.settings.logo_5 != blank %}
+                                <li class="logo">
+                                  <img src="{{ block.settings.logo_5 | image_url }}" alt="{{ block.settings.logo_5 }}">
+                                </li>
+                              {% endif %}
+                              {% if block.settings.logo_6 != blank %}
+                                <li class="logo">
+                                  <img src="{{ block.settings.logo_6 | image_url }}" alt="{{ block.settings.logo_6 }}">
+                                </li>
+                              {% endif %}
+                            </ul>
+                          </div>
                 {%- endcase -%}
               {%- else -%}
                 <div data-blocks-holder
