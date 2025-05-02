@@ -40,16 +40,6 @@
   "name": "t:sections.main-product.name",
   "settings": [
     {
-      "type": "checkbox",
-      "id": "sku_enable",
-      "label": "t:sections.main-product.settings.sku_enable.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "weight_enable",
-      "label": "Show weight"
-    },
-    {
       "type": "header",
       "content": "t:sections.main-product.settings.header_media"
     },
@@ -186,9 +176,21 @@
   "limit": 1
 },
 {
-  "type": "quantity_selector",
-  "name": "t:product_block.quantity_selector.name",
-  "limit": 1
+  "type": "Sku_size",
+  "name": "SKU & size",
+  "limit": 1,
+  "settings": [
+    {
+    "type": "checkbox",
+    "id": "sku_enable",
+    "label": "t:sections.main-product.settings.sku_enable.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "weight_enable",
+      "label": "Show weight"
+    },
+  ]
 },
 {
   "type": "complementary_products",
@@ -374,6 +376,12 @@
   "name": "t:product_block.buy_buttons.name",
   "limit": 1,
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "quantity_selector",
+      "label": "Show quantity selector",
+      "default": true
+    },
     {
       "type": "checkbox",
       "id": "show_dynamic_checkout",
@@ -600,6 +608,11 @@
   "name": "Logo",
   "settings": [
     {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
       "type": "image_picker",
       "id": "logo_1",
       "label": "Logo 1"
@@ -628,6 +641,43 @@
       "type": "image_picker",
       "id": "logo_6",
       "label": "Logo 6"
+    }
+  ]
+},
+{
+  "type": "product_services",
+  "name": "Product services",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Icon 1 and text"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_1",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "heading_1",
+      "label": "Text",
+      "default": "Free shipping on all orders"
+    },
+    {
+      "type": "header",
+      "content": "Icon 2 and text"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_2",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "heading_2",
+      "label": "Text",
+      "default": "Free shipping on all orders"
     }
   ]
 }
