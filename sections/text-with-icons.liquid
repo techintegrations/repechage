@@ -22,7 +22,7 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <div
-  class="text-with-icons"
+  class="text-with-icons {{ section.settings.custom_class }}"
   data-section-id="{{ section.id }}"
   data-section-type="text-with-icons"
 >
@@ -240,6 +240,11 @@
       "id": "divider",
       "label": "t:common.text_with_icons.settings.divider.label",
       "default": false
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
     }
   ],
   "blocks": [
