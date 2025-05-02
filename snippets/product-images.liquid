@@ -68,6 +68,50 @@
             </span>
           </button>
         {%- endif -%}
+
+        {% for block in section.blocks %}
+          {% if block.type == 'logo' %}
+            <div class="product-logo__wrap product-logo__wrap-desktop">
+              {% if block.settings.heading != blank %}
+                <span class="product-logo__heading">
+                  {{ block.settings.heading }}
+                </span>
+              {% endif %}
+                <ul class="product-logo product-block" {{ block.shopify_attributes }}>
+                    {%- if block.settings.logo_1 != blank -%}
+                      <li class="logo">
+                        <img src="{{ block.settings.logo_1 | image_url }}" alt="{{ block.settings.logo_1 }}">
+                      </li>
+                    {%- endif -%}
+                    {% if block.settings.logo_2 != blank %}
+                      <li class="logo">
+                        <img src="{{ block.settings.logo_2 | image_url }}" alt="{{ block.settings.logo_2 }}">
+                      </li>
+                    {% endif %}
+                    {% if block.settings.logo_3 != blank %}
+                      <li class="logo">
+                        <img src="{{ block.settings.logo_3 | image_url }}" alt="{{ block.settings.logo_3 }}">
+                      </li>
+                    {% endif %}
+                    {% if block.settings.logo_4 != blank %}
+                      <li class="logo">
+                        <img src="{{ block.settings.logo_4 | image_url }}" alt="{{ block.settings.logo_4 }}">
+                      </li>
+                    {% endif %}
+                    {% if block.settings.logo_5 != blank %}
+                      <li class="logo">
+                        <img src="{{ block.settings.logo_5 | image_url }}" alt="{{ block.settings.logo_5 }}">
+                      </li>
+                    {% endif %}
+                    {% if block.settings.logo_6 != blank %}
+                      <li class="logo">
+                        <img src="{{ block.settings.logo_6 | image_url }}" alt="{{ block.settings.logo_6 }}">
+                      </li>
+                    {% endif %}
+                  </ul>
+                </div>
+          {% endif %}
+        {% endfor %}
       </div>
 
       <div
