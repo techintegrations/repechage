@@ -18,15 +18,17 @@
             "product": "{{product}}"
           }
         },
+        "sku_size_G39hXm": {
+          "type": "Sku_size",
+          "settings": {
+            "sku_enable": true,
+            "weight_enable": true
+          }
+        },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
-        },
-        "richtext_EpXmjL": {
-          "type": "richtext",
-          "settings": {
-            "text": "{{ product.metafields.custom.product_short_description | metafield_tag }}"
-          }
         },
         "separator": {
           "type": "separator",
@@ -59,20 +61,44 @@
             "product": "{{product}}"
           }
         },
-        "quantity_selector_HQMt8q": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "quantity_selector": true,
             "show_dynamic_checkout": false,
             "surface_pickup_enable": true,
             "show_gift_card_recipient": false
           }
         },
+        "product_services_Yr4LjJ": {
+          "type": "product_services",
+          "settings": {
+            "icon_1": "shopify://shop_images/svg_xmlns_httpwww.w3.org2000svg_wid_1.png",
+            "heading_1": "Free shipping on orders $99 and up",
+            "icon_2": "shopify://shop_images/svg_xmlns_httpwww.w3.org2000svg_wid.png",
+            "heading_2": "30-days money back guarantee"
+          }
+        },
+        "richtext_EpXmjL": {
+          "type": "richtext",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_short_description | metafield_tag }}"
+          }
+        },
+        "logo_eYtVar": {
+          "type": "logo",
+          "settings": {
+            "heading": "Our 5 star formulas are featured in",
+            "logo_1": "shopify://shop_images/Marie_Claire_x48_bbd18f7b-b38c-44be-a75f-99e106c33f7c.png",
+            "logo_2": "shopify://shop_images/Vogue_x48_e31f951e-1d07-4b9e-93fa-ef5bf48635b4.png",
+            "logo_3": "shopify://shop_images/InStyle_x48_62c90989-417f-49d5-b3a6-f6a7818058dd.png",
+            "logo_4": "shopify://shop_images/La_Weekly_x48_3368040f-81e4-4aa8-8cf0-a2bbf95cd399.png",
+            "logo_5": "shopify://shop_images/Good_Housekeeping_x48_215e2d49-aa4f-4ed2-9b4a-4011973153cb.png"
+          }
+        },
         "videowise_video_commerce_videowise_page_widgets_qnyzeY": {
           "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "disabled": true,
           "settings": {
             "videowise_embed": "<div class=\"reeview-app-widget has-margin-bottom\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
           }
@@ -81,17 +107,6 @@
           "type": "share",
           "disabled": true,
           "settings": {}
-        },
-        "logo_H8FzFf": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_1": "shopify://shop_images/DaySpa-2020-Winner-Logo-324_3fa837f4-0e6d-41b3-85a2-07ce5062fd68.png",
-            "logo_2": "shopify://shop_images/RCA_2017_logo_5b16396e-93ef-4a0a-a7e3-c4e577e82a8e.png",
-            "logo_3": "shopify://shop_images/Launchpad-Award-2016-Reduced.png",
-            "logo_4": "shopify://shop_images/lne-spa-best-2015.png",
-            "logo_5": "shopify://shop_images/lne-spa-best-2016.png"
-          }
         },
         "product_list_QNBe7e": {
           "type": "product_list",
@@ -105,23 +120,22 @@
       },
       "block_order": [
         "yotpo_product_reviews_ugc_star_rating_pBPBWG",
+        "sku_size_G39hXm",
         "price",
-        "richtext_EpXmjL",
         "separator",
         "variant_picker",
         "inventory_status",
         "recharge_subscriptions_subscription_widget_v2_Uy3yRm",
         "recharge_subscriptions_subscription_widget_H67F3t",
-        "quantity_selector_HQMt8q",
         "buy_buttons",
+        "product_services_Yr4LjJ",
+        "richtext_EpXmjL",
+        "logo_eYtVar",
         "videowise_video_commerce_videowise_page_widgets_qnyzeY",
         "share",
-        "logo_H8FzFf",
         "product_list_QNBe7e"
       ],
       "settings": {
-        "sku_enable": true,
-        "weight_enable": true,
         "image_position": "left",
         "image_size": "medium",
         "product_zoom_enable": true,
@@ -131,6 +145,24 @@
         "mobile_layout": "partial",
         "enable_video_looping": true,
         "product_video_style": "muted"
+      }
+    },
+    "1745352762ac6ca112": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_wVxgH8": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget has-margin-bottom\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_wVxgH8"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "sub": {
@@ -285,6 +317,100 @@
         "divider": false
       }
     },
+    "text_with_icons_AC4mzP": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_8rnjHV": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/paraben-free_112x112_1.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Paraben free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_bXmb7d": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Sulfate free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_zTzN9b": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/cruelty-free_112x112_b48e588a-db2b-411f-bcf9-e4d2b9481b7c.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Cruelty free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_PcaqB9": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/phthalates-free_112x112_7932cc6e-a800-443b-87e5-38971a0a1317.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Phthalates free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_Nmk8qK": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/BHA-free_112x112_85f1f246-b773-4723-98af-5134f3fd93da.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "BPA free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8rnjHV",
+        "text_block_bXmb7d",
+        "text_block_zTzN9b",
+        "text_block_PcaqB9",
+        "text_block_Nmk8qK"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "block_bg_color": "",
+        "button_label": "View full ingredients",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "custom_class": "ingredients__wrap"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -406,11 +532,13 @@
   },
   "order": [
     "main",
+    "1745352762ac6ca112",
     "sub",
     "custom_sticky_add_to_cart_7PXy64",
     "custom_product_tabs_aAdT9e",
     "custom_frequently_boughts_AH6EGQ",
     "custom_product_ingredients_kWkECi",
+    "text_with_icons_AC4mzP",
     "product-recommendations",
     "171672294625f99393",
     "testimonials",
