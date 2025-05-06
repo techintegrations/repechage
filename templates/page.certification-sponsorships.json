@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_zAxatG": {
       "type": "rich-text",
@@ -22,7 +21,7 @@
           "type": "heading",
           "settings": {
             "title": "CERTIFICATIONS & SPONSORSHIPS",
-            "title_color": "#000"
+            "title_color": "#000000"
           }
         }
       },
@@ -46,10 +45,10 @@
         "text_block_pqWWMf": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bbb-2022_e06a4b13-213e-446e-9e92-d6ee481968ef.png",
+            "image": "shopify://shop_images/bbb-2022_e06a4b13-213e-446e-9e92-d6ee481968ef.png",
             "title": "BETTER BUSINESS BUREAU",
             "date": "",
-            "text": "<p>The Better Business Bureau, founded in 1912, is a private, nonprofit organization whose self-described mission is to focus on advancing marketplace trust.<\/p><p><a href=\"https:\/\/www.bbb.org\/\" title=\"https:\/\/www.bbb.org\/\">bbb.org<\/a><\/p>",
+            "text": "<p>The Better Business Bureau, founded in 1912, is a private, nonprofit organization whose self-described mission is to focus on advancing marketplace trust.</p><p><a href=\"https://www.bbb.org/\" title=\"https://www.bbb.org/\">bbb.org</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -57,10 +56,10 @@
         "text_block_baN6Qa": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bbb-nj-sm.png",
+            "image": "shopify://shop_images/bbb-nj-sm.png",
             "title": "BETTER BUSINESS BUREAU OF NJ",
             "date": "",
-            "text": "<p>Accredited with the Better Business Bureau of New Jersey for ongoing commitment to Excellence, Integrity, Respect, Teamwork, and Trust.<\/p><p><a href=\"https:\/\/www.bbb.org\/\" title=\"https:\/\/www.bbb.org\/\">bbb.org<\/a><\/p>",
+            "text": "<p>Accredited with the Better Business Bureau of New Jersey for ongoing commitment to Excellence, Integrity, Respect, Teamwork, and Trust.</p><p><a href=\"https://www.bbb.org/\" title=\"https://www.bbb.org/\">bbb.org</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -68,21 +67,21 @@
         "text_block_Vqbac9": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DEKRA-Seal-9001_2015_BW-75px_218714ab-819d-4020-a4cc-e54a9a1c0a48.png",
+            "image": "shopify://shop_images/DEKRA-Seal-9001_2015_BW-75px_218714ab-819d-4020-a4cc-e54a9a1c0a48.png",
             "title": "ISO 9001:2015",
             "date": "",
-            "text": "<p>Sarkli-Repechage,Ltd.’s Quality Management System is certified to the ISO 9001:2015 standard. Our ISO 9001:2015 certification was overseen by DEKRA Certification Inc., an ANAB-accredited management systems certification body.<\/p>",
+            "text": "<p>Sarkli-Repechage,Ltd.’s Quality Management System is certified to the ISO 9001:2015 standard. Our ISO 9001:2015 certification was overseen by DEKRA Certification Inc., an ANAB-accredited management systems certification body.</p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "https://cdn.shopify.com/s/files/1/0834/3901/files/Sarkli-Repechage_Ltd._ISO_9001_Certificate_Exp_September_02_2026.pdf?v=1692651151"
           }
         },
         "text_block_CXgUbn": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/i-spa-logo.png",
+            "image": "shopify://shop_images/i-spa-logo.png",
             "title": "ISPA",
             "date": "",
-            "text": "<p>ISPA advances the spa industry by providing invaluable educational and networking opportunities, promoting the value of the spa experience and speaking as the authoritative voice to foster professionalism and growth.<br\/><a href=\"https:\/\/experienceispa.com\/\" title=\"https:\/\/experienceispa.com\/\">experienceispa.com\/<\/a><\/p>",
+            "text": "<p>ISPA advances the spa industry by providing invaluable educational and networking opportunities, promoting the value of the spa experience and speaking as the authoritative voice to foster professionalism and growth.<br/><a href=\"https://experienceispa.com/\" title=\"https://experienceispa.com/\">experienceispa.com/</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -90,10 +89,10 @@
         "text_block_E8NmbD": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CIDESCO-USA-2022_36a06f72-96c8-4046-8377-6b552db41708.png",
+            "image": "shopify://shop_images/CIDESCO-USA-2022_36a06f72-96c8-4046-8377-6b552db41708.png",
             "title": "CIDESCO SECTION USA",
             "date": "",
-            "text": "<p>The CIDESCO has set international standards for Aesthetics and Beauty Therapy standards since 1957.<br\/><a href=\"https:\/\/cidesco.com\/\" title=\"https:\/\/cidesco.com\/\">cidesco.com<\/a><\/p>",
+            "text": "<p>The CIDESCO has set international standards for Aesthetics and Beauty Therapy standards since 1957.<br/><a href=\"https://cidesco.com/\" title=\"https://cidesco.com/\">cidesco.com</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -101,10 +100,10 @@
         "text_block_g9hKh8": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04-lang-lang-73_a1604870-862a-4645-8500-23fc01a870e9.png",
+            "image": "shopify://shop_images/04-lang-lang-73_a1604870-862a-4645-8500-23fc01a870e9.png",
             "title": "LANG LANG INTERNATIONAL MUSIC FOUNDATION",
             "date": "",
-            "text": "<p>The Lang Lang International Music Foundation's mission is to find a way to capture the potential in music to positively transform lives and provide inspiration to kids around the world in a meaningful and sustainable way.<br\/>l<a href=\"https:\/\/www.langlangfoundation.org\/\" title=\"https:\/\/www.langlangfoundation.org\/\">anglangfoundation.org<\/a><\/p>",
+            "text": "<p>The Lang Lang International Music Foundation's mission is to find a way to capture the potential in music to positively transform lives and provide inspiration to kids around the world in a meaningful and sustainable way.<br/>l<a href=\"https://www.langlangfoundation.org/\" title=\"https://www.langlangfoundation.org/\">anglangfoundation.org</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -112,10 +111,10 @@
         "text_block_9xjjeV": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2020-Chamber-Member-Logo.png",
+            "image": "shopify://shop_images/2020-Chamber-Member-Logo.png",
             "title": "GREATER NEW YORK CHAMBER OF COMMERCE",
             "date": "",
-            "text": "<p>The mission of the Chamber is to improve the business climate and quality of living in the New York Metropolitan Area for businesses, workers, residents and visitors.<\/p><p><a href=\"https:\/\/www.chamber.nyc\/\" title=\"https:\/\/www.chamber.nyc\/\">chamber.nyc<\/a><\/p>",
+            "text": "<p>The mission of the Chamber is to improve the business climate and quality of living in the New York Metropolitan Area for businesses, workers, residents and visitors.</p><p><a href=\"https://www.chamber.nyc/\" title=\"https://www.chamber.nyc/\">chamber.nyc</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -123,10 +122,10 @@
         "text_block_eznVUF": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-award-sm_9e4c20b6-9e4b-4537-8d2b-7004840d35e9.png",
+            "image": "shopify://shop_images/hero-award-sm_9e4c20b6-9e4b-4537-8d2b-7004840d35e9.png",
             "title": "SECAUCUS HERO AWARD",
             "date": "",
-            "text": "<p>In recognition for outstanding community service during the COVID-19 health crisis, Repêchage was presented with the Hero Award by Secaucus Mayor Michael Gonnelli in Secaucus NJ<\/p>",
+            "text": "<p>In recognition for outstanding community service during the COVID-19 health crisis, Repêchage was presented with the Hero Award by Secaucus Mayor Michael Gonnelli in Secaucus NJ</p>",
             "button_label": "",
             "button_link": ""
           }
