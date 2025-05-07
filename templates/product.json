@@ -110,6 +110,7 @@
         },
         "product_list_QNBe7e": {
           "type": "product_list",
+          "disabled": true,
           "settings": {
             "product_list_heading": "Complete the Regimen",
             "product_list": "{{ product.metafields.custom.complete_the_regime.value }}",
