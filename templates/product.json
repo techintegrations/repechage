@@ -394,6 +394,7 @@
         "text_block_PcaqB9",
         "text_block_Nmk8qK"
       ],
+      "disabled": true,
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "title": "",
