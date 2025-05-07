@@ -417,11 +417,12 @@
         "text_block_7bXGCX": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/paraben-free_112x112_1.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "title": "Paraben free",
+            "text": "",
             "link_text": "",
             "link": ""
           }
@@ -429,23 +430,51 @@
         "text_block_hCftLQ": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "title": "Sulfate free",
+            "text": "",
             "link_text": "",
             "link": ""
           }
         },
-        "text_block_LJ6zUD": {
+        "text_block_jbqhqE": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/cruelty-free_112x112_b48e588a-db2b-411f-bcf9-e4d2b9481b7c.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "title": "Cruelty free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_yJjKCX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Sulfate free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_bQKJYj": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Sulfate free",
+            "text": "",
             "link_text": "",
             "link": ""
           }
@@ -454,7 +483,9 @@
       "block_order": [
         "text_block_7bXGCX",
         "text_block_hCftLQ",
-        "text_block_LJ6zUD"
+        "text_block_jbqhqE",
+        "text_block_yJjKCX",
+        "text_block_bQKJYj"
       ],
       "name": "Product text columns with icons",
       "settings": {
