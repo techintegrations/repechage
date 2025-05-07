@@ -411,6 +411,69 @@
         "custom_class": "ingredients__wrap"
       }
     },
+    "custom_product_text_with_icons_JMDQfX": {
+      "type": "custom__product-text-with-icons",
+      "blocks": {
+        "text_block_7bXGCX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_hCftLQ": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_LJ6zUD": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7bXGCX",
+        "text_block_hCftLQ",
+        "text_block_LJ6zUD"
+      ],
+      "name": "Product text columns with icons",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "custom_class": "ingredients__wrap"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -527,69 +590,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "custom_product_text_with_icons_JMDQfX": {
-      "type": "custom__product-text-with-icons",
-      "blocks": {
-        "text_block_7bXGCX": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_hCftLQ": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_LJ6zUD": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_7bXGCX",
-        "text_block_hCftLQ",
-        "text_block_LJ6zUD"
-      ],
-      "name": "Product text columns with icons",
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000",
-        "block_bg_color": "",
-        "button_label": "",
-        "button_link": "",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_m": 0,
-        "padding_bottom_m": 0,
-        "divider": false,
-        "custom_class": ""
       }
     }
   },
