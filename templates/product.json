@@ -470,10 +470,10 @@
           "type": "text_block",
           "settings": {
             "select_icon": "custom_image",
-            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
+            "custom_image": "shopify://shop_images/BHA-free_112x112_85f1f246-b773-4723-98af-5134f3fd93da.png",
             "custom_icon": "",
             "icon": "chat",
-            "title": "Sulfate free",
+            "title": "BPA free",
             "text": "",
             "link_text": "",
             "link": ""
