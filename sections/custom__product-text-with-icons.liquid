@@ -3,6 +3,9 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
       background-color: {{section.settings.bg_color}};
+    {% if product.metafields.custom.hide_product_text_columns_with_icons_section %}
+        display: none;
+    {% endif %}
   }
 
   #shopify-section-{{section.id}} .text-with-icons__blocks .text-with-icons__block {
