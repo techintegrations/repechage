@@ -390,6 +390,7 @@
         },
         "class_4MmVPC": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MAY",
             "date": "5 - 6",
