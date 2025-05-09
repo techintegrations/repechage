@@ -291,11 +291,6 @@
         "type": "shopify://apps/videowise-video-commerce/blocks/script_embed/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
         "disabled": false,
         "settings": {}
-      },
-      "5460033060862993441": {
-        "type": "shopify://apps/essential-announcer/blocks/app-embed/93b5429f-c8d6-4c33-ae14-250fd84f361b",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
