@@ -14,6 +14,7 @@
       "blocks": {
         "image_Rx9W9J": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>give mom the ultimate glow</p>",
@@ -33,6 +34,7 @@
         },
         "image_aNfTce": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>The Perfect Mother's Day Gift </p>",
             "title": "<p>FREE VELVET COSMETIC BAG </p>",
@@ -738,7 +740,8 @@
         "padding_bottom": 30,
         "padding_top_m": 10,
         "padding_bottom_m": 50,
-        "divider": false
+        "divider": false,
+        "custom_class": ""
       }
     },
     "rich_text_AWf7CB": {
