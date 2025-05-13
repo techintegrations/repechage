@@ -403,6 +403,7 @@
         },
         "class_htbrbW": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MAY",
             "date": "12 - 14",
