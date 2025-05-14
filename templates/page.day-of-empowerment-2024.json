@@ -717,63 +717,12 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "text_block_4YjHq8": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/f3b3c5b49ffb4d70b9c26d9ee696078c.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_972814.mp4_snapshot_00.23.533.jpg",
-            "image_mask": "none",
-            "autoplay": true,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_PGYmQH": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/c8c59b1cd75d46d8a33cd1682da07a80.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97229.mp4_snapshot_00.19.260.jpg",
-            "image_mask": "none",
-            "autoplay": true,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_jXTwGz": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/70b8e118d5d543c9b830dbcbf577313f.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_970919.mp4_snapshot_00.02.081.jpg",
-            "image_mask": "none",
-            "autoplay": true,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "text_block_8wzAjU",
         "text_block_RGqXNN",
-        "text_block_XNBrcC",
-        "text_block_4YjHq8",
-        "text_block_PGYmQH",
-        "text_block_jXTwGz"
+        "text_block_XNBrcC"
       ],
       "settings": {
         "title": "",
@@ -800,54 +749,6 @@
     "custom_video_gallery_7TrBB9": {
       "type": "custom__video-gallery",
       "blocks": {
-        "text_block_yKCMJE": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/d81d6ba76e8942a29df4d0b75eb83dab.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97163.mp4_snapshot_00.10.299.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_ehPNDy": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/db75ea9103f74b7faba230eddaaf75d0.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97207.mp4_snapshot_00.37.416.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_jmRUmB": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/2761e446807d4e8785c465454e5f5f1d.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97141.mp4_snapshot_00.21.047.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "text_block_tJBwGK": {
           "type": "text_block",
           "settings": {
@@ -895,9 +796,6 @@
         }
       },
       "block_order": [
-        "text_block_yKCMJE",
-        "text_block_ehPNDy",
-        "text_block_jmRUmB",
         "text_block_tJBwGK",
         "text_block_C6LUCc",
         "text_block_fTxGWK"
