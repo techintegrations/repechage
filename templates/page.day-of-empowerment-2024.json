@@ -130,7 +130,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Level up your business with expert insights, powerful connections, and <br/>actionable strategies at our Empowerment Day on Monday, August 4th.</p><p>And to ready yourself for this extraordinary event, join us on August 3rd for an evening of exceptional dining and wine at Limani, NY at Rockefeller Plaza, NYC</p>",
+            "text": "<p>This immersive three-day event is a celebration of education, innovation, and professional growth for beauty and wellness leaders. Unlock game-changing insights, build meaningful connections, and leave with the tools and inspiration to elevate your craft and accelerate your business.</p>",
             "text_color": "#000000"
           }
         },
@@ -402,7 +402,8 @@
         "padding_bottom": 20,
         "padding_top_m": 40,
         "padding_bottom_m": 20,
-        "divider": false
+        "divider": false,
+        "custom_class": ""
       }
     },
     "rich_text_cXPNKn": {
@@ -606,7 +607,8 @@
         "padding_bottom": 70,
         "padding_top_m": 50,
         "padding_bottom_m": 50,
-        "divider": false
+        "divider": false,
+        "custom_class": ""
       }
     },
     "testimonials_jFqUh6": {
@@ -802,7 +804,8 @@
         "padding_bottom": 70,
         "padding_top_m": 50,
         "padding_bottom_m": 50,
-        "divider": false
+        "divider": false,
+        "custom_class": ""
       }
     },
     "rich_text_iX7ygA": {
@@ -1111,7 +1114,7 @@
     "featured_video_FUFxzG": {
       "type": "featured-video",
       "settings": {
-        "title": "Relive the Experience: Watch the Highlights from Last Year’s Day of Empowerment",
+        "title": "Watch the Highlights from Last Year’s Day of Empowerment Section",
         "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/9a61a056a07044a4b9c460a4e9dcad9c.mp4",
         "video_url": "",
         "show_full_width": false,
