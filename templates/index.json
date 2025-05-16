@@ -381,6 +381,82 @@
         "lazyload_images": true
       }
     },
+    "text_with_icons_dTrr3R": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_f9MtBD": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/us_map_bw.png",
+            "custom_icon": "",
+            "icon": "package",
+            "title": "",
+            "text": "<p><strong>Made In The USA</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_3DUCnQ": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "truck",
+            "title": "",
+            "text": "<p><strong>Free Shipping On Us Orders $99 And Up*</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_gLLAGX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "gift",
+            "title": "",
+            "text": "<p><strong>3 Complimentary<br/>Samples with Every Order</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_Cai9em": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "bills",
+            "title": "",
+            "text": "<p><strong>Hassle-Free Returns</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_f9MtBD",
+        "text_block_3DUCnQ",
+        "text_block_gLLAGX",
+        "text_block_Cai9em"
+      ],
+      "settings": {
+        "title": "Why Shop at Repechage.com",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "block_bg_color": "rgba(0,0,0,0)",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "#f9f9f9",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
+        "divider": false,
+        "custom_class": ""
+      }
+    },
     "promo_grid_q7xmp6": {
       "type": "promo-grid",
       "blocks": {
@@ -573,108 +649,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "text_with_icons_dTrr3R": {
-      "type": "text-with-icons",
-      "blocks": {
-        "text_block_f9MtBD": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "custom_image",
-            "custom_image": "shopify://shop_images/us_map_bw.png",
-            "custom_icon": "",
-            "icon": "package",
-            "title": "",
-            "text": "<p><strong>Made In The USA</strong></p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_3DUCnQ": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "truck",
-            "title": "",
-            "text": "<p><strong>Free Shipping On Us Orders $99 And Up*</strong></p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_gLLAGX": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "gift",
-            "title": "",
-            "text": "<p><strong>3 Complimentary<br/>Samples with Every Order</strong></p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_Cai9em": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "icon",
-            "custom_icon": "",
-            "icon": "bills",
-            "title": "",
-            "text": "<p><strong>Hassle-Free Returns</strong></p>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_f9MtBD",
-        "text_block_3DUCnQ",
-        "text_block_gLLAGX",
-        "text_block_Cai9em"
-      ],
-      "settings": {
-        "title": "Why Shop at Repechage.com",
-        "align_text": "center",
-        "desktop_columns_per_row": 5,
-        "icon_color": "#000000",
-        "block_bg_color": "rgba(0,0,0,0)",
-        "button_label": "",
-        "button_link": "",
-        "bg_color": "#f9f9f9",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_m": 40,
-        "padding_bottom_m": 40,
-        "divider": false,
-        "custom_class": ""
-      }
-    },
-    "rich_text_AWf7CB": {
-      "type": "rich-text",
-      "blocks": {
-        "text_KKaHCh": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "text_KKaHCh"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 50,
-        "padding_bottom": 10,
-        "padding_top_m": 50,
-        "padding_bottom_m": 10,
-        "bg_color": "",
-        "divider": false
       }
     },
     "testimonials_WQarYp": {
@@ -894,10 +868,10 @@
         "block_title_color": "",
         "block_text_color": "",
         "bg_color": "#f9f9f9",
-        "padding_top": 70,
-        "padding_bottom": 30,
-        "padding_top_m": 50,
-        "padding_bottom_m": 80,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "divider": false
       }
     },
@@ -935,10 +909,10 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "bg_color": "#b1e4e3",
         "divider": false
       }
@@ -963,7 +937,6 @@
     "1734568966273b9004",
     "1734571429dc37d243",
     "1734571480fd12e4b3",
-    "rich_text_AWf7CB",
     "testimonials_WQarYp",
     "newsletter_kJLxhd",
     "custom_text_with_logos_VBrHLU",
