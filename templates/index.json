@@ -671,14 +671,15 @@
     "text_with_icons_dTrr3R": {
       "type": "text-with-icons",
       "blocks": {
-        "text_block_gLLAGX": {
+        "text_block_f9MtBD": {
           "type": "text_block",
           "settings": {
-            "select_icon": "icon",
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/us_map_bw.jpg",
             "custom_icon": "",
-            "icon": "gift",
+            "icon": "package",
             "title": "",
-            "text": "<p>3 Complimentary<br/>Samples with Every Order</p>",
+            "text": "<p><strong>Made In The USA</strong></p>",
             "link_text": "",
             "link": ""
           }
@@ -690,7 +691,19 @@
             "custom_icon": "",
             "icon": "truck",
             "title": "",
-            "text": "<p><strong>FREE SHIPPING </strong>ON US ORDERS $99 AND UP*</p>",
+            "text": "<p><strong>Free Shipping On Us Orders $99 And Up*</strong></p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_gLLAGX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "icon",
+            "custom_icon": "",
+            "icon": "gift",
+            "title": "",
+            "text": "<p><strong>3 Complimentary<br/>Samples with Every Order</strong></p>",
             "link_text": "",
             "link": ""
           }
@@ -702,30 +715,17 @@
             "custom_icon": "",
             "icon": "bills",
             "title": "",
-            "text": "<p>Hassle-Free Returns</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "text_block_f9MtBD": {
-          "type": "text_block",
-          "settings": {
-            "select_icon": "custom_image",
-            "custom_image": "shopify://shop_images/Afterpay_Logo_Black-364x70-66065f7.png",
-            "custom_icon": "<svg class=\"icon !w-[7rem] !h-full max-h-[50px]\">\n                            <use xlink:href=\"#afterpay-icon\"></use>\n                        </svg>",
-            "icon": "package",
-            "title": "",
-            "text": "<p>Flexible Payment<br/>(via Afterpay)</p>",
+            "text": "<p><strong>Hassle-Free Returns</strong></p>",
             "link_text": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "text_block_gLLAGX",
+        "text_block_f9MtBD",
         "text_block_3DUCnQ",
-        "text_block_Cai9em",
-        "text_block_f9MtBD"
+        "text_block_gLLAGX",
+        "text_block_Cai9em"
       ],
       "settings": {
         "title": "The Repêchage® Experience",
