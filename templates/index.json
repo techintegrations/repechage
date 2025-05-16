@@ -537,7 +537,7 @@
         "blog_show_date": false,
         "blog_show_comments": false,
         "blog_show_author": false,
-        "view_all": false,
+        "view_all": true,
         "blog_image_size": "landscape",
         "divider": false,
         "bg_color": "",
