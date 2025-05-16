@@ -541,10 +541,10 @@
         "blog_image_size": "landscape",
         "divider": false,
         "bg_color": "",
-        "padding_top": 70,
+        "padding_top": 40,
         "padding_bottom": 40,
-        "padding_top_m": 50,
-        "padding_bottom_m": 30
+        "padding_top_m": 40,
+        "padding_bottom_m": 40
       }
     },
     "17302148459172f4c3": {
@@ -573,31 +573,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "rich_text_8EWUMC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YPnTqd": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "title_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YPnTqd"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 40,
-        "padding_bottom": 20,
-        "padding_top_m": 25,
-        "padding_bottom_m": 0,
-        "bg_color": "#f9f9f9",
-        "divider": false
       }
     },
     "text_with_icons_dTrr3R": {
@@ -668,10 +643,10 @@
         "button_label": "",
         "button_link": "",
         "bg_color": "#f9f9f9",
-        "padding_top": 10,
-        "padding_bottom": 30,
-        "padding_top_m": 10,
-        "padding_bottom_m": 50,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_m": 40,
+        "padding_bottom_m": 40,
         "divider": false,
         "custom_class": ""
       }
@@ -987,7 +962,6 @@
     "1734568966273b9004",
     "1734571429dc37d243",
     "1734571480fd12e4b3",
-    "rich_text_8EWUMC",
     "text_with_icons_dTrr3R",
     "rich_text_AWf7CB",
     "testimonials_WQarYp",
