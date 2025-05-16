@@ -820,48 +820,6 @@
         "bottom_padding": true
       }
     },
-    "rich_text_8AxcMx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9HAcUE": {
-          "type": "heading",
-          "settings": {
-            "title": "TAKE 10% OFF YOUR FIRST ORDER",
-            "title_color": "#000000"
-          }
-        },
-        "text_jEBTaw": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>",
-            "text_color": "#000000"
-          }
-        },
-        "html_UhnRPQ": {
-          "type": "html",
-          "settings": {
-            "html": "<div class=\"klaviyo-form-SrmLzX\"></div>",
-            "html_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9HAcUE",
-        "text_jEBTaw",
-        "html_UhnRPQ"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_top_m": 20,
-        "padding_bottom_m": 20,
-        "bg_color": "#b1e4e3",
-        "divider": false
-      }
-    },
     "custom_text_with_logos_VBrHLU": {
       "type": "custom__text-with-logos",
       "blocks": {
@@ -967,6 +925,48 @@
         "padding_bottom_m": 80,
         "divider": false
       }
+    },
+    "rich_text_8AxcMx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9HAcUE": {
+          "type": "heading",
+          "settings": {
+            "title": "TAKE 10% OFF YOUR FIRST ORDER",
+            "title_color": "#000000"
+          }
+        },
+        "text_jEBTaw": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Sign up to our mailing list and get access to exclusive offers.</p>",
+            "text_color": "#000000"
+          }
+        },
+        "html_UhnRPQ": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"klaviyo-form-SrmLzX\"></div>",
+            "html_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9HAcUE",
+        "text_jEBTaw",
+        "html_UhnRPQ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 20,
+        "bg_color": "#b1e4e3",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -992,7 +992,7 @@
     "rich_text_AWf7CB",
     "testimonials_WQarYp",
     "newsletter_kJLxhd",
-    "rich_text_8AxcMx",
-    "custom_text_with_logos_VBrHLU"
+    "custom_text_with_logos_VBrHLU",
+    "rich_text_8AxcMx"
   ]
 }
