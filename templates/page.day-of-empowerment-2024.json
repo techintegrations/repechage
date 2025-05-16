@@ -614,16 +614,6 @@
     "testimonials_jFqUh6": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_yV3KWE": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>\"The Day of Empowerment is a must-attend event! Connect with the esthetician community and enjoy Florida’s ocean vibes. Don’t miss it!” </p>",
-            "image": "shopify://shop_images/Screenshot_2024-10-18_at_1.27.34_PM.png",
-            "author": "Juan SIlva",
-            "author_info": "Orlando, FL"
-          }
-        },
         "testimonial_GE4jeX": {
           "type": "testimonial",
           "settings": {
@@ -653,7 +643,6 @@
         }
       },
       "block_order": [
-        "testimonial_yV3KWE",
         "testimonial_GE4jeX",
         "testimonial_wwiWkd",
         "testimonial_nJr8zd"
@@ -1008,7 +997,7 @@
         "image_3KAV6n"
       ],
       "settings": {
-        "title": "IMAGE GALLERY",
+        "title": "EVENT HIGHLIGHTS",
         "image_per_row": 4,
         "mb_image_per_row": 3
       }
