@@ -92,12 +92,19 @@
       {% assign product_counter = forloop.index %}
       {% capture product_block %}
         <div class="in-article-product">
-        {% render 'product-grid-item', product: aproduct %}
+          {% render 'product-grid-item', product: aproduct %}
         </div>
       {% endcapture %}
-      {% assign placeholder = '##product-' | append: product_counter %}
+    
+      {% if product_counter < 10 %}
+        {% assign placeholder = '##product-' | append: product_counter %}
+      {% else %}
+        {% assign placeholder = '[[product-' | append: product_counter | append: ']]' %}
+      {% endif %}
+    
       {% assign content = content | replace: placeholder, product_block %}
     {% endfor %}
+
 
           
     {{ content }}
