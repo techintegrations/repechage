@@ -30,30 +30,10 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_YiVpPc": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Bye Redness, Hello to Glow</p>",
-            "title_size": 70,
-            "subheading": "<p>The Perfect Collection to Refresh, Soothe and Hydrate Sensitive Skin</p>",
-            "link": "shopify://products/free-red-out-cleanser-w-purchase-of-red-out-essence-red-out-serum-red-out-moisturizer",
-            "link_text": "NOW ON SPECIAL",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/newredoutregular_website_ba.jpg",
-            "image_mobile": "shopify://shop_images/new_red_out_regular_website_banner_2025_m.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
-        "image_cNUEqQ",
-        "image_YiVpPc"
+        "image_cNUEqQ"
       ],
       "settings": {
         "show_container": false,
