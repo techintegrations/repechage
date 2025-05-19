@@ -12,46 +12,6 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
-        "image_Rx9W9J": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>give mom the ultimate glow</p>",
-            "title_size": 59,
-            "subheading": "<p>Vita Cura Sea Spa Body Collection<br/>Gift Set With a FREE Dry Body Brush</p>",
-            "link": "https://www.repechage.com/products/vita-cura-sea-spa-body-collection-gift-set",
-            "link_text": "Shop now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_2025.jpg",
-            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_VC_body_gift_set_m_2025.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_aNfTce": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>The Perfect Mother's Day Gift </p>",
-            "title": "<p>FREE VELVET COSMETIC BAG </p>",
-            "title_size": 80,
-            "subheading": "<p>With a Starter Collection Kit Purchase </p>",
-            "link": "shopify://collections/travel-kits",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/mothers_day_promo_web_banner_2025_2.gif",
-            "image_mobile": "shopify://shop_images/mothers_day_promo_web_banner_sm_68e66a30-d4b2-4352-a582-cbee8d5e65ea.gif",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "image_YiVpPc": {
           "type": "image",
           "settings": {
@@ -71,52 +31,29 @@
             "overlay_opacity": 0
           }
         },
-        "image_dcrq4U": {
+        "image_cNUEqQ": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "top_subheading": "<p>NEW FROM REPÊCHAGE</p>",
-            "title": "<p>SEASIDE SERENITY</p>",
-            "title_size": 80,
-            "subheading": "<p>Soy-based candle with notes of Lemon, Jasmine, Iris and Golden Amber</p>",
-            "link": "shopify://products/vita-cura-eau-fraiche-candle",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/candle-banner-new.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 18
-          }
-        },
-        "image_iCkPT9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>EXPERIENCE</p>",
-            "title": "<p>VITA CURA GOLD</p>",
-            "title_size": 71,
-            "subheading": "<p>A Breakthrough in Transformative Skincare</p>",
-            "link": "shopify://collections/vita-cura-gold-collection",
-            "link_text": "SHOP THE COLLECTION",
-            "link_2": "",
-            "link_text_2": "",
+            "top_subheading": "<p><strong>Dermatologist Tested</strong></p>",
+            "title": "<p>New Red-Out Moisturizer</p>",
+            "title_size": 68,
+            "subheading": "<p>Soothing hydration powered by Seaweed, Hyaluronic Acid, and EcoCert Silver</p>",
+            "link": "",
+            "link_text": "",
+            "link_2": "https://www.repechage.com/products/red-out-soothing-moisturizer",
+            "link_text_2": "SHOP NOW",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/dfsdf.jpg",
-            "image_mobile": "shopify://shop_images/Banner_001.jpg",
+            "image": "shopify://shop_images/red_out_moisturizer_website_banner_2025.jpg",
+            "image_mobile": "shopify://shop_images/red_out_moisturizer_website_banner_m_2025.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_Rx9W9J",
-        "image_aNfTce",
         "image_YiVpPc",
-        "image_dcrq4U",
-        "image_iCkPT9"
+        "image_cNUEqQ"
       ],
       "settings": {
         "show_container": false,
