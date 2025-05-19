@@ -87,21 +87,17 @@
     {% assign aproducts = article.metafields.custom.article_content_products.value %}
     {% assign content = article.content %}
     
-{% assign total_products = aproducts.size %}
-
-{% for i in (total_products..1) %}
-  {% assign index = i | minus: 1 %}
-  {% assign aproduct = aproducts[index] %}
-  
-  {% capture product_block %}
-    <div class="in-article-product">
-      {% render 'product-grid-item', product: aproduct %}
-    </div>
-  {% endcapture %}
-  
-  {% assign placeholder = '##product-' | append: i %}
-  {% assign content = content | replace: placeholder, product_block %}
-{% endfor %}
+    {% assign product_counter = 0 %}
+    {% for aproduct in aproducts %}
+      {% assign product_counter = forloop.index %}
+      {% capture product_block %}
+        <div class="in-article-product">
+        {% render 'product-grid-item', product: aproduct %}
+        </div>
+      {% endcapture %}
+      {% assign placeholder = '##product-' | append: product_counter %}
+      {% assign content = content | replace: placeholder, product_block %}
+    {% endfor %}
 
           
     {{ content }}
