@@ -229,14 +229,14 @@
                       <div class="hero__text-shadow">
                         {%- unless block.settings.top_subheading == blank -%}
                           <div class="hero__top-subtitle">
-                            <div class="animation-cropper"><div class="animation-contents">
+                            <div class="animation-cropper-wrap"><div class="animation-contents-wrap">
                               {{ block.settings.top_subheading }}
                             </div></div>
                           </div>
                         {%- endunless -%}
                         {%- unless block.settings.title == blank -%}
                           <div class="h1 hero__title">
-                            <div class="animation-cropper"><div class="animation-contents">
+                            <div class="animation-cropper-wrap"><div class="animation-contents-wrap">
                             {{ block.settings.title }}
                             </div></div>
                           </div>
@@ -244,7 +244,7 @@
                         {%- if block.settings.subheading or block.settings.link or block.settings.link_2 -%}
                           {%- unless block.settings.subheading == blank -%}
                             <div class="hero__subtitle">
-                              <div class="animation-cropper"><div class="animation-contents">
+                              <div class="animation-cropper-wrap"><div class="animation-contents-wrap">
                                 {{ block.settings.subheading }}
                               </div></div>
                             </div>
