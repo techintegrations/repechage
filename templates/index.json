@@ -12,6 +12,25 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_7jKRQP": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>Happy Memorial Weekend</p>",
+            "title": "<p>10% off Sitewide + Free Shipping</p>",
+            "title_size": 47,
+            "subheading": "<p>Celebrate with savings all weekend long</p>",
+            "link": "shopify://collections/our-retail-collection",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/memorial_sale_animation.gif",
+            "image_mobile": "shopify://shop_images/memorial_sale_animation_m.gif",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        },
         "image_cNUEqQ": {
           "type": "image",
           "settings": {
@@ -33,6 +52,7 @@
         }
       },
       "block_order": [
+        "image_7jKRQP",
         "image_cNUEqQ"
       ],
       "settings": {
