@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/memorial_sale_animation.gif",
+            "image": "shopify://shop_images/memorial_sale_animation_m.gif",
             "image_mobile": "shopify://shop_images/memorial_sale_animation_m.gif",
             "parallax_direction": "left",
             "overlay_opacity": 0
