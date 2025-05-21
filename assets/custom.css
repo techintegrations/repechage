@@ -1,5 +1,10 @@
 /* ///PDP New stylings//// */
 
+.slideshow__slide .hero__link .btn {
+    opacity: 1;
+    animation: none !important;
+}
+
 .sku-weight .product-single__weight {
     margin-bottom: 5px !important;
 }
