@@ -1021,7 +1021,7 @@
           "type": "question",
           "settings": {
             "title": "Where is the event being held?",
-            "text": "<p>The event will be hosted at 45 Rockefeller Plaza, New York, NY 10111 </p>"
+            "text": "<p>The event will be hosted at 550 Avenue at Port Imperial, Weehawken, NJ 07086<br/><br/></p>"
           }
         },
         "faq-4": {
