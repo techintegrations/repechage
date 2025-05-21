@@ -49,6 +49,7 @@
         },
         "announcement_PEPgMR": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>FREE SHIPPING ON ORDERS $99 & UP*</p>"
           }
@@ -59,6 +60,12 @@
           "settings": {
             "text": "<p>UNLOCK 2 FREE GIFTS BEFORE CHECKOUT – SEE IF YOU QUALIFY!</p>"
           }
+        },
+        "announcement_yKyjDL": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>FREE SHIPPING</p>"
+          }
         }
       },
       "block_order": [
@@ -68,7 +75,8 @@
         "announcement_7qeMKP",
         "announcement_7ciPbx",
         "announcement_PEPgMR",
-        "announcement_Wb4NMm"
+        "announcement_Wb4NMm",
+        "announcement_yKyjDL"
       ],
       "settings": {
         "show_slider": true
