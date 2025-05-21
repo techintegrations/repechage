@@ -26,7 +26,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/memorial_sale_animation.gif",
-            "image_mobile": "shopify://shop_images/red_out_moisturizer_website_banner_m_2025.jpg",
+            "image_mobile": "shopify://shop_images/memorial_sale_animation_m.gif",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
