@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "<p>Happy Memorial Weekend</p>",
-            "title": "<p>10% off Sitewide + Free Shipping</p>",
+            "title": "<p>10% off Sitewide<br/>+ Free Shipping</p>",
             "title_size": 47,
             "subheading": "<p>Celebrate with savings all weekend long</p>",
             "link": "shopify://collections/our-retail-collection",
