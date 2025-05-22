@@ -203,7 +203,7 @@
         "mobile_logo_width": 140,
         "toolbar_menu": "",
         "toolbar_social": false,
-        "show_login_link": true,
+        "show_login_link": false,
         "show_locale_selector": false,
         "show_currency_selector": false,
         "show_currency_flags": false
