@@ -249,8 +249,8 @@
         "collection_RrDh3U": {
           "type": "collection",
           "settings": {
-            "collection": "hydra-4-for-sensitive-skin",
-            "custom_collection_image": "shopify://shop_images/ScreenShot2021-03-25at11.47.55AM_2000x_a106afe0-9e98-4252-beac-b73026a12916.png",
+            "collection": "hydra-dew-pure",
+            "custom_collection_image": "shopify://shop_images/hydra_dew_pure_collection_website.jpg",
             "title": "",
             "focal_point": "center center"
           }
@@ -259,7 +259,7 @@
           "type": "collection",
           "settings": {
             "collection": "cell-renewal-for-all-skin-types",
-            "custom_collection_image": "shopify://shop_images/IMG_0856square.jpg",
+            "custom_collection_image": "shopify://shop_images/hydra_blue_collection_website.jpg",
             "title": "",
             "focal_point": "center center"
           }
@@ -267,8 +267,8 @@
         "collection_UQdtM8": {
           "type": "collection",
           "settings": {
-            "collection": "t-zone-for-combination-oily-skin",
-            "custom_collection_image": "shopify://shop_images/Astringent_Pads.png",
+            "collection": "vita-cura-cellusea-body-care-collection",
+            "custom_collection_image": "shopify://shop_images/vc_body_care_collection_website.jpg",
             "title": "",
             "focal_point": "center center"
           }
