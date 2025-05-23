@@ -614,6 +614,15 @@
     "testimonials_jFqUh6": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_ARRxVG": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>If you have never attended - the energy, the vibe, the people, there leaders in the SPA industry it is magnificent and the amount of information you gain is fantastic </p>",
+            "author": "Danelly Benavides",
+            "author_info": "Sumptuous Beauty Bar"
+          }
+        },
         "testimonial_F7BCdg": {
           "type": "testimonial",
           "settings": {
@@ -688,6 +697,7 @@
         }
       },
       "block_order": [
+        "testimonial_ARRxVG",
         "testimonial_F7BCdg",
         "testimonial_KFNPUx",
         "testimonial_gWEB64",
