@@ -614,6 +614,15 @@
     "testimonials_jFqUh6": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_KFNPUx": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p> Lydia and her beautiful team made me come to each and every day of empowerment. I wish that all people can see the second chance that ache gives because I changed my life and I changed my career entirely.</p>",
+            "author": "Nina Hikmet",
+            "author_info": "RepêchageSlovakia & Czech Republic"
+          }
+        },
         "testimonial_gWEB64": {
           "type": "testimonial",
           "settings": {
@@ -670,6 +679,7 @@
         }
       },
       "block_order": [
+        "testimonial_KFNPUx",
         "testimonial_gWEB64",
         "testimonial_crTQPb",
         "testimonial_yipC3k",
