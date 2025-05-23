@@ -187,6 +187,7 @@
         },
         "text_block_DUTaQn": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/free_concealer.jpg",
