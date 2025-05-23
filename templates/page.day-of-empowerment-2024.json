@@ -614,6 +614,33 @@
     "testimonials_jFqUh6": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_gWEB64": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>It's really important to step outside your daily routine, your daily workspace, and get to a neutral place with your colleagues and your peers. Have loads of fun and build relationships as well as learn. </p>",
+            "author": "Louise O'Loughilin",
+            "author_info": "Repêchage, Ireland"
+          }
+        },
+        "testimonial_crTQPb": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>We got to take away lots from today. How to change, getting tips from different people. It changed my business so much. I'd highly recommend everyone to go.</p>",
+            "author": "Louise Conneally-Dowd",
+            "author_info": "Louise'sBeauty Studio"
+          }
+        },
+        "testimonial_yipC3k": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>”If you want to be successful in your business, it's really important to make the time to come to these events and network with other business owners. It's lovely to meet different people and get ideas and tips.</p>",
+            "author": "Emma Duff",
+            "author_info": "Headfort Spa & Skin Health"
+          }
+        },
         "testimonial_GE4jeX": {
           "type": "testimonial",
           "settings": {
@@ -643,6 +670,9 @@
         }
       },
       "block_order": [
+        "testimonial_gWEB64",
+        "testimonial_crTQPb",
+        "testimonial_yipC3k",
         "testimonial_GE4jeX",
         "testimonial_wwiWkd",
         "testimonial_nJr8zd"
