@@ -32,6 +32,24 @@
             "overlay_opacity": 0
           }
         },
+        "image_RLRJcT": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>Dad Deserves to Glow, too</p>",
+            "title": "<p>Father’s Day Spa Upgrade</p>",
+            "title_size": 59,
+            "subheading": "<p>Triple Action Peptide Serum and Triple Action Peptide Sheet Mask for Energized Skin</p>",
+            "link": "https://www.repechage.com/products/triple-action-peptide-serum-and-triple-action-peptide-mask-bundle",
+            "link_text": "limited time offer",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/fathers_day_promo_web_banner_2025.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_cNUEqQ": {
           "type": "image",
           "settings": {
@@ -50,31 +68,12 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
-        },
-        "image_RLRJcT": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>Dad Deserves to Glow, too</p>",
-            "title": "<p>Father’s Day Spa Upgrade</p>",
-            "title_size": 80,
-            "subheading": "<p>Triple Action Peptide Serum and Triple Action Peptide Sheet Mask for Energized Skin</p>",
-            "link": "https://www.repechage.com/products/triple-action-peptide-serum-and-triple-action-peptide-mask-bundle",
-            "link_text": "limited time offer",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/fathers_day_promo_web_banner_2025.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "image_7jKRQP",
-        "image_cNUEqQ",
-        "image_RLRJcT"
+        "image_RLRJcT",
+        "image_cNUEqQ"
       ],
       "settings": {
         "show_container": false,
