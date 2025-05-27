@@ -14,6 +14,7 @@
       "blocks": {
         "image_7jKRQP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>Happy Memorial Weekend</p>",
             "title": "<p>10% off Sitewide<br/>+ Free Shipping</p>",
