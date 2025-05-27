@@ -46,6 +46,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/fathers_day_promo_web_banner_2025.jpg",
+            "image_mobile": "shopify://shop_images/fathers_day_promo_web_banner_2025_m.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
