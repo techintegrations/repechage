@@ -819,13 +819,25 @@
       "blocks": {
         "text_block_tJBwGK": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/f3b3c5b49ffb4d70b9c26d9ee696078c.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_972814.mp4_snapshot_00.23.533.jpg",
+            "image": "https://cdn.shopify.com/videos/c/o/v/38e5f4afc1584edba00fe815debea1fd.mp4",
             "image_mask": "none",
             "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_PpdWY8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/78756b2880514576a1c627438e63963c.mp4",
+            "image_mask": "none",
+            "autoplay": true,
             "preheading": "",
             "title": "",
             "text": "",
@@ -866,6 +878,7 @@
       },
       "block_order": [
         "text_block_tJBwGK",
+        "text_block_PpdWY8",
         "text_block_C6LUCc",
         "text_block_fTxGWK"
       ],
@@ -875,7 +888,7 @@
         "align_text": "center",
         "button_label": "",
         "button_link": "",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 4,
         "mobile_columns_per_row": 1,
         "block_align_text": "center",
         "button_style": "solid",
