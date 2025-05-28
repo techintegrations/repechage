@@ -817,6 +817,7 @@
       "blocks": {
         "text_block_N9CMVR": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/38e5f4afc1584edba00fe815debea1fd.mp4",
