@@ -724,7 +724,6 @@
       "blocks": {
         "text_block_8wzAjU": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/d81d6ba76e8942a29df4d0b75eb83dab.mp4",
@@ -740,7 +739,6 @@
         },
         "text_block_RGqXNN": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/db75ea9103f74b7faba230eddaaf75d0.mp4",
@@ -819,9 +817,11 @@
       "blocks": {
         "text_block_tJBwGK": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/38e5f4afc1584edba00fe815debea1fd.mp4",
+            "thumbnail_image": "shopify://shop_images/interview_DOE_2_no_titles.mp4_snapshot_00.01.957.jpg",
             "image_mask": "none",
             "autoplay": false,
             "preheading": "",
@@ -836,8 +836,9 @@
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/78756b2880514576a1c627438e63963c.mp4",
+            "thumbnail_image": "shopify://shop_images/interview_DOE_2_no_titles.mp4_snapshot_01.19.347.jpg",
             "image_mask": "none",
-            "autoplay": true,
+            "autoplay": false,
             "preheading": "",
             "title": "",
             "text": "",
