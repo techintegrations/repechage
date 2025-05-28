@@ -817,7 +817,6 @@
       "blocks": {
         "text_block_tJBwGK": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/38e5f4afc1584edba00fe815debea1fd.mp4",
@@ -902,7 +901,7 @@
         "padding_bottom": 30,
         "padding_top_m": 0,
         "padding_bottom_m": 30,
-        "divider": false
+        "divider": true
       }
     },
     "text_with_icons_Nh8z6U": {
