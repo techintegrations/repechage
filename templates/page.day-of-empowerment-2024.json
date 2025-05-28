@@ -812,10 +812,10 @@
         "divider": false
       }
     },
-    "custom_video_gallery_7TrBB9": {
+    "custom_video_gallery_fRAaMB": {
       "type": "custom__video-gallery",
       "blocks": {
-        "text_block_tJBwGK": {
+        "text_block_N9CMVR": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -830,7 +830,7 @@
             "button_link": ""
           }
         },
-        "text_block_PpdWY8": {
+        "text_block_bxNJW3": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -845,7 +845,7 @@
             "button_link": ""
           }
         },
-        "text_block_C6LUCc": {
+        "text_block_kGQGB3": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -860,7 +860,7 @@
             "button_link": ""
           }
         },
-        "text_block_fTxGWK": {
+        "text_block_P4e7yT": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -877,11 +877,36 @@
         }
       },
       "block_order": [
-        "text_block_tJBwGK",
-        "text_block_PpdWY8",
-        "text_block_C6LUCc",
-        "text_block_fTxGWK"
+        "text_block_N9CMVR",
+        "text_block_bxNJW3",
+        "text_block_kGQGB3",
+        "text_block_P4e7yT"
       ],
+      "name": "Custom Video gallery",
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "button_label": "",
+        "button_link": "",
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 1,
+        "block_align_text": "center",
+        "button_style": "solid",
+        "preheading_color": "#000",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "button_link_color": "#000",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
+    "custom_video_gallery_7TrBB9": {
+      "type": "custom__video-gallery",
       "settings": {
         "title": "",
         "text": "",
@@ -901,7 +926,7 @@
         "padding_bottom": 30,
         "padding_top_m": 0,
         "padding_bottom_m": 30,
-        "divider": true
+        "divider": false
       }
     },
     "text_with_icons_Nh8z6U": {
@@ -1348,6 +1373,7 @@
     "text_with_icons_fnV4cg",
     "testimonials_jFqUh6",
     "custom_video_gallery_KRxTTh",
+    "custom_video_gallery_fRAaMB",
     "custom_video_gallery_7TrBB9",
     "text_with_icons_Nh8z6U",
     "rich_text_iX7ygA",
