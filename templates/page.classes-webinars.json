@@ -416,6 +416,7 @@
         },
         "class_VNEkEA": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "MAY",
             "date": "19 - 20",
