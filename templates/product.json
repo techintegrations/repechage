@@ -190,7 +190,6 @@
       "blocks": {
         "product_description_xhA9cV": {
           "type": "product_description",
-          "disabled": true,
           "settings": {
             "tab_title": "Description"
           }
