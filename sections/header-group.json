@@ -63,6 +63,7 @@
         },
         "announcement_yKyjDL": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>MEMORIAL DAY SAVE 10% & FREE SHIPPING</p>"
           }
