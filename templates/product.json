@@ -190,6 +190,7 @@
       "blocks": {
         "product_description_xhA9cV": {
           "type": "product_description",
+          "disabled": true,
           "settings": {
             "tab_title": "Description"
           }
@@ -393,7 +394,6 @@
         "text_block_Nmk8qK"
       ],
       "disabled": true,
-      "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "title": "",
         "align_text": "center",
@@ -488,7 +488,6 @@
         "text_block_bQKJYj"
       ],
       "disabled": true,
-      "name": "Product text columns with icons",
       "settings": {
         "title": "",
         "align_text": "center",

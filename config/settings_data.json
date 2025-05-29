@@ -59,6 +59,7 @@
     "icon_weight": "5px",
     "icon_linecaps": "miter",
     "product_save_amount": true,
+    "product_save_type": "dollar",
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
