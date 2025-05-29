@@ -130,7 +130,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>This immersive three-day event is a celebration of education, innovation, and professional growth for beauty and wellness leaders. Unlock game-changing insights, build meaningful connections, and leave with the tools and inspiration to elevate your craft and accelerate your business.</p>",
+            "text": "<p><strong>Be the First to Experience Our Biggest Launch of the Year!</strong></p><p>This year’s Day of Empowerment marks a milestone moment: the<strong> exclusive debut of our newest anti-aging innovations</strong> — two cutting-edge professional-grade products and a transformative new treatment protocol that redefine lifting and firming results.<strong><br/><br/>Only at this event:</strong></p><ul><li>First look at the <strong>new products</strong></li><li>Live demo of the <strong>new treatment protocol</strong></li><li>Insider education direct from Lydia Sarfati</li><li>VIP access before global release</li></ul><p>This immersive three-day event is a celebration of education, innovation, and professional growth for beauty and wellness leaders. Unlock game-changing insights, build meaningful connections, and leave with the tools and inspiration to elevate your craft and accelerate your business.</p>",
             "text_color": "#000000"
           }
         },
@@ -817,26 +817,10 @@
       "blocks": {
         "text_block_N9CMVR": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "https://cdn.shopify.com/videos/c/o/v/38e5f4afc1584edba00fe815debea1fd.mp4",
             "thumbnail_image": "shopify://shop_images/interview_DOE_2_no_titles.mp4_snapshot_00.01.957.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_bxNJW3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/78756b2880514576a1c627438e63963c.mp4",
-            "thumbnail_image": "shopify://shop_images/interview_DOE_2_no_titles.mp4_snapshot_01.19.347.jpg",
             "image_mask": "none",
             "autoplay": false,
             "preheading": "",
@@ -875,29 +859,44 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_bxNJW3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "https://cdn.shopify.com/videos/c/o/v/78756b2880514576a1c627438e63963c.mp4",
+            "thumbnail_image": "shopify://shop_images/interview_DOE_2_no_titles.mp4_snapshot_01.19.347.jpg",
+            "image_mask": "none",
+            "autoplay": false,
+            "preheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_N9CMVR",
-        "text_block_bxNJW3",
         "text_block_kGQGB3",
-        "text_block_P4e7yT"
+        "text_block_P4e7yT",
+        "text_block_bxNJW3"
       ],
-      "name": "Custom Video gallery",
       "settings": {
         "title": "",
         "text": "",
         "align_text": "center",
         "button_label": "",
         "button_link": "",
-        "desktop_columns_per_row": 4,
+        "desktop_columns_per_row": 3,
         "mobile_columns_per_row": 1,
         "block_align_text": "center",
         "button_style": "solid",
-        "preheading_color": "#000",
-        "heading_color": "#000",
-        "text_color": "#000",
-        "button_link_color": "#000",
+        "preheading_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_link_color": "#000000",
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0,
