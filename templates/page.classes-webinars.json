@@ -429,6 +429,7 @@
         },
         "class_6WU98i": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JUNE",
             "date": "2",
