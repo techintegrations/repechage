@@ -202,6 +202,7 @@
         },
         "text_block_jkYDpy": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/Hydro-Complex_Oily_Starter_Size_Free_Offer_w__75_Purchase_Opt_2_82d862f8-3087-44b0-a107-695924554a3a.jpg",
