@@ -55,6 +55,20 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
+        "text_block_BfiYaq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/VC_Sea_Spa_Gift_Set_in_White_Organza_Bag_REV_v1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Vita Cura Body Bundle",
+            "text": "<p>Includes: Vita Cura® Sea Spa Body Cleanser, Vita Cura® Sea Spa Glow Body Exfoliator, Vita Cura® Sea Spa Body Moisturizer</p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/vita-cura-body-bundle"
+          }
+        },
         "text_block_KEjHMF": {
           "type": "text_block",
           "disabled": true,
@@ -275,6 +289,7 @@
         }
       },
       "block_order": [
+        "text_block_BfiYaq",
         "text_block_KEjHMF",
         "text_block_VJx4tM",
         "text_block_F6CqAx",
