@@ -129,6 +129,7 @@
         },
         "text_block_UzfrPm": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/VC_Sea_Spa_Body_Collection_gift_Set_jpg_jpg_0b7edcdc-42ae-470a-a0f6-1e7942824e96.jpg",
