@@ -442,6 +442,7 @@
         },
         "class_LmBjV3": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JUNE",
             "date": "9",
