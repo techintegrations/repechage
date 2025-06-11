@@ -12,11 +12,11 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "hero_video_t6xMYq": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "title": "Bring your\nbrand to life.",
         "title_size": 80,
