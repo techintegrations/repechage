@@ -1,0 +1,643 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "yotpo_product_reviews_ugc_star_rating_pBPBWG": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "sku_size_G39hXm": {
+          "type": "Sku_size",
+          "settings": {
+            "sku_enable": true,
+            "weight_enable": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "recharge_subscriptions_subscription_widget_v2_Uy3yRm": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {}
+        },
+        "recharge_subscriptions_subscription_widget_H67F3t": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "product_services_Yr4LjJ": {
+          "type": "product_services",
+          "settings": {
+            "icon_1": "shopify://shop_images/svg_xmlns_httpwww.w3.org2000svg_wid_1.png",
+            "heading_1": "Free shipping on orders $99 and up",
+            "icon_2": "shopify://shop_images/svg_xmlns_httpwww.w3.org2000svg_wid.png",
+            "heading_2": "30-days money back guarantee"
+          }
+        },
+        "richtext_EpXmjL": {
+          "type": "richtext",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_short_description | metafield_tag }}"
+          }
+        },
+        "logo_eYtVar": {
+          "type": "logo",
+          "settings": {
+            "heading": "Our Products Have Been Featured In",
+            "logo_1": "shopify://shop_images/allure-logo-2.png",
+            "logo_2": "shopify://shop_images/vogue-logo.png",
+            "logo_3": "shopify://shop_images/glamour-logo-2.png",
+            "logo_4": "shopify://shop_images/cosmo-logo-2.png",
+            "logo_5": "shopify://shop_images/1_5c9cbb33-8b28-4009-bc32-d906342d375d.jpg"
+          }
+        },
+        "videowise_video_commerce_videowise_page_widgets_qnyzeY": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "disabled": true,
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget has-margin-bottom\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_list_QNBe7e": {
+          "type": "product_list",
+          "settings": {
+            "product_list_heading": "Complete the Regimen",
+            "product_list": "{{ product.metafields.custom.complete_the_regime.value }}",
+            "per_row": "1",
+            "product_limit": 3
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_star_rating_pBPBWG",
+        "sku_size_G39hXm",
+        "price",
+        "separator",
+        "variant_picker",
+        "inventory_status",
+        "recharge_subscriptions_subscription_widget_v2_Uy3yRm",
+        "recharge_subscriptions_subscription_widget_H67F3t",
+        "buy_buttons",
+        "product_services_Yr4LjJ",
+        "richtext_EpXmjL",
+        "logo_eYtVar",
+        "videowise_video_commerce_videowise_page_widgets_qnyzeY",
+        "share",
+        "product_list_QNBe7e"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "1745352762ac6ca112": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_wVxgH8": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget has-margin-bottom\" id=\"reeview-app-widget_67643fe1edfe32002904f15e\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_wVxgH8"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "custom_sticky_add_to_cart_7PXy64": {
+      "type": "custom__sticky-add-to-cart",
+      "settings": {
+        "title_color": "#ffffff",
+        "price_color": "#ffffff",
+        "button_text_color": "#000000",
+        "button_bg_color": "#ffffff",
+        "bg_color": "#000000",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_m": 16,
+        "padding_bottom_m": 36
+      }
+    },
+    "custom_product_tabs_aAdT9e": {
+      "type": "custom__product-tabs",
+      "blocks": {
+        "product_description_xhA9cV": {
+          "type": "product_description",
+          "settings": {
+            "tab_title": "Description"
+          }
+        },
+        "tab_c7TMwR": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Directions",
+            "text": "<p>{{ product.metafields.custom.direction | metafield_tag }}</p>",
+            "image": "{{ product.metafields.custom.direction_media.value }}",
+            "video_html": "{{ product.metafields.custom.direction_video_youtube_vmeo_embed_link_only_.value }}",
+            "video_url": "{{ product.metafields.custom.direction_video_self_hosted_video_url_.value }}"
+          }
+        },
+        "tab_B8eLpx": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Full Ingredients",
+            "text": "{{ product.metafields.custom.full_ingredients | metafield_tag }}",
+            "video_html": "",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_description_xhA9cV",
+        "tab_c7TMwR",
+        "tab_B8eLpx"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false
+      }
+    },
+    "custom_frequently_boughts_AH6EGQ": {
+      "type": "custom__frequently-boughts",
+      "settings": {
+        "top_heading": "Frequently Bought Together",
+        "product_list": "{{ product.metafields.custom.frequently_bought_together.value }}",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "custom_product_ingredients_kWkECi": {
+      "type": "custom__product-ingredients",
+      "blocks": {
+        "text_block_X7GFUr": {
+          "type": "text_block",
+          "repeater": "{{ product.metafields.custom.product_ingredients.value }}",
+          "settings": {
+            "logo": "{{ block.repeater.ingredient_image.value }}",
+            "title": "{{ block.repeater.ingredient_title.value }}",
+            "short_name": "{{ block.repeater.ingredient_title.value }}",
+            "button_label": "Read More",
+            "text": "{{ block.repeater.ingredients_description | metafield_tag }}"
+          }
+        },
+        "text_block_6Qcqer": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/Laminaria-200.png",
+            "title": "Laminaria digitata - Exclusive Seaweed Extract",
+            "short_name": "",
+            "button_label": "Read More",
+            "text": "<p>Natural source of 12 vitamins including B12, C, E, K and Beta Carotene, 18 amino acids, and 42 trace elements.</p>"
+          }
+        },
+        "text_block_dQyHjF": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
+            "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
+            "short_name": "",
+            "button_label": "Read More",
+            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.</p>"
+          }
+        },
+        "text_block_x7z9Mq": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/pf-bcce8168--alicepasqualMRnV51Yqqkunsplash_5B1_5D.png",
+            "title": "Citrus Aurantium Dulcis (Orange) Extract & Vitamin C",
+            "short_name": "",
+            "button_label": "Read More",
+            "text": "<p>Known to be rich in trace elements and mineral salts combined with a very stable form of Vitamin C known to help restore the appearance of the skin.</p>"
+          }
+        },
+        "text_block_QkhXYy": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/pf-4fbcce81--macrophotographyofleaves1821755_5B1_5D.png",
+            "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice",
+            "short_name": "",
+            "button_label": "Read More",
+            "text": "<p>Known to be rich in minerals, amino acids, vitamins, and enzymes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_X7GFUr",
+        "text_block_6Qcqer",
+        "text_block_dQyHjF",
+        "text_block_x7z9Mq",
+        "text_block_QkhXYy"
+      ],
+      "settings": {
+        "title": "KEY INGREDIENTS",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "mobile_columns_per_row": 2,
+        "show_slider": true,
+        "block_title_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false
+      }
+    },
+    "text_with_icons_AC4mzP": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_8rnjHV": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/paraben-free_112x112_1.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Paraben free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_bXmb7d": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Sulfate free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_zTzN9b": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/cruelty-free_112x112_b48e588a-db2b-411f-bcf9-e4d2b9481b7c.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Cruelty free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_PcaqB9": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/phthalates-free_112x112_7932cc6e-a800-443b-87e5-38971a0a1317.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Phthalates free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_Nmk8qK": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/BHA-free_112x112_85f1f246-b773-4723-98af-5134f3fd93da.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "BPA free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8rnjHV",
+        "text_block_bXmb7d",
+        "text_block_zTzN9b",
+        "text_block_PcaqB9",
+        "text_block_Nmk8qK"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "custom_class": "ingredients__wrap"
+      }
+    },
+    "custom_product_text_with_icons_JMDQfX": {
+      "type": "custom__product-text-with-icons",
+      "blocks": {
+        "text_block_7bXGCX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/paraben-free_112x112_1.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Paraben free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_hCftLQ": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/sulfate-free_112x112_da4a6816-311b-4838-9074-586277067792.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Sulfate free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_jbqhqE": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/cruelty-free_112x112_b48e588a-db2b-411f-bcf9-e4d2b9481b7c.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Cruelty free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_yJjKCX": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/phthalates-free_112x112_7932cc6e-a800-443b-87e5-38971a0a1317.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "Phthalates free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "text_block_bQKJYj": {
+          "type": "text_block",
+          "settings": {
+            "select_icon": "custom_image",
+            "custom_image": "shopify://shop_images/BHA-free_112x112_85f1f246-b773-4723-98af-5134f3fd93da.png",
+            "custom_icon": "",
+            "icon": "chat",
+            "title": "BPA free",
+            "text": "",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7bXGCX",
+        "text_block_hCftLQ",
+        "text_block_jbqhqE",
+        "text_block_yJjKCX",
+        "text_block_bQKJYj"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "block_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "divider": false,
+        "custom_class": "ingredients__wrap"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 4,
+        "products_per_row": 4
+      }
+    },
+    "171672294625f99393": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_RLFgbC": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_RLFgbC"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_fHdXr6": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2",
+        "testimonial_fHdXr6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": false,
+        "color_background": "rgba(0,0,0,0)",
+        "color_text": "#1c1d1d",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_top_m": 60,
+        "padding_bottom_m": 60
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "1744386920a2fc104a": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_fDLPpp": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "204372",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_fDLPpp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1745352762ac6ca112",
+    "sub",
+    "custom_sticky_add_to_cart_7PXy64",
+    "custom_product_tabs_aAdT9e",
+    "custom_frequently_boughts_AH6EGQ",
+    "custom_product_ingredients_kWkECi",
+    "text_with_icons_AC4mzP",
+    "custom_product_text_with_icons_JMDQfX",
+    "product-recommendations",
+    "171672294625f99393",
+    "testimonials",
+    "recently-viewed",
+    "collection-return",
+    "1744386920a2fc104a"
+  ]
+}
