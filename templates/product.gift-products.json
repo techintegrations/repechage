@@ -27,6 +27,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "separator": {
@@ -44,6 +45,7 @@
         },
         "inventory_status": {
           "type": "inventory_status",
+          "disabled": true,
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
@@ -51,6 +53,7 @@
         },
         "recharge_subscriptions_subscription_widget_v2_Uy3yRm": {
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {}
         },
         "recharge_subscriptions_subscription_widget_H67F3t": {
@@ -62,6 +65,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "quantity_selector": true,
             "show_dynamic_checkout": false,
@@ -71,6 +75,7 @@
         },
         "product_services_Yr4LjJ": {
           "type": "product_services",
+          "disabled": true,
           "settings": {
             "icon_1": "shopify://shop_images/svg_xmlns_httpwww.w3.org2000svg_wid_1.png",
             "heading_1": "Free shipping on orders $99 and up",
