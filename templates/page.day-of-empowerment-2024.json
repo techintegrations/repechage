@@ -118,12 +118,11 @@
     },
     "featured_video_RfMbpC": {
       "type": "featured-video",
-      "name": "t:sections.featured-video.presets.video.name",
       "settings": {
         "title": "",
         "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/742ba686c0b9433a9572790e3361e79a.mp4",
         "video_url": "",
-        "show_full_width": true,
+        "show_full_width": false,
         "divider": false,
         "padding_top": 0,
         "padding_bottom": 0,
