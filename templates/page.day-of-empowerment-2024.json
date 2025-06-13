@@ -116,6 +116,26 @@
         "lazyload_images": true
       }
     },
+    "featured_video_RfMbpC": {
+      "type": "featured-video",
+      "name": "t:sections.featured-video.presets.video.name",
+      "settings": {
+        "title": "",
+        "self_hosted_video": "https://cdn.shopify.com/videos/c/o/v/742ba686c0b9433a9572790e3361e79a.mp4",
+        "video_url": "",
+        "show_full_width": true,
+        "divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "bg_color": ""
+      }
+    },
     "rich_text_BCxMKt": {
       "type": "rich-text",
       "blocks": {
@@ -719,99 +739,6 @@
         "padding_bottom_m": 60
       }
     },
-    "custom_video_gallery_KRxTTh": {
-      "type": "custom__video-gallery",
-      "blocks": {
-        "text_block_8wzAjU": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/d81d6ba76e8942a29df4d0b75eb83dab.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97163.mp4_snapshot_00.10.299.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_RGqXNN": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/db75ea9103f74b7faba230eddaaf75d0.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97207.mp4_snapshot_00.37.416.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_VWdhgH": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "",
-            "image_mask": "none",
-            "autoplay": true,
-            "preheading": "",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_XNBrcC": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "https://cdn.shopify.com/videos/c/o/v/2761e446807d4e8785c465454e5f5f1d.mp4",
-            "thumbnail_image": "shopify://shop_images/Img_97141.mp4_snapshot_00.21.047.jpg",
-            "image_mask": "none",
-            "autoplay": false,
-            "preheading": "",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_8wzAjU",
-        "text_block_RGqXNN",
-        "text_block_VWdhgH",
-        "text_block_XNBrcC"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "text": "",
-        "align_text": "center",
-        "button_label": "",
-        "button_link": "",
-        "desktop_columns_per_row": 3,
-        "mobile_columns_per_row": 1,
-        "block_align_text": "center",
-        "button_style": "solid",
-        "preheading_color": "#000000",
-        "heading_color": "#000000",
-        "text_color": "#000000",
-        "button_link_color": "#000000",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "padding_top_m": 0,
-        "padding_bottom_m": 30,
-        "divider": false
-      }
-    },
     "custom_video_gallery_fRAaMB": {
       "type": "custom__video-gallery",
       "blocks": {
@@ -1360,6 +1287,7 @@
     "hero_video_xBiQid",
     "slideshow_LczzJ3",
     "countdown_jzfUiY",
+    "featured_video_RfMbpC",
     "rich_text_BCxMKt",
     "main",
     "text_and_image_HAeHag",
@@ -1372,7 +1300,6 @@
     "text_columns_gfPkyU",
     "text_with_icons_fnV4cg",
     "testimonials_jFqUh6",
-    "custom_video_gallery_KRxTTh",
     "custom_video_gallery_fRAaMB",
     "custom_video_gallery_7TrBB9",
     "text_with_icons_Nh8z6U",
