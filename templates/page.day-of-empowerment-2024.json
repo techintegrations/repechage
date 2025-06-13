@@ -726,9 +726,7 @@
         "testimonial_wwiWkd",
         "testimonial_nJr8zd"
       ],
-      "custom_css": [
-        ".Testimonials-template--17765210259629__testimonials_jFqUh6 {max-width: 1500px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Here’s What Previous Attendees Say…",
         "align_text": "center",
