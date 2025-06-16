@@ -101,6 +101,7 @@
         },
         "text_block_F6CqAx": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/fathers_day_promo_retail_savings_2025_1.jpg",
