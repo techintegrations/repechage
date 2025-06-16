@@ -773,7 +773,6 @@
         },
         "text_block_TbeYCC": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
@@ -782,7 +781,6 @@
         },
         "text_block_Xrx9PY": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
@@ -791,7 +789,6 @@
         },
         "text_block_fAUMcf": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
@@ -800,7 +797,6 @@
         },
         "text_block_RqAgqT": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "logo": "shopify://shop_images/allure-logo-2.png",
             "title": "",
