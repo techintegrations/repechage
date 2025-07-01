@@ -21,6 +21,12 @@
             "text": "<p><strong>20% OFF & FREE SHIPPING! - COUPON CODE BFCM24</strong></p>"
           }
         },
+        "announcement_UXAMej": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>LET FREEDOM GLOW! ENJOY 20% OFF + FREE SHIPPING* </strong></p>"
+          }
+        },
         "announcement_i9xJmQ": {
           "type": "announcement",
           "disabled": true,
@@ -71,6 +77,7 @@
       },
       "block_order": [
         "announcement-0",
+        "announcement_UXAMej",
         "announcement_i9xJmQ",
         "announcement_iWtMbq",
         "announcement_7qeMKP",
