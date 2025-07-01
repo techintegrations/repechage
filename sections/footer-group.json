@@ -17,7 +17,7 @@
         "liquid_p4dfHF": {
           "type": "liquid",
           "settings": {
-            "code": "* Black Friday Cyber Monday Week Sales valid from November 25, 2024 10:00AM EST through December 3, 2024 10:00AM EST for online consumer retail purchases only. Free shipping UPS Standard Ground for the contiguous U.S. only. Not valid on sale items and may not be combined with any other coupons, codes, offers, discounts and/or promotions. May not be redeemed for cash or cash equivalent or used for prior purchases. Discount not valid towards expedited shipping and handling or tax. Other terms, restrictions and conditions may apply. Void where prohibited by law.",
+            "code": "* Fourth of July/Lydia's Birthday Sale valid from July 1st, 2025 10:00AM EST through July 9th, 2025 10:00 AM EST for online retail consumer purchases. Free Shipping FedEx Standard Ground for the contiguous U.S. only. Not valid on sale items and may not be combined with any other codes, offers, discounts, and/or promotions. May not be redeemed for cash or cash equivalent or used for prior purchases. Discount not valid towards expedited shipping and handling or tax. Other terms, restrictions and conditions may apply. Void where prohibited by law.",
             "width": "100%",
             "alignment": "center"
           }
@@ -26,7 +26,6 @@
       "block_order": [
         "liquid_p4dfHF"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true,
