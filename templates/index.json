@@ -12,6 +12,25 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_barBXT": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>LET FREEDOM GLOW</p>",
+            "title": "<p>ENJOY 20% OFF<br/>+ FREE SHIPPING* </p>",
+            "title_size": 69,
+            "subheading": "<p>Red, White & Blue Looks Good on You! </p>",
+            "link": "shopify://collections/our-retail-collection",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/4th_of_july_web_US-RETAIL_2.jpg",
+            "image_mobile": "shopify://shop_images/4th_of_july_web_US-RETAIL_m.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_7jKRQP": {
           "type": "image",
           "disabled": true,
@@ -73,6 +92,7 @@
         }
       },
       "block_order": [
+        "image_barBXT",
         "image_7jKRQP",
         "image_RLRJcT",
         "image_cNUEqQ"
