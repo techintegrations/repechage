@@ -116,6 +116,7 @@
         },
         "text_block_F738Ad": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/SP132_1.jpg",
@@ -130,6 +131,7 @@
         },
         "text_block_RXFzp4": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/20230327_Repechage-4_1.jpg",
