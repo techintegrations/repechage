@@ -83,6 +83,20 @@
             "button_link": "https://www.repechage.com/products/free-vita-cura-cellusea-smooth-multi-action-body-exfoliator-w-purchase-of-vita-cura-cellusea-lift-body-contour-cream"
           }
         },
+        "text_block_F6CqAx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/HIGHRES-HydraMedicStarterCollection_jpg.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "Hydra Medic® Starter Collection",
+            "text": "<p>On Sale - Save $ 17.50</p>",
+            "button_label": "BUY NOW",
+            "button_link": "https://www.repechage.com/products/hydra-medic-travel-starter-collection"
+          }
+        },
         "text_block_BfiYaq": {
           "type": "text_block",
           "settings": {
@@ -95,21 +109,6 @@
             "text": "<p>Includes: Vita Cura® Sea Spa Body Cleanser, Vita Cura® Sea Spa Glow Body Exfoliator, Vita Cura® Sea Spa Body Moisturizer</p>",
             "button_label": "BUY NOW",
             "button_link": "https://www.repechage.com/products/vita-cura-body-bundle"
-          }
-        },
-        "text_block_F6CqAx": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/fathers_day_promo_retail_savings_2025_1.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Father's Day Bundle",
-            "text": "<p>Triple Action Peptide Serum and Triple Action Peptide Mask ON SALE</p>",
-            "button_label": "BUY NOW",
-            "button_link": "https://www.repechage.com/products/triple-action-peptide-serum-and-triple-action-peptide-mask-bundle"
           }
         },
         "text_block_F738Ad": {
@@ -305,8 +304,8 @@
       "block_order": [
         "text_block_KEjHMF",
         "text_block_VJx4tM",
-        "text_block_BfiYaq",
         "text_block_F6CqAx",
+        "text_block_BfiYaq",
         "text_block_F738Ad",
         "text_block_RXFzp4",
         "text_block_UzfrPm",
