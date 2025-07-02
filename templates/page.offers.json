@@ -220,14 +220,15 @@
         },
         "text_block_9BAq9j": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/VC_renewal_serum_free_gift.jpg",
+            "image": "shopify://shop_images/Biolight-Cleanser-TRVL-Ad.jpg",
             "image_mask": "none",
             "image_width": 650,
             "preheading": "",
             "title": "Special Offer",
-            "text": "<p><strong>Free Vita Cura® Renewal Serum</strong> (travel size) with $49+ purchase </p>",
+            "text": "<p><strong>Free Biolight® Brightening Cleanser</strong> (travel size) with $49+ purchase </p>",
             "button_label": "",
             "button_link": ""
           }
