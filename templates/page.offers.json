@@ -55,6 +55,20 @@
     "text_columns_XLchWK": {
       "type": "text-columns",
       "blocks": {
+        "text_block_KEjHMF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/q3_deals_listing_vegas_2025-03_jpg_1_6a4518cf-562b-4722-a8da-7baf57222841.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "preheading": "",
+            "title": "FREE Hydra Medic Concealer",
+            "text": "<p>With Purchase of Hydra Medic Mattifying Moisturzer & Hydra Medic Sea Mud Mask</p>",
+            "button_label": "SHOP NOW",
+            "button_link": "https://www.repechage.com/products/free-hydra-medic-concealer-w-purchase-of-hydra-medic-mattifying-moisturzer-hydra-medic-sea-mud-mask"
+          }
+        },
         "text_block_BfiYaq": {
           "type": "text_block",
           "settings": {
@@ -67,21 +81,6 @@
             "text": "<p>Includes: Vita Cura® Sea Spa Body Cleanser, Vita Cura® Sea Spa Glow Body Exfoliator, Vita Cura® Sea Spa Body Moisturizer</p>",
             "button_label": "BUY NOW",
             "button_link": "https://www.repechage.com/products/vita-cura-body-bundle"
-          }
-        },
-        "text_block_KEjHMF": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/SeaBeautyCosmeticBag.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Free Velvet Cosmetic Bag",
-            "text": "<p>with Purchsae of Starter Collection</p>",
-            "button_label": "SHOP NOW",
-            "button_link": "https://www.repechage.com/collections/travel-kits"
           }
         },
         "text_block_VJx4tM": {
@@ -305,8 +304,8 @@
         }
       },
       "block_order": [
-        "text_block_BfiYaq",
         "text_block_KEjHMF",
+        "text_block_BfiYaq",
         "text_block_VJx4tM",
         "text_block_F6CqAx",
         "text_block_F738Ad",
