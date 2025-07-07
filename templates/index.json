@@ -12,8 +12,28 @@
     "slideshow_ybDcnc": {
       "type": "slideshow",
       "blocks": {
+        "image_6LVgpL": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "<p>LYDIA'S BIRTHDAY SALE IS HERE! </p>",
+            "title": "<p>ENJOY 20% OFF <br/>+ FREE SHIPPING* </p>",
+            "title_size": 75,
+            "subheading": "<p>Indulge in a little luxury - it's party time! </p>",
+            "link": "shopify://collections/our-retail-collection",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/lydias_birthday_web_RT-Long.jpg",
+            "image_mobile": "shopify://shop_images/lydias_birthday_web_RT_banner.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_barBXT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>LET FREEDOM GLOW</p>",
             "title": "<p>ENJOY 20% OFF<br/>+ FREE SHIPPING* </p>",
@@ -92,6 +112,7 @@
         }
       },
       "block_order": [
+        "image_6LVgpL",
         "image_barBXT",
         "image_7jKRQP",
         "image_RLRJcT",
