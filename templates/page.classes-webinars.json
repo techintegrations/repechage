@@ -504,6 +504,18 @@
             "button_link": "https://www.repechage.com/products/all-about-hyperpigmentation-addressed-withour-biolight-facial-july-14"
           }
         },
+        "class_9NEHHa": {
+          "type": "class",
+          "settings": {
+            "month": "JULY",
+            "date": "21",
+            "class": "WEBINAR",
+            "title": "Repechage Hydra Medic® Facial with Electrotherapy Webinar",
+            "text": "<p>12pm. – 1:30pm<br/><br/>This advanced facial is the ultimate solution for oily, congested, and problem skin. The<br/><strong>Repechage Hydra Medic® Facial</strong> combines seaweed-based formulas with sulphur, kogic acid, salicylic acid, and laminaria digitata to help deeply cleanse pores, reduce excess oil, and visibly improve the appearance of the skin.<br/>To further enhance results. Features targeted <strong>electrotherapy</strong> modalities such as <strong>high frequency<br/>or galvanic technology</strong> including iontophoresis and desincrustation to saponify comodeones —<br/>designed to reduce acne-causing bacteria, calm redness, reduce excess oil, and promote skin<br/>healing restoring the microbiome.<br/>The result is clearer, more balanced skin with reduced breakouts and a visibly healthier<br/>complexion. Ideal for teens, adults, and anyone struggling with chronic or occasional breakouts.<br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "class_nEQ7C7": {
           "type": "class",
           "settings": {
@@ -671,6 +683,7 @@
         "class_kQXDm7",
         "class_8HXp9F",
         "class_D3zE4e",
+        "class_9NEHHa",
         "class_nEQ7C7",
         "class_FeL79m",
         "class_zq6Fkt",
