@@ -660,18 +660,6 @@
             "button_link": ""
           }
         },
-        "class_zg8pxb": {
-          "type": "class",
-          "settings": {
-            "month": "DECEMBER",
-            "date": "1",
-            "class": "WEBINAR",
-            "title": "VIRTUAL MASTER CLASS: Glow Up & Grow: Mastering Glow Facials & Retailing Gift Certificates",
-            "text": "<p>12pm – 1:30pm EST<br/><br/>Join us for an illuminating webinar designed to elevate your spa business! Discover how to deliver a show-stopping <strong>\"Glow Facial\"</strong> that leaves skin radiant and clients raving. We’ll break down effective treatment protocols, key ingredients, and tips to customize the glow for every skin type and season.<br/><br/>Plus, take your retail strategy to the next level! Learn how to seamlessly promote and sell <strong>gift certificates</strong> year-round—not just for holidays. From creative bundling ideas to marketing strategies that convert, we’ll show you how to turn glowing skin into growing profits.<br/><br/>What You’ll Learn:<br/>* Step-by-step protocol for a signature Glow Facial<br/>* How to highlight seasonal and skin-type-specific glow enhancements<br/>* Techniques to upsell retail and gift certificates<br/>* Creative marketing tactics to boost gift card sales<br/>* Social media tips to promote your glow experience and drive bookings</p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
-          }
-        },
         "class_tzJd7k": {
           "type": "class",
           "settings": {
@@ -682,6 +670,18 @@
             "text": "<p><strong>Location: 300 Castle Road, Secaucus, NJ 07094</strong></p><p>The workshop includes Continental breakfast, lunch, Work Shop Kit, The Book of Skincare Science & Protocols, Hands-On Training, and practicing on a mannequin head followed by a practice on a fellow participant. </p><p>This  hands-on training is designed for estheticians ready to elevate their facial services with dermaplaning. Learn expert blade control to deliver safe, effective, and visible results. You will practice on a KIWI to ensure precision and confidence before progressing to live models.</p>",
             "button_label": "REGISTER",
             "button_link": "https://www.repechage.com/products/dermaplaning-november-10-2025"
+          }
+        },
+        "class_zg8pxb": {
+          "type": "class",
+          "settings": {
+            "month": "DECEMBER",
+            "date": "1",
+            "class": "WEBINAR",
+            "title": "VIRTUAL MASTER CLASS: Glow Up & Grow: Mastering Glow Facials & Retailing Gift Certificates",
+            "text": "<p>12pm – 1:30pm EST<br/><br/>Join us for an illuminating webinar designed to elevate your spa business! Discover how to deliver a show-stopping <strong>\"Glow Facial\"</strong> that leaves skin radiant and clients raving. We’ll break down effective treatment protocols, key ingredients, and tips to customize the glow for every skin type and season.<br/><br/>Plus, take your retail strategy to the next level! Learn how to seamlessly promote and sell <strong>gift certificates</strong> year-round—not just for holidays. From creative bundling ideas to marketing strategies that convert, we’ll show you how to turn glowing skin into growing profits.<br/><br/>What You’ll Learn:<br/>* Step-by-step protocol for a signature Glow Facial<br/>* How to highlight seasonal and skin-type-specific glow enhancements<br/>* Techniques to upsell retail and gift certificates<br/>* Creative marketing tactics to boost gift card sales<br/>* Social media tips to promote your glow experience and drive bookings</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
           }
         },
         "class_R4xbL4": {
@@ -744,8 +744,8 @@
         "class_BLq3PU",
         "class_Yb9Ddw",
         "class_ThiXAY",
-        "class_zg8pxb",
         "class_tzJd7k",
+        "class_zg8pxb",
         "class_R4xbL4"
       ],
       "settings": {
