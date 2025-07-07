@@ -16,13 +16,13 @@
       "blocks": {
         "announcement-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>20% OFF & FREE SHIPPING! - COUPON CODE BFCM24</strong></p>"
+            "text": "<p><strong>LET FREEDOM GLOW - 20% OFF & FREE SHIPPING! </strong></p>"
           }
         },
         "announcement_UXAMej": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>LYDIA'S BIRTHDAY SALE IS HERE!</strong> <strong> ENJOY 20% OFF + FREE SHIPPING* </strong></p>"
           }
