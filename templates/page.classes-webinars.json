@@ -588,18 +588,6 @@
             "button_link": ""
           }
         },
-        "class_R4w9Ka": {
-          "type": "class",
-          "settings": {
-            "month": "OCTOBER",
-            "date": "13",
-            "class": "WEBINAR",
-            "title": "VIRTUAL MASTER CLASS: Repêchage® Oncology Esthetics Webinar",
-            "text": "<p>12pm – 1:30pm EST<br/><br/>Discover the ultimate firming and contouring facial with the<strong> Repêchage® Triple Action Lift<br/>Peptide Cryo Facial</strong>. This advanced treatment combines the power of peptides, seaweed, and cold therapy to visibly lift, firm, and smooth the appearance of the skin. Learn step-by-step protocols, product knowledge, and retail opportunities to elevate your service menu and client<br/>results. Perfect for professionals seeking to offer immediate visible benefits with cutting-edge ingredients and technology.</p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
-          }
-        },
         "class_dUNqX4": {
           "type": "class",
           "settings": {
@@ -646,6 +634,18 @@
             "text": "<p><strong>9:30am – 5:00pm </strong></p><p>This workshop and Oncology Esthetics course will help to guide you on how to provide wellness treatments for your clients. The workshop includes Lunch, Facial products, Hands-On Training, and practicing on a mannequin head followed by hands-on practice on a fellow participant. </p><p>Key features of the product include: </p><ul><li>Hydrating: Uses moisture-rich  ingredients to replenish and balance skin. </li><li>Soothing: Helps calm irritated or inflamed skin, making it ideal for sensitive skin types. </li><li>Gentle, designed to be non-irritating, is often recommended for treatment designed for redness, dryness, or inflammation.</li></ul><p><strong>Registration & Kit fee: $520</strong></p><p><strong>300 Castle Road, Secaucus, NJ 07094</strong></p><p><em>The kit has everything the Oncology Esthetics student needs in a convenient cooler zip bag. It includes Oncology Esthetics® by Morag Currin, Repêchage® LED Radio Frequency and EMS Skin Tightening Machine, Kansa Wand massage tool, Hydra Dew Pure™ Starter Kit, Elixir Balm and Oil plus a box of </em><em><strong>5 Lamina Lift™ Hydrating Seaweed Masks.</strong></em></p>",
             "button_label": "REGISTER",
             "button_link": "shopify://products/oncologytraining"
+          }
+        },
+        "class_R4w9Ka": {
+          "type": "class",
+          "settings": {
+            "month": "OCTOBER",
+            "date": "13",
+            "class": "WEBINAR",
+            "title": "VIRTUAL MASTER CLASS: Repêchage® Oncology Esthetics Webinar",
+            "text": "<p>12pm – 1:30pm EST<br/><br/>Discover the ultimate firming and contouring facial with the<strong> Repêchage® Triple Action Lift<br/>Peptide Cryo Facial</strong>. This advanced treatment combines the power of peptides, seaweed, and cold therapy to visibly lift, firm, and smooth the appearance of the skin. Learn step-by-step protocols, product knowledge, and retail opportunities to elevate your service menu and client<br/>results. Perfect for professionals seeking to offer immediate visible benefits with cutting-edge ingredients and technology.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
           }
         },
         "class_ThiXAY": {
@@ -738,11 +738,11 @@
         "class_n7KmBt",
         "class_x9pFqN",
         "class_A7QbnG",
-        "class_R4w9Ka",
         "class_dUNqX4",
         "class_NReC3t",
         "class_BLq3PU",
         "class_Yb9Ddw",
+        "class_R4w9Ka",
         "class_ThiXAY",
         "class_tzJd7k",
         "class_zg8pxb",
