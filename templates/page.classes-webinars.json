@@ -600,18 +600,6 @@
             "button_link": ""
           }
         },
-        "class_ThiXAY": {
-          "type": "class",
-          "settings": {
-            "month": "NOVEMBER",
-            "date": "3",
-            "class": "WEBINAR",
-            "title": "VIRTUAL MASTER CLASS: \"Ageless Beauty: Anti-Aging Solutions with Repêchage® Vita Cura® 5 Phase FirmingFacial & Eye Treatment Enhancements\"",
-            "text": "<p>12pm – 1:30pm EST<br/><br/>Join us for an exclusive webinar that dives into the science and techniques behind the<br/><strong>Repêchage® Vita Cura® 5 Phase Firming Facial</strong>—our premier anti-aging facial treatment designed to help firm, smooth, and rejuvenate mature skin. Powered by sustainably harvested seaweed, advanced peptides, and enzymatic exfoliation, this luxurious treatment delivers visible<br/>results in just one session.<br/><br/>In this training, you’ll learn:<br/>* The complete 5-phase protocol of the <strong>Vita Cura® Firming Facial</strong><br/>* How to target fine lines and improve elasticity using the clinically proven <strong>Enzymatic Micropeel and Opti-Lift® Serum</strong><br/>* Eye treatment enhancements that address puffiness, dark circles, and crow’s feet<br/>* Techniques to incorporate facial massage and galvanic or LED for boosted results<br/>* Home care recommendations to extend treatment benefits<br/><br/>Perfect for estheticians seeking to offer advanced anti-aging treatments with professional-grade ingredients and immediate results, this session will equip you with the tools and knowledge to elevate your anti-aging service menu.</p>",
-            "button_label": "SAVE THE DATE",
-            "button_link": ""
-          }
-        },
         "class_dUNqX4": {
           "type": "class",
           "settings": {
@@ -658,6 +646,18 @@
             "text": "<p><strong>9:30am – 5:00pm </strong></p><p>This workshop and Oncology Esthetics course will help to guide you on how to provide wellness treatments for your clients. The workshop includes Lunch, Facial products, Hands-On Training, and practicing on a mannequin head followed by hands-on practice on a fellow participant. </p><p>Key features of the product include: </p><ul><li>Hydrating: Uses moisture-rich  ingredients to replenish and balance skin. </li><li>Soothing: Helps calm irritated or inflamed skin, making it ideal for sensitive skin types. </li><li>Gentle, designed to be non-irritating, is often recommended for treatment designed for redness, dryness, or inflammation.</li></ul><p><strong>Registration & Kit fee: $520</strong></p><p><strong>300 Castle Road, Secaucus, NJ 07094</strong></p><p><em>The kit has everything the Oncology Esthetics student needs in a convenient cooler zip bag. It includes Oncology Esthetics® by Morag Currin, Repêchage® LED Radio Frequency and EMS Skin Tightening Machine, Kansa Wand massage tool, Hydra Dew Pure™ Starter Kit, Elixir Balm and Oil plus a box of </em><em><strong>5 Lamina Lift™ Hydrating Seaweed Masks.</strong></em></p>",
             "button_label": "REGISTER",
             "button_link": "shopify://products/oncologytraining"
+          }
+        },
+        "class_ThiXAY": {
+          "type": "class",
+          "settings": {
+            "month": "NOVEMBER",
+            "date": "3",
+            "class": "WEBINAR",
+            "title": "VIRTUAL MASTER CLASS: \"Ageless Beauty: Anti-Aging Solutions with Repêchage® Vita Cura® 5 Phase FirmingFacial & Eye Treatment Enhancements\"",
+            "text": "<p>12pm – 1:30pm EST<br/><br/>Join us for an exclusive webinar that dives into the science and techniques behind the<br/><strong>Repêchage® Vita Cura® 5 Phase Firming Facial</strong>—our premier anti-aging facial treatment designed to help firm, smooth, and rejuvenate mature skin. Powered by sustainably harvested seaweed, advanced peptides, and enzymatic exfoliation, this luxurious treatment delivers visible<br/>results in just one session.<br/><br/>In this training, you’ll learn:<br/>* The complete 5-phase protocol of the <strong>Vita Cura® Firming Facial</strong><br/>* How to target fine lines and improve elasticity using the clinically proven <strong>Enzymatic Micropeel and Opti-Lift® Serum</strong><br/>* Eye treatment enhancements that address puffiness, dark circles, and crow’s feet<br/>* Techniques to incorporate facial massage and galvanic or LED for boosted results<br/>* Home care recommendations to extend treatment benefits<br/><br/>Perfect for estheticians seeking to offer advanced anti-aging treatments with professional-grade ingredients and immediate results, this session will equip you with the tools and knowledge to elevate your anti-aging service menu.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
           }
         },
         "class_tzJd7k": {
@@ -727,11 +727,11 @@
         "class_x9pFqN",
         "class_A7QbnG",
         "class_R4w9Ka",
-        "class_ThiXAY",
         "class_dUNqX4",
         "class_NReC3t",
         "class_BLq3PU",
         "class_Yb9Ddw",
+        "class_ThiXAY",
         "class_tzJd7k",
         "class_R4xbL4"
       ],
