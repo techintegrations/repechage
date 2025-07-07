@@ -588,6 +588,30 @@
             "button_link": ""
           }
         },
+        "class_R4w9Ka": {
+          "type": "class",
+          "settings": {
+            "month": "OCTOBER",
+            "date": "13",
+            "class": "WEBINAR",
+            "title": "VIRTUAL MASTER CLASS: Repêchage® Oncology Esthetics Webinar",
+            "text": "<p>12pm – 1:30pm EST<br/><br/>Discover the ultimate firming and contouring facial with the<strong> Repêchage® Triple Action Lift<br/>Peptide Cryo Facial</strong>. This advanced treatment combines the power of peptides, seaweed, and cold therapy to visibly lift, firm, and smooth the appearance of the skin. Learn step-by-step protocols, product knowledge, and retail opportunities to elevate your service menu and client<br/>results. Perfect for professionals seeking to offer immediate visible benefits with cutting-edge ingredients and technology.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
+        "class_ThiXAY": {
+          "type": "class",
+          "settings": {
+            "month": "NOVEMBER",
+            "date": "3",
+            "class": "WEBINAR",
+            "title": "VIRTUAL MASTER CLASS: \"Ageless Beauty: Anti-Aging Solutions with Repêchage® Vita Cura® 5 Phase FirmingFacial & Eye Treatment Enhancements\"",
+            "text": "<p>12pm – 1:30pm EST<br/><br/>Join us for an exclusive webinar that dives into the science and techniques behind the<br/>Repêchage® Vita Cura® 5 Phase Firming Facial—our premier anti-aging facial treatment designed to help firm, smooth, and rejuvenate mature skin. Powered by sustainably harvested seaweed, advanced peptides, and enzymatic exfoliation, this luxurious treatment delivers visible<br/>results in just one session.<br/>In this training, you’ll learn:<br/>* The complete 5-phase protocol of the Vita Cura® Firming Facial<br/>* How to target fine lines and improve elasticity using the clinically proven Enzymatic<br/>Micropeel and Opti-Lift® Serum<br/>* Eye treatment enhancements that address puffiness, dark circles, and crow’s feet<br/>* Techniques to incorporate facial massage and galvanic or LED for boosted results<br/>* Home care recommendations to extend treatment benefits<br/>Perfect for estheticians seeking to offer advanced anti-aging treatments with professional-grade<br/>ingredients and immediate results, this session will equip you with the tools and knowledge to<br/>elevate your anti-aging service menu.</p>",
+            "button_label": "SAVE THE DATE",
+            "button_link": ""
+          }
+        },
         "class_dUNqX4": {
           "type": "class",
           "settings": {
@@ -702,6 +726,8 @@
         "class_n7KmBt",
         "class_x9pFqN",
         "class_A7QbnG",
+        "class_R4w9Ka",
+        "class_ThiXAY",
         "class_dUNqX4",
         "class_NReC3t",
         "class_BLq3PU",
