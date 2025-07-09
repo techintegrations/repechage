@@ -34,6 +34,7 @@
         },
         "image_barBXT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p>LET FREEDOM GLOW</p>",
             "title": "<p>ENJOY 20% OFF<br/>+ FREE SHIPPING* </p>",
