@@ -16,6 +16,7 @@
       "blocks": {
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>LET FREEDOM GLOW - 20% OFF & FREE SHIPPING! </strong></p>"
           }
