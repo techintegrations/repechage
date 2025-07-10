@@ -32,26 +32,6 @@
             "overlay_opacity": 0
           }
         },
-        "image_barBXT": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "<p>LET FREEDOM GLOW</p>",
-            "title": "<p>ENJOY 20% OFF<br/>+ FREE SHIPPING* </p>",
-            "title_size": 69,
-            "subheading": "<p>Red, White & Blue Looks Good on You! </p>",
-            "link": "shopify://collections/our-retail-collection",
-            "link_text": "SHOP NOW",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/4th_of_july_web_US-RETAIL_2.jpg",
-            "image_mobile": "shopify://shop_images/4th_of_july_web_US-RETAIL_m.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "image_7jKRQP": {
           "type": "image",
           "disabled": true,
@@ -92,8 +72,28 @@
             "overlay_opacity": 0
           }
         },
+        "image_Dw3JHz": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>FLAWLESS SKIN ALL SUMMER LONG </p>",
+            "title_size": 57,
+            "subheading": "<p>\"Unlike many traditional systems that rely on harsh benzoyl peroxide, Hydra Medic® takes a more sophisticated approach\" <em>- Dr. Natalya Fazylova </em></p>",
+            "link": "shopify://products/free-hydra-medic-concealer-w-purchase-of-hydra-medic-mattifying-moisturzer-hydra-medic-sea-mud-mask",
+            "link_text": "NOW ON SPECIAL*",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/q3_promo_website_retail_banner_desktop_2025.jpg",
+            "image_mobile": "shopify://shop_images/q3_promo_website_retail_banner_mobile_2025.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
         "image_cNUEqQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "<p><strong>Dermatologist Tested</strong></p>",
             "title": "<p>New Red-Out Moisturizer</p>",
@@ -114,9 +114,9 @@
       },
       "block_order": [
         "image_6LVgpL",
-        "image_barBXT",
         "image_7jKRQP",
         "image_RLRJcT",
+        "image_Dw3JHz",
         "image_cNUEqQ"
       ],
       "settings": {
