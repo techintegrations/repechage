@@ -494,6 +494,7 @@
         },
         "class_D3zE4e": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JULY",
             "date": "14",
