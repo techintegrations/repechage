@@ -85,8 +85,8 @@
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/q3_promo_website_retail_banner_desktop_2025.jpg",
-            "image_mobile": "shopify://shop_images/q3_promo_website_retail_banner_mobile_2025.jpg",
+            "image": "shopify://shop_images/q3_promo_website_retail_banner_desktop_2025_1.jpg",
+            "image_mobile": "shopify://shop_images/q3_promo_website_retail_banner_mobile_2025_1.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
