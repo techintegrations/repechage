@@ -277,40 +277,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/06.jpg",
-            "image_mask": "rounded",
-            "image_width": 650,
-            "preheading": "KEYNOTE SPEAKER",
-            "title": "Girlie Joseph",
-            "text": "<p>Director of Spa and Wellness<br/>at the Waldorf Astoria Atlanta Buckhead, 5-star rated hotel in Atlanta, Georgia.</p>",
-            "button_label": "",
-            "button_link": "shopify://products/day-of-empowerment-2024"
-          }
-        },
-        "text_block_iy3xgG": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/7_4906342e-fa5f-4063-8997-937bc794b6cf.jpg",
+            "image": "shopify://shop_images/DOE_2025_NY_listing_speakers-03_jpg.jpg",
             "image_mask": "rounded",
             "image_width": 650,
             "preheading": "",
-            "title": "Edyta Satchell",
-            "text": "<p>Founder and CEO of Finelle, \u0003a renowned global speaker, coach, consultant and wellness practitioner. </p>",
-            "button_label": "",
-            "button_link": "shopify://products/day-of-empowerment-2024"
-          }
-        },
-        "text_block_xB3z3m": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/3_ca304d85-51e4-4a11-a23e-30892a12869b.jpg",
-            "image_mask": "rounded",
-            "image_width": 650,
-            "preheading": "",
-            "title": "Ronit Enos",
-            "text": "<p>Bestselling Author, Dynamic Speaker, Serial Entrepreneur, and Founder of Salon Cadence.</p>",
+            "title": "LYDIA SARFATI",
+            "text": "<p>Founder and CEO, Repêchage®,<br/>CIDESCO Section USA President<br/><br/><em><strong>\"Unlock the Future of Firming Exclusive Preview\"</strong></em></p>",
             "button_label": "",
             "button_link": "shopify://products/day-of-empowerment-2024"
           }
@@ -324,7 +296,35 @@
             "image_width": 650,
             "preheading": "",
             "title": "Shiri Sarfati",
-            "text": "<p>Executive VP and \u0003Chief of Marketing, \u0003Repêchage®.</p>",
+            "text": "<p>Partner & Chief Marketing Officer,<br/>Repêchage®<br/><br/><em><strong>\"How Do We Create Spas as Social Hubs?\"</strong></em></p>",
+            "button_label": "",
+            "button_link": "shopify://products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_iy3xgG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DOE_2025_NY_listing_speakers-05.webp",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "LOIS CHRISTIE",
+            "text": "<p>Owner, Christie & Co<br/>Salon & Spa</p><p><em><strong>\"Power, Professionalism, and the Personal Touch\"</strong></em></p>",
+            "button_label": "",
+            "button_link": "shopify://products/day-of-empowerment-2024"
+          }
+        },
+        "text_block_xB3z3m": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DOE_2025_NY_listing_speakers-06_jpg.jpg",
+            "image_mask": "rounded",
+            "image_width": 650,
+            "preheading": "",
+            "title": "ALISON COLBERT",
+            "text": "<p>Senior Regional Director, <br/>Spa for the Northeast, Arch Amenity Group<br/><br/><em><strong>\"Leading Through Empathy\"</strong></em></p>",
             "button_label": "",
             "button_link": "shopify://products/day-of-empowerment-2024"
           }
@@ -332,13 +332,12 @@
       },
       "block_order": [
         "text_block_c6zrqj",
+        "text_block_XMnedY",
         "text_block_iy3xgG",
-        "text_block_xB3z3m",
-        "text_block_XMnedY"
+        "text_block_xB3z3m"
       ],
-      "disabled": true,
       "settings": {
-        "title": "OUR LINEUP",
+        "title": "MEET THE SPEAKERS",
         "text": "",
         "align_text": "center",
         "button_label": "Act now and reserve your spot today—spaces are filling fast!",
