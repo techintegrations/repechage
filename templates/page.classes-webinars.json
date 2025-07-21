@@ -507,6 +507,7 @@
         },
         "class_9NEHHa": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "JULY",
             "date": "21",
