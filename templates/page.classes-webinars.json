@@ -545,6 +545,7 @@
         },
         "class_zq6Fkt": {
           "type": "class",
+          "disabled": true,
           "settings": {
             "month": "AUGUST",
             "date": "6",
