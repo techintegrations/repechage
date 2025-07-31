@@ -628,6 +628,18 @@
             "button_link": "https://www.estheticinstitute.ca/top"
           }
         },
+        "class_LfMNA8": {
+          "type": "class",
+          "settings": {
+            "month": "SEPTEMBER",
+            "date": "17",
+            "class": "EDUCATION",
+            "title": "LYDIA SARFATI IS COMING TO EDMONTON!",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "class_BLq3PU": {
           "type": "class",
           "settings": {
@@ -757,6 +769,7 @@
         "class_dUNqX4",
         "class_NReC3t",
         "class_qp6rpq",
+        "class_LfMNA8",
         "class_BLq3PU",
         "class_Yb9Ddw",
         "class_R4w9Ka",
