@@ -2,11 +2,35 @@
   .hero--{{ section.id }} .hero__title {
     font-size: {{ section.settings.title_size | times: 0.5 }}px;
   }
+
+  .hero--{{ section.id }} .banner-video.mb-video {
+    display: none;
+  }
+
+  .hero__media .banner-video {
+    height: 100%;
+  }
+
+  .hero__media .banner-video video {
+    object-fit: cover;
+  }
+
   @media only screen and (min-width: 769px) {
     .hero--{{ section.id }} .hero__title {
       font-size: {{ section.settings.title_size }}px;
     }
   }
+
+  {% if section.settings.mb_video != blank %}
+    @media only screen and (max-width: 768px) {
+      .hero--{{ section.id }} .banner-video.mb-video {
+        display: block;
+      }
+      .hero--{{ section.id }} .banner-video.dt-video {
+        display: none;
+      }
+    }
+  {% endif %}
 
   {%- assign button_alpha = section.settings.color_accent | color_extract: 'alpha' -%}
   {% unless button_alpha == 0.0 %}
@@ -15,7 +39,6 @@
       border-color: {{ section.settings.color_accent }} !important;
 
       {%- assign accent_brightness = section.settings.color_accent | color_extract: 'lightness' -%}
-
       {% if accent_brightness > 40 %}
         color: #000 !important;
       {% endif %}
@@ -50,124 +73,83 @@
   data-section-type="video-section"
   class="video-parent-section hero hero--{{ section.id }} hero--{{ section.settings.section_height }} hero--mobile--{{ section.settings.mobile_height }}"
   data-mobile-natural="false"
-  data-aos="hero__animation">
-
+>
   <div class="hero__media hero__media--{{ section.id }}">
     <div class="hero__media-container">
+      <div class="banner-video dt-video">
+        {{ section.settings.video | video_tag: autoplay: section.settings.show_autoplay, muted: section.settings.show_autoplay, loop: section.settings.show_loop, controls: section.settings.show_controls }}
+      </div>
 
-      {%- if section.settings.video_url contains 'youtube.com/watch' -%}
-        {%- assign video_id = section.settings.video_url | split: 'v=' -%}
-        {%- assign video_id = video_id[1] | split: '&' | first -%}
-        <div
-          id="YouTubeVideo-{{ section.id }}"
-          class="video-div"
-          data-type="youtube"
-          data-video-id="{{ video_id }}"></div>
-      {%- endif -%}
-
-      {%- if section.settings.video_url contains 'youtu.be/' -%}
-        {%- assign video_id = section.settings.video_url | split: '.be/' -%}
-        {%- assign video_id = video_id[1] | split: '&' | first -%}
-        <div
-          id="YouTubeVideo-{{ section.id }}"
-          class="video-div"
-          data-type="youtube"
-          data-video-id="{{ video_id }}"></div>
-      {%- endif -%}
-
-      {%- if section.settings.video_url contains 'player.vimeo.com/video/' -%}
-        <div class="video-div"
-          id="Vimeo-{{ section.id }}">
-          <iframe
-            src="{{ section.settings.video_url }}"
-            width="640"
-            height="750"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+      {% if section.settings.mb_video != blank %}
+        <div class="banner-video mb-video">
+          {{ section.settings.mb_video | video_tag: autoplay: section.settings.show_autoplay, muted: section.settings.show_autoplay, loop: section.settings.show_loop, controls: section.settings.show_controls }}
         </div>
-      {%- endif -%}
-
-      {%- if section.settings.video_url contains 'vimeo.com' -%}
-        {%- assign video_id = section.settings.video_url | split: '.com/' -%}
-        {%- assign video_id = video_id[1] | split: '/' | first -%}
-        <div
-          id="Vimeo-{{ section.id }}"
-          class="video-div"
-          data-type="vimeo"
-          data-video-id="{{ video_id }}"></div>
-      {%- endif -%}
-
-      
-
-
-      {%- if section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' -%}
-        <video
-          id="Mp4Video-{{ section.id }}"
-          class="video-div"
-          data-type="mp4"
-          src="{{ section.settings.video_url }}"
-          loop muted playsinline autoplay></video>
-      {%- endif -%}
-
+      {% endif %}
     </div>
   </div>
 
-  <div class="hero__text-wrap">
-    <div class="page-width">
-      <div class="hero__text-content {{ section.settings.text_align }}">
-        <div class="hero__text-shadow">
-          {%- if section.settings.video_url contains 'vimeo.com' -%}
-            <button type="button" id="VimeoTrigger-{{ section.id }}" class="vimeo-mobile-trigger medium-up--hide">
-              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="18.24 17.35 24.52 28.3"><path fill="#323232" d="M22.1 19.151v25.5l20.4-13.489-20.4-12.011z"/></svg>
-            </button>
-          {%- endif -%}
+  {% if section.settings.title != blank or section.settings.subheading != blank or section.settings.link != blank %}
+    <div class="hero__text-wrap">
+      <div class="page-width">
+        <div class="hero__text-content {{ section.settings.text_align }}">
+          <div class="hero__text-shadow">
 
-          {%- unless section.settings.title == blank -%}
-            <h2 class="h1 hero__title">
-              <div class="animation-cropper"><div class="animation-contents">
-              {{ section.settings.title | newline_to_br }}
-              </div></div>
-            </h2>
-          {%- endunless -%}
-          {%- if section.settings.subheading or section.settings.link -%}
-            {%- unless section.settings.subheading == blank -%}
-              <div class="hero__subtitle">
-                <div class="animation-cropper"><div class="animation-contents">
-                  {{ section.settings.subheading | escape }}
-                </div></div>
-              </div>
-            {%- endunless -%}
-            {%- if section.settings.link_text != blank -%}
-              {%- assign link_href = section.settings.link -%}
-              {%- if section.settings.link == blank -%}
-                {%- assign link_href = section.settings.video_url -%}
-              {%- endif -%}
-              <div class="hero__link">
-                <div class="animation-cropper">
-                  <div class="animation-contents">
-                    <a href="{{ link_href }}" class="btn{% if section.settings.color_accent and section.settings.color_accent == 'rgba(0,0,0,0)' %} btn--inverse{% endif %}"
-                      {%- if section.settings.video_url contains 'vimeo.com' -%}
-                        data-video-id="{{ video_id }}"
-                      {%- endif -%}
-                    >
-                      {%- if link_href contains 'youtube.com/watch' or link_href contains 'youtu.be/' -%}
-                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="18.24 17.35 24.52 28.3"><path fill="#323232" d="M22.1 19.151v25.5l20.4-13.489-20.4-12.011z"/></svg>
-                      {%- endif -%}
-                      {{ section.settings.link_text }}
-                    </a>
+            {% unless section.settings.title == blank %}
+              <h2 class="h1 hero__title">
+                <div class="animation-cropper-wrap">
+                  <div class="animation-contents-wrap">
+                    {{ section.settings.title | newline_to_br }}
                   </div>
                 </div>
-              </div>
-            {%- endif -%}
-          {%- endif -%}
+              </h2>
+            {% endunless %}
+
+            {% if section.settings.subheading or section.settings.link %}
+              {% unless section.settings.subheading == blank %}
+                <div class="hero__subtitle">
+                  <div class="animation-cropper-wrap">
+                    <div class="animation-contents-wrap">
+                      {{ section.settings.subheading | escape }}
+                    </div>
+                  </div>
+                </div>
+              {% endunless %}
+
+              {% if section.settings.link_text != blank %}
+                {% assign link_href = section.settings.link %}
+                <div class="hero__link">
+                  <div class="animation-cropper-wrap">
+                    <div class="animation-contents-wrap">
+                      <a
+                        href="{{ link_href }}"
+                        class="btn{% if section.settings.color_accent and section.settings.color_accent == 'rgba(0,0,0,0)' %} btn--inverse{% endif %}"
+                      >
+                        {% if link_href contains 'youtube.com/watch' or link_href contains 'youtu.be/' %}
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            role="presentation"
+                            class="icon icon-play"
+                            viewBox="18.24 17.35 24.52 28.3"
+                          >
+                            <path fill="#323232" d="M22.1 19.151v25.5l20.4-13.489-20.4-12.011z" />
+                          </svg>
+                        {% endif %}
+                        {{ section.settings.link_text }}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+            {% endif %}
+
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
+  {% endif %}
 </div>
+
 
 {% schema %}
 {
@@ -246,11 +228,32 @@
       ]
     },
     {
-      "type": "text",
-      "id": "video_url",
-      "label": "t:sections.hero-video.settings.video_url.label",
-      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-      "info": "t:sections.hero-video.settings.video_url.info"
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "video",
+      "id": "mb_video",
+      "label": "Mobile video"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_autoplay",
+      "label": "Show autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_loop",
+      "label": "Show loop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_controls",
+      "label": "Show controls",
+      "default": false
     },
     {
       "type": "range",
