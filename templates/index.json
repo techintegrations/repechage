@@ -931,6 +931,7 @@
       "block_order": [
         "videowise_video_commerce_videowise_page_widgets_6LPD4c"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
