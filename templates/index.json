@@ -917,6 +917,24 @@
         "bg_color": "#b1e4e3",
         "divider": false
       }
+    },
+    "175407342643be2ed1": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_6LPD4c": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"videowise-background videowise-background-component_688cd6f6a63c0d0057374768\" data-widget-id=\"688cd6f6a63c0d0057374768\">\n<video fetchpriority=\"high\" preload=\"none\" width=\"100%\" height=\"auto\" playsinline=\"true\" muted=\"true\" autoplay=\"true\" loop=\"\" src=\"https://cdn2.videowise.com/converted/videos/1754058655737_wid_Njg4Y2NmOWZhNjNjMGQwMDU3MzM1MTg1_h264c.mp4\" poster=\"https://cdn2.videowise.com/converted/videos/1754058662088_469fbebc-04ff-4545-8ff3-f0d2d33131ee.webp\">\n  <source src=\"https://cdn2.videowise.com/converted/videos/1754058655737_wid_Njg4Y2NmOWZhNjNjMGQwMDU3MzM1MTg1_h264c.mp4\" type=\"video/mp4\" media=\"(min-width: 768px)\"> \n  <source src=\"https://cdn2.videowise.com/converted/videos/1754059726351_wid_Njg4Y2QzY2VhNjNjMGQwMDU3MzY1MjA3_h264c.mp4\" type=\"video/mp4\" media=\"(max-width: 767px)\">  \n</source></source></video>\n</div>\n<script src=\"https://assets.videowise.com/videowise-bg.js.gz\">\n</script>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_6LPD4c"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -941,6 +959,7 @@
     "testimonials_WQarYp",
     "newsletter_kJLxhd",
     "custom_text_with_logos_VBrHLU",
-    "rich_text_8AxcMx"
+    "rich_text_8AxcMx",
+    "175407342643be2ed1"
   ]
 }
