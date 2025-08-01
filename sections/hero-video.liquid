@@ -1,7 +1,13 @@
 {%- style -%}
   .hero--{{ section.id }} .hero__title {
     font-size: {{ section.settings.title_size | times: 0.5 }}px;
+    color: {{ section.settings.title_color }}
   }
+
+   .hero--{{ section.id }} .hero__subtitle {
+      color: {{ section.settings.subheading_color }}
+    }
+
 
   .hero--{{ section.id }} .banner-video.mb-video {
     display: none;
@@ -188,6 +194,22 @@
       "id": "link",
       "label": "t:sections.hero-video.settings.link.label",
       "info": "t:sections.hero-video.settings.link.info"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#000"
     },
     {
       "type": "color",
