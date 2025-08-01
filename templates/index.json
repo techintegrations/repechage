@@ -938,6 +938,7 @@
     },
     "hero_video_F3qHVU": {
       "type": "hero-video",
+      "disabled": true,
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
         "title": "FLAWLESS SKIN ALL SUMMER LONG",
