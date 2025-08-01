@@ -935,6 +935,27 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "hero_video_F3qHVU": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "FLAWLESS SKIN ALL SUMMER LONG",
+        "title_size": 59,
+        "subheading": "\"Unlike many traditional systems that rely on harsh benzoyl peroxide, Hydra Medic® takes a more sophisticated approach\" - Dr. Natalya Fazylova",
+        "link_text": "NOW ON SPECIAL*",
+        "link": "shopify://products/free-hydra-medic-concealer-w-purchase-of-hydra-medic-mattifying-moisturzer-hydra-medic-sea-mud-mask",
+        "color_accent": "#000000",
+        "text_align": "vertical-center horizontal-left",
+        "video": "shopify://files/videos/0801(4).mp4",
+        "mb_video": "shopify://files/videos/0801(7).mp4",
+        "show_autoplay": true,
+        "show_loop": true,
+        "show_controls": false,
+        "overlay_opacity": 22,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
     }
   },
   "order": [
@@ -960,6 +981,7 @@
     "newsletter_kJLxhd",
     "custom_text_with_logos_VBrHLU",
     "rich_text_8AxcMx",
-    "175407342643be2ed1"
+    "175407342643be2ed1",
+    "hero_video_F3qHVU"
   ]
 }
